@@ -1,8 +1,8 @@
 {
-  "topic_en": "Basic 2: Stoichiometry, Limiting Reactant, Combustion, Recycle, Bypass & Purge, Ideal Gases",
-  "topic_ar": "الأساسيات 2: الستوكيومترية والمتفاعل المحدِّد والاحتراق والتدوير والـ Bypass والـ Purge والغازات المثالية",
-  "subject_folder": "Principles_of_Chemical_Engineering",
-  "description_ar": "أسئلة نظرية ومسائل حسابية مباشرة في الستوكيومترية والمتفاعل المحدِّد والاحتراق والتدوير والـ Bypass والـ Purge والغازات المثالية",
+  "topic_en": "الجزء الثالث",
+  "topic_ar": "أساسيات الهندسة الكيمياوية",
+  "subject_folder": "General_Questions",
+  "description_ar": "أسئلة شاملة",
   "questions": [
     {
       "id": 1,
