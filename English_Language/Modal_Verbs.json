@@ -1,0 +1,248 @@
+{
+  "topic_en": "Modal Verbs",
+  "topic_ar": "الأفعال الناقصة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول can, could, must, should, may, might, had better",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "You ___ wear a seat belt. It's the law.",
+      "question_ar": "____ أن ترتدي حزام الأمان. إنه القانون.",
+      "options": [
+        "mustn't",
+        "must",
+        "needn't",
+        "may"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: must. A legal rule is a strong obligation: must + V1.",
+      "explanation_ar": "الإجابة الصحيحة: must. قاعدة قانونية = واجب قوي ← must.",
+      "memorization_note": "$\\text{must}$: واجب قوي ، $\\text{have to}$: واجب خارجي (ماضيه $\\text{had to}$) ، $\\text{mustn't}$: ممنوع ، $\\text{don't have to / needn't}$: غير لازم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "You ___ park here. It's forbidden.",
+      "question_ar": "____ أن تركن هنا. هذا ممنوع.",
+      "options": [
+        "don't have to",
+        "needn't",
+        "may",
+        "mustn't"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: mustn't. 'forbidden' = prohibition, expressed by mustn't.",
+      "explanation_ar": "الإجابة الصحيحة: mustn't. forbidden = منع ← mustn't.",
+      "memorization_note": "$\\text{must}$: واجب قوي ، $\\text{have to}$: واجب خارجي (ماضيه $\\text{had to}$) ، $\\text{mustn't}$: ممنوع ، $\\text{don't have to / needn't}$: غير لازم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "You ___ come if you don't want to.",
+      "question_ar": "____ أن تأتي إذا لم ترغب.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: don't have to. No obligation is expressed by don't have to.",
+      "explanation_ar": "الإجابة الصحيحة: don't have to. انعدام اللزوم ← don't have to.",
+      "memorization_note": "$\\text{must}$: واجب قوي ، $\\text{have to}$: واجب خارجي (ماضيه $\\text{had to}$) ، $\\text{mustn't}$: ممنوع ، $\\text{don't have to / needn't}$: غير لازم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "She ___ swim when she was five.",
+      "question_ar": "هي ____ السباحة عندما كانت في الخامسة.",
+      "options": [
+        "can",
+        "may",
+        "could",
+        "must"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: could. General ability in the past: could.",
+      "explanation_ar": "الإجابة الصحيحة: could. قدرة عامة في الماضي ← could.",
+      "memorization_note": "القدرة: $\\text{can}$ (الآن) ، $\\text{could}$ (ماضٍ عام) ، $\\text{was/were able to}$ (حدث ماضٍ محدد ناجح).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "The firefighter ___ rescue the boy from the fire.",
+      "question_ar": "رجل الإطفاء ____ إنقاذ الصبي من الحريق.",
+      "options": [
+        "can",
+        "was able to",
+        "may",
+        "must"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: was able to. One specific successful past achievement: was able to.",
+      "explanation_ar": "الإجابة الصحيحة: was able to. إنجاز ماضٍ محدد وناجح ← was able to.",
+      "memorization_note": "القدرة: $\\text{can}$ (الآن) ، $\\text{could}$ (ماضٍ عام) ، $\\text{was/were able to}$ (حدث ماضٍ محدد ناجح).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "He ___ be at home; the lights are on.",
+      "question_ar": "هو ____ في البيت؛ الأضواء مضاءة.",
+      "options": [
+        "can't",
+        "needn't",
+        "shouldn't",
+        "must"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: must. Logical deduction from evidence (lights on): must be.",
+      "explanation_ar": "الإجابة الصحيحة: must. استنتاج منطقي من دليل ← must be.",
+      "memorization_note": "الاستنتاج: $\\text{must be}$ (متأكد 95%) ، $\\text{can't be}$ (متأكد أنه غير صحيح) ، $\\text{may/might be}$ (احتمال).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "That ___ be true! It's impossible.",
+      "question_ar": "هذا ____ أن يكون صحيحاً! إنه مستحيل.",
+      "options": [
+        "can't",
+        "must",
+        "may",
+        "should"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: can't. Sure it is not true: can't be.",
+      "explanation_ar": "الإجابة الصحيحة: can't. متأكد أنه غير صحيح ← can't be.",
+      "memorization_note": "الاستنتاج: $\\text{must be}$ (متأكد 95%) ، $\\text{can't be}$ (متأكد أنه غير صحيح) ، $\\text{may/might be}$ (احتمال).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "It ___ rain later; take an umbrella.",
+      "question_ar": "____ تمطر لاحقاً؛ خذ مظلة.",
+      "options": [
+        "can't",
+        "have to",
+        "might",
+        "shall"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: might. Weak possibility: might.",
+      "explanation_ar": "الإجابة الصحيحة: might. احتمال ضعيف ← might.",
+      "memorization_note": "الاستنتاج: $\\text{must be}$ (متأكد 95%) ، $\\text{can't be}$ (متأكد أنه غير صحيح) ، $\\text{may/might be}$ (احتمال).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "You ___ see a doctor about that cough.",
+      "question_ar": "____ أن تراجع طبيباً بخصوص هذا السعال.",
+      "options": [
+        "mustn't",
+        "should",
+        "can",
+        "would"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: should. Giving advice: should + V1.",
+      "explanation_ar": "الإجابة الصحيحة: should. نصيحة ← should + V1.",
+      "memorization_note": "بعد الفعل الناقص: $V_1$ مباشرة (بدون $\\text{to}$ وبدون $s$): $\\text{modal} + V_1$ ، و $\\text{had better} + V_1$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "___ I borrow your pen?",
+      "question_ar": "____ أستعير قلمك؟",
+      "options": [
+        "Must",
+        "Ought",
+        "Need",
+        "May"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: May. Polite permission: May I...?",
+      "explanation_ar": "الإجابة الصحيحة: May. استئذان مهذب ← May I.",
+      "memorization_note": "الاستئذان: $\\text{May/Can/Could I}\\ldots?$ ، الطلب المهذب: $\\text{Could you}\\ldots?$ ، العرض: $\\text{Shall I}\\ldots?$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "We ___ hurry or we'll miss the train.",
+      "question_ar": "____ أن نسرع وإلا فاتنا القطار.",
+      "options": [
+        "had better",
+        "better to",
+        "would better",
+        "had to better"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had better. Warning/advice: had better + V1 (no 'to').",
+      "explanation_ar": "الإجابة الصحيحة: had better. تحذير ← had better + V1 بدون to.",
+      "memorization_note": "بعد الفعل الناقص: $V_1$ مباشرة (بدون $\\text{to}$ وبدون $s$): $\\text{modal} + V_1$ ، و $\\text{had better} + V_1$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "You ___ told me earlier!",
+      "question_ar": "كان ____ أن تخبرني من قبل!",
+      "options": [
+        "should",
+        "must",
+        "should have",
+        "would"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: should have. Criticism about the past: should have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: should have. لوم على الماضي ← should have + V3.",
+      "memorization_note": "الماضي: $\\text{must have} + V_3$ ، $\\text{can't have} + V_3$ ، $\\text{may/might have} + V_3$ ، $\\text{should have} + V_3$ (لوم على الماضي).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "I ___ to work late yesterday.",
+      "question_ar": "____ أن أعمل لوقت متأخر أمس.",
+      "options": [
+        "must",
+        "had",
+        "have",
+        "should"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: had. 'must' has no past form; its past is had to.",
+      "explanation_ar": "الإجابة الصحيحة: had. must ليس لها ماضٍ، ماضيها had to.",
+      "memorization_note": "$\\text{must}$: واجب قوي ، $\\text{have to}$: واجب خارجي (ماضيه $\\text{had to}$) ، $\\text{mustn't}$: ممنوع ، $\\text{don't have to / needn't}$: غير لازم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "She ___ gone home; her coat is still here.",
+      "question_ar": "هي ____ ذهبت إلى البيت؛ معطفها ما زال هنا.",
+      "options": [
+        "mustn't have",
+        "needn't have",
+        "shouldn't",
+        "can't have"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: can't have. Negative deduction about the past: can't have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: can't have. استنتاج منفي عن الماضي ← can't have + V3.",
+      "memorization_note": "الماضي: $\\text{must have} + V_3$ ، $\\text{can't have} + V_3$ ، $\\text{may/might have} + V_3$ ، $\\text{should have} + V_3$ (لوم على الماضي).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "I can't say for sure, but I think she ___ back to Mexico.",
+      "question_ar": "لا أستطيع الجزم لكني أظن أنها ____ إلى المكسيك.",
+      "options": [
+        "may have gone",
+        "might gone",
+        "should to go",
+        "may gone"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: may have gone. Possibility about the past: may have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: may have gone. احتمال في الماضي ← may have + V3.",
+      "memorization_note": "الماضي: $\\text{must have} + V_3$ ، $\\text{can't have} + V_3$ ، $\\text{may/might have} + V_3$ ، $\\text{should have} + V_3$ (لوم على الماضي).",
+      "requires_scratchpad": false
+    }
+  ]
+}

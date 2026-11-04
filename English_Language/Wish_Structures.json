@@ -1,0 +1,248 @@
+{
+  "topic_en": "Wish & If only Structures",
+  "topic_ar": "تراكيب التمني",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول wish و if only و it's time",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "I wish I ___ taller.",
+      "question_ar": "أتمنى لو ____ أطول.",
+      "options": [
+        "am",
+        "were",
+        "will be",
+        "had been"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: were. Present unreal wish: past simple (were).",
+      "explanation_ar": "الإجابة الصحيحة: were. تمنٍّ في الحاضر ← ماضٍ بسيط (were).",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "I wish I ___ the answer yesterday.",
+      "question_ar": "أتمنى لو ____ الجواب أمس.",
+      "options": [
+        "knew",
+        "know",
+        "would know",
+        "had known"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: had known. Regret about the past: wish + had + V3.",
+      "explanation_ar": "الإجابة الصحيحة: had known. ندم على الماضي ← had + V3.",
+      "memorization_note": "الندم على الماضي: $\\text{wish} + \\text{had} + V_3$ ، وللقدرة: $\\text{wish} + \\text{could have} + V_3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "She wishes she ___ a car.",
+      "question_ar": "هي تتمنى لو ____ سيارة.",
+      "options": [
+        "had",
+        "has",
+        "will have",
+        "would have"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had. Present unreal wish: past simple.",
+      "explanation_ar": "الإجابة الصحيحة: had. تمنٍّ في الحاضر ← ماضٍ بسيط.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "I wish it ___ raining.",
+      "question_ar": "أتمنى لو ____ المطر عن الهطول.",
+      "options": [
+        "stopped",
+        "stops",
+        "would stop",
+        "had stopped"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: would stop. Annoyance/wish for change: wish + would.",
+      "explanation_ar": "الإجابة الصحيحة: would stop. انزعاج ورغبة بالتغيير ← would.",
+      "memorization_note": "الانزعاج أو طلب التغيير: $\\text{wish} + S + \\text{would} + V_1$ ، ولا نستعمل $\\text{will}$ بعد $\\text{wish}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "If only I ___ harder last year.",
+      "question_ar": "ليتني ____ بجد أكبر العام الماضي.",
+      "options": [
+        "studied",
+        "had studied",
+        "study",
+        "would study"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: had studied. If only + past perfect expresses past regret.",
+      "explanation_ar": "الإجابة الصحيحة: had studied. If only + had + V3 ندم على الماضي.",
+      "memorization_note": "الندم على الماضي: $\\text{wish} + \\text{had} + V_3$ ، وللقدرة: $\\text{wish} + \\text{could have} + V_3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "He wishes he ___ swim.",
+      "question_ar": "هو يتمنى لو ____ السباحة.",
+      "options": [
+        "can",
+        "will",
+        "may",
+        "could"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: could. Wish about ability now: could.",
+      "explanation_ar": "الإجابة الصحيحة: could. تمنٍّ عن القدرة ← could.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "We wish we ___ to the party last night.",
+      "question_ar": "نتمنى لو ____ إلى الحفلة ليلة أمس.",
+      "options": [
+        "had gone",
+        "went",
+        "go",
+        "would go"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had gone. Past regret: had + V3.",
+      "explanation_ar": "الإجابة الصحيحة: had gone. ندم على الماضي ← had + V3.",
+      "memorization_note": "الندم على الماضي: $\\text{wish} + \\text{had} + V_3$ ، وللقدرة: $\\text{wish} + \\text{could have} + V_3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "If only you ___ here now.",
+      "question_ar": "ليتك ____ هنا الآن.",
+      "options": [
+        "are",
+        "would be",
+        "were",
+        "had been"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: were. Present unreal: If only + were.",
+      "explanation_ar": "الإجابة الصحيحة: were. تمنٍّ في الحاضر ← were.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "She wishes she ___ him that secret.",
+      "question_ar": "هي تتمنى لو ____ له ذلك السر.",
+      "options": [
+        "didn't tell",
+        "hadn't told",
+        "doesn't tell",
+        "wouldn't tell"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: hadn't told. Regret about a past action: hadn't + V3.",
+      "explanation_ar": "الإجابة الصحيحة: hadn't told. ندم على فعل ماضٍ ← hadn't + V3.",
+      "memorization_note": "الندم على الماضي: $\\text{wish} + \\text{had} + V_3$ ، وللقدرة: $\\text{wish} + \\text{could have} + V_3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "They wish they ___ in a bigger house.",
+      "question_ar": "هم يتمنون لو ____ في بيت أكبر.",
+      "options": [
+        "live",
+        "will live",
+        "have lived",
+        "lived"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: lived. Present unreal wish: past simple.",
+      "explanation_ar": "الإجابة الصحيحة: lived. تمنٍّ في الحاضر ← ماضٍ بسيط.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "I wish I ___ so tired right now.",
+      "question_ar": "أتمنى لو ____ متعباً الآن.",
+      "options": [
+        "weren't",
+        "am not",
+        "won't be",
+        "hadn't been"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: weren't. Present unreal negative: weren't.",
+      "explanation_ar": "الإجابة الصحيحة: weren't. تمنٍّ حاضر منفي ← weren't.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "I wish my brother ___ his things everywhere.",
+      "question_ar": "أتمنى لو ____ أخي أغراضه في كل مكان.",
+      "options": [
+        "didn't leave",
+        "hasn't left",
+        "wouldn't leave",
+        "doesn't leave"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: wouldn't leave. Annoying habit: wish + wouldn't.",
+      "explanation_ar": "الإجابة الصحيحة: wouldn't leave. عادة مزعجة ← wouldn't.",
+      "memorization_note": "الانزعاج أو طلب التغيير: $\\text{wish} + S + \\text{would} + V_1$ ، ولا نستعمل $\\text{will}$ بعد $\\text{wish}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "If only I ___ the way, I wouldn't be lost.",
+      "question_ar": "ليتني ____ الطريق لما كنت تائهاً.",
+      "options": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: knew. Present unreal: past simple (knew).",
+      "explanation_ar": "الإجابة الصحيحة: knew. تمنٍّ في الحاضر ← knew.",
+      "memorization_note": "التمني في الحاضر: $\\text{wish} + \\text{past simple}$ ($\\text{were}$ مع جميع الضمائر) ، و $\\text{If only}$ بنفس المعنى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "He wishes he ___ more careful when he was driving.",
+      "question_ar": "هو يتمنى لو ____ أكثر حذراً عندما كان يقود.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "had been"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: had been. Regret about the past: had been.",
+      "explanation_ar": "الإجابة الصحيحة: had been. ندم على الماضي ← had been.",
+      "memorization_note": "الندم على الماضي: $\\text{wish} + \\text{had} + V_3$ ، وللقدرة: $\\text{wish} + \\text{could have} + V_3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "It's time we ___ home.",
+      "question_ar": "حان الوقت لأن ____ إلى البيت.",
+      "options": [
+        "went",
+        "go",
+        "will go",
+        "had gone"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: went. It's time + subject + past simple.",
+      "explanation_ar": "الإجابة الصحيحة: went. It's time + فاعل + ماضٍ بسيط.",
+      "memorization_note": "$\\text{It's time} + S + \\text{past simple}$ ، و $\\text{I'd rather} + S + \\text{past simple}$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

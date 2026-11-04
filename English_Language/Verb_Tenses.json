@@ -1,0 +1,248 @@
+{
+  "topic_en": "Verb Tenses",
+  "topic_ar": "الأزمنة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول المضارع والماضي البسيط والمستمر والمضارع التام والماضي التام والمستقبل",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "She ___ in Cairo since 2015.",
+      "question_ar": "هي ____ في القاهرة منذ 2015.",
+      "options": [
+        "lives",
+        "has lived",
+        "lived",
+        "is living"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: has lived. 'since 2015' is a point in time linking past to now, so we use the present perfect: has + V3.",
+      "explanation_ar": "الإجابة الصحيحة: has lived. since + نقطة زمنية يتطلب المضارع التام (has + V3).",
+      "memorization_note": "$\\text{since} + \\text{نقطة زمنية}$ (2015, Monday, last year) ، $\\text{for} + \\text{مدة}$ (two hours, ten years) — كلاهما مع المضارع التام: $\\text{have/has} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "I ___ him yesterday.",
+      "question_ar": "____ه أمس.",
+      "options": [
+        "have seen",
+        "see",
+        "had seen",
+        "saw"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: saw. 'yesterday' is a finished past time, so the past simple (saw) is used.",
+      "explanation_ar": "الإجابة الصحيحة: saw. yesterday وقت ماضٍ محدد ← الماضي البسيط saw.",
+      "memorization_note": "كلمات الماضي المحدد (yesterday, last night, ago, in 2010) ← الماضي البسيط $V_2$ ولا يُستعمل معها المضارع التام.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "When I arrived, the film ___.",
+      "question_ar": "عندما وصلت، الفيلم ____.",
+      "options": [
+        "had already started",
+        "already started",
+        "has already started",
+        "is already starting"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had already started. The film started before I arrived, so the earlier action takes the past perfect: had + V3.",
+      "explanation_ar": "الإجابة الصحيحة: had already started. الفيلم بدأ قبل وصولي (الأسبق) ← الماضي التام had + V3.",
+      "memorization_note": "الماضي التام: $\\text{had} + V_3$ للحدث الأسبق من حدثين ماضيين (when, before, by the time).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "At 8 o'clock last night, we ___ dinner.",
+      "question_ar": "في الساعة 8 ليلة أمس، كنا ____ العشاء.",
+      "options": [
+        "had had",
+        "have",
+        "were having",
+        "are having"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: were having. An action in progress at a specific past time takes the past continuous: were + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: were having. حدث مستمر في وقت محدد في الماضي ← الماضي المستمر were + V-ing.",
+      "memorization_note": "المستمر: $\\text{am/is/are} + V\\text{-ing}$ (now, Look!) ، والماضي المستمر: $\\text{was/were} + V\\text{-ing}$ (while, at 8 o'clock last night).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Look! The baby ___.",
+      "question_ar": "انظر! الطفل ____.",
+      "options": [
+        "sleeps",
+        "is sleeping",
+        "slept",
+        "has slept"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: is sleeping. 'Look!' signals an action happening now: present continuous (is + V-ing).",
+      "explanation_ar": "الإجابة الصحيحة: is sleeping. Look! تدل على حدث الآن ← المضارع المستمر is + V-ing.",
+      "memorization_note": "المستمر: $\\text{am/is/are} + V\\text{-ing}$ (now, Look!) ، والماضي المستمر: $\\text{was/were} + V\\text{-ing}$ (while, at 8 o'clock last night).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "Water ___ at 100 °C.",
+      "question_ar": "الماء ____ عند 100 درجة مئوية.",
+      "options": [
+        "is boiling",
+        "boiled",
+        "has boiled",
+        "boils"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: boils. A scientific fact is expressed with the present simple: boils.",
+      "explanation_ar": "الإجابة الصحيحة: boils. الحقيقة العلمية ← المضارع البسيط boils.",
+      "memorization_note": "الحقائق العلمية والعادات والجداول ← المضارع البسيط: $S + V_1\\,(s/es)$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "While I ___ TV, the phone rang.",
+      "question_ar": "بينما كنت ____ التلفاز، رن الهاتف.",
+      "options": [
+        "was watching",
+        "watched",
+        "am watching",
+        "had watched"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: was watching. 'While' + a longer action interrupted by a short one takes the past continuous: was watching.",
+      "explanation_ar": "الإجابة الصحيحة: was watching. while + حدث طويل مقطوع ← الماضي المستمر was watching.",
+      "memorization_note": "المستمر: $\\text{am/is/are} + V\\text{-ing}$ (now, Look!) ، والماضي المستمر: $\\text{was/were} + V\\text{-ing}$ (while, at 8 o'clock last night).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "How long ___ here?",
+      "question_ar": "منذ متى ____ هنا؟",
+      "options": [
+        "do you work",
+        "did you work",
+        "have you worked",
+        "are you working"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: have you worked. 'How long' (duration up to now) takes the present perfect: have you worked.",
+      "explanation_ar": "الإجابة الصحيحة: have you worked. How long (مدة حتى الآن) ← المضارع التام have you worked.",
+      "memorization_note": "المضارع التام $\\text{have/has} + V_3$ مع (ever, never, so far, just, How long).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "By the time we got to the station, the train ___.",
+      "question_ar": "بحلول وصولنا إلى المحطة، القطار ____.",
+      "options": [
+        "left",
+        "had left",
+        "has left",
+        "was leaving"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: had left. The train left before we arrived (earlier action): past perfect had left.",
+      "explanation_ar": "الإجابة الصحيحة: had left. القطار غادر قبل وصولنا (الأسبق) ← الماضي التام had left.",
+      "memorization_note": "الماضي التام: $\\text{had} + V_3$ للحدث الأسبق من حدثين ماضيين (when, before, by the time).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Tom ___ for the company since last year.",
+      "question_ar": "توم ____ في الشركة منذ العام الماضي.",
+      "options": [
+        "works",
+        "is working",
+        "worked",
+        "has worked"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: has worked. 'since last year' needs the present perfect: has worked.",
+      "explanation_ar": "الإجابة الصحيحة: has worked. since last year يتطلب المضارع التام has worked.",
+      "memorization_note": "$\\text{since} + \\text{نقطة زمنية}$ (2015, Monday, last year) ، $\\text{for} + \\text{مدة}$ (two hours, ten years) — كلاهما مع المضارع التام: $\\text{have/has} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "The train ___ at 6:30 tomorrow morning.",
+      "question_ar": "القطار ____ الساعة 6:30 صباح الغد.",
+      "options": [
+        "leaves",
+        "left",
+        "has left",
+        "had left"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: leaves. Official timetables for the future use the present simple: leaves.",
+      "explanation_ar": "الإجابة الصحيحة: leaves. الجداول الرسمية للمستقبل ← المضارع البسيط leaves.",
+      "memorization_note": "الحقائق العلمية والعادات والجداول ← المضارع البسيط: $S + V_1\\,(s/es)$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "By next year, she ___ her degree.",
+      "question_ar": "بحلول العام القادم، ستكون قد ____ شهادتها.",
+      "options": [
+        "will finish",
+        "finishes",
+        "will have finished",
+        "is finishing"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: will have finished. 'By + future time' takes the future perfect: will have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: will have finished. by + وقت مستقبلي ← المستقبل التام will have finished.",
+      "memorization_note": "$\\text{by next year}$ ← المستقبل التام: $\\text{will have} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Have you finished the shopping ___?",
+      "question_ar": "هل أنهيت التسوق ____؟",
+      "options": [
+        "already",
+        "yet",
+        "still",
+        "now"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: yet. 'yet' is used at the end of questions and negatives with the present perfect.",
+      "explanation_ar": "الإجابة الصحيحة: yet. yet تُستعمل في آخر الأسئلة والنفي مع المضارع التام.",
+      "memorization_note": "$\\text{yet}$ للسؤال والنفي (في آخر الجملة) ، $\\text{already}$ للمثبت ، $\\text{still}$ قبل الفعل الرئيسي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "I have never ___ sushi.",
+      "question_ar": "لم ____ السوشي أبداً.",
+      "options": [
+        "eat",
+        "ate",
+        "eating",
+        "eaten"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: eaten. After have/has we need the past participle (V3): eaten.",
+      "explanation_ar": "الإجابة الصحيحة: eaten. بعد have/has نستخدم التصريف الثالث V3: eaten.",
+      "memorization_note": "المضارع التام $\\text{have/has} + V_3$ مع (ever, never, so far, just, How long).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "He ___ smoking two years ago.",
+      "question_ar": "هو ____ عن التدخين قبل سنتين.",
+      "options": [
+        "gave up",
+        "has given up",
+        "gives up",
+        "had given up"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: gave up. 'two years ago' is a finished time, so past simple: gave up.",
+      "explanation_ar": "الإجابة الصحيحة: gave up. ago تدل على ماضٍ منتهٍ ← الماضي البسيط gave up.",
+      "memorization_note": "كلمات الماضي المحدد (yesterday, last night, ago, in 2010) ← الماضي البسيط $V_2$ ولا يُستعمل معها المضارع التام.",
+      "requires_scratchpad": false
+    }
+  ]
+}

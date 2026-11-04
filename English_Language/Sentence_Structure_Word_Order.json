@@ -1,0 +1,248 @@
+{
+  "topic_en": "Sentence Structure & Word Order",
+  "topic_ar": "بنية الجملة وترتيب الكلمات",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول ترتيب الكلمات وظروف التكرار وترتيب الصفات والقلب so/such/enough",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "She always is late.",
+        "She is always late.",
+        "Always she is late.",
+        "She is late always."
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: She is always late.. A frequency adverb comes after the verb 'be'.",
+      "explanation_ar": "الإجابة الصحيحة: She is always late.. ظرف التكرار بعد فعل be.",
+      "memorization_note": "ظروف التكرار (always, usually, never): بعد $\\text{be}$ وقبل الفعل الرئيسي وبين المساعد والفعل ($\\text{have never seen}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "I yesterday saw him.",
+        "I saw yesterday him.",
+        "Yesterday I him saw.",
+        "I saw him yesterday."
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: I saw him yesterday.. Order: Subject + Verb + Object + Time.",
+      "explanation_ar": "الإجابة الصحيحة: I saw him yesterday.. الترتيب: فاعل + فعل + مفعول + زمن.",
+      "memorization_note": "ترتيب الجملة: $S + V + O + \\text{Place} + \\text{Time}$ ، وظرف الحال (well, carefully) في آخر الجملة بعد المفعول.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "He plays the guitar well.",
+        "He plays well the guitar.",
+        "He well plays the guitar.",
+        "Well he plays the guitar."
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: He plays the guitar well.. The manner adverb goes after the object.",
+      "explanation_ar": "الإجابة الصحيحة: He plays the guitar well.. ظرف الحال بعد المفعول.",
+      "memorization_note": "ترتيب الجملة: $S + V + O + \\text{Place} + \\text{Time}$ ، وظرف الحال (well, carefully) في آخر الجملة بعد المفعول.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Which phrase has the correct adjective order?",
+      "question_ar": "أي عبارة بترتيب صفات صحيح؟",
+      "options": [
+        "a wooden old big table",
+        "an old big wooden table",
+        "a big old wooden table",
+        "a big wooden old table"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: a big old wooden table. Order: size - age - material.",
+      "explanation_ar": "الإجابة الصحيحة: a big old wooden table. الترتيب: الحجم - العمر - المادة.",
+      "memorization_note": "ترتيب الصفات: $\\text{opinion - size - age - shape - colour - origin - material}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "She gave to me the book.",
+        "She gave me the book.",
+        "She me gave the book.",
+        "She gave the book me."
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: She gave me the book.. give + indirect object + direct object.",
+      "explanation_ar": "الإجابة الصحيحة: She gave me the book.. give + المفعول غير المباشر + المباشر.",
+      "memorization_note": "السؤال غير المباشر بترتيب عادي: $\\text{Do you know what time it is?}$ ، والمفعول غير المباشر: $\\text{give} + \\text{person} + \\text{thing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "Which question is correct?",
+      "question_ar": "أي سؤال صحيح؟",
+      "options": [
+        "Where you are going?",
+        "Where you going?",
+        "Where going you?",
+        "Where are you going?"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: Where are you going?. wh-word + auxiliary + subject + verb.",
+      "explanation_ar": "الإجابة الصحيحة: Where are you going?. أداة استفهام + مساعد + فاعل + فعل.",
+      "memorization_note": "السؤال غير المباشر بترتيب عادي: $\\text{Do you know what time it is?}$ ، والمفعول غير المباشر: $\\text{give} + \\text{person} + \\text{thing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "I don't know where ___.",
+      "question_ar": "لا أعرف أين ____.",
+      "options": [
+        "she is",
+        "is she",
+        "does she",
+        "she does"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: she is. Indirect question: normal word order.",
+      "explanation_ar": "الإجابة الصحيحة: she is. السؤال غير المباشر بترتيب عادي.",
+      "memorization_note": "السؤال غير المباشر بترتيب عادي: $\\text{Do you know what time it is?}$ ، والمفعول غير المباشر: $\\text{give} + \\text{person} + \\text{thing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "I never have seen it.",
+        "Never I have seen it.",
+        "I have never seen it.",
+        "I have seen never it."
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: I have never seen it.. 'never' goes between the auxiliary and the main verb.",
+      "explanation_ar": "الإجابة الصحيحة: I have never seen it.. never بين المساعد والفعل.",
+      "memorization_note": "ظروف التكرار (always, usually, never): بعد $\\text{be}$ وقبل الفعل الرئيسي وبين المساعد والفعل ($\\text{have never seen}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "Which phrase is correct?",
+      "question_ar": "أي عبارة صحيحة؟",
+      "options": [
+        "a red small lovely dress",
+        "a lovely small red dress",
+        "a small lovely red dress",
+        "a lovely red small dress"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: a lovely small red dress. Order: opinion - size - colour.",
+      "explanation_ar": "الإجابة الصحيحة: a lovely small red dress. الترتيب: الرأي - الحجم - اللون.",
+      "memorization_note": "ترتيب الصفات: $\\text{opinion - size - age - shape - colour - origin - material}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Rarely ___ to the cinema.",
+      "question_ar": "نادراً ما ____ إلى السينما.",
+      "options": [
+        "I go",
+        "go I",
+        "I do go",
+        "do I go"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: do I go. Negative adverb at the start → inversion: do I go.",
+      "explanation_ar": "الإجابة الصحيحة: do I go. ظرف نفي في البداية ← قلب: do I go.",
+      "memorization_note": "القلب بعد ظروف النفي: $\\text{Rarely/Seldom/Never/Hardly/Not only/Only then} + \\text{aux} + S$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "Not only ___ late, but he also forgot his book.",
+      "question_ar": "ليس فقط أنه ____ متأخراً بل نسي كتابه أيضاً.",
+      "options": [
+        "was he",
+        "he was",
+        "did he",
+        "he is"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: was he. 'Not only' at the start → inversion: was he.",
+      "explanation_ar": "الإجابة الصحيحة: was he. Not only في البداية ← قلب: was he.",
+      "memorization_note": "القلب بعد ظروف النفي: $\\text{Rarely/Seldom/Never/Hardly/Not only/Only then} + \\text{aux} + S$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "Do you know what time is it?",
+        "Do you know what is time it?",
+        "Do you know what time it is?",
+        "Do you know it is what time?"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Do you know what time it is?. Indirect question keeps normal order: what time it is.",
+      "explanation_ar": "الإجابة الصحيحة: Do you know what time it is?. غير مباشر بترتيب عادي: what time it is.",
+      "memorization_note": "السؤال غير المباشر بترتيب عادي: $\\text{Do you know what time it is?}$ ، والمفعول غير المباشر: $\\text{give} + \\text{person} + \\text{thing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "He is enough tall.",
+        "He is tall enough.",
+        "He enough is tall.",
+        "Enough he is tall."
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: He is tall enough.. adjective + enough.",
+      "explanation_ar": "الإجابة الصحيحة: He is tall enough.. صفة + enough.",
+      "memorization_note": "$\\text{so} + \\text{adj}$ ، $\\text{such} + a + \\text{adj} + \\text{noun}$ ، $\\text{adj} + \\text{enough}$ ، $\\text{too} + \\text{adj} + to V_1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "It was ___ nice day.",
+      "question_ar": "كان يوماً ____ جميلاً.",
+      "options": [
+        "so a",
+        "a so",
+        "such",
+        "such a"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: such a. such + a + adjective + noun.",
+      "explanation_ar": "الإجابة الصحيحة: such a. such + a + صفة + اسم.",
+      "memorization_note": "$\\text{so} + \\text{adj}$ ، $\\text{such} + a + \\text{adj} + \\text{noun}$ ، $\\text{adj} + \\text{enough}$ ، $\\text{too} + \\text{adj} + to V_1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "The film was ___ that we left.",
+      "question_ar": "كان الفيلم ____ لدرجة أننا غادرنا.",
+      "options": [
+        "so boring",
+        "such boring",
+        "very boring",
+        "too boring"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: so boring. so + adjective + that.",
+      "explanation_ar": "الإجابة الصحيحة: so boring. so + صفة + that.",
+      "memorization_note": "$\\text{so} + \\text{adj}$ ، $\\text{such} + a + \\text{adj} + \\text{noun}$ ، $\\text{adj} + \\text{enough}$ ، $\\text{too} + \\text{adj} + to V_1$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

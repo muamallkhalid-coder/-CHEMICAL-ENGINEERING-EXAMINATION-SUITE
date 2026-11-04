@@ -1,0 +1,248 @@
+{
+  "topic_en": "Reported Speech",
+  "topic_ar": "الكلام المنقول",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول تحويل الجمل والأسئلة والأوامر إلى كلام منقول",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "\"I am tired,\" she said. → She said she ___ tired.",
+      "question_ar": "\"أنا متعبة\" قالت. ← قالت إنها ____ متعبة.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "has been"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: was. Backshift: am → was.",
+      "explanation_ar": "الإجابة الصحيحة: was. تراجع الزمن: am ← was.",
+      "memorization_note": "تراجع زمن خطوة: $\\text{present simple} \\rightarrow \\text{past simple}$ ، $\\text{present perfect/past simple} \\rightarrow \\text{past perfect}$ ، $\\text{will} \\rightarrow \\text{would}$ ، $\\text{can} \\rightarrow \\text{could}$ ، $\\text{may} \\rightarrow \\text{might}$ ، $\\text{must} \\rightarrow \\text{had to}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "\"I will come,\" he said. → He said he ___ come.",
+      "question_ar": "\"سآتي\" قال. ← قال إنه ____ يأتي.",
+      "options": [
+        "will",
+        "shall",
+        "had",
+        "would"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: would. will → would.",
+      "explanation_ar": "الإجابة الصحيحة: would. will ← would.",
+      "memorization_note": "تراجع زمن خطوة: $\\text{present simple} \\rightarrow \\text{past simple}$ ، $\\text{present perfect/past simple} \\rightarrow \\text{past perfect}$ ، $\\text{will} \\rightarrow \\text{would}$ ، $\\text{can} \\rightarrow \\text{could}$ ، $\\text{may} \\rightarrow \\text{might}$ ، $\\text{must} \\rightarrow \\text{had to}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "\"I have finished,\" she said. → She said she ___ finished.",
+      "question_ar": "\"لقد أنهيت\" قالت. ← قالت إنها ____ أنهت.",
+      "options": [
+        "had",
+        "has",
+        "have",
+        "was"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had. present perfect → past perfect.",
+      "explanation_ar": "الإجابة الصحيحة: had. المضارع التام ← الماضي التام had.",
+      "memorization_note": "تراجع زمن خطوة: $\\text{present simple} \\rightarrow \\text{past simple}$ ، $\\text{present perfect/past simple} \\rightarrow \\text{past perfect}$ ، $\\text{will} \\rightarrow \\text{would}$ ، $\\text{can} \\rightarrow \\text{could}$ ، $\\text{may} \\rightarrow \\text{might}$ ، $\\text{must} \\rightarrow \\text{had to}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "\"Where do you live?\" → He asked me where I ___.",
+      "question_ar": "\"أين تسكن؟\" ← سألني أين ____.",
+      "options": [
+        "live",
+        "do live",
+        "lived",
+        "did live"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: lived. Normal order and backshift: lived.",
+      "explanation_ar": "الإجابة الصحيحة: lived. ترتيب عادي مع تراجع الزمن: lived.",
+      "memorization_note": "الأسئلة المنقولة بترتيب عادي: $\\text{asked} + \\text{wh-word} + S + V$ ، و $\\text{asked if/whether} + S + V$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "\"Close the door,\" she said. → She told me ___ the door.",
+      "question_ar": "\"أغلق الباب\" قالت. ← قالت لي أن ____ الباب.",
+      "options": [
+        "close",
+        "to close",
+        "closing",
+        "that close"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: to close. Command → told + object + to + V1.",
+      "explanation_ar": "الإجابة الصحيحة: to close. أمر ← told + مفعول + to + V1.",
+      "memorization_note": "الأوامر: $\\text{told/asked} + \\text{object} + \\text{to} + V_1$ ، والنهي: $\\text{told} + \\text{object} + \\text{not to} + V_1$ ، و $\\text{tell} + \\text{شخص}$ ، $\\text{say} + (that)$ ، $\\text{suggest} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "\"Don't touch it,\" he said. → He told me ___ it.",
+      "question_ar": "\"لا تلمسه\" قال. ← قال لي ____ لمسه.",
+      "options": [
+        "don't touch",
+        "to not touching",
+        "no touch",
+        "not to touch"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: not to touch. Negative command → not to + V1.",
+      "explanation_ar": "الإجابة الصحيحة: not to touch. نهي ← not to + V1.",
+      "memorization_note": "الأوامر: $\\text{told/asked} + \\text{object} + \\text{to} + V_1$ ، والنهي: $\\text{told} + \\text{object} + \\text{not to} + V_1$ ، و $\\text{tell} + \\text{شخص}$ ، $\\text{say} + (that)$ ، $\\text{suggest} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "\"I can swim,\" he said. → He said he ___ swim.",
+      "question_ar": "\"أستطيع السباحة\" قال. ← قال إنه ____ السباحة.",
+      "options": [
+        "could",
+        "can",
+        "may",
+        "will"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: could. can → could.",
+      "explanation_ar": "الإجابة الصحيحة: could. can ← could.",
+      "memorization_note": "تراجع زمن خطوة: $\\text{present simple} \\rightarrow \\text{past simple}$ ، $\\text{present perfect/past simple} \\rightarrow \\text{past perfect}$ ، $\\text{will} \\rightarrow \\text{would}$ ، $\\text{can} \\rightarrow \\text{could}$ ، $\\text{may} \\rightarrow \\text{might}$ ، $\\text{must} \\rightarrow \\text{had to}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "\"Are you ready?\" → She asked if I ___ ready.",
+      "question_ar": "\"هل أنت جاهز؟\" ← سألت إن كنت ____ جاهزاً.",
+      "options": [
+        "am",
+        "were being",
+        "was",
+        "will be"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: was. Yes/no question: if + backshift (am → was).",
+      "explanation_ar": "الإجابة الصحيحة: was. سؤال نعم/لا: if + تراجع الزمن was.",
+      "memorization_note": "الأسئلة المنقولة بترتيب عادي: $\\text{asked} + \\text{wh-word} + S + V$ ، و $\\text{asked if/whether} + S + V$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "\"I saw him yesterday.\" → He said he had seen him ___.",
+      "question_ar": "\"رأيته أمس\" ← قال إنه كان قد رآه ____.",
+      "options": [
+        "yesterday",
+        "the day before",
+        "tomorrow",
+        "the next day"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: the day before. yesterday → the day before.",
+      "explanation_ar": "الإجابة الصحيحة: the day before. yesterday ← the day before.",
+      "memorization_note": "الزمان والمكان: $\\text{now} \\rightarrow \\text{then}$ ، $\\text{yesterday} \\rightarrow \\text{the day before}$ ، $\\text{tomorrow} \\rightarrow \\text{the next day}$ ، $\\text{next week} \\rightarrow \\text{the following week}$ ، $\\text{here} \\rightarrow \\text{there}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "\"I'm working here now.\" → She said she was working there ___.",
+      "question_ar": "\"أعمل هنا الآن\" ← قالت إنها كانت تعمل هناك ____.",
+      "options": [
+        "now",
+        "here",
+        "today",
+        "then"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: then. now → then.",
+      "explanation_ar": "الإجابة الصحيحة: then. now ← then.",
+      "memorization_note": "الزمان والمكان: $\\text{now} \\rightarrow \\text{then}$ ، $\\text{yesterday} \\rightarrow \\text{the day before}$ ، $\\text{tomorrow} \\rightarrow \\text{the next day}$ ، $\\text{next week} \\rightarrow \\text{the following week}$ ، $\\text{here} \\rightarrow \\text{there}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "\"I'll call you tomorrow.\" → He said he would call me ___.",
+      "question_ar": "\"سأتصل بك غداً\" ← قال إنه سيتصل بي ____.",
+      "options": [
+        "the next day",
+        "tomorrow",
+        "yesterday",
+        "the day before"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: the next day. tomorrow → the next day.",
+      "explanation_ar": "الإجابة الصحيحة: the next day. tomorrow ← the next day.",
+      "memorization_note": "الزمان والمكان: $\\text{now} \\rightarrow \\text{then}$ ، $\\text{yesterday} \\rightarrow \\text{the day before}$ ، $\\text{tomorrow} \\rightarrow \\text{the next day}$ ، $\\text{next week} \\rightarrow \\text{the following week}$ ، $\\text{here} \\rightarrow \\text{there}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "She ___ me that she was busy.",
+      "question_ar": "هي ____ لي إنها مشغولة.",
+      "options": [
+        "said",
+        "spoke",
+        "told",
+        "talked"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: told. tell + person + that.",
+      "explanation_ar": "الإجابة الصحيحة: told. tell + شخص + that.",
+      "memorization_note": "الأوامر: $\\text{told/asked} + \\text{object} + \\text{to} + V_1$ ، والنهي: $\\text{told} + \\text{object} + \\text{not to} + V_1$ ، و $\\text{tell} + \\text{شخص}$ ، $\\text{say} + (that)$ ، $\\text{suggest} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "\"What time is it?\" → He asked me what time ___.",
+      "question_ar": "\"كم الساعة؟\" ← سألني كم ____ الساعة.",
+      "options": [
+        "was it",
+        "it was",
+        "is it",
+        "it is"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: it was. No inversion in reported questions; backshift: it was.",
+      "explanation_ar": "الإجابة الصحيحة: it was. بدون قلب مع تراجع الزمن: it was.",
+      "memorization_note": "الأسئلة المنقولة بترتيب عادي: $\\text{asked} + \\text{wh-word} + S + V$ ، و $\\text{asked if/whether} + S + V$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "\"Let's go to the beach.\" → He suggested ___ to the beach.",
+      "question_ar": "\"هيا نذهب إلى الشاطئ\" ← اقترح ____ إلى الشاطئ.",
+      "options": [
+        "to go",
+        "go",
+        "we going",
+        "going"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: going. suggest + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: going. suggest + V-ing.",
+      "memorization_note": "الأوامر: $\\text{told/asked} + \\text{object} + \\text{to} + V_1$ ، والنهي: $\\text{told} + \\text{object} + \\text{not to} + V_1$ ، و $\\text{tell} + \\text{شخص}$ ، $\\text{say} + (that)$ ، $\\text{suggest} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "\"I must go.\" → He said he ___ go.",
+      "question_ar": "\"يجب أن أذهب\" ← قال إنه ____ الذهاب.",
+      "options": [
+        "had to",
+        "must to",
+        "has to",
+        "will"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had to. must → had to.",
+      "explanation_ar": "الإجابة الصحيحة: had to. must ← had to.",
+      "memorization_note": "تراجع زمن خطوة: $\\text{present simple} \\rightarrow \\text{past simple}$ ، $\\text{present perfect/past simple} \\rightarrow \\text{past perfect}$ ، $\\text{will} \\rightarrow \\text{would}$ ، $\\text{can} \\rightarrow \\text{could}$ ، $\\text{may} \\rightarrow \\text{might}$ ، $\\text{must} \\rightarrow \\text{had to}$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

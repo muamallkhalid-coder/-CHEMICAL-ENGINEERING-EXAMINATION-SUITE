@@ -1,0 +1,248 @@
+{
+  "topic_en": "Gerunds & Infinitives",
+  "topic_ar": "المصدر والـ -ing",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول الأفعال التي يليها V-ing أو to + V1",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "I enjoy ___ to music.",
+      "question_ar": "أستمتع ____ للموسيقى.",
+      "options": [
+        "to listen",
+        "listening",
+        "listen",
+        "listened"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: listening. enjoy + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: listening. enjoy + V-ing.",
+      "memorization_note": "أفعال تأتي بعدها $V\\text{-ing}$: $\\text{enjoy, mind, avoid, finish, suggest, keep, practise, consider, can't help}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "She decided ___ a new job.",
+      "question_ar": "هي قررت ____ عمل جديد.",
+      "options": [
+        "finding",
+        "find",
+        "found",
+        "to find"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: to find. decide + to + V1.",
+      "explanation_ar": "الإجابة الصحيحة: to find. decide + to + V1.",
+      "memorization_note": "أفعال تأتي بعدها $\\text{to} + V_1$: $\\text{want, hope, decide, plan, need, agree, refuse, promise, manage, afford, learn}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "He avoided ___ the question.",
+      "question_ar": "هو تجنب ____ السؤال.",
+      "options": [
+        "answering",
+        "to answer",
+        "answer",
+        "answered"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: answering. avoid + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: answering. avoid + V-ing.",
+      "memorization_note": "أفعال تأتي بعدها $V\\text{-ing}$: $\\text{enjoy, mind, avoid, finish, suggest, keep, practise, consider, can't help}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "We hope ___ you soon.",
+      "question_ar": "نأمل ____ك قريباً.",
+      "options": [
+        "seeing",
+        "see",
+        "to see",
+        "saw"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: to see. hope + to + V1.",
+      "explanation_ar": "الإجابة الصحيحة: to see. hope + to + V1.",
+      "memorization_note": "أفعال تأتي بعدها $\\text{to} + V_1$: $\\text{want, hope, decide, plan, need, agree, refuse, promise, manage, afford, learn}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Would you mind ___ the window?",
+      "question_ar": "هل تمانع ____ النافذة؟",
+      "options": [
+        "to open",
+        "opening",
+        "open",
+        "opened"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: opening. mind + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: opening. mind + V-ing.",
+      "memorization_note": "أفعال تأتي بعدها $V\\text{-ing}$: $\\text{enjoy, mind, avoid, finish, suggest, keep, practise, consider, can't help}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "She suggested ___ to the cinema.",
+      "question_ar": "هي اقترحت ____ إلى السينما.",
+      "options": [
+        "to go",
+        "go",
+        "went",
+        "going"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: going. suggest + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: going. suggest + V-ing.",
+      "memorization_note": "أفعال تأتي بعدها $V\\text{-ing}$: $\\text{enjoy, mind, avoid, finish, suggest, keep, practise, consider, can't help}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "I'm looking forward to ___ you.",
+      "question_ar": "أتطلع إلى ____ك.",
+      "options": [
+        "seeing",
+        "see",
+        "saw",
+        "to see"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: seeing. 'to' here is a preposition, so V-ing follows.",
+      "explanation_ar": "الإجابة الصحيحة: seeing. to هنا حرف جر ← V-ing.",
+      "memorization_note": "بعد حرف الجر دائماً $V\\text{-ing}$ ، و $\\text{look forward to}$ و $\\text{be used to}$ و $\\text{It's no use}$ كلها $+ V\\text{-ing}$ ($\\text{to}$ هنا حرف جر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "They stopped ___ because they were tired.",
+      "question_ar": "توقفوا عن ____ لأنهم كانوا متعبين.",
+      "options": [
+        "to work",
+        "work",
+        "working",
+        "worked"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: working. stop + V-ing = quit the activity.",
+      "explanation_ar": "الإجابة الصحيحة: working. stop + V-ing = التوقف عن الفعل.",
+      "memorization_note": "تغير المعنى: $\\text{stop} + V\\text{-ing}$ (توقف عن) / $\\text{stop to} + V_1$ (توقف ليفعل) ، $\\text{remember to} + V_1$ (مستقبل) / $\\text{remember} + V\\text{-ing}$ (ماضٍ).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "He stopped ___ a coffee on the way.",
+      "question_ar": "هو توقف ليأخذ ____ قهوة في الطريق.",
+      "options": [
+        "having",
+        "to have",
+        "have",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: to have. stop + to + V1 = stopped in order to do something.",
+      "explanation_ar": "الإجابة الصحيحة: to have. stop + to + V1 = توقف ليفعل شيئاً.",
+      "memorization_note": "تغير المعنى: $\\text{stop} + V\\text{-ing}$ (توقف عن) / $\\text{stop to} + V_1$ (توقف ليفعل) ، $\\text{remember to} + V_1$ (مستقبل) / $\\text{remember} + V\\text{-ing}$ (ماضٍ).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Remember ___ the door when you leave.",
+      "question_ar": "تذكر أن ____ الباب عندما تغادر.",
+      "options": [
+        "locking",
+        "lock",
+        "locked",
+        "to lock"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: to lock. remember + to + V1 = a future duty.",
+      "explanation_ar": "الإجابة الصحيحة: to lock. remember + to + V1 = واجب مستقبلي.",
+      "memorization_note": "تغير المعنى: $\\text{stop} + V\\text{-ing}$ (توقف عن) / $\\text{stop to} + V_1$ (توقف ليفعل) ، $\\text{remember to} + V_1$ (مستقبل) / $\\text{remember} + V\\text{-ing}$ (ماضٍ).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "She is used to ___ early.",
+      "question_ar": "هي معتادة على ____ باكراً.",
+      "options": [
+        "getting up",
+        "get up",
+        "got up",
+        "to get up"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: getting up. be used to + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: getting up. be used to + V-ing.",
+      "memorization_note": "بعد حرف الجر دائماً $V\\text{-ing}$ ، و $\\text{look forward to}$ و $\\text{be used to}$ و $\\text{It's no use}$ كلها $+ V\\text{-ing}$ ($\\text{to}$ هنا حرف جر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "It's no use ___ about it.",
+      "question_ar": "لا فائدة من ____ بشأنه.",
+      "options": [
+        "to worry",
+        "worry",
+        "worrying",
+        "worried"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: worrying. It's no use + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: worrying. It's no use + V-ing.",
+      "memorization_note": "بعد حرف الجر دائماً $V\\text{-ing}$ ، و $\\text{look forward to}$ و $\\text{be used to}$ و $\\text{It's no use}$ كلها $+ V\\text{-ing}$ ($\\text{to}$ هنا حرف جر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "He refused ___ me.",
+      "question_ar": "هو رفض ____ني.",
+      "options": [
+        "helping",
+        "to help",
+        "help",
+        "helped"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: to help. refuse + to + V1.",
+      "explanation_ar": "الإجابة الصحيحة: to help. refuse + to + V1.",
+      "memorization_note": "أفعال تأتي بعدها $\\text{to} + V_1$: $\\text{want, hope, decide, plan, need, agree, refuse, promise, manage, afford, learn}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "I wouldn't mind ___ tonight.",
+      "question_ar": "لا أمانع ____ الليلة.",
+      "options": [
+        "to go out",
+        "go out",
+        "to going out",
+        "going out"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: going out. mind + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: going out. mind + V-ing.",
+      "memorization_note": "أفعال تأتي بعدها $V\\text{-ing}$: $\\text{enjoy, mind, avoid, finish, suggest, keep, practise, consider, can't help}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Thank you for ___ me.",
+      "question_ar": "شكراً على ____ني.",
+      "options": [
+        "helping",
+        "to help",
+        "help",
+        "helped"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: helping. After a preposition (for) → V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: helping. بعد حرف الجر for ← V-ing.",
+      "memorization_note": "بعد حرف الجر دائماً $V\\text{-ing}$ ، و $\\text{look forward to}$ و $\\text{be used to}$ و $\\text{It's no use}$ كلها $+ V\\text{-ing}$ ($\\text{to}$ هنا حرف جر).",
+      "requires_scratchpad": false
+    }
+  ]
+}

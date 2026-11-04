@@ -1,0 +1,248 @@
+{
+  "topic_en": "Conditional Sentences",
+  "topic_ar": "الجمل الشرطية",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول الأنواع 0 و1 و2 و3 والمختلط و unless",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "If it rains, we ___ at home.",
+      "question_ar": "إذا أمطرت، سوف ____ في البيت.",
+      "options": [
+        "would stay",
+        "will stay",
+        "stayed",
+        "would have stayed"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: will stay. If + present simple → will + V1 (first conditional).",
+      "explanation_ar": "الإجابة الصحيحة: will stay. If + مضارع بسيط ← will + V1 (النوع الأول).",
+      "memorization_note": "النوع 1 (مستقبل ممكن): $\\text{If} + \\text{present simple}, \\text{will} + V_1$ ، ولا نضع $\\text{will}$ بعد $\\text{if}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "If I ___ rich, I would travel the world.",
+      "question_ar": "لو ____ غنياً لسافرت حول العالم.",
+      "options": [
+        "am",
+        "will be",
+        "had been",
+        "were"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: were. Second conditional: If + past simple (were).",
+      "explanation_ar": "الإجابة الصحيحة: were. النوع الثاني: If + ماضٍ بسيط (were).",
+      "memorization_note": "النوع 2 (خيالي في الحاضر): $\\text{If} + \\text{past simple}, \\text{would} + V_1$ ، و $\\text{If I were you}$ (were مع جميع الضمائر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "If she had studied, she ___ the exam.",
+      "question_ar": "لو درست لكانت ____ الامتحان.",
+      "options": [
+        "would have passed",
+        "would pass",
+        "will pass",
+        "passed"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: would have passed. Third conditional: would have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: would have passed. النوع الثالث: would have + V3.",
+      "memorization_note": "النوع 3 (ندم على الماضي): $\\text{If} + \\text{had} + V_3, \\text{would have} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "If you heat ice, it ___.",
+      "question_ar": "إذا سخّنت الجليد فإنه ____.",
+      "options": [
+        "would melt",
+        "will have melted",
+        "melts",
+        "melted"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: melts. Zero conditional (fact): present simple.",
+      "explanation_ar": "الإجابة الصحيحة: melts. النوع 0 (حقيقة) ← مضارع بسيط.",
+      "memorization_note": "النوع 0 (حقائق): $\\text{If} + \\text{present simple}, \\text{present simple}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "If I ___ you, I'd apologise.",
+      "question_ar": "لو ____ مكانك لاعتذرت.",
+      "options": [
+        "am",
+        "were",
+        "would be",
+        "have been"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: were. 'If I were you' is the fixed advice form.",
+      "explanation_ar": "الإجابة الصحيحة: were. التعبير الثابت If I were you.",
+      "memorization_note": "النوع 2 (خيالي في الحاضر): $\\text{If} + \\text{past simple}, \\text{would} + V_1$ ، و $\\text{If I were you}$ (were مع جميع الضمائر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "We will go to the beach if the weather ___ good.",
+      "question_ar": "سنذهب إلى الشاطئ إذا ____ الطقس جيداً.",
+      "options": [
+        "will be",
+        "would be",
+        "was",
+        "is"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: is. No 'will' after if: present simple is.",
+      "explanation_ar": "الإجابة الصحيحة: is. لا نضع will بعد if ← is.",
+      "memorization_note": "النوع 1 (مستقبل ممكن): $\\text{If} + \\text{present simple}, \\text{will} + V_1$ ، ولا نضع $\\text{will}$ بعد $\\text{if}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "If he ___ earlier, he would have caught the bus.",
+      "question_ar": "لو ____ أبكر لكان لحق بالحافلة.",
+      "options": [
+        "had left",
+        "left",
+        "leaves",
+        "would leave"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: had left. Third conditional if-clause: had + V3.",
+      "explanation_ar": "الإجابة الصحيحة: had left. جملة if في النوع الثالث: had + V3.",
+      "memorization_note": "النوع 3 (ندم على الماضي): $\\text{If} + \\text{had} + V_3, \\text{would have} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Unless you hurry, you ___ the train.",
+      "question_ar": "ما لم تسرع فسوف ____ القطار.",
+      "options": [
+        "won't miss",
+        "would miss",
+        "will miss",
+        "missed"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: will miss. Unless = if not; result clause: will + V1.",
+      "explanation_ar": "الإجابة الصحيحة: will miss. unless = if not والنتيجة will + V1.",
+      "memorization_note": "$\\text{unless} = \\text{if...not}$ ولا يأتي بعدها نفي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "If I had known, I ___ you.",
+      "question_ar": "لو علمت لكنت ____ك.",
+      "options": [
+        "would tell",
+        "would have told",
+        "will tell",
+        "told"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: would have told. Third conditional: would have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: would have told. النوع الثالث: would have + V3.",
+      "memorization_note": "النوع 3 (ندم على الماضي): $\\text{If} + \\text{had} + V_3, \\text{would have} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "What would you do if you ___ a million dollars?",
+      "question_ar": "ماذا كنت ستفعل لو ____ مليون دولار؟",
+      "options": [
+        "win",
+        "will win",
+        "had won",
+        "won"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: won. Second conditional: if + past simple.",
+      "explanation_ar": "الإجابة الصحيحة: won. النوع الثاني: if + ماضٍ بسيط.",
+      "memorization_note": "النوع 2 (خيالي في الحاضر): $\\text{If} + \\text{past simple}, \\text{would} + V_1$ ، و $\\text{If I were you}$ (were مع جميع الضمائر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "If you ___ me tomorrow, I'll tell you everything.",
+      "question_ar": "إذا ____ بي غداً فسأخبرك بكل شيء.",
+      "options": [
+        "call",
+        "called",
+        "will call",
+        "would call"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: call. First conditional: present simple after if.",
+      "explanation_ar": "الإجابة الصحيحة: call. النوع الأول: مضارع بسيط بعد if.",
+      "memorization_note": "النوع 1 (مستقبل ممكن): $\\text{If} + \\text{present simple}, \\text{will} + V_1$ ، ولا نضع $\\text{will}$ بعد $\\text{if}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "___ you study, you won't pass.",
+      "question_ar": "____ تدرس فلن تنجح.",
+      "options": [
+        "If not",
+        "Until",
+        "Unless",
+        "Whether"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Unless. 'Unless' = if not, followed by a positive verb.",
+      "explanation_ar": "الإجابة الصحيحة: Unless. Unless = if not ويليها فعل مثبت.",
+      "memorization_note": "$\\text{unless} = \\text{if...not}$ ولا يأتي بعدها نفي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "If I hadn't been ill, I ___ to the party.",
+      "question_ar": "لو لم أكن مريضاً لكنت ____ إلى الحفلة.",
+      "options": [
+        "would go",
+        "would have gone",
+        "will go",
+        "went"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: would have gone. Third conditional: would have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: would have gone. النوع الثالث: would have + V3.",
+      "memorization_note": "النوع 3 (ندم على الماضي): $\\text{If} + \\text{had} + V_3, \\text{would have} + V_3$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "If he hadn't missed the flight, he ___ there now.",
+      "question_ar": "لو لم تفته الرحلة لكان ____ هناك الآن.",
+      "options": [
+        "will be",
+        "would have been",
+        "is",
+        "would be"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: would be. Mixed conditional: past condition, present result (now): would + V1.",
+      "explanation_ar": "الإجابة الصحيحة: would be. مختلط: شرط ماضٍ ونتيجة حاضرة (now) ← would + V1.",
+      "memorization_note": "المختلط: $\\text{If} + \\text{had} + V_3, \\text{would} + V_1$ (النتيجة في الحاضر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "If you mix red and blue, you ___ purple.",
+      "question_ar": "إذا خلطت الأحمر والأزرق فإنك ____ البنفسجي.",
+      "options": [
+        "get",
+        "would get",
+        "would have got",
+        "had got"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: get. Zero conditional (general truth): present simple.",
+      "explanation_ar": "الإجابة الصحيحة: get. النوع 0 (حقيقة عامة) ← مضارع بسيط.",
+      "memorization_note": "النوع 0 (حقائق): $\\text{If} + \\text{present simple}, \\text{present simple}$",
+      "requires_scratchpad": false
+    }
+  ]
+}

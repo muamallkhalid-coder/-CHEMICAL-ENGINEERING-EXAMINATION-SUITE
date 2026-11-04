@@ -1,0 +1,248 @@
+{
+  "topic_en": "Prepositions",
+  "topic_ar": "حروف الجر",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول حروف الجر للزمان والمكان وحروف الجر المرتبطة بالأفعال والصفات",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "The meeting is ___ 9 o'clock.",
+      "question_ar": "الاجتماع ____ الساعة 9.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: at. 'at' is used with an exact clock time.",
+      "explanation_ar": "الإجابة الصحيحة: at. at مع الوقت المحدد.",
+      "memorization_note": "حروف الزمن: $\\text{at}$ (وقت محدد: 9 o'clock, night) ، $\\text{on}$ (يوم/تاريخ: Monday, 5 May) ، $\\text{in}$ (شهر، سنة، فصل، جزء من اليوم).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "My birthday is ___ March.",
+      "question_ar": "عيد ميلادي ____ شهر آذار.",
+      "options": [
+        "on",
+        "at",
+        "of",
+        "in"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: in. 'in' is used with months.",
+      "explanation_ar": "الإجابة الصحيحة: in. in مع الأشهر.",
+      "memorization_note": "حروف الزمن: $\\text{at}$ (وقت محدد: 9 o'clock, night) ، $\\text{on}$ (يوم/تاريخ: Monday, 5 May) ، $\\text{in}$ (شهر، سنة، فصل، جزء من اليوم).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "I'll see you ___ Monday.",
+      "question_ar": "سأراك ____ يوم الاثنين.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: on. 'on' is used with days of the week.",
+      "explanation_ar": "الإجابة الصحيحة: on. on مع أيام الأسبوع.",
+      "memorization_note": "حروف الزمن: $\\text{at}$ (وقت محدد: 9 o'clock, night) ، $\\text{on}$ (يوم/تاريخ: Monday, 5 May) ، $\\text{in}$ (شهر، سنة، فصل، جزء من اليوم).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "She is good ___ mathematics.",
+      "question_ar": "هي جيدة ____ الرياضيات.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: at. The fixed phrase is 'good at'.",
+      "explanation_ar": "الإجابة الصحيحة: at. التعبير الثابت good at.",
+      "memorization_note": "حرف جر بعد صفة/فعل يُحفظ: $\\text{good at}$ ، $\\text{afraid of}$ ، $\\text{interested in}$ ، $\\text{prefer A to B}$ ، $\\text{look forward to} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "He is afraid ___ spiders.",
+      "question_ar": "هو خائف ____ العناكب.",
+      "options": [
+        "from",
+        "of",
+        "at",
+        "with"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: of. The fixed phrase is 'afraid of'.",
+      "explanation_ar": "الإجابة الصحيحة: of. التعبير الثابت afraid of.",
+      "memorization_note": "حرف جر بعد صفة/فعل يُحفظ: $\\text{good at}$ ، $\\text{afraid of}$ ، $\\text{interested in}$ ، $\\text{prefer A to B}$ ، $\\text{look forward to} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "They arrived ___ Paris yesterday.",
+      "question_ar": "وصلوا ____ باريس أمس.",
+      "options": [
+        "at",
+        "to",
+        "on",
+        "in"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: in. arrive in + city.",
+      "explanation_ar": "الإجابة الصحيحة: in. arrive in مع المدن.",
+      "memorization_note": "$\\text{arrive in} + \\text{مدينة/دولة}$ ، $\\text{arrive at} + \\text{مبنى/محطة/مطار}$ ، و $\\text{by bus/car/train}$ بدون أداة تعريف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "She arrived ___ Victoria Station half an hour late.",
+      "question_ar": "وصلت ____ محطة فكتوريا متأخرة نصف ساعة.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: at. arrive at + station/building.",
+      "explanation_ar": "الإجابة الصحيحة: at. arrive at مع المحطات والمباني.",
+      "memorization_note": "$\\text{arrive in} + \\text{مدينة/دولة}$ ، $\\text{arrive at} + \\text{مبنى/محطة/مطار}$ ، و $\\text{by bus/car/train}$ بدون أداة تعريف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "I'm interested ___ learning Chinese.",
+      "question_ar": "أنا مهتم ____ تعلم الصينية.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "for"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: in. The fixed phrase is 'interested in'.",
+      "explanation_ar": "الإجابة الصحيحة: in. التعبير الثابت interested in.",
+      "memorization_note": "حرف جر بعد صفة/فعل يُحفظ: $\\text{good at}$ ، $\\text{afraid of}$ ، $\\text{interested in}$ ، $\\text{prefer A to B}$ ، $\\text{look forward to} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "We go to school ___ bus.",
+      "question_ar": "نذهب إلى المدرسة ____ الحافلة.",
+      "options": [
+        "with",
+        "by",
+        "at",
+        "of"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: by. Transport without an article: by bus.",
+      "explanation_ar": "الإجابة الصحيحة: by. وسيلة النقل بدون أداة تعريف ← by bus.",
+      "memorization_note": "$\\text{arrive in} + \\text{مدينة/دولة}$ ، $\\text{arrive at} + \\text{مبنى/محطة/مطار}$ ، و $\\text{by bus/car/train}$ بدون أداة تعريف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "I've lived here ___ 2010.",
+      "question_ar": "عشت هنا ____ عام 2010.",
+      "options": [
+        "for",
+        "from",
+        "during",
+        "since"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: since. A starting point in time → since.",
+      "explanation_ar": "الإجابة الصحيحة: since. نقطة بداية زمنية ← since.",
+      "memorization_note": "$\\text{since} + \\text{نقطة بداية}$ ، $\\text{for} + \\text{مدة}$ ، $\\text{by} = \\text{قبل أو عند الموعد}$ ، $\\text{until} = \\text{حتى}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "She has been waiting ___ two hours.",
+      "question_ar": "هي تنتظر ____ ساعتين.",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: for. A period of time → for.",
+      "explanation_ar": "الإجابة الصحيحة: for. مدة زمنية ← for.",
+      "memorization_note": "$\\text{since} + \\text{نقطة بداية}$ ، $\\text{for} + \\text{مدة}$ ، $\\text{by} = \\text{قبل أو عند الموعد}$ ، $\\text{until} = \\text{حتى}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "The shop is ___ the bank and the post office.",
+      "question_ar": "المحل ____ البنك ومكتب البريد.",
+      "options": [
+        "among",
+        "above",
+        "between",
+        "under"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: between. Between two things: between.",
+      "explanation_ar": "الإجابة الصحيحة: between. بين شيئين ← between.",
+      "memorization_note": "المكان: $\\text{at}$ (نقطة) ، $\\text{in}$ (داخل مساحة) ، $\\text{on}$ (فوق سطح) ، $\\text{between}$ (اثنان) ، $\\text{among}$ (أكثر من اثنين).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "I prefer tea ___ coffee.",
+      "question_ar": "أفضل الشاي ____ القهوة.",
+      "options": [
+        "than",
+        "to",
+        "from",
+        "over"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: to. prefer A to B.",
+      "explanation_ar": "الإجابة الصحيحة: to. prefer A to B.",
+      "memorization_note": "حرف جر بعد صفة/فعل يُحفظ: $\\text{good at}$ ، $\\text{afraid of}$ ، $\\text{interested in}$ ، $\\text{prefer A to B}$ ، $\\text{look forward to} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "We'll finish the work ___ Friday.",
+      "question_ar": "سننهي العمل ____ يوم الجمعة.",
+      "options": [
+        "since",
+        "at",
+        "in",
+        "by"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: by. Deadline (not later than Friday): by.",
+      "explanation_ar": "الإجابة الصحيحة: by. موعد نهائي (لا يتجاوز الجمعة) ← by.",
+      "memorization_note": "$\\text{since} + \\text{نقطة بداية}$ ، $\\text{for} + \\text{مدة}$ ، $\\text{by} = \\text{قبل أو عند الموعد}$ ، $\\text{until} = \\text{حتى}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "I'm looking forward ___ meeting you.",
+      "question_ar": "أتطلع ____ لقائك.",
+      "options": [
+        "to",
+        "for",
+        "at",
+        "of"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: to. look forward to + V-ing ('to' is a preposition).",
+      "explanation_ar": "الإجابة الصحيحة: to. look forward to + V-ing (to حرف جر).",
+      "memorization_note": "حرف جر بعد صفة/فعل يُحفظ: $\\text{good at}$ ، $\\text{afraid of}$ ، $\\text{interested in}$ ، $\\text{prefer A to B}$ ، $\\text{look forward to} + V\\text{-ing}$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "topic_en": "Species Balances, Bypass & Purge",
+  "topic_ar": "موازنات المركبات والبايباس والتصريف",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "معادلة الموازنة العامة، موازنات المركبات مع مدى التفاعل، تركيب النواتج، البايباس والتصريف",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "The general balance for a reactive system is $\\text{Accumulation} = \\text{Input} + \\text{Generation} - x$. What is $x$?",
+      "question_ar": "الموازنة العامة لنظام تفاعلي هي $\\text{Accumulation} = \\text{Input} + \\text{Generation} - x$. ما هو $x$؟",
+      "options": [
+        "Consumption - Output",
+        "Consumption + Output",
+        "Output - Consumption",
+        "Input + Generation"
+      ],
+      "correct_index": 1,
+      "explanation_en": "From $\\text{Acc} = \\text{In} - \\text{Out} + \\text{Gen} - \\text{Cons}$, rewriting gives $\\text{Acc} = \\text{In} + \\text{Gen} - (\\text{Out} + \\text{Cons})$. So $x = \\text{Output} + \\text{Consumption}$.",
+      "explanation_ar": "من $\\text{Acc} = \\text{In} - \\text{Out} + \\text{Gen} - \\text{Cons}$ نجد $\\text{Acc} = \\text{In} + \\text{Gen} - (\\text{Out} + \\text{Cons})$، إذن $x = \\text{Output} + \\text{Consumption}$.",
+      "memorization_note": "المعادلة العامة للموازنة المادية: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ النظام المستقر: $\\text{Acc}=0$ ، النظام المغلق: لا دخول ولا خروج ، النظام غير التفاعلي: لا توليد ولا استهلاك.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "A system obeys $\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$ where all four terms are non-zero. What type of system is it?",
+      "question_ar": "نظام يخضع للمعادلة $\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$ وجميع الحدود الأربعة غير صفرية. ما نوع هذا النظام؟",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "Open, reactive and unsteady-state"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Input/output terms mean an open system; generation/consumption terms mean a reactive system; non-zero accumulation means unsteady state.",
+      "explanation_ar": "وجود حدود الدخول والخروج يعني نظاماً مفتوحاً؛ ووجود التوليد والاستهلاك يعني نظاماً تفاعلياً؛ والتراكم غير الصفري يعني حالة غير مستقرة.",
+      "memorization_note": "المعادلة العامة للموازنة المادية: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ النظام المستقر: $\\text{Acc}=0$ ، النظام المغلق: لا دخول ولا خروج ، النظام غير التفاعلي: لا توليد ولا استهلاك.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "A system obeys $\\text{Accumulation} = \\text{Generation} - \\text{Consumption}$. What type of system is it?",
+      "question_ar": "نظام يخضع للمعادلة $\\text{Accumulation} = \\text{Generation} - \\text{Consumption}$. ما نوع هذا النظام؟",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "Open"
+      ],
+      "correct_index": 1,
+      "explanation_en": "There are no input or output terms, so no material crosses the boundary: a closed (batch) system.",
+      "explanation_ar": "لا توجد حدود دخول أو خروج، أي لا تعبر مادة حدود النظام، فهو نظام مغلق (Batch).",
+      "memorization_note": "المعادلة العامة للموازنة المادية: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ النظام المستقر: $\\text{Acc}=0$ ، النظام المغلق: لا دخول ولا خروج ، النظام غير التفاعلي: لا توليد ولا استهلاك.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "A system obeys $\\text{Accumulation} = \\text{Input} - \\text{Output}$. What type of system is it?",
+      "question_ar": "نظام يخضع للمعادلة $\\text{Accumulation} = \\text{Input} - \\text{Output}$. ما نوع هذا النظام؟",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "Reactive"
+      ],
+      "correct_index": 2,
+      "explanation_en": "There are no generation or consumption terms, so no reaction occurs: a non-reactive system.",
+      "explanation_ar": "لا توجد حدود توليد أو استهلاك، أي لا يحدث تفاعل، فهو نظام غير تفاعلي.",
+      "memorization_note": "المعادلة العامة للموازنة المادية: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ النظام المستقر: $\\text{Acc}=0$ ، النظام المغلق: لا دخول ولا خروج ، النظام غير التفاعلي: لا توليد ولا استهلاك.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "A reactor is fed with 6 mol CO and 3 mol $\\text{O}_2$ and produces 4 mol $\\text{CO}_2$ ($2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$). What is the extent of reaction?",
+      "question_ar": "يُغذّى مفاعل بـ 6 mol من CO و 3 mol من $\\text{O}_2$ وينتج 4 mol من $\\text{CO}_2$ ($2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$). ما مدى التفاعل؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\xi = \\frac{n_{\\text{CO}_2} - n_{\\text{CO}_2,0}}{\\nu} = \\frac{4 - 0}{2} = 2$ mol.",
+      "explanation_ar": "$\\xi = \\frac{4 - 0}{2} = 2$ mol.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "A reactor is fed with 6 mol $\\text{N}_2$ and 9 mol $\\text{H}_2$ and 3 mol $\\text{NH}_3$ are produced ($\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$). How many moles of $\\text{H}_2$ remain?",
+      "question_ar": "يُغذّى مفاعل بـ 6 mol من $\\text{N}_2$ و 9 mol من $\\text{H}_2$ ويتكوّن 3 mol من $\\text{NH}_3$ ($\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$). كم مولاً من $\\text{H}_2$ يتبقى؟",
+      "options": [
+        "1.5",
+        "3",
+        "4.5",
+        "6"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\xi = \\frac{3 - 0}{2} = 1.5$ mol. $n_{\\text{H}_2} = 9 + (-3)(1.5) = 4.5$ mol.",
+      "explanation_ar": "$\\xi = \\frac{3}{2} = 1.5$ mol. مولات $\\text{H}_2$ المتبقية $= 9 - 3(1.5) = 4.5$ mol.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "A reactor is fed with 10 mol $\\text{CH}_4$ and 10 mol $\\text{O}_2$ ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). If the extent of reaction is 3 mol, how many moles of $\\text{CO}_2$ are produced?",
+      "question_ar": "يُغذّى مفاعل بـ 10 mol من $\\text{CH}_4$ و 10 mol من $\\text{O}_2$ ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). إذا كان مدى التفاعل 3 mol فكم مولاً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{CO}_2} = 0 + (1)(3) = 3$ mol.",
+      "explanation_ar": "$n_{\\text{CO}_2} = 0 + 1 \\times 3 = 3$ mol.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "A reactor is fed with 10 mol $\\text{O}_2$ and 10 mol $\\text{H}_2$ ($2\\,\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\,\\text{H}_2\\text{O}$). If the extent of reaction is 5 mol, how many moles of water are produced?",
+      "question_ar": "يُغذّى مفاعل بـ 10 mol من $\\text{O}_2$ و 10 mol من $\\text{H}_2$ ($2\\,\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\,\\text{H}_2\\text{O}$). إذا كان مدى التفاعل 5 mol فكم مولاً من الماء يتكوّن؟",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = 0 + 2(5) = 10$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = 0 + 2 \\times 5 = 10$ mol.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "A reactor is fed with 5 mol $\\text{KNO}_3$ and some $\\text{H}_2\\text{SO}_4$ ($2\\,\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{K}_2\\text{SO}_4 + 2\\,\\text{HNO}_3$). If the extent of reaction is 2 mol, how many moles of $\\text{H}_2\\text{SO}_4$ were fed?",
+      "question_ar": "يُغذّى مفاعل بـ 5 mol من $\\text{KNO}_3$ وكمية من $\\text{H}_2\\text{SO}_4$ ($2\\,\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{K}_2\\text{SO}_4 + 2\\,\\text{HNO}_3$). إذا كان مدى التفاعل 2 mol فكم مولاً من $\\text{H}_2\\text{SO}_4$ كانت في التغذية؟",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "Cannot be determined"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{H}_2\\text{SO}_4,\\text{out}} = n_{\\text{H}_2\\text{SO}_4,0} - \\xi$. The outlet amount is not given, so the feed amount cannot be determined (only the 2 mol consumed is known).",
+      "explanation_ar": "$n_{\\text{out}} = n_0 - \\xi$. لم تُعطَ الكمية الخارجة، لذلك لا يمكن تحديد كمية التغذية (المعلوم فقط أن 2 mol استُهلكت).",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "A reactor is fed with 100 mol of a mixture of 46% $\\text{C}_3\\text{H}_7\\text{O}_4$, 44% $\\text{O}_2$ and 10% $\\text{N}_2$ (mole %). The reaction is $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$, and 50% of the limiting reactant is converted. What is the extent of reaction?",
+      "question_ar": "يُغذّى مفاعل بـ 100 mol من خليط مكوّن من 46% $\\text{C}_3\\text{H}_7\\text{O}_4$ و 44% $\\text{O}_2$ و 10% $\\text{N}_2$ (نسب مولية). التفاعل: $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$، ويتحول 50% من المتفاعل المحدِّد. ما مدى التفاعل؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Limiting reactant is $\\text{O}_2$ (ratio $44/11 = 4$ is the smallest). 50% converted means 22 mol consumed, so $\\xi = \\frac{22 - 44}{-11} = 2$ mol.",
+      "explanation_ar": "المتفاعل المحدِّد هو $\\text{O}_2$ (النسبة $44/11 = 4$ هي الأصغر). تحول 50% يعني استهلاك 22 mol، إذن $\\xi = \\frac{22-44}{-11} = 2$ mol.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج). المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$ ، والنسبة المولية للمركب $y_i = \\frac{n_i}{n_{\\text{total}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "A reactor is fed with 100 mol of a mixture of 46% $\\text{C}_3\\text{H}_7\\text{O}_4$, 44% $\\text{O}_2$ and 10% $\\text{N}_2$ (mole %). The reaction is $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$, and 50% of the limiting reactant is converted. What is the mole percent of $\\text{O}_2$ in the product?",
+      "question_ar": "يُغذّى مفاعل بـ 100 mol من خليط مكوّن من 46% $\\text{C}_3\\text{H}_7\\text{O}_4$ و 44% $\\text{O}_2$ و 10% $\\text{N}_2$ (نسب مولية). التفاعل: $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$، ويتحول 50% من المتفاعل المحدِّد. ما النسبة المولية المئوية لـ $\\text{O}_2$ في الناتج؟",
+      "options": [
+        "10%",
+        "18%",
+        "38%",
+        "54%"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Limiting reactant: $46/4 = 11.5$ vs $44/11 = 4$, so $\\text{O}_2$ is limiting. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. Product: $\\text{C}_3\\text{H}_7\\text{O}_4 = 46-8 = 38$; $\\text{O}_2 = 22$; $\\text{N}_2 = 10$; $\\text{CO}_2 = 24$; $\\text{H}_2\\text{O} = 28$; total $= 122$ mol. $y_{\\text{O}_2} = 22/122 = 0.18 = 18\\%$.",
+      "explanation_ar": "المتفاعل المحدِّد: $46/4 = 11.5$ مقابل $44/11 = 4$ فـ $\\text{O}_2$ هو المحدِّد. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. النواتج: $\\text{C}_3\\text{H}_7\\text{O}_4 = 38$ ، $\\text{O}_2 = 22$ ، $\\text{N}_2 = 10$ ، $\\text{CO}_2 = 24$ ، $\\text{H}_2\\text{O} = 28$ ، المجموع $= 122$ mol. $y_{\\text{O}_2} = 22/122 = 18\\%$.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج). المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$ ، والنسبة المولية للمركب $y_i = \\frac{n_i}{n_{\\text{total}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "A reactor is fed with 100 mol of a mixture of 46% $\\text{C}_3\\text{H}_7\\text{O}_4$, 44% $\\text{O}_2$ and 10% $\\text{N}_2$ (mole %). The reaction is $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$, and 50% of the limiting reactant is converted. What is the mole percent of $\\text{N}_2$ in the product?",
+      "question_ar": "يُغذّى مفاعل بـ 100 mol من خليط مكوّن من 46% $\\text{C}_3\\text{H}_7\\text{O}_4$ و 44% $\\text{O}_2$ و 10% $\\text{N}_2$ (نسب مولية). التفاعل: $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$، ويتحول 50% من المتفاعل المحدِّد. ما النسبة المولية المئوية لـ $\\text{N}_2$ في الناتج؟",
+      "options": [
+        "8%",
+        "18%",
+        "34%",
+        "46%"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Limiting reactant: $46/4 = 11.5$ vs $44/11 = 4$, so $\\text{O}_2$ is limiting. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. Product: $\\text{C}_3\\text{H}_7\\text{O}_4 = 46-8 = 38$; $\\text{O}_2 = 22$; $\\text{N}_2 = 10$; $\\text{CO}_2 = 24$; $\\text{H}_2\\text{O} = 28$; total $= 122$ mol. $y_{\\text{N}_2} = 10/122 = 0.082 \\approx 8\\%$.",
+      "explanation_ar": "المتفاعل المحدِّد: $46/4 = 11.5$ مقابل $44/11 = 4$ فـ $\\text{O}_2$ هو المحدِّد. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. النواتج: $\\text{C}_3\\text{H}_7\\text{O}_4 = 38$ ، $\\text{O}_2 = 22$ ، $\\text{N}_2 = 10$ ، $\\text{CO}_2 = 24$ ، $\\text{H}_2\\text{O} = 28$ ، المجموع $= 122$ mol. $y_{\\text{N}_2} = 10/122 \\approx 8\\%$.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج). المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$ ، والنسبة المولية للمركب $y_i = \\frac{n_i}{n_{\\text{total}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "A reactor is fed with 100 mol of a mixture of 46% $\\text{C}_3\\text{H}_7\\text{O}_4$, 44% $\\text{O}_2$ and 10% $\\text{N}_2$ (mole %). The reaction is $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$, and 50% of the limiting reactant is converted. What is the mole percent of $\\text{C}_3\\text{H}_7\\text{O}_4$ in the product?",
+      "question_ar": "يُغذّى مفاعل بـ 100 mol من خليط مكوّن من 46% $\\text{C}_3\\text{H}_7\\text{O}_4$ و 44% $\\text{O}_2$ و 10% $\\text{N}_2$ (نسب مولية). التفاعل: $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$، ويتحول 50% من المتفاعل المحدِّد. ما النسبة المولية المئوية لـ $\\text{C}_3\\text{H}_7\\text{O}_4$ في الناتج؟",
+      "options": [
+        "10%",
+        "16%",
+        "31%",
+        "43%"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Limiting reactant: $46/4 = 11.5$ vs $44/11 = 4$, so $\\text{O}_2$ is limiting. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. Product: $\\text{C}_3\\text{H}_7\\text{O}_4 = 46-8 = 38$; $\\text{O}_2 = 22$; $\\text{N}_2 = 10$; $\\text{CO}_2 = 24$; $\\text{H}_2\\text{O} = 28$; total $= 122$ mol. $y = 38/122 = 0.311 \\approx 31\\%$.",
+      "explanation_ar": "المتفاعل المحدِّد: $46/4 = 11.5$ مقابل $44/11 = 4$ فـ $\\text{O}_2$ هو المحدِّد. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. النواتج: $\\text{C}_3\\text{H}_7\\text{O}_4 = 38$ ، $\\text{O}_2 = 22$ ، $\\text{N}_2 = 10$ ، $\\text{CO}_2 = 24$ ، $\\text{H}_2\\text{O} = 28$ ، المجموع $= 122$ mol. $y = 38/122 \\approx 31\\%$.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج). المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$ ، والنسبة المولية للمركب $y_i = \\frac{n_i}{n_{\\text{total}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "A reactor is fed with 100 mol of a mixture of 46% $\\text{C}_3\\text{H}_7\\text{O}_4$, 44% $\\text{O}_2$ and 10% $\\text{N}_2$ (mole %). The reaction is $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$, and 50% of the limiting reactant is converted. What is the mole percent of $\\text{H}_2\\text{O}$ in the product?",
+      "question_ar": "يُغذّى مفاعل بـ 100 mol من خليط مكوّن من 46% $\\text{C}_3\\text{H}_7\\text{O}_4$ و 44% $\\text{O}_2$ و 10% $\\text{N}_2$ (نسب مولية). التفاعل: $4\\,\\text{C}_3\\text{H}_7\\text{O}_4 + 11\\,\\text{O}_2 \\rightarrow 12\\,\\text{CO}_2 + 14\\,\\text{H}_2\\text{O}$، ويتحول 50% من المتفاعل المحدِّد. ما النسبة المولية المئوية لـ $\\text{H}_2\\text{O}$ في الناتج؟",
+      "options": [
+        "15%",
+        "23%",
+        "39%",
+        "51%"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Limiting reactant: $46/4 = 11.5$ vs $44/11 = 4$, so $\\text{O}_2$ is limiting. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. Product: $\\text{C}_3\\text{H}_7\\text{O}_4 = 46-8 = 38$; $\\text{O}_2 = 22$; $\\text{N}_2 = 10$; $\\text{CO}_2 = 24$; $\\text{H}_2\\text{O} = 28$; total $= 122$ mol. $y_{\\text{H}_2\\text{O}} = 28/122 = 0.23 = 23\\%$.",
+      "explanation_ar": "المتفاعل المحدِّد: $46/4 = 11.5$ مقابل $44/11 = 4$ فـ $\\text{O}_2$ هو المحدِّد. $\\xi = \\frac{22 - 44}{-11} = 2$ mol. النواتج: $\\text{C}_3\\text{H}_7\\text{O}_4 = 38$ ، $\\text{O}_2 = 22$ ، $\\text{N}_2 = 10$ ، $\\text{CO}_2 = 24$ ، $\\text{H}_2\\text{O} = 28$ ، المجموع $= 122$ mol. $y_{\\text{H}_2\\text{O}} = 28/122 \\approx 23\\%$.",
+      "memorization_note": "موازنة المركب $i$ في نظام تفاعلي: $$n_i = n_{i,0} + \\nu_i\\,\\xi$$ ($\\nu_i$ سالب للمتفاعلات وموجب للنواتج). المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$ ، والنسبة المولية للمركب $y_i = \\frac{n_i}{n_{\\text{total}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 15,
+      "question_en": "A bypass stream skips which of the following?",
+      "question_ar": "تيار البايباس (Bypass) هو تيار يتجاوز أياً مما يلي؟",
+      "options": [
+        "The splitter (divider)",
+        "The process unit",
+        "The mixer",
+        "The feed tank"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A bypass stream leaves the splitter, skips the process unit, and rejoins the process output at a mixer downstream.",
+      "explanation_ar": "يخرج تيار البايباس من نقطة التقسيم ويتجاوز وحدة المعالجة ثم يلتقي بناتجها في خلاّط لاحق.",
+      "memorization_note": "البايباس (Bypass): جزء من التغذية يتجاوز وحدة المعالجة ثم يُخلط مع ناتجها (مفيد للتحكم بتركيب التيار النهائي). التصريف (Purge): جزء من تيار الإرجاع (Recycle) يُسحب لمنع تراكم المواد الخاملة أو الشوائب في الحلقة. موازنة نقطة التقسيم: $\\text{F} = \\text{F}_1 + \\text{F}_2$ وتركيب التيارات المتفرعة متساوٍ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "From which stream is a purge taken?",
+      "question_ar": "من أي تيار يُؤخذ التصريف (Purge)؟",
+      "options": [
+        "Fresh feed stream",
+        "Product stream",
+        "Recycle stream",
+        "Reactor wall"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A purge is a bleed taken from the recycle stream to remove unwanted material.",
+      "explanation_ar": "التصريف جزء يُسحب من تيار الإرجاع (Recycle) لإزالة المواد غير المرغوبة.",
+      "memorization_note": "البايباس (Bypass): جزء من التغذية يتجاوز وحدة المعالجة ثم يُخلط مع ناتجها (مفيد للتحكم بتركيب التيار النهائي). التصريف (Purge): جزء من تيار الإرجاع (Recycle) يُسحب لمنع تراكم المواد الخاملة أو الشوائب في الحلقة. موازنة نقطة التقسيم: $\\text{F} = \\text{F}_1 + \\text{F}_2$ وتركيب التيارات المتفرعة متساوٍ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "What can a bypass stream be used to control?",
+      "question_ar": "ما الذي يمكن التحكم به باستخدام تيار البايباس؟",
+      "options": [
+        "The composition of the final (mixed) outlet stream",
+        "The purity of the fresh feed",
+        "The catalyst activity",
+        "The reactor wall temperature"
+      ],
+      "correct_index": 0,
+      "explanation_en": "By adjusting the fraction of feed that bypasses the unit, the composition of the final blended stream can be adjusted.",
+      "explanation_ar": "بتغيير نسبة التغذية المتجاوزة للوحدة يمكن ضبط تركيب التيار النهائي بعد الخلط.",
+      "memorization_note": "البايباس (Bypass): جزء من التغذية يتجاوز وحدة المعالجة ثم يُخلط مع ناتجها (مفيد للتحكم بتركيب التيار النهائي). التصريف (Purge): جزء من تيار الإرجاع (Recycle) يُسحب لمنع تراكم المواد الخاملة أو الشوائب في الحلقة. موازنة نقطة التقسيم: $\\text{F} = \\text{F}_1 + \\text{F}_2$ وتركيب التيارات المتفرعة متساوٍ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "What is the purpose of a purge stream in a process with recycle?",
+      "question_ar": "ما الغرض من تيار التصريف (Purge) في عملية فيها إرجاع (Recycle)؟",
+      "options": [
+        "To increase the fresh feed rate",
+        "To increase the product purity at the reactor",
+        "To prevent build-up of inerts or impurities in the recycle stream",
+        "To reduce the reactor volume"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Inerts or impurities entering with the feed would accumulate in the recycle loop; a purge removes them and fixes the recycle composition.",
+      "explanation_ar": "المواد الخاملة أو الشوائب الداخلة مع التغذية تتراكم في حلقة الإرجاع، والتصريف يزيلها ويضبط تركيب تيار الإرجاع.",
+      "memorization_note": "البايباس (Bypass): جزء من التغذية يتجاوز وحدة المعالجة ثم يُخلط مع ناتجها (مفيد للتحكم بتركيب التيار النهائي). التصريف (Purge): جزء من تيار الإرجاع (Recycle) يُسحب لمنع تراكم المواد الخاملة أو الشوائب في الحلقة. موازنة نقطة التقسيم: $\\text{F} = \\text{F}_1 + \\text{F}_2$ وتركيب التيارات المتفرعة متساوٍ.",
+      "requires_scratchpad": false
+    }
+  ]
+}

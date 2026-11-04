@@ -1,0 +1,248 @@
+{
+  "topic_en": "Quantifiers & Countable / Uncountable Nouns",
+  "topic_ar": "أدوات الكمية والمعدود وغير المعدود",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول much/many/few/little/some/any وتمييز المعدود من غير المعدود",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "How ___ water do you drink every day?",
+      "question_ar": "كم ____ من الماء تشرب كل يوم؟",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "a few"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: much. 'water' is uncountable → much.",
+      "explanation_ar": "الإجابة الصحيحة: much. water غير معدود ← much.",
+      "memorization_note": "$\\text{many/few/fewer} + \\text{معدود جمع}$ ، $\\text{much/little/less} + \\text{غير معدود}$ ، $\\text{a lot of}$ للنوعين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "How ___ apples are there in the bag?",
+      "question_ar": "كم ____ تفاحة في الكيس؟",
+      "options": [
+        "much",
+        "little",
+        "a little",
+        "many"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: many. 'apples' is countable plural → many.",
+      "explanation_ar": "الإجابة الصحيحة: many. apples معدود جمع ← many.",
+      "memorization_note": "$\\text{many/few/fewer} + \\text{معدود جمع}$ ، $\\text{much/little/less} + \\text{غير معدود}$ ، $\\text{a lot of}$ للنوعين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "There isn't ___ milk left.",
+      "question_ar": "لم يبق ____ حليب.",
+      "options": [
+        "any",
+        "some",
+        "a few",
+        "many"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: any. Negative sentence → any.",
+      "explanation_ar": "الإجابة الصحيحة: any. الجملة المنفية ← any.",
+      "memorization_note": "$\\text{some}$: المثبت والعرض ، $\\text{any}$: النفي والسؤال ، $\\text{no} + \\text{اسم} = \\text{not any}$ (لا نجمع نفيين) ، $\\text{every + مفرد}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "I have ___ friends here, so I'm not lonely.",
+      "question_ar": "لدي ____ أصدقاء هنا، لذلك لست وحيداً.",
+      "options": [
+        "a little",
+        "much",
+        "a few",
+        "little"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: a few. Positive meaning with countable → a few.",
+      "explanation_ar": "الإجابة الصحيحة: a few. معنى إيجابي مع معدود ← a few.",
+      "memorization_note": "$\\text{a few / a little}$ = بعض (إيجابي) ، $\\text{few / little}$ = قليل جداً (سلبي) ، $\\text{too many}$ + معدود ، $\\text{too much}$ + غير معدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "He has ___ money, so he can't buy the car.",
+      "question_ar": "لديه ____ مال، لذلك لا يستطيع شراء السيارة.",
+      "options": [
+        "a few",
+        "little",
+        "many",
+        "few"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: little. Negative meaning with uncountable → little.",
+      "explanation_ar": "الإجابة الصحيحة: little. معنى سلبي مع غير معدود ← little.",
+      "memorization_note": "$\\text{a few / a little}$ = بعض (إيجابي) ، $\\text{few / little}$ = قليل جداً (سلبي) ، $\\text{too many}$ + معدود ، $\\text{too much}$ + غير معدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "There are too ___ cars on the road.",
+      "question_ar": "هناك ____ كثيرة جداً من السيارات على الطريق.",
+      "options": [
+        "much",
+        "little",
+        "less",
+        "many"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: many. too many + countable.",
+      "explanation_ar": "الإجابة الصحيحة: many. too many + معدود.",
+      "memorization_note": "$\\text{a few / a little}$ = بعض (إيجابي) ، $\\text{few / little}$ = قليل جداً (سلبي) ، $\\text{too many}$ + معدود ، $\\text{too much}$ + غير معدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "There is too ___ traffic.",
+      "question_ar": "هناك ____ كثير جداً من الازدحام.",
+      "options": [
+        "much",
+        "many",
+        "few",
+        "a few"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: much. too much + uncountable (traffic).",
+      "explanation_ar": "الإجابة الصحيحة: much. too much + غير معدود.",
+      "memorization_note": "$\\text{a few / a little}$ = بعض (إيجابي) ، $\\text{few / little}$ = قليل جداً (سلبي) ، $\\text{too many}$ + معدود ، $\\text{too much}$ + غير معدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Could I have ___ advice?",
+      "question_ar": "هل يمكنني الحصول على ____ نصيحة؟",
+      "options": [
+        "an",
+        "many",
+        "some",
+        "a few"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: some. 'advice' is uncountable: some advice.",
+      "explanation_ar": "الإجابة الصحيحة: some. advice غير معدود ← some advice.",
+      "memorization_note": "أولاً: هل الاسم معدود أم غير معدود؟ غير المعدود الشائع: $\\text{water, money, time, information, advice, furniture, news, traffic}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "The furniture ___ expensive.",
+      "question_ar": "الأثاث ____ غالٍ.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "be"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: is. 'furniture' is uncountable and takes a singular verb.",
+      "explanation_ar": "الإجابة الصحيحة: is. furniture غير معدود ويأخذ فعلاً مفرداً.",
+      "memorization_note": "أولاً: هل الاسم معدود أم غير معدود؟ غير المعدود الشائع: $\\text{water, money, time, information, advice, furniture, news, traffic}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "There are ___ cars than last year.",
+      "question_ar": "هناك سيارات ____ من العام الماضي.",
+      "options": [
+        "less",
+        "little",
+        "much",
+        "fewer"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: fewer. fewer + countable plural.",
+      "explanation_ar": "الإجابة الصحيحة: fewer. fewer + معدود جمع.",
+      "memorization_note": "$\\text{many/few/fewer} + \\text{معدود جمع}$ ، $\\text{much/little/less} + \\text{غير معدود}$ ، $\\text{a lot of}$ للنوعين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "___ student must bring a pen.",
+      "question_ar": "على ____ طالب أن يحضر قلماً.",
+      "options": [
+        "Every",
+        "All",
+        "Most",
+        "Many"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: Every. 'student' is singular → Every.",
+      "explanation_ar": "الإجابة الصحيحة: Every. student مفرد ← Every.",
+      "memorization_note": "$\\text{some}$: المثبت والعرض ، $\\text{any}$: النفي والسؤال ، $\\text{no} + \\text{اسم} = \\text{not any}$ (لا نجمع نفيين) ، $\\text{every + مفرد}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "Would you like ___ tea?",
+      "question_ar": "هل تود ____ شاي؟",
+      "options": [
+        "many",
+        "a few",
+        "some",
+        "several"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: some. Offers use some.",
+      "explanation_ar": "الإجابة الصحيحة: some. العرض ← some.",
+      "memorization_note": "$\\text{some}$: المثبت والعرض ، $\\text{any}$: النفي والسؤال ، $\\text{no} + \\text{اسم} = \\text{not any}$ (لا نجمع نفيين) ، $\\text{every + مفرد}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Which sentence is correct?",
+      "question_ar": "أي جملة صحيحة؟",
+      "options": [
+        "Information are useful.",
+        "Information is useful.",
+        "Informations is useful.",
+        "An information is useful."
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: Information is useful.. 'information' is uncountable: no plural, no article, singular verb.",
+      "explanation_ar": "الإجابة الصحيحة: Information is useful.. information غير معدود: لا جمع ولا أداة وفعل مفرد.",
+      "memorization_note": "أولاً: هل الاسم معدود أم غير معدود؟ غير المعدود الشائع: $\\text{water, money, time, information, advice, furniture, news, traffic}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "She can't escape the fire. There is ___ time!",
+      "question_ar": "لا تستطيع الهروب من الحريق. الوقت ____ جداً!",
+      "options": [
+        "too few",
+        "too much little",
+        "much few",
+        "too little"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: too little. 'time' is uncountable → too little.",
+      "explanation_ar": "الإجابة الصحيحة: too little. time غير معدود ← too little.",
+      "memorization_note": "$\\text{a few / a little}$ = بعض (إيجابي) ، $\\text{few / little}$ = قليل جداً (سلبي) ، $\\text{too many}$ + معدود ، $\\text{too much}$ + غير معدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "We were surprised that there ___ queues outside the cinema.",
+      "question_ar": "تفاجأنا أن ____ طوابير خارج السينما.",
+      "options": [
+        "were no",
+        "were any",
+        "weren't no",
+        "were not"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: were no. 'no' = not any; avoid double negatives: were no.",
+      "explanation_ar": "الإجابة الصحيحة: were no. no = not any ولا نجمع نفيين ← were no.",
+      "memorization_note": "$\\text{some}$: المثبت والعرض ، $\\text{any}$: النفي والسؤال ، $\\text{no} + \\text{اسم} = \\text{not any}$ (لا نجمع نفيين) ، $\\text{every + مفرد}$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

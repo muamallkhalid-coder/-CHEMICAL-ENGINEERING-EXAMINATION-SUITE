@@ -1,0 +1,1688 @@
+{
+  "topic_en": "Material Balance Fundamentals",
+  "topic_ar": "أساسيات الموازنة المادية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة حول معادلة الموازنة المادية، الأنظمة المفتوحة والمغلقة، الحالة المستقرة وغير المستقرة، خلط التيارات، التفاعلات الكيميائية والمتفاعل المحدد، العمليات الدفعية وشبه الدفعية واستراتيجية الحل",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "The concept of material balance is based on:",
+      "question_ar": "يستند مفهوم الموازنة المادية إلى:",
+      "options": [
+        "Conservation of mass",
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Conservation of volume"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Material balance is the statement of the law of conservation of mass: mass cannot be created or destroyed.",
+      "explanation_ar": "Material balance is the statement of the law of conservation of mass: mass cannot be created or destroyed.",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "In the material balance equation, (Final condition + Sum of outputs) equals:",
+      "question_ar": "في معادلة الموازنة المادية، (الحالة النهائية + مجموع المخرجات) تساوي:",
+      "options": [
+        "Initial condition $-$ Sum of inputs",
+        "Initial condition $+$ Sum of inputs",
+        "Sum of inputs $-$ Initial condition",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\text{Final} - \\text{Initial} = \\sum\\text{In} - \\sum\\text{Out} \\Rightarrow \\text{Final} + \\sum\\text{Out} = \\text{Initial} + \\sum\\text{In}$$",
+      "explanation_ar": "$$\\text{Final} - \\text{Initial} = \\sum\\text{In} - \\sum\\text{Out} \\Rightarrow \\text{Final} + \\sum\\text{Out} = \\text{Initial} + \\sum\\text{In}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "A container has 10 g of water; 5 g is added and 2 g is removed. What is the final amount?",
+      "question_ar": "وعاء فيه $10\\text{ g}$ ماء أُضيف إليه $5\\text{ g}$ وسُحب منه $2\\text{ g}$. ما الكمية النهائية؟",
+      "options": [
+        "$7\\text{ g}$",
+        "$10\\text{ g}$",
+        "$13\\text{ g}$",
+        "$15\\text{ g}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\text{Final} = 10 + 5 - 2 = 13\\text{ g}$$",
+      "explanation_ar": "$$\\text{Final} = 10 + 5 - 2 = 13\\text{ g}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "10 mol of $\\text{O}_2$ is mixed with 10 mol of $\\text{H}_2$ ($2\\text{H}_2 + \\text{O}_2 \\to 2\\text{H}_2\\text{O}$). How many moles of $\\text{H}_2\\text{O}$ are produced?",
+      "question_ar": "خُلط $10\\text{ mol}$ من $\\text{O}_2$ مع $10\\text{ mol}$ من $\\text{H}_2$ ($2\\text{H}_2 + \\text{O}_2 \\to 2\\text{H}_2\\text{O}$). كم مولاً من $\\text{H}_2\\text{O}$ يتكوّن؟",
+      "options": [
+        "$5\\text{ mol}$",
+        "$10\\text{ mol}$",
+        "$15\\text{ mol}$",
+        "$20\\text{ mol}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{H}_2$: $10/2 = 5$; $\\text{O}_2$: $10/1 = 10$, so $\\text{H}_2$ is limiting ($\\xi = 5$). $$n_{\\text{H}_2\\text{O}} = 2\\xi = 10\\text{ mol}$$",
+      "explanation_ar": "$\\text{H}_2$: $10/2 = 5$; $\\text{O}_2$: $10/1 = 10$, so $\\text{H}_2$ is limiting ($\\xi = 5$). $$n_{\\text{H}_2\\text{O}} = 2\\xi = 10\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 5,
+      "question_en": "A combustion reaction has reactants 1 mol $\\text{C}_x\\text{H}_y$ and 2 mol $\\text{O}_2$ and products 1 mol $\\text{CO}_2$ and 2 mol $\\text{H}_2\\text{O}$. What is $x + y$?",
+      "question_ar": "تفاعل احتراق متفاعلاته $1\\text{ mol}$ من $\\text{C}_x\\text{H}_y$ و $2\\text{ mol}$ من $\\text{O}_2$ ونواتجه $1\\text{ mol}$ $\\text{CO}_2$ و $2\\text{ mol}$ $\\text{H}_2\\text{O}$. ما قيمة $x + y$؟",
+      "options": [
+        "$1$",
+        "$3$",
+        "$4$",
+        "$5$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "C balance: $x = 1$. H balance: $y = 2\\times2 = 4$. (O check: $2\\times2 = 2 + 2$ ✓) $$x + y = 5\\ (\\text{CH}_4)$$",
+      "explanation_ar": "C balance: $x = 1$. H balance: $y = 2\\times2 = 4$. (O check: $2\\times2 = 2 + 2$ ✓) $$x + y = 5\\ (\\text{CH}_4)$$",
+      "memorization_note": "1. موازنة الذرات: عدد ذرات كل عنصر في المتفاعلات = عددها في النواتج. 2. $\\text{CO}_2$ فيه ذرة C واحدة و$\\text{H}_2\\text{O}$ فيه ذرتا H. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "2 mol $\\text{CH}_4$ and 1 mol $\\text{C}_2\\text{H}_4$ react to give 1 mol $\\text{C}_3\\text{H}_8$ and 1 mol $\\text{C}_x\\text{H}_y$. What is $x\\cdot y$?",
+      "question_ar": "يتفاعل $2\\text{ mol}$ من $\\text{CH}_4$ و $1\\text{ mol}$ من $\\text{C}_2\\text{H}_4$ لينتج $1\\text{ mol}$ $\\text{C}_3\\text{H}_8$ و $1\\text{ mol}$ $\\text{C}_x\\text{H}_y$. ما قيمة $x\\cdot y$؟",
+      "options": [
+        "$2$",
+        "$4$",
+        "$8$",
+        "$12$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "C: $2(1) + 1(2) = 1(3) + x \\Rightarrow x = 1$. H: $2(4) + 1(4) = 1(8) + y \\Rightarrow y = 4$. $$x\\cdot y = 4\\ (\\text{CH}_4)$$",
+      "explanation_ar": "C: $2(1) + 1(2) = 1(3) + x \\Rightarrow x = 1$. H: $2(4) + 1(4) = 1(8) + y \\Rightarrow y = 4$. $$x\\cdot y = 4\\ (\\text{CH}_4)$$",
+      "memorization_note": "1. موازنة الذرات لكل عنصر. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "2 mol NaOH and 1 mol $\\text{H}_2\\text{SO}_4$ react to give $\\text{Na}_2\\text{SO}_4$ and $\\text{H}_2\\text{O}$. What is the total number of moles of products?",
+      "question_ar": "يتفاعل $2\\text{ mol}$ NaOH مع $1\\text{ mol}$ $\\text{H}_2\\text{SO}_4$ لينتج $\\text{Na}_2\\text{SO}_4$ و $\\text{H}_2\\text{O}$. كم المجموع الكلي لمولات النواتج؟",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$2\\text{NaOH} + \\text{H}_2\\text{SO}_4 \\to \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O}$. $$n_{\\text{Na}_2\\text{SO}_4} = 1,\\ n_{\\text{H}_2\\text{O}} = 2 \\Rightarrow n_{\\text{total}} = 3\\text{ mol}$$",
+      "explanation_ar": "$2\\text{NaOH} + \\text{H}_2\\text{SO}_4 \\to \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O}$. $$n_{\\text{Na}_2\\text{SO}_4} = 1,\\ n_{\\text{H}_2\\text{O}} = 2 \\Rightarrow n_{\\text{total}} = 3\\text{ mol}$$",
+      "memorization_note": "1. وازن المعادلة ثم طبّق النسب الستويكيومترية. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "For $A + 2B \\to 3C$, 2 mol A and 4 mol B are fed. How many moles of C are formed?",
+      "question_ar": "للتفاعل $A + 2B \\to 3C$ أُدخل $2\\text{ mol}$ من A و $4\\text{ mol}$ من B. كم مولاً من C يتكون؟",
+      "options": [
+        "$2$",
+        "$4$",
+        "$6$",
+        "$8$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $2/1 = 2$, B: $4/2 = 2$ (stoichiometric), $\\xi = 2$. $$n_C = 3\\xi = 6\\text{ mol}$$",
+      "explanation_ar": "A: $2/1 = 2$, B: $4/2 = 2$ (stoichiometric), $\\xi = 2$. $$n_C = 3\\xi = 6\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "A system initially has 10 mol of A and 10 mol more are added; all A reacts by $4A \\to B$. How many moles of B form?",
+      "question_ar": "نظام يحتوي في البداية $10\\text{ mol}$ من A وأُضيف إليه $10\\text{ mol}$ أخرى؛ يتفاعل كل A حسب $4A \\to B$. كم مولاً من B يتكون؟",
+      "options": [
+        "$5$",
+        "$10$",
+        "$15$",
+        "$20$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n_B = \\frac{n_A}{4} = \\frac{10 + 10}{4} = 5\\text{ mol}$$",
+      "explanation_ar": "$$n_B = \\frac{n_A}{4} = \\frac{10 + 10}{4} = 5\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "10 mol A and 10 mol C are present; reaction $2A + C \\to 5B$. How many moles of B are produced?",
+      "question_ar": "يوجد $10\\text{ mol}$ من A و $10\\text{ mol}$ من C؛ التفاعل $2A + C \\to 5B$. كم مولاً من B يتكون؟",
+      "options": [
+        "$5$",
+        "$10$",
+        "$25$",
+        "$50$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $10/2 = 5$, C: $10/1 = 10$, so A is limiting, $\\xi = 5$. $$n_B = 5\\xi = 25\\text{ mol}$$",
+      "explanation_ar": "A: $10/2 = 5$, C: $10/1 = 10$, so A is limiting, $\\xi = 5$. $$n_B = 5\\xi = 25\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "10 mol of a substance are present, 5 mol are added, then a reaction reduces the amount by 20%. What is the final amount?",
+      "question_ar": "يوجد $10\\text{ mol}$ من مادة، أُضيف $5\\text{ mol}$ ثم قلّ المقدار بنسبة $20\\%$ نتيجة تفاعل. ما المقدار النهائي؟",
+      "options": [
+        "$10$",
+        "$12$",
+        "$15$",
+        "$18$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n = (10 + 5)\\times(1 - 0.20) = 12\\text{ mol}$$",
+      "explanation_ar": "$$n = (10 + 5)\\times(1 - 0.20) = 12\\text{ mol}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "15 mol of a substance are present, 25 mol are added, then a reaction reduces the amount by 50%. What is the final amount?",
+      "question_ar": "يوجد $15\\text{ mol}$ من مادة، أُضيف $25\\text{ mol}$ ثم قلّ المقدار بنسبة $50\\%$ نتيجة تفاعل. ما المقدار النهائي؟",
+      "options": [
+        "$10$",
+        "$15$",
+        "$20$",
+        "$40$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$n = (15 + 25)\\times0.5 = 20\\text{ mol}$$",
+      "explanation_ar": "$$n = (15 + 25)\\times0.5 = 20\\text{ mol}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "10 mol A and 12 mol C are present; reaction $2A + 3C \\to 2B$. How many moles of B are produced?",
+      "question_ar": "يوجد $10\\text{ mol}$ من A و $12\\text{ mol}$ من C؛ التفاعل $2A + 3C \\to 2B$. كم مولاً من B يتكون؟",
+      "options": [
+        "$4$",
+        "$5$",
+        "$8$",
+        "$12$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $10/2 = 5$, C: $12/3 = 4$, so C is limiting, $\\xi = 4$. $$n_B = 2\\xi = 8\\text{ mol}$$",
+      "explanation_ar": "A: $10/2 = 5$, C: $12/3 = 4$, so C is limiting, $\\xi = 4$. $$n_B = 2\\xi = 8\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "10 mol A and 8 mol C are present; reaction $5A + 3C \\to 4B$. How many moles of B are produced?",
+      "question_ar": "يوجد $10\\text{ mol}$ من A و $8\\text{ mol}$ من C؛ التفاعل $5A + 3C \\to 4B$. كم مولاً من B يتكون؟",
+      "options": [
+        "$4$",
+        "$6$",
+        "$8$",
+        "$10$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $10/5 = 2$, C: $8/3 = 2.67$, so A is limiting, $\\xi = 2$. $$n_B = 4\\xi = 8\\text{ mol}$$",
+      "explanation_ar": "A: $10/5 = 2$, C: $8/3 = 2.67$, so A is limiting, $\\xi = 2$. $$n_B = 4\\xi = 8\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "8 mol A and 24 mol B are present; reaction $2A + 3B \\to 4C + 5D$. How many moles of D are produced?",
+      "question_ar": "يوجد $8\\text{ mol}$ من A و $24\\text{ mol}$ من B؛ التفاعل $2A + 3B \\to 4C + 5D$. كم مولاً من D يتكون؟",
+      "options": [
+        "$10$",
+        "$20$",
+        "$30$",
+        "$40$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A: $8/2 = 4$, B: $24/3 = 8$, so A is limiting, $\\xi = 4$. $$n_D = 5\\xi = 20\\text{ mol}$$",
+      "explanation_ar": "A: $8/2 = 4$, B: $24/3 = 8$, so A is limiting, $\\xi = 4$. $$n_D = 5\\xi = 20\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "Which quantity is constant in a closed system?",
+      "question_ar": "أي كمية تبقى ثابتة في النظام المغلق؟",
+      "options": [
+        "Energy",
+        "Mass",
+        "Temperature",
+        "Momentum"
+      ],
+      "correct_index": 1,
+      "explanation_en": "No matter crosses the boundary of a closed system, so its total mass is constant (energy can still be exchanged).",
+      "explanation_ar": "No matter crosses the boundary of a closed system, so its total mass is constant (energy can still be exchanged).",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "What are the boundary walls of a closed system like?",
+      "question_ar": "كيف تكون جدران الحدود في النظام المغلق؟",
+      "options": [
+        "Impermeable",
+        "Permeable",
+        "Rigid",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Matter cannot cross the boundary, so the wall is impermeable.",
+      "explanation_ar": "Matter cannot cross the boundary, so the wall is impermeable.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "A desert cooler is an example of:",
+      "question_ar": "مبرد الصحراء (Desert cooler) مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Water is added and evaporates out, so matter flows across the boundary: open system.",
+      "explanation_ar": "Water is added and evaporates out, so matter flows across the boundary: open system.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "A jar filled with water (sealed) is an example of:",
+      "question_ar": "وعاء مملوء بالماء (مغلق) مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "No matter enters or leaves: closed system.",
+      "explanation_ar": "No matter enters or leaves: closed system.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "A pressure cooker is an example of:",
+      "question_ar": "قدر الضغط مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Mass does not cross its boundary while heat is exchanged: closed system (not isolated).",
+      "explanation_ar": "Mass does not cross its boundary while heat is exchanged: closed system (not isolated).",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "A country is an example of:",
+      "question_ar": "الدولة مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "People, goods and materials cross its boundaries: open system.",
+      "explanation_ar": "People, goods and materials cross its boundaries: open system.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "An egg is an example of:",
+      "question_ar": "البيضة مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "No significant matter exchange with the surroundings: closed system.",
+      "explanation_ar": "No significant matter exchange with the surroundings: closed system.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "The human body is an example of:",
+      "question_ar": "جسم الإنسان مثال على:",
+      "options": [
+        "Closed system",
+        "Open system",
+        "Isolated system",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Air, food and water enter and leave: open system.",
+      "explanation_ar": "Air, food and water enter and leave: open system.",
+      "memorization_note": "1. نظام مفتوح: يتبادل المادة والطاقة مع المحيط. 2. نظام مغلق: لا تعبر المادة حدوده لكن قد تنتقل الطاقة. 3. نظام معزول: لا مادة ولا طاقة. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "What is the accumulation after 10 s if the inflow is 15 g/s and the outflow is 10 g/s?",
+      "question_ar": "ما التراكم بعد $10\\text{ s}$ إذا كان تدفق الدخل $15\\text{ g/s}$ وتدفق الخرج $10\\text{ g/s}$؟",
+      "options": [
+        "$5\\text{ g}$",
+        "$10\\text{ g}$",
+        "$50\\text{ g}$",
+        "$100\\text{ g}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\text{Acc} = (\\dot m_{\\text{in}} - \\dot m_{\\text{out}})\\,t = (15 - 10)(10) = 50\\text{ g}$$",
+      "explanation_ar": "$$\\text{Acc} = (\\dot m_{\\text{in}} - \\dot m_{\\text{out}})\\,t = (15 - 10)(10) = 50\\text{ g}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "What is the accumulation after 4 s if the inflow is 8 g/s and the outflow is 3 g/s?",
+      "question_ar": "ما التراكم بعد $4\\text{ s}$ إذا كان تدفق الدخل $8\\text{ g/s}$ وتدفق الخرج $3\\text{ g/s}$؟",
+      "options": [
+        "$12\\text{ g}$",
+        "$20\\text{ g}$",
+        "$32\\text{ g}$",
+        "$40\\text{ g}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\text{Acc} = (8 - 3)(4) = 20\\text{ g}$$",
+      "explanation_ar": "$$\\text{Acc} = (8 - 3)(4) = 20\\text{ g}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "A has an inflow of 5 mol/s and fully reacts by $A \\to 2B$. How many moles of B leave after 5 s?",
+      "question_ar": "معدل دخول A هو $5\\text{ mol/s}$ ويتفاعل كلياً حسب $A \\to 2B$. كم مولاً من B يخرج بعد $5\\text{ s}$؟",
+      "options": [
+        "$5$",
+        "$10$",
+        "$25$",
+        "$50$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$n_B = 2\\times(5\\times5) = 50\\text{ mol}$$",
+      "explanation_ar": "$$n_B = 2\\times(5\\times5) = 50\\text{ mol}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "A has an inflow of 8 mol/s and fully reacts by $3A \\to B$. How many moles of B leave after 6 s?",
+      "question_ar": "معدل دخول A هو $8\\text{ mol/s}$ ويتفاعل كلياً حسب $3A \\to B$. كم مولاً من B يخرج بعد $6\\text{ s}$؟",
+      "options": [
+        "$5$",
+        "$8$",
+        "$10$",
+        "$16$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$n_B = \\frac{8\\times6}{3} = 16\\text{ mol}$$",
+      "explanation_ar": "$$n_B = \\frac{8\\times6}{3} = 16\\text{ mol}$$",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "A (5 mol/s) and B (10 mol/s) react by $A + 2B \\to 3C$. What is the outflow rate of C?",
+      "question_ar": "يدخل A بمعدل $5\\text{ mol/s}$ وB بمعدل $10\\text{ mol/s}$ ويتفاعلان $A + 2B \\to 3C$. ما معدل خروج C؟",
+      "options": [
+        "$5\\text{ mol/s}$",
+        "$10\\text{ mol/s}$",
+        "$15\\text{ mol/s}$",
+        "$20\\text{ mol/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $5/1 = 5$, B: $10/2 = 5$ (stoichiometric), $\\dot\\xi = 5$. $$\\dot n_C = 3\\times5 = 15\\text{ mol/s}$$",
+      "explanation_ar": "A: $5/1 = 5$, B: $10/2 = 5$ (stoichiometric), $\\dot\\xi = 5$. $$\\dot n_C = 3\\times5 = 15\\text{ mol/s}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "A (4 mol/s) and B (8 mol/s) react by $A + B \\to 3C$. What is the outflow rate of C?",
+      "question_ar": "يدخل A بمعدل $4\\text{ mol/s}$ وB بمعدل $8\\text{ mol/s}$ ويتفاعلان $A + B \\to 3C$. ما معدل خروج C؟",
+      "options": [
+        "$4\\text{ mol/s}$",
+        "$8\\text{ mol/s}$",
+        "$12\\text{ mol/s}$",
+        "$24\\text{ mol/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A: $4/1 = 4$, B: $8/1 = 8$, so A is limiting, $\\dot\\xi = 4$. $$\\dot n_C = 3\\times4 = 12\\text{ mol/s}$$",
+      "explanation_ar": "A: $4/1 = 4$, B: $8/1 = 8$, so A is limiting, $\\dot\\xi = 4$. $$\\dot n_C = 3\\times4 = 12\\text{ mol/s}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "A (8 mol/s) and B (10 mol/s) react by $4A + 5B \\to 3C$. What is the outflow rate of C?",
+      "question_ar": "يدخل A بمعدل $8\\text{ mol/s}$ وB بمعدل $10\\text{ mol/s}$ ويتفاعلان $4A + 5B \\to 3C$. ما معدل خروج C؟",
+      "options": [
+        "$4\\text{ mol/s}$",
+        "$6\\text{ mol/s}$",
+        "$8\\text{ mol/s}$",
+        "$10\\text{ mol/s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A: $8/4 = 2$, B: $10/5 = 2$ (stoichiometric), $\\dot\\xi = 2$. $$\\dot n_C = 3\\times2 = 6\\text{ mol/s}$$",
+      "explanation_ar": "A: $8/4 = 2$, B: $10/5 = 2$ (stoichiometric), $\\dot\\xi = 2$. $$\\dot n_C = 3\\times2 = 6\\text{ mol/s}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "Which quantity remains constant in a steady-state system?",
+      "question_ar": "أي كمية تبقى ثابتة في نظام الحالة المستقرة؟",
+      "options": [
+        "Mass held up in the system",
+        "Energy",
+        "Momentum",
+        "Density"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In steady state, input equals output, so the mass inside the system does not change with time.",
+      "explanation_ar": "In steady state, input equals output, so the mass inside the system does not change with time.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "A reaction occurs in a vessel such that its mass does not change but its temperature rises. The system is:",
+      "question_ar": "يحدث تفاعل في وعاء بحيث لا تتغير كتلته لكن ترتفع درجة حرارته. النظام:",
+      "options": [
+        "Steady-state",
+        "Unsteady-state",
+        "Cannot say",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In steady state all properties (T, P, mass) are constant with time; a rising temperature makes it unsteady.",
+      "explanation_ar": "In steady state all properties (T, P, mass) are constant with time; a rising temperature makes it unsteady.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "A fluid enters a vessel at 10 L/s and leaves by two paths at 7 L/s and 3 L/s. What type of flow is this?",
+      "question_ar": "يدخل مائع وعاءً بمعدل $10\\text{ L/s}$ ويخرج عبر مسارين بمعدلي $7\\text{ L/s}$ و $3\\text{ L/s}$. ما نوع الجريان؟",
+      "options": [
+        "Steady-state",
+        "Unsteady-state",
+        "Cannot say",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\text{In} = 10,\\quad \\text{Out} = 7 + 3 = 10 \\Rightarrow \\text{Acc} = 0$$ Steady-state.",
+      "explanation_ar": "$$\\text{In} = 10,\\quad \\text{Out} = 7 + 3 = 10 \\Rightarrow \\text{Acc} = 0$$ Steady-state.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "A fluid enters a vessel at 10 L/s and leaves by two paths at 5 L/s and 3 L/s. What type of flow is this?",
+      "question_ar": "يدخل مائع وعاءً بمعدل $10\\text{ L/s}$ ويخرج عبر مسارين بمعدلي $5\\text{ L/s}$ و $3\\text{ L/s}$. ما نوع الجريان؟",
+      "options": [
+        "Steady-state",
+        "Unsteady-state",
+        "Cannot say",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\text{In} = 10 \\neq \\text{Out} = 8 \\Rightarrow \\text{Acc} = 2\\text{ L/s}$$ Unsteady-state.",
+      "explanation_ar": "$$\\text{In} = 10 \\neq \\text{Out} = 8 \\Rightarrow \\text{Acc} = 2\\text{ L/s}$$ Unsteady-state.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "In an unsteady-state process, the inflow and outflow rates are both increased by 10 kg/s. What is the change in the accumulation rate?",
+      "question_ar": "في عملية غير مستقرة زِيد معدلا الدخل والخرج بمقدار $10\\text{ kg/s}$ لكل منهما. ما التغير في معدل التراكم؟",
+      "options": [
+        "$0$",
+        "$5\\text{ kg/s}$",
+        "$10\\text{ kg/s}$",
+        "$20\\text{ kg/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\text{Acc}_{\\text{new}} = (\\text{In}+10) - (\\text{Out}+10) = \\text{In} - \\text{Out}$$ so the change is 0.",
+      "explanation_ar": "$$\\text{Acc}_{\\text{new}} = (\\text{In}+10) - (\\text{Out}+10) = \\text{In} - \\text{Out}$$ so the change is 0.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "A vessel initially holds 10 L of water; inflow is 8 L/s and outflow is 5 L/s. How much water is in the vessel after 10 s?",
+      "question_ar": "وعاء يحتوي في البداية $10\\text{ L}$ ماء؛ معدل الدخول $8\\text{ L/s}$ والخروج $5\\text{ L/s}$. كم يصبح الماء بعد $10\\text{ s}$؟",
+      "options": [
+        "$10\\text{ L}$",
+        "$20\\text{ L}$",
+        "$30\\text{ L}$",
+        "$40\\text{ L}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$V = 10 + (8 - 5)(10) = 40\\text{ L}$$",
+      "explanation_ar": "$$V = 10 + (8 - 5)(10) = 40\\text{ L}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "A vessel initially holds 6 L of water; inflow is 2 L/s and outflow is 4 L/s. How much water is in the vessel after 1 s?",
+      "question_ar": "وعاء يحتوي في البداية $6\\text{ L}$ ماء؛ معدل الدخول $2\\text{ L/s}$ والخروج $4\\text{ L/s}$. كم يصبح الماء بعد $1\\text{ s}$؟",
+      "options": [
+        "$2\\text{ L}$",
+        "$4\\text{ L}$",
+        "$6\\text{ L}$",
+        "$8\\text{ L}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$V = 6 + (2 - 4)(1) = 4\\text{ L}$$",
+      "explanation_ar": "$$V = 6 + (2 - 4)(1) = 4\\text{ L}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "What is the final amount of fluid in a vessel at steady state?",
+      "question_ar": "ما الكمية النهائية للمائع في وعاء يعمل في الحالة المستقرة؟",
+      "options": [
+        "Same as the initial amount",
+        "Twice the initial amount",
+        "Zero",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At steady state In = Out, so the holdup is unchanged.",
+      "explanation_ar": "At steady state In = Out, so the holdup is unchanged.",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "In what ratio should 57-octane and 63-octane fuels be mixed to obtain 59-octane?",
+      "question_ar": "بأي نسبة يُخلط وقود أوكتانه $57$ مع وقود أوكتانه $63$ للحصول على وقود أوكتانه $59$؟",
+      "options": [
+        "$1:1$",
+        "$2:1$",
+        "$3:1$",
+        "$4:1$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Let $x$ = fraction of 63-octane: $59 = 63x + 57(1-x) \\Rightarrow x = \\frac{1}{3}$. $$\\text{57-octane : 63-octane} = \\frac{2}{3} : \\frac{1}{3} = 2 : 1$$",
+      "explanation_ar": "Let $x$ = fraction of 63-octane: $59 = 63x + 57(1-x) \\Rightarrow x = \\frac{1}{3}$. $$\\text{57-octane : 63-octane} = \\frac{2}{3} : \\frac{1}{3} = 2 : 1$$",
+      "memorization_note": "1. موازنة الأوكتان: $$\\bar{O} = \\sum x_i O_i$$ 2. قاعدة الرافعة (Lever rule) للخلط. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "What volume of 57-octane fuel must be mixed with 3 L of 63-octane fuel to obtain 59-octane fuel (volumes additive)?",
+      "question_ar": "ما حجم الوقود ذي الأوكتان $57$ الذي يجب خلطه مع $3\\text{ L}$ من وقود أوكتانه $63$ للحصول على وقود أوكتانه $59$ (الحجوم جمعية)؟",
+      "options": [
+        "$1\\text{ L}$",
+        "$3\\text{ L}$",
+        "$6\\text{ L}$",
+        "$9\\text{ L}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$57V + 63(3) = 59(V + 3) \\Rightarrow 57V + 189 = 59V + 177 \\Rightarrow V = 6\\text{ L}$$ (ratio 2:1 ✓)",
+      "explanation_ar": "$$57V + 63(3) = 59(V + 3) \\Rightarrow 57V + 189 = 59V + 177 \\Rightarrow V = 6\\text{ L}$$ (ratio 2:1 ✓)",
+      "memorization_note": "1. موازنة الأوكتان: $$\\bar{O} = \\sum x_i O_i$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "In an unsteady-state system (no reaction), the inflow rate is 10 mol/s and $10\\text{ mol}$ accumulate in 2 s. What is the outflow rate?",
+      "question_ar": "في نظام غير مستقر (بدون تفاعل) معدل الدخول $10\\text{ mol/s}$ وتراكم $10\\text{ mol}$ خلال $2\\text{ s}$. ما معدل الخروج؟",
+      "options": [
+        "$5\\text{ mol/s}$",
+        "$10\\text{ mol/s}$",
+        "$15\\text{ mol/s}$",
+        "$20\\text{ mol/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 10 - \\frac{10}{2} = 5\\text{ mol/s}$$",
+      "explanation_ar": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 10 - \\frac{10}{2} = 5\\text{ mol/s}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "In an unsteady-state system (no reaction), the inflow rate is 12 mol/s and $18\\text{ mol}$ accumulate in 3 s. What is the outflow rate?",
+      "question_ar": "في نظام غير مستقر (بدون تفاعل) معدل الدخول $12\\text{ mol/s}$ وتراكم $18\\text{ mol}$ خلال $3\\text{ s}$. ما معدل الخروج؟",
+      "options": [
+        "$4\\text{ mol/s}$",
+        "$6\\text{ mol/s}$",
+        "$8\\text{ mol/s}$",
+        "$9\\text{ mol/s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 12 - \\frac{18}{3} = 6\\text{ mol/s}$$",
+      "explanation_ar": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 12 - \\frac{18}{3} = 6\\text{ mol/s}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "In an unsteady-state system (no reaction), the inflow rate is 5 mol/s and $10\\text{ mol}$ accumulate in 5 s. What is the outflow rate?",
+      "question_ar": "في نظام غير مستقر (بدون تفاعل) معدل الدخول $5\\text{ mol/s}$ وتراكم $10\\text{ mol}$ خلال $5\\text{ s}$. ما معدل الخروج؟",
+      "options": [
+        "$1\\text{ mol/s}$",
+        "$2\\text{ mol/s}$",
+        "$3\\text{ mol/s}$",
+        "$5\\text{ mol/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 5 - \\frac{10}{5} = 3\\text{ mol/s}$$",
+      "explanation_ar": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 5 - \\frac{10}{5} = 3\\text{ mol/s}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "In an unsteady-state system (no reaction), the inflow rate is 8 mol/s and $6\\text{ mol}$ accumulate in 2 s. What is the outflow rate?",
+      "question_ar": "في نظام غير مستقر (بدون تفاعل) معدل الدخول $8\\text{ mol/s}$ وتراكم $6\\text{ mol}$ خلال $2\\text{ s}$. ما معدل الخروج؟",
+      "options": [
+        "$1\\text{ mol/s}$",
+        "$2\\text{ mol/s}$",
+        "$3\\text{ mol/s}$",
+        "$5\\text{ mol/s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 8 - \\frac{6}{2} = 5\\text{ mol/s}$$",
+      "explanation_ar": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 8 - \\frac{6}{2} = 5\\text{ mol/s}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "In an unsteady-state system (no reaction), the inflow rate is 6 mol/s and $18\\text{ mol}$ accumulate in 9 s. What is the outflow rate?",
+      "question_ar": "في نظام غير مستقر (بدون تفاعل) معدل الدخول $6\\text{ mol/s}$ وتراكم $18\\text{ mol}$ خلال $9\\text{ s}$. ما معدل الخروج؟",
+      "options": [
+        "$1\\text{ mol/s}$",
+        "$2\\text{ mol/s}$",
+        "$3\\text{ mol/s}$",
+        "$4\\text{ mol/s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 6 - \\frac{18}{9} = 4\\text{ mol/s}$$",
+      "explanation_ar": "$$\\dot n_{\\text{out}} = \\dot n_{\\text{in}} - \\frac{\\text{Acc}}{t} = 6 - \\frac{18}{9} = 4\\text{ mol/s}$$",
+      "memorization_note": "1. حالة الاستقرار: لا تتغير الخواص مع الزمن والتراكم $= 0$ أي $\\text{In} = \\text{Out}$. 2. حالة اللااستقرار: $$\\text{Acc} = \\text{In} - \\text{Out} \\neq 0$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "A reactor feed of 4 g/h has mass fractions 0.25 $\\text{H}_2\\text{O}$ and 0.75 $\\text{CO}_2$. If the product also leaves at 4 g/h with no reaction, what is the mass flow of $\\text{CO}_2$ in the product?",
+      "question_ar": "تغذية مفاعل $4\\text{ g/h}$ كسورها الكتلية $0.25$ $\\text{H}_2\\text{O}$ و $0.75$ $\\text{CO}_2$. إذا خرج المنتج بمعدل $4\\text{ g/h}$ دون تفاعل فما تدفق $\\text{CO}_2$ في المنتج؟",
+      "options": [
+        "$3\\text{ g/h}$",
+        "$9\\text{ g/h}$",
+        "$15\\text{ g/h}$",
+        "$21\\text{ g/h}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "No reaction, so $\\dot m_{\\text{CO}_2}$ is conserved: $$\\dot m_{\\text{CO}_2} = 0.75\\times4 = 3\\text{ g/h}$$",
+      "explanation_ar": "No reaction, so $\\dot m_{\\text{CO}_2}$ is conserved: $$\\dot m_{\\text{CO}_2} = 0.75\\times4 = 3\\text{ g/h}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "Stream 1 (10 kg/h) has 0.4 $\\text{CO}_2$/0.6 $\\text{H}_2\\text{O}$ and stream 2 (40 kg/h) has 0.1 $\\text{CO}_2$/0.9 $\\text{H}_2\\text{O}$ (mass fractions). What is the mass fraction of $\\text{CO}_2$ in the product?",
+      "question_ar": "الجدول 1 ($10\\text{ kg/h}$) فيه $0.4$ $\\text{CO}_2$ و $0.6$ $\\text{H}_2\\text{O}$ والجدول 2 ($40\\text{ kg/h}$) فيه $0.1$ $\\text{CO}_2$ و $0.9$ $\\text{H}_2\\text{O}$ (كسور كتلية). ما الكسر الكتلي لـ $\\text{CO}_2$ في المنتج؟",
+      "options": [
+        "$0.08$",
+        "$0.16$",
+        "$0.24$",
+        "$0.32$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$w_{\\text{CO}_2} = \\frac{0.4(10) + 0.1(40)}{10 + 40} = \\frac{8}{50} = 0.16$$",
+      "explanation_ar": "$$w_{\\text{CO}_2} = \\frac{0.4(10) + 0.1(40)}{10 + 40} = \\frac{8}{50} = 0.16$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "A reactor has two feeds, 10 kg/h and 30 kg/h, and two product streams, one at 15 kg/h. What is the other product rate?",
+      "question_ar": "مفاعل له تغذيتان $10\\text{ kg/h}$ و $30\\text{ kg/h}$ وتياران ناتجان أحدهما $15\\text{ kg/h}$. ما معدل التيار الناتج الآخر؟",
+      "options": [
+        "$5\\text{ kg/h}$",
+        "$15\\text{ kg/h}$",
+        "$25\\text{ kg/h}$",
+        "$35\\text{ kg/h}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$10 + 30 = 15 + x \\Rightarrow x = 25\\text{ kg/h}$$",
+      "explanation_ar": "$$10 + 30 = 15 + x \\Rightarrow x = 25\\text{ kg/h}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "A feed has 0.75 mass fraction $\\text{O}_2$ and the rest $\\text{SO}_2$. If the product rate is 1000 kg/h (no accumulation), what is the $\\text{SO}_2$ rate in the feed?",
+      "question_ar": "تغذية كسرها الكتلي من $\\text{O}_2$ يساوي $0.75$ والباقي $\\text{SO}_2$. إذا كان معدل المنتج $1000\\text{ kg/h}$ (بدون تراكم) فما معدل $\\text{SO}_2$ في التغذية؟",
+      "options": [
+        "$100\\text{ kg/h}$",
+        "$250\\text{ kg/h}$",
+        "$750\\text{ kg/h}$",
+        "$1000\\text{ kg/h}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Feed rate $=$ product rate $= 1000\\text{ kg/h}$. $$\\dot m_{\\text{SO}_2} = (1 - 0.75)(1000) = 250\\text{ kg/h}$$",
+      "explanation_ar": "Feed rate $=$ product rate $= 1000\\text{ kg/h}$. $$\\dot m_{\\text{SO}_2} = (1 - 0.75)(1000) = 250\\text{ kg/h}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "Two feeds with rate ratio 1:9 contain $\\text{O}_2/\\text{O}_3$ at mass fractions 0.6/0.4 (stream 1) and 0.2/0.8 (stream 2). What is the mass fraction of $\\text{O}_2$ in the product?",
+      "question_ar": "تغذيتان نسبة معدليهما $1:9$ وتحتويان $\\text{O}_2/\\text{O}_3$ بكسور كتلية $0.6/0.4$ (الأولى) و $0.2/0.8$ (الثانية). ما الكسر الكتلي لـ $\\text{O}_2$ في المنتج؟",
+      "options": [
+        "$0.24$",
+        "$0.48$",
+        "$0.72$",
+        "$0.96$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Basis: 1 and 9 kg/h. $$w_{\\text{O}_2} = \\frac{1(0.6) + 9(0.2)}{1 + 9} = 0.24$$",
+      "explanation_ar": "Basis: 1 and 9 kg/h. $$w_{\\text{O}_2} = \\frac{1(0.6) + 9(0.2)}{1 + 9} = 0.24$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "A feed of 10 kg/h has mass fractions 0.4 $\\text{CO}_2$ and 0.6 $\\text{SO}_2$. If 50% of the $\\text{CO}_2$ leaves in the product stream, what is the $\\text{CO}_2$ rate in the product?",
+      "question_ar": "تغذية $10\\text{ kg/h}$ كسورها الكتلية $0.4$ $\\text{CO}_2$ و $0.6$ $\\text{SO}_2$. إذا خرج $50\\%$ من $\\text{CO}_2$ في تيار المنتج فما معدل $\\text{CO}_2$ فيه؟",
+      "options": [
+        "$0.5\\text{ kg/h}$",
+        "$1\\text{ kg/h}$",
+        "$1.5\\text{ kg/h}$",
+        "$2\\text{ kg/h}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\dot m_{\\text{CO}_2,\\text{feed}} = 0.4\\times10 = 4\\text{ kg/h},\\quad \\dot m_{\\text{CO}_2,\\text{product}} = 0.5\\times4 = 2\\text{ kg/h}$$",
+      "explanation_ar": "$$\\dot m_{\\text{CO}_2,\\text{feed}} = 0.4\\times10 = 4\\text{ kg/h},\\quad \\dot m_{\\text{CO}_2,\\text{product}} = 0.5\\times4 = 2\\text{ kg/h}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "A unit receives feeds of 10 kg/h and 5 kg/h and its product stream is 9 kg/h. What percentage of the total feed leaves in the product stream?",
+      "question_ar": "وحدة تستقبل تغذيتين $10\\text{ kg/h}$ و $5\\text{ kg/h}$ وتيار منتجها $9\\text{ kg/h}$. ما النسبة المئوية من مجموع التغذية التي تخرج في تيار المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$30\\%$",
+        "$60\\%$",
+        "$100\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\frac{9}{10 + 5}\\times100 = 60\\%$$",
+      "explanation_ar": "$$\\frac{9}{10 + 5}\\times100 = 60\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "Wastewater with TSS 40 mg/L at 10 L/min is discharged into a TSS-free river flowing at 15 L/min. What is the TSS concentration after mixing?",
+      "question_ar": "مياه صرف فيها $40\\text{ mg/L}$ من TSS بمعدل $10\\text{ L/min}$ تُصرّف في نهر خالٍ من TSS يجري بمعدل $15\\text{ L/min}$. ما تركيز TSS بعد الخلط؟",
+      "options": [
+        "$10\\text{ mg/L}$",
+        "$16\\text{ mg/L}$",
+        "$30\\text{ mg/L}$",
+        "$60\\text{ mg/L}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$C = \\frac{40(10) + 0(15)}{10 + 15} = 16\\text{ mg/L}$$",
+      "explanation_ar": "$$C = \\frac{40(10) + 0(15)}{10 + 15} = 16\\text{ mg/L}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "Water with chlorine at 10 mg/L and 20 L/min is discharged into a chlorine-free river. After mixing, the river contains 5 mg/L. What is the river flow rate?",
+      "question_ar": "ماء فيه كلور بتركيز $10\\text{ mg/L}$ وبمعدل $20\\text{ L/min}$ يُصرّف في نهر خالٍ من الكلور. بعد الخلط يصبح تركيز النهر $5\\text{ mg/L}$. ما معدل جريان النهر؟",
+      "options": [
+        "$10\\text{ L/min}$",
+        "$20\\text{ L/min}$",
+        "$30\\text{ L/min}$",
+        "$40\\text{ L/min}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$10(20) = 5(20 + Q) \\Rightarrow 200 = 100 + 5Q \\Rightarrow Q = 20\\text{ L/min}$$",
+      "explanation_ar": "$$10(20) = 5(20 + Q) \\Rightarrow 200 = 100 + 5Q \\Rightarrow Q = 20\\text{ L/min}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "Wastewater at 40 L/min with an unknown TSS concentration is discharged into a TSS-free river flowing at 20 L/min. After mixing the TSS is 5 mg/L. What is the TSS concentration in the wastewater?",
+      "question_ar": "مياه صرف بمعدل $40\\text{ L/min}$ وتركيز TSS مجهول تُصرّف في نهر خالٍ من TSS يجري بمعدل $20\\text{ L/min}$. بعد الخلط يصبح TSS مساوياً $5\\text{ mg/L}$. ما تركيز TSS في مياه الصرف؟",
+      "options": [
+        "$5\\text{ mg/L}$",
+        "$7.5\\text{ mg/L}$",
+        "$10\\text{ mg/L}$",
+        "$15\\text{ mg/L}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$C(40) = 5(40 + 20) \\Rightarrow C = \\frac{300}{40} = 7.5\\text{ mg/L}$$",
+      "explanation_ar": "$$C(40) = 5(40 + 20) \\Rightarrow C = \\frac{300}{40} = 7.5\\text{ mg/L}$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "A feed of 5 mol containing 20% $\\text{CH_4}$ and 80% $\\text{H_2O}$ enters a vessel initially holding 3 mol of $\\text{H_2O}$ (no reaction; all contents leave as product). What is the mole % of $\\text{CH_4}$ in the product?",
+      "question_ar": "تدخل وعاءً تغذية قدرها $5\\text{ mol}$ تحتوي $20\\%$ $\\text{CH_4}$ و $80\\%$ $\\text{H_2O}$ وكان الوعاء يحتوي مسبقاً $3\\text{ mol}$ من $\\text{H_2O}$ (بدون تفاعل وكل المحتويات تخرج كمنتج). ما النسبة المولية المئوية لـ $\\text{CH_4}$ في المنتج؟",
+      "options": [
+        "$5\\%$",
+        "$12.5\\%$",
+        "$25\\%$",
+        "$37.5\\%$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{CH}_4} = 0.2(5) = 1\\text{ mol},\\ n_{\\text{total}} = 5 + 3 = 8$. $$\\%\\text{CH}_4 = \\frac{1}{8}\\times100 = 12.5\\%$$",
+      "explanation_ar": "$n_{\\text{CH}_4} = 0.2(5) = 1\\text{ mol},\\ n_{\\text{total}} = 5 + 3 = 8$. $$\\%\\text{CH}_4 = \\frac{1}{8}\\times100 = 12.5\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 57,
+      "question_en": "A feed of 5 mol containing 20% $\\text{O_2}$ and 80% $\\text{CO_2}$ enters a vessel initially holding 3 mol of $\\text{O_2}$ (no reaction; all contents leave as product). What is the mole % of $\\text{O_2}$ in the product?",
+      "question_ar": "تدخل وعاءً تغذية قدرها $5\\text{ mol}$ تحتوي $20\\%$ $\\text{O_2}$ و $80\\%$ $\\text{CO_2}$ وكان الوعاء يحتوي مسبقاً $3\\text{ mol}$ من $\\text{O_2}$ (بدون تفاعل وكل المحتويات تخرج كمنتج). ما النسبة المولية المئوية لـ $\\text{O_2}$ في المنتج؟",
+      "options": [
+        "$12.5\\%$",
+        "$25\\%$",
+        "$37.5\\%$",
+        "$50\\%$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{O}_2} = 0.2(5) + 3 = 4\\text{ mol},\\ n_{\\text{total}} = 5 + 3 = 8$. $$\\%\\text{O}_2 = \\frac{4}{8}\\times100 = 50\\%$$",
+      "explanation_ar": "$n_{\\text{O}_2} = 0.2(5) + 3 = 4\\text{ mol},\\ n_{\\text{total}} = 5 + 3 = 8$. $$\\%\\text{O}_2 = \\frac{4}{8}\\times100 = 50\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 58,
+      "question_en": "A feed of 10 mol containing 40% $\\text{O_2}$ and 60% $\\text{CO_2}$ enters a vessel initially holding 6 mol of $\\text{O_2}$ (no reaction; all contents leave as product). What is the mole % of $\\text{O_2}$ in the product?",
+      "question_ar": "تدخل وعاءً تغذية قدرها $10\\text{ mol}$ تحتوي $40\\%$ $\\text{O_2}$ و $60\\%$ $\\text{CO_2}$ وكان الوعاء يحتوي مسبقاً $6\\text{ mol}$ من $\\text{O_2}$ (بدون تفاعل وكل المحتويات تخرج كمنتج). ما النسبة المولية المئوية لـ $\\text{O_2}$ في المنتج؟",
+      "options": [
+        "$12.5\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$62.5\\%$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{O}_2} = 0.4(10) + 6 = 10\\text{ mol},\\ n_{\\text{total}} = 10 + 6 = 16$. $$\\%\\text{O}_2 = \\frac{10}{16}\\times100 = 62.5\\%$$",
+      "explanation_ar": "$n_{\\text{O}_2} = 0.4(10) + 6 = 10\\text{ mol},\\ n_{\\text{total}} = 10 + 6 = 16$. $$\\%\\text{O}_2 = \\frac{10}{16}\\times100 = 62.5\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 59,
+      "question_en": "A feed of 10 mol containing 50% $\\text{O_2}$ and 50% $\\text{CO_2}$ enters a vessel initially holding 10 mol of $\\text{O_2}$ (no reaction; all contents leave as product). What is the mole % of $\\text{O_2}$ in the product?",
+      "question_ar": "تدخل وعاءً تغذية قدرها $10\\text{ mol}$ تحتوي $50\\%$ $\\text{O_2}$ و $50\\%$ $\\text{CO_2}$ وكان الوعاء يحتوي مسبقاً $10\\text{ mol}$ من $\\text{O_2}$ (بدون تفاعل وكل المحتويات تخرج كمنتج). ما النسبة المولية المئوية لـ $\\text{O_2}$ في المنتج؟",
+      "options": [
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{O}_2} = 0.5(10) + 10 = 15\\text{ mol},\\ n_{\\text{total}} = 10 + 10 = 20$. $$\\%\\text{O}_2 = \\frac{15}{20}\\times100 = 75\\%$$",
+      "explanation_ar": "$n_{\\text{O}_2} = 0.5(10) + 10 = 15\\text{ mol},\\ n_{\\text{total}} = 10 + 10 = 20$. $$\\%\\text{O}_2 = \\frac{15}{20}\\times100 = 75\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 60,
+      "question_en": "A feed of 20 mol containing 75% $\\text{O_2}$ and 25% $\\text{CO_2}$ enters a vessel initially holding 5 mol of $\\text{O_2}$ (no reaction; all contents leave as product). What is the mole % of $\\text{O_2}$ in the product?",
+      "question_ar": "تدخل وعاءً تغذية قدرها $20\\text{ mol}$ تحتوي $75\\%$ $\\text{O_2}$ و $25\\%$ $\\text{CO_2}$ وكان الوعاء يحتوي مسبقاً $5\\text{ mol}$ من $\\text{O_2}$ (بدون تفاعل وكل المحتويات تخرج كمنتج). ما النسبة المولية المئوية لـ $\\text{O_2}$ في المنتج؟",
+      "options": [
+        "$20\\%$",
+        "$40\\%$",
+        "$60\\%$",
+        "$80\\%$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{O}_2} = 0.75(20) + 5 = 20\\text{ mol},\\ n_{\\text{total}} = 20 + 5 = 25$. $$\\%\\text{O}_2 = \\frac{20}{25}\\times100 = 80\\%$$",
+      "explanation_ar": "$n_{\\text{O}_2} = 0.75(20) + 5 = 20\\text{ mol},\\ n_{\\text{total}} = 20 + 5 = 25$. $$\\%\\text{O}_2 = \\frac{20}{25}\\times100 = 80\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 61,
+      "question_en": "The general balance for a reactive system is $\\text{Accumulation} = \\text{Input} + \\text{Generation} - x$. What is $x$?",
+      "question_ar": "موازنة النظام التفاعلي العامة: $\\text{Accumulation} = \\text{Input} + \\text{Generation} - x$. ما قيمة $x$؟",
+      "options": [
+        "Consumption $-$ Output",
+        "Consumption $+$ Output",
+        "Output $-$ Consumption",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{Acc} = \\text{In} - \\text{Out} + \\text{Gen} - \\text{Cons} = \\text{In} + \\text{Gen} - (\\text{Out} + \\text{Cons})$, so $x = \\text{Out} + \\text{Cons}$.",
+      "explanation_ar": "$\\text{Acc} = \\text{In} - \\text{Out} + \\text{Gen} - \\text{Cons} = \\text{In} + \\text{Gen} - (\\text{Out} + \\text{Cons})$, so $x = \\text{Out} + \\text{Cons}$.",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "If $\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$ with all four terms distinct and non-zero, the system is:",
+      "question_ar": "إذا كانت $\\text{Acc} = \\text{In} - \\text{Out} + \\text{Gen} - \\text{Cons}$ وجميع الحدود الأربعة مختلفة وغير صفرية فالنظام:",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "None of the mentioned"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Input/output terms ⇒ open; generation/consumption ⇒ reactive; non-zero accumulation ⇒ unsteady. It is none of (a), (b), (c).",
+      "explanation_ar": "Input/output terms ⇒ open; generation/consumption ⇒ reactive; non-zero accumulation ⇒ unsteady. It is none of (a), (b), (c).",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "If $\\text{Accumulation} = \\text{Generation} - \\text{Consumption}$ (both non-zero), the system is:",
+      "question_ar": "إذا كانت $\\text{Acc} = \\text{Gen} - \\text{Cons}$ (وكلاهما غير صفري) فالنظام:",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "There are no input/output terms, so no matter crosses the boundary: a closed (reactive) system.",
+      "explanation_ar": "There are no input/output terms, so no matter crosses the boundary: a closed (reactive) system.",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "If $\\text{Accumulation} = \\text{Input} - \\text{Output}$ (both non-zero), the system is:",
+      "question_ar": "إذا كانت $\\text{Acc} = \\text{In} - \\text{Out}$ (وكلاهما غير صفري) فالنظام:",
+      "options": [
+        "Steady-state",
+        "Closed",
+        "Non-reactive",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "There are no generation/consumption terms: a non-reactive system.",
+      "explanation_ar": "There are no generation/consumption terms: a non-reactive system.",
+      "memorization_note": "1. معادلة الموازنة العامة: $$\\text{Accumulation} = \\text{Input} - \\text{Output} + \\text{Generation} - \\text{Consumption}$$ 2. حالة الاستقرار: $\\text{Accumulation} = 0$. 3. نظام مغلق: لا دخل ولا خرج. نظام غير تفاعلي: لا توليد ولا استهلاك. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "In a steady-state reactor, NaOH and HCl are each fed at 100 mol/min ($\\text{NaOH} + \\text{HCl} \\to \\text{NaCl} + \\text{H}_2\\text{O}$). What is the production rate of NaCl?",
+      "question_ar": "في مفاعل مستقر يُغذّى NaOH و HCl بمعدل $100\\text{ mol/min}$ لكل منهما ($\\text{NaOH} + \\text{HCl} \\to \\text{NaCl} + \\text{H}_2\\text{O}$). ما معدل إنتاج NaCl؟",
+      "options": [
+        "$100\\text{ mol/min}$",
+        "$200\\text{ mol/min}$",
+        "$300\\text{ mol/min}$",
+        "$400\\text{ mol/min}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "1:1 stoichiometry, feeds equal: $\\dot\\xi = 100\\text{ mol/min}$. $$\\dot n_{\\text{NaCl}} = 1\\times100 = 100\\text{ mol/min}$$",
+      "explanation_ar": "1:1 stoichiometry, feeds equal: $\\dot\\xi = 100\\text{ mol/min}$. $$\\dot n_{\\text{NaCl}} = 1\\times100 = 100\\text{ mol/min}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "1 M NaOH and 1 M HCl are each fed at 100 L/min to a steady-state reactor ($\\text{NaOH} + \\text{HCl} \\to \\text{NaCl} + \\text{H}_2\\text{O}$, volumes additive). What is the NaCl concentration in the outlet?",
+      "question_ar": "يُغذّى مفاعل مستقر بمحلول $1\\text{ M}$ NaOH ومحلول $1\\text{ M}$ HCl بمعدل $100\\text{ L/min}$ لكل منهما ($\\text{NaOH} + \\text{HCl} \\to \\text{NaCl} + \\text{H}_2\\text{O}$ والحجوم جمعية). ما تركيز NaCl في الخارج؟",
+      "options": [
+        "$0.5\\text{ M}$",
+        "$1\\text{ M}$",
+        "$2\\text{ M}$",
+        "$3\\text{ M}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dot n_{\\text{NaCl}} = 1\\times100 = 100\\text{ mol/min}$, outlet flow $= 200\\text{ L/min}$. $$C = \\frac{100}{200} = 0.5\\text{ M}$$",
+      "explanation_ar": "$\\dot n_{\\text{NaCl}} = 1\\times100 = 100\\text{ mol/min}$, outlet flow $= 200\\text{ L/min}$. $$C = \\frac{100}{200} = 0.5\\text{ M}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. 3. التركيز $C = \\dot n/\\dot V$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 67,
+      "question_en": "NaCl (200 mol/min) and $\\text{H}_2\\text{CO}_3$ (100 mol/min) are fed to a steady-state reactor ($2\\text{NaCl} + \\text{H}_2\\text{CO}_3 \\to \\text{Na}_2\\text{CO}_3 + 2\\text{HCl}$). What is the production rate of $\\text{Na}_2\\text{CO}_3$?",
+      "question_ar": "يُغذّى مفاعل مستقر بـ NaCl بمعدل $200\\text{ mol/min}$ و $\\text{H}_2\\text{CO}_3$ بمعدل $100\\text{ mol/min}$ ($2\\text{NaCl} + \\text{H}_2\\text{CO}_3 \\to \\text{Na}_2\\text{CO}_3 + 2\\text{HCl}$). ما معدل إنتاج $\\text{Na}_2\\text{CO}_3$؟",
+      "options": [
+        "$100\\text{ mol/min}$",
+        "$200\\text{ mol/min}$",
+        "$300\\text{ mol/min}$",
+        "$400\\text{ mol/min}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "NaCl: $200/2 = 100$, $\\text{H}_2\\text{CO}_3$: $100/1 = 100$ (stoichiometric). $$\\dot n_{\\text{Na}_2\\text{CO}_3} = 1\\times100 = 100\\text{ mol/min}$$",
+      "explanation_ar": "NaCl: $200/2 = 100$, $\\text{H}_2\\text{CO}_3$: $100/1 = 100$ (stoichiometric). $$\\dot n_{\\text{Na}_2\\text{CO}_3} = 1\\times100 = 100\\text{ mol/min}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "2 mol NaCl and 1 mol $\\text{H}_2\\text{CO}_3$ react by $2\\text{NaCl} + \\text{H}_2\\text{CO}_3 \\to \\text{Na}_2\\text{CO}_3 + 2\\text{HCl}$. How many moles of $\\text{Na}_2\\text{CO}_3$ are produced?",
+      "question_ar": "يتفاعل $2\\text{ mol}$ NaCl مع $1\\text{ mol}$ $\\text{H}_2\\text{CO}_3$ حسب $2\\text{NaCl} + \\text{H}_2\\text{CO}_3 \\to \\text{Na}_2\\text{CO}_3 + 2\\text{HCl}$. كم مولاً من $\\text{Na}_2\\text{CO}_3$ يتكون؟",
+      "options": [
+        "$1\\text{ mol}$",
+        "$2\\text{ mol}$",
+        "$3\\text{ mol}$",
+        "$4\\text{ mol}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "NaCl: $2/2 = 1$, $\\text{H}_2\\text{CO}_3$: $1/1 = 1$, $\\xi = 1$. $$n_{\\text{Na}_2\\text{CO}_3} = 1\\text{ mol}$$",
+      "explanation_ar": "NaCl: $2/2 = 1$, $\\text{H}_2\\text{CO}_3$: $1/1 = 1$, $\\xi = 1$. $$n_{\\text{Na}_2\\text{CO}_3} = 1\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "5 mol $\\text{CH}_4$ and 5 mol $\\text{O}_2$ react ($\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$). How many moles of $\\text{CO}_2$ are produced?",
+      "question_ar": "يتفاعل $5\\text{ mol}$ من $\\text{CH}_4$ و $5\\text{ mol}$ من $\\text{O}_2$ ($\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$). كم مولاً من $\\text{CO}_2$ يتكون؟",
+      "options": [
+        "$2.5\\text{ mol}$",
+        "$5\\text{ mol}$",
+        "$7.5\\text{ mol}$",
+        "$10\\text{ mol}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{CH}_4$: $5/1 = 5$; $\\text{O}_2$: $5/2 = 2.5$ ⇒ $\\text{O}_2$ is limiting. $$n_{\\text{CO}_2} = 1\\times2.5 = 2.5\\text{ mol}$$",
+      "explanation_ar": "$\\text{CH}_4$: $5/1 = 5$; $\\text{O}_2$: $5/2 = 2.5$ ⇒ $\\text{O}_2$ is limiting. $$n_{\\text{CO}_2} = 1\\times2.5 = 2.5\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "5 mol $\\text{KNO}_3$ and 5 mol $\\text{H}_2\\text{SO}_4$ react ($2\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\to \\text{K}_2\\text{SO}_4 + 2\\text{HNO}_3$). How many moles of $\\text{K}_2\\text{SO}_4$ are produced?",
+      "question_ar": "يتفاعل $5\\text{ mol}$ من $\\text{KNO}_3$ و $5\\text{ mol}$ من $\\text{H}_2\\text{SO}_4$ ($2\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\to \\text{K}_2\\text{SO}_4 + 2\\text{HNO}_3$). كم مولاً من $\\text{K}_2\\text{SO}_4$ يتكون؟",
+      "options": [
+        "$2.5\\text{ mol}$",
+        "$5\\text{ mol}$",
+        "$7.5\\text{ mol}$",
+        "$10\\text{ mol}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{KNO}_3$: $5/2 = 2.5$; $\\text{H}_2\\text{SO}_4$: $5/1 = 5$ ⇒ $\\text{KNO}_3$ is limiting. $$n_{\\text{K}_2\\text{SO}_4} = 2.5\\text{ mol}$$",
+      "explanation_ar": "$\\text{KNO}_3$: $5/2 = 2.5$; $\\text{H}_2\\text{SO}_4$: $5/1 = 5$ ⇒ $\\text{KNO}_3$ is limiting. $$n_{\\text{K}_2\\text{SO}_4} = 2.5\\text{ mol}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "HCl and NaOH are each fed at 1 mol/h ($\\text{HCl} + \\text{NaOH} \\to \\text{NaCl} + \\text{H}_2\\text{O}$). What is the outflow rate of NaCl?",
+      "question_ar": "يُغذّى HCl و NaOH بمعدل $1\\text{ mol/h}$ لكل منهما ($\\text{HCl} + \\text{NaOH} \\to \\text{NaCl} + \\text{H}_2\\text{O}$). ما معدل خروج NaCl؟",
+      "options": [
+        "$1\\text{ mol/h}$",
+        "$2\\text{ mol/h}$",
+        "$3\\text{ mol/h}$",
+        "$4\\text{ mol/h}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dot\\xi = 1$, so $\\dot n_{\\text{NaCl}} = 1\\text{ mol/h}$.",
+      "explanation_ar": "$\\dot\\xi = 1$, so $\\dot n_{\\text{NaCl}} = 1\\text{ mol/h}$.",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "$\\text{H}_2\\text{SO}_4$ and NaCl are each fed at 2 mol/h ($\\text{H}_2\\text{SO}_4 + 2\\text{NaCl} \\to 2\\text{HCl} + \\text{Na}_2\\text{SO}_4$). What is the outflow rate of HCl?",
+      "question_ar": "يُغذّى $\\text{H}_2\\text{SO}_4$ و NaCl بمعدل $2\\text{ mol/h}$ لكل منهما ($\\text{H}_2\\text{SO}_4 + 2\\text{NaCl} \\to 2\\text{HCl} + \\text{Na}_2\\text{SO}_4$). ما معدل خروج HCl؟",
+      "options": [
+        "$1\\text{ mol/h}$",
+        "$2\\text{ mol/h}$",
+        "$3\\text{ mol/h}$",
+        "$4\\text{ mol/h}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{H}_2\\text{SO}_4$: $2/1 = 2$; NaCl: $2/2 = 1$ ⇒ NaCl limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{HCl}} = 2\\times1 = 2\\text{ mol/h}$$",
+      "explanation_ar": "$\\text{H}_2\\text{SO}_4$: $2/1 = 2$; NaCl: $2/2 = 1$ ⇒ NaCl limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{HCl}} = 2\\times1 = 2\\text{ mol/h}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "$\\text{CH}_4$ and $\\text{O}_2$ are each fed at 2 mol/h ($\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$). What is the outflow rate of $\\text{CO}_2$?",
+      "question_ar": "يُغذّى $\\text{CH}_4$ و $\\text{O}_2$ بمعدل $2\\text{ mol/h}$ لكل منهما ($\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$). ما معدل خروج $\\text{CO}_2$؟",
+      "options": [
+        "$1\\text{ mol/h}$",
+        "$2\\text{ mol/h}$",
+        "$3\\text{ mol/h}$",
+        "$4\\text{ mol/h}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{CH}_4$: $2/1 = 2$; $\\text{O}_2$: $2/2 = 1$ ⇒ $\\text{O}_2$ limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{CO}_2} = 1\\text{ mol/h}$$",
+      "explanation_ar": "$\\text{CH}_4$: $2/1 = 2$; $\\text{O}_2$: $2/2 = 1$ ⇒ $\\text{O}_2$ limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{CO}_2} = 1\\text{ mol/h}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "$\\text{C}_3\\text{H}_8$ and $\\text{O}_2$ are each fed at 2 mol/h ($\\text{C}_3\\text{H}_8 + 5\\text{O}_2 \\to 3\\text{CO}_2 + 4\\text{H}_2\\text{O}$). What is the outflow rate of $\\text{CO}_2$?",
+      "question_ar": "يُغذّى $\\text{C}_3\\text{H}_8$ و $\\text{O}_2$ بمعدل $2\\text{ mol/h}$ لكل منهما ($\\text{C}_3\\text{H}_8 + 5\\text{O}_2 \\to 3\\text{CO}_2 + 4\\text{H}_2\\text{O}$). ما معدل خروج $\\text{CO}_2$؟",
+      "options": [
+        "$1\\text{ mol/h}$",
+        "$1.2\\text{ mol/h}$",
+        "$1.5\\text{ mol/h}$",
+        "$2\\text{ mol/h}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{C}_3\\text{H}_8$: $2/1 = 2$; $\\text{O}_2$: $2/5 = 0.4$ ⇒ $\\text{O}_2$ limiting, $\\dot\\xi = 0.4$. $$\\dot n_{\\text{CO}_2} = 3\\times0.4 = 1.2\\text{ mol/h}$$",
+      "explanation_ar": "$\\text{C}_3\\text{H}_8$: $2/1 = 2$; $\\text{O}_2$: $2/5 = 0.4$ ⇒ $\\text{O}_2$ limiting, $\\dot\\xi = 0.4$. $$\\dot n_{\\text{CO}_2} = 3\\times0.4 = 1.2\\text{ mol/h}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "$\\text{C}_6\\text{H}_6$ and $\\text{H}_2$ are each fed at 3 mol/h ($\\text{C}_6\\text{H}_6 + 3\\text{H}_2 \\to \\text{C}_6\\text{H}_{12}$). What is the outflow rate of $\\text{C}_6\\text{H}_{12}$?",
+      "question_ar": "يُغذّى $\\text{C}_6\\text{H}_6$ و $\\text{H}_2$ بمعدل $3\\text{ mol/h}$ لكل منهما ($\\text{C}_6\\text{H}_6 + 3\\text{H}_2 \\to \\text{C}_6\\text{H}_{12}$). ما معدل خروج $\\text{C}_6\\text{H}_{12}$؟",
+      "options": [
+        "$1\\text{ mol/h}$",
+        "$1.2\\text{ mol/h}$",
+        "$1.5\\text{ mol/h}$",
+        "$2\\text{ mol/h}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{C}_6\\text{H}_6$: $3/1 = 3$; $\\text{H}_2$: $3/3 = 1$ ⇒ $\\text{H}_2$ limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{C}_6\\text{H}_{12}} = 1\\text{ mol/h}$$",
+      "explanation_ar": "$\\text{C}_6\\text{H}_6$: $3/1 = 3$; $\\text{H}_2$: $3/3 = 1$ ⇒ $\\text{H}_2$ limiting, $\\dot\\xi = 1$. $$\\dot n_{\\text{C}_6\\text{H}_{12}} = 1\\text{ mol/h}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "A batch process is one in which material enters the system and, after processing, ____:",
+      "question_ar": "العملية الدفعية (Batch) هي التي تدخل فيها المادة إلى النظام وبعد المعالجة ____:",
+      "options": [
+        "Leaves (at the end of the process)",
+        "Does not leave",
+        "Half of it leaves",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In a batch process the charge is loaded at the start and the product is withdrawn at the end; nothing crosses the boundary in between.",
+      "explanation_ar": "In a batch process the charge is loaded at the start and the product is withdrawn at the end; nothing crosses the boundary in between.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "A semi-batch process is one in which material enters the system and, during the process, ____:",
+      "question_ar": "العملية شبه الدفعية (Semi-batch) هي التي تدخل فيها المادة إلى النظام وخلال العملية ____:",
+      "options": [
+        "Leaves",
+        "Does not leave",
+        "Half of it leaves",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In a semi-batch process material is added (or removed) during the run but not both continuously; here it is added and does not leave.",
+      "explanation_ar": "In a semi-batch process material is added (or removed) during the run but not both continuously; here it is added and does not leave.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "A semi-batch process (input only) differs from an open (continuous) process in the:",
+      "question_ar": "تختلف العملية شبه الدفعية (دخل فقط) عن العملية المفتوحة (المستمرة) في:",
+      "options": [
+        "Input",
+        "Output",
+        "Generation",
+        "Consumption"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The semi-batch has input but no output, whereas an open process has both.",
+      "explanation_ar": "The semi-batch has input but no output, whereas an open process has both.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "A semi-batch process (input only) differs from a closed (batch) process in the:",
+      "question_ar": "تختلف العملية شبه الدفعية (دخل فقط) عن العملية المغلقة (الدفعية) في:",
+      "options": [
+        "Input",
+        "Output",
+        "Generation",
+        "Consumption"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The semi-batch has an input during the run, whereas a closed process has none.",
+      "explanation_ar": "The semi-batch has an input during the run, whereas a closed process has none.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "A tap filling a jar with water is an example of which process?",
+      "question_ar": "ملء وعاء بالماء من الصنبور مثال على أي عملية؟",
+      "options": [
+        "Batch",
+        "Semi-batch",
+        "Neither of them",
+        "Batch & Semi-batch"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Water enters during the process and nothing leaves: semi-batch.",
+      "explanation_ar": "Water enters during the process and nothing leaves: semi-batch.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "Water flowing continuously through a pipe from the tap is an example of which process?",
+      "question_ar": "جريان الماء باستمرار عبر أنبوب من الصنبور مثال على أي عملية؟",
+      "options": [
+        "Batch",
+        "Semi-batch",
+        "Neither of them (continuous)",
+        "Batch & Semi-batch"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Water enters at one end and leaves at the other continuously: a continuous (open) process, neither batch nor semi-batch.",
+      "explanation_ar": "Water enters at one end and leaves at the other continuously: a continuous (open) process, neither batch nor semi-batch.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Water boiling in an open container (steam leaves, nothing enters) is an example of:",
+      "question_ar": "غليان الماء في وعاء مفتوح (يخرج البخار ولا يدخل شيء) مثال على:",
+      "options": [
+        "Batch",
+        "Semi-batch",
+        "Neither of them",
+        "Batch & Semi-batch"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Material leaves during the run with no input, so it is neither batch nor continuous: semi-batch.",
+      "explanation_ar": "Material leaves during the run with no input, so it is neither batch nor continuous: semi-batch.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "Reactants are fed continuously into a vessel during the reaction, and no product is withdrawn until the end. This is an example of:",
+      "question_ar": "تُغذّى المتفاعلات باستمرار إلى وعاء أثناء التفاعل ولا يُسحب أي ناتج حتى النهاية. هذا مثال على:",
+      "options": [
+        "Batch",
+        "Semi-batch",
+        "Neither of them",
+        "Batch & Semi-batch"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Input during the run with no output: semi-batch.",
+      "explanation_ar": "Input during the run with no output: semi-batch.",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "In a batch process, 70 kg $\\text{H}_2\\text{O}$, 10 kg NaOH and other reactants are charged and 100 kg of product leaves (water not consumed). What is the mass % of $\\text{H}_2\\text{O}$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $70\\text{ kg}$ $\\text{H}_2\\text{O}$ و $10\\text{ kg}$ NaOH ومتفاعلات أخرى وخرج $100\\text{ kg}$ ناتج (الماء غير مستهلك). ما النسبة الكتلية المئوية لـ $\\text{H}_2\\text{O}$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$30\\%$",
+        "$70\\%$",
+        "$100\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\%\\text{H}_2\\text{O} = \\frac{70}{100}\\times100 = 70\\%$$",
+      "explanation_ar": "$$\\%\\text{H}_2\\text{O} = \\frac{70}{100}\\times100 = 70\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "10 kg of oil is burned in a container and removed; 1% of the oil stays on the container wall. How much oil is removed?",
+      "question_ar": "يُحرق $10\\text{ kg}$ من الزيت في وعاء ويُسحب؛ ويبقى $1\\%$ منه على جدار الوعاء. كم من الزيت يُسحب؟",
+      "options": [
+        "$8.9\\text{ kg}$",
+        "$9\\text{ kg}$",
+        "$9.9\\text{ kg}$",
+        "$10\\text{ kg}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$m = 10(1 - 0.01) = 9.9\\text{ kg}$$",
+      "explanation_ar": "$$m = 10(1 - 0.01) = 9.9\\text{ kg}$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "In a batch process, 50 kg of $\\text{H}_2\\text{O}$ and 40 kg of $\\text{CO}_2$ are charged together with some $\\text{H}_2\\text{O}$ (no reaction). If 100 kg of product leaves, what is the % of $\\text{H}_2\\text{O}$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $50\\ \\text{kg}$ من $\\text{H}_2\\text{O}$ و $40\\ \\text{kg}$ من $\\text{CO}_2$ مع كمية من $\\text{H}_2\\text{O}$ (بدون تفاعل). إذا خرج $100\\ \\text{kg}$ من الناتج فما نسبة $\\text{H}_2\\text{O}$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$30\\%$",
+        "$60\\%$",
+        "$80\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Only $\\text{CO}_2$ (40) is fixed; the rest is $\\text{H}_2\\text{O}$: $$\\%\\text{H}_2\\text{O} = \\frac{100-40}{100}\\times100 = 60\\%$$",
+      "explanation_ar": "Only $\\text{CO}_2$ (40) is fixed; the rest is $\\text{H}_2\\text{O}$: $$\\%\\text{H}_2\\text{O} = \\frac{100-40}{100}\\times100 = 60\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "In a batch process, 40 mol of $\\text{O}_2$ and 30 mol of $\\text{CO}_2$ are charged together with some $\\text{CO}_2$ (no reaction). If 100 mol of product leaves, what is the % of $\\text{O}_2$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $40\\ \\text{mol}$ من $\\text{O}_2$ و $30\\ \\text{mol}$ من $\\text{CO}_2$ مع كمية من $\\text{CO}_2$ (بدون تفاعل). إذا خرج $100\\ \\text{mol}$ من الناتج فما نسبة $\\text{O}_2$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$40\\%$",
+        "$60\\%$",
+        "$80\\%$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{}$The target component enters as 40 mol and nothing else adds to it: $$\\%\\text{O}_2 = \\frac{40}{100}\\times100 = 40\\%$$",
+      "explanation_ar": "$\\text{}$The target component enters as 40 mol and nothing else adds to it: $$\\%\\text{O}_2 = \\frac{40}{100}\\times100 = 40\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "In a batch process, 5 mol of $\\text{H}_2$ and 3 mol of $\\text{CO}_2$ are charged together with some $\\text{CO}_2$ (no reaction). If 10 mol of product leaves, what is the % of $\\text{H}_2$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $5\\ \\text{mol}$ من $\\text{H}_2$ و $3\\ \\text{mol}$ من $\\text{CO}_2$ مع كمية من $\\text{CO}_2$ (بدون تفاعل). إذا خرج $10\\ \\text{mol}$ من الناتج فما نسبة $\\text{H}_2$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$30\\%$",
+        "$50\\%$",
+        "$80\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\text{}$The target component enters as 5 mol and nothing else adds to it: $$\\%\\text{H}_2 = \\frac{5}{10}\\times100 = 50\\%$$",
+      "explanation_ar": "$\\text{}$The target component enters as 5 mol and nothing else adds to it: $$\\%\\text{H}_2 = \\frac{5}{10}\\times100 = 50\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "In a batch process, 2 mol of $\\text{SO}_2$ and 3 mol of $\\text{CO}_2$ are charged together with some $\\text{SO}_2$ (no reaction). If 5 mol of product leaves, what is the % of $\\text{SO}_2$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $2\\ \\text{mol}$ من $\\text{SO}_2$ و $3\\ \\text{mol}$ من $\\text{CO}_2$ مع كمية من $\\text{SO}_2$ (بدون تفاعل). إذا خرج $5\\ \\text{mol}$ من الناتج فما نسبة $\\text{SO}_2$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$40\\%$",
+        "$50\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The fixed amount of $\\text{CO}_2$ is 3; the remainder is $\\text{SO}_2$: $$\\%\\text{SO}_2 = \\frac{5-3}{5}\\times100 = 40\\%$$",
+      "explanation_ar": "The fixed amount of $\\text{CO}_2$ is 3; the remainder is $\\text{SO}_2$: $$\\%\\text{SO}_2 = \\frac{5-3}{5}\\times100 = 40\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "In a batch process, 5 mol of $\\text{SO}_2$ and 3 mol of $\\text{CO}_2$ are charged together with some $\\text{SO}_2$ (no reaction). If 10 mol of product leaves, what is the % of $\\text{SO}_2$ in the product?",
+      "question_ar": "في عملية دفعية شُحن $5\\ \\text{mol}$ من $\\text{SO}_2$ و $3\\ \\text{mol}$ من $\\text{CO}_2$ مع كمية من $\\text{SO}_2$ (بدون تفاعل). إذا خرج $10\\ \\text{mol}$ من الناتج فما نسبة $\\text{SO}_2$ في الناتج؟",
+      "options": [
+        "$10\\%$",
+        "$30\\%$",
+        "$50\\%$",
+        "$70\\%$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The fixed amount of $\\text{CO}_2$ is 3; the remainder is $\\text{SO}_2$: $$\\%\\text{SO}_2 = \\frac{10-3}{10}\\times100 = 70\\%$$",
+      "explanation_ar": "The fixed amount of $\\text{CO}_2$ is 3; the remainder is $\\text{SO}_2$: $$\\%\\text{SO}_2 = \\frac{10-3}{10}\\times100 = 70\\%$$",
+      "memorization_note": "1. Batch (دفعي): تُشحن المادة في البداية وتُسحب المنتجات في النهاية فقط، ولا يوجد دخل أو خرج أثناء العملية. 2. Continuous (مستمر): دخل وخرج مستمران أثناء العملية. 3. Semi-batch (شبه دفعي): أي عملية ليست دفعية ولا مستمرة، أي تدخل أو تخرج مادة أثناءها (دخل بلا خرج أو العكس). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "Solution 1 (rate $F$) combines with solution 2 (rate $D$) to give a product (rate $P$). What is the overall material balance?",
+      "question_ar": "المحلول 1 (بمعدل $F$) يندمج مع المحلول 2 (بمعدل $D$) لإعطاء منتج (بمعدل $P$). ما معادلة الموازنة الكلية؟",
+      "options": [
+        "$F + D = P$",
+        "$F - P = D$",
+        "$D - F = P$",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Steady state, no reaction: $$\\text{In} = \\text{Out} \\Rightarrow F + D = P$$",
+      "explanation_ar": "Steady state, no reaction: $$\\text{In} = \\text{Out} \\Rightarrow F + D = P$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "Solution 1 (30% $\\text{H}_2\\text{SO}_4$, 10 kg/min) combines with solution 2 (20% $\\text{H}_2\\text{SO}_4$, 5 kg/min). What is the % $\\text{H}_2\\text{SO}_4$ in the product?",
+      "question_ar": "المحلول 1 (فيه $30\\%$ $\\text{H}_2\\text{SO}_4$ بمعدل $10\\text{ kg/min}$) يندمج مع المحلول 2 ($20\\%$ $\\text{H}_2\\text{SO}_4$ بمعدل $5\\text{ kg/min}$). ما نسبة $\\text{H}_2\\text{SO}_4$ في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$26.7\\%$",
+        "$40\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$P = 10 + 5 = 15\\text{ kg/min}$. $$0.3(10) + 0.2(5) = x(15) \\Rightarrow x = \\frac{4}{15} = 0.267 \\Rightarrow 26.7\\%$$",
+      "explanation_ar": "$P = 10 + 5 = 15\\text{ kg/min}$. $$0.3(10) + 0.2(5) = x(15) \\Rightarrow x = \\frac{4}{15} = 0.267 \\Rightarrow 26.7\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "Solution 1 (10% $\\text{HNO}_3$, 10 kg/min) combines with solution 2 (40% $\\text{HNO}_3$, 5 kg/min). The product contains 20% $\\text{HNO}_3$. What is the product flow rate?",
+      "question_ar": "المحلول 1 ($10\\%$ $\\text{HNO}_3$ بمعدل $10\\text{ kg/min}$) يندمج مع المحلول 2 ($40\\%$ $\\text{HNO}_3$ بمعدل $5\\text{ kg/min}$) والمنتج فيه $20\\%$ $\\text{HNO}_3$. ما معدل المنتج؟",
+      "options": [
+        "$10\\text{ kg/min}$",
+        "$15\\text{ kg/min}$",
+        "$20\\text{ kg/min}$",
+        "$30\\text{ kg/min}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$0.1(10) + 0.4(5) = 0.2P \\Rightarrow 3 = 0.2P \\Rightarrow P = 15\\text{ kg/min}$$ (check: $F + D = 15$ ✓)",
+      "explanation_ar": "$$0.1(10) + 0.4(5) = 0.2P \\Rightarrow 3 = 0.2P \\Rightarrow P = 15\\text{ kg/min}$$ (check: $F + D = 15$ ✓)",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "Two streams, each containing 3 components, are mixed into one product stream. How many independent material balance equations can be written?",
+      "question_ar": "تيارا خلط يحتوي كل منهما على 3 مكونات يُخلطان في تيار ناتج واحد. كم عدد معادلات الموازنة المادية المستقلة الممكن كتابتها؟",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "One independent balance per component: $\\text{N}_{\\text{independent}} = N_{\\text{components}} = 3$ (the total balance is the sum of the component balances).",
+      "explanation_ar": "One independent balance per component: $\\text{N}_{\\text{independent}} = N_{\\text{components}} = 3$ (the total balance is the sum of the component balances).",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "Solution 1 ($F$: 10% HCl, 20% acetic acid) and solution 2 ($D$: 20% HCl, 30% acetic acid) form a product ($P$: 20% HCl, 30% acetic acid). How many independent equations in $F$, $D$, $P$ exist?",
+      "question_ar": "المحلول 1 ($F$: $10\\%$ HCl، $20\\%$ حمض الخليك) والمحلول 2 ($D$: $20\\%$ HCl، $30\\%$ حمض الخليك) يكوّنان منتجاً ($P$: $20\\%$ HCl، $30\\%$ حمض الخليك). كم عدد المعادلات المستقلة في $F$ و$D$ و$P$؟",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Equations: $0.1F + 0.2D = 0.2P$, $0.2F + 0.3D = 0.3P$, $F + D = P$. Subtracting the first from the second gives $0.1(F + D) = 0.1P$, i.e. the third. So only 2 are independent.",
+      "explanation_ar": "Equations: $0.1F + 0.2D = 0.2P$, $0.2F + 0.3D = 0.3P$, $F + D = P$. Subtracting the first from the second gives $0.1(F + D) = 0.1P$, i.e. the third. So only 2 are independent.",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 96,
+      "question_en": "Solution 1 ($F$: 40% $\\text{HNO}_3$, 20% $\\text{CO}_2$) and solution 2 ($D$: 20% $\\text{HNO}_3$, 40% $\\text{CO}_2$) form a product ($P$: 30% $\\text{HNO}_3$, 30% $\\text{CO}_2$). If $P = xF$, what is $x$?",
+      "question_ar": "المحلول 1 ($F$: $40\\%$ $\\text{HNO}_3$، $20\\%$ $\\text{CO}_2$) والمحلول 2 ($D$: $20\\%$ $\\text{HNO}_3$، $40\\%$ $\\text{CO}_2$) يكوّنان منتجاً ($P$: $30\\%$ $\\text{HNO}_3$، $30\\%$ $\\text{CO}_2$). إذا كان $P = xF$ فما قيمة $x$؟",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{HNO}_3$: $0.4F + 0.2D = 0.3P$; total: $F + D = P$. Substituting $D = P - F$: $0.4F + 0.2P - 0.2F = 0.3P \\Rightarrow 0.2F = 0.1P \\Rightarrow P = 2F$. $$x = 2$$",
+      "explanation_ar": "$\\text{HNO}_3$: $0.4F + 0.2D = 0.3P$; total: $F + D = P$. Substituting $D = P - F$: $0.4F + 0.2P - 0.2F = 0.3P \\Rightarrow 0.2F = 0.1P \\Rightarrow P = 2F$. $$x = 2$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 97,
+      "question_en": "Solution 1 ($F$: 40% acetic acid, 20% $\\text{CO}_2$) and solution 2 ($D$: 20% acetic acid, 40% $\\text{CO}_2$) form a product with 30% acetic acid. What is the % $\\text{CO}_2$ in the product?",
+      "question_ar": "المحلول 1 ($F$: $40\\%$ حمض الخليك، $20\\%$ $\\text{CO}_2$) والمحلول 2 ($D$: $20\\%$ حمض الخليك، $40\\%$ $\\text{CO}_2$) يكوّنان منتجاً فيه $30\\%$ حمض الخليك. ما نسبة $\\text{CO}_2$ في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$30\\%$",
+        "$40\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Acetic acid: $0.4F + 0.2D = 0.3(F + D) \\Rightarrow F = D$. $$y_{\\text{CO}_2} = \\frac{0.2F + 0.4D}{F + D} = \\frac{0.6F}{2F} = 0.30 \\Rightarrow 30\\%$$",
+      "explanation_ar": "Acetic acid: $0.4F + 0.2D = 0.3(F + D) \\Rightarrow F = D$. $$y_{\\text{CO}_2} = \\frac{0.2F + 0.4D}{F + D} = \\frac{0.6F}{2F} = 0.30 \\Rightarrow 30\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 98,
+      "question_en": "Solution 1 (10 kg/min: 10% w1, unknown $x$ of w2) and solution 2 (20 kg/min: 10% w1, 20% w2) form a product with 10% w1 and 30% w2. What is $x$, the % of w2 in solution 1?",
+      "question_ar": "المحلول 1 ($10\\text{ kg/min}$: $10\\%$ w1 ونسبة مجهولة $x$ من w2) والمحلول 2 ($20\\text{ kg/min}$: $10\\%$ w1، $20\\%$ w2) يكوّنان منتجاً فيه $10\\%$ w1 و $30\\%$ w2. ما قيمة $x$ أي نسبة w2 في المحلول 1؟",
+      "options": [
+        "$5\\%$",
+        "$10\\%$",
+        "$25\\%$",
+        "$50\\%$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$P = 10 + 20 = 30\\text{ kg/min}$. w2 balance: $$10x + 0.2(20) = 0.3(30) \\Rightarrow 10x = 5 \\Rightarrow x = 0.5 = 50\\%$$",
+      "explanation_ar": "$P = 10 + 20 = 30\\text{ kg/min}$. w2 balance: $$10x + 0.2(20) = 0.3(30) \\Rightarrow 10x = 5 \\Rightarrow x = 0.5 = 50\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 99,
+      "question_en": "$\\text{CH}_4$ (10 mol/min) reacts with $\\text{O}_2$ (10 mol/min) by $\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$. What is the formation rate of $\\text{CO}_2$?",
+      "question_ar": "يتفاعل $\\text{CH}_4$ (بمعدل $10\\text{ mol/min}$) مع $\\text{O}_2$ (بمعدل $10\\text{ mol/min}$) حسب $\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$. ما معدل تكوّن $\\text{CO}_2$؟",
+      "options": [
+        "$5\\text{ mol/min}$",
+        "$10\\text{ mol/min}$",
+        "$20\\text{ mol/min}$",
+        "$40\\text{ mol/min}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{CH}_4$: $10/1 = 10$; $\\text{O}_2$: $10/2 = 5$ ⇒ $\\text{O}_2$ limiting. $$\\dot n_{\\text{CO}_2} = 5\\text{ mol/min}$$",
+      "explanation_ar": "$\\text{CH}_4$: $10/1 = 10$; $\\text{O}_2$: $10/2 = 5$ ⇒ $\\text{O}_2$ limiting. $$\\dot n_{\\text{CO}_2} = 5\\text{ mol/min}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "$\\text{CH}_4$ (10 mol/min) reacts with $\\text{O}_2$ (30 mol/min) by $\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$. What is the formation rate of $\\text{CO}_2$?",
+      "question_ar": "يتفاعل $\\text{CH}_4$ (بمعدل $10\\text{ mol/min}$) مع $\\text{O}_2$ (بمعدل $30\\text{ mol/min}$) حسب $\\text{CH}_4 + 2\\text{O}_2 \\to \\text{CO}_2 + 2\\text{H}_2\\text{O}$. ما معدل تكوّن $\\text{CO}_2$؟",
+      "options": [
+        "$5\\text{ mol/min}$",
+        "$10\\text{ mol/min}$",
+        "$20\\text{ mol/min}$",
+        "$40\\text{ mol/min}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{CH}_4$: $10/1 = 10$; $\\text{O}_2$: $30/2 = 15$ ⇒ $\\text{CH}_4$ limiting. $$\\dot n_{\\text{CO}_2} = 10\\text{ mol/min}$$",
+      "explanation_ar": "$\\text{CH}_4$: $10/1 = 10$; $\\text{O}_2$: $30/2 = 15$ ⇒ $\\text{CH}_4$ limiting. $$\\dot n_{\\text{CO}_2} = 10\\text{ mol/min}$$",
+      "memorization_note": "1. المتفاعل المحدد: هو الذي له أصغر قيمة لـ $\\frac{n_{\\text{fed}}}{\\nu}$ (المولات ÷ المعامل الستويكيومتري) ومنه تُحسب المنتجات: $$n_{\\text{product}} = \\nu_{\\text{product}}\\cdot\\xi,\\quad \\xi = \\min_i\\frac{n_{i,\\text{fed}}}{\\nu_i}$$ 2. يجب موازنة المعادلة الكيميائية أولاً. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "Three solutions (rates $F$, $D$, $N$) with different acetic acid and nitrogen contents are mixed into a product with 20% acetic acid at rate $P$. Can the % nitrogen in the product be determined?",
+      "question_ar": "ثلاثة محاليل (بمعدلات $F$ و$D$ و$N$) مختلفة المحتوى من حمض الخليك والنيتروجين تُخلط لتعطي منتجاً فيه $20\\%$ حمض الخليك بمعدل $P$. هل يمكن تحديد نسبة النيتروجين في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$30\\%$",
+        "Cannot be determined"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Unknowns: $F, D, N, P$ and $y_N$ (5). Equations: total, acetic acid, nitrogen (3). With fewer equations than unknowns the system cannot be solved (degrees of freedom $= 5 - 3 = 2 > 0$).",
+      "explanation_ar": "Unknowns: $F, D, N, P$ and $y_N$ (5). Equations: total, acetic acid, nitrogen (3). With fewer equations than unknowns the system cannot be solved (degrees of freedom $= 5 - 3 = 2 > 0$).",
+      "memorization_note": "1. درجات الحرية: $$\\text{DOF} = N_{\\text{unknowns}} - N_{\\text{independent equations}}$$ 2. لا يُحل النظام إلا إذا كانت $\\text{DOF} = 0$. 1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 102,
+      "question_en": "Three solutions (rates $F$, $D$, $N$ unknown) are mixed into a product with 20% acetic acid at 100 kg/min. Can the % nitrogen in the product be determined?",
+      "question_ar": "ثلاثة محاليل (بمعدلات مجهولة $F$ و$D$ و$N$) تُخلط لتعطي منتجاً فيه $20\\%$ حمض الخليك بمعدل $100\\text{ kg/min}$. هل يمكن تحديد نسبة النيتروجين في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$30\\%$",
+        "Cannot be determined"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Unknowns: $F, D, N, y_N$ (4). Equations: total, acetic acid, nitrogen (3). $\\text{DOF} = 4 - 3 = 1 > 0$: cannot be determined.",
+      "explanation_ar": "Unknowns: $F, D, N, y_N$ (4). Equations: total, acetic acid, nitrogen (3). $\\text{DOF} = 4 - 3 = 1 > 0$: cannot be determined.",
+      "memorization_note": "1. درجات الحرية: $$\\text{DOF} = N_{\\text{unknowns}} - N_{\\text{independent equations}}$$ 1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 103,
+      "question_en": "Three solutions are mixed into a product with 20% acetic acid at 10 kg/min; the rates $F$, $D$, $N$ are unknown. Can the % nitrogen in the product be determined?",
+      "question_ar": "ثلاثة محاليل تُخلط لتعطي منتجاً فيه $20\\%$ حمض الخليك بمعدل $10\\text{ kg/min}$ والمعدلات $F$ و$D$ و$N$ مجهولة. هل يمكن تحديد نسبة النيتروجين في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$30\\%$",
+        "Cannot be determined"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Unknowns: $F, D, N, y_N$ (4); independent equations: total, acetic acid, nitrogen (3). $\\text{DOF} = 1$: cannot be determined.",
+      "explanation_ar": "Unknowns: $F, D, N, y_N$ (4); independent equations: total, acetic acid, nitrogen (3). $\\text{DOF} = 1$: cannot be determined.",
+      "memorization_note": "1. درجات الحرية: $$\\text{DOF} = N_{\\text{unknowns}} - N_{\\text{independent equations}}$$ 1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 104,
+      "question_en": "Solution 1 (10 kg/min: 30% acetic, 10% N), solution 2 (20 kg/min: 20% acetic, 10% N) and solution 3 (30 kg/min: 10% acetic, 30% N) are mixed. What is the % nitrogen in the product?",
+      "question_ar": "المحلول 1 ($10\\text{ kg/min}$: $30\\%$ خليك، $10\\%$ N) والمحلول 2 ($20\\text{ kg/min}$: $20\\%$ خليك، $10\\%$ N) والمحلول 3 ($30\\text{ kg/min}$: $10\\%$ خليك، $30\\%$ N) تُخلط. ما نسبة النيتروجين في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$20\\%$",
+        "$30\\%$",
+        "Cannot be determined"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$P = 10 + 20 + 30 = 60\\text{ kg/min}$. $$y_N = \\frac{0.1(10) + 0.1(20) + 0.3(30)}{60} = \\frac{12}{60} = 0.20 \\Rightarrow 20\\%$$",
+      "explanation_ar": "$P = 10 + 20 + 30 = 60\\text{ kg/min}$. $$y_N = \\frac{0.1(10) + 0.1(20) + 0.3(30)}{60} = \\frac{12}{60} = 0.20 \\Rightarrow 20\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 105,
+      "question_en": "Solution 1 (10 kg/min: 30% acetic, 20% N) and solution 2 (20 kg/min: 20% acetic, 10% N) are mixed with solution 3 (rate $N$: 10% acetic, 30% N) to give a product with 20% acetic acid. What is the % nitrogen in the product?",
+      "question_ar": "المحلول 1 ($10\\text{ kg/min}$: $30\\%$ خليك، $20\\%$ N) والمحلول 2 ($20\\text{ kg/min}$: $20\\%$ خليك، $10\\%$ N) يُخلطان مع المحلول 3 (بمعدل $N$: $10\\%$ خليك، $30\\%$ N) لإعطاء منتج فيه $20\\%$ حمض الخليك. ما نسبة النيتروجين في المنتج؟",
+      "options": [
+        "$10\\%$",
+        "$17.5\\%$",
+        "$25.5\\%$",
+        "$32.5\\%$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$P = 30 + N$. Acetic acid: $0.3(10) + 0.2(20) + 0.1N = 0.2(30 + N) \\Rightarrow 7 + 0.1N = 6 + 0.2N \\Rightarrow N = 10\\text{ kg/min},\\ P = 40$. $$y_N = \\frac{0.2(10) + 0.1(20) + 0.3(10)}{40} = \\frac{7}{40} = 0.175 \\Rightarrow 17.5\\%$$",
+      "explanation_ar": "$P = 30 + N$. Acetic acid: $0.3(10) + 0.2(20) + 0.1N = 0.2(30 + N) \\Rightarrow 7 + 0.1N = 6 + 0.2N \\Rightarrow N = 10\\text{ kg/min},\\ P = 40$. $$y_N = \\frac{0.2(10) + 0.1(20) + 0.3(10)}{40} = \\frac{7}{40} = 0.175 \\Rightarrow 17.5\\%$$",
+      "memorization_note": "1. موازنة المركبات: $$\\sum_{\\text{in}} F_i\\, x_{i} = \\sum_{\\text{out}} P\\, y_{i}$$ 2. الموازنة الكلية: $\\sum F_{\\text{in}} = \\sum F_{\\text{out}}$ (في الحالة المستقرة وبدون تفاعل). 3. عدد المعادلات المستقلة = عدد المركبات (المجاهيل يجب ألا تزيد على عدد المعادلات). ",
+      "requires_scratchpad": true
+    }
+  ]
+}

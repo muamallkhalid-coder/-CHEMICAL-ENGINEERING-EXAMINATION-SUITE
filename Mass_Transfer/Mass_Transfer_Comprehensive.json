@@ -1,0 +1,2712 @@
+{
+  "topic_en": "Comprehensive Fundamentals & Essentials of Mass Transfer (Diffusion & Fick's Law, Absorption & Stripping, Distillation, Extraction & Adsorption, Drying, Humidification & Cooling Towers)",
+  "topic_ar": "البنك الشامل لأساسيات وبديهيات انتقال المادة",
+  "subject_folder": "Mass_Transfer",
+  "description_ar": "ملف شامل يضم 169 سؤالاً (109 سؤال أساسيات وبديهيات بسيطة + 60 سؤال أساسيات عامة وتطبيقية) بدون مسائل حسابية طويلة، من المراجع المعتمدة (Treybal, McCabe & Smith, Geankoplis, Coulson & Richardson, Perry's) وأسئلة الملفات المرجعية",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Mass transfer occurs mainly because of which of the following?",
+      "question_ar": "يحدث انتقال المادة بشكل رئيسي بسبب أي مما يأتي؟",
+      "options": [
+        "A velocity difference only",
+        "A concentration (chemical potential) difference",
+        "A temperature difference only",
+        "A pressure difference only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Mass transfer is the net movement of a species from a region of high concentration (high chemical potential) to a region of low concentration. The concentration gradient is the driving force, just as a temperature gradient drives heat transfer.",
+      "explanation_ar": "انتقال المادة هو حركة مكوّن معيّن من منطقة ذات تركيز (جهد كيميائي) عالٍ إلى منطقة ذات تركيز أقل. فرق التركيز هو القوة الدافعة كما أن فرق درجة الحرارة هو القوة الدافعة لانتقال الحرارة.",
+      "memorization_note": "القوة الدافعة لانتقال المادة = فرق التركيز (أو الجهد الكيميائي): $\\Delta C_A$ أو $\\Delta p_A$ أو $\\Delta y_A$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What are the SI units of the diffusion coefficient $D_{AB}$?",
+      "question_ar": "ما هي وحدات معامل الانتشار $D_{AB}$ في نظام SI؟",
+      "options": [
+        "$\\text{m}^2/\\text{s}$",
+        "$\\text{m/s}$",
+        "$\\text{m}^3/\\text{s}$",
+        "$\\text{m/s}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "From Fick's law $J = -D\\,\\dfrac{dC}{dz}$, the units of $D$ are $\\dfrac{(\\text{mol/m}^2\\text{s})}{(\\text{mol/m}^3)/\\text{m}} = \\text{m}^2/\\text{s}$. It has the same units as kinematic viscosity and thermal diffusivity.",
+      "explanation_ar": "من قانون فيك $J = -D\\,\\dfrac{dC}{dz}$ تكون وحدة $D$ هي $\\text{m}^2/\\text{s}$، وهي نفس وحدة اللزوجة الكينماتيكية والانتشارية الحرارية.",
+      "memorization_note": "وحدة معامل الانتشار: $\\text{m}^2/\\text{s}$ (أو $\\text{cm}^2/\\text{s}$ حيث $1\\text{ cm}^2/\\text{s}=10^{-4}\\text{ m}^2/\\text{s}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Fick's first law of diffusion describes which of the following?",
+      "question_ar": "قانون فيك الأول للانتشار يصف أي مما يأتي؟",
+      "options": [
+        "The rate of heat conduction through a wall",
+        "The pressure drop in a pipe",
+        "The rate of a chemical reaction",
+        "The molecular diffusion flux as proportional to the concentration gradient"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Fick's first law states that the diffusive flux is proportional to the concentration gradient: $J_A = -D_{AB}\\dfrac{dC_A}{dz}$. It is the mass-transfer analogue of Fourier's law (heat) and Newton's law of viscosity (momentum).",
+      "explanation_ar": "ينص قانون فيك الأول على أن الفيض الانتشاري يتناسب مع انحدار التركيز: $J_A = -D_{AB}\\dfrac{dC_A}{dz}$. وهو النظير الكتلي لقانون فورييه (الحرارة) وقانون نيوتن للّزوجة (الزخم).",
+      "memorization_note": "قانون فيك الأول: $$J_A = -D_{AB}\\,\\frac{dC_A}{dz}$$ ويُقارن مع فورييه $q=-k\\,\\dfrac{dT}{dx}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "In Fick's first law $J_A = -D_{AB}\\,\\dfrac{dC_A}{dz}$, what does the negative sign indicate?",
+      "question_ar": "في قانون فيك الأول $J_A = -D_{AB}\\,\\dfrac{dC_A}{dz}$، ماذا تدل الإشارة السالبة؟",
+      "options": [
+        "Diffusion occurs toward increasing concentration",
+        "The diffusivity is negative",
+        "Diffusion occurs in the direction of decreasing concentration",
+        "Diffusion occurs only against the flow"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Since $dC_A/dz<0$ when concentration falls along $z$, the minus sign makes the flux $J_A$ positive in the direction of decreasing concentration (down the gradient).",
+      "explanation_ar": "عندما يقل التركيز مع زيادة $z$ يكون $dC_A/dz<0$، فتجعل الإشارة السالبة الفيض $J_A$ موجباً باتجاه نقصان التركيز (مع الانحدار).",
+      "memorization_note": "الإشارة السالبة = الانتشار يكون من التركيز العالي إلى التركيز الواطئ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "The term 'steady-state diffusion' implies that:",
+      "question_ar": "مصطلح الانتشار في الحالة المستقرة (Steady-state) يعني أن:",
+      "options": [
+        "No diffusion occurs",
+        "The concentration at each point does not change with time",
+        "The diffusion rate is zero",
+        "The concentration changes with time at every point"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In steady state, the concentration profile is fixed in time ($\\partial C/\\partial t = 0$) while diffusion still continues, so the flux is constant (for constant area).",
+      "explanation_ar": "في الحالة المستقرة لا يتغير التركيز مع الزمن عند أي نقطة ($\\partial C/\\partial t = 0$) لكن الانتشار مستمر، ويكون الفيض ثابتاً (عند ثبوت المساحة).",
+      "memorization_note": "الحالة المستقرة: $\\dfrac{\\partial C}{\\partial t}=0$ (لا تعني أن الانتشار متوقف).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "Fick's second law $\\dfrac{\\partial C_A}{\\partial t}=D_{AB}\\dfrac{\\partial^2 C_A}{\\partial z^2}$ is used for which type of diffusion?",
+      "question_ar": "قانون فيك الثاني $\\dfrac{\\partial C_A}{\\partial t}=D_{AB}\\dfrac{\\partial^2 C_A}{\\partial z^2}$ يُستخدم لأي نوع من الانتشار؟",
+      "options": [
+        "Unsteady-state (transient) diffusion",
+        "Steady-state diffusion only",
+        "Convective mass transfer only",
+        "Diffusion with zero concentration gradient"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Fick's second law contains the time derivative of concentration, so it describes how concentration changes with time (transient diffusion), e.g. penetration of a solute into a semi-infinite solid.",
+      "explanation_ar": "يحتوي قانون فيك الثاني على المشتقة الزمنية للتركيز، لذلك يصف تغير التركيز مع الزمن (الانتشار غير المستقر) مثل نفاذ مذاب داخل جسم صلب شبه لانهائي.",
+      "memorization_note": "فيك الثاني: $$\\frac{\\partial C_A}{\\partial t}=D_{AB}\\frac{\\partial^2 C_A}{\\partial z^2}$$ للحالة غير المستقرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "How does increasing temperature affect the diffusivity of a gas?",
+      "question_ar": "كيف تؤثر زيادة درجة الحرارة على معامل انتشار الغاز؟",
+      "options": [
+        "It decreases",
+        "It has no effect",
+        "It first decreases then becomes zero",
+        "It increases (approximately $D\\propto T^{3/2}$)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Higher temperature raises the molecular speed and the mean free path effects, so gas diffusivity increases. The Chapman–Enskog theory gives $D_{AB}\\propto T^{3/2}/P$.",
+      "explanation_ar": "زيادة درجة الحرارة ترفع سرعة الجزيئات فيزداد معامل انتشار الغاز. وتعطي نظرية Chapman–Enskog العلاقة $D_{AB}\\propto T^{3/2}/P$.",
+      "memorization_note": "للغازات: $$D_{AB}\\propto \\frac{T^{3/2}}{P}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "What is the effect of increasing total pressure on gas-phase diffusivity?",
+      "question_ar": "ما تأثير زيادة الضغط الكلي على معامل الانتشار في الطور الغازي؟",
+      "options": [
+        "The diffusivity increases",
+        "No effect at all",
+        "The diffusivity decreases (inversely proportional to $P$)",
+        "The diffusivity becomes independent of concentration and doubles"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At higher pressure molecules are closer together and collide more often (shorter mean free path), so diffusion is slower: $D_{AB}\\propto 1/P$.",
+      "explanation_ar": "عند زيادة الضغط تقترب الجزيئات وتتصادم أكثر (يقل المسار الحر الوسطي) فيقل الانتشار: $D_{AB}\\propto 1/P$.",
+      "memorization_note": "للغازات: $D\\propto \\dfrac{1}{P}$ و $D\\propto T^{1.5}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "Arrange the phases from the highest to the lowest typical diffusivity.",
+      "question_ar": "رتّب الأطوار من أعلى إلى أدنى معامل انتشار نموذجي.",
+      "options": [
+        "Solids > Liquids > Gases",
+        "Gases > Liquids > Solids",
+        "Liquids > Gases > Solids",
+        "Gases = Liquids = Solids"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Molecules move freely and far apart in gases, are hindered by neighbours in liquids, and are almost locked in position in solids. Hence $D_{gas}\\gg D_{liquid}\\gg D_{solid}$.",
+      "explanation_ar": "الجزيئات حرة وبعيدة في الغازات، ومقيّدة بالجيران في السوائل، وشبه مثبتة في الصلب، لذلك $D_{gas}\\gg D_{liquid}\\gg D_{solid}$.",
+      "memorization_note": "الرتب العددية: غاز $\\approx10^{-5}$، سائل $\\approx10^{-9}$، صلب $\\approx10^{-12}$ إلى $10^{-14}$ بوحدة $\\text{m}^2/\\text{s}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "The typical order of magnitude of molecular diffusivity of a gas pair at 1 atm and room temperature is:",
+      "question_ar": "الرتبة العددية النموذجية لمعامل الانتشار الجزيئي لزوج غازي عند 1 atm ودرجة حرارة الغرفة هي:",
+      "options": [
+        "$10^{-5}\\ \\text{m}^2/\\text{s}$",
+        "$10^{-9}\\ \\text{m}^2/\\text{s}$",
+        "$10^{-12}\\ \\text{m}^2/\\text{s}$",
+        "$10^{-2}\\ \\text{m}^2/\\text{s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Gas diffusivities are about $0.1$–$1\\ \\text{cm}^2/\\text{s}$, i.e. around $10^{-5}$ to $10^{-4}\\ \\text{m}^2/\\text{s}$. Liquids are about $10^{-9}$ and solids $10^{-12}$ or smaller.",
+      "explanation_ar": "معاملات انتشار الغازات حوالي $0.1$–$1\\ \\text{cm}^2/\\text{s}$ أي نحو $10^{-5}$ إلى $10^{-4}\\ \\text{m}^2/\\text{s}$، أما السوائل فحوالي $10^{-9}$ والصلب $10^{-12}$ أو أقل.",
+      "memorization_note": "غاز $\\sim10^{-5}\\ \\text{m}^2/\\text{s}$، سائل $\\sim10^{-9}\\ \\text{m}^2/\\text{s}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "In liquids, what is the effect of increasing viscosity on diffusivity?",
+      "question_ar": "في السوائل، ما تأثير زيادة اللزوجة على معامل الانتشار؟",
+      "options": [
+        "Diffusivity increases",
+        "There is no change in diffusivity",
+        "The effect is unpredictable",
+        "Diffusivity decreases"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The Stokes–Einstein relation $D=\\dfrac{k_BT}{6\\pi\\mu r}$ shows $D\\propto 1/\\mu$. A more viscous liquid resists molecular motion, so diffusion is slower.",
+      "explanation_ar": "علاقة Stokes–Einstein: $D=\\dfrac{k_BT}{6\\pi\\mu r}$ تبيّن أن $D\\propto 1/\\mu$، فالسائل الأكثر لزوجة يقاوم حركة الجزيئات فيقل الانتشار.",
+      "memorization_note": "للسوائل: $$D\\propto \\frac{T}{\\mu}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "The Schmidt number is defined as the ratio of:",
+      "question_ar": "يُعرَّف عدد شميت (Schmidt) بأنه نسبة:",
+      "options": [
+        "Thermal diffusivity to momentum diffusivity",
+        "Thermal diffusivity to mass diffusivity",
+        "Momentum diffusivity to mass diffusivity ($\\nu/D_{AB}$)",
+        "Convective to diffusive mass transfer"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Sc=\\dfrac{\\nu}{D_{AB}}=\\dfrac{\\mu}{\\rho D_{AB}}$. It is the mass-transfer analogue of the Prandtl number $Pr=\\nu/\\alpha$.",
+      "explanation_ar": "$Sc=\\dfrac{\\nu}{D_{AB}}=\\dfrac{\\mu}{\\rho D_{AB}}$ وهو النظير الكتلي لعدد برانتل $Pr=\\nu/\\alpha$.",
+      "memorization_note": "$$Sc=\\frac{\\mu}{\\rho D_{AB}}\\qquad Pr=\\frac{C_p\\mu}{k}\\qquad Le=\\frac{Sc}{Pr}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "The Sherwood number $Sh=\\dfrac{k_cL}{D_{AB}}$ represents the ratio of:",
+      "question_ar": "عدد شيروود $Sh=\\dfrac{k_cL}{D_{AB}}$ يمثل نسبة:",
+      "options": [
+        "Momentum diffusivity to mass diffusivity",
+        "Convective mass transfer to molecular diffusive mass transfer",
+        "Inertial forces to viscous forces",
+        "Buoyancy to viscous forces"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Sh$ compares the total (convective) mass-transfer rate to the rate that would occur by pure molecular diffusion. It is the mass-transfer analogue of the Nusselt number.",
+      "explanation_ar": "يقارن $Sh$ بين معدل انتقال المادة الكلي بالحمل ومعدل الانتقال بالانتشار الجزيئي فقط، وهو نظير عدد نسلت في انتقال الحرارة.",
+      "memorization_note": "$$Sh=\\frac{k_cL}{D_{AB}}\\ (\\equiv Nu)\\qquad Re=\\frac{\\rho u L}{\\mu}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Which of the following is an example of equimolar counter-diffusion?",
+      "question_ar": "أي مما يأتي مثال على الانتشار المتعاكس متساوي المولات (Equimolar counter-diffusion)؟",
+      "options": [
+        "Diffusion of vapors between the liquid and vapor phases in a binary distillation column",
+        "Absorption of ammonia from air into water",
+        "Evaporation of water into stagnant air",
+        "Drying of wet solid in hot air"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In binary distillation with equal molar latent heats, one mole of the heavy component condenses for each mole of the light component that vaporizes, so $N_A=-N_B$.",
+      "explanation_ar": "في التقطير الثنائي (مع تساوي الحرارات الكامنة المولية) يتكثف مول من المكوّن الثقيل مقابل تبخر مول من المكوّن الخفيف، لذلك $N_A=-N_B$.",
+      "memorization_note": "الانتشار المتعاكس المتساوي: $N_A=-N_B$ (التقطير). الانتشار خلال غاز ساكن: $N_B=0$ (الامتصاص، التبخر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "In the absorption of ammonia from an air–ammonia mixture into water, the air behaves as:",
+      "question_ar": "عند امتصاص الأمونيا من خليط هواء–أمونيا في الماء، يسلك الهواء كـ:",
+      "options": [
+        "A component diffusing with $N_B=-N_A$",
+        "A component diffusing faster than ammonia",
+        "A reactant consumed in water",
+        "A non-diffusing (stagnant) component, $N_B=0$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Air is practically insoluble in water, so it cannot cross the gas–liquid interface. Only ammonia transfers; air is the stagnant component and $N_B=0$.",
+      "explanation_ar": "الهواء غير ذائب عملياً في الماء فلا يعبر السطح البيني، وتنتقل الأمونيا فقط؛ لذلك يكون الهواء مكوّناً ساكناً و$N_B=0$.",
+      "memorization_note": "انتشار A خلال B ساكن: $$N_A=\\frac{D_{AB}P}{RT\\,\\Delta z\\,p_{B,lm}}(p_{A1}-p_{A2})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "According to Graham's law, which gas diffuses (effuses) fastest under the same conditions?",
+      "question_ar": "حسب قانون غراهام (Graham)، أي غاز ينتشر بأسرع ما يمكن عند الظروف نفسها؟",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Graham's law: rate $\\propto 1/\\sqrt{M}$. Hydrogen ($M=2$) has the lowest molar mass among the options, so it diffuses fastest.",
+      "explanation_ar": "قانون غراهام: المعدل $\\propto 1/\\sqrt{M}$. الهيدروجين ($M=2$) أخف الغازات المذكورة فهو الأسرع انتشاراً.",
+      "memorization_note": "$$\\frac{r_1}{r_2}=\\sqrt{\\frac{M_2}{M_1}}\\qquad M_{H_2}=2,\\ M_{N_2}=28,\\ M_{O_2}=32,\\ M_{CO_2}=44$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "Which of the following solutes has the lowest diffusivity in water at room temperature?",
+      "question_ar": "أي المذابات الآتية له أقل معامل انتشار في الماء عند درجة حرارة الغرفة؟",
+      "options": [
+        "Oxygen",
+        "Glucose",
+        "Ethanol",
+        "Urea"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Liquid-phase diffusivity falls as the solute molecular size increases (Stokes–Einstein, Wilke–Chang). Glucose is the largest molecule listed, so its $D$ is the smallest.",
+      "explanation_ar": "ينقص معامل الانتشار في السوائل بزيادة حجم جزيء المذاب (Stokes–Einstein و Wilke–Chang). الجلوكوز أكبر الجزيئات المذكورة فله أقل $D$.",
+      "memorization_note": "كلما كبر الجزيء قلّ $D$ في السوائل: $D\\propto 1/r$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "Molecular diffusion is best described as:",
+      "question_ar": "يوصف الانتشار الجزيئي بأنه:",
+      "options": [
+        "Transport of a species by random molecular motion due to a concentration difference",
+        "Bulk movement of the whole fluid",
+        "Energy transfer between molecules by collisions only",
+        "Movement of molecules due to a pressure pump"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Molecular diffusion results from random thermal motion of molecules in a stagnant or laminar fluid, producing net transport from high to low concentration. Bulk fluid motion is convection.",
+      "explanation_ar": "ينتج الانتشار الجزيئي عن الحركة الحرارية العشوائية للجزيئات في مائع ساكن أو صفائحي فيحدث انتقال صافٍ من التركيز العالي إلى الواطئ، أما حركة المائع ككل فهي حمل (Convection).",
+      "memorization_note": "انتشار جزيئي = حركة عشوائية؛ حمل = حركة المائع ككل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "Which term describes the enhancement of mass transfer in turbulent flow?",
+      "question_ar": "أي مصطلح يصف زيادة انتقال المادة في الجريان المضطرب؟",
+      "options": [
+        "Laminar flow",
+        "Molecular diffusion",
+        "Surface tension",
+        "Eddy diffusivity"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Turbulent eddies mix the fluid and add an extra transport term (eddy diffusivity $E_D$) on top of molecular diffusion, so the effective diffusivity becomes $D_{AB}+E_D$.",
+      "explanation_ar": "تعمل الدوامات في الجريان المضطرب على خلط المائع وتضيف حداً إضافياً (الانتشارية الدوامية $E_D$) فيصبح الانتشار الفعّال $D_{AB}+E_D$.",
+      "memorization_note": "$$J_A=-(D_{AB}+E_D)\\frac{dC_A}{dz}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "Which of the following is NOT a mass-transfer operation?",
+      "question_ar": "أي مما يأتي ليس عملية انتقال مادة؟",
+      "options": [
+        "Gas absorption",
+        "Distillation",
+        "Heat conduction through a wall",
+        "Drying"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Absorption, distillation and drying all involve transfer of a species between phases. Heat conduction transfers energy, not mass.",
+      "explanation_ar": "الامتصاص والتقطير والتجفيف كلها تتضمن انتقال مكوّن بين الأطوار، أما التوصيل الحراري فينقل طاقة وليس مادة.",
+      "memorization_note": "عمليات انتقال المادة: امتصاص، تجريد، تقطير، استخلاص، ادمصاص، تجفيف، ترطيب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "What are the SI units of the convective mass-transfer coefficient $k_c$ (concentration driving force)?",
+      "question_ar": "ما هي وحدات معامل انتقال المادة بالحمل $k_c$ (بدلالة فرق التركيز) في نظام SI؟",
+      "options": [
+        "$\\text{m}^2/\\text{s}$",
+        "$\\text{m/s}$",
+        "$\\text{mol/m}^3$",
+        "$\\text{kg/m}^3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "From $N_A=k_c\\,\\Delta C_A$: $\\text{mol/(m}^2\\text{s)} = k_c\\cdot\\text{mol/m}^3$, so $k_c$ has units of $\\text{m/s}$ (a velocity).",
+      "explanation_ar": "من $N_A=k_c\\,\\Delta C_A$: $\\text{mol/(m}^2\\text{s)} = k_c\\cdot\\text{mol/m}^3$ فتكون وحدة $k_c$ هي $\\text{m/s}$ (سرعة).",
+      "memorization_note": "$$N_A=k_c\\,\\Delta C_A\\Rightarrow [k_c]=\\text{m/s}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "According to the two-film theory, the overall resistance to mass transfer is:",
+      "question_ar": "حسب نظرية الفلمين (Two-film theory) فإن المقاومة الكلية لانتقال المادة هي:",
+      "options": [
+        "The sum of the gas-phase and liquid-phase resistances",
+        "The gas-phase resistance only",
+        "The liquid-phase resistance only",
+        "The product of the two resistances"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The resistances of the two films act in series, so they add: $\\dfrac{1}{K_y}=\\dfrac{1}{k_y}+\\dfrac{m}{k_x}$.",
+      "explanation_ar": "مقاومتا الفلمين على التوالي فتُجمعان: $\\dfrac{1}{K_y}=\\dfrac{1}{k_y}+\\dfrac{m}{k_x}$.",
+      "memorization_note": "$$\\frac{1}{K_y}=\\frac{1}{k_y}+\\frac{m}{k_x}\\qquad \\frac{1}{K_x}=\\frac{1}{m\\,k_y}+\\frac{1}{k_x}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "In the two-film theory, what is assumed about the interface between the gas and liquid phases?",
+      "question_ar": "في نظرية الفلمين ماذا يُفترض عند السطح البيني بين الغاز والسائل؟",
+      "options": [
+        "A large interfacial resistance exists",
+        "The concentration is zero",
+        "The gas phase is always at higher concentration than the liquid",
+        "The two phases are in equilibrium at the interface (no interfacial resistance)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The theory assumes all resistance is within the two films and that the compositions $y_i$ and $x_i$ at the interface are in equilibrium, i.e. they lie on the equilibrium curve.",
+      "explanation_ar": "تفترض النظرية أن كل المقاومة تقع في الفلمين وأن التركيبين $y_i$ و$x_i$ عند السطح البيني في حالة اتزان أي يقعان على منحنى الاتزان.",
+      "memorization_note": "عند السطح البيني: $y_i=f(x_i)$ (اتزان).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "What does Henry's law describe?",
+      "question_ar": "ماذا يصف قانون هنري؟",
+      "options": [
+        "The vapor pressure of a pure liquid",
+        "The rate of a chemical reaction",
+        "The solubility of a gas in a liquid, proportional to its partial pressure",
+        "The diffusion of gases through solids"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Henry's law: $p_A=H\\,x_A$ (or $y_A=m\\,x_A$). The equilibrium amount of dissolved gas is proportional to its partial pressure above the liquid (for dilute solutions).",
+      "explanation_ar": "قانون هنري: $p_A=H\\,x_A$ (أو $y_A=m\\,x_A$) أي أن كمية الغاز الذائب عند الاتزان تتناسب مع ضغطه الجزيئي فوق السائل (للمحاليل المخففة).",
+      "memorization_note": "$$p_A=H\\,x_A\\qquad y_A=m\\,x_A,\\quad m=\\frac{H}{P}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "Raoult's law $p_A=x_A\\,P_A^{sat}$ applies to:",
+      "question_ar": "قانون راؤول $p_A=x_A\\,P_A^{sat}$ ينطبق على:",
+      "options": [
+        "Sparingly soluble gases in liquids",
+        "Ideal liquid solutions",
+        "Pure solids only",
+        "Any real mixture at any composition"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Raoult's law gives the equilibrium partial pressure above an ideal liquid mixture. It is the basis for VLE of ideal systems such as benzene–toluene in distillation.",
+      "explanation_ar": "يعطي قانون راؤول الضغط الجزيئي المتزن فوق مزيج سائل مثالي وهو أساس اتزان بخار–سائل للأنظمة المثالية مثل بنزين–تولوين في التقطير.",
+      "memorization_note": "$$p_A=x_A P_A^{sat}\\qquad y_A=\\frac{x_A P_A^{sat}}{P}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "Dalton's law of partial pressures states that the partial pressure of component $A$ in a gas mixture equals:",
+      "question_ar": "ينص قانون دالتون للضغوط الجزيئية على أن الضغط الجزيئي للمكوّن $A$ في خليط غازي يساوي:",
+      "options": [
+        "$y_A\\,P$",
+        "$x_A\\,P_A^{sat}$",
+        "$H\\,P$",
+        "$P/y_A$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Dalton's law: $p_A=y_AP$ and $\\sum p_i=P$. The expression $x_AP_A^{sat}$ is Raoult's law (liquid side).",
+      "explanation_ar": "قانون دالتون: $p_A=y_AP$ و $\\sum p_i=P$. أما $x_AP_A^{sat}$ فهو قانون راؤول (طرف السائل).",
+      "memorization_note": "$$p_A=y_A P,\\qquad \\sum_i y_i=1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "Which of the following binary liquid mixtures behaves nearly as an ideal solution?",
+      "question_ar": "أي من الأزواج السائلة الآتية يسلك تقريباً كمحلول مثالي؟",
+      "options": [
+        "Ethanol–water",
+        "Acetone–chloroform",
+        "Water–hydrochloric acid",
+        "Benzene–toluene"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Benzene and toluene are chemically similar (same size, polarity and type of intermolecular forces), so they obey Raoult's law closely. The others show strong positive or negative deviations (azeotropes).",
+      "explanation_ar": "البنزين والتولوين متشابهان كيميائياً (الحجم والقطبية ونوع القوى بين الجزيئات) فيطيعان قانون راؤول تقريباً، أما الأزواج الأخرى فتُظهر انحرافات موجبة أو سالبة (أزيوتروب).",
+      "memorization_note": "مثالي: بنزين–تولوين، هكسان–هبتان. غير مثالي: إيثانول–ماء (انحراف موجب)، HCl–ماء (انحراف سالب).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "For a binary mixture of $A$ and $B$, the mole fractions in the gas phase satisfy:",
+      "question_ar": "في خليط ثنائي من $A$ و$B$، تحقق الكسور المولية في الطور الغازي العلاقة:",
+      "options": [
+        "$y_A-y_B=1$",
+        "$y_A\\cdot y_B=1$",
+        "$y_A+y_B=1$",
+        "$y_A=y_B=1$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The mole fractions of all components of a mixture add up to one. Mole fraction is dimensionless.",
+      "explanation_ar": "مجموع الكسور المولية لجميع مكوّنات الخليط يساوي واحداً، والكسر المولي كمية لابعدية.",
+      "memorization_note": "$$\\sum_i y_i=1\\qquad y_i=\\frac{n_i}{n_{total}}\\ (\\text{dimensionless})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "Gas absorption is the operation in which:",
+      "question_ar": "الامتصاص الغازي (Gas absorption) هو العملية التي فيها:",
+      "options": [
+        "A component is transferred from a liquid into a gas",
+        "A soluble component of a gas mixture is transferred into a liquid solvent",
+        "A solid is dissolved by a gas",
+        "Heat is transferred from a gas to a liquid only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In absorption, a liquid solvent selectively dissolves one or more soluble components (the solute) from a gas mixture, e.g. removal of $\\text{NH}_3$ or $\\text{CO}_2$ from a gas stream.",
+      "explanation_ar": "في الامتصاص يذيب مذيب سائل بشكل انتقائي مكوناً أو أكثر قابلاً للذوبان (المذاب) من خليط غازي مثل إزالة $\\text{NH}_3$ أو $\\text{CO}_2$ من تيار غازي.",
+      "memorization_note": "امتصاص: غاز $\\rightarrow$ سائل. تجريد: سائل $\\rightarrow$ غاز.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "Stripping (desorption) is the operation in which:",
+      "question_ar": "التجريد (Stripping أو Desorption) هو العملية التي فيها:",
+      "options": [
+        "A volatile solute is transferred from a liquid into a gas stream",
+        "A solute is transferred from a gas into a liquid",
+        "Two immiscible liquids are separated",
+        "A solid is dried by a hot gas"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Stripping is the reverse of absorption. A gas (air, steam, or nitrogen) contacts a liquid and removes the dissolved volatile solute, which also regenerates the solvent.",
+      "explanation_ar": "التجريد هو عكس الامتصاص، إذ يلامس غاز (هواء أو بخار أو نيتروجين) السائل فيزيل المذاب الطيّار منه وبذلك يُعاد توليد المذيب.",
+      "memorization_note": "التجريد يعيد تنشيط المذيب (Regeneration) بعد الامتصاص.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "Gas absorption is favored by which operating conditions?",
+      "question_ar": "أي ظروف تشغيل تُفضّل الامتصاص الغازي؟",
+      "options": [
+        "Low pressure and high temperature",
+        "High pressure and high temperature",
+        "Low pressure and low temperature",
+        "High pressure and low temperature"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Gas solubility increases with partial pressure (Henry's law) and decreases with temperature. Therefore absorbers operate at high pressure and low temperature.",
+      "explanation_ar": "تزداد ذائبية الغاز بزيادة الضغط الجزيئي (قانون هنري) وتقل بارتفاع الحرارة؛ لذلك تعمل أبراج الامتصاص عند ضغط عالٍ ودرجة حرارة واطئة.",
+      "memorization_note": "امتصاص: $P\\uparrow,\\ T\\downarrow$. تجريد: $P\\downarrow,\\ T\\uparrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "Stripping is favored by which operating conditions?",
+      "question_ar": "أي ظروف تشغيل تُفضّل عملية التجريد؟",
+      "options": [
+        "High pressure and low temperature",
+        "High pressure and high temperature",
+        "Low pressure and high temperature",
+        "Low pressure and low temperature"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Higher temperature lowers gas solubility and lower pressure lowers the equilibrium solute concentration in the liquid, so the solute leaves the liquid more easily.",
+      "explanation_ar": "ارتفاع الحرارة يقلل ذائبية الغاز وانخفاض الضغط يقلل تركيز المذاب المتزن في السائل فيسهل خروجه من السائل.",
+      "memorization_note": "التجريد عكس الامتصاص: ضغط واطئ وحرارة عالية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "Which of the following is NOT used as a gas absorption device?",
+      "question_ar": "أي مما يأتي لا يُستخدم كجهاز للامتصاص الغازي؟",
+      "options": [
+        "Packed tower",
+        "Rotary dryer",
+        "Plate (tray) tower",
+        "Spray tower"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Packed, plate and spray towers contact a gas with a liquid solvent. A rotary dryer is a solids-drying device, not a gas–liquid absorber.",
+      "explanation_ar": "الأبراج المحشوة وذات الصواني والرذاذية تلامس الغاز بالسائل، أما المجفف الدوّار فجهاز لتجفيف المواد الصلبة وليس جهاز امتصاص.",
+      "memorization_note": "أجهزة الامتصاص: برج محشو، برج صواني، برج رذاذ، عمود جدار مبلل، فقاعات.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "The absorption factor is defined as:",
+      "question_ar": "يُعرَّف معامل الامتصاص (Absorption factor) بأنه:",
+      "options": [
+        "$A=\\dfrac{L}{mG}$",
+        "$A=\\dfrac{mG}{L}$",
+        "$A=\\dfrac{G}{L}$",
+        "$A=m\\,L\\,G$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$A$ is the ratio of the slope of the operating line ($L/G$) to the slope of the equilibrium line ($m$). Large $A$ means easy and efficient absorption.",
+      "explanation_ar": "$A$ هو نسبة ميل خط التشغيل ($L/G$) إلى ميل خط الاتزان ($m$). كلما كبر $A$ كان الامتصاص أسهل وأكفأ.",
+      "memorization_note": "$$A=\\frac{L}{mG}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "The stripping factor $S$ is defined as:",
+      "question_ar": "يُعرَّف معامل التجريد (Stripping factor) $S$ بأنه:",
+      "options": [
+        "$S=\\dfrac{L}{mG}$",
+        "$S=\\dfrac{L}{G}$",
+        "$S=\\dfrac{m}{L+G}$",
+        "$S=\\dfrac{mG}{L}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The stripping factor is the reciprocal of the absorption factor: $S=1/A=mG/L$.",
+      "explanation_ar": "معامل التجريد هو مقلوب معامل الامتصاص: $S=1/A=mG/L$.",
+      "memorization_note": "$$S=\\frac{1}{A}=\\frac{mG}{L}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "On a $y$–$x$ diagram, the operating line of an absorber lies:",
+      "question_ar": "على مخطط $y$–$x$ يقع خط التشغيل لبرج الامتصاص:",
+      "options": [
+        "Below the equilibrium curve",
+        "On the equilibrium curve",
+        "Above the equilibrium curve",
+        "Perpendicular to the equilibrium curve"
+      ],
+      "correct_index": 2,
+      "explanation_en": "For absorption the gas-phase concentration $y$ must exceed the equilibrium value $y^*$ at any point, so the driving force $y-y^*>0$ and the operating line is above the equilibrium curve. In stripping it is below.",
+      "explanation_ar": "في الامتصاص يجب أن يكون تركيز الغاز $y$ أكبر من القيمة المتزنة $y^*$ لذلك $y-y^*>0$ ويقع خط التشغيل فوق منحنى الاتزان، أما في التجريد فيقع تحته.",
+      "memorization_note": "امتصاص: خط التشغيل فوق منحنى الاتزان. تجريد: خط التشغيل تحت منحنى الاتزان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "The minimum liquid-to-gas ratio $(L/G)_{min}$ in an absorber corresponds to the case in which the operating line:",
+      "question_ar": "النسبة الدنيا للسائل إلى الغاز $(L/G)_{min}$ في برج الامتصاص تقابل الحالة التي فيها خط التشغيل:",
+      "options": [
+        "Is horizontal",
+        "Touches the equilibrium curve (infinite column height)",
+        "Lies far from the equilibrium curve",
+        "Passes through the origin with slope zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At $(L/G)_{min}$ the operating line meets the equilibrium curve (pinch), so the driving force becomes zero at that point and an infinitely tall column (infinite NTU) would be needed.",
+      "explanation_ar": "عند $(L/G)_{min}$ يلامس خط التشغيل منحنى الاتزان (نقطة القرص) فتنعدم القوة الدافعة عندها ويلزم برج بارتفاع لانهائي (NTU لانهائي).",
+      "memorization_note": "التشغيل الفعلي: $L=(1.2\\ \\text{إلى}\\ 2)\\,L_{min}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "Which of the following is a commonly used tower packing?",
+      "question_ar": "أي مما يأتي من الحشوات المستخدمة عادةً في الأبراج؟",
+      "options": [
+        "Raschig rings",
+        "Venturi tubes",
+        "Bourdon gauges",
+        "Orifice plates"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Common random packings are Raschig rings, Berl saddles, Intalox saddles and Pall rings. They provide a large surface area per unit volume with low pressure drop.",
+      "explanation_ar": "من الحشوات العشوائية الشائعة حلقات راشيك وسروج بيرل وسروج إنتالوكس وحلقات بول، وتوفر مساحة سطحية كبيرة لكل وحدة حجم مع هبوط ضغط قليل.",
+      "memorization_note": "حشوات: Raschig, Berl, Intalox, Pall. حشوات منظمة: Structured packing.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "What is 'flooding' in a packed absorption column?",
+      "question_ar": "ما هو الغمر (Flooding) في برج امتصاص محشو؟",
+      "options": [
+        "The condition of minimum liquid rate",
+        "Complete wetting of the packing at low gas rate",
+        "The point where the operating line meets the equilibrium curve",
+        "The condition in which excessive gas velocity prevents liquid from flowing down, causing liquid accumulation and loss of operation"
+      ],
+      "correct_index": 3,
+      "explanation_en": "At high gas velocity the pressure drop rises sharply, the liquid hold-up builds up and is carried upward by the gas, so countercurrent flow breaks down.",
+      "explanation_ar": "عند سرعة غاز عالية يرتفع هبوط الضغط بشدة ويتراكم السائل ويُحمل إلى الأعلى مع الغاز فينهار الجريان المتعاكس.",
+      "memorization_note": "التشغيل العملي عند $\\approx 50$–$70\\%$ من سرعة الغمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "What are the units of the Height of a Transfer Unit (HTU)?",
+      "question_ar": "ما هي وحدة ارتفاع وحدة الانتقال (HTU)؟",
+      "options": [
+        "Dimensionless",
+        "$\\text{m}^2/\\text{s}$",
+        "Length (e.g. m)",
+        "$\\text{mol/m}^2\\text{s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$HTU=\\dfrac{G}{K_ya}$ has units of length. NTU is dimensionless.",
+      "explanation_ar": "$HTU=\\dfrac{G}{K_ya}$ وحدته طول، أما NTU فلابعدي.",
+      "memorization_note": "$$Z=\\text{HTU}\\times\\text{NTU}\\qquad \\text{HTU}=\\frac{G}{K_y a}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "The height of packing required in an absorber is given by:",
+      "question_ar": "ارتفاع الحشوة اللازم في برج الامتصاص يُعطى بالعلاقة:",
+      "options": [
+        "$Z=\\text{HTU}/\\text{NTU}$",
+        "$Z=\\text{HTU}\\times\\text{NTU}$",
+        "$Z=\\text{HTU}+\\text{NTU}$",
+        "$Z=\\text{HTU}^2\\times\\text{NTU}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The packed height equals the height of one transfer unit multiplied by the number of transfer units needed for the separation.",
+      "explanation_ar": "ارتفاع الحشوة = ارتفاع وحدة الانتقال الواحدة × عدد وحدات الانتقال اللازمة للفصل.",
+      "memorization_note": "$$Z=\\text{HTU}\\cdot\\text{NTU}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "Which of the following is NOT a desirable property of an absorption solvent?",
+      "question_ar": "أي مما يأتي ليس من الصفات المرغوبة في مذيب الامتصاص؟",
+      "options": [
+        "High volatility",
+        "High solubility for the solute",
+        "Low viscosity",
+        "Non-toxic and non-corrosive"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A good solvent has high solubility for the solute, low vapor pressure (to avoid solvent loss), low viscosity, low cost and is non-toxic and non-corrosive. High volatility causes solvent loss in the exit gas.",
+      "explanation_ar": "المذيب الجيد له ذائبية عالية للمذاب وضغط بخار واطئ (لتقليل فقدان المذيب) ولزوجة قليلة وكلفة واطئة وغير سام وغير متآكل. التطاير العالي يسبب فقدان المذيب مع الغاز الخارج.",
+      "memorization_note": "مواصفات المذيب: ذائبية عالية، تطاير واطئ، لزوجة واطئة، رخيص، غير سام.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "Which solvent is commonly used to absorb highly soluble gases such as $\\text{NH}_3$ and HCl?",
+      "question_ar": "أي مذيب يُستخدم عادةً لامتصاص الغازات شديدة الذوبان مثل $\\text{NH}_3$ و HCl؟",
+      "options": [
+        "Kerosene",
+        "Liquid nitrogen",
+        "Mercury",
+        "Water"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Ammonia and hydrogen chloride are polar and very soluble in water, so water is the cheapest and most suitable absorbent for them.",
+      "explanation_ar": "الأمونيا وكلوريد الهيدروجين مركبان قطبيان شديدا الذوبان في الماء لذلك يكون الماء أرخص وأنسب مذيب لهما.",
+      "memorization_note": "$\\text{NH}_3,\\ \\text{HCl}\\ \\rightarrow$ ماء (ذائبية عالية).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "How does chemical reaction in the liquid phase affect the rate of gas absorption?",
+      "question_ar": "كيف يؤثر التفاعل الكيميائي في الطور السائل على معدل الامتصاص الغازي؟",
+      "options": [
+        "It always decreases the rate",
+        "It has no effect",
+        "It enhances the rate by keeping the dissolved solute concentration low",
+        "It stops absorption completely"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A reaction consumes the dissolved solute near the interface, lowering its liquid-phase concentration and increasing the driving force. Example: $\\text{CO}_2$ absorption in amine (MEA) solutions.",
+      "explanation_ar": "التفاعل يستهلك المذاب الذائب قرب السطح البيني فيقل تركيزه في السائل وتزداد القوة الدافعة. مثال: امتصاص $\\text{CO}_2$ في محاليل الأمين (MEA).",
+      "memorization_note": "امتصاص كيميائي = معدل أعلى (Enhancement factor $>1$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "A very large value of Henry's constant $H$ (in $p_A=Hx_A$) means that the gas is:",
+      "question_ar": "القيمة الكبيرة جداً لثابت هنري $H$ (في $p_A=Hx_A$) تعني أن الغاز:",
+      "options": [
+        "Highly soluble in the liquid",
+        "Sparingly soluble in the liquid",
+        "Completely miscible with the liquid",
+        "Chemically inert and insoluble only in gases"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A large $H$ means a high partial pressure is needed to dissolve even a small mole fraction, i.e. low solubility (e.g. $\\text{O}_2$ and $\\text{N}_2$ in water). Small $H$ means high solubility (e.g. $\\text{NH}_3$).",
+      "explanation_ar": "$H$ الكبيرة تعني الحاجة إلى ضغط جزيئي عالٍ لإذابة كسر مولي صغير أي ذائبية قليلة (مثل $\\text{O}_2$ و $\\text{N}_2$ في الماء)، و$H$ الصغيرة تعني ذائبية عالية (مثل $\\text{NH}_3$).",
+      "memorization_note": "$H\\uparrow\\ \\Rightarrow$ ذائبية $\\downarrow$. $H$ يزداد بزيادة الحرارة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "The driving force for mass transfer in the gas phase of an absorber is expressed as:",
+      "question_ar": "تُعبَّر القوة الدافعة لانتقال المادة في الطور الغازي في برج الامتصاص بالصيغة:",
+      "options": [
+        "$y-y^*$",
+        "$x-y$",
+        "$T_g-T_l$",
+        "$P_1-P_2$ of the total pressure"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The overall gas-phase driving force is the difference between the bulk gas composition $y$ and the gas composition $y^*$ that would be in equilibrium with the bulk liquid.",
+      "explanation_ar": "القوة الدافعة الكلية في الطور الغازي هي الفرق بين تركيز الغاز الحقيقي $y$ وتركيز الغاز $y^*$ المتزن مع السائل الكلي.",
+      "memorization_note": "$$N_A=K_y(y-y^*)=K_x(x^*-x)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "Why is countercurrent flow generally preferred over cocurrent flow in absorbers?",
+      "question_ar": "لماذا يُفضَّل عادةً الجريان المتعاكس على الجريان المتوافق في أبراج الامتصاص؟",
+      "options": [
+        "It requires no solvent",
+        "It eliminates the need for packing",
+        "It makes the equilibrium curve disappear",
+        "It maintains a higher average driving force along the column"
+      ],
+      "correct_index": 3,
+      "explanation_en": "In countercurrent contact the richest gas meets the richest liquid and the leanest gas meets the leanest liquid, so the driving force stays more uniform and larger. A cocurrent column is limited to one equilibrium stage.",
+      "explanation_ar": "في الجريان المتعاكس يلتقي الغاز الأغنى بالسائل الأغنى والغاز الأفقر بالسائل الأفقر فتبقى القوة الدافعة أعلى وأكثر انتظاماً، بينما يقتصر الجريان المتوافق على مرحلة اتزان واحدة.",
+      "memorization_note": "متعاكس $\\rightarrow$ كفاءة أعلى؛ متوافق $\\rightarrow$ مرحلة اتزان واحدة كحد أقصى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "What is the main function of packing in a packed tower?",
+      "question_ar": "ما الوظيفة الرئيسية للحشوة في البرج المحشو؟",
+      "options": [
+        "To heat the gas",
+        "To increase the total pressure",
+        "To provide a large interfacial area for gas–liquid contact",
+        "To filter solid particles"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Packing spreads the liquid in thin films over its surface and forces the gas to contact it, increasing the interfacial area $a$ per unit volume and thus the mass-transfer rate.",
+      "explanation_ar": "تنشر الحشوة السائل على شكل أغشية رقيقة على سطحها وتجبر الغاز على ملامسته فتزداد المساحة السطحية $a$ لكل وحدة حجم ويزداد معدل الانتقال.",
+      "memorization_note": "معدل الانتقال $=K_y\\,a\\,V\\,(y-y^*)$ حيث $a$ = المساحة السطحية النوعية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "HETP (Height Equivalent to a Theoretical Plate) is defined as:",
+      "question_ar": "يُعرَّف HETP (الارتفاع المكافئ لصينية نظرية) بأنه:",
+      "options": [
+        "The total height of the tower",
+        "The packed height that gives the same separation as one theoretical (equilibrium) stage",
+        "The height of the liquid on a tray",
+        "The height of the gas inlet nozzle"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$HETP=Z/N_{t}$, where $N_t$ is the number of theoretical stages achieved in packed height $Z$. A smaller HETP means more efficient packing.",
+      "explanation_ar": "$HETP=Z/N_t$ حيث $N_t$ عدد المراحل النظرية المتحققة في الارتفاع $Z$. كلما قلّ HETP كانت الحشوة أكفأ.",
+      "memorization_note": "$$\\text{HETP}=\\frac{Z}{N_t}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "Which of the following is a type of tray used in plate columns?",
+      "question_ar": "أي مما يأتي من أنواع الصواني المستخدمة في الأبراج ذات الصواني؟",
+      "options": [
+        "Sieve tray",
+        "Raschig tray",
+        "Berl tray",
+        "Pall tray ring only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Common tray types are the sieve (perforated) tray, bubble-cap tray and valve tray. Raschig and Berl are packing shapes (rings/saddles), not trays.",
+      "explanation_ar": "من أنواع الصواني الشائعة: الصينية المثقبة (Sieve) وصينية القبعات (Bubble-cap) والصينية ذات الصمامات (Valve). أما Raschig وBerl فهي أشكال حشوات (حلقات وسروج).",
+      "memorization_note": "صواني: Sieve, Bubble-cap, Valve. حشوات: Raschig, Berl, Pall.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "Distillation separates the components of a liquid mixture on the basis of differences in:",
+      "question_ar": "يفصل التقطير مكوّنات المزيج السائل اعتماداً على الاختلاف في:",
+      "options": [
+        "Density only",
+        "Volatility (boiling point)",
+        "Particle size",
+        "Electrical charge"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In distillation the vapor produced is richer in the more volatile component (lower boiling point), so repeated vaporization and condensation separates the mixture.",
+      "explanation_ar": "البخار الناتج في التقطير يكون أغنى بالمكوّن الأكثر تطايراً (الأقل غلياناً) وبتكرار التبخير والتكثيف يتم فصل المزيج.",
+      "memorization_note": "التقطير = فصل حسب التطايرية (نقطة الغليان).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "The relative volatility of component $A$ with respect to $B$ is defined as:",
+      "question_ar": "تُعرَّف التطايرية النسبية للمكوّن $A$ بالنسبة إلى $B$ بأنها:",
+      "options": [
+        "$\\alpha_{AB}=\\dfrac{y_A/x_A}{y_B/x_B}$",
+        "$\\alpha_{AB}=\\dfrac{x_A/y_A}{x_B/y_B}$",
+        "$\\alpha_{AB}=\\dfrac{y_A}{y_B}\\cdot\\dfrac{x_A}{x_B}$",
+        "$\\alpha_{AB}=y_A-x_A$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\alpha=\\dfrac{K_A}{K_B}$ where $K_i=y_i/x_i$. For ideal systems $\\alpha=P_A^{sat}/P_B^{sat}$.",
+      "explanation_ar": "$\\alpha=\\dfrac{K_A}{K_B}$ حيث $K_i=y_i/x_i$، وللأنظمة المثالية $\\alpha=P_A^{sat}/P_B^{sat}$.",
+      "memorization_note": "$$\\alpha_{AB}=\\frac{y_A/x_A}{y_B/x_B}=\\frac{P_A^{sat}}{P_B^{sat}}\\ (\\text{ideal})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "If the relative volatility of a binary mixture equals 1, then:",
+      "question_ar": "إذا كانت التطايرية النسبية لمزيج ثنائي تساوي 1 فإن:",
+      "options": [
+        "Separation is very easy",
+        "Only one component is volatile",
+        "The mixture is always an ideal solution with large separation",
+        "Separation by ordinary distillation is impossible"
+      ],
+      "correct_index": 3,
+      "explanation_en": "When $\\alpha=1$, $y_A=x_A$ at every composition: the vapor has the same composition as the liquid, so no enrichment occurs (as at an azeotrope).",
+      "explanation_ar": "عندما $\\alpha=1$ يكون $y_A=x_A$ عند كل تركيب أي أن البخار له نفس تركيب السائل فلا يحدث إثراء (كما في نقطة الأزيوتروب).",
+      "memorization_note": "$\\alpha=1\\Rightarrow$ لا فصل. كلما ابتعد $\\alpha$ عن 1 كان الفصل أسهل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "What is the effect of a larger relative volatility $\\alpha$ on a distillation separation?",
+      "question_ar": "ما تأثير زيادة التطايرية النسبية $\\alpha$ على فصل التقطير؟",
+      "options": [
+        "The separation becomes harder",
+        "No effect on the number of stages",
+        "The separation becomes easier (fewer stages are needed)",
+        "The column must be operated at total reflux"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A larger $\\alpha$ moves the equilibrium curve farther from the $y=x$ line on the $x$–$y$ diagram, so each stage gives more enrichment and fewer stages are needed.",
+      "explanation_ar": "زيادة $\\alpha$ تبعد منحنى الاتزان عن الخط $y=x$ فيزداد الإثراء في كل مرحلة وتقل المراحل المطلوبة.",
+      "memorization_note": "$\\alpha\\uparrow\\ \\Rightarrow\\ N\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "The bubble point of a liquid mixture at a given pressure is the temperature at which:",
+      "question_ar": "نقطة الفقاعة (Bubble point) لمزيج سائل عند ضغط معين هي درجة الحرارة التي عندها:",
+      "options": [
+        "The first drop of liquid forms on cooling the vapor",
+        "The first bubble of vapor forms on heating the liquid",
+        "All the liquid is vaporized at once",
+        "The solid and liquid phases coexist"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The bubble point is the saturated-liquid temperature: the liquid just begins to boil. Vaporization starts at the bubble point.",
+      "explanation_ar": "نقطة الفقاعة هي درجة حرارة السائل المشبع أي بداية الغليان، ويبدأ التبخر عندها.",
+      "memorization_note": "نقطة الفقاعة: $\\sum y_i=\\sum K_ix_i=1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "The dew point of a vapor mixture at a given pressure is the temperature at which:",
+      "question_ar": "نقطة الندى (Dew point) لمزيج بخاري عند ضغط معين هي درجة الحرارة التي عندها:",
+      "options": [
+        "The first drop of liquid forms on cooling the vapor",
+        "The first bubble of vapor forms on heating a liquid",
+        "The liquid is completely vaporized on heating",
+        "The mixture freezes"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The dew point is the saturated-vapor temperature: condensation begins when the vapor is cooled to it.",
+      "explanation_ar": "نقطة الندى هي درجة حرارة البخار المشبع، ويبدأ التكثف عندها عند تبريد البخار.",
+      "memorization_note": "نقطة الندى: $\\sum x_i=\\sum \\dfrac{y_i}{K_i}=1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "On a temperature–composition ($T$–$x$–$y$) diagram, the region between the bubble-point curve and the dew-point curve is:",
+      "question_ar": "على مخطط درجة الحرارة–التركيب ($T$–$x$–$y$) المنطقة المحصورة بين منحنى نقطة الفقاعة ومنحنى نقطة الندى هي:",
+      "options": [
+        "A subcooled liquid region",
+        "A superheated vapor region",
+        "A solid region",
+        "A two-phase (vapor + liquid) region"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Below the bubble-point curve the mixture is liquid, above the dew-point curve it is vapor, and between them liquid and vapor coexist.",
+      "explanation_ar": "تحت منحنى الفقاعة يكون المزيج سائلاً وفوق منحنى الندى يكون بخاراً، وبينهما يتواجد السائل والبخار معاً.",
+      "memorization_note": "أسفل: سائل. وسط: سائل+بخار. أعلى: بخار.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "Flash distillation is best described as:",
+      "question_ar": "يوصف التقطير الومضي (Flash distillation) بشكل أفضل بأنه:",
+      "options": [
+        "A multistage process with reflux",
+        "A batch process with no equilibrium",
+        "A single-stage process in which a liquid is partially vaporized and the vapor and liquid are separated at equilibrium",
+        "A process that uses a solvent to extract a component"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In a flash, a feed is heated, passes through a valve to a lower pressure, and the resulting vapor and liquid phases leave a drum in equilibrium: one equilibrium stage.",
+      "explanation_ar": "في التقطير الومضي يُسخَّن التغذية ثم تمر عبر صمام إلى ضغط أقل فيخرج البخار والسائل من الوعاء في حالة اتزان: مرحلة اتزان واحدة.",
+      "memorization_note": "فلاش = مرحلة اتزان واحدة (بدون ارتجاع).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "Differential (Rayleigh) distillation is typically carried out as:",
+      "question_ar": "يُجرى التقطير التفاضلي (Rayleigh) عادةً بصورة:",
+      "options": [
+        "A continuous multistage operation with reflux",
+        "A batch operation with no reflux, in which vapor is removed continuously",
+        "A continuous single-stage flash",
+        "A solvent-extraction process"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In simple batch (Rayleigh) distillation liquid is boiled in a still and the vapor is continuously removed and condensed. The still-pot composition changes with time and there is no reflux.",
+      "explanation_ar": "في التقطير الدفعي البسيط (Rayleigh) يُغلى السائل في وعاء ويُسحب البخار ويُكثَّف باستمرار، ويتغير تركيب الوعاء مع الزمن ولا يوجد ارتجاع.",
+      "memorization_note": "$$\\ln\\frac{W_0}{W}=\\int_{x_W}^{x_0}\\frac{dx}{y-x}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "An azeotropic mixture is one in which:",
+      "question_ar": "المزيج الأزيوتروبي (Azeotrope) هو المزيج الذي فيه:",
+      "options": [
+        "The vapor and liquid have the same composition at equilibrium",
+        "The relative volatility is very large",
+        "One component is non-volatile",
+        "The mixture cannot form a liquid phase"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At the azeotropic composition $y_i=x_i$ ($\\alpha=1$), so it cannot be separated further by ordinary distillation; special methods (azeotropic or extractive distillation) are needed.",
+      "explanation_ar": "عند التركيب الأزيوتروبي $y_i=x_i$ ($\\alpha=1$) فلا يمكن فصله بالتقطير العادي وتلزم طرق خاصة (تقطير أزيوتروبي أو استخلاصي).",
+      "memorization_note": "أزيوتروب: $y=x$ و $\\alpha=1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "A minimum-boiling azeotrope (e.g. ethanol–water) results from:",
+      "question_ar": "الأزيوتروب ذو نقطة الغليان الصغرى (مثل إيثانول–ماء) ينتج عن:",
+      "options": [
+        "Negative deviation from Raoult's law",
+        "Perfect ideal behaviour",
+        "Absence of intermolecular forces",
+        "Positive deviation from Raoult's law"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Positive deviation means the components 'escape' more easily than in an ideal solution (activity coefficients $\\gamma>1$), producing a vapor-pressure maximum and a boiling-point minimum.",
+      "explanation_ar": "الانحراف الموجب يعني أن المكوّنات تتطاير بسهولة أكبر من المحلول المثالي ($\\gamma>1$) فينتج أعلى ضغط بخار وأقل درجة غليان.",
+      "memorization_note": "انحراف موجب $\\Rightarrow$ أزيوتروب غليان أصغر. انحراف سالب $\\Rightarrow$ أزيوتروب غليان أكبر (مثل HCl–ماء).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "The reflux ratio of a distillation column is defined as:",
+      "question_ar": "تُعرَّف نسبة الارتجاع (Reflux ratio) في عمود التقطير بأنها:",
+      "options": [
+        "$R=\\dfrac{D}{L}$",
+        "$R=\\dfrac{F}{D}$",
+        "$R=\\dfrac{L}{D}$ (reflux returned to the column / distillate withdrawn)",
+        "$R=\\dfrac{V}{F}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The external reflux ratio $R=L/D$ is the molar flow of liquid returned to the top of the column divided by the molar flow of distillate product.",
+      "explanation_ar": "نسبة الارتجاع الخارجية $R=L/D$ هي التدفق المولي للسائل المُرجَع إلى أعلى العمود مقسوماً على التدفق المولي للمنتج المقطَّر.",
+      "memorization_note": "$$R=\\frac{L}{D}\\qquad V=L+D=D(R+1)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "At total reflux, a distillation column requires:",
+      "question_ar": "عند الارتجاع الكلي (Total reflux) يحتاج عمود التقطير إلى:",
+      "options": [
+        "The maximum number of theoretical stages",
+        "The minimum number of theoretical stages",
+        "An infinite number of stages",
+        "No stages at all"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At total reflux ($D=0$, $R=\\infty$) the operating lines coincide with the diagonal $y=x$, giving the largest driving force and the minimum number of stages $N_{min}$ (Fenske equation).",
+      "explanation_ar": "عند الارتجاع الكلي ($D=0$ و $R=\\infty$) ينطبق خط التشغيل على القطر $y=x$ فتكون القوة الدافعة أكبر ما يمكن ويلزم أقل عدد من المراحل $N_{min}$ (معادلة Fenske).",
+      "memorization_note": "ارتجاع كلي: $R=\\infty\\Rightarrow N=N_{min}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "At minimum reflux ratio, a distillation column requires:",
+      "question_ar": "عند الحد الأدنى لنسبة الارتجاع (Minimum reflux) يحتاج عمود التقطير إلى:",
+      "options": [
+        "An infinite number of theoretical stages",
+        "The minimum number of stages",
+        "Zero energy",
+        "Only one stage"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At $R_{min}$ the operating lines meet the equilibrium curve at the feed (pinch point), so the driving force vanishes there and an infinite number of stages would be needed.",
+      "explanation_ar": "عند $R_{min}$ يلتقي خطا التشغيل مع منحنى الاتزان عند التغذية (نقطة القرص) فتنعدم القوة الدافعة ويلزم عدد لانهائي من المراحل.",
+      "memorization_note": "$R_{min}\\Rightarrow N=\\infty$. $R=\\infty\\Rightarrow N=N_{min}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "For a saturated-liquid feed, the value of $q$ and the shape of the $q$-line on the McCabe–Thiele diagram are:",
+      "question_ar": "لتغذية سائل مشبع، ما قيمة $q$ وشكل خط $q$ على مخطط McCabe–Thiele؟",
+      "options": [
+        "$q=0$, a horizontal line",
+        "$q>1$, a line of negative slope less than unity",
+        "$q<0$, a line with slope equal to unity",
+        "$q=1$, a vertical line"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$q$ is the moles of saturated liquid produced on the feed plate per mole of feed. The $q$-line has slope $q/(q-1)$; for $q=1$ the slope is infinite (vertical). For saturated vapor $q=0$ (horizontal).",
+      "explanation_ar": "$q$ هي عدد مولات السائل المشبع المتكوّنة على صينية التغذية لكل مول تغذية. ميل خط $q$ هو $q/(q-1)$؛ عند $q=1$ يكون الميل لانهائياً (خط رأسي). وللبخار المشبع $q=0$ (خط أفقي).",
+      "memorization_note": "$$\\text{slope}=\\frac{q}{q-1}\\qquad q=1\\ (\\text{liq. مشبع}),\\ q=0\\ (\\text{بخار مشبع})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "For a feed that is a saturated vapor, the $q$-line is:",
+      "question_ar": "إذا كانت التغذية بخاراً مشبعاً فإن خط $q$ يكون:",
+      "options": [
+        "Vertical ($q=1$)",
+        "Coincident with $y=x$",
+        "Horizontal ($q=0$)",
+        "A line with $q>1$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "For saturated vapor, $q=0$ and slope $=q/(q-1)=0$, so the $q$-line is horizontal at $y=z_F$.",
+      "explanation_ar": "للبخار المشبع $q=0$ والميل $=q/(q-1)=0$ فيكون خط $q$ أفقياً عند $y=z_F$.",
+      "memorization_note": "سائل بارد: $q>1$. سائل مشبع: $q=1$. خليط: $0<q<1$. بخار مشبع: $q=0$. بخار مسخَّن: $q<0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "A key assumption of the McCabe–Thiele method is:",
+      "question_ar": "من الافتراضات الأساسية في طريقة McCabe–Thiele:",
+      "options": [
+        "Constant mass overflow with unequal latent heats",
+        "Constant molar overflow (equal molar latent heats)",
+        "Total condensation of the feed",
+        "Infinite relative volatility"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Constant molar overflow means the liquid and vapor molar flow rates are constant in each section of the column, so the operating lines are straight.",
+      "explanation_ar": "الفيض المولي الثابت يعني ثبات التدفقات المولية للسائل والبخار في كل جزء من العمود فتكون خطوط التشغيل مستقيمة.",
+      "memorization_note": "McCabe–Thiele: فيض مولي ثابت $\\Rightarrow$ خطوط تشغيل مستقيمة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "Which section of a distillation column lies above the feed plate?",
+      "question_ar": "أي جزء من عمود التقطير يقع فوق صينية التغذية؟",
+      "options": [
+        "The rectifying (enriching) section",
+        "The stripping (exhausting) section",
+        "The reboiler",
+        "The flash zone below the bottom tray"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Above the feed the vapor is enriched in the light component (rectifying section); below the feed the liquid is stripped of the light component (stripping section).",
+      "explanation_ar": "فوق التغذية يزداد تركيز المكوّن الخفيف في البخار (قسم التنقية/الإثراء)، وتحت التغذية يُجرَّد السائل من المكوّن الخفيف (قسم التجريد).",
+      "memorization_note": "فوق التغذية: Rectifying. تحت التغذية: Stripping.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "A kettle reboiler, in which the vapor leaving is in equilibrium with the bottoms liquid, counts as:",
+      "question_ar": "المرجل (Kettle reboiler) الذي يخرج منه بخار متزن مع سائل القاع يُحسب على أنه:",
+      "options": [
+        "Zero stages",
+        "Two stages",
+        "A total condenser",
+        "One theoretical (equilibrium) stage"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The partial reboiler vaporizes part of the bottoms liquid, and the vapor and residue leave in equilibrium, so it acts as an extra theoretical stage in addition to the trays.",
+      "explanation_ar": "المرجل الجزئي يبخّر جزءاً من سائل القاع ويخرج البخار والمتبقي في حالة اتزان فيعمل كمرحلة نظرية إضافية فوق الصواني.",
+      "memorization_note": "Kettle reboiler = مرحلة اتزان واحدة. Total condenser = لا يُحسب مرحلة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "Steam distillation is mainly used to:",
+      "question_ar": "يُستخدم التقطير بالبخار (Steam distillation) أساساً من أجل:",
+      "options": [
+        "Separate azeotropes of ethanol and water",
+        "Increase the boiling point of the mixture",
+        "Distil heat-sensitive, high-boiling substances immiscible with water at a temperature below 100 °C",
+        "Remove dissolved gases only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "For an immiscible mixture the total vapor pressure is the sum of the pure-component vapor pressures, so it boils below the boiling point of water. This protects heat-sensitive materials such as essential oils.",
+      "explanation_ar": "في المزيج غير الممتزج يكون الضغط البخاري الكلي مجموع الضغوط البخارية للمكوّنات النقية فيغلي عند درجة أقل من غليان الماء، وهذا يحمي المواد الحساسة للحرارة مثل الزيوت العطرية.",
+      "memorization_note": "$$P=P_A^{sat}+P_B^{sat}\\ (\\text{immiscible})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "Vacuum distillation is used for:",
+      "question_ar": "يُستخدم التقطير تحت التفريغ (Vacuum distillation) من أجل:",
+      "options": [
+        "Gases only",
+        "Heat-sensitive or very high-boiling mixtures",
+        "Increasing the boiling temperature",
+        "Mixtures that boil below 0 °C only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Reducing the operating pressure lowers the boiling temperatures, preventing thermal decomposition and allowing distillation of heavy materials such as crude-oil residue.",
+      "explanation_ar": "خفض الضغط يخفض درجات الغليان فيمنع التحلل الحراري ويتيح تقطير المواد الثقيلة مثل متبقي النفط الخام.",
+      "memorization_note": "تفريغ $\\Rightarrow$ غليان عند حرارة أقل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "What is the purpose of extractive distillation?",
+      "question_ar": "ما الغرض من التقطير الاستخلاصي (Extractive distillation)؟",
+      "options": [
+        "To add a high-boiling solvent that changes the relative volatility of the components",
+        "To remove the reboiler",
+        "To operate at total reflux",
+        "To make the feed a saturated vapor"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A relatively non-volatile solvent is added near the top of the column. It interacts differently with each component and increases the relative volatility, making close-boiling or azeotropic mixtures separable.",
+      "explanation_ar": "يُضاف مذيب قليل التطاير قرب أعلى العمود فيتفاعل بشكل مختلف مع كل مكوّن ويزيد التطايرية النسبية مما يجعل فصل المخاليط متقاربة الغليان أو الأزيوتروبية ممكناً.",
+      "memorization_note": "استخلاصي: مذيب عالي الغليان. أزيوتروبي: مادة مُدخِلة (Entrainer) تكوّن أزيوتروباً جديداً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "Increasing the reflux ratio at a fixed separation generally:",
+      "question_ar": "زيادة نسبة الارتجاع لنفس درجة الفصل عادةً:",
+      "options": [
+        "Increases the number of stages and reduces energy use",
+        "Has no effect on stages or energy",
+        "Reduces both the number of stages and the energy use",
+        "Reduces the number of stages but increases reboiler and condenser duties"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A higher $R$ moves the operating lines farther from the equilibrium curve (fewer stages), but a larger internal vapor flow $V=D(R+1)$ requires more heat in the reboiler and cooling in the condenser.",
+      "explanation_ar": "زيادة $R$ تبعد خطوط التشغيل عن منحنى الاتزان (مراحل أقل) لكن زيادة تدفق البخار $V=D(R+1)$ تتطلب حرارة أكبر في المرجل وتبريداً أكبر في المكثف.",
+      "memorization_note": "$R\\uparrow$: مراحل $\\downarrow$ ، كلفة تشغيل $\\uparrow$. عملياً $R\\approx(1.2$–$1.5)R_{min}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "The optimum operating reflux ratio of a column is usually about:",
+      "question_ar": "القيمة المثلى لنسبة الارتجاع التشغيلية للعمود تكون عادةً حوالي:",
+      "options": [
+        "$R_{min}$ exactly",
+        "$10$ to $20$ times $R_{min}$",
+        "$1.2$ to $1.5$ times $R_{min}$",
+        "Infinity"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Total cost (fixed + operating) has a minimum at a reflux ratio slightly above $R_{min}$; the usual design rule is $R=1.2$–$1.5\\,R_{min}$.",
+      "explanation_ar": "الكلفة الكلية (الثابتة + التشغيلية) لها نهاية صغرى عند ارتجاع أكبر قليلاً من $R_{min}$؛ والقاعدة التصميمية الشائعة $R=1.2$–$1.5\\,R_{min}$.",
+      "memorization_note": "$$R_{opt}\\approx(1.2\\text{–}1.5)\\,R_{min}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "The overall material balance on a distillation column with feed $F$, distillate $D$ and bottoms $W$ is:",
+      "question_ar": "الموازنة المادية الكلية لعمود تقطير فيه تغذية $F$ ومقطَّر $D$ وقاع $W$ هي:",
+      "options": [
+        "$F=D-W$",
+        "$F=D+W$",
+        "$F=D\\cdot W$",
+        "$F+D=W$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At steady state, the total molar flow in equals the total molar flow out: $F=D+W$; for the light component $Fz_F=Dx_D+Wx_W$.",
+      "explanation_ar": "في الحالة المستقرة يساوي التدفق الداخل التدفق الخارج: $F=D+W$ وللمكوّن الخفيف $Fz_F=Dx_D+Wx_W$.",
+      "memorization_note": "$$F=D+W\\qquad Fz_F=Dx_D+Wx_W$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "Liquid–liquid extraction separates components of a liquid mixture based on:",
+      "question_ar": "يفصل الاستخلاص السائل–سائل مكوّنات المزيج السائل اعتماداً على:",
+      "options": [
+        "Differences in solubility in two immiscible (or partially miscible) liquid phases",
+        "Differences in boiling points",
+        "Differences in particle size",
+        "Differences in melting points"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A solvent that is immiscible with the feed dissolves the solute selectively. Phases are then separated by gravity; the solute is recovered from the solvent.",
+      "explanation_ar": "يُضاف مذيب غير ممتزج مع التغذية فيذيب المذاب بانتقائية، ثم تُفصل الطورين بالجاذبية ويُستعاد المذاب من المذيب.",
+      "memorization_note": "استخلاص: فرق الذائبية. تقطير: فرق التطايرية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "In liquid–liquid extraction, the 'raffinate' is:",
+      "question_ar": "في الاستخلاص السائل–سائل تُسمى الـ Raffinate:",
+      "options": [
+        "The solvent-rich phase containing the solute",
+        "The pure solvent",
+        "The vapor phase",
+        "The residual feed-rich phase after the solute has been extracted"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The extract is the solvent-rich phase containing the transferred solute; the raffinate is the phase from which the solute was removed.",
+      "explanation_ar": "الـ Extract هو الطور الغني بالمذيب الحاوي على المذاب المنقول، أما الـ Raffinate فهو الطور الذي أُزيل منه المذاب.",
+      "memorization_note": "Extract = غني بالمذيب. Raffinate = المتبقي من التغذية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "The distribution (partition) coefficient in extraction is defined as:",
+      "question_ar": "يُعرَّف معامل التوزيع في الاستخلاص بأنه:",
+      "options": [
+        "$K=\\dfrac{x}{y}$ times the temperature",
+        "$K=y-x$",
+        "$K=\\dfrac{y}{x}$ (solute concentration in the extract phase / in the raffinate phase at equilibrium)",
+        "$K=\\dfrac{P}{T}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$K=y/x$ at equilibrium. A larger $K$ means the solute prefers the solvent phase, so less solvent is required.",
+      "explanation_ar": "$K=y/x$ عند الاتزان، وكلما كبر $K$ فضّل المذاب طور المذيب وقلّت كمية المذيب المطلوبة.",
+      "memorization_note": "$$K_D=\\frac{y_{extract}}{x_{raffinate}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "The selectivity $\\beta$ of a solvent in extraction is defined as:",
+      "question_ar": "تُعرَّف انتقائية المذيب $\\beta$ في الاستخلاص بأنها:",
+      "options": [
+        "$\\beta=K_A+K_B$",
+        "$\\beta=\\dfrac{K_A}{K_B}$ (ratio of distribution coefficients of the solute and the diluent)",
+        "$\\beta=K_A\\cdot K_B$",
+        "$\\beta=P/T$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Selectivity is analogous to relative volatility in distillation. $\\beta=1$ means no separation; the larger the $\\beta$, the better the solvent.",
+      "explanation_ar": "الانتقائية تناظر التطايرية النسبية في التقطير. $\\beta=1$ تعني عدم وجود فصل وكلما كبرت $\\beta$ كان المذيب أفضل.",
+      "memorization_note": "$$\\beta=\\frac{K_A}{K_B}=\\frac{y_A/x_A}{y_B/x_B}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "In a ternary equilibrium (triangular) diagram, the plait point is:",
+      "question_ar": "في مخطط الاتزان الثلاثي (المثلث)، نقطة الطي (Plait point) هي:",
+      "options": [
+        "The point where the two conjugate phases become identical (tie-line length is zero)",
+        "The vertex representing the pure solvent",
+        "The point of maximum temperature",
+        "The feed point always"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At the plait point the extract and raffinate compositions coincide and the tie line shrinks to a point; beyond it the system is a single phase.",
+      "explanation_ar": "عند نقطة الطي يتطابق تركيب الـ Extract والـ Raffinate ويتقلص خط الربط إلى نقطة؛ وبعدها يصبح النظام طوراً واحداً.",
+      "memorization_note": "plait point: طول خط الربط = صفر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "Which property is desirable in a solvent for liquid–liquid extraction?",
+      "question_ar": "أي خاصية مرغوبة في المذيب المستخدم في الاستخلاص السائل–سائل؟",
+      "options": [
+        "Complete miscibility with the feed",
+        "Same density as the feed",
+        "Very high viscosity",
+        "A large density difference from the feed liquid and high selectivity"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The solvent should be selective, have a large density difference (easy phase separation), low miscibility with the feed, easy recovery, low viscosity, non-toxic and cheap.",
+      "explanation_ar": "يجب أن يكون المذيب انتقائياً وله فرق كثافة كبير (سهولة فصل الطورين) وقليل الامتزاج مع التغذية وسهل الاسترجاع وقليل اللزوجة وغير سام ورخيصاً.",
+      "memorization_note": "مذيب جيد: انتقائية عالية، فرق كثافة، استرجاع سهل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Which of the following is an extraction contactor?",
+      "question_ar": "أي مما يأتي من أجهزة الاستخلاص؟",
+      "options": [
+        "Rotary dryer",
+        "Kettle reboiler",
+        "Mixer–settler",
+        "Cooling tower"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Extraction equipment includes mixer–settlers, spray and packed columns, rotating-disc contactors (RDC), pulsed columns and centrifugal extractors.",
+      "explanation_ar": "من أجهزة الاستخلاص: المازج–المرسِّب وأعمدة الرش والمحشوة والمفاعل ذو الأقراص الدوّارة (RDC) والأعمدة النبضية والمستخلصات الطاردة المركزية.",
+      "memorization_note": "Mixer-settler, RDC, pulsed column, packed/spray columns.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "Liquid–liquid extraction is preferred over distillation when the mixture is:",
+      "question_ar": "يُفضَّل الاستخلاص السائل–سائل على التقطير عندما يكون المزيج:",
+      "options": [
+        "A pure single component",
+        "Heat-sensitive or close-boiling (or forms an azeotrope)",
+        "Having a very large relative volatility",
+        "A gas at room temperature"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Extraction works at moderate temperatures and does not depend on volatility differences, so it suits heat-sensitive materials, close-boiling mixtures and azeotropes.",
+      "explanation_ar": "يعمل الاستخلاص عند درجات حرارة معتدلة ولا يعتمد على فرق التطايرية، لذلك يناسب المواد الحساسة للحرارة والمخاليط متقاربة الغليان والأزيوتروبات.",
+      "memorization_note": "استخلاص بدل التقطير: حساس للحرارة، $\\alpha\\approx1$، أزيوتروب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "Leaching (solid–liquid extraction) is the removal of:",
+      "question_ar": "التصفية بالإذابة (Leaching أو الاستخلاص صلب–سائل) هو إزالة:",
+      "options": [
+        "A soluble component from a solid using a liquid solvent",
+        "A volatile component from a liquid using a gas",
+        "Moisture from a solid using hot air",
+        "A gas from a liquid using a solid"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In leaching a solvent dissolves a solute from a solid matrix, e.g. sugar from beets with hot water or oil from seeds with hexane.",
+      "explanation_ar": "في التصفية بالإذابة يذيب مذيب سائل مذاباً من مصفوفة صلبة مثل استخلاص السكر من الشوندر بالماء الساخن أو الزيت من البذور بالهكسان.",
+      "memorization_note": "أمثلة leaching: سكر من الشوندر، زيت من البذور.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "Which of the following can accelerate leaching?",
+      "question_ar": "أي مما يأتي يمكنه تسريع عملية الـ Leaching؟",
+      "options": [
+        "Using larger solid particles",
+        "Cooling the solvent",
+        "Drying the solid completely",
+        "Crushing or grinding the solid"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Smaller particles have a larger surface area and shorter diffusion paths, which increases the leaching rate. A higher temperature also helps.",
+      "explanation_ar": "الجسيمات الأصغر لها مساحة سطح أكبر ومسارات انتشار أقصر مما يزيد معدل الـ Leaching، كما أن رفع الحرارة يساعد.",
+      "memorization_note": "تصغير الحجم $\\Rightarrow$ مساحة أكبر $\\Rightarrow$ معدل أعلى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "In adsorption, the substance that is adsorbed onto the surface is called the:",
+      "question_ar": "في الادمصاص، تُسمى المادة التي تلتصق على السطح بـ:",
+      "options": [
+        "Adsorbent",
+        "Absorbent",
+        "Adsorbate",
+        "Catalyst"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The adsorbate is the molecule that accumulates on the surface; the adsorbent is the solid that provides the surface (e.g. activated carbon).",
+      "explanation_ar": "المدمَص (Adsorbate) هو الجزيء الذي يتراكم على السطح، والمادة المدمِصة (Adsorbent) هي الصلب الذي يوفر السطح (مثل الكربون المنشّط).",
+      "memorization_note": "Adsorbate = المادة الملتصقة. Adsorbent = السطح الصلب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "Which statement about physical adsorption (physisorption) is correct?",
+      "question_ar": "أي عبارة عن الادمصاص الفيزيائي (Physisorption) صحيحة؟",
+      "options": [
+        "It forms strong chemical bonds and is irreversible",
+        "It is caused by weak van der Waals forces and is reversible with low heat of adsorption",
+        "It occurs only at very high temperatures",
+        "It is always a monolayer"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Physisorption involves weak van der Waals forces, has a low heat of adsorption (about 20–40 kJ/mol), is reversible and may form multilayers. Chemisorption forms chemical bonds, is usually irreversible and forms a monolayer.",
+      "explanation_ar": "الادمصاص الفيزيائي يعتمد على قوى فان درفالز الضعيفة، وحرارته منخفضة (نحو 20–40 kJ/mol) وهو انعكاسي ويمكن أن يكوّن طبقات متعددة. أما الادمصاص الكيميائي فيكوّن روابط كيميائية وغالباً غير انعكاسي ويكوّن طبقة أحادية.",
+      "memorization_note": "فيزيائي: ضعيف، انعكاسي، طبقات متعددة. كيميائي: قوي، طبقة أحادية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "How does increasing temperature affect adsorption (an exothermic process)?",
+      "question_ar": "كيف تؤثر زيادة درجة الحرارة على الادمصاص (عملية باعثة للحرارة)؟",
+      "options": [
+        "The amount adsorbed generally decreases",
+        "The amount adsorbed always increases",
+        "It has no effect",
+        "The adsorbent melts and adsorbs more"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Adsorption releases heat. By Le Chatelier's principle, a higher temperature shifts the equilibrium toward desorption, so capacity falls. Regeneration of adsorbents therefore uses heating.",
+      "explanation_ar": "الادمصاص باعث للحرارة وحسب مبدأ لوشاتلييه فإن رفع الحرارة يزيح الاتزان نحو إزالة الادمصاص فتقل السعة، لذلك يُعاد توليد المدمِصات بالتسخين.",
+      "memorization_note": "ادمصاص: $\\Delta H<0$ $\\Rightarrow$ $T\\uparrow$، كمية المدمَصة $\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "The Langmuir adsorption isotherm assumes:",
+      "question_ar": "تفترض معادلة لانغماير للادمصاص (Langmuir isotherm):",
+      "options": [
+        "Multilayer adsorption on a heterogeneous surface",
+        "Infinite adsorption capacity",
+        "No equilibrium between phases",
+        "Monolayer adsorption on a homogeneous surface with a finite number of sites"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The Langmuir isotherm $q=\\dfrac{q_mKC}{1+KC}$ assumes a monolayer, identical sites and no interaction between adsorbed molecules. Freundlich is empirical; BET covers multilayers.",
+      "explanation_ar": "معادلة لانغماير $q=\\dfrac{q_mKC}{1+KC}$ تفترض طبقة أحادية ومواقع متماثلة وعدم تفاعل بين الجزيئات المدمصة. أما فروندليش فتجريبية وBET للطبقات المتعددة.",
+      "memorization_note": "$$q=\\frac{q_m K C}{1+KC}\\ (\\text{Langmuir}),\\qquad q=K_FC^{1/n}\\ (\\text{Freundlich})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "Which of the following is a common industrial adsorbent?",
+      "question_ar": "أي مما يأتي من المدمِصات الصناعية الشائعة؟",
+      "options": [
+        "Stainless steel",
+        "Pure copper",
+        "Activated carbon",
+        "Glass wool for gases only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Common adsorbents are activated carbon, silica gel, activated alumina and zeolites (molecular sieves), all having very high internal surface areas.",
+      "explanation_ar": "من المدمِصات الشائعة الكربون المنشّط والسيليكا جل والألومينا المنشّطة والزيوليت (المناخل الجزيئية) وجميعها ذات مساحة سطحية داخلية كبيرة جداً.",
+      "memorization_note": "مدمِصات: carbon, silica gel, alumina, zeolite.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "An adsorption isotherm is a plot of:",
+      "question_ar": "منحنى الادمصاص المتساوي الحرارة (Adsorption isotherm) هو رسم لـ:",
+      "options": [
+        "Temperature versus time at constant pressure",
+        "The amount adsorbed versus the equilibrium concentration (or pressure) at constant temperature",
+        "Pressure versus volume for an ideal gas",
+        "Concentration versus time at constant flow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "An isotherm relates the equilibrium adsorbed amount $q$ to the fluid-phase concentration $C$ (or partial pressure) at a fixed temperature; the curve is monotonic increasing.",
+      "explanation_ar": "يربط المنحنى كمية المادة المدمصة عند الاتزان $q$ بتركيز (أو ضغط) المائع عند درجة حرارة ثابتة، والمنحنى متزايد رتيب.",
+      "memorization_note": "isotherm: $q=f(C)$ عند $T$ ثابتة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "In a fixed-bed adsorption column, the 'breakthrough point' is the time at which:",
+      "question_ar": "في عمود ادمصاص ذي طبقة ثابتة، تكون 'نقطة الاختراق' (Breakthrough point) هي الزمن الذي عنده:",
+      "options": [
+        "The adsorbate concentration in the effluent first rises noticeably above the allowable level",
+        "The bed has no adsorbate at all",
+        "The column is empty of adsorbent",
+        "The effluent concentration equals zero forever"
+      ],
+      "correct_index": 0,
+      "explanation_en": "As the mass-transfer zone reaches the bed outlet, the effluent concentration begins to rise (breakthrough). The bed is then regenerated or switched.",
+      "explanation_ar": "عندما تصل منطقة انتقال المادة إلى مخرج الطبقة يبدأ تركيز المادة في الخارج بالارتفاع (الاختراق)، وعندها يُعاد توليد الطبقة أو يُبدَّل العمود.",
+      "memorization_note": "breakthrough = بداية ظهور المادة في الناتج.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "Drying of solids is defined as:",
+      "question_ar": "يُعرَّف تجفيف المواد الصلبة بأنه:",
+      "options": [
+        "Removal of a gas from a liquid by stripping",
+        "Absorption of moisture into a solid",
+        "Mechanical pressing of a solid",
+        "Removal of a relatively small amount of liquid (usually water) from a solid by evaporation"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Drying removes moisture thermally, by supplying the latent heat of vaporization, unlike mechanical dewatering such as filtration or pressing.",
+      "explanation_ar": "يزيل التجفيف الرطوبة حرارياً بتزويد الحرارة الكامنة للتبخر، بخلاف إزالة الماء ميكانيكياً مثل الترشيح أو العصر.",
+      "memorization_note": "تجفيف = تبخير الرطوبة من الصلب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "The moisture content on a dry basis is defined as:",
+      "question_ar": "يُعرَّف المحتوى الرطوبي على أساس جاف (Dry basis) بأنه:",
+      "options": [
+        "$X=\\dfrac{\\text{mass of water}}{\\text{mass of wet solid}}$",
+        "$X=\\dfrac{\\text{mass of dry solid}}{\\text{mass of water}}$",
+        "$X=\\dfrac{\\text{mass of water}}{\\text{mass of bone-dry solid}}$",
+        "$X=\\text{mass of water}\\times\\text{mass of solid}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Dry-basis moisture content uses the constant mass of dry solid as the reference. The wet-basis content uses the total mass of the wet solid. They are related by $X=\\dfrac{x}{1-x}$.",
+      "explanation_ar": "المحتوى الرطوبي على أساس جاف يعتمد على كتلة الصلب الجاف الثابتة كمرجع، بينما الأساس الرطب يعتمد على الكتلة الكلية للصلب الرطب. والعلاقة بينهما $X=\\dfrac{x}{1-x}$.",
+      "memorization_note": "$$X=\\frac{\\text{kg water}}{\\text{kg dry solid}},\\qquad X=\\frac{x}{1-x}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "The equilibrium moisture content of a solid is:",
+      "question_ar": "المحتوى الرطوبي المتزن (Equilibrium moisture content) للصلب هو:",
+      "options": [
+        "The moisture removed during the constant-rate period",
+        "The moisture the solid retains in equilibrium with air of a given temperature and humidity; it cannot be removed under those conditions",
+        "The total water initially present",
+        "Zero for all materials"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At a given air humidity, a solid cannot be dried below its equilibrium moisture content $X^*$. The free moisture is $X-X^*$.",
+      "explanation_ar": "عند رطوبة هواء معينة لا يمكن تجفيف الصلب إلى ما دون محتواه الرطوبي المتزن $X^*$. والرطوبة الحرة هي $X-X^*$.",
+      "memorization_note": "$$X_{free}=X-X^*$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "The critical moisture content is the point that separates:",
+      "question_ar": "المحتوى الرطوبي الحرج (Critical moisture content) هو النقطة التي تفصل بين:",
+      "options": [
+        "The constant-rate period and the falling-rate period",
+        "The preheating period and the equilibrium state",
+        "Wet-bulb and dry-bulb temperatures",
+        "Bound and free water in humid air"
+      ],
+      "correct_index": 0,
+      "explanation_en": "As drying proceeds, the surface film of water is gradually depleted. At $X_c$ the surface is no longer fully wetted and the drying rate begins to fall.",
+      "explanation_ar": "مع تقدم التجفيف ينضب غشاء الماء السطحي، وعند $X_c$ لا يبقى السطح مبللاً بالكامل فيبدأ معدل التجفيف بالانخفاض.",
+      "memorization_note": "$X>X_c$: معدل ثابت. $X<X_c$: معدل متناقص.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "In the constant-rate drying period, the drying rate is controlled by:",
+      "question_ar": "في فترة معدل التجفيف الثابت يكون معدل التجفيف محكوماً بـ:",
+      "options": [
+        "Diffusion of water inside the solid",
+        "The thickness of the dry shell only",
+        "The solid's chemical composition",
+        "External heat and mass transfer from the wet surface to the air"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The surface is covered with a water film, so the solid behaves like a free liquid surface at the wet-bulb temperature. The rate depends on air temperature, humidity and velocity, not on the solid.",
+      "explanation_ar": "السطح مغطى بغشاء ماء فيسلك الصلب كسطح سائل حر عند درجة حرارة المنظار الرطب. ويعتمد المعدل على حرارة الهواء ورطوبته وسرعته وليس على الصلب.",
+      "memorization_note": "معدل ثابت: عوامل خارجية. معدل متناقص: انتشار داخلي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "In the falling-rate drying period, the drying rate is mainly controlled by:",
+      "question_ar": "في فترة معدل التجفيف المتناقص يكون المعدل محكوماً غالباً بـ:",
+      "options": [
+        "External air velocity only",
+        "Humidity of the air only",
+        "Internal diffusion (movement) of moisture within the solid",
+        "The wet-bulb depression only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "When the surface is dry, water must move through the solid by diffusion or capillary flow before evaporating. This internal resistance controls the rate.",
+      "explanation_ar": "عندما يجف السطح يجب أن يتحرك الماء داخل الصلب بالانتشار أو الخاصية الشعرية قبل أن يتبخر، وتتحكم هذه المقاومة الداخلية في المعدل.",
+      "memorization_note": "فترة متناقصة: انتشار داخلي للرطوبة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "During the constant-rate period, the surface temperature of the drying solid is approximately equal to:",
+      "question_ar": "أثناء فترة المعدل الثابت تكون درجة حرارة سطح الصلب المُجفَّف تقريباً مساوية لـ:",
+      "options": [
+        "The dry-bulb temperature of the air",
+        "The wet-bulb temperature of the air",
+        "The dew-point temperature only",
+        "Absolute zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Heat supplied by convection is balanced by the latent heat of evaporation, so the wetted surface remains at the wet-bulb temperature of the drying air.",
+      "explanation_ar": "الحرارة المجهّزة بالحمل تتوازن مع الحرارة الكامنة للتبخر فيبقى السطح المبلل عند درجة حرارة المنظار الرطب للهواء المجفِّف.",
+      "memorization_note": "ثابت: $T_{surface}=T_{wb}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "Which dryer is most suitable for producing powder (e.g. powdered milk) from a liquid or slurry feed?",
+      "question_ar": "أي مجفف أنسب لإنتاج مسحوق (مثل الحليب المجفف) من تغذية سائلة أو معلقة؟",
+      "options": [
+        "Spray dryer",
+        "Tray dryer",
+        "Rotary kiln for solids only",
+        "Cooling tower"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A spray dryer atomizes the liquid into fine droplets in a stream of hot gas. The very large surface area and short residence time give dry powder quickly, with little heat damage.",
+      "explanation_ar": "يرذّ المجفف الرذاذي السائل إلى قطيرات دقيقة في تيار غاز ساخن، ومساحة السطح الكبيرة وقصر زمن البقاء يعطيان مسحوقاً جافاً بسرعة وبأقل ضرر حراري.",
+      "memorization_note": "Spray dryer: سوائل/معلقات $\\rightarrow$ مسحوق.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "Freeze drying (lyophilization) is mainly used for:",
+      "question_ar": "يُستخدم التجفيف بالتجميد (Freeze drying) أساساً من أجل:",
+      "options": [
+        "Bulk sand and gravel",
+        "Heavy-oil fractions",
+        "Cooling process water",
+        "Very heat-sensitive materials such as pharmaceuticals and some foods"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Ice is removed by sublimation under vacuum at low temperature, preserving structure and activity of biological and pharmaceutical products.",
+      "explanation_ar": "يُزال الجليد بالتسامي تحت التفريغ عند حرارة منخفضة فيحافظ على بنية ونشاط المنتجات الحيوية والدوائية.",
+      "memorization_note": "تجميد: تسامي تحت التفريغ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 102,
+      "question_en": "The absolute humidity $H$ of an air–water vapor mixture is defined as:",
+      "question_ar": "تُعرَّف الرطوبة المطلقة $H$ لخليط هواء–بخار ماء بأنها:",
+      "options": [
+        "The mass of water vapor per unit mass of the humid air",
+        "The ratio of vapor pressure to total pressure",
+        "The mass of water vapor per unit mass of dry air",
+        "The ratio of partial pressure to dew point"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$H=\\dfrac{M_v}{M_{air}}\\dfrac{p_v}{P-p_v}=0.622\\dfrac{p_v}{P-p_v}$ (kg water/kg dry air) for air–water.",
+      "explanation_ar": "$H=\\dfrac{M_v}{M_{air}}\\dfrac{p_v}{P-p_v}=0.622\\dfrac{p_v}{P-p_v}$ (kg ماء/kg هواء جاف) لنظام هواء–ماء.",
+      "memorization_note": "$$H=0.622\\,\\frac{p_v}{P-p_v}\\ \\ \\left(\\frac{\\text{kg water}}{\\text{kg dry air}}\\right)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 103,
+      "question_en": "Relative humidity is defined as:",
+      "question_ar": "تُعرَّف الرطوبة النسبية بأنها:",
+      "options": [
+        "The ratio of the mass of vapor to the mass of dry air",
+        "The ratio of the partial pressure of water vapor to its vapor pressure (saturation pressure) at the same temperature",
+        "The ratio of dry-bulb to wet-bulb temperature",
+        "The ratio of dew point to dry bulb temperature"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$RH=\\dfrac{p_v}{P^{sat}(T)}\\times100\\%$. At saturation $RH=100\\%$.",
+      "explanation_ar": "$RH=\\dfrac{p_v}{P^{sat}(T)}\\times100\\%$ وعند التشبع $RH=100\\%$.",
+      "memorization_note": "$$RH=\\frac{p_v}{P^{sat}(T)}\\times100\\%$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 104,
+      "question_en": "The dew point of an air–water vapor mixture is the temperature at which:",
+      "question_ar": "نقطة الندى لخليط هواء–بخار ماء هي درجة الحرارة التي عندها:",
+      "options": [
+        "The mixture becomes saturated when cooled at constant total pressure and humidity",
+        "The air is heated to saturation at constant humidity",
+        "All the water has evaporated",
+        "The wet-bulb thermometer reads zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Cooling humid air at constant pressure and constant $H$ lowers the temperature until $p_v=P^{sat}$; below that temperature water condenses.",
+      "explanation_ar": "تبريد الهواء الرطب عند ضغط ورطوبة مطلقة ثابتتين يخفض الحرارة حتى $p_v=P^{sat}$ وتحت هذه الدرجة يتكثف الماء.",
+      "memorization_note": "عند الندى: $RH=100\\%$ ولا تتغير $H$ أثناء التبريد (قبل التكثف).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 105,
+      "question_en": "The wet-bulb temperature is established by a balance between:",
+      "question_ar": "تُحدَّد درجة حرارة المنظار الرطب (Wet-bulb) باتزان بين:",
+      "options": [
+        "Freezing of water and heat conduction in the glass",
+        "Condensation of water and radiation to the walls",
+        "Dissolution of air in water only",
+        "Heat transferred from the air to the wet bulb and the heat removed by evaporation of water"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A steady wet-bulb temperature is reached when the convective heat flow from the warmer air equals the latent heat carried away by the evaporating water from the wick. It is lower than the dry-bulb temperature unless the air is saturated.",
+      "explanation_ar": "تستقر درجة المنظار الرطب عندما يتساوى تدفق الحرارة بالحمل من الهواء الأدفأ مع الحرارة الكامنة التي يحملها الماء المتبخر من الفتيل. وهي أقل من الجافة إلا عند التشبع.",
+      "memorization_note": "$T_{wb}\\le T_{db}$ وتتساويان عند $RH=100\\%$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 106,
+      "question_en": "Cooling towers cool warm water mainly through:",
+      "question_ar": "تبرّد أبراج التبريد الماء الدافئ بشكل رئيسي عن طريق:",
+      "options": [
+        "Condensation of steam",
+        "Conduction through the tower shell only",
+        "Evaporation of a small fraction of the water into the air",
+        "Chemical reaction"
+      ],
+      "correct_index": 2,
+      "explanation_en": "About 75–85% of the cooling is the latent heat of the small fraction of water that evaporates; the rest is sensible heat exchange with the air.",
+      "explanation_ar": "نحو 75–85% من التبريد ناتج عن الحرارة الكامنة لجزء صغير من الماء المتبخر والباقي حرارة محسوسة مع الهواء.",
+      "memorization_note": "التبريد غالباً بالتبخر (حرارة كامنة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 107,
+      "question_en": "The theoretical lowest temperature to which water can be cooled in a cooling tower is:",
+      "question_ar": "أقل درجة حرارة نظرية يمكن تبريد الماء إليها في برج التبريد هي:",
+      "options": [
+        "The dry-bulb temperature of the entering air",
+        "The wet-bulb temperature of the entering air",
+        "0 °C",
+        "The dew point of the water"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Evaporative cooling cannot cool water below the wet-bulb temperature of the air, because at that temperature the driving force for evaporation vanishes. Water can be cooled below the dry-bulb temperature.",
+      "explanation_ar": "التبريد التبخيري لا يمكنه تبريد الماء أدنى من درجة المنظار الرطب للهواء لأن القوة الدافعة للتبخر تنعدم عندها، ويمكن تبريد الماء أقل من الحرارة الجافة.",
+      "memorization_note": "$T_{water,out}>T_{wb}$ دائماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 108,
+      "question_en": "The 'approach' of a cooling tower is defined as:",
+      "question_ar": "يُعرَّف الـ 'Approach' لبرج التبريد بأنه:",
+      "options": [
+        "Temperature of the cold water leaving minus the wet-bulb temperature of the entering air",
+        "Hot water temperature minus cold water temperature",
+        "Dry-bulb minus wet-bulb temperature",
+        "Temperature of hot water minus dew point"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{Approach}=T_{cold}-T_{wb}$; a smaller approach means a larger, more costly tower. The range is $T_{hot}-T_{cold}$.",
+      "explanation_ar": "$\\text{Approach}=T_{cold}-T_{wb}$؛ وكلما قل الـ Approach كان البرج أكبر وأكثر كلفة. أما الـ Range فهو $T_{hot}-T_{cold}$.",
+      "memorization_note": "$$\\text{Range}=T_{hot}-T_{cold},\\qquad \\text{Approach}=T_{cold}-T_{wb}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 109,
+      "question_en": "The 'range' of a cooling tower is:",
+      "question_ar": "الـ 'Range' لبرج التبريد هو:",
+      "options": [
+        "The difference between cold-water outlet and wet-bulb temperatures",
+        "The difference between dry-bulb and wet-bulb temperatures",
+        "The difference between air inlet and air outlet humidity",
+        "The difference between the hot-water inlet and cold-water outlet temperatures"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\text{Range}=T_{hot,in}-T_{cold,out}$, the amount by which the water is cooled in the tower.",
+      "explanation_ar": "$\\text{Range}=T_{hot,in}-T_{cold,out}$ وهو مقدار التبريد الذي يحدث للماء في البرج.",
+      "memorization_note": "Range = الفرق بين ساخن وبارد. Approach = بارد − رطب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 110,
+      "question_en": "For equimolar counter-diffusion of gases $A$ and $B$ at constant $T$ and $P$, the molar flux of $A$ is given by:",
+      "question_ar": "للانتشار المتعاكس متساوي المولات للغازين $A$ و$B$ عند $T$ و$P$ ثابتتين، يُعطى الفيض المولي لـ $A$ بالعلاقة:",
+      "options": [
+        "$N_A=\\dfrac{D_{AB}P}{RT\\,\\Delta z\\,p_{B,lm}}(p_{A1}-p_{A2})$",
+        "$N_A=\\dfrac{D_{AB}}{RT\\,\\Delta z}\\,(p_{A1}-p_{A2})$",
+        "$N_A=D_{AB}\\,RT\\,\\Delta z\\,(p_{A1}-p_{A2})$",
+        "$N_A=\\dfrac{RT\\,\\Delta z}{D_{AB}}(p_{A1}-p_{A2})$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "With $N_B=-N_A$ the bulk-flow term vanishes ($N_A+N_B=0$), so integrating Fick's law gives the simple linear form. The expression with $p_{B,lm}$ belongs to diffusion through stagnant $B$.",
+      "explanation_ar": "مع $N_B=-N_A$ يختفي حد الجريان الكلي ($N_A+N_B=0$) فيعطي تكامل قانون فيك الصيغة الخطية البسيطة. أما العلاقة التي فيها $p_{B,lm}$ فتخص الانتشار خلال $B$ ساكن.",
+      "memorization_note": "$$N_A=\\frac{D_{AB}}{RT\\,\\Delta z}(p_{A1}-p_{A2})\\ \\ (\\text{equimolar})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 111,
+      "question_en": "Compared with equimolar counter-diffusion, the flux of $A$ through stagnant $B$ (same $D_{AB}$, $\\Delta z$, and partial pressures) is:",
+      "question_ar": "بالمقارنة مع الانتشار المتعاكس المتساوي، فإن فيض $A$ خلال $B$ ساكن (بنفس $D_{AB}$ و$\\Delta z$ والضغوط الجزيئية) يكون:",
+      "options": [
+        "Larger by the factor $P/p_{B,lm}$ because of the bulk-flow contribution",
+        "Smaller by the factor $P/p_{B,lm}$",
+        "Exactly equal",
+        "Always zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The factor $P/p_{B,lm}\\ge1$ accounts for the bulk flow carried along with the diffusing species when $B$ cannot cross the interface. It approaches 1 for dilute $A$.",
+      "explanation_ar": "العامل $P/p_{B,lm}\\ge1$ يمثل الجريان الكلي المصاحب للمكوّن المنتشر عندما لا يستطيع $B$ عبور السطح، ويقترب من 1 عندما يكون $A$ مخففاً.",
+      "memorization_note": "$$\\frac{N_{A,\\text{stagnant}}}{N_{A,\\text{equimolar}}}=\\frac{P}{p_{B,lm}}\\ge1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 112,
+      "question_en": "For gas-phase diffusion, which expression correctly shows how the diffusivity depends on temperature and pressure?",
+      "question_ar": "في الانتشار الغازي، أي علاقة تعبّر بشكل صحيح عن اعتماد معامل الانتشار على الحرارة والضغط؟",
+      "options": [
+        "$D_{AB}\\propto P/T$",
+        "$D_{AB}\\propto T^{-1}P^{2}$",
+        "$D_{AB}\\propto T/P^{3/2}$",
+        "$D_{AB}\\propto T^{3/2}/P$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Kinetic theory (Chapman–Enskog) gives $D_{AB}\\propto T^{3/2}/P$. Empirical correlations (Fuller–Schettler–Giddings) use $T^{1.75}/P$.",
+      "explanation_ar": "تعطي النظرية الحركية (Chapman–Enskog) $D_{AB}\\propto T^{3/2}/P$، وتستخدم علاقة Fuller–Schettler–Giddings التجريبية $T^{1.75}/P$.",
+      "memorization_note": "$$D_{AB}\\propto\\frac{T^{3/2}}{P}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 113,
+      "question_en": "Which correlation is commonly used to estimate diffusivity of a solute in a dilute liquid solution?",
+      "question_ar": "أي علاقة تُستخدم عادةً لتقدير معامل انتشار مذاب في محلول سائل مخفف؟",
+      "options": [
+        "Fenske equation",
+        "Antoine equation",
+        "Wilke–Chang equation",
+        "Kremser equation"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The Wilke–Chang equation estimates $D_{AB}$ in liquids from temperature, viscosity, solvent association factor and the molar volume of the solute. Fuller et al. is for gases.",
+      "explanation_ar": "تقدّر معادلة Wilke–Chang معامل الانتشار في السوائل بدلالة الحرارة واللزوجة وعامل ارتباط المذيب والحجم المولي للمذاب. أما Fuller فللغازات.",
+      "memorization_note": "سوائل: Wilke–Chang. غازات: Fuller–Schettler–Giddings.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 114,
+      "question_en": "In a tapered tube connecting two vessels at the same total pressure but different gas compositions, where is the molar flux (per unit area) largest at steady state?",
+      "question_ar": "في أنبوب مخروطي يربط وعاءين لهما نفس الضغط الكلي وتركيبان غازيان مختلفان، أين يكون الفيض المولي (لكل وحدة مساحة) أكبر ما يمكن في الحالة المستقرة؟",
+      "options": [
+        "At the larger-diameter end",
+        "At the smaller-diameter end",
+        "At the midpoint only",
+        "The flux is the same everywhere"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At steady state the molar flow rate $N_AA$ is constant along the tube. Since $A$ is smallest at the narrow end, the flux $N_A=\\dfrac{\\text{rate}}{A}$ is greatest there.",
+      "explanation_ar": "في الحالة المستقرة يكون المعدل المولي $N_AA$ ثابتاً على طول الأنبوب، وبما أن المساحة أصغر عند الطرف الضيق فإن الفيض $N_A=\\dfrac{\\text{rate}}{A}$ يكون أكبر هناك.",
+      "memorization_note": "$N_A\\cdot A=\\text{ثابت}\\Rightarrow N_A\\propto\\dfrac{1}{A}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 115,
+      "question_en": "The correlation $Sh_x=0.332\\,Re_x^{1/2}Sc^{1/3}$ is used for:",
+      "question_ar": "العلاقة $Sh_x=0.332\\,Re_x^{1/2}Sc^{1/3}$ تُستخدم من أجل:",
+      "options": [
+        "Local mass transfer over a flat plate in laminar boundary-layer flow",
+        "Turbulent flow in a pipe",
+        "Natural convection from a sphere",
+        "Distillation tray efficiency"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the laminar flat-plate result, analogous to $Nu_x=0.332\\,Re_x^{1/2}Pr^{1/3}$ in heat transfer. For turbulent pipe flow the Gilliland or Linton–Sherwood forms are used.",
+      "explanation_ar": "هذه نتيجة الصفيحة المستوية في الجريان الصفائحي المناظرة لـ $Nu_x=0.332\\,Re_x^{1/2}Pr^{1/3}$ في انتقال الحرارة. أما الجريان المضطرب في الأنابيب فتُستخدم علاقات Gilliland أو Linton–Sherwood.",
+      "memorization_note": "$$Sh_x=0.332\\,Re_x^{0.5}Sc^{1/3}\\ (\\text{laminar, flat plate})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 116,
+      "question_en": "According to the film theory, the mass-transfer coefficient $k_c$ varies with the molecular diffusivity as:",
+      "question_ar": "حسب نظرية الفلم (Film theory) يتغير معامل انتقال المادة $k_c$ مع معامل الانتشار الجزيئي كالآتي:",
+      "options": [
+        "$k_c\\propto D_{AB}^{1/2}$",
+        "$k_c\\propto D_{AB}^{2}$",
+        "$k_c$ is independent of $D_{AB}$",
+        "$k_c\\propto D_{AB}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Film theory gives $k_c=D_{AB}/\\delta$, so $k_c\\propto D_{AB}$. The penetration (Higbie) and surface-renewal (Danckwerts) theories predict $k_c\\propto D_{AB}^{1/2}$.",
+      "explanation_ar": "تعطي نظرية الفلم $k_c=D_{AB}/\\delta$ لذلك $k_c\\propto D_{AB}$، أما نظريتا الاختراق (Higbie) وتجدد السطح (Danckwerts) فتتوقعان $k_c\\propto D_{AB}^{1/2}$.",
+      "memorization_note": "$$\\text{film: }k_c\\propto D\\qquad \\text{penetration/surface renewal: }k_c\\propto D^{1/2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 117,
+      "question_en": "The Lewis number for mass and heat transfer is defined as:",
+      "question_ar": "يُعرَّف عدد لويس (Lewis) في انتقال المادة والحرارة بأنه:",
+      "options": [
+        "$Le=\\dfrac{Pr}{Sc}\\cdot\\dfrac{1}{Re}$",
+        "$Le=\\dfrac{\\nu}{D_{AB}}\\,Re$",
+        "$Le=\\dfrac{\\alpha}{D_{AB}}=\\dfrac{Sc}{Pr}$",
+        "$Le=\\alpha\\,D_{AB}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The Lewis number is the ratio of thermal diffusivity to mass diffusivity. For air–water vapor $Le\\approx1$, which is why wet-bulb and adiabatic-saturation temperatures are almost equal.",
+      "explanation_ar": "عدد لويس هو نسبة الانتشارية الحرارية إلى الانتشارية الكتلية. لنظام هواء–بخار الماء $Le\\approx1$ ولهذا تتقارب درجة المنظار الرطب مع درجة التشبع الأديباتي.",
+      "memorization_note": "$$Le=\\frac{\\alpha}{D_{AB}}=\\frac{Sc}{Pr}\\approx1\\ (\\text{air–water})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 118,
+      "question_en": "Knudsen diffusion in a porous solid becomes important when:",
+      "question_ar": "يصبح انتشار كنودسن (Knudsen) في الصلب المسامي مهماً عندما:",
+      "options": [
+        "The pore diameter is much larger than the mean free path",
+        "The pore diameter is smaller than the mean free path of the gas molecules",
+        "The gas is a liquid",
+        "The pressure is extremely high"
+      ],
+      "correct_index": 1,
+      "explanation_en": "When pores are smaller than the mean free path, molecules collide mainly with pore walls rather than with each other, so $D_K$ (independent of pressure) controls transport.",
+      "explanation_ar": "عندما تكون المسام أصغر من المسار الحر الوسطي تصطدم الجزيئات بجدران المسام أكثر من تصادمها ببعضها فيحكم الانتقال $D_K$ (المستقل عن الضغط).",
+      "memorization_note": "Knudsen: $d_{pore}<\\lambda$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 119,
+      "question_en": "The effective diffusivity in a porous solid is lower than the bulk diffusivity because of:",
+      "question_ar": "معامل الانتشار الفعّال في الصلب المسامي أقل من معامل الانتشار الحر بسبب:",
+      "options": [
+        "Porosity less than 1 and tortuous diffusion paths",
+        "Higher temperature inside pores",
+        "Absence of concentration gradient",
+        "Negative diffusivity of solids"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Only a fraction $\\varepsilon$ of the cross-section is open, and the path through pores is longer (tortuosity $\\tau$), hence $D_{eff}=D_{AB}\\,\\varepsilon/\\tau$.",
+      "explanation_ar": "جزء فقط $\\varepsilon$ من المقطع مفتوح كما أن المسار داخل المسام أطول (التعرج $\\tau$) لذلك $D_{eff}=D_{AB}\\,\\varepsilon/\\tau$.",
+      "memorization_note": "$$D_{eff}=D_{AB}\\,\\frac{\\varepsilon}{\\tau}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 120,
+      "question_en": "The general expression for the total molar flux of $A$ in a binary mixture (including bulk flow) is:",
+      "question_ar": "التعبير العام للفيض المولي الكلي لـ $A$ في مزيج ثنائي (مع الجريان الكلي) هو:",
+      "options": [
+        "$N_A=-D_{AB}\\dfrac{dC_A}{dz}-y_A\\,(N_A+N_B)$",
+        "$N_A=D_{AB}\\,C_A\\,(N_A+N_B)$",
+        "$N_A=-D_{AB}\\,(N_A+N_B)$",
+        "$N_A=-D_{AB}\\dfrac{dC_A}{dz}+y_A\\,(N_A+N_B)$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The total flux is the sum of the diffusive flux $J_A$ and the bulk-flow (convective) flux $y_A(N_A+N_B)$.",
+      "explanation_ar": "الفيض الكلي = الفيض الانتشاري $J_A$ + فيض الجريان الكلي (الحملي) $y_A(N_A+N_B)$.",
+      "memorization_note": "$$N_A=J_A+y_A(N_A+N_B)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 121,
+      "question_en": "The Chilton–Colburn analogy relates the mass-transfer factor $j_D$ to the heat-transfer factor $j_H$ and the friction factor. It is expressed as:",
+      "question_ar": "تربط مماثلة Chilton–Colburn بين عامل انتقال المادة $j_D$ وعامل انتقال الحرارة $j_H$ ومعامل الاحتكاك. وتُكتب:",
+      "options": [
+        "$j_D=j_H^{2}$",
+        "$j_D=\\dfrac{1}{j_H}$",
+        "$j_D=j_H=\\dfrac{f}{2}$",
+        "$j_D=f^{2}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "With $j_D=\\dfrac{k_c}{u}Sc^{2/3}$ and $j_H=\\dfrac{h}{\\rho C_pu}Pr^{2/3}$, the analogy states $j_D=j_H=f/2$ for turbulent flow over a wide range of $Sc$ and $Pr$.",
+      "explanation_ar": "مع $j_D=\\dfrac{k_c}{u}Sc^{2/3}$ و$j_H=\\dfrac{h}{\\rho C_pu}Pr^{2/3}$ تنص المماثلة على $j_D=j_H=f/2$ للجريان المضطرب في مدى واسع من $Sc$ و$Pr$.",
+      "memorization_note": "$$j_D=\\frac{k_c}{u}Sc^{2/3}=j_H=\\frac{f}{2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 122,
+      "question_en": "For a highly soluble gas such as ammonia in water, the controlling resistance to mass transfer is in the:",
+      "question_ar": "في حالة غاز عالي الذوبان مثل الأمونيا في الماء، تكون المقاومة المسيطرة على انتقال المادة في:",
+      "options": [
+        "Liquid phase",
+        "Gas phase",
+        "Both phases equally always",
+        "Neither phase (the interface)"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For small $m$ (high solubility), $\\dfrac{1}{K_y}=\\dfrac{1}{k_y}+\\dfrac{m}{k_x}\\approx\\dfrac{1}{k_y}$, so the gas film controls.",
+      "explanation_ar": "عند $m$ صغيرة (ذائبية عالية) يكون $\\dfrac{1}{K_y}=\\dfrac{1}{k_y}+\\dfrac{m}{k_x}\\approx\\dfrac{1}{k_y}$ فيسيطر فلم الغاز.",
+      "memorization_note": "ذائب جداً (NH3، HCl): تحكم الغاز. قليل الذوبان (O2، CO2): تحكم السائل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 123,
+      "question_en": "For a sparingly soluble gas such as $\\text{O}_2$ or $\\text{CO}_2$ in water, the controlling resistance is in the:",
+      "question_ar": "في حالة غاز قليل الذوبان مثل $\\text{O}_2$ أو $\\text{CO}_2$ في الماء، تكون المقاومة المسيطرة في:",
+      "options": [
+        "Liquid phase",
+        "Gas phase",
+        "Packing material",
+        "The vapor space only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "For large $m$, the term $m/k_x$ dominates, so $K_y\\approx k_x/m$ and the liquid film controls. Increasing liquid turbulence (not gas rate) then increases absorption.",
+      "explanation_ar": "عند $m$ كبيرة يسيطر الحد $m/k_x$ فيكون $K_y\\approx k_x/m$ وتسيطر مقاومة السائل. عندها تزيد الاضطرابات في السائل (وليس سرعة الغاز) معدل الامتصاص.",
+      "memorization_note": "$m\\uparrow\\Rightarrow$ تحكم السائل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 124,
+      "question_en": "In an absorber with a dilute solute, the slope of the operating line (solute-free basis) is:",
+      "question_ar": "في برج امتصاص ومذاب مخفف، يكون ميل خط التشغيل (على أساس خالٍ من المذاب):",
+      "options": [
+        "$G_s/L_s$",
+        "$L_s\\cdot G_s$",
+        "$m$",
+        "$L_s/G_s$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "From the solute balance $G_s(Y_1-Y_2)=L_s(X_1-X_2)$, the slope is $L_s/G_s$ (moles of solute-free liquid per mole of solute-free gas).",
+      "explanation_ar": "من موازنة المذاب $G_s(Y_1-Y_2)=L_s(X_1-X_2)$ يكون الميل $L_s/G_s$ (مولات السائل الخالي من المذاب لكل مول غاز خالٍ من المذاب).",
+      "memorization_note": "$$G_s(Y_1-Y_2)=L_s(X_1-X_2)\\Rightarrow\\text{slope}=\\frac{L_s}{G_s}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 125,
+      "question_en": "Increasing the liquid-to-gas ratio $L/G$ in an absorber (at fixed separation) generally:",
+      "question_ar": "زيادة نسبة السائل إلى الغاز $L/G$ في برج الامتصاص (لنفس درجة الفصل) عادةً:",
+      "options": [
+        "Increases the tower height and decreases solvent use",
+        "Has no effect on height or solvent use",
+        "Decreases the required tower height but increases solvent use and regeneration load",
+        "Always makes the operating line parallel to the equilibrium curve"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A steeper operating line lies farther above the equilibrium curve, increasing the driving force and reducing NTU, but more solvent has to be pumped and stripped.",
+      "explanation_ar": "خط التشغيل الأشد ميلاً يبتعد أكثر عن منحنى الاتزان فتزداد القوة الدافعة ويقل NTU، لكن يلزم ضخ وتجريد كمية مذيب أكبر.",
+      "memorization_note": "$L/G\\uparrow$: ارتفاع برج $\\downarrow$، كلفة المذيب $\\uparrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 126,
+      "question_en": "The Kremser equation for absorption/stripping is valid when:",
+      "question_ar": "تصح معادلة Kremser للامتصاص/التجريد عندما:",
+      "options": [
+        "The system is concentrated with strongly curved equilibrium",
+        "The system is dilute, with a linear equilibrium line and a straight operating line",
+        "The temperature changes sharply along the column",
+        "The solvent reacts chemically with irreversible reaction only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The Kremser equation relates the number of ideal stages to the absorption factor $A$ and is derived assuming constant $A$ (constant $L/G$ and $m$).",
+      "explanation_ar": "تربط معادلة Kremser عدد المراحل المثالية بمعامل الامتصاص $A$ وتُشتق بافتراض ثبات $A$ (ثبات $L/G$ و$m$).",
+      "memorization_note": "كريمسر: نظام مخفف، $y^*=mx$، خط تشغيل مستقيم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 127,
+      "question_en": "The cross-sectional area (diameter) of a packed absorption tower is mainly determined by:",
+      "question_ar": "المساحة المقطعية (القطر) للبرج المحشو تتحدد أساساً بـ:",
+      "options": [
+        "The allowable gas velocity relative to the flooding velocity",
+        "The number of transfer units only",
+        "The boiling point of the solvent",
+        "The color of the packing"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The diameter is chosen so that the gas velocity is about 50–70% of the flooding velocity; the height is determined by $Z=\\text{HTU}\\times\\text{NTU}$.",
+      "explanation_ar": "يُختار القطر بحيث تكون سرعة الغاز حوالي 50–70% من سرعة الغمر، أما الارتفاع فيحدده $Z=\\text{HTU}\\times\\text{NTU}$.",
+      "memorization_note": "القطر $\\leftarrow$ الغمر. الارتفاع $\\leftarrow$ $\\text{HTU}\\times\\text{NTU}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 128,
+      "question_en": "Compared with plate towers, packed towers are generally preferred for:",
+      "question_ar": "بالمقارنة مع الأبراج ذات الصواني، تُفضَّل الأبراج المحشوة عموماً في:",
+      "options": [
+        "Very large liquid flow rates with suspended solids",
+        "Systems requiring internal cooling coils",
+        "Very wide variation in flow rates (large turn-down)",
+        "Corrosive or foaming liquids and low pressure drop requirements"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Packed towers can be made of ceramic/plastic, have low pressure drop and little foaming. Plate towers are better for large liquid loads, solids, internal cooling and large turn-down.",
+      "explanation_ar": "يمكن صنع الأبراج المحشوة من السيراميك أو البلاستيك ولها هبوط ضغط قليل وتكوّن رغوة قليلة، أما الأبراج ذات الصواني فأفضل للأحمال السائلة الكبيرة والمواد العالقة والتبريد الداخلي والتغير الواسع في التدفق.",
+      "memorization_note": "محشوة: تآكل، رغوة، $\\Delta P$ قليل. صواني: أحمال كبيرة، صلب عالق.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 129,
+      "question_en": "How does the Henry's law constant $H$ (or the slope $m$ of the equilibrium line) change with temperature for a gas dissolving in a liquid?",
+      "question_ar": "كيف يتغير ثابت هنري $H$ (أو ميل خط الاتزان $m$) مع الحرارة لغاز يذوب في سائل؟",
+      "options": [
+        "It decreases with temperature (solubility increases)",
+        "It is independent of temperature",
+        "It increases with temperature (solubility decreases)",
+        "It becomes negative at high temperature"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Gas dissolution is exothermic, so higher temperature lowers solubility, which means a larger $H$ (larger $m$).",
+      "explanation_ar": "ذوبان الغاز باعث للحرارة فارتفاع الحرارة يقلل الذائبية أي يزداد $H$ ويزداد $m$.",
+      "memorization_note": "$T\\uparrow\\Rightarrow H\\uparrow\\Rightarrow$ ذائبية $\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 130,
+      "question_en": "Steam stripping of a wastewater stream is mainly used to remove:",
+      "question_ar": "يُستخدم التجريد بالبخار لتيار ماء عادم أساساً من أجل إزالة:",
+      "options": [
+        "Dissolved salts such as NaCl",
+        "Volatile organic compounds and dissolved gases",
+        "Suspended sand",
+        "Metal ions"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Volatile compounds transfer from the water into the rising steam, which is then condensed. Non-volatile salts or solids are not stripped.",
+      "explanation_ar": "تنتقل المركبات الطيارة من الماء إلى البخار الصاعد الذي يُكثَّف لاحقاً، أما الأملاح غير الطيارة أو المواد الصلبة فلا تُجرَّد.",
+      "memorization_note": "تجريد: مركبات عضوية طيارة، NH3، H2S، غازات ذائبة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 131,
+      "question_en": "Which of the following correctly describes structured packing compared with random packing?",
+      "question_ar": "أي عبارة تصف الحشوة المنظمة (Structured packing) مقارنة بالحشوة العشوائية؟",
+      "options": [
+        "Lower pressure drop and higher efficiency (lower HETP) at similar capacity",
+        "Higher pressure drop and lower efficiency",
+        "It cannot be used in vacuum columns",
+        "It is always cheaper"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Structured packings have regular geometry that gives uniform flow, lower $\\Delta P$ and lower HETP, which is why they are used in vacuum distillation, though they cost more.",
+      "explanation_ar": "للحشوات المنظمة هندسة منتظمة تعطي جرياناً منتظماً وهبوط ضغط أقل وHETP أقل لذلك تُستخدم في أعمدة التقطير تحت التفريغ لكنها أغلى.",
+      "memorization_note": "منظمة: $\\Delta P$ أقل، HETP أقل، كلفة أعلى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 132,
+      "question_en": "Removal of $\\text{CO}_2$ and $\\text{H}_2\\text{S}$ from natural gas using aqueous amine solutions (e.g. MEA) is an example of:",
+      "question_ar": "إزالة $\\text{CO}_2$ و$\\text{H}_2\\text{S}$ من الغاز الطبيعي باستخدام محاليل الأمين المائية (مثل MEA) مثال على:",
+      "options": [
+        "Physical drying of solids",
+        "Cooling-tower evaporation",
+        "Leaching of solids",
+        "Absorption with chemical reaction (gas sweetening)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The acid gases react reversibly with the amine in the absorber, and the rich solution is regenerated in a stripper by heating. This is the classic absorber–stripper loop.",
+      "explanation_ar": "تتفاعل الغازات الحامضية انعكاسياً مع الأمين في برج الامتصاص ثم يُجدَّد المحلول الغني في برج تجريد بالتسخين. وهذه هي حلقة المُمتِص–المُجرِّد التقليدية.",
+      "memorization_note": "gas sweetening = إزالة $\\text{CO}_2$ و $\\text{H}_2\\text{S}$ بالأمين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 133,
+      "question_en": "The Fenske equation gives the minimum number of theoretical stages at total reflux as:",
+      "question_ar": "تعطي معادلة Fenske الحد الأدنى لعدد المراحل النظرية عند الارتجاع الكلي بالصيغة:",
+      "options": [
+        "$N_{min}=\\dfrac{\\ln\\alpha}{\\ln\\!\\left[\\dfrac{x_D}{1-x_D}\\right]}$",
+        "$N_{min}=\\alpha\\,\\dfrac{x_D}{x_W}$",
+        "$N_{min}=\\dfrac{\\ln\\!\\left[\\dfrac{x_D}{1-x_D}\\cdot\\dfrac{1-x_W}{x_W}\\right]}{\\ln\\alpha}$",
+        "$N_{min}=\\dfrac{x_D-x_W}{\\alpha}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At total reflux the operating line is $y=x$. Stepping off stages with constant $\\alpha$ yields the Fenske equation (the number includes the reboiler).",
+      "explanation_ar": "عند الارتجاع الكلي يكون خط التشغيل $y=x$ وبتتبع المراحل مع ثبات $\\alpha$ نحصل على معادلة Fenske (العدد يشمل المرجل).",
+      "memorization_note": "$$N_{min}=\\frac{\\ln\\!\\left[\\dfrac{x_D}{1-x_D}\\dfrac{1-x_W}{x_W}\\right]}{\\ln\\alpha}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 134,
+      "question_en": "The operating line of the rectifying section of a binary distillation column has slope:",
+      "question_ar": "ميل خط التشغيل لقسم التنقية (Rectifying) في عمود تقطير ثنائي هو:",
+      "options": [
+        "$\\dfrac{R+1}{R}$",
+        "$\\dfrac{R}{R+1}$",
+        "$\\dfrac{q}{q-1}$",
+        "$\\dfrac{1}{R+1}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The rectifying operating line is $y_{n+1}=\\dfrac{R}{R+1}x_n+\\dfrac{x_D}{R+1}$, intercepting the $y$-axis at $x_D/(R+1)$.",
+      "explanation_ar": "خط تشغيل قسم التنقية: $y_{n+1}=\\dfrac{R}{R+1}x_n+\\dfrac{x_D}{R+1}$ ويقطع محور $y$ عند $x_D/(R+1)$.",
+      "memorization_note": "$$y=\\frac{R}{R+1}x+\\frac{x_D}{R+1}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 135,
+      "question_en": "On the McCabe–Thiele diagram, the two operating lines intersect on the:",
+      "question_ar": "على مخطط McCabe–Thiele يتقاطع خطا التشغيل على:",
+      "options": [
+        "$q$-line",
+        "Equilibrium curve always",
+        "$x$-axis",
+        "$y$-axis only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The $q$-line is the locus of the intersection of the rectifying and stripping operating lines; it passes through $(z_F,z_F)$ on the diagonal.",
+      "explanation_ar": "خط $q$ هو المحل الهندسي لتقاطع خطي تشغيل قسمي التنقية والتجريد ويمر بالنقطة $(z_F,z_F)$ على القطر.",
+      "memorization_note": "التقاطع: على خط $q$، والذي يمر بـ $(z_F,z_F)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 136,
+      "question_en": "On the McCabe–Thiele diagram at total reflux, the operating lines:",
+      "question_ar": "على مخطط McCabe–Thiele عند الارتجاع الكلي فإن خطي التشغيل:",
+      "options": [
+        "Coincide with the $x$-axis",
+        "Are horizontal lines at $y=x_D$",
+        "Cross the equilibrium curve at the feed",
+        "Coincide with the diagonal $y=x$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "With $R=\\infty$, the slope $R/(R+1)=1$ and the intercept $x_D/(R+1)=0$, so the line is $y=x$.",
+      "explanation_ar": "مع $R=\\infty$ يكون الميل $R/(R+1)=1$ والمقطع $x_D/(R+1)=0$ فيكون الخط $y=x$.",
+      "memorization_note": "$R\\to\\infty$: الميل $\\to1$، المقطع $\\to0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 137,
+      "question_en": "The Ponchon–Savarit method differs from McCabe–Thiele because it:",
+      "question_ar": "تختلف طريقة Ponchon–Savarit عن McCabe–Thiele لأنها:",
+      "options": [
+        "Applies only to total reflux",
+        "Is limited to ideal gases",
+        "Uses an enthalpy–composition diagram and does not assume constant molar overflow",
+        "Ignores energy balances"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Ponchon–Savarit uses enthalpy balances with an $H$–$x$–$y$ diagram, so it handles cases where molar latent heats are unequal and the flows vary.",
+      "explanation_ar": "تستخدم طريقة Ponchon–Savarit موازنات الإنثالبي ومخطط $H$–$x$–$y$ لذلك تعالج الحالات التي تختلف فيها الحرارات الكامنة المولية وتتغير فيها التدفقات.",
+      "memorization_note": "Ponchon–Savarit: مخطط إنثالبي + موازنة طاقة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 138,
+      "question_en": "In multicomponent distillation, the 'light key' component is:",
+      "question_ar": "في التقطير متعدد المكونات، المكوّن 'المفتاح الخفيف' (Light key) هو:",
+      "options": [
+        "The least volatile component present",
+        "The most volatile component whose recovery in the bottoms is to be limited",
+        "A component that is absent from the feed",
+        "The solvent used for extraction"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The light key and heavy key are the two components between which the separation is specified. The light key should appear mostly in the distillate, the heavy key in the bottoms.",
+      "explanation_ar": "المفتاحان الخفيف والثقيل هما المكوّنان اللذان يُحدَّد الفصل بينهما، ويجب أن يظهر المفتاح الخفيف غالباً في المقطَّر والثقيل في القاع.",
+      "memorization_note": "LK يذهب للمقطر؛ HK يذهب للقاع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 139,
+      "question_en": "The Underwood equations are used mainly to estimate:",
+      "question_ar": "تُستخدم معادلات Underwood أساساً لتقدير:",
+      "options": [
+        "The minimum reflux ratio for multicomponent distillation",
+        "Heat-transfer coefficient in condensers",
+        "Flooding velocity in packed columns",
+        "The humidity of air"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Underwood's method solves for the roots $\\theta$ of the feed equation and then gives $R_{min}$ for multicomponent mixtures; Fenske gives $N_{min}$ and Gilliland links $N$ and $R$.",
+      "explanation_ar": "تحلّ طريقة Underwood جذور $\\theta$ لمعادلة التغذية ثم تعطي $R_{min}$ للمخاليط متعددة المكونات، بينما تعطي Fenske قيمة $N_{min}$ وتربط Gilliland بين $N$ و$R$.",
+      "memorization_note": "Fenske: $N_{min}$. Underwood: $R_{min}$. Gilliland: $N$ الفعلي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 140,
+      "question_en": "The Murphree vapor-phase tray efficiency is defined as:",
+      "question_ar": "تُعرَّف كفاءة صينية Murphree للطور البخاري بأنها:",
+      "options": [
+        "The ratio of tray diameter to column height",
+        "The ratio of reflux to distillate",
+        "The ratio of liquid density to vapor density",
+        "The ratio of the actual change in vapor composition to the change that would occur on an ideal tray"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$E_{MV}=\\dfrac{y_n-y_{n+1}}{y_n^*-y_{n+1}}$ compares the actual enrichment with that expected at equilibrium.",
+      "explanation_ar": "$E_{MV}=\\dfrac{y_n-y_{n+1}}{y_n^*-y_{n+1}}$ وتقارن الإثراء الفعلي بالإثراء المتوقع عند الاتزان.",
+      "memorization_note": "$$E_{MV}=\\frac{y_n-y_{n+1}}{y_n^*-y_{n+1}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 141,
+      "question_en": "Weeping in a tray column occurs when:",
+      "question_ar": "يحدث التسرب (Weeping) في عمود ذي صواني عندما:",
+      "options": [
+        "The vapor velocity is too high and liquid is carried to the tray above",
+        "The reflux ratio is infinite",
+        "The vapor velocity is too low and liquid leaks through the tray perforations",
+        "The feed is at its dew point"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Low vapor flow cannot support the liquid on the tray, so it leaks down (reducing efficiency). Entrainment and flooding occur at high vapor velocity.",
+      "explanation_ar": "التدفق البخاري الواطئ لا يستطيع حمل السائل على الصينية فيتسرب إلى الأسفل (فتقل الكفاءة)، أما الحمل والغمر فيحدثان عند سرعة بخار عالية.",
+      "memorization_note": "سرعة بخار واطئة: Weeping. عالية: Entrainment/Flooding.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 142,
+      "question_en": "A partial condenser at the top of a column compared with a total condenser:",
+      "question_ar": "المكثف الجزئي في أعلى العمود بالمقارنة مع المكثف الكلي:",
+      "options": [
+        "Produces no reflux",
+        "Acts as an additional equilibrium stage, since the vapor product and reflux are in equilibrium",
+        "Cannot produce a distillate",
+        "Operates only at total reflux"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In a partial condenser only part of the vapor is condensed (as reflux), and the remaining vapor product is in equilibrium with the reflux liquid, so it counts as one theoretical stage.",
+      "explanation_ar": "في المكثف الجزئي يتكثف جزء من البخار فقط (كارتجاع) ويكون البخار المتبقي (المنتج) في اتزان مع سائل الارتجاع فيُحسب كمرحلة نظرية.",
+      "memorization_note": "مكثف كلي: لا يُحسب مرحلة. مكثف جزئي: مرحلة اتزان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 143,
+      "question_en": "Azeotropic distillation of the ethanol–water system uses an entrainer (such as benzene or cyclohexane) which:",
+      "question_ar": "التقطير الأزيوتروبي لنظام إيثانول–ماء يستخدم مادة مُدخِلة (Entrainer) مثل البنزين أو الهكسان الحلقي والتي:",
+      "options": [
+        "Forms a new, lower-boiling azeotrope with one or more components and breaks the original azeotrope",
+        "Raises the boiling point of the mixture without forming an azeotrope",
+        "Is an inert gas bubbled through the column",
+        "Is a solid adsorbent"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The entrainer forms a heterogeneous minimum-boiling azeotrope with water (and ethanol) that is removed overhead and splits into two liquid phases, allowing absolute ethanol to be obtained at the bottom.",
+      "explanation_ar": "تكوّن المادة المُدخِلة أزيوتروباً جديداً غير متجانس أقل غلياناً مع الماء (والإيثانول) يُزال من الأعلى وينفصل إلى طورين سائلين فيُحصل على الإيثانول المطلق من القاع.",
+      "memorization_note": "أزيوتروبي: Entrainer. استخلاصي: مذيب ثقيل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 144,
+      "question_en": "Distillation differs from absorption in that distillation:",
+      "question_ar": "يختلف التقطير عن الامتصاص في أن التقطير:",
+      "options": [
+        "Always requires an external solvent",
+        "Uses solid adsorbents",
+        "Is only a single-stage process",
+        "Generates the second phase by heat addition/removal rather than by adding a foreign mass-separating agent"
+      ],
+      "correct_index": 3,
+      "explanation_en": "In distillation vapor is created by the reboiler and liquid by the condenser (energy separating agent). Absorption needs an added solvent (mass separating agent).",
+      "explanation_ar": "في التقطير ينشأ البخار بالمرجل والسائل بالمكثف (عامل فصل طاقي)، أما الامتصاص فيحتاج مذيباً مضافاً (عامل فصل كتلي).",
+      "memorization_note": "تقطير: عامل فصل = طاقة. امتصاص: عامل فصل = مذيب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 145,
+      "question_en": "The McCabe–Thiele stripping-section operating line passes through which point on the diagonal?",
+      "question_ar": "خط تشغيل قسم التجريد في McCabe–Thiele يمر بأي نقطة على القطر؟",
+      "options": [
+        "$(x_D,x_D)$",
+        "$(0,0)$ only",
+        "$(x_W,x_W)$",
+        "$(1,0)$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The stripping operating line intersects $y=x$ at the bottoms composition $x_W$, just as the rectifying line intersects it at $x_D$.",
+      "explanation_ar": "يقطع خط تشغيل قسم التجريد القطر $y=x$ عند تركيب القاع $x_W$ كما يقطعه خط التنقية عند $x_D$.",
+      "memorization_note": "تنقية: $(x_D,x_D)$. تجريد: $(x_W,x_W)$. $q$-line: $(z_F,z_F)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 146,
+      "question_en": "Compared with single-stage or cross-current extraction, countercurrent multistage extraction generally:",
+      "question_ar": "بالمقارنة مع الاستخلاص أحادي المرحلة أو المتقاطع، فإن الاستخلاص المتعاكس متعدد المراحل عادةً:",
+      "options": [
+        "Requires more solvent",
+        "Requires less solvent for the same degree of extraction",
+        "Cannot be used for liquid–liquid systems",
+        "Always gives a lower recovery"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Countercurrent contact keeps a larger average driving force, so fewer stages or less solvent are needed to obtain the same recovery.",
+      "explanation_ar": "التلامس المتعاكس يحافظ على قوة دافعة وسطية أكبر لذلك يلزم عدد مراحل أقل أو مذيب أقل لنفس نسبة الاستخلاص.",
+      "memorization_note": "متعاكس $\\rightarrow$ مذيب أقل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 147,
+      "question_en": "On a triangular diagram, when feed $F$ and solvent $S$ are mixed, the mixture point $M$ lies:",
+      "question_ar": "على مخطط المثلث عند خلط التغذية $F$ والمذيب $S$ تقع نقطة الخليط $M$:",
+      "options": [
+        "On the straight line joining $F$ and $S$, located by the lever-arm rule",
+        "At the plait point always",
+        "Outside the triangle",
+        "On the vertex of the diluent"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Mixing is represented on the line connecting the two streams. The position is found by the lever-arm rule $F\\cdot\\overline{FM}=S\\cdot\\overline{SM}$.",
+      "explanation_ar": "يُمثَّل الخلط على الخط الواصل بين التيارين ويُحدَّد الموضع بقاعدة الذراع $F\\cdot\\overline{FM}=S\\cdot\\overline{SM}$.",
+      "memorization_note": "$$F\\cdot\\overline{FM}=S\\cdot\\overline{SM}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 148,
+      "question_en": "How does increasing temperature usually affect the mutual solubility of the liquids in an extraction system?",
+      "question_ar": "كيف تؤثر زيادة درجة الحرارة عادةً على الذائبية المتبادلة للسوائل في نظام الاستخلاص؟",
+      "options": [
+        "Mutual solubility decreases and the two-phase region grows",
+        "There is no effect on solubility",
+        "The system becomes a solid",
+        "Mutual solubility increases and the two-phase region shrinks"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Heating generally makes the liquids more miscible, which reduces selectivity. Extraction is therefore carried out at moderate temperature.",
+      "explanation_ar": "التسخين يجعل السوائل أكثر امتزاجاً مما يقلل الانتقائية، لذلك يُجرى الاستخلاص عند درجة حرارة معتدلة.",
+      "memorization_note": "$T\\uparrow\\Rightarrow$ منطقة الطورين $\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 149,
+      "question_en": "Which isotherm describes multilayer physical adsorption on a solid surface?",
+      "question_ar": "أي معادلة ادمصاص تصف الادمصاص الفيزيائي متعدد الطبقات على سطح صلب؟",
+      "options": [
+        "Langmuir isotherm",
+        "Henry isotherm for monolayer only",
+        "BET isotherm",
+        "Raoult isotherm"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The Brunauer–Emmett–Teller (BET) model extends Langmuir to multilayers and is used to measure the specific surface area of adsorbents.",
+      "explanation_ar": "يوسّع نموذج Brunauer–Emmett–Teller (BET) نموذج لانغماير إلى الطبقات المتعددة ويُستخدم لقياس المساحة السطحية النوعية للمدمِصات.",
+      "memorization_note": "Langmuir: طبقة أحادية. BET: متعددة الطبقات.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 150,
+      "question_en": "Pressure-swing adsorption (PSA) regenerates the adsorbent mainly by:",
+      "question_ar": "يُعيد الادمصاص بتأرجح الضغط (PSA) توليد المدمِص أساساً عن طريق:",
+      "options": [
+        "Raising the temperature to above 1000 °C",
+        "Reducing the pressure to desorb the adsorbed species",
+        "Cooling to cryogenic temperatures",
+        "Adding a chemical oxidizer"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Adsorption is done at high pressure; lowering the pressure lowers the equilibrium loading so that the adsorbate desorbs. PSA is used for nitrogen/oxygen separation and hydrogen purification.",
+      "explanation_ar": "يتم الادمصاص عند ضغط عالٍ وخفض الضغط يقلل الحمولة المتزنة فتنفصل المادة المدمَصة. يُستخدم PSA لفصل النيتروجين/الأكسجين وتنقية الهيدروجين.",
+      "memorization_note": "PSA: ضغط عالٍ للادمصاص، ضغط واطئ للتجديد.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 151,
+      "question_en": "Adsorption beds regenerated by heating are called:",
+      "question_ar": "تُسمى طبقات الادمصاص التي يُعاد توليدها بالتسخين:",
+      "options": [
+        "Temperature-swing adsorption (TSA)",
+        "Pressure-swing adsorption (PSA)",
+        "Cascade extraction",
+        "Plait adsorption"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In TSA the adsorbent is regenerated by raising the temperature (hot gas or steam), because adsorption capacity decreases at higher temperature.",
+      "explanation_ar": "في TSA يُعاد توليد المدمِص برفع الحرارة (غاز ساخن أو بخار) لأن سعة الادمصاص تقل بارتفاع الحرارة.",
+      "memorization_note": "TSA: تسخين. PSA: خفض الضغط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 152,
+      "question_en": "Silica gel and molecular sieves are widely used in industry mainly for:",
+      "question_ar": "يُستخدم السيليكا جل والمناخل الجزيئية على نطاق واسع في الصناعة أساساً من أجل:",
+      "options": [
+        "Heating steam",
+        "Absorbing carbon dioxide into water",
+        "Producing distillate",
+        "Drying (dehumidifying) gases and liquids by adsorption"
+      ],
+      "correct_index": 3,
+      "explanation_en": "These adsorbents have a strong affinity for water and are used to dry air, natural gas and solvents.",
+      "explanation_ar": "لهذه المدمِصات ألفة قوية للماء وتُستخدم لتجفيف الهواء والغاز الطبيعي والمذيبات.",
+      "memorization_note": "سيليكا جل + مناخل جزيئية = تجفيف بالادمصاص.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 153,
+      "question_en": "For the constant-rate period, the drying time is proportional to:",
+      "question_ar": "في فترة المعدل الثابت يتناسب زمن التجفيف مع:",
+      "options": [
+        "The square of the temperature only",
+        "The reciprocal of the dry-solid mass",
+        "The moisture removed, $(X_1-X_c)$, divided by the constant drying rate $R_c$",
+        "The humidity of the exit air only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$t_c=\\dfrac{L_s\\,(X_1-X_c)}{A\\,R_c}$ where $L_s$ is the dry-solid mass and $A$ the drying area.",
+      "explanation_ar": "$t_c=\\dfrac{L_s\\,(X_1-X_c)}{A\\,R_c}$ حيث $L_s$ كتلة الصلب الجاف و$A$ مساحة التجفيف.",
+      "memorization_note": "$$t_c=\\frac{L_s\\,(X_1-X_c)}{A\\,R_c}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 154,
+      "question_en": "Preheating the drying air (at constant absolute humidity) before it enters the dryer:",
+      "question_ar": "تسخين هواء التجفيف مسبقاً (عند رطوبة مطلقة ثابتة) قبل دخوله المجفف:",
+      "options": [
+        "Raises its relative humidity",
+        "Lowers its relative humidity and increases its capacity to take up moisture",
+        "Has no effect on the drying rate",
+        "Makes it saturated"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Heating at constant $H$ increases $P^{sat}$, so $RH=p_v/P^{sat}$ drops. The larger humidity driving force allows faster drying.",
+      "explanation_ar": "التسخين عند $H$ ثابتة يزيد $P^{sat}$ فتنخفض $RH=p_v/P^{sat}$ وتزداد قوة الرطوبة الدافعة فيسرع التجفيف.",
+      "memorization_note": "$T\\uparrow$ عند $H$ ثابتة $\\Rightarrow RH\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 155,
+      "question_en": "Which of the following materials typically has an equilibrium moisture content close to zero (non-hygroscopic)?",
+      "question_ar": "أي المواد الآتية يكون محتواها الرطوبي المتزن عادةً قريباً من الصفر (غير هيجروسكوبية)؟",
+      "options": [
+        "Sand",
+        "Wood",
+        "Paper",
+        "Soap"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Non-porous, non-hygroscopic solids such as sand or glass beads hold only surface water; their equilibrium moisture content is very low. Wood, paper and soap are hygroscopic.",
+      "explanation_ar": "المواد الصلبة غير المسامية وغير الهيجروسكوبية مثل الرمل أو الخرز الزجاجي تحمل ماءً سطحياً فقط ومحتواها المتزن منخفض جداً، أما الخشب والورق والصابون فمواد هيجروسكوبية.",
+      "memorization_note": "غير هيجروسكوبي: $X^*\\approx0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 156,
+      "question_en": "Which dryer is typically used for continuous drying of granular, free-flowing solids in large quantities?",
+      "question_ar": "أي مجفف يُستخدم عادةً للتجفيف المستمر للمواد الحبيبية سهلة الانسياب بكميات كبيرة؟",
+      "options": [
+        "Freeze dryer",
+        "Batch tray dryer",
+        "Vacuum shelf dryer",
+        "Rotary dryer"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A rotary dryer is an inclined rotating drum through which solids tumble in contact with hot gas, suitable for continuous large-throughput operation. Tray dryers are batch units for small capacities.",
+      "explanation_ar": "المجفف الدوّار أسطوانة مائلة تدور فتنقلب المواد الصلبة بتلامس مع الغاز الساخن، وهو مناسب للتشغيل المستمر بإنتاج كبير، أما المجففات ذات الصواني فوحدات دفعية للكميات الصغيرة.",
+      "memorization_note": "دوّار: مستمر وكبير. صواني: دفعي وصغير.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 157,
+      "question_en": "A fluidized-bed dryer offers which main advantage?",
+      "question_ar": "ما الميزة الرئيسية للمجفف ذي الطبقة المميّعة (Fluidized-bed dryer)؟",
+      "options": [
+        "Very low gas flow rates",
+        "It works only for liquids",
+        "High heat- and mass-transfer rates with good, uniform gas–solid contact",
+        "It requires no air at all"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Fluidization suspends the particles in the hot gas, giving a very large contact area, uniform temperature and fast drying.",
+      "explanation_ar": "التمييع يعلّق الجسيمات في الغاز الساخن فيعطي مساحة تلامس كبيرة جداً وحرارة منتظمة وتجفيفاً سريعاً.",
+      "memorization_note": "طبقة مميّعة: انتقال حرارة وكتلة عاليان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 158,
+      "question_en": "Which of the following ways of supplying heat to a wet solid is NOT a drying heat-transfer mode?",
+      "question_ar": "أي طرق تجهيز الحرارة للصلب الرطب الآتية ليست من أنماط انتقال الحرارة في التجفيف؟",
+      "options": [
+        "Convection from hot air",
+        "Chemical neutralization",
+        "Conduction from a heated surface",
+        "Radiation or dielectric/microwave heating"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Dryers supply heat by convection (direct dryers), conduction (indirect dryers) or radiation/dielectric heating. Neutralization is a chemical reaction, not a drying heat-supply mode.",
+      "explanation_ar": "تُجهَّز الحرارة في المجففات بالحمل (مجففات مباشرة) أو بالتوصيل (غير مباشرة) أو بالإشعاع/التسخين العازل. أما التعادل فتفاعل كيميائي وليس نمطاً لتجهيز حرارة التجفيف.",
+      "memorization_note": "تجفيف: حمل، توصيل، إشعاع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 159,
+      "question_en": "On a psychrometric chart, the adiabatic cooling (adiabatic saturation) lines for air–water are approximately lines of:",
+      "question_ar": "على المخطط السيكرومتري تكون خطوط التبريد الأديباتي (خطوط التشبع الأديباتي) لنظام هواء–ماء تقريباً خطوط:",
+      "options": [
+        "Constant wet-bulb temperature",
+        "Constant dew point",
+        "Constant relative humidity",
+        "Constant dry-bulb temperature"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Because $Le\\approx1$ for air–water, the adiabatic saturation temperature is practically equal to the wet-bulb temperature, so these lines coincide with constant-$T_{wb}$ lines.",
+      "explanation_ar": "بما أن $Le\\approx1$ لنظام هواء–ماء فإن درجة التشبع الأديباتي تساوي عملياً درجة المنظار الرطب لذلك تنطبق هذه الخطوط على خطوط $T_{wb}$ الثابتة.",
+      "memorization_note": "هواء–ماء: $T_{as}\\approx T_{wb}$ لأن $Le\\approx1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 160,
+      "question_en": "On a psychrometric chart, heating air at constant humidity is represented by:",
+      "question_ar": "على المخطط السيكرومتري يُمثَّل تسخين الهواء عند رطوبة ثابتة بـ:",
+      "options": [
+        "A vertical line upward",
+        "A line along the saturation curve",
+        "A line of constant wet-bulb temperature",
+        "A horizontal line to the right (constant $H$, increasing $T_{db}$)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Sensible heating changes only dry-bulb temperature; absolute humidity stays the same, while the relative humidity decreases because the saturation pressure rises.",
+      "explanation_ar": "التسخين المحسوس يغيّر درجة الحرارة الجافة فقط وتبقى الرطوبة المطلقة ثابتة بينما تنخفض الرطوبة النسبية لأن ضغط التشبع يرتفع.",
+      "memorization_note": "تسخين: أفقي إلى اليمين. تبريد: أفقي إلى اليسار حتى الندى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 161,
+      "question_en": "The humid heat capacity of an air–water vapor mixture (per kg dry air) is approximately:",
+      "question_ar": "السعة الحرارية الرطبة لخليط هواء–بخار ماء (لكل kg هواء جاف) تساوي تقريباً:",
+      "options": [
+        "$C_s=4.18+1.88\\,H$",
+        "$C_s=1.005\\times1.88\\times H$",
+        "$C_s=1.005+1.88\\,H\\ \\ \\text{kJ/(kg dry air·K)}$",
+        "$C_s=2.5\\,H$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Humid heat is the sum of the heat capacity of the dry air ($\\approx1.005$) and of the water vapor it carries ($\\approx1.88\\,H$).",
+      "explanation_ar": "السعة الحرارية الرطبة = السعة الحرارية للهواء الجاف ($\\approx1.005$) + السعة الحرارية للبخار المحمول ($\\approx1.88\\,H$).",
+      "memorization_note": "$$C_s=1.005+1.88\\,H\\ \\ [\\text{kJ/kg·K}]$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 162,
+      "question_en": "The Merkel equation for cooling-tower design is written as:",
+      "question_ar": "تُكتب معادلة ميركل (Merkel) لتصميم أبراج التبريد بالصيغة:",
+      "options": [
+        "$\\dfrac{K_aV}{L}=\\displaystyle\\int\\dfrac{dT}{T_{wb}\\,h}$",
+        "$\\dfrac{K_aV}{L}=\\displaystyle\\int_{T_2}^{T_1}\\dfrac{C_L\\,dT}{h_s-h}$",
+        "$\\dfrac{K_aV}{L}=\\dfrac{T_1}{T_2}\\cdot h_s$",
+        "$\\dfrac{K_aV}{L}=H\\,\\Delta T^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The Merkel equation integrates the enthalpy driving force $(h_s-h)$ between the saturated air enthalpy at the water temperature and the bulk air enthalpy over the water temperature range.",
+      "explanation_ar": "تكامل معادلة ميركل قوة الإنثالبي الدافعة $(h_s-h)$ بين إنثالبي الهواء المشبع عند درجة حرارة الماء وإنثالبي الهواء الكلي عبر مدى حرارة الماء.",
+      "memorization_note": "$$\\frac{K_aV}{L}=\\int_{T_2}^{T_1}\\frac{C_L\\,dT}{h_s-h}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 163,
+      "question_en": "For a given cooling tower, increasing the wet-bulb temperature of the entering air (e.g. hot humid weather) will:",
+      "question_ar": "لبرج تبريد معيّن، زيادة درجة المنظار الرطب للهواء الداخل (مثل الطقس الحار الرطب) سوف:",
+      "options": [
+        "Raise the achievable cold-water temperature (cooling performance decreases)",
+        "Lower the achievable cold-water temperature",
+        "Have no effect on the cold-water temperature",
+        "Make the approach negative"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The cold-water temperature is always above $T_{wb}$, so a higher $T_{wb}$ raises the lowest possible outlet temperature and the tower cools less effectively.",
+      "explanation_ar": "درجة حرارة الماء البارد أعلى دائماً من $T_{wb}$ لذلك ارتفاع $T_{wb}$ يرفع أقل درجة حرارة ممكنة للخروج ويقل كفاءة التبريد.",
+      "memorization_note": "$T_{wb}\\uparrow\\Rightarrow T_{cold}\\uparrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 164,
+      "question_en": "In a mechanical-draft cooling tower, the air is moved by:",
+      "question_ar": "في برج التبريد ذي السحب الميكانيكي (Mechanical draft) يتحرك الهواء بواسطة:",
+      "options": [
+        "The chimney effect only",
+        "The pressure of the cooling water pump only",
+        "Gravity of falling air",
+        "Fans (forced or induced draft)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Mechanical-draft towers use forced-draft fans (air blown in) or induced-draft fans (air drawn through). Natural-draft towers use the buoyancy of warm humid air in a tall hyperbolic stack.",
+      "explanation_ar": "تستخدم الأبراج الميكانيكية مراوح السحب القسري (دفع الهواء) أو السحب المستحث (سحب الهواء). أما الأبراج الطبيعية فتعتمد على طفو الهواء الدافئ الرطب في مدخنة طويلة.",
+      "memorization_note": "طبيعي: مدخنة. ميكانيكي: مراوح.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 165,
+      "question_en": "The make-up water required by a cooling tower compensates for:",
+      "question_ar": "يعوّض ماء التعويض (Make-up water) في برج التبريد عن:",
+      "options": [
+        "Only the heat load",
+        "Only the fan power",
+        "Evaporation, drift (windage) and blowdown losses",
+        "The pressure drop in the fill"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Water is lost by evaporation, by droplets carried out with the air (drift), and by blowdown that limits the concentration of dissolved solids. $\\text{Make-up}=E+D+B$.",
+      "explanation_ar": "يُفقد الماء بالتبخر وبالقطيرات المحمولة مع الهواء (Drift) وبالتصريف (Blowdown) الذي يحدّ من تركيز الأملاح الذائبة. $\\text{Make-up}=E+D+B$.",
+      "memorization_note": "$$M=E+D+B$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 166,
+      "question_en": "The purpose of 'fill' (packing) in a cooling tower is to:",
+      "question_ar": "الغرض من الـ 'Fill' (الحشوة) في برج التبريد هو:",
+      "options": [
+        "Heat the air entering the tower",
+        "Increase the contact area and contact time between water and air",
+        "Reduce the humidity of the air",
+        "Store the cold water"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Splash or film fill breaks the water into droplets or thin films, enlarging the interfacial area for evaporation and heat exchange.",
+      "explanation_ar": "تفتّت الحشوة (الرذاذية أو الغشائية) الماء إلى قطيرات أو أغشية رقيقة فتزيد المساحة السطحية للتبخر وتبادل الحرارة.",
+      "memorization_note": "fill: مساحة أكبر + زمن تلامس أطول.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 167,
+      "question_en": "A cooling tower's thermal efficiency can be expressed as:",
+      "question_ar": "يمكن التعبير عن الكفاءة الحرارية لبرج التبريد بالعلاقة:",
+      "options": [
+        "$\\eta=\\dfrac{\\text{Range}}{\\text{Range}+\\text{Approach}}$",
+        "$\\eta=\\dfrac{\\text{Approach}}{\\text{Range}}$",
+        "$\\eta=\\text{Range}\\times\\text{Approach}$",
+        "$\\eta=\\dfrac{T_{db}}{T_{wb}}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The ideal cooling is down to $T_{wb}$, i.e. $\\text{Range}+\\text{Approach}=T_{hot}-T_{wb}$; efficiency is the actual cooling (range) divided by this maximum possible.",
+      "explanation_ar": "التبريد المثالي هو إلى $T_{wb}$ أي $\\text{Range}+\\text{Approach}=T_{hot}-T_{wb}$، والكفاءة هي التبريد الفعلي (Range) مقسوماً على هذا الحد الأقصى الممكن.",
+      "memorization_note": "$$\\eta=\\frac{\\text{Range}}{\\text{Range}+\\text{Approach}}\\times100\\%$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 168,
+      "question_en": "Dehumidification of air can be achieved by:",
+      "question_ar": "يمكن إزالة الرطوبة من الهواء (Dehumidification) عن طريق:",
+      "options": [
+        "Heating the air at constant humidity",
+        "Spraying warm water into it",
+        "Increasing its absolute humidity",
+        "Cooling the air below its dew point or using a desiccant (e.g. silica gel)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Water condenses out of the air when it is cooled below the dew point; desiccants remove moisture by adsorption/absorption. Heating only lowers relative humidity without removing water.",
+      "explanation_ar": "يتكثف الماء من الهواء عند تبريده دون نقطة الندى، كما تزيل المجففات الكيميائية الرطوبة بالادمصاص/الامتصاص. أما التسخين فيخفض الرطوبة النسبية فقط دون إزالة الماء.",
+      "memorization_note": "إزالة رطوبة: تبريد تحت الندى أو مادة مجففة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 169,
+      "question_en": "For the air–water system, the ratio $\\dfrac{h}{k_y\\,C_s}$ (Lewis relation) is approximately:",
+      "question_ar": "لنظام هواء–ماء فإن النسبة $\\dfrac{h}{k_y\\,C_s}$ (علاقة لويس) تساوي تقريباً:",
+      "options": [
+        "0",
+        "100",
+        "1",
+        "$\\infty$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The Lewis relation $h/(k_yC_s)=Le^{2/3}\\approx1$ for air–water, which makes the wet-bulb temperature almost equal to the adiabatic saturation temperature and simplifies psychrometry.",
+      "explanation_ar": "علاقة لويس $h/(k_yC_s)=Le^{2/3}\\approx1$ لنظام هواء–ماء، وهذا يجعل درجة المنظار الرطب تساوي تقريباً درجة التشبع الأديباتي ويبسّط حسابات السيكرومترية.",
+      "memorization_note": "$$\\frac{h}{k_yC_s}=Le^{2/3}\\approx1\\ (\\text{air–water})$$",
+      "requires_scratchpad": false
+    }
+  ]
+}

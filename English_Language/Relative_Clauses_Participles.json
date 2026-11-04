@@ -1,0 +1,248 @@
+{
+  "topic_en": "Relative Clauses & Participle Clauses",
+  "topic_ar": "الجمل الموصولة وشبه الجملة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول who/which/whose/where/when واختصار الجمل بـ V-ing و V3",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "The man ___ lives next door is a doctor.",
+      "question_ar": "الرجل ____ يسكن بجانبنا طبيب.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: who. who for people (subject).",
+      "explanation_ar": "الإجابة الصحيحة: who. who للأشخاص.",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "The book ___ I bought is great.",
+      "question_ar": "الكتاب ____ اشتريته رائع.",
+      "options": [
+        "who",
+        "whose",
+        "where",
+        "which"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: which. which for things.",
+      "explanation_ar": "الإجابة الصحيحة: which. which للأشياء.",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "The girl ___ father is a pilot is my friend.",
+      "question_ar": "الفتاة ____ والدها طيار صديقتي.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: whose. whose + noun shows possession.",
+      "explanation_ar": "الإجابة الصحيحة: whose. whose + اسم للملكية.",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "This is the house ___ I was born.",
+      "question_ar": "هذا هو البيت ____ ولدت فيه.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: where. where for places.",
+      "explanation_ar": "الإجابة الصحيحة: where. where للأماكن.",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "The woman ___ in the corner is my boss.",
+      "question_ar": "المرأة ____ في الزاوية هي مديرتي.",
+      "options": [
+        "is sitting",
+        "sitting",
+        "sits",
+        "sat"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: sitting. Reduced active clause: V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: sitting. اختصار جملة معلومة ← V-ing.",
+      "memorization_note": "اختصار الجملة: معلوم $\\rightarrow V\\text{-ing}$ ($\\text{The man sitting...}$) ، مبني للمجهول $\\rightarrow V_3$ ($\\text{The car driven by...}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "The car ___ by my father is old.",
+      "question_ar": "السيارة ____ من والدي قديمة.",
+      "options": [
+        "driving",
+        "drives",
+        "drive",
+        "driven"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: driven. Reduced passive clause: V3.",
+      "explanation_ar": "الإجابة الصحيحة: driven. اختصار جملة مبنية للمجهول ← V3.",
+      "memorization_note": "اختصار الجملة: معلوم $\\rightarrow V\\text{-ing}$ ($\\text{The man sitting...}$) ، مبني للمجهول $\\rightarrow V_3$ ($\\text{The car driven by...}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "My brother, ___ lives in Paris, is a doctor.",
+      "question_ar": "أخي، ____ يعيش في باريس، طبيب.",
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: who. After a comma we cannot use 'that'; for a person: who.",
+      "explanation_ar": "الإجابة الصحيحة: who. بعد الفاصلة لا نستعمل that، للشخص who.",
+      "memorization_note": "الجملة غير المحددة بين فواصل ولا نستعمل $\\text{that}$ بعد الفاصلة ($\\text{My brother, who...}$) ، و $\\text{that}$ بعد $\\text{everything, all, nothing, the only, superlative}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "I remember the day ___ we met.",
+      "question_ar": "أتذكر اليوم ____ التقينا فيه.",
+      "options": [
+        "where",
+        "which",
+        "when",
+        "who"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: when. when for time.",
+      "explanation_ar": "الإجابة الصحيحة: when. when للزمن.",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "He is the man ___ car was stolen.",
+      "question_ar": "هو الرجل الذي سُرقت ____ سيارته.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: whose. whose + noun (car) shows possession.",
+      "explanation_ar": "الإجابة الصحيحة: whose. whose + اسم (car).",
+      "memorization_note": "$\\text{who}$ للأشخاص ، $\\text{which}$ للأشياء ، $\\text{that}$ للاثنين ، $\\text{whose} + \\text{اسم}$ (ملكية) ، $\\text{where}$ (مكان) ، $\\text{when}$ (زمن).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Everything ___ he said was true.",
+      "question_ar": "كل شيء ____ قاله كان صحيحاً.",
+      "options": [
+        "who",
+        "whose",
+        "what",
+        "that"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: that. After 'everything' we use that.",
+      "explanation_ar": "الإجابة الصحيحة: that. بعد everything نستعمل that.",
+      "memorization_note": "الجملة غير المحددة بين فواصل ولا نستعمل $\\text{that}$ بعد الفاصلة ($\\text{My brother, who...}$) ، و $\\text{that}$ بعد $\\text{everything, all, nothing, the only, superlative}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "The report ___ yesterday has errors.",
+      "question_ar": "التقرير ____ أمس فيه أخطاء.",
+      "options": [
+        "written",
+        "writing",
+        "wrote",
+        "write"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: written. Reduced passive: V3 (written).",
+      "explanation_ar": "الإجابة الصحيحة: written. اختصار مبني للمجهول ← V3.",
+      "memorization_note": "اختصار الجملة: معلوم $\\rightarrow V\\text{-ing}$ ($\\text{The man sitting...}$) ، مبني للمجهول $\\rightarrow V_3$ ($\\text{The car driven by...}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "___ his work, he went home.",
+      "question_ar": "____ عمله ذهب إلى البيت.",
+      "options": [
+        "Finish",
+        "To finished",
+        "Having finished",
+        "Finished having"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Having finished. Perfect participle for an earlier action: Having + V3.",
+      "explanation_ar": "الإجابة الصحيحة: Having finished. حدث سابق ← Having + V3.",
+      "memorization_note": "$\\text{Having} + V_3$ (حدث سابق) ، $\\text{Not} + V\\text{-ing}$ للنفي: $\\text{Not knowing the answer, he...}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "The film, ___ we watched last night, was boring.",
+      "question_ar": "الفيلم، ____ شاهدناه ليلة أمس، كان مملاً.",
+      "options": [
+        "who",
+        "which",
+        "that",
+        "whose"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: which. Non-defining clause with a thing: which (no that after comma).",
+      "explanation_ar": "الإجابة الصحيحة: which. جملة غير محددة لشيء ← which.",
+      "memorization_note": "الجملة غير المحددة بين فواصل ولا نستعمل $\\text{that}$ بعد الفاصلة ($\\text{My brother, who...}$) ، و $\\text{that}$ بعد $\\text{everything, all, nothing, the only, superlative}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Not ___ the answer, he stayed silent.",
+      "question_ar": "وهو لا ____ الجواب بقي صامتاً.",
+      "options": [
+        "known",
+        "know",
+        "to know",
+        "knowing"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: knowing. Negative participle clause: Not + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: knowing. النفي ← Not + V-ing.",
+      "memorization_note": "$\\text{Having} + V_3$ (حدث سابق) ، $\\text{Not} + V\\text{-ing}$ للنفي: $\\text{Not knowing the answer, he...}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "The children ___ in the garden are my cousins.",
+      "question_ar": "الأطفال ____ في الحديقة هم أبناء عمومتي.",
+      "options": [
+        "playing",
+        "played",
+        "play",
+        "to play"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: playing. Reduced active clause: V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: playing. اختصار جملة معلومة ← V-ing.",
+      "memorization_note": "اختصار الجملة: معلوم $\\rightarrow V\\text{-ing}$ ($\\text{The man sitting...}$) ، مبني للمجهول $\\rightarrow V_3$ ($\\text{The car driven by...}$).",
+      "requires_scratchpad": false
+    }
+  ]
+}

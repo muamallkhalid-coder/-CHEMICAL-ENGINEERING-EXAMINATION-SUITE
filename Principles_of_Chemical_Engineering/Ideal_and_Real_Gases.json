@@ -1,0 +1,760 @@
+{
+  "topic_en": "Ideal and Real Gases",
+  "topic_ar": "الغازات المثالية والحقيقية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "قانون الغاز المثالي، خلائط الغازات والضغط الجزئي، عامل الانضغاطية، ومعادلات الحالة (فان درفالس، الفيريال، RK، SRK، PR)",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Which of the following variables does NOT appear in the ideal gas law?",
+      "question_ar": "أي من المتغيرات الآتية لا يدخل في قانون الغاز المثالي؟",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Time"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The ideal gas law is $PV = nRT$; it relates pressure, volume, moles and temperature and contains no time variable.",
+      "explanation_ar": "قانون الغاز المثالي $PV = nRT$ يربط الضغط والحجم والمولات ودرجة الحرارة ولا يتضمن الزمن.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What is the shape of the $P$–$T$ curve of an ideal gas at constant volume?",
+      "question_ar": "ما شكل منحنى $P$–$T$ للغاز المثالي عند حجم ثابت؟",
+      "options": [
+        "Straight line",
+        "Parabola",
+        "Hyperbola",
+        "Ellipse"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$P = \\frac{nR}{V}\\,T$ is linear in $T$ at constant $V$ and $n$.",
+      "explanation_ar": "$P = \\frac{nR}{V}\\,T$ علاقة خطية بدلالة $T$ عند ثبوت $V$ و $n$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "What is the shape of the $V$–$T$ curve of an ideal gas at constant pressure?",
+      "question_ar": "ما شكل منحنى $V$–$T$ للغاز المثالي عند ضغط ثابت؟",
+      "options": [
+        "Straight line",
+        "Parabola",
+        "Hyperbola",
+        "Ellipse"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$V = \\frac{nR}{P}\\,T$ is linear in $T$ at constant $P$ and $n$ (Charles's law).",
+      "explanation_ar": "$V = \\frac{nR}{P}\\,T$ علاقة خطية بدلالة $T$ عند ثبوت $P$ و $n$ (قانون شارل).",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "What is the shape of the $P$–$V$ curve of an ideal gas at constant temperature?",
+      "question_ar": "ما شكل منحنى $P$–$V$ للغاز المثالي عند درجة حرارة ثابتة؟",
+      "options": [
+        "Straight line",
+        "Parabola",
+        "Hyperbola",
+        "Ellipse"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$PV = nRT = \\text{constant}$ at constant $T$, so $P \\propto 1/V$ (a rectangular hyperbola; Boyle's law).",
+      "explanation_ar": "$PV = \\text{const}$ عند ثبوت $T$، إذن $P \\propto 1/V$ (قطع زائد؛ قانون بويل).",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Which statement is NOT true about ideal gas molecules?",
+      "question_ar": "أي عبارة غير صحيحة عن جزيئات الغاز المثالي؟",
+      "options": [
+        "They have negligible size",
+        "They have no attractive forces between them",
+        "They do not exert pressure",
+        "They move in random motion"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Ideal gas molecules do exert pressure: it results from their collisions with the container walls.",
+      "explanation_ar": "جزيئات الغاز المثالي تُسلّط ضغطاً على جدران الإناء نتيجة تصادمها بها.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "What is the pressure of an ideal gas with a molar volume of 5 L/mol at $27^\\circ\\text{C}$?",
+      "question_ar": "ما ضغط غاز مثالي حجمه المولي 5 L/mol عند $27^\\circ\\text{C}$؟",
+      "options": [
+        "2.5 atm",
+        "3.8 atm",
+        "4.9 atm",
+        "5.3 atm"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$P = \\frac{RT}{\\bar{V}} = \\frac{0.0821 \\times 300}{5} = 4.93\\text{ atm}$.",
+      "explanation_ar": "$P = \\frac{RT}{\\bar{V}} = \\frac{0.0821 \\times 300}{5} = 4.93\\text{ atm}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "What is the temperature of an ideal gas with a molar volume of 2 L/mol at 10 atm?",
+      "question_ar": "ما درجة حرارة غاز مثالي حجمه المولي 2 L/mol عند ضغط 10 atm؟",
+      "options": [
+        "243.6 K",
+        "268.4 K",
+        "289.1 K",
+        "313.5 K"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$T = \\frac{P\\bar{V}}{R} = \\frac{10 \\times 2}{0.0821} = 243.6\\text{ K}$.",
+      "explanation_ar": "$T = \\frac{P\\bar{V}}{R} = \\frac{20}{0.0821} = 243.6\\text{ K}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "Gas 1 has twice the molar volume of gas 2 at the same temperature (both ideal). What is the ratio $P_1 : P_2$?",
+      "question_ar": "الغاز 1 حجمه المولي ضعف حجم الغاز 2 عند نفس درجة الحرارة (كلاهما مثالي). ما نسبة $P_1 : P_2$؟",
+      "options": [
+        "4:1",
+        "1:4",
+        "2:1",
+        "1:2"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$P = RT/\\bar{V}$, so at equal $T$: $\\frac{P_1}{P_2} = \\frac{\\bar{V}_2}{\\bar{V}_1} = \\frac{1}{2}$.",
+      "explanation_ar": "$P = RT/\\bar{V}$، عند تساوي $T$: $\\frac{P_1}{P_2} = \\frac{\\bar{V}_2}{\\bar{V}_1} = \\frac{1}{2}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "88 g of $\\text{CO}_2$ at $27^\\circ\\text{C}$ exerts a pressure of 5 atm. What volume does it occupy?",
+      "question_ar": "88 g من $\\text{CO}_2$ عند $27^\\circ\\text{C}$ تُسلّط ضغطاً مقداره 5 atm. ما الحجم الذي تشغله؟",
+      "options": [
+        "5.6 L",
+        "7.9 L",
+        "9.9 L",
+        "12.2 L"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n = 88/44 = 2$ mol. $V = \\frac{nRT}{P} = \\frac{2 \\times 0.0821 \\times 300}{5} = 9.85\\text{ L} \\approx 9.9\\text{ L}$.",
+      "explanation_ar": "$n = 88/44 = 2$ mol. $V = \\frac{nRT}{P} = \\frac{2 \\times 24.63}{5} = 9.85\\text{ L}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. $M_{\\text{CO}_2} = 12 + 32 = 44$. $n = \\frac{m}{M_w}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "What is the density of $\\text{O}_2$ at $27^\\circ\\text{C}$ and 1 atm?",
+      "question_ar": "ما كثافة $\\text{O}_2$ عند $27^\\circ\\text{C}$ وضغط 1 atm؟",
+      "options": [
+        "1.1 g/L",
+        "1.3 g/L",
+        "1.5 g/L",
+        "1.7 g/L"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\rho = \\frac{PM}{RT} = \\frac{1 \\times 32}{0.0821 \\times 300} = 1.30\\text{ g/L}$.",
+      "explanation_ar": "$\\rho = \\frac{PM}{RT} = \\frac{32}{24.63} = 1.30\\text{ g/L}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. كثافة الغاز: $$\\rho = \\frac{m}{V} = \\frac{PM}{RT}$$ $M_{\\text{O}_2} = 32$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "What is the molar mass of an ideal gas whose density is 10 g/L at 1 atm and $27^\\circ\\text{C}$?",
+      "question_ar": "ما الكتلة المولية لغاز مثالي كثافته 10 g/L عند 1 atm و $27^\\circ\\text{C}$؟",
+      "options": [
+        "84.5 g/mol",
+        "135.1 g/mol",
+        "186.8 g/mol",
+        "246.3 g/mol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$M = \\frac{\\rho RT}{P} = \\frac{10 \\times 0.0821 \\times 300}{1} = 246.3\\text{ g/mol}$.",
+      "explanation_ar": "$M = \\frac{\\rho RT}{P} = \\frac{10 \\times 24.63}{1} = 246.3\\text{ g/mol}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. $$M = \\frac{\\rho RT}{P}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "What is the specific gravity of $\\text{CO}_2$ at $27^\\circ\\text{C}$ and 1 atm relative to air whose density is 1 g/L?",
+      "question_ar": "ما الوزن النوعي لـ $\\text{CO}_2$ عند $27^\\circ\\text{C}$ و 1 atm نسبةً إلى هواء كثافته 1 g/L؟",
+      "options": [
+        "1.23",
+        "1.55",
+        "1.78",
+        "1.96"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\rho_{\\text{CO}_2} = \\frac{PM}{RT} = \\frac{44}{24.63} = 1.78\\text{ g/L}$; $SG = \\frac{1.78}{1} = 1.78$.",
+      "explanation_ar": "$\\rho_{\\text{CO}_2} = \\frac{44}{24.63} = 1.78\\text{ g/L}$ ، والوزن النوعي $= 1.78/1 = 1.78$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. $$SG = \\frac{\\rho_{\\text{substance}}}{\\rho_{\\text{reference}}}$$ $M_{\\text{CO}_2} = 44$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "What is the specific gravity of CO at $27^\\circ\\text{C}$ and 5 atm relative to air ($M = 29$) at $27^\\circ\\text{C}$ and 10 atm?",
+      "question_ar": "ما الوزن النوعي لـ CO عند $27^\\circ\\text{C}$ و 5 atm نسبةً إلى الهواء ($M = 29$) عند $27^\\circ\\text{C}$ و 10 atm؟",
+      "options": [
+        "0.48",
+        "0.56",
+        "0.64",
+        "0.72"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$SG = \\frac{\\rho_{\\text{CO}}}{\\rho_{\\text{air}}} = \\frac{5 \\times 28}{10 \\times 29} = 0.483$ (since $T$ is equal, $RT$ cancels).",
+      "explanation_ar": "$SG = \\frac{5 \\times 28}{10 \\times 29} = 0.483$ (يُحذف $RT$ لتساوي درجة الحرارة).",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT$$ ثابت الغازات: $R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)}$ ، و $T(\\text{K}) = T(^\\circ\\text{C}) + 273$. $M_{\\text{CO}} = 28$. $$\\rho = \\frac{PM}{RT}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "What is the compressibility factor of an ideal gas?",
+      "question_ar": "ما قيمة عامل الانضغاطية للغاز المثالي؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Depends on the gas"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Z = \\frac{PV}{nRT}$ and for an ideal gas $PV = nRT$, so $Z = 1$ always.",
+      "explanation_ar": "$Z = \\frac{PV}{nRT}$ وللغاز المثالي $PV = nRT$ إذن $Z = 1$ دائماً.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Which of the following is NOT a valid unit of the universal gas constant $R$?",
+      "question_ar": "أي مما يلي ليس وحدة صحيحة لثابت الغازات العام $R$؟",
+      "options": [
+        "$\\text{atm·L/(mol·K)}$",
+        "$\\text{J/(mol·K)}$",
+        "$\\text{Pa·m}^3\\text{/(mol·K)}$",
+        "$\\text{N·kg·m}^3\\text{/(mol·K)}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$R = PV/(nT)$ has units of energy per mole per kelvin: $\\text{atm·L/(mol·K)}$, $\\text{J/(mol·K)}$ and $\\text{Pa·m}^3\\text{/(mol·K)}$ are all valid. $\\text{N·kg·m}^3\\text{/(mol·K)}$ is not.",
+      "explanation_ar": "$R = PV/(nT)$ وحدتها طاقة لكل مول لكل كلفن: $\\text{atm·L/(mol·K)}$ و $\\text{J/(mol·K)}$ و $\\text{Pa·m}^3\\text{/(mol·K)}$ كلها صحيحة، أما الخيار الأخير فغير صحيح.",
+      "memorization_note": "$R = 0.0821\\text{ atm·L/(mol·K)} = 8.314\\text{ J/(mol·K)} = 8.314\\text{ Pa·m}^3\\text{/(mol·K)} = 1.987\\text{ cal/(mol·K)}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "A container holds two ideal gases at $27^\\circ\\text{C}$. The volume of the container per mole of gas 1 is 6 L/mol and per mole of gas 2 is 3 L/mol. What is the total pressure?",
+      "question_ar": "إناء يحتوي غازين مثاليين عند $27^\\circ\\text{C}$؛ حجم الإناء لكل مول من الغاز 1 هو 6 L/mol ولكل مول من الغاز 2 هو 3 L/mol. ما الضغط الكلي؟",
+      "options": [
+        "6.9 atm",
+        "8.5 atm",
+        "12.3 atm",
+        "15.8 atm"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$p_1 = \\frac{RT}{6} = 4.1\\text{ atm}$, $p_2 = \\frac{RT}{3} = 8.2\\text{ atm}$. $P = p_1 + p_2 = 12.3\\text{ atm}$ (Dalton).",
+      "explanation_ar": "$p_1 = \\frac{24.63}{6} = 4.1$ atm ، $p_2 = \\frac{24.63}{3} = 8.2$ atm. $P = p_1 + p_2 = 12.3$ atm (دالتون).",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 17,
+      "question_en": "The mole fraction of a gas in a mixture is 0.1 and the total pressure is 10 atm. What is its partial pressure?",
+      "question_ar": "الكسر المولي لغاز في خليط 0.1 والضغط الكلي 10 atm. ما ضغطه الجزئي؟",
+      "options": [
+        "1 atm",
+        "5 atm",
+        "10 atm",
+        "20 atm"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$p = yP = 0.1 \\times 10 = 1\\text{ atm}$.",
+      "explanation_ar": "$p = yP = 0.1 \\times 10 = 1$ atm.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 18,
+      "question_en": "A mixture contains a gas of mole fraction 0.5 in a 6 L container. According to Dalton's law, what volume does that gas occupy?",
+      "question_ar": "خليط يحتوي غازاً كسره المولي 0.5 في إناء حجمه 6 L. حسب قانون دالتون ما الحجم الذي يشغله هذا الغاز؟",
+      "options": [
+        "2 L",
+        "3 L",
+        "5 L",
+        "6 L"
+      ],
+      "correct_index": 3,
+      "explanation_en": "In Dalton's model each gas in the mixture occupies the whole container volume (6 L) at the mixture temperature; only its pressure is reduced to the partial pressure. (Amagat's partial volume $yV = 3$ L is a different concept.)",
+      "explanation_ar": "في نموذج دالتون يشغل كل غاز في الخليط حجم الإناء كاملاً (6 L) عند درجة حرارة الخليط، والذي ينخفض هو ضغطه فقط (الضغط الجزئي). (الحجم الجزئي لأماجا $yV = 3$ L مفهوم مختلف.)",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 19,
+      "question_en": "A gas mixture contains 30% $\\text{CO}_2$, 40% $\\text{O}_2$ and 30% $\\text{N}_2$ (mole %). If the partial pressure of $\\text{CO}_2$ is 6 Pa, what is the total pressure?",
+      "question_ar": "خليط غازي يحتوي 30% $\\text{CO}_2$ و 40% $\\text{O}_2$ و 30% $\\text{N}_2$ (نسب مولية). إذا كان الضغط الجزئي لـ $\\text{CO}_2$ يساوي 6 Pa فما الضغط الكلي؟",
+      "options": [
+        "6 Pa",
+        "10 Pa",
+        "20 Pa",
+        "60 Pa"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$P = \\frac{p_{\\text{CO}_2}}{y_{\\text{CO}_2}} = \\frac{6}{0.3} = 20\\text{ Pa}$.",
+      "explanation_ar": "$P = \\frac{6}{0.3} = 20$ Pa.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 20,
+      "question_en": "The partial pressures of the gases in a mixture form the series $p,\\ p/2,\\ p/4,\\ \\dots$ (each is half the previous one). If the total pressure is $31p/16$, how many gases are in the mixture?",
+      "question_ar": "الضغوط الجزئية لغازات خليط تشكل المتسلسلة $p,\\ p/2,\\ p/4,\\ \\dots$ (كل ضغط نصف سابقه). إذا كان الضغط الكلي $31p/16$ فكم غازاً في الخليط؟",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "15"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$P = p\\,\\frac{1 - (1/2)^n}{1 - 1/2} = 2p\\,(1 - 2^{-n}) = \\frac{31p}{16} \\Rightarrow 1 - 2^{-n} = \\frac{31}{32} \\Rightarrow n = 5$.",
+      "explanation_ar": "$P = 2p\\,(1 - 2^{-n}) = \\frac{31p}{16} \\Rightarrow 2^{-n} = \\frac{1}{32} \\Rightarrow n = 5$.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط. مجموع متسلسلة هندسية: $S_n = a\\,\\frac{1 - r^n}{1 - r}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "A gas mixture of 20% $\\text{CO}_2$, 50% $\\text{O}_2$ and 30% $\\text{N}_2$ is at a total pressure of 100 Pa and $-73^\\circ\\text{C}$ in a rigid container. If the temperature is raised to $27^\\circ\\text{C}$, what is the new partial pressure of $\\text{N}_2$?",
+      "question_ar": "خليط من 20% $\\text{CO}_2$ و 50% $\\text{O}_2$ و 30% $\\text{N}_2$ ضغطه الكلي 100 Pa عند $-73^\\circ\\text{C}$ في وعاء صلب. إذا رُفعت الحرارة إلى $27^\\circ\\text{C}$ فما الضغط الجزئي الجديد لـ $\\text{N}_2$؟",
+      "options": [
+        "15 Pa",
+        "30 Pa",
+        "45 Pa",
+        "60 Pa"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Constant $V$ and $n$: $P_2 = P_1\\,\\frac{T_2}{T_1} = 100 \\times \\frac{300}{200} = 150\\text{ Pa}$. $p_{\\text{N}_2} = 0.3 \\times 150 = 45\\text{ Pa}$.",
+      "explanation_ar": "عند ثبوت $V$ و $n$: $P_2 = 100 \\times \\frac{300}{200} = 150$ Pa، والضغط الجزئي لـ $\\text{N}_2 = 0.3 \\times 150 = 45$ Pa.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط. قانون غاي-لوساك (حجم ثابت): $$\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$$ ودرجة الحرارة بالكلفن: $-73 + 273 = 200\\text{ K}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 22,
+      "question_en": "A container holds 20% $\\text{H}_2$ and 80% $\\text{N}_2$ at total pressure $P$. At constant temperature and volume, an additional amount of $\\text{O}_2$ is added. What is the new partial pressure of $\\text{N}_2$?",
+      "question_ar": "إناء يحتوي 20% $\\text{H}_2$ و 80% $\\text{N}_2$ بضغط كلي $P$. عند ثبوت درجة الحرارة والحجم أُضيفت كمية من $\\text{O}_2$. ما الضغط الجزئي الجديد لـ $\\text{N}_2$؟",
+      "options": [
+        "0.2P",
+        "0.8P",
+        "P",
+        "1.6P"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$p_{\\text{N}_2} = \\frac{n_{\\text{N}_2}RT}{V}$ depends only on its own moles, $T$ and $V$, none of which changed. It stays $0.8P$.",
+      "explanation_ar": "$p_{\\text{N}_2} = \\frac{n_{\\text{N}_2}RT}{V}$ تعتمد على مولاتها و $T$ و $V$ فقط، ولم يتغير أي منها. يبقى $0.8P$.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "A container holds 40% $\\text{CO}_2$ and 60% $\\text{H}_2$ at a total pressure of 10 Pa. $\\text{O}_2$ is added isothermally (at constant volume) until the composition becomes 20% $\\text{CO}_2$, 30% $\\text{H}_2$ and 50% $\\text{O}_2$. What is the partial pressure of $\\text{O}_2$ in the final mixture?",
+      "question_ar": "إناء يحتوي 40% $\\text{CO}_2$ و 60% $\\text{H}_2$ بضغط كلي 10 Pa. أُضيف $\\text{O}_2$ عند ثبوت الحرارة والحجم حتى أصبح التركيب 20% $\\text{CO}_2$ و 30% $\\text{H}_2$ و 50% $\\text{O}_2$. ما الضغط الجزئي لـ $\\text{O}_2$ في الخليط النهائي؟",
+      "options": [
+        "5 Pa",
+        "10 Pa",
+        "20 Pa",
+        "35 Pa"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$p_{\\text{H}_2}$ is unchanged: $0.6 \\times 10 = 6\\text{ Pa}$. Final total: $P = \\frac{6}{0.3} = 20\\text{ Pa}$. $p_{\\text{O}_2} = 0.5 \\times 20 = 10\\text{ Pa}$.",
+      "explanation_ar": "الضغط الجزئي لـ $\\text{H}_2$ ثابت: $0.6 \\times 10 = 6$ Pa. الضغط الكلي النهائي $= 6/0.3 = 20$ Pa، و $p_{\\text{O}_2} = 0.5 \\times 20 = 10$ Pa.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 24,
+      "question_en": "A mixture contains 20% CO, 30% $\\text{SO}_2$ and 50% $\\text{N}_2$. The partial pressure of $\\text{N}_2$ is 5 atm at $27^\\circ\\text{C}$. What is the molar volume of the gas mixture?",
+      "question_ar": "خليط يحتوي 20% CO و 30% $\\text{SO}_2$ و 50% $\\text{N}_2$. الضغط الجزئي لـ $\\text{N}_2$ يساوي 5 atm عند $27^\\circ\\text{C}$. ما الحجم المولي للخليط الغازي؟",
+      "options": [
+        "2.5 L/mol",
+        "3.7 L/mol",
+        "4.9 L/mol",
+        "5.6 L/mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$P = \\frac{5}{0.5} = 10\\text{ atm}$. $\\bar{V}_{\\text{mix}} = \\frac{RT}{P} = \\frac{0.0821 \\times 300}{10} = 2.46 \\approx 2.5\\text{ L/mol}$.",
+      "explanation_ar": "$P = 5/0.5 = 10$ atm. الحجم المولي للخليط $= \\frac{RT}{P} = \\frac{24.63}{10} = 2.46 \\approx 2.5$ L/mol.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 25,
+      "question_en": "A vessel contains 10 mol of $\\text{O}_2$ and other gases at a total pressure of 10 atm. What is the partial pressure of $\\text{O}_2$?",
+      "question_ar": "وعاء يحتوي 10 mol من $\\text{O}_2$ مع غازات أخرى وضغطه الكلي 10 atm. ما الضغط الجزئي لـ $\\text{O}_2$؟",
+      "options": [
+        "1 atm",
+        "10 atm",
+        "100 atm",
+        "Cannot be determined"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$p_{\\text{O}_2} = y_{\\text{O}_2}P$ requires the mole fraction, which needs the total moles. Total moles are not given, so it cannot be determined.",
+      "explanation_ar": "$p_{\\text{O}_2} = y_{\\text{O}_2}P$ يتطلب الكسر المولي، وهو يحتاج المولات الكلية وهي غير معطاة، لذلك لا يمكن التحديد.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i\\,P \\qquad \\sum_i p_i = P$$ وكل غاز في الخليط يشغل حجم الإناء كاملاً عند درجة حرارة الخليط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "Which statement is true about the compressibility factor of real gases?",
+      "question_ar": "أي عبارة صحيحة عن عامل الانضغاطية للغازات الحقيقية؟",
+      "options": [
+        "$Z = 1$ always",
+        "$Z < 1$ always",
+        "$Z > 1$ always",
+        "$Z$ can be either less than or greater than 1"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Real gases deviate from ideality: $Z < 1$ when attractive forces dominate (moderate pressure) and $Z > 1$ when repulsive forces dominate (very high pressure).",
+      "explanation_ar": "الغازات الحقيقية تنحرف عن المثالية: $Z < 1$ عندما تسود قوى التجاذب (ضغوط متوسطة) و $Z > 1$ عندما تسود قوى التنافر (ضغوط عالية جداً).",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "The ideal-gas pressure of $\\text{CO}_2$ is 10 Pa. If the compressibility factor is $Z = 0.8$ with all other variables unchanged, what is the actual pressure?",
+      "question_ar": "الضغط المثالي لغاز $\\text{CO}_2$ يساوي 10 Pa. إذا كان عامل الانضغاطية $Z = 0.8$ مع بقاء بقية المتغيرات نفسها فما الضغط الفعلي؟",
+      "options": [
+        "5 Pa",
+        "8 Pa",
+        "10 Pa",
+        "14 Pa"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$P = Z\\,\\frac{nRT}{V} = Z\\,P_{\\text{ideal}} = 0.8 \\times 10 = 8\\text{ Pa}$.",
+      "explanation_ar": "$P = Z \\times P_{\\text{ideal}} = 0.8 \\times 10 = 8$ Pa.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 28,
+      "question_en": "What is the pressure of $\\text{H}_2$ with $Z = 0.6$, molar volume 5 L/mol at $27^\\circ\\text{C}$?",
+      "question_ar": "ما ضغط غاز $\\text{H}_2$ إذا كان $Z = 0.6$ والحجم المولي 5 L/mol عند $27^\\circ\\text{C}$؟",
+      "options": [
+        "3.0 atm",
+        "5.4 atm",
+        "9.6 atm",
+        "14.5 atm"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$P = \\frac{Z\\,RT}{\\bar{V}} = \\frac{0.6 \\times 0.0821 \\times 300}{5} = 2.96 \\approx 3.0\\text{ atm}$.",
+      "explanation_ar": "$P = \\frac{ZRT}{\\bar{V}} = \\frac{0.6 \\times 24.63}{5} = 2.96 \\approx 3.0$ atm.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 29,
+      "question_en": "At what temperature does $\\text{SO}_2$ with $Z = 2$ have a pressure of 5 atm and a molar volume of 10 L/mol?",
+      "question_ar": "عند أي درجة حرارة يكون ضغط $\\text{SO}_2$ مساوياً 5 atm وحجمه المولي 10 L/mol إذا كان $Z = 2$؟",
+      "options": [
+        "300.5 K",
+        "304.5 K",
+        "310 K",
+        "312.5 K"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$T = \\frac{P\\bar{V}}{ZR} = \\frac{5 \\times 10}{2 \\times 0.0821} = 304.5\\text{ K}$.",
+      "explanation_ar": "$T = \\frac{P\\bar{V}}{ZR} = \\frac{50}{2 \\times 0.0821} = 304.5$ K.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 30,
+      "question_en": "What is the compressibility factor of water vapor with a density of 1 g/L at $27^\\circ\\text{C}$ and 1 atm?",
+      "question_ar": "ما عامل الانضغاطية لبخار ماء كثافته 1 g/L عند $27^\\circ\\text{C}$ و 1 atm؟",
+      "options": [
+        "0.25",
+        "0.59",
+        "0.73",
+        "0.91"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Z = \\frac{PM}{\\rho RT} = \\frac{1 \\times 18}{1 \\times 0.0821 \\times 300} = 0.73$.",
+      "explanation_ar": "$Z = \\frac{PM}{\\rho RT} = \\frac{18}{24.63} = 0.73$.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $$Z = \\frac{PM}{\\rho RT}$$ $M_{\\text{H}_2\\text{O}} = 18$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 31,
+      "question_en": "What is the compressibility factor of a gas of molar mass 90 g/mol and density 10 g/L at $27^\\circ\\text{C}$ and 2 atm?",
+      "question_ar": "ما عامل الانضغاطية لغاز كتلته المولية 90 g/mol وكثافته 10 g/L عند $27^\\circ\\text{C}$ و 2 atm؟",
+      "options": [
+        "0.14",
+        "0.39",
+        "0.51",
+        "0.73"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Z = \\frac{PM}{\\rho RT} = \\frac{2 \\times 90}{10 \\times 0.0821 \\times 300} = 0.73$.",
+      "explanation_ar": "$Z = \\frac{PM}{\\rho RT} = \\frac{180}{246.3} = 0.73$.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $$Z = \\frac{PM}{\\rho RT}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 32,
+      "question_en": "What is the pressure of 80 g of $\\text{CH}_4$ with $Z = 5$ in a 10 L vessel at $27^\\circ\\text{C}$?",
+      "question_ar": "ما ضغط 80 g من $\\text{CH}_4$ إذا كان $Z = 5$ في وعاء حجمه 10 L عند $27^\\circ\\text{C}$؟",
+      "options": [
+        "10.5 atm",
+        "28.9 atm",
+        "44.2 atm",
+        "61.6 atm"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n = 80/16 = 5$ mol. $P = \\frac{ZnRT}{V} = \\frac{5 \\times 5 \\times 0.0821 \\times 300}{10} = 61.6\\text{ atm}$.",
+      "explanation_ar": "$n = 80/16 = 5$ mol. $P = \\frac{ZnRT}{V} = \\frac{25 \\times 24.63}{10} = 61.6$ atm.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 33,
+      "question_en": "What is the compressibility factor of methane with a density of 10 g/L at $27^\\circ\\text{C}$ and 500 atm?",
+      "question_ar": "ما عامل الانضغاطية للميثان بكثافة 10 g/L عند $27^\\circ\\text{C}$ و 500 atm؟",
+      "options": [
+        "32.5",
+        "34.8",
+        "39.6",
+        "44.1"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Z = \\frac{PM}{\\rho RT} = \\frac{500 \\times 16}{10 \\times 0.0821 \\times 300} = 32.5$.",
+      "explanation_ar": "$Z = \\frac{PM}{\\rho RT} = \\frac{8000}{246.3} = 32.5$.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $$Z = \\frac{PM}{\\rho RT}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 34,
+      "question_en": "What is the compressibility factor of neon ($M = 20$ g/mol) with a density of 20 g/L at $27^\\circ\\text{C}$ and 100 atm?",
+      "question_ar": "ما عامل الانضغاطية للنيون ($M = 20$ g/mol) بكثافة 20 g/L عند $27^\\circ\\text{C}$ و 100 atm؟",
+      "options": [
+        "2.1",
+        "3.5",
+        "4.1",
+        "6.8"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Z = \\frac{PM}{\\rho RT} = \\frac{100 \\times 20}{20 \\times 0.0821 \\times 300} = 4.06 \\approx 4.1$.",
+      "explanation_ar": "$Z = \\frac{PM}{\\rho RT} = \\frac{2000}{492.6} = 4.06 \\approx 4.1$.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $$Z = \\frac{PM}{\\rho RT}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 35,
+      "question_en": "90 g of glucose ($M = 180$) is in a 2 L container at 10 atm. What is the temperature if $Z = 1.5$?",
+      "question_ar": "90 g من الغلوكوز ($M = 180$) في إناء حجمه 2 L عند ضغط 10 atm. ما درجة الحرارة إذا كان $Z = 1.5$؟",
+      "options": [
+        "$25.4^\\circ\\text{C}$",
+        "$51.7^\\circ\\text{C}$",
+        "$76.9^\\circ\\text{C}$",
+        "$103.5^\\circ\\text{C}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n = 90/180 = 0.5$ mol. $T = \\frac{PV}{ZnR} = \\frac{10 \\times 2}{1.5 \\times 0.5 \\times 0.0821} = 324.8\\text{ K} = 51.7^\\circ\\text{C}$.",
+      "explanation_ar": "$n = 0.5$ mol. $T = \\frac{PV}{ZnR} = \\frac{20}{0.0616} = 324.8$ K $= 51.7^\\circ\\text{C}$.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 36,
+      "question_en": "How many grams of $\\text{C}_2\\text{H}_6$ ($Z = 1.4$) are in a 10 L container at $27^\\circ\\text{C}$ and 5 atm?",
+      "question_ar": "كم غراماً من $\\text{C}_2\\text{H}_6$ ($Z = 1.4$) في إناء حجمه 10 L عند $27^\\circ\\text{C}$ و 5 atm؟",
+      "options": [
+        "20 g",
+        "30.4 g",
+        "43.5 g",
+        "50.8 g"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n = \\frac{PV}{ZRT} = \\frac{5 \\times 10}{1.4 \\times 0.0821 \\times 300} = 1.45$ mol. $m = 1.45 \\times 30 = 43.5$ g.",
+      "explanation_ar": "$n = \\frac{PV}{ZRT} = \\frac{50}{1.4 \\times 24.63} = 1.45$ mol. الكتلة $= 1.45 \\times 30 = 43.5$ g.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $M_{\\text{C}_2\\text{H}_6} = 24 + 6 = 30$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 37,
+      "question_en": "What is the volume of 21 g of propane ($\\text{C}_3\\text{H}_8$, $Z = 1.9$) at 1 atm and $27^\\circ\\text{C}$?",
+      "question_ar": "ما حجم 21 g من البروبان ($\\text{C}_3\\text{H}_8$، $Z = 1.9$) عند 1 atm و $27^\\circ\\text{C}$؟",
+      "options": [
+        "22.3 L",
+        "37.5 L",
+        "42.1 L",
+        "59.6 L"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n = 21/44 = 0.477$ mol. $V = \\frac{ZnRT}{P} = \\frac{1.9 \\times 0.477 \\times 24.63}{1} = 22.3\\text{ L}$.",
+      "explanation_ar": "$n = 21/44 = 0.477$ mol. $V = \\frac{ZnRT}{P} = 1.9 \\times 0.477 \\times 24.63 = 22.3$ L.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 38,
+      "question_en": "One mole of cyclohexane ($Z = 1.2$) is in a container at $27^\\circ\\text{C}$ and 4 atm. What is the container volume?",
+      "question_ar": "مول واحد من السايكلوهكسان ($Z = 1.2$) في إناء عند $27^\\circ\\text{C}$ و 4 atm. ما حجم الإناء؟",
+      "options": [
+        "3.8 L",
+        "4.4 L",
+        "5.6 L",
+        "7.4 L"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$V = \\frac{ZnRT}{P} = \\frac{1.2 \\times 1 \\times 24.63}{4} = 7.4\\text{ L}$.",
+      "explanation_ar": "$V = \\frac{ZnRT}{P} = \\frac{1.2 \\times 24.63}{4} = 7.4$ L.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 39,
+      "question_en": "39 g of benzene ($Z = 1.4$) is in a 10 L container at $27^\\circ\\text{C}$. What is the pressure?",
+      "question_ar": "39 g من البنزين ($Z = 1.4$) في إناء حجمه 10 L عند $27^\\circ\\text{C}$. ما الضغط؟",
+      "options": [
+        "1.7 atm",
+        "1.9 atm",
+        "2.2 atm",
+        "2.5 atm"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n = 39/78 = 0.5$ mol. $P = \\frac{ZnRT}{V} = \\frac{1.4 \\times 0.5 \\times 24.63}{10} = 1.72\\text{ atm}$.",
+      "explanation_ar": "$n = 0.5$ mol. $P = \\frac{ZnRT}{V} = \\frac{1.4 \\times 0.5 \\times 24.63}{10} = 1.72$ atm.",
+      "memorization_note": "عامل الانضغاطية: $$Z = \\frac{PV}{nRT} = \\frac{P\\bar{V}}{RT}$$ للغاز المثالي $Z = 1$. الكتل المولية: $\\text{CH}_4 = 16,\\ \\text{C}_2\\text{H}_6 = 30,\\ \\text{C}_3\\text{H}_8 = 44,\\ \\text{C}_6\\text{H}_6 = 78,\\ \\text{C}_6\\text{H}_{12}\\text{O}_6 = 180$. $RT = 0.0821 \\times 300 = 24.63\\text{ atm·L/mol}$ عند $27^\\circ\\text{C}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 40,
+      "question_en": "Which of the following is NOT an equation of state?",
+      "question_ar": "أي مما يلي ليس معادلة حالة؟",
+      "options": [
+        "Van der Waals equation",
+        "Charles's law",
+        "Peng–Robinson equation",
+        "Redlich–Kwong equation"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Charles's law ($V \\propto T$ at constant $P$) is a limiting gas law for one process, not a general $P$–$V$–$T$ equation of state.",
+      "explanation_ar": "قانون شارل ($V \\propto T$ عند ثبوت $P$) قانون غازي لعملية محددة وليس معادلة حالة عامة تربط $P$ و $V$ و $T$.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "$\\text{O}_2$ is at 5 atm with a molar volume of 2 L/mol. Using van der Waals with $a = 9.24\\text{ atm·L}^2\\text{/mol}^2$ and $b = 0.0907\\text{ L/mol}$, what is the temperature?",
+      "question_ar": "غاز $\\text{O}_2$ عند 5 atm وحجمه المولي 2 L/mol. باستخدام معادلة فان درفالس مع $a = 9.24\\text{ atm·L}^2\\text{/mol}^2$ و $b = 0.0907\\text{ L/mol}$ ما درجة الحرارة؟",
+      "options": [
+        "140 K",
+        "150 K",
+        "170 K",
+        "190 K"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$T = \\frac{(P + a/\\bar{V}^2)(\\bar{V} - b)}{R} = \\frac{(5 + 9.24/4)(2 - 0.0907)}{0.0821} = \\frac{7.31 \\times 1.9093}{0.0821} \\approx 170\\text{ K}$.",
+      "explanation_ar": "$T = \\frac{(5 + 9.24/4)(2 - 0.0907)}{0.0821} = \\frac{7.31 \\times 1.9093}{0.0821} \\approx 170$ K.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 42,
+      "question_en": "$\\text{H}_2$ is at $27^\\circ\\text{C}$ with a molar volume of 1 L/mol. Using van der Waals with $a = 9.24\\text{ atm·L}^2\\text{/mol}^2$ and $b = 0.0907\\text{ L/mol}$, what is the pressure?",
+      "question_ar": "غاز $\\text{H}_2$ عند $27^\\circ\\text{C}$ وحجمه المولي 1 L/mol. باستخدام معادلة فان درفالس مع $a = 9.24\\text{ atm·L}^2\\text{/mol}^2$ و $b = 0.0907\\text{ L/mol}$ ما الضغط؟",
+      "options": [
+        "7.5 atm",
+        "12.4 atm",
+        "15.6 atm",
+        "17.8 atm"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{\\bar{V}^2} = \\frac{0.0821 \\times 300}{1 - 0.0907} - \\frac{9.24}{1} = 27.09 - 9.24 \\approx 17.8\\text{ atm}$.",
+      "explanation_ar": "$P = \\frac{24.63}{0.9093} - \\frac{9.24}{1} = 27.09 - 9.24 \\approx 17.8$ atm.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 43,
+      "question_en": "$\\text{CO}_2$ is at $0^\\circ\\text{C}$ with a molar volume of 4 L/mol. Using the virial equation (truncated after $C$) with $B = -0.053$ L/mol and $C = 0.0026\\text{ L}^2\\text{/mol}^2$, what is the pressure?",
+      "question_ar": "غاز $\\text{CO}_2$ عند $0^\\circ\\text{C}$ وحجمه المولي 4 L/mol. باستخدام معادلة الفيريال (مقطوعة بعد الحد $C$) مع $B = -0.053$ L/mol و $C = 0.0026\\text{ L}^2\\text{/mol}^2$ ما الضغط؟",
+      "options": [
+        "2.4 atm",
+        "4.1 atm",
+        "5.5 atm",
+        "6.9 atm"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$P = \\frac{RT}{\\bar{V}}\\left(1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2}\\right) = \\frac{0.0821 \\times 273}{4}\\left(1 - \\frac{0.053}{4} + \\frac{0.0026}{16}\\right) = 5.60 \\times 0.987 \\approx 5.5\\text{ atm}$.",
+      "explanation_ar": "$P = \\frac{0.0821 \\times 273}{4}\\left(1 - 0.01325 + 0.00016\\right) = 5.60 \\times 0.987 \\approx 5.5$ atm.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 44,
+      "question_en": "A gas is at 10 atm with a molar volume of 1 L/mol. Using the virial equation (truncated after $C$) with $B = -0.053$ L/mol and $C = 0.0026\\text{ L}^2\\text{/mol}^2$, what is the temperature?",
+      "question_ar": "غاز عند 10 atm وحجمه المولي 1 L/mol. باستخدام معادلة الفيريال (مقطوعة بعد الحد $C$) مع $B = -0.053$ L/mol و $C = 0.0026\\text{ L}^2\\text{/mol}^2$ ما درجة الحرارة؟",
+      "options": [
+        "128.3 K",
+        "156.9 K",
+        "198.5 K",
+        "243.6 K"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$T = \\frac{P\\bar{V}}{R\\left(1 + B/\\bar{V} + C/\\bar{V}^2\\right)} = \\frac{10 \\times 1}{0.0821 \\times (1 - 0.053 + 0.0026)} = \\frac{10}{0.0821 \\times 0.9496} \\approx 128.3\\text{ K}$.",
+      "explanation_ar": "$T = \\frac{10}{0.0821 \\times 0.9496} \\approx 128.3$ K.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 45,
+      "question_en": "What is the unit of the parameter $b$ in the Peng–Robinson equation?",
+      "question_ar": "ما وحدة الثابت $b$ في معادلة بنغ-روبنسون؟",
+      "options": [
+        "L/mol",
+        "$\\text{L}^2\\text{/mol}^2$",
+        "mol/L",
+        "$\\text{mol}^2\\text{/L}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In $P = \\frac{RT}{\\bar{V} - b} - \\dots$, $b$ is subtracted from the molar volume, so $b$ has units of molar volume: L/mol.",
+      "explanation_ar": "في $P = \\frac{RT}{\\bar{V} - b} - \\dots$ يُطرح $b$ من الحجم المولي لذا وحدته وحدة الحجم المولي: L/mol.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "What are the units of the temperature-dependence function $\\alpha$ in the SRK equation?",
+      "question_ar": "ما وحدة الدالة $\\alpha$ المعتمدة على درجة الحرارة في معادلة SRK؟",
+      "options": [
+        "L/mol",
+        "mol/L",
+        "$\\text{atm·L}^2\\text{/mol}^2$",
+        "It is dimensionless"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\alpha = \\left[1 + m\\left(1 - \\sqrt{T_r}\\right)\\right]^2$ depends only on the dimensionless reduced temperature $T_r$, so it is dimensionless.",
+      "explanation_ar": "$\\alpha = \\left[1 + m\\left(1 - \\sqrt{T_r}\\right)\\right]^2$ دالة في درجة الحرارة المختزلة اللابُعدية $T_r$ لذا فهي بلا وحدة.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "What are the units of the parameter $a$ in the Redlich–Kwong equation $P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\bar{V}(\\bar{V} + b)}$?",
+      "question_ar": "ما وحدة الثابت $a$ في معادلة ريدلش-كوانغ $P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\bar{V}(\\bar{V} + b)}$؟",
+      "options": [
+        "L/mol",
+        "$\\text{atm·L}^2\\text{/mol}^2$",
+        "$\\text{atm·L}^2\\text{·K}^{0.5}\\text{/mol}^2$",
+        "$\\text{atm·L}^2\\text{·K/mol}^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The second term must have pressure units: $a = P\\,T^{0.5}\\,\\bar{V}^2$, giving $\\text{atm·K}^{0.5}\\text{·(L/mol)}^2 = \\text{atm·L}^2\\text{·K}^{0.5}\\text{/mol}^2$.",
+      "explanation_ar": "الحد الثاني يجب أن تكون وحدته ضغطاً: $a = P\\,T^{0.5}\\,\\bar{V}^2$ أي $\\text{atm·L}^2\\text{·K}^{0.5}\\text{/mol}^2$.",
+      "memorization_note": "معادلة فان درفالس: $$\\left(P + \\frac{a}{\\bar{V}^2}\\right)(\\bar{V} - b) = RT$$ معادلة الفيريال: $$\\frac{P\\bar{V}}{RT} = 1 + \\frac{B}{\\bar{V}} + \\frac{C}{\\bar{V}^2} + \\cdots$$ معادلة RK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a}{T^{0.5}\\,\\bar{V}(\\bar{V} + b)}$$ معادلة SRK: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}(\\bar{V} + b)}$$ معادلة PR: $$P = \\frac{RT}{\\bar{V} - b} - \\frac{a\\alpha}{\\bar{V}^2 + 2b\\bar{V} - b^2}$$",
+      "requires_scratchpad": false
+    }
+  ]
+}

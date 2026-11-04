@@ -1,0 +1,200 @@
+{
+  "topic_en": "Flow Rate",
+  "topic_ar": "معدل التدفق (الكتلي والحجمي والمولي)",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة حول التدفق الكتلي والحجمي والمولي ومعادلة الاستمرارية وزمن الملء",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Which of the following is a unit of flow rate?",
+      "question_ar": "أي مما يلي يُعد وحدة للتدفق (Flow rate)؟",
+      "options": [
+        "$\\text{kg/s}$",
+        "$\\text{L/s}$",
+        "$\\text{mol/s}$",
+        "All of the mentioned"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Mass flow rate $\\dot m = m/t$ (kg/s), volumetric flow rate $q = V/t$ (L/s), molar flow rate $\\dot n = n/t$ (mol/s). All are flow rates.",
+      "explanation_ar": "التدفق الكتلي $\\dot m = m/t$ (kg/s)، والتدفق الحجمي $q = V/t$ (L/s)، والتدفق المولي $\\dot n = n/t$ (mol/s). جميعها وحدات تدفق.",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "Which of the following is NOT conserved for the flow of an incompressible liquid through a pipe of variable cross-section?",
+      "question_ar": "أي مما يلي لا يبقى ثابتاً لجريان سائل غير قابل للانضغاط في أنبوب متغير المقطع؟",
+      "options": [
+        "Mass flow rate",
+        "Volumetric flow rate",
+        "Velocity",
+        "Flow rate"
+      ],
+      "correct_index": 2,
+      "explanation_en": "By the continuity equation, $\\rho_1 A_1 u_1 = \\rho_2 A_2 u_2$. For constant $\\rho$: $A_1 u_1 = A_2 u_2$, so flow rate is constant while the velocity $u$ changes when the area $A$ changes.",
+      "explanation_ar": "من معادلة الاستمرارية $\\rho_1 A_1 u_1 = \\rho_2 A_2 u_2$. وعند ثبات $\\rho$: $A_1 u_1 = A_2 u_2$ فيبقى التدفق ثابتاً بينما تتغير السرعة $u$ عندما تتغير المساحة $A$.",
+      "memorization_note": "1. معادلة الاستمرارية: $$\\rho_1 A_1 u_1 = \\rho_2 A_2 u_2$$ 2. للسائل غير القابل للانضغاط: $A_1 u_1 = A_2 u_2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "100 g of water is collected from a pipe in 10 s. What is the mass flow rate?",
+      "question_ar": "جُمع $100\\text{ g}$ من الماء من أنبوب خلال $10\\text{ s}$. ما التدفق الكتلي؟",
+      "options": [
+        "$0.01\\text{ kg/s}$",
+        "$0.05\\text{ kg/s}$",
+        "$0.1\\text{ kg/s}$",
+        "$0.5\\text{ kg/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\dot m = \\frac{m}{t} = \\frac{0.1\\text{ kg}}{10\\text{ s}} = 0.01\\text{ kg/s}$$",
+      "explanation_ar": "$$\\dot m = \\frac{m}{t} = \\frac{0.1\\text{ kg}}{10\\text{ s}} = 0.01\\text{ kg/s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "What is the volumetric flow rate if 100 kg of water is collected in 10 s? ($\\rho = 1000\\text{ kg/m}^3$)",
+      "question_ar": "ما التدفق الحجمي إذا جُمع $100\\text{ kg}$ من الماء في $10\\text{ s}$؟ ($\\rho = 1000\\text{ kg/m}^3$)",
+      "options": [
+        "$0.1\\text{ m}^3/\\text{s}$",
+        "$0.2\\text{ m}^3/\\text{s}$",
+        "$0.01\\text{ m}^3/\\text{s}$",
+        "$0.02\\text{ m}^3/\\text{s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$V = \\frac{m}{\\rho} = \\frac{100}{1000} = 0.1\\text{ m}^3,\\qquad q = \\frac{V}{t} = \\frac{0.1}{10} = 0.01\\text{ m}^3/\\text{s}$$",
+      "explanation_ar": "$$V = \\frac{m}{\\rho} = \\frac{100}{1000} = 0.1\\text{ m}^3,\\qquad q = \\frac{V}{t} = \\frac{0.1}{10} = 0.01\\text{ m}^3/\\text{s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ 5. كثافة الماء $\\rho = 1000\\text{ kg/m}^3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "A liquid flows at 4 kg/s through a pipe of cross-section $4\\text{ m}^2$. The pipe splits into two pipes of equal area. What is the ratio of the flow rates in the two branches?",
+      "question_ar": "يجري سائل بمعدل $4\\text{ kg/s}$ في أنبوب مساحة مقطعه $4\\text{ m}^2$، ثم يتفرع إلى أنبوبين متساويين في المساحة. ما نسبة التدفق في الفرعين؟",
+      "options": [
+        "$1:3$",
+        "$1:1$",
+        "$1:2$",
+        "$2:3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "With equal areas (and the same fluid and velocity), the continuity equation splits the flow equally: $\\dot m_1 = \\dot m_2 = 2\\text{ kg/s}$, so the ratio is $1:1$.",
+      "explanation_ar": "بتساوي المساحتين (ونفس السائل والسرعة) تقسم معادلة الاستمرارية التدفق بالتساوي: $\\dot m_1 = \\dot m_2 = 2\\text{ kg/s}$ إذن النسبة $1:1$.",
+      "memorization_note": "1. معادلة الاستمرارية: $$\\dot m_{\\text{in}} = \\dot m_1 + \\dot m_2$$ 2. $\\dot m = \\rho A u$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "The velocity of water in a pipe of cross-sectional area $5\\text{ m}^2$ is 10 m/s. What is the volumetric flow rate?",
+      "question_ar": "سرعة الماء في أنبوب مساحة مقطعه $5\\text{ m}^2$ تساوي $10\\text{ m/s}$. ما التدفق الحجمي؟",
+      "options": [
+        "$25\\text{ m}^3/\\text{s}$",
+        "$50\\text{ m}^3/\\text{s}$",
+        "$75\\text{ m}^3/\\text{s}$",
+        "$100\\text{ m}^3/\\text{s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$q = A\\,u = 5 \\times 10 = 50\\text{ m}^3/\\text{s}$$",
+      "explanation_ar": "$$q = A\\,u = 5 \\times 10 = 50\\text{ m}^3/\\text{s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "A liquid of density $0.1\\text{ kg/m}^3$ flows through a pipe at 15 kg/s with a velocity of 5 m/s. What is the cross-sectional area of the pipe?",
+      "question_ar": "سائل كثافته $0.1\\text{ kg/m}^3$ يجري في أنبوب بمعدل $15\\text{ kg/s}$ وبسرعة $5\\text{ m/s}$. ما مساحة مقطع الأنبوب؟",
+      "options": [
+        "$30\\text{ m}^2$",
+        "$45\\text{ m}^2$",
+        "$75\\text{ m}^2$",
+        "$90\\text{ m}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$q = \\frac{\\dot m}{\\rho} = \\frac{15}{0.1} = 150\\text{ m}^3/\\text{s},\\qquad A = \\frac{q}{u} = \\frac{150}{5} = 30\\text{ m}^2$$",
+      "explanation_ar": "$$q = \\frac{\\dot m}{\\rho} = \\frac{15}{0.1} = 150\\text{ m}^3/\\text{s},\\qquad A = \\frac{q}{u} = \\frac{150}{5} = 30\\text{ m}^2$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "A fluid of density $10\\text{ kg/m}^3$ is fed at 10 kg/s to a tank of capacity $50\\text{ m}^3$. How long does it take to fill the tank?",
+      "question_ar": "يُضخ سائل كثافته $10\\text{ kg/m}^3$ بمعدل $10\\text{ kg/s}$ إلى خزان سعته $50\\text{ m}^3$. كم من الزمن يستغرق ملء الخزان؟",
+      "options": [
+        "$5\\text{ s}$",
+        "$50\\text{ s}$",
+        "$500\\text{ s}$",
+        "$5000\\text{ s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$q = \\frac{\\dot m}{\\rho} = \\frac{10}{10} = 1\\text{ m}^3/\\text{s},\\qquad t = \\frac{V}{q} = \\frac{50}{1} = 50\\text{ s}$$",
+      "explanation_ar": "$$q = \\frac{\\dot m}{\\rho} = \\frac{10}{10} = 1\\text{ m}^3/\\text{s},\\qquad t = \\frac{V}{q} = \\frac{50}{1} = 50\\text{ s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ 5. زمن الملء: $t = V/q$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "A fluid of density $5\\text{ kg/m}^3$ is fed at 15 kg/s to a tank of capacity $30\\text{ m}^3$. How long does it take to fill the tank?",
+      "question_ar": "يُضخ سائل كثافته $5\\text{ kg/m}^3$ بمعدل $15\\text{ kg/s}$ إلى خزان سعته $30\\text{ m}^3$. كم من الزمن يستغرق ملء الخزان؟",
+      "options": [
+        "$3\\text{ s}$",
+        "$10\\text{ s}$",
+        "$30\\text{ s}$",
+        "$100\\text{ s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$q = \\frac{15}{5} = 3\\text{ m}^3/\\text{s},\\qquad t = \\frac{30}{3} = 10\\text{ s}$$",
+      "explanation_ar": "$$q = \\frac{15}{5} = 3\\text{ m}^3/\\text{s},\\qquad t = \\frac{30}{3} = 10\\text{ s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ 5. زمن الملء: $t = V/q$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "A fluid of density $5\\text{ kg/m}^3$ is fed at 20 kg/s to a tank of capacity $60\\text{ m}^3$. How long does it take to fill the tank?",
+      "question_ar": "يُضخ سائل كثافته $5\\text{ kg/m}^3$ بمعدل $20\\text{ kg/s}$ إلى خزان سعته $60\\text{ m}^3$. كم من الزمن يستغرق ملء الخزان؟",
+      "options": [
+        "$5\\text{ s}$",
+        "$10\\text{ s}$",
+        "$15\\text{ s}$",
+        "$20\\text{ s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$q = \\frac{20}{5} = 4\\text{ m}^3/\\text{s},\\qquad t = \\frac{60}{4} = 15\\text{ s}$$",
+      "explanation_ar": "$$q = \\frac{20}{5} = 4\\text{ m}^3/\\text{s},\\qquad t = \\frac{60}{4} = 15\\text{ s}$$",
+      "memorization_note": "1. التدفق الكتلي: $$\\dot m = \\frac{m}{t}$$ 2. التدفق الحجمي: $$q = \\frac{V}{t} = A\\,u$$ 3. العلاقة بينهما: $$\\dot m = \\rho\\, q = \\rho A u$$ 4. التدفق المولي: $$\\dot n = \\frac{\\dot m}{M_w}$$ 5. زمن الملء: $t = V/q$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "16 g of $\\text{O}_2$ is passed through a process in 5 min. What is the molar flow rate?",
+      "question_ar": "مرّ $16\\text{ g}$ من $\\text{O}_2$ في عملية خلال $5\\text{ min}$. ما التدفق المولي؟",
+      "options": [
+        "$0.1\\text{ mol/min}$",
+        "$1\\text{ mol/min}$",
+        "$10\\text{ mol/min}$",
+        "$16\\text{ mol/min}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$M_{w,\\text{O}_2} = 32\\text{ g/mol}$. $$n = \\frac{16}{32} = 0.5\\text{ mol},\\qquad \\dot n = \\frac{0.5}{5} = 0.1\\text{ mol/min}$$",
+      "explanation_ar": "$M_{w,\\text{O}_2} = 32\\text{ g/mol}$. $$n = \\frac{16}{32} = 0.5\\text{ mol},\\qquad \\dot n = \\frac{0.5}{5} = 0.1\\text{ mol/min}$$",
+      "memorization_note": "1. الوزن الذري: $\\text{O}=16$ ($\\text{O}_2 = 32$). 2. التدفق المولي: $$\\dot n = \\frac{n}{t} = \\frac{m}{M_w\\, t}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "24 g of $\\text{CH}_4$ is passed through a process in 3 min. What is the molar flow rate?",
+      "question_ar": "مرّ $24\\text{ g}$ من $\\text{CH}_4$ في عملية خلال $3\\text{ min}$. ما التدفق المولي؟",
+      "options": [
+        "$0.1\\text{ mol/min}$",
+        "$0.3\\text{ mol/min}$",
+        "$0.5\\text{ mol/min}$",
+        "$0.7\\text{ mol/min}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$M_{w,\\text{CH}_4} = 12 + 4 = 16\\text{ g/mol}$. $$n = \\frac{24}{16} = 1.5\\text{ mol},\\qquad \\dot n = \\frac{1.5}{3} = 0.5\\text{ mol/min}$$",
+      "explanation_ar": "$M_{w,\\text{CH}_4} = 12 + 4 = 16\\text{ g/mol}$. $$n = \\frac{24}{16} = 1.5\\text{ mol},\\qquad \\dot n = \\frac{1.5}{3} = 0.5\\text{ mol/min}$$",
+      "memorization_note": "1. الأوزان الذرية: $\\text{C}=12,\\ \\text{H}=1$ ($\\text{CH}_4 = 16$). 2. التدفق المولي: $$\\dot n = \\frac{n}{t} = \\frac{m}{M_w\\, t}$$",
+      "requires_scratchpad": false
+    }
+  ]
+}

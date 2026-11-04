@@ -1,0 +1,248 @@
+{
+  "topic_en": "Auxiliary Verbs (Do, Be, Have)",
+  "topic_ar": "الأفعال المساعدة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول الأفعال المساعدة do/does/did و be و have/has/had",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "___ your brother play football every Sunday?",
+      "question_ar": "____ أخوك كرة القدم كل يوم أحد؟",
+      "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: Does. With 'your brother' (third person singular) and a main verb in the present, the auxiliary is does.",
+      "explanation_ar": "الإجابة الصحيحة: Does. الفاعل مفرد غائب والفعل عادي في المضارع ← does.",
+      "memorization_note": "$\\text{do/does/did}$ للأسئلة والنفي مع الأفعال العادية: $\\text{Do/Does/Did} + S + V_1$ ، و $S + \\text{don't/doesn't/didn't} + V_1$ (الفعل بعدها بصيغته الأولى).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "We ___ go to school on Fridays.",
+      "question_ar": "نحن ____ نذهب إلى المدرسة أيام الجمعة.",
+      "options": [
+        "doesn't",
+        "aren't",
+        "haven't",
+        "don't"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: don't. 'We' + base verb 'go' in the present: negative with don't.",
+      "explanation_ar": "الإجابة الصحيحة: don't. we مع فعل عادي في المضارع ← don't + V1.",
+      "memorization_note": "$\\text{do/does/did}$ للأسئلة والنفي مع الأفعال العادية: $\\text{Do/Does/Did} + S + V_1$ ، و $S + \\text{don't/doesn't/didn't} + V_1$ (الفعل بعدها بصيغته الأولى).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "___ you see the match last night?",
+      "question_ar": "هل ____ المباراة ليلة أمس؟",
+      "options": [
+        "Did",
+        "Do",
+        "Were",
+        "Have"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: Did. 'last night' is past simple, so the auxiliary is did.",
+      "explanation_ar": "الإجابة الصحيحة: Did. last night ماضٍ بسيط ← did.",
+      "memorization_note": "$\\text{do/does/did}$ للأسئلة والنفي مع الأفعال العادية: $\\text{Do/Does/Did} + S + V_1$ ، و $S + \\text{don't/doesn't/didn't} + V_1$ (الفعل بعدها بصيغته الأولى).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "He ___ not like spicy food.",
+      "question_ar": "هو ____ يحب الطعام الحار.",
+      "options": [
+        "do",
+        "is",
+        "does",
+        "has"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: does. Negative present simple with 'he' uses does + not + V1.",
+      "explanation_ar": "الإجابة الصحيحة: does. النفي في المضارع مع he ← does not + V1.",
+      "memorization_note": "$\\text{do/does/did}$ للأسئلة والنفي مع الأفعال العادية: $\\text{Do/Does/Did} + S + V_1$ ، و $S + \\text{don't/doesn't/didn't} + V_1$ (الفعل بعدها بصيغته الأولى).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "She ___ working in the garden now.",
+      "question_ar": "هي ____ تعمل في الحديقة الآن.",
+      "options": [
+        "does",
+        "is",
+        "has",
+        "are"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: is. 'now' + V-ing means present continuous: is + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: is. now + V-ing ← المضارع المستمر is.",
+      "memorization_note": "فعل $\\text{be}$: $\\text{I am}$ ، $\\text{he/she/it is}$ ، $\\text{you/we/they are}$ ، الماضي: $\\text{I/he/she/it was}$ ، $\\text{you/we/they were}$ ، ويُستعمل مع $V\\text{-ing}$ للمستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "They ___ at home yesterday.",
+      "question_ar": "هم ____ في المنزل أمس.",
+      "options": [
+        "was",
+        "are",
+        "did",
+        "were"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: were. Past of 'be' with 'they' is were.",
+      "explanation_ar": "الإجابة الصحيحة: were. ماضي be مع they هو were.",
+      "memorization_note": "فعل $\\text{be}$: $\\text{I am}$ ، $\\text{he/she/it is}$ ، $\\text{you/we/they are}$ ، الماضي: $\\text{I/he/she/it was}$ ، $\\text{you/we/they were}$ ، ويُستعمل مع $V\\text{-ing}$ للمستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "I ___ a student at this university.",
+      "question_ar": "أنا ____ طالب في هذه الجامعة.",
+      "options": [
+        "am",
+        "is",
+        "are",
+        "do"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: am. The verb 'be' with 'I' is am.",
+      "explanation_ar": "الإجابة الصحيحة: am. be مع I هو am.",
+      "memorization_note": "فعل $\\text{be}$: $\\text{I am}$ ، $\\text{he/she/it is}$ ، $\\text{you/we/they are}$ ، الماضي: $\\text{I/he/she/it was}$ ، $\\text{you/we/they were}$ ، ويُستعمل مع $V\\text{-ing}$ للمستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "___ you tired? No, I'm fine.",
+      "question_ar": "هل ____ متعب؟ لا، أنا بخير.",
+      "options": [
+        "Do",
+        "Have",
+        "Are",
+        "Did"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Are. 'tired' is an adjective, so we use the verb be: Are you tired?",
+      "explanation_ar": "الإجابة الصحيحة: Are. tired صفة ← نستخدم be: Are.",
+      "memorization_note": "فعل $\\text{be}$: $\\text{I am}$ ، $\\text{he/she/it is}$ ، $\\text{you/we/they are}$ ، الماضي: $\\text{I/he/she/it was}$ ، $\\text{you/we/they were}$ ، ويُستعمل مع $V\\text{-ing}$ للمستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "She ___ finished her homework.",
+      "question_ar": "هي ____ أنهت واجبها.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "does"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: has. Present perfect with 'she' uses has + V3.",
+      "explanation_ar": "الإجابة الصحيحة: has. المضارع التام مع she ← has + V3.",
+      "memorization_note": "فعل $\\text{have}$: $\\text{have/has} + V_3$ للمضارع التام (has مع he/she/it) ، و $\\text{had} + V_3$ للماضي التام.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "We ___ lived here for ten years.",
+      "question_ar": "نحن ____ نعيش هنا منذ عشر سنوات.",
+      "options": [
+        "has",
+        "are",
+        "do",
+        "have"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: have. 'for ten years' + 'we' → present perfect: have + V3.",
+      "explanation_ar": "الإجابة الصحيحة: have. for + مدة مع we ← have + V3.",
+      "memorization_note": "فعل $\\text{have}$: $\\text{have/has} + V_3$ للمضارع التام (has مع he/she/it) ، و $\\text{had} + V_3$ للماضي التام.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "He ___ breakfast yesterday.",
+      "question_ar": "هو ____ الفطور أمس.",
+      "options": [
+        "didn't have",
+        "hadn't",
+        "no had",
+        "didn't had"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: didn't have. Past simple negative: didn't + base verb (have).",
+      "explanation_ar": "الإجابة الصحيحة: didn't have. نفي الماضي البسيط: didn't + V1 (have).",
+      "memorization_note": "$\\text{do/does/did}$ للأسئلة والنفي مع الأفعال العادية: $\\text{Do/Does/Did} + S + V_1$ ، و $S + \\text{don't/doesn't/didn't} + V_1$ (الفعل بعدها بصيغته الأولى).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "___ there any milk in the fridge?",
+      "question_ar": "هل ____ حليب في الثلاجة؟",
+      "options": [
+        "Are",
+        "Do",
+        "Is",
+        "Does"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Is. 'milk' is uncountable (singular), so 'Is there...'.",
+      "explanation_ar": "الإجابة الصحيحة: Is. milk غير معدود (مفرد) ← Is there.",
+      "memorization_note": "$\\text{there is}$ + مفرد/غير معدود ، $\\text{there are}$ + جمع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "My parents ___ watching TV when I came home.",
+      "question_ar": "والداي ____ يشاهدان التلفاز عندما عدت إلى البيت.",
+      "options": [
+        "was",
+        "were",
+        "did",
+        "had"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: were. Past continuous with a plural subject: were + V-ing.",
+      "explanation_ar": "الإجابة الصحيحة: were. الماضي المستمر مع فاعل جمع ← were + V-ing.",
+      "memorization_note": "فعل $\\text{be}$: $\\text{I am}$ ، $\\text{he/she/it is}$ ، $\\text{you/we/they are}$ ، الماضي: $\\text{I/he/she/it was}$ ، $\\text{you/we/they were}$ ، ويُستعمل مع $V\\text{-ing}$ للمستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "They weren't happy about the new cat, and frankly, nor ___ I.",
+      "question_ar": "لم يكونوا سعداء بالقطة الجديدة، وبصراحة ولا ____ أنا.",
+      "options": [
+        "were",
+        "wasn't",
+        "weren't",
+        "was"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: was. 'nor' + auxiliary + subject; the verb is be in the past with 'I': was (positive form after nor).",
+      "explanation_ar": "الإجابة الصحيحة: was. بعد nor نقلب الترتيب ونستخدم الفعل المساعد مثبتاً: nor was I.",
+      "memorization_note": "للتوافق في النفي: $\\text{nor/neither} + \\text{aux} + S$ (مقلوب الترتيب) ويكون الفعل المساعد مثبتاً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "___ he ever visited London?",
+      "question_ar": "هل ____ زار لندن من قبل؟",
+      "options": [
+        "Has",
+        "Does",
+        "Is",
+        "Did"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: Has. 'visited' is V3 and 'ever' signals the present perfect: Has he ever visited?",
+      "explanation_ar": "الإجابة الصحيحة: Has. visited هنا V3 مع ever ← Has.",
+      "memorization_note": "فعل $\\text{have}$: $\\text{have/has} + V_3$ للمضارع التام (has مع he/she/it) ، و $\\text{had} + V_3$ للماضي التام.",
+      "requires_scratchpad": false
+    }
+  ]
+}

@@ -1,0 +1,2408 @@
+{
+  "topic_en": "Comprehensive Fundamentals & Essentials of Fluid Mechanics",
+  "topic_ar": "البنك الشامل لأساسيات وبديهيات جريان الموائع",
+  "subject_folder": "Fluid_Mechanics",
+  "description_ar": "ملف شامل يضم 150 سؤالاً (100 سؤال أساسيات وبديهيات بسيطة + 50 سؤال أساسيات عامة وتطبيقية بتعويض مباشر) من المراجع المعتمدة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "What is the unit of specific gravity?",
+      "question_ar": "ما هي وحدة الوزن النوعي (Specific Gravity)؟",
+      "options": [
+        "$\\text{kg/m}^3$",
+        "$\\text{N/m}^3$",
+        "$\\text{m}^2\\text{/s}$",
+        "Dimensionless (no unit)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Specific gravity is the ratio of two densities, $SG=\\frac{\\rho}{\\rho_{\\text{ref}}}$, so the units cancel and it is dimensionless. $\\text{kg/m}^3$ is density and $\\text{N/m}^3$ is specific weight.",
+      "explanation_ar": "الوزن النوعي نسبة بين كثافتين $SG=\\frac{\\rho}{\\rho_{\\text{ref}}}$ فتُحذف الوحدات فهو لابعدي. أما $\\text{kg/m}^3$ فهي وحدة الكثافة و $\\text{N/m}^3$ وحدة الوزن النوعي (Specific weight).",
+      "memorization_note": "يُحفظ: $SG=\\frac{\\rho}{\\rho_{\\text{water}}}$ وكثافة الماء المرجعية $\\rho_{\\text{water}}=1000\\text{ kg/m}^3$ (عند $4^\\circ\\text{C}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What is the SI unit of dynamic viscosity $\\mu$?",
+      "question_ar": "ما هي وحدة اللزوجة الديناميكية $\\mu$ في النظام الدولي؟",
+      "options": [
+        "$\\text{m}^2\\text{/s}$",
+        "$\\text{N/m}$",
+        "$\\text{Pa}\\cdot\\text{s}$",
+        "$\\text{kg/m}^3$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "From Newton's law $\\tau=\\mu\\frac{du}{dy}$: $\\mu=\\frac{\\text{Pa}}{\\text{s}^{-1}}=\\text{Pa}\\cdot\\text{s}=\\text{kg/(m}\\cdot\\text{s)}$. $\\text{m}^2/\\text{s}$ is kinematic viscosity and $\\text{N/m}$ is surface tension.",
+      "explanation_ar": "من قانون نيوتن $\\tau=\\mu\\frac{du}{dy}$ تكون $\\mu=\\text{Pa}\\cdot\\text{s}=\\text{kg/(m}\\cdot\\text{s)}$. أما $\\text{m}^2/\\text{s}$ فللزوجة الكينماتيكية و $\\text{N/m}$ للشد السطحي.",
+      "memorization_note": "يُحفظ: $1\\text{ Pa}\\cdot\\text{s}=10\\text{ P}=1000\\text{ cP}$ ولزوجة الماء عند $20^\\circ\\text{C}$ تساوي تقريباً $1\\text{ cP}=10^{-3}\\text{ Pa}\\cdot\\text{s}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Kinematic viscosity $\\nu$ is defined as:",
+      "question_ar": "اللزوجة الكينماتيكية $\\nu$ تُعرَّف بأنها:",
+      "options": [
+        "$\\nu=\\frac{\\mu}{\\rho}$",
+        "$\\nu=\\frac{\\rho}{\\mu}$",
+        "$\\nu=\\mu\\rho$",
+        "$\\nu=\\frac{\\mu}{\\rho g}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Kinematic viscosity is dynamic viscosity divided by density, $\\nu=\\mu/\\rho$, with units $\\text{m}^2/\\text{s}$.",
+      "explanation_ar": "اللزوجة الكينماتيكية = اللزوجة الديناميكية ÷ الكثافة $\\nu=\\mu/\\rho$ ووحدتها $\\text{m}^2/\\text{s}$.",
+      "memorization_note": "يُحفظ: $\\nu=\\frac{\\mu}{\\rho}$ ووحدتها $\\text{m}^2/\\text{s}$ ($1\\text{ St}=10^{-4}\\text{ m}^2/\\text{s}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Which statement describes a Newtonian fluid?",
+      "question_ar": "أي عبارة تصف المائع النيوتني (Newtonian)؟",
+      "options": [
+        "Viscosity changes strongly with shear rate",
+        "Shear stress is independent of the velocity gradient",
+        "Shear stress is directly proportional to the velocity gradient",
+        "It has zero viscosity"
+      ],
+      "correct_index": 2,
+      "explanation_en": "For a Newtonian fluid $\\tau=\\mu\\frac{du}{dy}$ with constant $\\mu$ (at fixed $T$ and $P$): a straight line through the origin on a $\\tau$–$\\frac{du}{dy}$ plot.",
+      "explanation_ar": "في المائع النيوتني $\\tau=\\mu\\frac{du}{dy}$ مع $\\mu$ ثابتة (عند ثبوت $T$ و $P$) أي خط مستقيم يمر بنقطة الأصل في مخطط $\\tau$ مقابل $\\frac{du}{dy}$.",
+      "memorization_note": "يُحفظ قانون نيوتن للزوجة: $$\\tau=\\mu\\frac{du}{dy}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Which of the following is a Newtonian fluid?",
+      "question_ar": "أي مما يلي مائع نيوتني؟",
+      "options": [
+        "Water",
+        "Toothpaste",
+        "Tomato ketchup",
+        "Molten polymer"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Water, air and most simple low-molecular-weight liquids obey Newton's law of viscosity. Ketchup, toothpaste and polymer melts are non-Newtonian (viscosity depends on shear rate).",
+      "explanation_ar": "الماء والهواء ومعظم السوائل البسيطة تتبع قانون نيوتن. أما الكاتشب ومعجون الأسنان وبوليمر المصهور فهي لا نيوتنية (لزوجتها تعتمد على معدل القص).",
+      "memorization_note": "يُحفظ: الماء والهواء والزيوت الخفيفة = نيوتنية، والمعلقات والبوليمرات والدهانات = غالباً لا نيوتنية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "As temperature increases, the viscosity of a liquid generally:",
+      "question_ar": "عند ارتفاع درجة الحرارة فإن لزوجة السائل بشكل عام:",
+      "options": [
+        "Increases",
+        "Becomes infinite",
+        "Decreases",
+        "Remains constant"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In liquids, viscosity comes mainly from cohesive forces between molecules. Heating weakens these forces, so $\\mu$ decreases.",
+      "explanation_ar": "في السوائل تنشأ اللزوجة أساساً من قوى التماسك بين الجزيئات، والتسخين يُضعفها فتقل $\\mu$.",
+      "memorization_note": "يُحفظ: السوائل $T\\uparrow \\Rightarrow \\mu\\downarrow$ ، الغازات $T\\uparrow \\Rightarrow \\mu\\uparrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "As temperature increases, the viscosity of a gas generally:",
+      "question_ar": "عند ارتفاع درجة الحرارة فإن لزوجة الغاز بشكل عام:",
+      "options": [
+        "Decreases",
+        "Becomes zero",
+        "Remains constant",
+        "Increases"
+      ],
+      "correct_index": 3,
+      "explanation_en": "In gases, viscosity arises from momentum exchange by molecular collisions. Higher $T$ means faster molecules and more momentum transfer, so $\\mu$ increases.",
+      "explanation_ar": "في الغازات تنشأ اللزوجة من تبادل الزخم بالتصادمات الجزيئية. ارتفاع $T$ يزيد سرعة الجزيئات وانتقال الزخم فتزداد $\\mu$.",
+      "memorization_note": "يُحفظ: لزوجة الغاز تزداد مع $T$ تقريباً كـ $\\mu\\propto T^{0.7}$ ولا تعتمد على الضغط عملياً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Viscous forces in a flowing fluid _____ the relative motion between adjacent layers.",
+      "question_ar": "القوى اللزجة في المائع المتحرك _____ الحركة النسبية بين الطبقات المتجاورة.",
+      "options": [
+        "never affect",
+        "oppose",
+        "assist",
+        "double"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Viscosity is internal friction; the shear stress between layers acts to resist their relative motion.",
+      "explanation_ar": "اللزوجة احتكاك داخلي، فإجهاد القص بين الطبقات يقاوم حركتها النسبية.",
+      "memorization_note": "يُحفظ: قوة القص اللزجة $F=\\tau A=\\mu A\\frac{du}{dy}$ وتعاكس الحركة النسبية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "An ideal fluid is one that is:",
+      "question_ar": "المائع المثالي (Ideal fluid) هو المائع:",
+      "options": [
+        "Viscous and incompressible",
+        "Inviscid and highly compressible",
+        "Inviscid and incompressible",
+        "Viscous and compressible"
+      ],
+      "correct_index": 2,
+      "explanation_en": "By definition an ideal fluid has zero viscosity ($\\mu=0$) and constant density, so no friction losses occur.",
+      "explanation_ar": "المائع المثالي لزوجته صفر ($\\mu=0$) وكثافته ثابتة، فلا توجد خسائر احتكاك.",
+      "memorization_note": "يُحفظ: مائع مثالي $\\Rightarrow \\mu=0,\\ \\rho=\\text{const}$ (شرط معادلة برنولي).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Pascal's law states that the pressure at a point in a static fluid is:",
+      "question_ar": "ينص قانون باسكال على أن الضغط عند نقطة في مائع ساكن:",
+      "options": [
+        "Dependent on the orientation of the surface",
+        "The same in all directions",
+        "Zero in the horizontal direction",
+        "Largest in the vertical direction"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In a fluid at rest there is no shear stress, so the pressure at a point is isotropic (equal in all directions). Pressure applied to an enclosed fluid is transmitted undiminished.",
+      "explanation_ar": "في المائع الساكن لا يوجد إجهاد قص، فالضغط عند النقطة متساوٍ في جميع الاتجاهات، والضغط المسلَّط على مائع محصور ينتقل كاملاً.",
+      "memorization_note": "يُحفظ: الرافعة الهيدروليكية $\\frac{F_1}{A_1}=\\frac{F_2}{A_2}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "In a static incompressible liquid, pressure varies with depth:",
+      "question_ar": "في سائل ساكن غير انضغاطي يتغير الضغط مع العمق:",
+      "options": [
+        "It does not vary with depth",
+        "Linearly, increasing with depth",
+        "Exponentially, decreasing with depth",
+        "As the square of the depth"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$P=P_0+\\rho g h$ is linear in $h$ for constant $\\rho$.",
+      "explanation_ar": "العلاقة $P=P_0+\\rho g h$ خطية بالنسبة لـ $h$ عند ثبوت $\\rho$.",
+      "memorization_note": "يُحفظ: $$P=P_0+\\rho g h$$ و $g=9.81\\text{ m/s}^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "At a given depth in a static liquid, the pressure does NOT depend on:",
+      "question_ar": "عند عمق معين في سائل ساكن، الضغط لا يعتمد على:",
+      "options": [
+        "The liquid density",
+        "The gravitational acceleration",
+        "The shape or volume of the container",
+        "The depth"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$P=\\rho g h$ contains only $\\rho$, $g$ and $h$. The container shape does not matter (hydrostatic paradox).",
+      "explanation_ar": "$P=\\rho g h$ تحتوي فقط على $\\rho$ و $g$ و $h$، فشكل الوعاء لا يؤثر (مفارقة الضغط الهيدروستاتيكي).",
+      "memorization_note": "يُحفظ: $P=\\rho g h$ (مستقل عن شكل الوعاء).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "The force due to pressure acting on a fluid element is classified as a:",
+      "question_ar": "القوة الناتجة عن الضغط المؤثرة على عنصر مائع تُصنَّف على أنها:",
+      "options": [
+        "Gravitational force",
+        "Surface force",
+        "Body force",
+        "Inertial force only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Pressure acts on the surfaces of the element, so it is a surface force. Gravity and electromagnetic forces are body forces.",
+      "explanation_ar": "الضغط يؤثر على أسطح العنصر فهو قوة سطحية (Surface force)، أما الجاذبية فقوة جسمية (Body force).",
+      "memorization_note": "يُحفظ: قوى سطحية = ضغط + قص، قوى جسمية = جاذبية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Absolute pressure is related to gauge pressure by:",
+      "question_ar": "تُربط الضغط المطلق بالضغط المقاس (Gauge) بالعلاقة:",
+      "options": [
+        "$P_{\\text{abs}}=\\frac{P_{\\text{gauge}}}{P_{\\text{atm}}}$",
+        "$P_{\\text{abs}}=P_{\\text{gauge}}-P_{\\text{atm}}$",
+        "$P_{\\text{abs}}=P_{\\text{gauge}}\\cdot P_{\\text{atm}}$",
+        "$P_{\\text{abs}}=P_{\\text{gauge}}+P_{\\text{atm}}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Gauge pressure is measured relative to atmospheric pressure, so absolute = gauge + atmospheric.",
+      "explanation_ar": "الضغط المقاس نسبةً للضغط الجوي، فالمطلق = المقاس + الجوي.",
+      "memorization_note": "يُحفظ: $$P_{\\text{abs}}=P_{\\text{gauge}}+P_{\\text{atm}}$$ و $P_{\\text{atm}}=101.325\\text{ kPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Which of the following can NOT be a value of absolute pressure?",
+      "question_ar": "أي مما يلي لا يمكن أن يكون قيمة للضغط المطلق؟",
+      "options": [
+        "$24\\text{ bar}$",
+        "$1.45\\text{ bar}$",
+        "$0\\text{ bar}$ (perfect vacuum)",
+        "$-1\\text{ bar}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Absolute pressure is measured from perfect vacuum (zero) so it cannot be negative. Gauge pressure can be negative (vacuum).",
+      "explanation_ar": "الضغط المطلق يُقاس من الفراغ التام (صفر) فلا يكون سالباً، بينما الضغط المقاس قد يكون سالباً (فراغ).",
+      "memorization_note": "يُحفظ: $P_{\\text{abs}}\\ge 0$ دائماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "Standard atmospheric pressure is equal to:",
+      "question_ar": "الضغط الجوي القياسي يساوي:",
+      "options": [
+        "$101{,}325\\text{ Pa}$",
+        "$10{,}132.5\\text{ Pa}$",
+        "$760\\text{ Pa}$",
+        "$1{,}013{,}250\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$1\\text{ atm}=101.325\\text{ kPa}=760\\text{ mmHg}=14.7\\text{ psi}=1.01325\\text{ bar}$.",
+      "explanation_ar": "$1\\text{ atm}=101.325\\text{ kPa}=760\\text{ mmHg}=14.7\\text{ psi}$.",
+      "memorization_note": "يُحفظ: $1\\text{ atm}=101325\\text{ Pa}=760\\text{ mmHg}=14.7\\text{ psi}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "How many pascals are in 1 bar?",
+      "question_ar": "كم باسكال في 1 بار (bar)؟",
+      "options": [
+        "$10^5$",
+        "$10^4$",
+        "$10^6$",
+        "$101{,}325$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "By definition $1\\text{ bar}=10^5\\text{ Pa}$ (slightly less than 1 atm).",
+      "explanation_ar": "بالتعريف $1\\text{ bar}=10^5\\text{ Pa}$ (أقل قليلاً من 1 atm).",
+      "memorization_note": "يُحفظ: $1\\text{ bar}=10^5\\text{ Pa}=100\\text{ kPa}$ و $1\\text{ psi}=6.894\\text{ kPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "Pressure head is expressed as:",
+      "question_ar": "يُعبَّر عن ضغط الرأس (Pressure head) بالعلاقة:",
+      "options": [
+        "$h=\\frac{P}{\\rho g}$",
+        "$h=\\rho g P$",
+        "$h=\\frac{\\rho g}{P}$",
+        "$h=\\frac{P}{\\rho}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Dividing pressure by specific weight $\\rho g$ gives an equivalent height of fluid (in metres).",
+      "explanation_ar": "قسمة الضغط على الوزن النوعي $\\rho g$ تعطي ارتفاعاً مكافئاً للمائع بالمتر.",
+      "memorization_note": "يُحفظ: $$h=\\frac{P}{\\rho g}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "Which device is used to measure atmospheric pressure?",
+      "question_ar": "أي جهاز يُستخدم لقياس الضغط الجوي؟",
+      "options": [
+        "Pitot tube",
+        "Rotameter",
+        "Venturi meter",
+        "Barometer"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A barometer (e.g. mercury column) measures atmospheric pressure. The others measure flow or velocity.",
+      "explanation_ar": "البارومتر (مثل عمود الزئبق) يقيس الضغط الجوي، والباقي أجهزة قياس جريان أو سرعة.",
+      "memorization_note": "يُحفظ: $P_{\\text{atm}}=\\rho_{\\text{Hg}}\\,g\\,h$ حيث $\\rho_{\\text{Hg}}=13600\\text{ kg/m}^3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "A piezometer can be used to measure the pressure of:",
+      "question_ar": "يمكن استخدام الأنبوب البيزومتري (Piezometer) لقياس ضغط:",
+      "options": [
+        "Both gases and vacuum",
+        "Gases only",
+        "Very high pressures only",
+        "Liquids only (moderate positive pressure)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A piezometer is a simple open vertical tube; it works for liquids at moderate positive gauge pressure, not for gases or vacuum.",
+      "explanation_ar": "البيزومتر أنبوب عمودي مفتوح يصلح للسوائل عند ضغط مقاس موجب معتدل، ولا يصلح للغازات أو الفراغ.",
+      "memorization_note": "يُحفظ: $P_{\\text{gauge}}=\\rho g h$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "A differential manometer is used to measure:",
+      "question_ar": "يُستخدم المانومتر التفاضلي (Differential manometer) لقياس:",
+      "options": [
+        "Viscosity",
+        "The pressure difference between two points",
+        "Local fluid velocity",
+        "Atmospheric pressure"
+      ],
+      "correct_index": 1,
+      "explanation_en": "It is connected to two points in a system and indicates $P_1-P_2$ through the manometer-fluid height difference.",
+      "explanation_ar": "يُربط بنقطتين ويُظهر فرق الضغط $P_1-P_2$ من فرق ارتفاع سائل المانومتر.",
+      "memorization_note": "يُحفظ: $\\Delta P=(\\rho_m-\\rho_f)\\,g\\,h$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "Which of the following is NOT a pressure-measuring device?",
+      "question_ar": "أي مما يلي ليس جهازاً لقياس الضغط؟",
+      "options": [
+        "Galvanometer",
+        "Manometer",
+        "Barometer",
+        "Bourdon gauge"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A galvanometer detects small electric currents. Bourdon gauges, manometers and barometers measure pressure.",
+      "explanation_ar": "الكلفانوميتر يكشف التيارات الكهربائية الصغيرة، أما Bourdon والمانومتر والبارومتر فتقيس الضغط.",
+      "memorization_note": "يُحفظ: Bourdon gauge = ميكانيكي يقيس الضغط المقاس.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "The specific weight of water at room temperature is approximately:",
+      "question_ar": "الوزن النوعي (Specific weight) للماء عند درجة حرارة الغرفة تقريباً:",
+      "options": [
+        "$9810\\text{ N/m}^3$",
+        "$1000\\text{ N/m}^3$",
+        "$98.1\\text{ N/m}^3$",
+        "$9.81\\text{ kg/m}^3$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\gamma=\\rho g=1000\\times9.81=9810\\text{ N/m}^3$.",
+      "explanation_ar": "$\\gamma=\\rho g=1000\\times9.81=9810\\text{ N/m}^3$.",
+      "memorization_note": "يُحفظ: $\\gamma=\\rho g$ و $\\gamma_{\\text{water}}=9810\\text{ N/m}^3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "What is the SI unit of surface tension?",
+      "question_ar": "ما وحدة الشد السطحي (Surface tension) في النظام الدولي؟",
+      "options": [
+        "$\\text{Pa}\\cdot\\text{s}$",
+        "$\\text{N}\\cdot\\text{m}$",
+        "$\\text{N/m}^2$",
+        "$\\text{N/m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Surface tension is force per unit length (or energy per unit area): $\\text{N/m}=\\text{J/m}^2$.",
+      "explanation_ar": "الشد السطحي قوة لكل وحدة طول (أو طاقة لكل وحدة مساحة): $\\text{N/m}$.",
+      "memorization_note": "يُحفظ: $\\sigma_{\\text{water}}\\approx0.072\\text{ N/m}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "The capillary rise of a liquid in a small tube is:",
+      "question_ar": "الارتفاع الشعري (Capillary rise) للسائل في أنبوب صغير:",
+      "options": [
+        "Proportional to the square of tube diameter",
+        "Independent of tube diameter",
+        "Inversely proportional to tube diameter",
+        "Directly proportional to tube diameter"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$h=\\frac{4\\sigma\\cos\\theta}{\\rho g d}$, so $h\\propto\\frac{1}{d}$.",
+      "explanation_ar": "$h=\\frac{4\\sigma\\cos\\theta}{\\rho g d}$ إذن $h\\propto\\frac{1}{d}$.",
+      "memorization_note": "يُحفظ: $$h=\\frac{4\\sigma\\cos\\theta}{\\rho g d}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "A fluid with a very large bulk modulus $K$ is:",
+      "question_ar": "المائع ذو معامل الحجم (Bulk modulus) $K$ الكبير جداً يكون:",
+      "options": [
+        "Inviscid",
+        "Always a gas",
+        "Highly compressible",
+        "Nearly incompressible"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$K=-V\\frac{dP}{dV}$; large $K$ means a large pressure change is needed for a small volume change, i.e. low compressibility.",
+      "explanation_ar": "$K=-V\\frac{dP}{dV}$؛ كبر $K$ يعني الحاجة لتغير ضغط كبير لتغير صغير في الحجم أي انضغاطية قليلة.",
+      "memorization_note": "يُحفظ: الانضغاطية $\\beta=\\frac{1}{K}$ و $K_{\\text{water}}\\approx2.2\\text{ GPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "A liquid boils when its vapor pressure becomes equal to:",
+      "question_ar": "يغلي السائل عندما يتساوى ضغط بخاره مع:",
+      "options": [
+        "Zero",
+        "Twice atmospheric pressure",
+        "The critical pressure",
+        "The surrounding (ambient) pressure"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Boiling (and cavitation) occurs when the local pressure falls to the liquid's vapor pressure at that temperature.",
+      "explanation_ar": "يحدث الغليان (والتكهف) عندما ينخفض الضغط المحلي إلى ضغط البخار للسائل عند تلك الحرارة.",
+      "memorization_note": "يُحفظ: $P_{\\text{local}}\\le P_{v}\\Rightarrow$ غليان/تكهف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "Archimedes' principle states that the buoyant force on a submerged body equals:",
+      "question_ar": "ينص مبدأ أرخميدس على أن قوة الطفو على جسم مغمور تساوي:",
+      "options": [
+        "The weight of the fluid displaced",
+        "The weight of the body",
+        "The volume of the body",
+        "The density of the body"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$F_B=\\rho_{\\text{fluid}}\\,g\\,V_{\\text{displaced}}$.",
+      "explanation_ar": "$F_B=\\rho_{\\text{fluid}}\\,g\\,V_{\\text{displaced}}$.",
+      "memorization_note": "يُحفظ: $$F_B=\\rho_f\\,g\\,V_{\\text{disp}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "A solid of density $\\rho_s$ in a liquid of density $\\rho_L$ will sink completely when:",
+      "question_ar": "يغوص الجسم الصلب كثافته $\\rho_s$ كلياً في سائل كثافته $\\rho_L$ عندما:",
+      "options": [
+        "$\\rho_s<\\rho_L$",
+        "$\\rho_s>\\rho_L$",
+        "$\\rho_s<\\frac{\\rho_L}{2}$",
+        "$\\rho_s=0$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Weight $\\rho_s g V$ exceeds the maximum buoyant force $\\rho_L g V$ only if $\\rho_s>\\rho_L$.",
+      "explanation_ar": "الوزن $\\rho_s g V$ يتجاوز أقصى طفو $\\rho_L g V$ فقط إذا كانت $\\rho_s>\\rho_L$.",
+      "memorization_note": "يُحفظ: يطفو إذا $\\rho_s<\\rho_L$، يتعلق إذا تساويا، يغوص إذا $\\rho_s>\\rho_L$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "The centre of buoyancy is located at the:",
+      "question_ar": "يقع مركز الطفو (Centre of buoyancy) عند:",
+      "options": [
+        "Free surface of the liquid",
+        "Bottom of the body",
+        "Centre of gravity of the body",
+        "Centroid of the displaced fluid volume"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The buoyant force acts through the centroid of the displaced volume.",
+      "explanation_ar": "قوة الطفو تؤثر خلال مركز ثقل الحجم المُزاح.",
+      "memorization_note": "يُحفظ: مركز الطفو = مركز ثقل الحجم المُزاح.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "A floating body is in stable equilibrium when its metacentre is:",
+      "question_ar": "يكون الجسم الطافي في اتزان مستقر عندما يكون الميتاسنتر (Metacentre):",
+      "options": [
+        "At the free surface",
+        "Below the centre of gravity",
+        "At the centre of buoyancy always",
+        "Above the centre of gravity"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Stability requires metacentric height $GM>0$, i.e. metacentre above $G$.",
+      "explanation_ar": "الاستقرار يتطلب ارتفاعاً ميتاسنترياً $GM>0$ أي الميتاسنتر فوق مركز الثقل $G$.",
+      "memorization_note": "يُحفظ: $GM>0$ مستقر، $GM=0$ محايد، $GM<0$ غير مستقر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "For a plane vertical surface submerged in a liquid, the centre of pressure lies:",
+      "question_ar": "بالنسبة لسطح مستوٍ عمودي مغمور في سائل، يقع مركز الضغط:",
+      "options": [
+        "Below the centroid of the surface",
+        "Above the centroid of the surface",
+        "Exactly at the centroid",
+        "At the free surface"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Pressure increases with depth, so the resultant force acts below the centroid: $h_{cp}=\\bar h+\\frac{I_G}{\\bar h A}$.",
+      "explanation_ar": "الضغط يزداد مع العمق فتؤثر المحصلة تحت مركز الثقل: $h_{cp}=\\bar h+\\frac{I_G}{\\bar h A}$.",
+      "memorization_note": "يُحفظ: $F=\\rho g\\bar h A$ و $h_{cp}=\\bar h+\\frac{I_G}{\\bar h A}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "The continuity equation is a statement of conservation of:",
+      "question_ar": "معادلة الاستمرارية (Continuity) تعبّر عن حفظ:",
+      "options": [
+        "Mass",
+        "Entropy",
+        "Momentum",
+        "Energy"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Mass entering a control volume minus mass leaving equals accumulation: $\\dot m_{\\text{in}}-\\dot m_{\\text{out}}=\\frac{dm}{dt}$.",
+      "explanation_ar": "الكتلة الداخلة ناقص الخارجة تساوي التراكم: $\\dot m_{\\text{in}}-\\dot m_{\\text{out}}=\\frac{dm}{dt}$.",
+      "memorization_note": "يُحفظ: $\\dot m=\\rho A v$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "The volumetric flow rate through a pipe of cross-sectional area $A$ at average velocity $v$ is:",
+      "question_ar": "معدل الجريان الحجمي في أنبوب مساحة مقطعه $A$ وبسرعة متوسطة $v$ هو:",
+      "options": [
+        "$Q=\\frac{A}{v}$",
+        "$Q=\\rho A v$",
+        "$Q=\\frac{v}{A}$",
+        "$Q=Av$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Q=Av$ has units $\\text{m}^2\\cdot\\text{m/s}=\\text{m}^3/\\text{s}$. $\\rho A v$ is the mass flow rate.",
+      "explanation_ar": "$Q=Av$ ووحدتها $\\text{m}^3/\\text{s}$. أما $\\rho A v$ فهو معدل الجريان الكتلي.",
+      "memorization_note": "يُحفظ: $Q=Av$ ، $A=\\frac{\\pi D^2}{4}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "For steady incompressible flow, when a pipe narrows (diameter decreases), the average velocity:",
+      "question_ar": "في جريان مستقر غير انضغاطي، عند تضيّق الأنبوب (نقصان القطر) فإن السرعة المتوسطة:",
+      "options": [
+        "Remains constant",
+        "Decreases",
+        "Increases",
+        "Becomes zero"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$A_1v_1=A_2v_2$: smaller $A$ requires larger $v$.",
+      "explanation_ar": "$A_1v_1=A_2v_2$: مساحة أصغر تتطلب سرعة أكبر.",
+      "memorization_note": "يُحفظ: $A_1v_1=A_2v_2$ أي $v\\propto\\frac{1}{D^2}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "Bernoulli's equation is essentially a statement of conservation of:",
+      "question_ar": "معادلة برنولي هي في جوهرها حفظ:",
+      "options": [
+        "Mass only",
+        "Mechanical energy",
+        "Linear momentum only",
+        "Entropy"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Along a streamline, the sum of pressure, kinetic and potential energy per unit weight is constant (ideal flow).",
+      "explanation_ar": "على طول خط انسياب يكون مجموع طاقة الضغط والحركة والوضع لكل وحدة وزن ثابتاً (جريان مثالي).",
+      "memorization_note": "يُحفظ: $$\\frac{P}{\\rho g}+\\frac{v^2}{2g}+z=\\text{const}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "Which is NOT an assumption of the simple Bernoulli equation?",
+      "question_ar": "أي مما يلي ليس افتراضاً في معادلة برنولي البسيطة؟",
+      "options": [
+        "Flow along a streamline",
+        "Incompressible fluid",
+        "Steady flow",
+        "Viscous friction losses are significant"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Bernoulli assumes steady, incompressible, inviscid flow along a streamline with no shaft work or heat transfer. Significant friction requires adding a head-loss term.",
+      "explanation_ar": "برنولي يفترض جريان مستقر وغير انضغاطي وبلا لزوجة على طول خط انسياب. أما الاحتكاك الكبير فيتطلب إضافة حد خسارة الرأس.",
+      "memorization_note": "يُحفظ: شروط برنولي: مستقر، $\\rho=\\text{const}$، $\\mu=0$، خط انسياب، لا شغل ولا حرارة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "In the head form of Bernoulli's equation, each term has the dimension of:",
+      "question_ar": "في صيغة الرأس لمعادلة برنولي، كل حد له بُعد:",
+      "options": [
+        "Energy (J)",
+        "Pressure (Pa)",
+        "Velocity (m/s)",
+        "Length (metres of fluid)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Dividing by $\\rho g$ gives $\\frac{P}{\\rho g}$, $\\frac{v^2}{2g}$, $z$ all in metres.",
+      "explanation_ar": "القسمة على $\\rho g$ تجعل $\\frac{P}{\\rho g}$ و $\\frac{v^2}{2g}$ و $z$ كلها بالمتر.",
+      "memorization_note": "يُحفظ: رأس الضغط $\\frac{P}{\\rho g}$، رأس السرعة $\\frac{v^2}{2g}$، رأس الارتفاع $z$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "At a stagnation point in a flow, the fluid velocity is:",
+      "question_ar": "عند نقطة الركود (Stagnation point) في الجريان تكون سرعة المائع:",
+      "options": [
+        "Constant and non-zero",
+        "Infinite",
+        "Zero",
+        "Unity"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A stagnation point is where the fluid is brought to rest by a body; all kinetic energy converts to pressure.",
+      "explanation_ar": "نقطة الركود هي حيث يتوقف المائع عند جسم ما فتتحول طاقة الحركة إلى ضغط.",
+      "memorization_note": "يُحفظ: $v=0$ عند نقطة الركود و $P_0=P+\\frac12\\rho v^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "The stagnation pressure of an incompressible flow is:",
+      "question_ar": "ضغط الركود (Stagnation pressure) لجريان غير انضغاطي يساوي:",
+      "options": [
+        "$P_0=P-\\frac12\\rho v^2$",
+        "$P_0=P+\\rho g v$",
+        "$P_0=P+\\frac12\\rho v^2$",
+        "$P_0=P+\\rho v^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Applying Bernoulli between the free stream and the stagnation point gives $P_0=P+\\frac12\\rho v^2$.",
+      "explanation_ar": "بتطبيق برنولي بين الجريان الحر ونقطة الركود نحصل على $P_0=P+\\frac12\\rho v^2$.",
+      "memorization_note": "يُحفظ: الضغط الديناميكي $q=\\frac12\\rho v^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "In a horizontal pipe carrying an ideal incompressible fluid, where the velocity is higher the pressure is:",
+      "question_ar": "في أنبوب أفقي يحمل مائعاً مثالياً غير انضغاطي، حيث تكون السرعة أعلى يكون الضغط:",
+      "options": [
+        "The same",
+        "Higher",
+        "Lower",
+        "Infinite"
+      ],
+      "correct_index": 2,
+      "explanation_en": "With constant $z$, Bernoulli gives $P+\\frac12\\rho v^2=\\text{const}$, so higher $v$ means lower $P$ (Venturi effect).",
+      "explanation_ar": "مع ثبوت $z$ يعطي برنولي $P+\\frac12\\rho v^2=\\text{const}$ فارتفاع $v$ يعني انخفاض $P$ (تأثير فنتوري).",
+      "memorization_note": "يُحفظ: $P_1-P_2=\\frac12\\rho\\,(v_2^2-v_1^2)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "A streamline is a line that is:",
+      "question_ar": "خط الانسياب (Streamline) هو خط:",
+      "options": [
+        "The path of a single particle over time always",
+        "Of constant pressure",
+        "Tangent to the velocity vector at every point",
+        "Perpendicular to the velocity vector"
+      ],
+      "correct_index": 2,
+      "explanation_en": "By definition the velocity vector is tangent to a streamline at each instant. In steady flow streamlines coincide with pathlines.",
+      "explanation_ar": "بالتعريف متجه السرعة مماس لخط الانسياب في كل نقطة. وفي الجريان المستقر ينطبق مع مسار الجسيم.",
+      "memorization_note": "يُحفظ: لا يوجد جريان عبر خط الانسياب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "A flow is called steady when:",
+      "question_ar": "يُسمى الجريان مستقراً (Steady) عندما:",
+      "options": [
+        "Fluid properties at a fixed point do not change with time",
+        "Pressure is the same everywhere",
+        "Velocity is the same at all points",
+        "Fluid does not move"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Steady means $\\frac{\\partial}{\\partial t}=0$ at any fixed point. Velocity may still vary with position (non-uniform).",
+      "explanation_ar": "المستقر يعني $\\frac{\\partial}{\\partial t}=0$ عند أي نقطة ثابتة، وقد تتغير السرعة مع الموضع.",
+      "memorization_note": "يُحفظ: مستقر = لا تغير مع الزمن، منتظم = لا تغير مع الموضع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "For a real pipe system with a pump, the energy equation differs from simple Bernoulli by:",
+      "question_ar": "في منظومة أنابيب حقيقية فيها مضخة، تختلف معادلة الطاقة عن برنولي البسيطة بإضافة:",
+      "options": [
+        "Pump head added and friction head loss included",
+        "Only a temperature term",
+        "Nothing, they are identical",
+        "Only the density term"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Extended form: $\\frac{P_1}{\\rho g}+\\frac{v_1^2}{2g}+z_1+H_p=\\frac{P_2}{\\rho g}+\\frac{v_2^2}{2g}+z_2+h_L$.",
+      "explanation_ar": "الصيغة الموسعة: $\\frac{P_1}{\\rho g}+\\frac{v_1^2}{2g}+z_1+H_p=\\frac{P_2}{\\rho g}+\\frac{v_2^2}{2g}+z_2+h_L$.",
+      "memorization_note": "يُحفظ: $$\\frac{P_1}{\\rho g}+\\frac{v_1^2}{2g}+z_1+H_p=\\frac{P_2}{\\rho g}+\\frac{v_2^2}{2g}+z_2+h_L$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "The Reynolds number represents the ratio of:",
+      "question_ar": "رقم رينولدز يمثل نسبة:",
+      "options": [
+        "Pressure forces to surface tension",
+        "Viscous forces to inertial forces",
+        "Gravity forces to inertial forces",
+        "Inertial forces to viscous forces"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Re=\\frac{\\rho v D}{\\mu}=\\frac{\\text{inertial}}{\\text{viscous}}$.",
+      "explanation_ar": "$Re=\\frac{\\rho v D}{\\mu}=\\frac{\\text{القصور الذاتي}}{\\text{اللزوجة}}$.",
+      "memorization_note": "يُحفظ: Re لابعدي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "The Reynolds number for flow in a pipe of diameter $D$ is:",
+      "question_ar": "رقم رينولدز للجريان في أنبوب قطره $D$ هو:",
+      "options": [
+        "$Re=\\frac{\\rho v D}{\\mu}$",
+        "$Re=\\frac{\\mu v D}{\\rho}$",
+        "$Re=\\frac{\\rho \\mu}{vD}$",
+        "$Re=\\rho v D\\mu$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Re=\\frac{\\rho vD}{\\mu}=\\frac{vD}{\\nu}$.",
+      "explanation_ar": "$Re=\\frac{\\rho vD}{\\mu}=\\frac{vD}{\\nu}$.",
+      "memorization_note": "يُحفظ: $$Re=\\frac{\\rho v D}{\\mu}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "Flow in a circular pipe is generally laminar when:",
+      "question_ar": "يكون الجريان في أنبوب دائري عادةً صفائحياً (Laminar) عندما:",
+      "options": [
+        "$Re>10^5$",
+        "$Re=10^6$",
+        "$Re>4000$",
+        "$Re<2100$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Laminar for $Re<2100$ (about 2300), transitional between roughly 2100 and 4000, turbulent above 4000.",
+      "explanation_ar": "صفائحي عند $Re<2100$ (تقريباً 2300)، انتقالي بين 2100 و4000، مضطرب فوق 4000.",
+      "memorization_note": "يُحفظ: $Re<2100$ laminar، $Re>4000$ turbulent.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "Flow in a circular pipe is generally fully turbulent when:",
+      "question_ar": "يكون الجريان في أنبوب دائري مضطرباً بالكامل عادةً عندما:",
+      "options": [
+        "$Re<1$",
+        "$Re>4000$",
+        "$Re<2100$",
+        "$Re=500$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Above about $Re=4000$ the flow is turbulent with eddy mixing.",
+      "explanation_ar": "فوق $Re\\approx4000$ يكون الجريان مضطرباً مع دوامات خلط.",
+      "memorization_note": "يُحفظ: $Re>4000$ مضطرب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "For fully developed laminar flow in a circular pipe, the Darcy friction factor is:",
+      "question_ar": "في الجريان الصفائحي المتكوّن بالكامل في أنبوب دائري، معامل الاحتكاك (Darcy) يساوي:",
+      "options": [
+        "$f=\\frac{16}{Re}$",
+        "$f=\\frac{Re}{64}$",
+        "$f=\\frac{64}{Re}$",
+        "$f=\\frac{0.316}{Re^{0.25}}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$f_D=\\frac{64}{Re}$ (the Fanning equivalent is $\\frac{16}{Re}$). $0.316/Re^{0.25}$ is the Blasius turbulent correlation.",
+      "explanation_ar": "$f_D=\\frac{64}{Re}$ (ويكافئ Fanning $\\frac{16}{Re}$). أما $0.316/Re^{0.25}$ فمعادلة Blasius للجريان المضطرب.",
+      "memorization_note": "يُحفظ: $$f_D=\\frac{64}{Re}$$ $f_{\\text{Fanning}}=\\frac{16}{Re}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "The Hagen–Poiseuille equation applies to:",
+      "question_ar": "تنطبق معادلة هاجن–بوازوي (Hagen–Poiseuille) على:",
+      "options": [
+        "Laminar flow",
+        "Turbulent flow",
+        "Flow of an ideal fluid",
+        "Compressible supersonic flow"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It is derived for steady laminar flow of a Newtonian fluid in a circular pipe: $\\Delta P=\\frac{128\\mu LQ}{\\pi D^4}=\\frac{32\\mu L v}{D^2}$.",
+      "explanation_ar": "مشتقة للجريان الصفائحي المستقر لمائع نيوتني في أنبوب دائري: $\\Delta P=\\frac{128\\mu LQ}{\\pi D^4}=\\frac{32\\mu L v}{D^2}$.",
+      "memorization_note": "يُحفظ: $$\\Delta P=\\frac{32\\mu L v}{D^2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "In fully developed laminar pipe flow, the maximum velocity (at the centreline) equals:",
+      "question_ar": "في الجريان الصفائحي المتكوّن بالكامل في أنبوب، السرعة القصوى (عند المحور) تساوي:",
+      "options": [
+        "$1\\times$ average velocity",
+        "$4\\times$ average velocity",
+        "$0.5\\times$ average velocity",
+        "$2\\times$ average velocity"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The velocity profile is parabolic: $v_{\\max}=2\\bar v$.",
+      "explanation_ar": "المنحنى القطعي المكافئ يعطي $v_{\\max}=2\\bar v$.",
+      "memorization_note": "يُحفظ: $v_{\\max}=2\\bar v$ (صفائحي)، وللمضطرب تقريباً $v_{\\max}\\approx1.2\\bar v$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "Compared with laminar flow, the turbulent velocity profile in a pipe is:",
+      "question_ar": "مقارنةً بالجريان الصفائحي فإن منحنى السرعة في الجريان المضطرب داخل الأنبوب يكون:",
+      "options": [
+        "Zero in the core",
+        "Flatter (more uniform) in the core",
+        "Linear across the diameter",
+        "More sharply parabolic"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Eddy mixing flattens the core so $\\bar v/v_{\\max}$ is closer to 1 (about 0.8) than the laminar 0.5.",
+      "explanation_ar": "الخلط الدوامي يسطّح المركز فتكون $\\bar v/v_{\\max}\\approx0.8$ مقابل 0.5 للصفائحي.",
+      "memorization_note": "يُحفظ: المضطرب أكثر تسطحاً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "The Darcy–Weisbach equation for frictional head loss in a straight pipe is:",
+      "question_ar": "معادلة دارسي–فايسباخ لخسارة الرأس الاحتكاكية في أنبوب مستقيم هي:",
+      "options": [
+        "$h_f=f\\frac{L}{D}\\frac{v^2}{2g}$",
+        "$h_f=\\frac{f L v}{2gD}$",
+        "$h_f=f\\frac{D}{L}\\frac{v^2}{2g}$",
+        "$h_f=f\\frac{L}{D}v^2 g$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Head loss increases with length and $v^2$ and decreases with diameter.",
+      "explanation_ar": "الخسارة تزداد مع الطول و $v^2$ وتقل مع القطر.",
+      "memorization_note": "يُحفظ: $$h_f=f\\frac{L}{D}\\frac{v^2}{2g}$$ و $\\Delta P=\\rho g h_f$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "The relation between Darcy and Fanning friction factors is:",
+      "question_ar": "العلاقة بين معامل احتكاك دارسي ومعامل فانينغ هي:",
+      "options": [
+        "$f_D=\\frac{f_F}{4}$",
+        "$f_D=2f_F$",
+        "$f_D=f_F$",
+        "$f_D=4f_F$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Darcy factor is four times the Fanning factor.",
+      "explanation_ar": "معامل دارسي = 4 أضعاف معامل فانينغ.",
+      "memorization_note": "يُحفظ: $$f_D=4f_F$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "Relative roughness of a pipe is defined as:",
+      "question_ar": "الخشونة النسبية للأنبوب تُعرَّف بأنها:",
+      "options": [
+        "$\\frac{D}{\\varepsilon}$",
+        "$\\varepsilon D$",
+        "$\\varepsilon L$",
+        "$\\frac{\\varepsilon}{D}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Roughness height $\\varepsilon$ divided by the diameter: dimensionless.",
+      "explanation_ar": "ارتفاع الخشونة $\\varepsilon$ مقسوماً على القطر: لابعدي.",
+      "memorization_note": "يُحفظ: $\\frac{\\varepsilon}{D}$ ويُستخدم في مخطط Moody.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "In the fully rough (high-$Re$) turbulent regime of the Moody chart, the friction factor depends on:",
+      "question_ar": "في المنطقة المضطربة الخشنة تماماً (Re عالٍ) في مخطط Moody يعتمد معامل الاحتكاك على:",
+      "options": [
+        "Both $Re$ and fluid density",
+        "$Re$ only",
+        "Pipe length",
+        "Relative roughness $\\varepsilon/D$ only"
+      ],
+      "correct_index": 3,
+      "explanation_en": "At very high $Re$ the curves become horizontal, so $f$ depends only on $\\varepsilon/D$.",
+      "explanation_ar": "عند $Re$ عالٍ جداً تصبح المنحنيات أفقية فيعتمد $f$ على $\\varepsilon/D$ فقط.",
+      "memorization_note": "يُحفظ: في الصفائحي $f=\\frac{64}{Re}$ ولا تعتمد على الخشونة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "In pipe flow, the shear stress is:",
+      "question_ar": "في جريان الأنبوب يكون إجهاد القص:",
+      "options": [
+        "Zero at the centreline and maximum at the wall",
+        "Uniform across the section",
+        "Zero everywhere",
+        "Maximum at the centreline and zero at the wall"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\tau(r)=\\tau_w\\frac{r}{R}$: linear distribution from zero at the axis to $\\tau_w$ at the wall.",
+      "explanation_ar": "$\\tau(r)=\\tau_w\\frac{r}{R}$: توزيع خطي من صفر عند المحور إلى $\\tau_w$ عند الجدار.",
+      "memorization_note": "يُحفظ: $\\tau_w=\\frac{D\\,\\Delta P}{4L}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "The hydraulic diameter of a non-circular duct is:",
+      "question_ar": "القطر الهيدروليكي لمجرى غير دائري هو:",
+      "options": [
+        "$D_h=\\frac{A}{P_w}$",
+        "$D_h=\\frac{4A}{P_w}$",
+        "$D_h=4AP_w$",
+        "$D_h=\\frac{P_w}{4A}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$D_h=\\frac{4\\times\\text{flow area}}{\\text{wetted perimeter}}$; for a circle it gives $D$.",
+      "explanation_ar": "$D_h=\\frac{4\\times\\text{مساحة الجريان}}{\\text{المحيط المبتل}}$ وللدائرة يعطي $D$.",
+      "memorization_note": "يُحفظ: $$D_h=\\frac{4A}{P_w}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "Minor (local) head loss in a fitting is expressed as:",
+      "question_ar": "تُعبَّر خسارة الرأس الثانوية (Minor loss) في ملحق عن طريق:",
+      "options": [
+        "$h_m=K\\frac{v}{2g}$",
+        "$h_m=\\frac{K}{v^2 2g}$",
+        "$h_m=K v^2 g$",
+        "$h_m=K\\frac{v^2}{2g}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$K$ is the loss coefficient of the fitting.",
+      "explanation_ar": "$K$ معامل خسارة الملحق.",
+      "memorization_note": "يُحفظ: $$h_m=K\\frac{v^2}{2g}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "Minor losses in a piping system are mainly caused by:",
+      "question_ar": "تنشأ الخسائر الثانوية في منظومة الأنابيب أساساً من:",
+      "options": [
+        "Fluid compressibility",
+        "Pump efficiency",
+        "Fittings, valves, bends and area changes",
+        "Friction along long straight pipe only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Flow separation and mixing at fittings, valves, bends, entrances, exits and sudden area changes cause local losses.",
+      "explanation_ar": "انفصال الجريان والخلط عند الملحقات والصمامات والانحناءات والمداخل والمخارج وتغيرات المقطع تسبب خسائر موضعية.",
+      "memorization_note": "يُحفظ: الكلية $h_L=h_f+\\sum h_m$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "The loss coefficient $K$ for a sudden exit from a pipe into a large reservoir is:",
+      "question_ar": "معامل الخسارة $K$ للخروج المفاجئ من أنبوب إلى خزان كبير هو:",
+      "options": [
+        "$K=0.04$",
+        "$K=1$",
+        "$K=0.5$",
+        "$K=0$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "All the kinetic energy $\\frac{v^2}{2g}$ of the jet is dissipated, so $K=1$. For a sharp-edged entrance $K\\approx0.5$.",
+      "explanation_ar": "كل طاقة الحركة $\\frac{v^2}{2g}$ تتبدد فـ $K=1$. أما الدخول الحاد الحواف فـ $K\\approx0.5$.",
+      "memorization_note": "يُحفظ: خروج $K=1$، دخول حاد $K=0.5$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "The equivalent length of a fitting with loss coefficient $K$ in a pipe of diameter $D$ and friction factor $f$ is:",
+      "question_ar": "الطول المكافئ لملحق معامل خسارته $K$ في أنبوب قطره $D$ ومعامل احتكاكه $f$ هو:",
+      "options": [
+        "$L_{eq}=KDf$",
+        "$L_{eq}=\\frac{fD}{K}$",
+        "$L_{eq}=\\frac{K}{fD}$",
+        "$L_{eq}=\\frac{KD}{f}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Equating $K\\frac{v^2}{2g}=f\\frac{L_{eq}}{D}\\frac{v^2}{2g}$ gives $L_{eq}=\\frac{KD}{f}$.",
+      "explanation_ar": "بمساواة $K\\frac{v^2}{2g}=f\\frac{L_{eq}}{D}\\frac{v^2}{2g}$ نحصل على $L_{eq}=\\frac{KD}{f}$.",
+      "memorization_note": "يُحفظ: $$L_{eq}=\\frac{KD}{f}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "Which fitting typically has the largest loss coefficient when fully open?",
+      "question_ar": "أي ملحق يملك عادةً أكبر معامل خسارة وهو مفتوح بالكامل؟",
+      "options": [
+        "Full-bore ball valve",
+        "Straight coupling",
+        "Globe valve",
+        "Gate valve"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The tortuous flow path in a globe valve gives a high $K$ (about 6–10), whereas gate and ball valves open give $K\\approx0.1$–0.2.",
+      "explanation_ar": "مسار الجريان المتعرج في صمام Globe يعطي $K$ كبيراً (6–10 تقريباً) بينما Gate و Ball المفتوحان $K\\approx0.1$–0.2.",
+      "memorization_note": "يُحفظ: Globe valve أعلى مقاومة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "Orifice and Venturi meters measure flow rate based on:",
+      "question_ar": "عدادات الفتحة (Orifice) وفنتوري تقيس الجريان اعتماداً على:",
+      "options": [
+        "Viscosity change",
+        "The pressure drop across a constriction",
+        "Electrical conductivity",
+        "Temperature rise"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The constriction raises velocity and lowers pressure; $\\Delta P$ is related to $Q$ via Bernoulli and continuity.",
+      "explanation_ar": "التضييق يرفع السرعة ويخفض الضغط، و $\\Delta P$ ترتبط بـ $Q$ عبر برنولي والاستمرارية.",
+      "memorization_note": "يُحفظ: $Q=C_dA_2\\sqrt{\\frac{2\\Delta P}{\\rho\\,(1-\\beta^4)}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "A Pitot tube is used to measure:",
+      "question_ar": "يُستخدم أنبوب بيتو (Pitot tube) لقياس:",
+      "options": [
+        "Density",
+        "Viscosity",
+        "Volumetric flow rate through a pipe directly",
+        "Local fluid velocity"
+      ],
+      "correct_index": 3,
+      "explanation_en": "It measures stagnation minus static pressure: $v=\\sqrt{\\frac{2(P_0-P)}{\\rho}}$.",
+      "explanation_ar": "يقيس فرق ضغط الركود والضغط الساكن: $v=\\sqrt{\\frac{2(P_0-P)}{\\rho}}$.",
+      "memorization_note": "يُحفظ: $$v=\\sqrt{\\frac{2\\Delta P}{\\rho}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "Which flow meter has the lowest permanent pressure loss?",
+      "question_ar": "أي عداد جريان يملك أقل فقدان ضغط دائم؟",
+      "options": [
+        "Venturi meter",
+        "Orifice plate",
+        "Flow nozzle",
+        "Partially closed valve"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The gradual diffuser recovers most of the pressure, so a Venturi has the lowest permanent loss; an orifice plate has the highest.",
+      "explanation_ar": "الموسّع التدريجي يستعيد معظم الضغط فيمتلك فنتوري أقل فقد دائم، بينما لوح الفتحة أعلى فقد.",
+      "memorization_note": "يُحفظ: فقد الضغط: Orifice > Nozzle > Venturi.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "The discharge coefficient $C_d$ of a sharp-edged orifice is typically about:",
+      "question_ar": "معامل التصريف $C_d$ لفتحة حادة الحواف يكون عادةً حوالي:",
+      "options": [
+        "$0.1$",
+        "$1.6$",
+        "$1.0$",
+        "$0.6$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Because of the vena contracta and friction, $C_d<1$; for sharp orifices $C_d\\approx0.6$–0.62 and for Venturi $\\approx0.95$–0.99.",
+      "explanation_ar": "بسبب Vena contracta والاحتكاك $C_d<1$؛ للفتحة الحادة $\\approx0.6$ ولفنتوري $\\approx0.97$.",
+      "memorization_note": "يُحفظ: $C_d\\approx0.61$ للـ orifice.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "A rotameter is classified as a:",
+      "question_ar": "يُصنَّف الروتاميتر (Rotameter) على أنه:",
+      "options": [
+        "Thermal flow meter",
+        "Variable-area flow meter",
+        "Differential-pressure meter with fixed area",
+        "Positive displacement pump"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The float rises in a tapered tube until the annular area balances the flow, giving a nearly constant pressure drop.",
+      "explanation_ar": "يرتفع العوّام في أنبوب مخروطي حتى يتوازن مقطع الحلقة مع الجريان فيبقى هبوط الضغط شبه ثابت.",
+      "memorization_note": "يُحفظ: Rotameter = مساحة متغيرة، هبوط ضغط ثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "For an orifice or Venturi meter, the flow rate is proportional to:",
+      "question_ar": "بالنسبة لعداد Orifice أو Venturi فإن معدل الجريان يتناسب مع:",
+      "options": [
+        "$\\Delta P$",
+        "$\\sqrt{\\Delta P}$",
+        "$\\frac{1}{\\Delta P}$",
+        "$\\Delta P^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "From Bernoulli $\\Delta P\\propto v^2$, so $Q\\propto\\sqrt{\\Delta P}$.",
+      "explanation_ar": "من برنولي $\\Delta P\\propto v^2$ فـ $Q\\propto\\sqrt{\\Delta P}$.",
+      "memorization_note": "يُحفظ: $Q\\propto\\sqrt{\\Delta P}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "The vena contracta is:",
+      "question_ar": "الـ Vena contracta هي:",
+      "options": [
+        "The maximum jet area",
+        "The section of minimum jet area downstream of an orifice",
+        "The point of maximum pressure",
+        "The pump inlet"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Streamlines continue to converge after the orifice, so the jet area is smallest slightly downstream: $C_c=\\frac{A_{vc}}{A_o}\\approx0.62$.",
+      "explanation_ar": "خطوط الانسياب تستمر بالتقارب بعد الفتحة فيكون أصغر مقطع للنفث بعدها: $C_c=\\frac{A_{vc}}{A_o}\\approx0.62$.",
+      "memorization_note": "يُحفظ: $C_d=C_cC_v$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "A centrifugal pump converts the kinetic energy given by the impeller mainly into:",
+      "question_ar": "المضخة الطاردة المركزية تحوّل طاقة الحركة التي يعطيها الدافع (Impeller) أساساً إلى:",
+      "options": [
+        "Chemical energy",
+        "Electrical energy",
+        "Thermal energy only",
+        "Pressure energy (in the volute/diffuser)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The impeller raises the fluid velocity; the volute or diffuser slows it down, converting kinetic energy to pressure.",
+      "explanation_ar": "الدافع يرفع سرعة المائع، والحلزون (Volute) أو الناشر يبطئه فتتحول الطاقة الحركية إلى ضغط.",
+      "memorization_note": "يُحفظ: الرأس $H=\\frac{\\Delta P}{\\rho g}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "Cavitation is the:",
+      "question_ar": "التكهف (Cavitation) هو:",
+      "options": [
+        "Freezing of liquid in the pump",
+        "Formation and collapse of vapor bubbles when local pressure falls below vapor pressure",
+        "Increase of liquid viscosity at low temperature",
+        "Dissolving of gas in the liquid"
+      ],
+      "correct_index": 1,
+      "explanation_en": "When local static pressure $\\le P_v$, vapor bubbles form; they collapse violently in higher-pressure regions, causing noise, vibration, pitting and loss of head.",
+      "explanation_ar": "عندما ينخفض الضغط المحلي إلى $P_v$ تتكون فقاعات بخار تنهار بعنف في مناطق الضغط الأعلى فتسبب ضجيجاً واهتزازاً وتآكلاً وهبوطاً بالرأس.",
+      "memorization_note": "يُحفظ: $P\\le P_v\\Rightarrow$ cavitation.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "In a centrifugal pump, cavitation is most likely to begin at the:",
+      "question_ar": "في المضخة الطاردة المركزية يبدأ التكهف غالباً عند:",
+      "options": [
+        "Discharge flange",
+        "Suction side near the impeller eye",
+        "Volute outlet",
+        "Motor shaft bearing"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The lowest pressure in the pump occurs at the impeller inlet (eye).",
+      "explanation_ar": "أقل ضغط في المضخة يكون عند مدخل الدافع (Eye).",
+      "memorization_note": "يُحفظ: التكهف على جانب السحب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "To avoid cavitation in a pump, the available NPSH must be:",
+      "question_ar": "لتجنب التكهف في المضخة يجب أن تكون NPSH المتاحة:",
+      "options": [
+        "$NPSH_A=0$",
+        "$NPSH_A>NPSH_R$",
+        "$NPSH_A<NPSH_R$",
+        "Independent of $NPSH_R$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$NPSH_A$ is the system's suction head above vapor pressure; $NPSH_R$ is the pump's requirement.",
+      "explanation_ar": "$NPSH_A$ هي رأس السحب فوق ضغط البخار في المنظومة و$NPSH_R$ متطلب المضخة.",
+      "memorization_note": "يُحفظ: $$NPSH_A=\\frac{P_s-P_v}{\\rho g}+\\frac{v_s^2}{2g}$$ (عند السطح: $\\frac{P_{atm}-P_v}{\\rho g}+z-h_f$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "Which of the following is a positive displacement pump?",
+      "question_ar": "أي مما يلي مضخة إزاحة موجبة (Positive displacement)؟",
+      "options": [
+        "Centrifugal pump",
+        "Axial-flow pump",
+        "Gear pump",
+        "Mixed-flow pump"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Gear, piston, diaphragm and screw pumps trap and displace fixed volumes. Centrifugal, axial and mixed-flow pumps are dynamic (rotodynamic).",
+      "explanation_ar": "المضخات الترسية والمكبسية والغشائية والحلزونية تحجز وتزيح حجماً ثابتاً، أما الطاردة والمحورية والمختلطة فديناميكية.",
+      "memorization_note": "يُحفظ: PD تعطي جريان شبه ثابت مع تغير الضغط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "A centrifugal pump must be primed before start-up because it:",
+      "question_ar": "يجب ملء (Prime) المضخة الطاردة قبل التشغيل لأنها:",
+      "options": [
+        "Overheats with liquid",
+        "Needs zero suction pressure",
+        "Cannot pump air effectively (air binding)",
+        "Is positive displacement"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The density of air is too low to create adequate pressure rise, so the casing must be filled with liquid.",
+      "explanation_ar": "كثافة الهواء منخفضة جداً فلا يتولد ارتفاع ضغط كافٍ، فيجب ملء الغلاف بالسائل.",
+      "memorization_note": "يُحفظ: air binding = فقدان السحب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "Pump efficiency is defined as:",
+      "question_ar": "كفاءة المضخة تُعرَّف بأنها:",
+      "options": [
+        "$\\eta=\\frac{H}{Q}$",
+        "$\\eta=\\frac{\\text{shaft power}}{\\text{hydraulic power}}$",
+        "$\\eta=\\rho g H$",
+        "$\\eta=\\frac{\\text{hydraulic (fluid) power}}{\\text{shaft power}}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Hydraulic power $\\rho gQH$ is the useful output; shaft power is the input.",
+      "explanation_ar": "القدرة الهيدروليكية $\\rho gQH$ هي المخرج المفيد والقدرة على العمود هي المدخل.",
+      "memorization_note": "يُحفظ: $P_{\\text{hyd}}=\\rho gQH$ و $P_{\\text{shaft}}=\\frac{\\rho gQH}{\\eta}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "According to the pump affinity laws, flow rate varies with impeller speed $N$ as:",
+      "question_ar": "حسب قوانين التشابه (Affinity) للمضخات يتغير معدل الجريان مع سرعة الدافع $N$ كـ:",
+      "options": [
+        "$Q\\propto N^3$",
+        "$Q\\propto N^2$",
+        "$Q\\propto\\frac{1}{N}$",
+        "$Q\\propto N$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Affinity laws (same impeller): $Q\\propto N$, $H\\propto N^2$, $P\\propto N^3$.",
+      "explanation_ar": "قوانين التشابه لنفس الدافع: $Q\\propto N$ و $H\\propto N^2$ و $P\\propto N^3$.",
+      "memorization_note": "يُحفظ: $Q\\propto N,\\ H\\propto N^2,\\ P\\propto N^3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "According to the pump affinity laws, head varies with impeller speed $N$ as:",
+      "question_ar": "حسب قوانين التشابه للمضخات يتغير الرأس مع السرعة $N$ كـ:",
+      "options": [
+        "$H\\propto N$",
+        "$H\\propto N^3$",
+        "$H\\propto N^2$",
+        "$H\\propto\\frac{1}{N^2}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Head is proportional to the square of tip speed.",
+      "explanation_ar": "الرأس يتناسب مع مربع سرعة الطرف.",
+      "memorization_note": "يُحفظ: $\\frac{H_2}{H_1}=\\left(\\frac{N_2}{N_1}\\right)^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "The operating point of a pump in a piping system is where:",
+      "question_ar": "نقطة تشغيل المضخة في منظومة الأنابيب هي حيث:",
+      "options": [
+        "The pump curve intersects the system curve",
+        "The pump curve meets the NPSH curve",
+        "Efficiency is zero",
+        "Flow rate is zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At the operating point the head supplied by the pump equals the head required by the system.",
+      "explanation_ar": "عند نقطة التشغيل يتساوى الرأس الذي تعطيه المضخة مع الرأس المطلوب للمنظومة.",
+      "memorization_note": "يُحفظ: $H_{\\text{pump}}=H_{\\text{system}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "The main purpose of a compressor is to:",
+      "question_ar": "الغرض الرئيسي من الضاغط (Compressor) هو:",
+      "options": [
+        "Measure gas flow",
+        "Increase the pressure of a gas",
+        "Increase the pressure of a liquid only",
+        "Reduce gas pressure"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Compressors raise gas pressure, with a significant density change; pumps handle (nearly incompressible) liquids.",
+      "explanation_ar": "الضواغط ترفع ضغط الغاز مع تغير ملحوظ في الكثافة، أما المضخات فللسوائل (شبه غير انضغاطية).",
+      "memorization_note": "يُحفظ: نسبة الضغط $r=\\frac{P_2}{P_1}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Stokes' law for the drag on a sphere is valid for particle Reynolds number:",
+      "question_ar": "قانون ستوكس لسحب كرة صالح عندما يكون رقم رينولدز للجسيم:",
+      "options": [
+        "$Re_p>2\\times10^5$",
+        "$Re_p<1$",
+        "$Re_p=10^5$",
+        "$Re_p>1000$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Stokes law assumes creeping flow where inertial terms are negligible.",
+      "explanation_ar": "قانون ستوكس يفترض جريان زاحف تُهمل فيه حدود القصور الذاتي.",
+      "memorization_note": "يُحفظ: $Re_p=\\frac{\\rho v d}{\\mu}<1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "In the Stokes regime, terminal settling velocity is proportional to:",
+      "question_ar": "في نظام ستوكس تتناسب سرعة الترسيب النهائية (Terminal velocity) مع:",
+      "options": [
+        "$d^2$",
+        "$\\frac{1}{d}$",
+        "$d^3$",
+        "$d$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}$.",
+      "explanation_ar": "$v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}$.",
+      "memorization_note": "يُحفظ: $$v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "At terminal velocity, the net force on a falling particle is:",
+      "question_ar": "عند السرعة النهائية تكون محصلة القوى على جسيم ساقط:",
+      "options": [
+        "Infinite",
+        "Equal to the weight",
+        "Equal to the drag only",
+        "Zero (weight = buoyancy + drag)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Acceleration is zero so weight balances buoyancy plus drag.",
+      "explanation_ar": "التسارع صفر فالوزن يساوي الطفو + السحب.",
+      "memorization_note": "يُحفظ: $mg=F_B+F_D$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "Stokes drag force on a sphere of diameter $d$ moving at velocity $v$ is:",
+      "question_ar": "قوة سحب ستوكس على كرة قطرها $d$ تتحرك بسرعة $v$ هي:",
+      "options": [
+        "$F_D=6\\pi\\mu d v$",
+        "$F_D=3\\pi\\mu d v$",
+        "$F_D=\\pi\\mu d^2 v$",
+        "$F_D=\\frac12\\rho v^2 d$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For creeping flow $F_D=6\\pi\\mu R v=3\\pi\\mu d v$.",
+      "explanation_ar": "في الجريان الزاحف $F_D=6\\pi\\mu R v=3\\pi\\mu d v$.",
+      "memorization_note": "يُحفظ: $$F_D=3\\pi\\mu d v$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "The minimum fluidization velocity is the superficial velocity at which:",
+      "question_ar": "سرعة التميّع الدنيا (Minimum fluidization velocity) هي السرعة السطحية التي عندها:",
+      "options": [
+        "Drag on the particles equals their net weight so the bed begins to expand",
+        "Particles leave the vessel",
+        "The bed packs more tightly",
+        "Pressure drop becomes zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At $u_{mf}$ the pressure drop equals the bed weight per unit area.",
+      "explanation_ar": "عند $u_{mf}$ يتساوى هبوط الضغط مع وزن الطبقة لكل وحدة مساحة.",
+      "memorization_note": "يُحفظ: $\\Delta P=\\frac{W_{\\text{net}}}{A}=(1-\\varepsilon)(\\rho_p-\\rho_f)gL$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "Once a bed is fluidized, an increase in gas velocity causes the pressure drop to:",
+      "question_ar": "بعد تميّع الطبقة فإن زيادة سرعة الغاز تجعل هبوط الضغط:",
+      "options": [
+        "Decrease to zero",
+        "Increase with the square of velocity",
+        "Remain essentially constant",
+        "Increase linearly"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The bed weight is supported by the fluid so $\\Delta P\\approx W/A$ regardless of velocity.",
+      "explanation_ar": "وزن الطبقة محمول بالمائع فيبقى $\\Delta P\\approx W/A$ بغض النظر عن السرعة.",
+      "memorization_note": "يُحفظ: فوق $u_{mf}$ يبقى $\\Delta P$ ثابتاً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "The Ergun equation is used to calculate:",
+      "question_ar": "تُستخدم معادلة إيرغن (Ergun) لحساب:",
+      "options": [
+        "Pressure drop through a packed bed",
+        "Pump head",
+        "Terminal velocity of a sphere",
+        "Choked mass flow"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It combines a viscous (Blake–Kozeny) term proportional to $u$ and an inertial (Burke–Plummer) term proportional to $u^2$.",
+      "explanation_ar": "تجمع حداً لزجاً (Blake–Kozeny) يتناسب مع $u$ وحداً قصورياً (Burke–Plummer) يتناسب مع $u^2$.",
+      "memorization_note": "يُحفظ: $\\frac{\\Delta P}{L}=150\\frac{\\mu(1-\\varepsilon)^2u}{\\varepsilon^3d_p^2}+1.75\\frac{\\rho(1-\\varepsilon)u^2}{\\varepsilon^3d_p}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "A pseudoplastic (shear-thinning) fluid is one whose apparent viscosity:",
+      "question_ar": "المائع الشبه بلاستيكي (Shear-thinning) هو الذي لزوجته الظاهرية:",
+      "options": [
+        "Decreases as shear rate increases",
+        "Is zero",
+        "Increases as shear rate increases",
+        "Is constant"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Power-law fluid with $n<1$ behaves this way (e.g. paint, polymer solutions).",
+      "explanation_ar": "مائع القانون الأسي بـ $n<1$ يسلك هكذا (دهان، محاليل بوليمر).",
+      "memorization_note": "يُحفظ: $\\tau=K\\left(\\frac{du}{dy}\\right)^n$ ، $n<1$ shear-thinning.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "A Bingham plastic differs from a Newtonian fluid in that it:",
+      "question_ar": "يختلف اللدائني بنغهام (Bingham plastic) عن النيوتني في أنه:",
+      "options": [
+        "Is compressible",
+        "Has zero viscosity",
+        "Requires a yield stress before it flows",
+        "Flows without any stress"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\tau=\\tau_y+\\mu_p\\frac{du}{dy}$ for $\\tau>\\tau_y$.",
+      "explanation_ar": "$\\tau=\\tau_y+\\mu_p\\frac{du}{dy}$ عندما $\\tau>\\tau_y$.",
+      "memorization_note": "يُحفظ: Bingham: $\\tau=\\tau_y+\\mu_p\\frac{du}{dy}$ (معجون الأسنان).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "A dilatant (shear-thickening) fluid is one whose apparent viscosity:",
+      "question_ar": "المائع المتسمك بالقص (Dilatant) لزوجته الظاهرية:",
+      "options": [
+        "Is zero at any rate",
+        "Decreases as shear rate increases",
+        "Increases as shear rate increases",
+        "Is constant"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Power-law fluid with $n>1$ (e.g. concentrated starch suspension).",
+      "explanation_ar": "مائع القانون الأسي بـ $n>1$ (مثل معلق نشا مركّز).",
+      "memorization_note": "يُحفظ: $n>1$ dilatant.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "The Mach number is defined as:",
+      "question_ar": "يُعرَّف رقم ماخ (Mach) بأنه:",
+      "options": [
+        "$M=\\frac{\\rho v}{a}$",
+        "$M=\\frac{v}{a}$",
+        "$M=\\frac{a}{v}$",
+        "$M=\\frac{v^2}{a}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Ratio of flow speed to local speed of sound: $M<1$ subsonic, $M=1$ sonic, $M>1$ supersonic.",
+      "explanation_ar": "نسبة سرعة الجريان إلى سرعة الصوت المحلية: $M<1$ دون صوتي، $M=1$ صوتي، $M>1$ فوق صوتي.",
+      "memorization_note": "يُحفظ: $$M=\\frac{v}{a}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "Compressibility effects can usually be neglected when the Mach number is below about:",
+      "question_ar": "يمكن عادةً إهمال تأثيرات الانضغاطية عندما يكون رقم ماخ أقل من حوالي:",
+      "options": [
+        "$0.3$",
+        "$1.0$",
+        "$5.0$",
+        "$2.0$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "For $M<0.3$ density variations are below about 5%.",
+      "explanation_ar": "عند $M<0.3$ تكون تغيرات الكثافة أقل من نحو 5%.",
+      "memorization_note": "يُحفظ: $M<0.3\\Rightarrow$ incompressible.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "The speed of sound in an ideal gas depends mainly on:",
+      "question_ar": "تعتمد سرعة الصوت في غاز مثالي أساساً على:",
+      "options": [
+        "Absolute temperature",
+        "Pressure only",
+        "Gas flow rate",
+        "Pipe diameter"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$a=\\sqrt{\\gamma R T}$, where $R=R_u/M_w$.",
+      "explanation_ar": "$a=\\sqrt{\\gamma R T}$ حيث $R=R_u/M_w$.",
+      "memorization_note": "يُحفظ: $$a=\\sqrt{\\gamma R T}$$ وللهواء $\\gamma=1.4$ و $R=287\\text{ J/kg}\\cdot\\text{K}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "In supersonic flow ($M>1$), increasing the flow area causes velocity to:",
+      "question_ar": "في الجريان فوق الصوتي ($M>1$)، زيادة مساحة الجريان تجعل السرعة:",
+      "options": [
+        "Become zero",
+        "Stay constant",
+        "Increase",
+        "Decrease"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The area–velocity relation $\\frac{dA}{A}=(M^2-1)\\frac{dv}{v}$: for $M>1$, $dA>0$ gives $dv>0$ (opposite to subsonic behaviour).",
+      "explanation_ar": "من العلاقة $\\frac{dA}{A}=(M^2-1)\\frac{dv}{v}$: عند $M>1$ فإن $dA>0$ تعطي $dv>0$ (عكس دون الصوتي).",
+      "memorization_note": "يُحفظ: دون صوتي: توسع → تباطؤ، فوق صوتي: توسع → تسارع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "Choked flow in a nozzle means that:",
+      "question_ar": "الجريان المخنوق (Choked flow) في فوهة يعني أن:",
+      "options": [
+        "The gas becomes liquid",
+        "The flow has stopped",
+        "Mass flow rate has reached its maximum and cannot be increased by lowering downstream pressure",
+        "Velocity is zero at the throat"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At $M=1$ at the throat, information cannot propagate upstream, so the mass flow depends only on upstream stagnation conditions.",
+      "explanation_ar": "عند $M=1$ في الحلق لا تنتقل الإشارة للأعلى فيعتمد التدفق الكتلي على ظروف الركود أمام الفوهة فقط.",
+      "memorization_note": "يُحفظ: $\\dot m_{\\max}=A^*P_0\\sqrt{\\frac{\\gamma}{RT_0}}\\left(\\frac{2}{\\gamma+1}\\right)^{\\frac{\\gamma+1}{2(\\gamma-1)}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "The critical pressure ratio $\\frac{P^*}{P_0}$ for choking of air ($\\gamma=1.4$) is approximately:",
+      "question_ar": "نسبة الضغط الحرجة $\\frac{P^*}{P_0}$ لاختناق الهواء ($\\gamma=1.4$) تقريباً:",
+      "options": [
+        "$1.893$",
+        "$0.833$",
+        "$0.1$",
+        "$0.528$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\frac{P^*}{P_0}=\\left(\\frac{2}{\\gamma+1}\\right)^{\\frac{\\gamma}{\\gamma-1}}=0.528$.",
+      "explanation_ar": "$\\frac{P^*}{P_0}=\\left(\\frac{2}{\\gamma+1}\\right)^{\\frac{\\gamma}{\\gamma-1}}=0.528$.",
+      "memorization_note": "يُحفظ: $$\\frac{P^*}{P_0}=\\left(\\frac{2}{\\gamma+1}\\right)^{\\frac{\\gamma}{\\gamma-1}}\\approx0.528$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "The maximum Mach number that can be reached at the exit of a purely converging nozzle is:",
+      "question_ar": "أقصى رقم ماخ يمكن بلوغه عند مخرج فوهة متقاربة فقط (Converging) هو:",
+      "options": [
+        "$M=1$",
+        "$M=0.5$",
+        "$M=\\infty$",
+        "$M=2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A converging nozzle can accelerate flow only up to sonic conditions at its exit; supersonic flow requires a diverging section after the throat.",
+      "explanation_ar": "الفوهة المتقاربة تُسرّع الجريان حتى الحالة الصوتية عند المخرج؛ الجريان فوق الصوتي يحتاج جزءاً متباعداً بعد الحلق.",
+      "memorization_note": "يُحفظ: Converging: $M\\le1$ ، Laval (C-D): $M>1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "The stagnation temperature of a gas flowing at Mach $M$ and static temperature $T$ is:",
+      "question_ar": "درجة حرارة الركود لغاز يجري بـ ماخ $M$ ودرجة حرارة ساكنة $T$ هي:",
+      "options": [
+        "$T_0=T\\left(1-\\frac{\\gamma-1}{2}M^2\\right)$",
+        "$T_0=T\\,M^2$",
+        "$T_0=T\\left(1+\\frac{\\gamma-1}{2}M^2\\right)$",
+        "$T_0=T$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Stagnation temperature is always at least the static temperature because kinetic energy converts to enthalpy.",
+      "explanation_ar": "درجة حرارة الركود دائماً ≥ الساكنة لأن الطاقة الحركية تتحول إلى إنثالبي.",
+      "memorization_note": "يُحفظ: $$T_0=T\\left(1+\\frac{\\gamma-1}{2}M^2\\right)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "Idealised flow of a gas through a nozzle is usually assumed to be:",
+      "question_ar": "يُفترض عادةً أن جريان الغاز المثالي عبر فوهة يكون:",
+      "options": [
+        "Isothermal only",
+        "Constant density",
+        "Isobaric",
+        "Isentropic (adiabatic and reversible)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Short, smooth nozzles have little heat transfer and friction, so the flow is approximately adiabatic and reversible.",
+      "explanation_ar": "الفوهات القصيرة الملساء فيها انتقال حرارة واحتكاك قليلان فالجريان تقريباً أديباتي ورجوعي.",
+      "memorization_note": "يُحفظ: $\\frac{P}{\\rho^\\gamma}=\\text{const}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "What is the gauge pressure at a depth of $10\\text{ m}$ in fresh water ($\\rho=1000\\text{ kg/m}^3$, $g=9.81\\text{ m/s}^2$)?",
+      "question_ar": "ما الضغط المقاس عند عمق $10\\text{ m}$ في ماء عذب ($\\rho=1000\\text{ kg/m}^3$، $g=9.81\\text{ m/s}^2$)؟",
+      "options": [
+        "$98.1\\text{ kPa}$",
+        "$10\\text{ kPa}$",
+        "$9.81\\text{ kPa}$",
+        "$981\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P=\\rho g h=1000\\times9.81\\times10=98{,}100\\text{ Pa}=98.1\\text{ kPa}$$",
+      "explanation_ar": "$$P=\\rho g h=1000\\times9.81\\times10=98100\\text{ Pa}=98.1\\text{ kPa}$$",
+      "memorization_note": "يُحفظ: $P=\\rho g h$ و $\\rho_{\\text{water}}=1000\\text{ kg/m}^3$ و $g=9.81\\text{ m/s}^2$ (تقريباً $10\\text{ m}$ ماء $\\approx 1\\text{ atm}$).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 102,
+      "question_en": "A gauge reads $150\\text{ kPa}$ and the atmospheric pressure is $101.3\\text{ kPa}$. What is the absolute pressure?",
+      "question_ar": "مقياس يقرأ $150\\text{ kPa}$ والضغط الجوي $101.3\\text{ kPa}$. ما الضغط المطلق؟",
+      "options": [
+        "$101.3\\text{ kPa}$",
+        "$48.7\\text{ kPa}$",
+        "$251.3\\text{ kPa}$",
+        "$150\\text{ kPa}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$P_{\\text{abs}}=P_{\\text{gauge}}+P_{\\text{atm}}=150+101.3=251.3\\text{ kPa}$$",
+      "explanation_ar": "$$P_{\\text{abs}}=P_{\\text{gauge}}+P_{\\text{atm}}=150+101.3=251.3\\text{ kPa}$$",
+      "memorization_note": "يُحفظ: $P_{\\text{abs}}=P_{\\text{gauge}}+P_{\\text{atm}}$ و $P_{\\text{atm}}=101.3\\text{ kPa}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 103,
+      "question_en": "What height of mercury ($\\rho=13600\\text{ kg/m}^3$) corresponds to $101{,}325\\text{ Pa}$?",
+      "question_ar": "ما ارتفاع الزئبق ($\\rho=13600\\text{ kg/m}^3$) الذي يكافئ $101325\\text{ Pa}$؟",
+      "options": [
+        "$0.76\\text{ m}$",
+        "$0.076\\text{ m}$",
+        "$7.6\\text{ m}$",
+        "$10.33\\text{ m}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$h=\\frac{P}{\\rho g}=\\frac{101325}{13600\\times9.81}=0.76\\text{ m}$$ ($10.33\\text{ m}$ is the water-column equivalent.)",
+      "explanation_ar": "$$h=\\frac{P}{\\rho g}=\\frac{101325}{13600\\times9.81}=0.76\\text{ m}$$ (والقيمة $10.33\\text{ m}$ هي مكافئ عمود الماء).",
+      "memorization_note": "يُحفظ: $\\rho_{\\text{Hg}}=13600\\text{ kg/m}^3$ و $h=\\frac{P}{\\rho g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 104,
+      "question_en": "A mercury U-tube manometer ($\\rho_m=13600\\text{ kg/m}^3$) measuring pressure difference in a water line ($\\rho_f=1000\\text{ kg/m}^3$) shows $h=0.1\\text{ m}$. The pressure difference is approximately:",
+      "question_ar": "مانومتر زئبقي على شكل U ($\\rho_m=13600$) يقيس فرق الضغط في خط ماء ($\\rho_f=1000$) ويُظهر $h=0.1\\text{ m}$. فرق الضغط تقريباً:",
+      "options": [
+        "$12.4\\text{ kPa}$",
+        "$98.1\\text{ kPa}$",
+        "$13.3\\text{ kPa}$",
+        "$1.24\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\Delta P=(\\rho_m-\\rho_f)\\,g\\,h=(13600-1000)\\times9.81\\times0.1=12{,}361\\text{ Pa}\\approx12.4\\text{ kPa}$$ ($13.3\\text{ kPa}$ wrongly ignores the water above the mercury.)",
+      "explanation_ar": "$$\\Delta P=(\\rho_m-\\rho_f)\\,g\\,h=(13600-1000)\\times9.81\\times0.1\\approx12361\\text{ Pa}=12.4\\text{ kPa}$$ (القيمة $13.3\\text{ kPa}$ تتجاهل الماء فوق الزئبق).",
+      "memorization_note": "يُحفظ: $\\Delta P=(\\rho_m-\\rho_f)\\,g\\,h$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 105,
+      "question_en": "A fully submerged body of volume $0.02\\text{ m}^3$ is in water ($\\rho=1000\\text{ kg/m}^3$). The buoyant force is:",
+      "question_ar": "جسم مغمور كلياً حجمه $0.02\\text{ m}^3$ في ماء ($\\rho=1000\\text{ kg/m}^3$). قوة الطفو تساوي:",
+      "options": [
+        "$1962\\text{ N}$",
+        "$19.62\\text{ N}$",
+        "$20\\text{ N}$",
+        "$196.2\\text{ N}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$F_B=\\rho g V=1000\\times9.81\\times0.02=196.2\\text{ N}$$",
+      "explanation_ar": "$$F_B=\\rho g V=1000\\times9.81\\times0.02=196.2\\text{ N}$$",
+      "memorization_note": "يُحفظ: $F_B=\\rho_f g V_{\\text{disp}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 106,
+      "question_en": "A wooden block with specific gravity $0.6$ floats in water. What fraction of its volume is submerged?",
+      "question_ar": "قطعة خشب وزنها النوعي $0.6$ تطفو في الماء. ما الجزء المغمور من حجمها؟",
+      "options": [
+        "$60\\%$",
+        "$100\\%$",
+        "$40\\%$",
+        "$6\\%$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Floating: weight = buoyancy, $\\rho_bVg=\\rho_wV_sg$, so $\\frac{V_s}{V}=\\frac{\\rho_b}{\\rho_w}=SG=0.6$.",
+      "explanation_ar": "الطفو: الوزن = قوة الطفو $\\rho_bVg=\\rho_wV_sg$ فـ $\\frac{V_s}{V}=\\frac{\\rho_b}{\\rho_w}=SG=0.6$.",
+      "memorization_note": "يُحفظ: كسر الغمر $=\\frac{\\rho_{\\text{body}}}{\\rho_{\\text{fluid}}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 107,
+      "question_en": "In a hydraulic press, a force of $100\\text{ N}$ acts on a piston of area $0.01\\text{ m}^2$. What force is produced on a piston of area $0.5\\text{ m}^2$?",
+      "question_ar": "في رافعة هيدروليكية تؤثر قوة $100\\text{ N}$ على مكبس مساحته $0.01\\text{ m}^2$. ما القوة الناتجة على مكبس مساحته $0.5\\text{ m}^2$؟",
+      "options": [
+        "$5000\\text{ N}$",
+        "$2000\\text{ N}$",
+        "$50\\text{ N}$",
+        "$500\\text{ N}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$F_2=F_1\\frac{A_2}{A_1}=100\\times\\frac{0.5}{0.01}=5000\\text{ N}$$",
+      "explanation_ar": "$$F_2=F_1\\frac{A_2}{A_1}=100\\times\\frac{0.5}{0.01}=5000\\text{ N}$$",
+      "memorization_note": "يُحفظ: $\\frac{F_1}{A_1}=\\frac{F_2}{A_2}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 108,
+      "question_en": "Water flows at $2\\text{ m/s}$ in a pipe of diameter $0.1\\text{ m}$. The volumetric flow rate is:",
+      "question_ar": "ماء يجري بسرعة $2\\text{ m/s}$ في أنبوب قطره $0.1\\text{ m}$. معدل الجريان الحجمي:",
+      "options": [
+        "$0.0157\\text{ m}^3/\\text{s}$",
+        "$0.157\\text{ m}^3/\\text{s}$",
+        "$0.0079\\text{ m}^3/\\text{s}$",
+        "$0.0314\\text{ m}^3/\\text{s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$Q=\\frac{\\pi D^2}{4}v=\\frac{\\pi(0.1)^2}{4}\\times2=0.0157\\text{ m}^3/\\text{s}$$",
+      "explanation_ar": "$$Q=\\frac{\\pi D^2}{4}v=\\frac{\\pi(0.1)^2}{4}\\times2=0.0157\\text{ m}^3/\\text{s}$$",
+      "memorization_note": "يُحفظ: $Q=Av$ و $A=\\frac{\\pi D^2}{4}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 109,
+      "question_en": "Water flows at $1\\text{ m/s}$ in a $0.2\\text{ m}$ diameter pipe that reduces to $0.1\\text{ m}$. The velocity in the smaller pipe is:",
+      "question_ar": "ماء يجري بسرعة $1\\text{ m/s}$ في أنبوب قطره $0.2\\text{ m}$ يتضيق إلى $0.1\\text{ m}$. السرعة في الأنبوب الأصغر:",
+      "options": [
+        "$8\\text{ m/s}$",
+        "$2\\text{ m/s}$",
+        "$4\\text{ m/s}$",
+        "$0.25\\text{ m/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2=1\\times\\left(\\frac{0.2}{0.1}\\right)^2=4\\text{ m/s}$$",
+      "explanation_ar": "$$v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2=1\\times\\left(\\frac{0.2}{0.1}\\right)^2=4\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 110,
+      "question_en": "Water flows at $0.01\\text{ m}^3/\\text{s}$. The mass flow rate is:",
+      "question_ar": "ماء يجري بمعدل $0.01\\text{ m}^3/\\text{s}$. معدل الجريان الكتلي:",
+      "options": [
+        "$1\\text{ kg/s}$",
+        "$100\\text{ kg/s}$",
+        "$10\\text{ kg/s}$",
+        "$0.01\\text{ kg/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\dot m=\\rho Q=1000\\times0.01=10\\text{ kg/s}$$",
+      "explanation_ar": "$$\\dot m=\\rho Q=1000\\times0.01=10\\text{ kg/s}$$",
+      "memorization_note": "يُحفظ: $\\dot m=\\rho Q$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 111,
+      "question_en": "Water flows at $0.02\\text{ m}^3/\\text{s}$ through a pipe of cross-sectional area $0.01\\text{ m}^2$. The average velocity is:",
+      "question_ar": "ماء يجري بمعدل $0.02\\text{ m}^3/\\text{s}$ في أنبوب مساحة مقطعه $0.01\\text{ m}^2$. السرعة المتوسطة:",
+      "options": [
+        "$0.0002\\text{ m/s}$",
+        "$20\\text{ m/s}$",
+        "$2\\text{ m/s}$",
+        "$0.5\\text{ m/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$v=\\frac{Q}{A}=\\frac{0.02}{0.01}=2\\text{ m/s}$$",
+      "explanation_ar": "$$v=\\frac{Q}{A}=\\frac{0.02}{0.01}=2\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v=\\frac{Q}{A}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 112,
+      "question_en": "Water drains through a small hole at a depth $h=5\\text{ m}$ below the free surface of a large open tank. The ideal exit velocity (Torricelli) is:",
+      "question_ar": "ماء يتدفق من فتحة صغيرة على عمق $h=5\\text{ m}$ تحت السطح الحر لخزان مفتوح كبير. سرعة الخروج المثالية (توريشيلي):",
+      "options": [
+        "$49\\text{ m/s}$",
+        "$4.9\\text{ m/s}$",
+        "$9.9\\text{ m/s}$",
+        "$19.8\\text{ m/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$v=\\sqrt{2gh}=\\sqrt{2\\times9.81\\times5}=9.9\\text{ m/s}$$",
+      "explanation_ar": "$$v=\\sqrt{2gh}=\\sqrt{2\\times9.81\\times5}=9.9\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $$v=\\sqrt{2gh}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 113,
+      "question_en": "A Pitot tube in a water stream measures a pressure difference $P_0-P=2\\text{ kPa}$. The flow velocity is:",
+      "question_ar": "أنبوب بيتو في جدول ماء يقيس فرق ضغط $P_0-P=2\\text{ kPa}$. سرعة الجريان:",
+      "options": [
+        "$4\\text{ m/s}$",
+        "$1\\text{ m/s}$",
+        "$63\\text{ m/s}$",
+        "$2\\text{ m/s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$v=\\sqrt{\\frac{2\\Delta P}{\\rho}}=\\sqrt{\\frac{2\\times2000}{1000}}=2\\text{ m/s}$$",
+      "explanation_ar": "$$v=\\sqrt{\\frac{2\\Delta P}{\\rho}}=\\sqrt{\\frac{2\\times2000}{1000}}=2\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v=\\sqrt{\\frac{2\\Delta P}{\\rho}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 114,
+      "question_en": "What is the dynamic pressure of water ($\\rho=1000\\text{ kg/m}^3$) flowing at $10\\text{ m/s}$?",
+      "question_ar": "ما الضغط الديناميكي للماء ($\\rho=1000\\text{ kg/m}^3$) المتدفق بسرعة $10\\text{ m/s}$؟",
+      "options": [
+        "$50\\text{ kPa}$",
+        "$10\\text{ kPa}$",
+        "$100\\text{ kPa}$",
+        "$5\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\frac12\\rho v^2=0.5\\times1000\\times10^2=50{,}000\\text{ Pa}=50\\text{ kPa}$$",
+      "explanation_ar": "$$\\frac12\\rho v^2=0.5\\times1000\\times10^2=50000\\text{ Pa}=50\\text{ kPa}$$",
+      "memorization_note": "يُحفظ: $q=\\frac12\\rho v^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 115,
+      "question_en": "What is the velocity head for a flow at $v=4.43\\text{ m/s}$ ($g=9.81\\text{ m/s}^2$)?",
+      "question_ar": "ما رأس السرعة لجريان بسرعة $v=4.43\\text{ m/s}$ ($g=9.81\\text{ m/s}^2$)؟",
+      "options": [
+        "$2.0\\text{ m}$",
+        "$1.0\\text{ m}$",
+        "$4.43\\text{ m}$",
+        "$0.5\\text{ m}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\frac{v^2}{2g}=\\frac{4.43^2}{2\\times9.81}=\\frac{19.62}{19.62}=1.0\\text{ m}$$",
+      "explanation_ar": "$$\\frac{v^2}{2g}=\\frac{4.43^2}{2\\times9.81}=\\frac{19.62}{19.62}=1.0\\text{ m}$$",
+      "memorization_note": "يُحفظ: رأس السرعة $\\frac{v^2}{2g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 116,
+      "question_en": "Water flows in a horizontal pipe from a section with $v_1=2\\text{ m/s}$ to a narrower section with $v_2=4\\text{ m/s}$. The pressure drop $P_1-P_2$ is:",
+      "question_ar": "ماء يجري في أنبوب أفقي من مقطع $v_1=2\\text{ m/s}$ إلى مقطع أضيق $v_2=4\\text{ m/s}$. هبوط الضغط $P_1-P_2$ يساوي:",
+      "options": [
+        "$3\\text{ kPa}$",
+        "$6\\text{ kPa}$",
+        "$12\\text{ kPa}$",
+        "$2\\text{ kPa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P_1-P_2=\\frac12\\rho(v_2^2-v_1^2)=0.5\\times1000\\times(16-4)=6000\\text{ Pa}$$",
+      "explanation_ar": "$$P_1-P_2=\\frac12\\rho(v_2^2-v_1^2)=0.5\\times1000\\times(16-4)=6000\\text{ Pa}$$",
+      "memorization_note": "يُحفظ: $P_1-P_2=\\frac12\\rho(v_2^2-v_1^2)$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 117,
+      "question_en": "Water ($\\rho=1000\\text{ kg/m}^3$, $\\mu=0.001\\text{ Pa}\\cdot\\text{s}$) flows at $1\\text{ m/s}$ in a $0.05\\text{ m}$ pipe. The Reynolds number is:",
+      "question_ar": "ماء ($\\rho=1000$، $\\mu=0.001\\text{ Pa}\\cdot\\text{s}$) يجري بسرعة $1\\text{ m/s}$ في أنبوب قطره $0.05\\text{ m}$. رقم رينولدز:",
+      "options": [
+        "$5000$",
+        "$50{,}000$",
+        "$500{,}000$",
+        "$50$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$Re=\\frac{\\rho vD}{\\mu}=\\frac{1000\\times1\\times0.05}{0.001}=50{,}000$$ (turbulent).",
+      "explanation_ar": "$$Re=\\frac{\\rho vD}{\\mu}=\\frac{1000\\times1\\times0.05}{0.001}=50000$$ (مضطرب).",
+      "memorization_note": "يُحفظ: $Re=\\frac{\\rho vD}{\\mu}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 118,
+      "question_en": "Oil ($\\rho=900\\text{ kg/m}^3$, $\\mu=0.09\\text{ Pa}\\cdot\\text{s}$) flows at $0.5\\text{ m/s}$ in a $0.02\\text{ m}$ tube. The Reynolds number and regime are:",
+      "question_ar": "زيت ($\\rho=900$، $\\mu=0.09\\text{ Pa}\\cdot\\text{s}$) يجري بسرعة $0.5\\text{ m/s}$ في أنبوب قطره $0.02\\text{ m}$. رقم رينولدز ونوع الجريان:",
+      "options": [
+        "$Re=100{,}000$, turbulent",
+        "$Re=100$, laminar",
+        "$Re=10$, turbulent",
+        "$Re=100$, turbulent"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$Re=\\frac{900\\times0.5\\times0.02}{0.09}=100<2100\\Rightarrow\\text{laminar}$$",
+      "explanation_ar": "$$Re=\\frac{900\\times0.5\\times0.02}{0.09}=100<2100\\Rightarrow\\text{صفائحي}$$",
+      "memorization_note": "يُحفظ: $Re<2100$ صفائحي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 119,
+      "question_en": "The Darcy friction factor for laminar flow at $Re=1600$ is:",
+      "question_ar": "معامل احتكاك دارسي للجريان الصفائحي عند $Re=1600$ هو:",
+      "options": [
+        "$0.4$",
+        "$0.025$",
+        "$0.004$",
+        "$0.04$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$f=\\frac{64}{Re}=\\frac{64}{1600}=0.04$$",
+      "explanation_ar": "$$f=\\frac{64}{Re}=\\frac{64}{1600}=0.04$$",
+      "memorization_note": "يُحفظ: $f=\\frac{64}{Re}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 120,
+      "question_en": "Find the head loss for water in a pipe with $f=0.02$, $L=100\\text{ m}$, $D=0.1\\text{ m}$, $v=2\\text{ m/s}$.",
+      "question_ar": "احسب خسارة الرأس لماء في أنبوب بـ $f=0.02$ و $L=100\\text{ m}$ و $D=0.1\\text{ m}$ و $v=2\\text{ m/s}$.",
+      "options": [
+        "$40.8\\text{ m}$",
+        "$8.15\\text{ m}$",
+        "$0.41\\text{ m}$",
+        "$4.08\\text{ m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$h_f=f\\frac{L}{D}\\frac{v^2}{2g}=0.02\\times\\frac{100}{0.1}\\times\\frac{4}{19.62}=4.08\\text{ m}$$",
+      "explanation_ar": "$$h_f=f\\frac{L}{D}\\frac{v^2}{2g}=0.02\\times\\frac{100}{0.1}\\times\\frac{4}{19.62}=4.08\\text{ m}$$",
+      "memorization_note": "يُحفظ: $h_f=f\\frac{L}{D}\\frac{v^2}{2g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 121,
+      "question_en": "A Fanning friction factor is $0.005$. The corresponding Darcy friction factor is:",
+      "question_ar": "معامل احتكاك فانينغ يساوي $0.005$. فما معامل دارسي المقابل؟",
+      "options": [
+        "$0.2$",
+        "$0.02$",
+        "$0.005$",
+        "$0.00125$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$f_D=4f_F=4\\times0.005=0.02$$",
+      "explanation_ar": "$$f_D=4f_F=4\\times0.005=0.02$$",
+      "memorization_note": "يُحفظ: $f_D=4f_F$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 122,
+      "question_en": "What is the hydraulic diameter of an annulus with outer diameter $0.10\\text{ m}$ and inner diameter $0.06\\text{ m}$?",
+      "question_ar": "ما القطر الهيدروليكي لحلقة (Annulus) قطرها الخارجي $0.10\\text{ m}$ والداخلي $0.06\\text{ m}$؟",
+      "options": [
+        "$0.08\\text{ m}$",
+        "$0.04\\text{ m}$",
+        "$0.16\\text{ m}$",
+        "$0.02\\text{ m}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$D_h=\\frac{4A}{P_w}=\\frac{4\\cdot\\frac{\\pi}{4}(D_o^2-D_i^2)}{\\pi(D_o+D_i)}=D_o-D_i=0.04\\text{ m}$$",
+      "explanation_ar": "$$D_h=\\frac{4A}{P_w}=D_o-D_i=0.04\\text{ m}$$",
+      "memorization_note": "يُحفظ: حلقة: $D_h=D_o-D_i$، مربع: $D_h=\\text{الضلع}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 123,
+      "question_en": "In laminar flow the average velocity is $0.5\\text{ m/s}$. The centreline velocity is:",
+      "question_ar": "في جريان صفائحي السرعة المتوسطة $0.5\\text{ m/s}$. سرعة المحور:",
+      "options": [
+        "$1.5\\text{ m/s}$",
+        "$1.0\\text{ m/s}$",
+        "$0.25\\text{ m/s}$",
+        "$0.5\\text{ m/s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$v_{\\max}=2\\bar v=1.0\\text{ m/s}$$",
+      "explanation_ar": "$$v_{\\max}=2\\bar v=1.0\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v_{\\max}=2\\bar v$ (صفائحي).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 124,
+      "question_en": "For laminar flow in a given pipe, if the velocity is doubled the pressure drop:",
+      "question_ar": "في جريان صفائحي داخل أنبوب معين، إذا تضاعفت السرعة فإن هبوط الضغط:",
+      "options": [
+        "Stays the same",
+        "Halves",
+        "Quadruples",
+        "Doubles"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\Delta P=\\frac{32\\mu Lv}{D^2}\\propto v$.",
+      "explanation_ar": "$\\Delta P=\\frac{32\\mu Lv}{D^2}\\propto v$.",
+      "memorization_note": "يُحفظ: صفائحي $\\Delta P\\propto v$، مضطرب $\\Delta P\\propto v^2$ تقريباً.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 125,
+      "question_en": "For laminar flow at constant flow rate $Q$, if the pipe diameter is doubled, the pressure drop changes by a factor of:",
+      "question_ar": "في جريان صفائحي بمعدل ثابت $Q$، إذا تضاعف قطر الأنبوب فإن هبوط الضغط يتغير بمعامل:",
+      "options": [
+        "$\\frac{1}{16}$",
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{2}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\Delta P=\\frac{128\\mu LQ}{\\pi D^4}\\propto\\frac{1}{D^4}\\Rightarrow\\frac{1}{2^4}=\\frac{1}{16}$$",
+      "explanation_ar": "$$\\Delta P=\\frac{128\\mu LQ}{\\pi D^4}\\propto\\frac{1}{D^4}\\Rightarrow\\frac{1}{2^4}=\\frac{1}{16}$$",
+      "memorization_note": "يُحفظ: $\\Delta P\\propto\\frac{1}{D^4}$ (صفائحي، $Q$ ثابت).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 126,
+      "question_en": "A pipe flow ($v=4\\text{ m/s}$) passes a sharp-edged entrance with $K=0.5$. The minor loss is:",
+      "question_ar": "جريان في أنبوب ($v=4\\text{ m/s}$) يمر بمدخل حاد الحواف $K=0.5$. الخسارة الثانوية:",
+      "options": [
+        "$0.20\\text{ m}$",
+        "$4.08\\text{ m}$",
+        "$0.41\\text{ m}$",
+        "$0.82\\text{ m}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$h_m=K\\frac{v^2}{2g}=0.5\\times\\frac{16}{19.62}=0.41\\text{ m}$$",
+      "explanation_ar": "$$h_m=K\\frac{v^2}{2g}=0.5\\times\\frac{16}{19.62}=0.41\\text{ m}$$",
+      "memorization_note": "يُحفظ: $h_m=K\\frac{v^2}{2g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 127,
+      "question_en": "A valve has $K=10$ in a pipe with $D=0.1\\text{ m}$ and $f=0.02$. Its equivalent length is:",
+      "question_ar": "صمام معامل خسارته $K=10$ في أنبوب $D=0.1\\text{ m}$ و $f=0.02$. طوله المكافئ:",
+      "options": [
+        "$500\\text{ m}$",
+        "$5\\text{ m}$",
+        "$50\\text{ m}$",
+        "$0.5\\text{ m}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$L_{eq}=\\frac{KD}{f}=\\frac{10\\times0.1}{0.02}=50\\text{ m}$$",
+      "explanation_ar": "$$L_{eq}=\\frac{KD}{f}=\\frac{10\\times0.1}{0.02}=50\\text{ m}$$",
+      "memorization_note": "يُحفظ: $L_{eq}=\\frac{KD}{f}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 128,
+      "question_en": "Water leaves a pipe at $3\\text{ m/s}$ into a large tank (sudden exit, $K=1$). The exit loss is:",
+      "question_ar": "ماء يخرج من أنبوب بسرعة $3\\text{ m/s}$ إلى خزان كبير (خروج مفاجئ $K=1$). خسارة الخروج:",
+      "options": [
+        "$0.23\\text{ m}$",
+        "$4.6\\text{ m}$",
+        "$0.92\\text{ m}$",
+        "$0.46\\text{ m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$h_m=K\\frac{v^2}{2g}=1\\times\\frac{9}{19.62}=0.46\\text{ m}$$",
+      "explanation_ar": "$$h_m=K\\frac{v^2}{2g}=1\\times\\frac{9}{19.62}=0.46\\text{ m}$$",
+      "memorization_note": "يُحفظ: $h_m=K\\frac{v^2}{2g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 129,
+      "question_en": "An orifice meter with $C_d=0.6$ and orifice area $0.001\\text{ m}^2$ has $\\Delta P=20\\text{ kPa}$ across it (water, ignore approach velocity). The flow rate is:",
+      "question_ar": "عداد Orifice بـ $C_d=0.6$ ومساحة فتحة $0.001\\text{ m}^2$ ويقيس $\\Delta P=20\\text{ kPa}$ (ماء، أهمل سرعة الاقتراب). معدل الجريان:",
+      "options": [
+        "$3.8\\times10^{-2}\\text{ m}^3/\\text{s}$",
+        "$3.8\\times10^{-3}\\text{ m}^3/\\text{s}$",
+        "$6.3\\times10^{-3}\\text{ m}^3/\\text{s}$",
+        "$1.9\\times10^{-3}\\text{ m}^3/\\text{s}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$Q=C_dA\\sqrt{\\frac{2\\Delta P}{\\rho}}=0.6\\times0.001\\times\\sqrt{\\frac{2\\times20000}{1000}}=3.8\\times10^{-3}\\text{ m}^3/\\text{s}$$",
+      "explanation_ar": "$$Q=C_dA\\sqrt{\\frac{2\\Delta P}{\\rho}}=0.6\\times0.001\\times\\sqrt{40}=3.8\\times10^{-3}\\text{ m}^3/\\text{s}$$",
+      "memorization_note": "يُحفظ: $Q=C_dA\\sqrt{\\frac{2\\Delta P}{\\rho}}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 130,
+      "question_en": "If the pressure drop across an orifice meter is increased four times, the flow rate becomes:",
+      "question_ar": "إذا زاد هبوط الضغط عبر عداد Orifice أربعة أضعاف فإن معدل الجريان يصبح:",
+      "options": [
+        "$2\\times$",
+        "$4\\times$",
+        "$\\frac12\\times$",
+        "$16\\times$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q\\propto\\sqrt{\\Delta P}\\Rightarrow\\sqrt{4}=2$.",
+      "explanation_ar": "$Q\\propto\\sqrt{\\Delta P}\\Rightarrow\\sqrt{4}=2$.",
+      "memorization_note": "يُحفظ: $Q\\propto\\sqrt{\\Delta P}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 131,
+      "question_en": "A Venturi meter has an inlet diameter $0.1\\text{ m}$ and throat diameter $0.05\\text{ m}$. If the inlet velocity is $1\\text{ m/s}$, the throat velocity is:",
+      "question_ar": "عداد فنتوري قطر مدخله $0.1\\text{ m}$ وقطر حلقه $0.05\\text{ m}$. إذا كانت سرعة المدخل $1\\text{ m/s}$ فإن سرعة الحلق:",
+      "options": [
+        "$2\\text{ m/s}$",
+        "$8\\text{ m/s}$",
+        "$0.25\\text{ m/s}$",
+        "$4\\text{ m/s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2=1\\times4=4\\text{ m/s}$$",
+      "explanation_ar": "$$v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2=1\\times4=4\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v_2=v_1\\left(\\frac{D_1}{D_2}\\right)^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 132,
+      "question_en": "A pump raises the pressure of water by $300\\text{ kPa}$. The pump head is:",
+      "question_ar": "مضخة ترفع ضغط الماء بمقدار $300\\text{ kPa}$. رأس المضخة:",
+      "options": [
+        "$300\\text{ m}$",
+        "$306\\text{ m}$",
+        "$30.6\\text{ m}$",
+        "$3.06\\text{ m}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$H=\\frac{\\Delta P}{\\rho g}=\\frac{300000}{1000\\times9.81}=30.6\\text{ m}$$",
+      "explanation_ar": "$$H=\\frac{\\Delta P}{\\rho g}=\\frac{300000}{1000\\times9.81}=30.6\\text{ m}$$",
+      "memorization_note": "يُحفظ: $H=\\frac{\\Delta P}{\\rho g}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 133,
+      "question_en": "A pump delivers $0.01\\text{ m}^3/\\text{s}$ of water against a head of $20\\text{ m}$. The hydraulic power is:",
+      "question_ar": "مضخة تعطي $0.01\\text{ m}^3/\\text{s}$ ماء ضد رأس $20\\text{ m}$. القدرة الهيدروليكية:",
+      "options": [
+        "$1.96\\text{ kW}$",
+        "$19.6\\text{ kW}$",
+        "$0.196\\text{ kW}$",
+        "$9.81\\text{ kW}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P_h=\\rho gQH=1000\\times9.81\\times0.01\\times20=1962\\text{ W}=1.96\\text{ kW}$$",
+      "explanation_ar": "$$P_h=\\rho gQH=1000\\times9.81\\times0.01\\times20=1962\\text{ W}=1.96\\text{ kW}$$",
+      "memorization_note": "يُحفظ: $P_h=\\rho gQH$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 134,
+      "question_en": "The hydraulic power of a pump is $2\\text{ kW}$ and its efficiency is $80\\%$. The shaft power required is:",
+      "question_ar": "القدرة الهيدروليكية لمضخة $2\\text{ kW}$ وكفاءتها $80\\%$. القدرة المطلوبة على العمود:",
+      "options": [
+        "$1.6\\text{ kW}$",
+        "$0.8\\text{ kW}$",
+        "$2.0\\text{ kW}$",
+        "$2.5\\text{ kW}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P_{\\text{shaft}}=\\frac{P_h}{\\eta}=\\frac{2}{0.8}=2.5\\text{ kW}$$",
+      "explanation_ar": "$$P_{\\text{shaft}}=\\frac{P_h}{\\eta}=\\frac{2}{0.8}=2.5\\text{ kW}$$",
+      "memorization_note": "يُحفظ: $P_{\\text{shaft}}=\\frac{P_h}{\\eta}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 135,
+      "question_en": "If the speed of a centrifugal pump is doubled, the power required changes by a factor of:",
+      "question_ar": "إذا تضاعفت سرعة مضخة طاردة مركزية فإن القدرة المطلوبة تتغير بمعامل:",
+      "options": [
+        "$2$",
+        "$4$",
+        "$8$",
+        "$16$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Affinity laws: $P\\propto N^3\\Rightarrow 2^3=8$.",
+      "explanation_ar": "قوانين التشابه: $P\\propto N^3\\Rightarrow 2^3=8$.",
+      "memorization_note": "يُحفظ: $\\frac{P_2}{P_1}=\\left(\\frac{N_2}{N_1}\\right)^3$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 136,
+      "question_en": "A pump delivers $100\\text{ m}^3/\\text{h}$ at $1500\\text{ rpm}$. At $1200\\text{ rpm}$ (same pump) the flow is:",
+      "question_ar": "مضخة تعطي $100\\text{ m}^3/\\text{h}$ عند $1500\\text{ rpm}$. عند $1200\\text{ rpm}$ (نفس المضخة) يكون الجريان:",
+      "options": [
+        "$125\\text{ m}^3/\\text{h}$",
+        "$64\\text{ m}^3/\\text{h}$",
+        "$120\\text{ m}^3/\\text{h}$",
+        "$80\\text{ m}^3/\\text{h}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$Q_2=Q_1\\frac{N_2}{N_1}=100\\times\\frac{1200}{1500}=80\\text{ m}^3/\\text{h}$$",
+      "explanation_ar": "$$Q_2=Q_1\\frac{N_2}{N_1}=100\\times\\frac{1200}{1500}=80\\text{ m}^3/\\text{h}$$",
+      "memorization_note": "يُحفظ: $\\frac{Q_2}{Q_1}=\\frac{N_2}{N_1}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 137,
+      "question_en": "A pump draws water from an open tank at atmospheric pressure ($101.3\\text{ kPa}$), with a static suction head of $+2\\text{ m}$ (liquid above pump), friction loss $0.5\\text{ m}$, and vapor pressure $3\\text{ kPa}$. $NPSH_A$ is approximately:",
+      "question_ar": "مضخة تسحب ماءً من خزان مفتوح عند الضغط الجوي ($101.3\\text{ kPa}$) برأس سحب ساكن $+2\\text{ m}$ (السائل أعلى المضخة) وخسارة احتكاك $0.5\\text{ m}$ وضغط بخار $3\\text{ kPa}$. قيمة $NPSH_A$ تقريباً:",
+      "options": [
+        "$12.0\\text{ m}$",
+        "$11.5\\text{ m}$",
+        "$7.5\\text{ m}$",
+        "$8.0\\text{ m}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$NPSH_A=\\frac{P_{atm}-P_v}{\\rho g}+z-h_f=\\frac{101300-3000}{9810}+2-0.5=10.02+1.5\\approx11.5\\text{ m}$$",
+      "explanation_ar": "$$NPSH_A=\\frac{P_{atm}-P_v}{\\rho g}+z-h_f=\\frac{101300-3000}{9810}+2-0.5\\approx11.5\\text{ m}$$",
+      "memorization_note": "يُحفظ: $NPSH_A=\\frac{P_{atm}-P_v}{\\rho g}+z_s-h_f$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 138,
+      "question_en": "A pump has $NPSH_R=7\\text{ m}$ and the system provides $NPSH_A=5\\text{ m}$. What is expected?",
+      "question_ar": "مضخة لها $NPSH_R=7\\text{ m}$ والمنظومة تعطي $NPSH_A=5\\text{ m}$. ماذا يُتوقع؟",
+      "options": [
+        "Cavitation is likely",
+        "The pump operates safely",
+        "Flow rate doubles",
+        "The pump gets more efficient"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$NPSH_A<NPSH_R$, so cavitation will occur.",
+      "explanation_ar": "بما أن $NPSH_A<NPSH_R$ فسيحدث تكهف.",
+      "memorization_note": "يُحفظ: أمان: $NPSH_A>NPSH_R$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 139,
+      "question_en": "Find the Stokes terminal velocity of a $100\\ \\mu\\text{m}$ sphere ($\\rho_p=2500\\text{ kg/m}^3$) in water ($\\rho=1000\\text{ kg/m}^3$, $\\mu=0.001\\text{ Pa}\\cdot\\text{s}$).",
+      "question_ar": "احسب سرعة ستوكس النهائية لكرة قطرها $100\\ \\mu\\text{m}$ ($\\rho_p=2500$) في ماء ($\\rho=1000$، $\\mu=0.001\\text{ Pa}\\cdot\\text{s}$).",
+      "options": [
+        "$0.82\\text{ mm/s}$",
+        "$15\\text{ mm/s}$",
+        "$82\\text{ mm/s}$",
+        "$8.2\\text{ mm/s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}=\\frac{9.81\\times(10^{-4})^2\\times1500}{18\\times0.001}=8.2\\times10^{-3}\\text{ m/s}$$ Check $Re_p=0.8<1$, so Stokes applies.",
+      "explanation_ar": "$$v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}=\\frac{9.81\\times10^{-8}\\times1500}{0.018}=8.2\\times10^{-3}\\text{ m/s}$$ والتحقق $Re_p=0.8<1$ فستوكس صالح.",
+      "memorization_note": "يُحفظ: $v_t=\\frac{g d^2(\\rho_p-\\rho_f)}{18\\mu}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 140,
+      "question_en": "Stokes drag on a $0.1\\text{ mm}$ sphere moving at $0.01\\text{ m/s}$ in water ($\\mu=0.001\\text{ Pa}\\cdot\\text{s}$) is:",
+      "question_ar": "قوة سحب ستوكس على كرة $0.1\\text{ mm}$ تتحرك بسرعة $0.01\\text{ m/s}$ في ماء ($\\mu=0.001\\text{ Pa}\\cdot\\text{s}$):",
+      "options": [
+        "$9.42\\times10^{-6}\\text{ N}$",
+        "$9.42\\times10^{-9}\\text{ N}$",
+        "$9.42\\times10^{-12}\\text{ N}$",
+        "$3.0\\times10^{-9}\\text{ N}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$F_D=3\\pi\\mu dv=3\\pi\\times0.001\\times10^{-4}\\times0.01=9.42\\times10^{-9}\\text{ N}$$",
+      "explanation_ar": "$$F_D=3\\pi\\mu dv=3\\pi\\times0.001\\times10^{-4}\\times0.01=9.42\\times10^{-9}\\text{ N}$$",
+      "memorization_note": "يُحفظ: $F_D=3\\pi\\mu dv$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 141,
+      "question_en": "If the particle diameter is tripled (Stokes regime), the terminal velocity increases by a factor of:",
+      "question_ar": "إذا تضاعف قطر الجسيم ثلاث مرات (نظام ستوكس) فإن السرعة النهائية تزداد بمعامل:",
+      "options": [
+        "$3$",
+        "$27$",
+        "$9$",
+        "$6$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$v_t\\propto d^2\\Rightarrow3^2=9$.",
+      "explanation_ar": "$v_t\\propto d^2\\Rightarrow3^2=9$.",
+      "memorization_note": "يُحفظ: $v_t\\propto d^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 142,
+      "question_en": "A fluidized bed of cross-section $0.5\\text{ m}^2$ has a net (buoyant) particle weight of $5000\\text{ N}$. The pressure drop across the bed is:",
+      "question_ar": "طبقة مميّعة مساحة مقطعها $0.5\\text{ m}^2$ ووزن الجسيمات الصافي (بعد الطفو) $5000\\text{ N}$. هبوط الضغط عبر الطبقة:",
+      "options": [
+        "$5\\text{ kPa}$",
+        "$2.5\\text{ kPa}$",
+        "$25\\text{ kPa}$",
+        "$10\\text{ kPa}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\Delta P=\\frac{W_{\\text{net}}}{A}=\\frac{5000}{0.5}=10{,}000\\text{ Pa}=10\\text{ kPa}$$",
+      "explanation_ar": "$$\\Delta P=\\frac{W_{\\text{net}}}{A}=\\frac{5000}{0.5}=10000\\text{ Pa}=10\\text{ kPa}$$",
+      "memorization_note": "يُحفظ: $\\Delta P=\\frac{W_{\\text{net}}}{A}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 143,
+      "question_en": "In the low-flow (viscous) region of a packed bed (Blake–Kozeny), if the superficial velocity is doubled the pressure drop:",
+      "question_ar": "في منطقة الجريان البطيء (اللزج) لطبقة مرصوصة (Blake–Kozeny)، إذا تضاعفت السرعة السطحية فإن هبوط الضغط:",
+      "options": [
+        "Doubles",
+        "Halves",
+        "Is unchanged",
+        "Quadruples"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The viscous term is linear in superficial velocity: $\\frac{\\Delta P}{L}\\propto u$.",
+      "explanation_ar": "الحد اللزج خطي مع السرعة السطحية: $\\frac{\\Delta P}{L}\\propto u$.",
+      "memorization_note": "يُحفظ: منخفض $Re$: $\\Delta P\\propto u$ ، عالٍ: $\\Delta P\\propto u^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 144,
+      "question_en": "A gas flows at $170\\text{ m/s}$ where the speed of sound is $340\\text{ m/s}$. The Mach number and regime are:",
+      "question_ar": "غاز يجري بسرعة $170\\text{ m/s}$ حيث سرعة الصوت $340\\text{ m/s}$. رقم ماخ ونوع الجريان:",
+      "options": [
+        "$M=0.5$, subsonic",
+        "$M=1$, sonic",
+        "$M=2$, supersonic",
+        "$M=0.25$, subsonic"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$M=\\frac{v}{a}=\\frac{170}{340}=0.5<1\\Rightarrow\\text{subsonic}$$",
+      "explanation_ar": "$$M=\\frac{v}{a}=\\frac{170}{340}=0.5<1\\Rightarrow\\text{دون صوتي}$$",
+      "memorization_note": "يُحفظ: $M=\\frac{v}{a}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 145,
+      "question_en": "The speed of sound in air at $300\\text{ K}$ ($\\gamma=1.4$, $R=287\\text{ J/kg}\\cdot\\text{K}$) is:",
+      "question_ar": "سرعة الصوت في الهواء عند $300\\text{ K}$ ($\\gamma=1.4$، $R=287\\text{ J/kg}\\cdot\\text{K}$):",
+      "options": [
+        "$347\\text{ m/s}$",
+        "$20\\text{ m/s}$",
+        "$1250\\text{ m/s}$",
+        "$120\\text{ m/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$a=\\sqrt{\\gamma RT}=\\sqrt{1.4\\times287\\times300}=347\\text{ m/s}$$",
+      "explanation_ar": "$$a=\\sqrt{\\gamma RT}=\\sqrt{1.4\\times287\\times300}=347\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $a=\\sqrt{\\gamma RT}$ ، $R_{\\text{air}}=287$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 146,
+      "question_en": "Air ($\\gamma=1.4$) flows through a converging nozzle with stagnation pressure $500\\text{ kPa}$ (absolute). The throat pressure at choking is:",
+      "question_ar": "هواء ($\\gamma=1.4$) يجري عبر فوهة متقاربة وضغط الركود $500\\text{ kPa}$ (مطلق). ضغط الحلق عند الاختناق:",
+      "options": [
+        "$264\\text{ kPa}$",
+        "$100\\text{ kPa}$",
+        "$400\\text{ kPa}$",
+        "$947\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P^*=0.528\\,P_0=0.528\\times500=264\\text{ kPa}$$",
+      "explanation_ar": "$$P^*=0.528\\,P_0=0.528\\times500=264\\text{ kPa}$$",
+      "memorization_note": "يُحفظ: $\\frac{P^*}{P_0}=0.528$ للهواء.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 147,
+      "question_en": "A jet flies at Mach $2$ where the speed of sound is $300\\text{ m/s}$. Its speed is:",
+      "question_ar": "طائرة تطير بـ ماخ $2$ وسرعة الصوت $300\\text{ m/s}$. سرعتها:",
+      "options": [
+        "$600\\text{ m/s}$",
+        "$300\\text{ m/s}$",
+        "$900\\text{ m/s}$",
+        "$150\\text{ m/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$v=Ma=2\\times300=600\\text{ m/s}$$",
+      "explanation_ar": "$$v=Ma=2\\times300=600\\text{ m/s}$$",
+      "memorization_note": "يُحفظ: $v=Ma$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 148,
+      "question_en": "Air ($\\gamma=1.4$) at static temperature $250\\text{ K}$ flows at $M=1$. The stagnation temperature is:",
+      "question_ar": "هواء ($\\gamma=1.4$) درجة حرارته الساكنة $250\\text{ K}$ يجري عند $M=1$. درجة حرارة الركود:",
+      "options": [
+        "$200\\text{ K}$",
+        "$300\\text{ K}$",
+        "$250\\text{ K}$",
+        "$350\\text{ K}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$T_0=T\\left(1+\\frac{\\gamma-1}{2}M^2\\right)=250\\times(1+0.2)=300\\text{ K}$$",
+      "explanation_ar": "$$T_0=T\\left(1+\\frac{\\gamma-1}{2}M^2\\right)=250\\times1.2=300\\text{ K}$$",
+      "memorization_note": "يُحفظ: $T_0=T\\left(1+0.2M^2\\right)$ للهواء.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 149,
+      "question_en": "If the downstream pressure of a choked nozzle is lowered further, the mass flow rate:",
+      "question_ar": "إذا انخفض ضغط ما بعد الفوهة المخنوقة أكثر فإن معدل الجريان الكتلي:",
+      "options": [
+        "Remains constant",
+        "Doubles",
+        "Drops to zero",
+        "Increases"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Once choked ($M=1$ at the throat) the downstream conditions can no longer influence the throat, so $\\dot m$ stays at its maximum.",
+      "explanation_ar": "عند الاختناق ($M=1$ في الحلق) لا تؤثر الظروف اللاحقة على الحلق فيبقى $\\dot m$ عند حده الأقصى.",
+      "memorization_note": "يُحفظ: choked $\\Rightarrow \\dot m=\\text{max}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 150,
+      "question_en": "The frictional head loss in a pipe is $5\\text{ m}$ of water. The corresponding pressure drop is:",
+      "question_ar": "خسارة الرأس الاحتكاكية في أنبوب $5\\text{ m}$ ماء. هبوط الضغط المقابل:",
+      "options": [
+        "$490\\text{ kPa}$",
+        "$49.05\\text{ kPa}$",
+        "$5\\text{ kPa}$",
+        "$4.9\\text{ kPa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\Delta P=\\rho g h_f=1000\\times9.81\\times5=49{,}050\\text{ Pa}$$",
+      "explanation_ar": "$$\\Delta P=\\rho g h_f=1000\\times9.81\\times5=49050\\text{ Pa}$$",
+      "memorization_note": "يُحفظ: $\\Delta P=\\rho g h_f$.",
+      "requires_scratchpad": true
+    }
+  ]
+}

@@ -1,0 +1,2136 @@
+{
+  "topic_en": "Basic 2: Stoichiometry, Limiting Reactant, Combustion, Recycle, Bypass & Purge, Ideal Gases",
+  "topic_ar": "الأساسيات 2: الستوكيومترية والمتفاعل المحدِّد والاحتراق والتدوير والـ Bypass والـ Purge والغازات المثالية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة نظرية ومسائل حسابية مباشرة في الستوكيومترية والمتفاعل المحدِّد والاحتراق والتدوير والـ Bypass والـ Purge والغازات المثالية",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Statement: “Stoichiometry provides a quantitative means of relating the amount of products produced by a chemical reaction to the amount of reactants, and vice versa.” This statement is:",
+      "question_ar": "العبارة: «تُوفّر الستوكيومترية وسيلة كمية لربط كمية النواتج المتكوّنة من تفاعل كيميائي بكمية المتفاعلات والعكس». هذه العبارة:",
+      "options": [
+        "True",
+        "False",
+        "Insufficient information to predict",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the standard definition of stoichiometry: the quantitative relationship between reactants and products given by the balanced equation.",
+      "explanation_ar": "هذا هو التعريف القياسي للستوكيومترية: العلاقة الكمية بين المتفاعلات والنواتج التي تحددها المعادلة الموزونة.",
+      "memorization_note": "الستوكيومترية: العلاقات الكمية بين المتفاعلات والنواتج وفق المعادلة الكيميائية الموزونة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "The law of ______ states that chemical reactions proceed with fixed ratios between the amounts of reactants and products.",
+      "question_ar": "ينص قانون ______ على أن التفاعلات الكيميائية تجري بنسب ثابتة بين كميات المتفاعلات والنواتج.",
+      "options": [
+        "Mass Conservation",
+        "Mole Conservation",
+        "Constant Proportionality",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The law of constant (definite) proportions says a compound always contains the same elements in the same mass ratio, so reactions proceed in fixed stoichiometric ratios.",
+      "explanation_ar": "ينص قانون النسب الثابتة (المحددة) على أن المركب يحتوي دائماً على نفس العناصر بنفس النسبة الكتلية، ولذلك تجري التفاعلات بنسب ستوكيومترية ثابتة.",
+      "memorization_note": "قانون النسب الثابتة (Constant/Definite Proportions)؛ أما قانون حفظ الكتلة فينص على: $\\sum m_{\\text{reactants}} = \\sum m_{\\text{products}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Balance the combustion of glucose: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + a\\,\\text{O}_2 \\rightarrow b\\,\\text{CO}_2 + c\\,\\text{H}_2\\text{O}$. What is the value of $a$?",
+      "question_ar": "زِن تفاعل احتراق الجلوكوز: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + a\\,\\text{O}_2 \\rightarrow b\\,\\text{CO}_2 + c\\,\\text{H}_2\\text{O}$. ما قيمة $a$؟",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "6"
+      ],
+      "correct_index": 3,
+      "explanation_en": "C: $b = 6$. H: $2c = 12 \\Rightarrow c = 6$. O: $6 + 2a = 2b + c = 12 + 6 = 18 \\Rightarrow a = 6$. Balanced: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$",
+      "explanation_ar": "C: $b = 6$. H: $2c = 12 \\Rightarrow c = 6$. O: $6 + 2a = 2b + c = 12 + 6 = 18 \\Rightarrow a = 6$. المعادلة الموزونة: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$",
+      "memorization_note": "طريقة الموازنة: وازن الكربون ثم الهيدروجين ثم الأكسجين أخيراً. الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 4,
+      "question_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ If $360\\text{ g}$ of glucose is burned, how many grams of $\\text{O}_2$ are required?",
+      "question_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ إذا احترق $360\\text{ g}$ من الجلوكوز، كم غراماً من $\\text{O}_2$ يلزم؟",
+      "options": [
+        "284 g",
+        "308 g",
+        "384 g",
+        "124 g"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$M_w(\\text{glucose}) = 180$ g/mol, so $n = \\dfrac{360}{180} = 2$ mol. $$n_{\\text{O}_2} = 2 \\times 6 = 12\\text{ mol} \\Rightarrow m = 12 \\times 32 = 384\\text{ g}$$",
+      "explanation_ar": "$M_w(\\text{glucose}) = 180$ g/mol، إذن $n = \\dfrac{360}{180} = 2$ mol. $$n_{\\text{O}_2} = 2 \\times 6 = 12\\text{ mol} \\Rightarrow m = 12 \\times 32 = 384\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتلة المولية للجلوكوز: $6(12)+12(1)+6(16)=180$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 5,
+      "question_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ How many kg of glucose are needed to produce $6\\text{ mol}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ كم كغم من الجلوكوز يلزم لإنتاج $6\\text{ mol}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "0.36 kg",
+        "0.18 kg",
+        "0.72 kg",
+        "0.54 kg"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$6$ mol $\\text{H}_2\\text{O}$ requires $1$ mol glucose $= 180\\text{ g} = 0.18\\text{ kg}$.",
+      "explanation_ar": "إنتاج $6$ mol من $\\text{H}_2\\text{O}$ يتطلب $1$ mol جلوكوز $= 180\\text{ g} = 0.18\\text{ kg}$.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتلة المولية للجلوكوز $=180\\text{ g/mol}$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ If $44\\text{ g}$ of $\\text{CO}_2$ is produced, what mass of glucose was burned?",
+      "question_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ إذا تكوّن $44\\text{ g}$ من $\\text{CO}_2$، فما كتلة الجلوكوز المحترقة؟",
+      "options": [
+        "90 g",
+        "60 g",
+        "15 g",
+        "30 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{CO}_2} = \\dfrac{44}{44} = 1$ mol; $n_{\\text{glucose}} = \\dfrac{1}{6}$ mol. $$m = \\frac{1}{6} \\times 180 = 30\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{CO}_2} = \\dfrac{44}{44} = 1$ mol؛ $n_{\\text{glucose}} = \\dfrac{1}{6}$ mol. $$m = \\frac{1}{6} \\times 180 = 30\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{CO}_2)=44$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ If $360\\text{ g}$ of glucose is burned, how many grams of $\\text{CO}_2$ are produced?",
+      "question_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ إذا احترق $360\\text{ g}$ من الجلوكوز، كم غراماً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "428 g",
+        "228 g",
+        "328 g",
+        "528 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{glucose}} = 2$ mol $\\Rightarrow n_{\\text{CO}_2} = 12$ mol. $$m = 12 \\times 44 = 528\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{glucose}} = 2$ mol $\\Rightarrow n_{\\text{CO}_2} = 12$ mol. $$m = 12 \\times 44 = 528\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ If $64\\text{ g}$ of $\\text{O}_2$ is available (glucose in excess), how many grams of $\\text{H}_2\\text{O}$ can be produced?",
+      "question_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ إذا توفر $64\\text{ g}$ من $\\text{O}_2$ (والجلوكوز بوفرة)، كم غراماً من $\\text{H}_2\\text{O}$ يمكن إنتاجه؟",
+      "options": [
+        "54 g",
+        "72 g",
+        "18 g",
+        "36 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{O}_2} = \\dfrac{64}{32} = 2$ mol; ratio $6:6 = 1:1 \\Rightarrow n_{\\text{H}_2\\text{O}} = 2$ mol. $$m = 2 \\times 18 = 36\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{O}_2} = \\dfrac{64}{32} = 2$ mol؛ النسبة $6:6 = 1:1 \\Rightarrow n_{\\text{H}_2\\text{O}} = 2$ mol. $$m = 2 \\times 18 = 36\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "Balance $a\\,\\text{NH}_3 + b\\,\\text{O}_2 \\rightarrow c\\,\\text{NO}_2 + d\\,\\text{H}_2\\text{O}$ using the smallest whole numbers. What is $b$?",
+      "question_ar": "زِن المعادلة $a\\,\\text{NH}_3 + b\\,\\text{O}_2 \\rightarrow c\\,\\text{NO}_2 + d\\,\\text{H}_2\\text{O}$ بأصغر أعداد صحيحة. ما قيمة $b$؟",
+      "options": [
+        "5",
+        "14",
+        "7",
+        "3.5"
+      ],
+      "correct_index": 2,
+      "explanation_en": "N: $a = c$. H: $3a = 2d$. O: $2b = 2c + d$. Take $a = 4$: $c = 4$, $d = 6$, $2b = 8 + 6 = 14 \\Rightarrow b = 7$. $$4\\,\\text{NH}_3 + 7\\,\\text{O}_2 \\rightarrow 4\\,\\text{NO}_2 + 6\\,\\text{H}_2\\text{O}$$",
+      "explanation_ar": "N: $a = c$. H: $3a = 2d$. O: $2b = 2c + d$. نأخذ $a = 4$: $c = 4$، $d = 6$، $2b = 8 + 6 = 14 \\Rightarrow b = 7$. $$4\\,\\text{NH}_3 + 7\\,\\text{O}_2 \\rightarrow 4\\,\\text{NO}_2 + 6\\,\\text{H}_2\\text{O}$$",
+      "memorization_note": "وازن كل عنصر على حدة (N ثم H ثم O) ثم اضرب لتحصل على أعداد صحيحة. المعادلة: $4\\text{NH}_3 + 7\\text{O}_2 \\rightarrow 4\\text{NO}_2 + 6\\text{H}_2\\text{O}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "For the balanced reaction $a\\,\\text{NH}_3 + b\\,\\text{O}_2 \\rightarrow c\\,\\text{NO}_2 + d\\,\\text{H}_2\\text{O}$ (smallest whole numbers), what is $a + b + c + d$?",
+      "question_ar": "في المعادلة الموزونة $a\\,\\text{NH}_3 + b\\,\\text{O}_2 \\rightarrow c\\,\\text{NO}_2 + d\\,\\text{H}_2\\text{O}$ (بأصغر أعداد صحيحة)، ما قيمة $a + b + c + d$؟",
+      "options": [
+        "23",
+        "17",
+        "21",
+        "19"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Balanced: $4\\,\\text{NH}_3 + 7\\,\\text{O}_2 \\rightarrow 4\\,\\text{NO}_2 + 6\\,\\text{H}_2\\text{O}$, so $a+b+c+d = 4+7+4+6 = 21$.",
+      "explanation_ar": "المعادلة الموزونة: $4\\,\\text{NH}_3 + 7\\,\\text{O}_2 \\rightarrow 4\\,\\text{NO}_2 + 6\\,\\text{H}_2\\text{O}$، إذن $a+b+c+d = 4+7+4+6 = 21$.",
+      "memorization_note": "وازن N ثم H ثم O، واجمع المعاملات بعد الوصول لأصغر أعداد صحيحة.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "If $1\\text{ kmol}$ of octane ($\\text{C}_8\\text{H}_{18}$) is completely oxidised with $\\text{O}_2$, how many kg of $\\text{O}_2$ are required?",
+      "question_ar": "إذا أُكسد $1\\text{ kmol}$ من الأوكتان ($\\text{C}_8\\text{H}_{18}$) أكسدة كاملة بالأكسجين، كم كغم من $\\text{O}_2$ يلزم؟",
+      "options": [
+        "400 kg",
+        "600 kg",
+        "200 kg",
+        "800 kg"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{C}_8\\text{H}_{18} + 12.5\\,\\text{O}_2 \\rightarrow 8\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$. $$m_{\\text{O}_2} = 12.5\\text{ kmol} \\times 32\\text{ kg/kmol} = 400\\text{ kg}$$",
+      "explanation_ar": "$\\text{C}_8\\text{H}_{18} + 12.5\\,\\text{O}_2 \\rightarrow 8\\,\\text{CO}_2 + 9\\,\\text{H}_2\\text{O}$. $$m_{\\text{O}_2} = 12.5\\text{ kmol} \\times 32\\text{ kg/kmol} = 400\\text{ kg}$$",
+      "memorization_note": "احتراق الهيدروكربون $\\text{C}_x\\text{H}_y$: $$\\text{C}_x\\text{H}_y + \\left(x + \\frac{y}{4}\\right)\\text{O}_2 \\rightarrow x\\,\\text{CO}_2 + \\frac{y}{2}\\,\\text{H}_2\\text{O}$$ للأوكتان: $8 + \\frac{18}{4} = 12.5$. $M_w(\\text{O}_2)=32$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "How many kg of $\\text{CO}_2$ are produced by completely burning $40\\text{ kg}$ of butane ($\\text{C}_4\\text{H}_{10}$)?",
+      "question_ar": "كم كغم من $\\text{CO}_2$ يتكوّن عند الاحتراق الكامل لـ $40\\text{ kg}$ من البيوتان ($\\text{C}_4\\text{H}_{10}$)؟",
+      "options": [
+        "121.38 kg",
+        "141.38 kg",
+        "131.38 kg",
+        "111.38 kg"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$; $M_w = 58$. $$n = \\frac{40}{58} = 0.6897\\text{ kmol} \\Rightarrow n_{\\text{CO}_2} = 4 \\times 0.6897 = 2.759\\text{ kmol} \\Rightarrow m = 2.759 \\times 44 = 121.38\\text{ kg}$$",
+      "explanation_ar": "$\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$؛ $M_w = 58$. $$n = \\frac{40}{58} = 0.6897\\text{ kmol} \\Rightarrow n_{\\text{CO}_2} = 4 \\times 0.6897 = 2.759\\text{ kmol} \\Rightarrow m = 2.759 \\times 44 = 121.38\\text{ kg}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{C}_4\\text{H}_{10}) = 58$، $M_w(\\text{CO}_2) = 44$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "In the combustion $\\text{C}_6\\text{H}_{14} + \\tfrac{19}{2}\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 7\\,\\text{H}_2\\text{O}$, if $440\\text{ kg/h}$ of $\\text{CO}_2$ is required, how much $\\text{C}_6\\text{H}_{14}$ must be burned per hour?",
+      "question_ar": "في تفاعل الاحتراق $\\text{C}_6\\text{H}_{14} + \\tfrac{19}{2}\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 7\\,\\text{H}_2\\text{O}$، إذا لزم $440\\text{ kg/h}$ من $\\text{CO}_2$، فكم يجب حرق $\\text{C}_6\\text{H}_{14}$ في الساعة؟",
+      "options": [
+        "183.33 kg/h",
+        "123.33 kg/h",
+        "143.33 kg/h",
+        "163.33 kg/h"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\dot n_{\\text{CO}_2} = \\dfrac{440}{44} = 10$ kmol/h; $\\dot n_{\\text{C}_6\\text{H}_{14}} = \\dfrac{10}{6} = 1.667$ kmol/h. $$\\dot m = 1.667 \\times 86 = 143.33\\text{ kg/h}$$",
+      "explanation_ar": "$\\dot n_{\\text{CO}_2} = \\dfrac{440}{44} = 10$ kmol/h؛ $\\dot n_{\\text{C}_6\\text{H}_{14}} = \\dfrac{10}{6} = 1.667$ kmol/h. $$\\dot m = 1.667 \\times 86 = 143.33\\text{ kg/h}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{C}_6\\text{H}_{14}) = 6(12)+14 = 86$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "In the combustion $\\text{C}_6\\text{H}_{14} + \\tfrac{19}{2}\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 7\\,\\text{H}_2\\text{O}$, if $72\\text{ kg/h}$ of $\\text{H}_2\\text{O}$ is required, how much $\\text{C}_6\\text{H}_{14}$ must be burned per hour?",
+      "question_ar": "في تفاعل الاحتراق $\\text{C}_6\\text{H}_{14} + \\tfrac{19}{2}\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 7\\,\\text{H}_2\\text{O}$، إذا لزم $72\\text{ kg/h}$ من $\\text{H}_2\\text{O}$، فكم يجب حرق $\\text{C}_6\\text{H}_{14}$ في الساعة؟",
+      "options": [
+        "59.14 kg/h",
+        "39.14 kg/h",
+        "49.14 kg/h",
+        "29.14 kg/h"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\dot n_{\\text{H}_2\\text{O}} = \\dfrac{72}{18} = 4$ kmol/h; $\\dot n_{\\text{C}_6\\text{H}_{14}} = \\dfrac{4}{7} = 0.5714$ kmol/h. $$\\dot m = 0.5714 \\times 86 = 49.14\\text{ kg/h}$$",
+      "explanation_ar": "$\\dot n_{\\text{H}_2\\text{O}} = \\dfrac{72}{18} = 4$ kmol/h؛ $\\dot n_{\\text{C}_6\\text{H}_{14}} = \\dfrac{4}{7} = 0.5714$ kmol/h. $$\\dot m = 0.5714 \\times 86 = 49.14\\text{ kg/h}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{H}_2\\text{O}) = 18$، $M_w(\\text{C}_6\\text{H}_{14}) = 86$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 15,
+      "question_en": "In $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$, how many moles of $\\text{N}_2$ are required to produce $34\\text{ g}$ of $\\text{NH}_3$?",
+      "question_ar": "في التفاعل $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$، كم مولاً من $\\text{N}_2$ يلزم لإنتاج $34\\text{ g}$ من $\\text{NH}_3$؟",
+      "options": [
+        "4 mol",
+        "3 mol",
+        "1 mol",
+        "2 mol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{NH}_3} = \\dfrac{34}{17} = 2$ mol; $n_{\\text{N}_2} = 2 \\times \\dfrac{1}{2} = 1$ mol.",
+      "explanation_ar": "$n_{\\text{NH}_3} = \\dfrac{34}{17} = 2$ mol؛ $n_{\\text{N}_2} = 2 \\times \\dfrac{1}{2} = 1$ mol.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{NH}_3) = 14 + 3 = 17$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 16,
+      "question_en": "In $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$, how many grams of $\\text{H}_2$ are required to produce $34\\text{ g}$ of $\\text{NH}_3$?",
+      "question_ar": "في التفاعل $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$، كم غراماً من $\\text{H}_2$ يلزم لإنتاج $34\\text{ g}$ من $\\text{NH}_3$؟",
+      "options": [
+        "6 g",
+        "12 g",
+        "3 g",
+        "9 g"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{NH}_3} = 2$ mol; $n_{\\text{H}_2} = 2 \\times \\dfrac{3}{2} = 3$ mol. $$m = 3 \\times 2 = 6\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{NH}_3} = 2$ mol؛ $n_{\\text{H}_2} = 2 \\times \\dfrac{3}{2} = 3$ mol. $$m = 3 \\times 2 = 6\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{H}_2) = 2$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 17,
+      "question_en": "In the reaction $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$, how many kg of $\\text{CaSO}_4$ are required to produce $1\\text{ kmol}$ of $\\text{Na}_2\\text{SO}_4$ ($\\text{NaCl}$ in excess)?",
+      "question_ar": "في التفاعل $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$، كم كغم من $\\text{CaSO}_4$ يلزم لإنتاج $1\\text{ kmol}$ من $\\text{Na}_2\\text{SO}_4$ (مع وفرة من $\\text{NaCl}$)؟",
+      "options": [
+        "136 kg",
+        "176 kg",
+        "156 kg",
+        "116 kg"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Ratio $1:1$, so $1$ kmol $\\text{CaSO}_4$ is needed. $M_w = 40+32+4(16) = 136$: $$m = 1 \\times 136 = 136\\text{ kg}$$",
+      "explanation_ar": "النسبة $1:1$، إذن يلزم $1$ kmol من $\\text{CaSO}_4$. $M_w = 40+32+4(16) = 136$: $$m = 1 \\times 136 = 136\\text{ kg}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{Ca}=40,\\ \\text{S}=32,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتل المولية: $\\text{CaSO}_4=136,\\ \\text{NaCl}=58.5,\\ \\text{CaCl}_2=111,\\ \\text{Na}_2\\text{SO}_4=142$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 18,
+      "question_en": "In $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$, how many kg of $\\text{Na}_2\\text{SO}_4$ are produced from $80\\text{ kg}$ of $\\text{NaCl}$ ($\\text{CaSO}_4$ in excess)?",
+      "question_ar": "في $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$، كم كغم من $\\text{Na}_2\\text{SO}_4$ يتكوّن من $80\\text{ kg}$ من $\\text{NaCl}$ (مع وفرة من $\\text{CaSO}_4$)؟",
+      "options": [
+        "71.0 kg",
+        "97.1 kg",
+        "142 kg",
+        "194.2 kg"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{NaCl}} = \\dfrac{80}{58.5} = 1.3675$ kmol; $n_{\\text{Na}_2\\text{SO}_4} = \\dfrac{1.3675}{2} = 0.6838$ kmol. $$m = 0.6838 \\times 142 = 97.1\\text{ kg}$$",
+      "explanation_ar": "$n_{\\text{NaCl}} = \\dfrac{80}{58.5} = 1.3675$ kmol؛ $n_{\\text{Na}_2\\text{SO}_4} = \\dfrac{1.3675}{2} = 0.6838$ kmol. $$m = 0.6838 \\times 142 = 97.1\\text{ kg}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{Ca}=40,\\ \\text{S}=32,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتل المولية: $\\text{CaSO}_4=136,\\ \\text{NaCl}=58.5,\\ \\text{CaCl}_2=111,\\ \\text{Na}_2\\text{SO}_4=142$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 19,
+      "question_en": "In $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$, how many kmol of $\\text{CaCl}_2$ are produced from $300\\text{ kg}$ of $\\text{CaSO}_4$ ($\\text{NaCl}$ in excess)?",
+      "question_ar": "في $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$، كم كيلومول من $\\text{CaCl}_2$ يتكوّن من $300\\text{ kg}$ من $\\text{CaSO}_4$ (مع وفرة من $\\text{NaCl}$)؟",
+      "options": [
+        "1.1 kmol",
+        "6.2 kmol",
+        "2.2 kmol",
+        "4.4 kmol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{CaSO}_4} = \\dfrac{300}{136} = 2.206$ kmol; ratio $1:1 \\Rightarrow n_{\\text{CaCl}_2} = 2.2$ kmol.",
+      "explanation_ar": "$n_{\\text{CaSO}_4} = \\dfrac{300}{136} = 2.206$ kmol؛ النسبة $1:1 \\Rightarrow n_{\\text{CaCl}_2} = 2.2$ kmol.",
+      "memorization_note": "الأوزان الذرية: $\\text{Ca}=40,\\ \\text{S}=32,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتل المولية: $\\text{CaSO}_4=136,\\ \\text{NaCl}=58.5,\\ \\text{CaCl}_2=111,\\ \\text{Na}_2\\text{SO}_4=142$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 20,
+      "question_en": "In $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$, how many pounds of $\\text{NaCl}$ are required to produce $2.5\\text{ lb-mol}$ of $\\text{Na}_2\\text{SO}_4$ ($\\text{CaSO}_4$ in excess)?",
+      "question_ar": "في $\\text{CaSO}_4 + 2\\,\\text{NaCl} \\rightarrow \\text{CaCl}_2 + \\text{Na}_2\\text{SO}_4$، كم رطلاً (lb) من $\\text{NaCl}$ يلزم لإنتاج $2.5\\text{ lb-mol}$ من $\\text{Na}_2\\text{SO}_4$ (مع وفرة من $\\text{CaSO}_4$)؟",
+      "options": [
+        "731.3 lb",
+        "146.3 lb",
+        "292.5 lb",
+        "585.0 lb"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{NaCl}} = 2.5 \\times 2 = 5$ lb-mol. $$m = 5 \\times 58.5 = 292.5\\text{ lb}$$",
+      "explanation_ar": "$n_{\\text{NaCl}} = 2.5 \\times 2 = 5$ lb-mol. $$m = 5 \\times 58.5 = 292.5\\text{ lb}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{Ca}=40,\\ \\text{S}=32,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. الكتل المولية: $\\text{CaSO}_4=136,\\ \\text{NaCl}=58.5,\\ \\text{CaCl}_2=111,\\ \\text{Na}_2\\text{SO}_4=142$.  الكتلة المولية ثابتة عددياً بجميع الوحدات: $58.5\\text{ g/mol} = 58.5\\text{ kg/kmol} = 58.5\\text{ lb/lb-mol}$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 21,
+      "question_en": "When $32\\text{ g}$ of $\\text{CH}_4$ is burned in excess oxygen, how many grams of $\\text{CO}_2$ are produced?",
+      "question_ar": "عند حرق $32\\text{ g}$ من $\\text{CH}_4$ في وفرة من الأكسجين، كم غراماً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "176 g",
+        "44 g",
+        "132 g",
+        "88 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. $n_{\\text{CH}_4} = \\dfrac{32}{16} = 2$ mol $\\Rightarrow n_{\\text{CO}_2} = 2$ mol $\\Rightarrow m = 2 \\times 44 = 88\\text{ g}$.",
+      "explanation_ar": "$\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. $n_{\\text{CH}_4} = \\dfrac{32}{16} = 2$ mol $\\Rightarrow n_{\\text{CO}_2} = 2$ mol $\\Rightarrow m = 2 \\times 44 = 88\\text{ g}$.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{CH}_4)=16$، $M_w(\\text{CO}_2)=44$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 22,
+      "question_en": "How many grams of $\\text{C}_2\\text{H}_6$ must be burned in excess oxygen to produce $88\\text{ g}$ of $\\text{CO}_2$?",
+      "question_ar": "كم غراماً من $\\text{C}_2\\text{H}_6$ يجب حرقه في وفرة من الأكسجين لإنتاج $88\\text{ g}$ من $\\text{CO}_2$؟",
+      "options": [
+        "60 g",
+        "30 g",
+        "45 g",
+        "15 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{C}_2\\text{H}_6 + 3.5\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. $n_{\\text{CO}_2} = \\dfrac{88}{44} = 2$ mol $\\Rightarrow n_{\\text{C}_2\\text{H}_6} = 1$ mol $\\Rightarrow m = 30\\text{ g}$.",
+      "explanation_ar": "$\\text{C}_2\\text{H}_6 + 3.5\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. $n_{\\text{CO}_2} = \\dfrac{88}{44} = 2$ mol $\\Rightarrow n_{\\text{C}_2\\text{H}_6} = 1$ mol $\\Rightarrow m = 30\\text{ g}$.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{C}_2\\text{H}_6) = 2(12)+6 = 30$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 23,
+      "question_en": "Is the reaction $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$ balanced?",
+      "question_ar": "هل المعادلة $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$ موزونة؟",
+      "options": [
+        "Balanced",
+        "Unbalanced",
+        "Partially balanced",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Left/right atom count: N: $3 = 2+1$; O: $6+1 = 6+1 = 7$; H: $2 = 2$. All equal, so it is balanced.",
+      "explanation_ar": "عدد الذرات يسار/يمين: N: $3 = 2+1$؛ O: $6+1 = 6+1 = 7$؛ H: $2 = 2$. جميعها متساوية، إذن المعادلة موزونة.",
+      "memorization_note": "المعادلة موزونة إذا تساوى عدد ذرات كل عنصر في طرفيها.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "In $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$, how many grams of $\\text{NO}_2$ are required to produce $4\\text{ mol}$ of $\\text{HNO}_3$?",
+      "question_ar": "في التفاعل $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$، كم غراماً من $\\text{NO}_2$ يلزم لإنتاج $4\\text{ mol}$ من $\\text{HNO}_3$؟",
+      "options": [
+        "138 g",
+        "276 g",
+        "184 g",
+        "414 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{NO}_2} = 4 \\times \\dfrac{3}{2} = 6$ mol. $$m = 6 \\times 46 = 276\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{NO}_2} = 4 \\times \\dfrac{3}{2} = 6$ mol. $$m = 6 \\times 46 = 276\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{NO}_2) = 14 + 32 = 46$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 25,
+      "question_en": "In $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$, how many moles of $\\text{HNO}_3$ are produced from $400\\text{ g}$ of $\\text{NO}_2$?",
+      "question_ar": "في التفاعل $3\\,\\text{NO}_2 + \\text{H}_2\\text{O} \\rightarrow 2\\,\\text{HNO}_3 + \\text{NO}$، كم مولاً من $\\text{HNO}_3$ يتكوّن من $400\\text{ g}$ من $\\text{NO}_2$؟",
+      "options": [
+        "3.797 mol",
+        "2.797 mol",
+        "5.797 mol",
+        "4.797 mol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{NO}_2} = \\dfrac{400}{46} = 8.696$ mol. $$n_{\\text{HNO}_3} = 8.696 \\times \\frac{2}{3} = 5.797\\text{ mol}$$",
+      "explanation_ar": "$n_{\\text{NO}_2} = \\dfrac{400}{46} = 8.696$ mol. $$n_{\\text{HNO}_3} = 8.696 \\times \\frac{2}{3} = 5.797\\text{ mol}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{NO}_2)=46$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 26,
+      "question_en": "In $\\text{PtCl}_4 + b\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + d\\,\\text{ClF} + e\\,\\text{Xe}$, what is the coefficient $b$ of $\\text{XeF}_2$ (smallest whole numbers, $\\text{PtCl}_4$ coefficient $=1$)?",
+      "question_ar": "في المعادلة $\\text{PtCl}_4 + b\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + d\\,\\text{ClF} + e\\,\\text{Xe}$، ما معامل $\\text{XeF}_2$ أي $b$ (بأصغر أعداد صحيحة ومعامل $\\text{PtCl}_4$ يساوي $1$)؟",
+      "options": [
+        "7",
+        "3",
+        "5",
+        "1"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Cl: $d = 4$. F: $2b = 6 + d = 10 \\Rightarrow b = 5$. Xe: $e = b = 5$. $$\\text{PtCl}_4 + 5\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + 4\\,\\text{ClF} + 5\\,\\text{Xe}$$",
+      "explanation_ar": "Cl: $d = 4$. F: $2b = 6 + d = 10 \\Rightarrow b = 5$. Xe: $e = b = 5$. $$\\text{PtCl}_4 + 5\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + 4\\,\\text{ClF} + 5\\,\\text{Xe}$$",
+      "memorization_note": "موازنة العناصر: وازن كل عنصر على حدة (Pt ثم Cl ثم F ثم Xe): $$\\sum \\text{atoms}_{\\text{in}} = \\sum \\text{atoms}_{\\text{out}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 27,
+      "question_en": "What is the sum of all coefficients in the balanced reaction $\\text{PtCl}_4 + \\text{XeF}_2 \\rightarrow \\text{PtF}_6 + \\text{ClF} + \\text{Xe}$?",
+      "question_ar": "ما مجموع جميع المعاملات في المعادلة الموزونة $\\text{PtCl}_4 + \\text{XeF}_2 \\rightarrow \\text{PtF}_6 + \\text{ClF} + \\text{Xe}$؟",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "14"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Balanced: $\\text{PtCl}_4 + 5\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + 4\\,\\text{ClF} + 5\\,\\text{Xe}$. Sum $= 1 + 5 + 1 + 4 + 5 = 16$.",
+      "explanation_ar": "المعادلة الموزونة: $\\text{PtCl}_4 + 5\\,\\text{XeF}_2 \\rightarrow \\text{PtF}_6 + 4\\,\\text{ClF} + 5\\,\\text{Xe}$. المجموع $= 1 + 5 + 1 + 4 + 5 = 16$.",
+      "memorization_note": "وازن Cl ثم F ثم Xe ثم اجمع المعاملات.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 28,
+      "question_en": "In $\\text{Cr}_2(\\text{SO}_4)_3 + b\\,\\text{RbOH} \\rightarrow c\\,\\text{Cr(OH)}_3 + d\\,\\text{Rb}_2\\text{SO}_4$ (coefficient of $\\text{Cr}_2(\\text{SO}_4)_3 = 1$), what is $b$?",
+      "question_ar": "في المعادلة $\\text{Cr}_2(\\text{SO}_4)_3 + b\\,\\text{RbOH} \\rightarrow c\\,\\text{Cr(OH)}_3 + d\\,\\text{Rb}_2\\text{SO}_4$ (معامل $\\text{Cr}_2(\\text{SO}_4)_3$ يساوي $1$)، ما قيمة $b$؟",
+      "options": [
+        "6",
+        "1",
+        "3",
+        "9"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Cr: $c = 2$. $\\text{SO}_4$: $d = 3$. Rb: $b = 2d = 6$. Check OH: $6 = 3c = 6$ ✓.",
+      "explanation_ar": "Cr: $c = 2$. $\\text{SO}_4$: $d = 3$. Rb: $b = 2d = 6$. تحقق من OH: $6 = 3c = 6$ ✓.",
+      "memorization_note": "عامِل مجموعة $\\text{SO}_4$ و $\\text{OH}$ كوحدة واحدة عند الموازنة إن بقيت كما هي في طرفي المعادلة.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 29,
+      "question_en": "What is the sum $a + b + c + d$ of the coefficients in the balanced reaction $a\\,\\text{Cr}_2(\\text{SO}_4)_3 + b\\,\\text{RbOH} \\rightarrow c\\,\\text{Cr(OH)}_3 + d\\,\\text{Rb}_2\\text{SO}_4$?",
+      "question_ar": "ما مجموع المعاملات $a + b + c + d$ في المعادلة الموزونة $a\\,\\text{Cr}_2(\\text{SO}_4)_3 + b\\,\\text{RbOH} \\rightarrow c\\,\\text{Cr(OH)}_3 + d\\,\\text{Rb}_2\\text{SO}_4$؟",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "10"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Balanced: $\\text{Cr}_2(\\text{SO}_4)_3 + 6\\,\\text{RbOH} \\rightarrow 2\\,\\text{Cr(OH)}_3 + 3\\,\\text{Rb}_2\\text{SO}_4$. Sum $= 1+6+2+3 = 12$.",
+      "explanation_ar": "المعادلة الموزونة: $\\text{Cr}_2(\\text{SO}_4)_3 + 6\\,\\text{RbOH} \\rightarrow 2\\,\\text{Cr(OH)}_3 + 3\\,\\text{Rb}_2\\text{SO}_4$. المجموع $= 1+6+2+3 = 12$.",
+      "memorization_note": "وازن Cr ثم $\\text{SO}_4$ ثم Rb ثم OH.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 30,
+      "question_en": "In the combustion $\\text{C}_4\\text{H}_{10} + b\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$ (coefficient of $\\text{C}_4\\text{H}_{10} = 1$), what is $b$?",
+      "question_ar": "في تفاعل الاحتراق $\\text{C}_4\\text{H}_{10} + b\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$ (معامل $\\text{C}_4\\text{H}_{10}$ يساوي $1$)، ما قيمة $b$؟",
+      "options": [
+        "1",
+        "4",
+        "6.5",
+        "5"
+      ],
+      "correct_index": 2,
+      "explanation_en": "O balance: $2b = 4(2) + 5(1) = 13 \\Rightarrow b = 6.5$. General: $x + \\dfrac{y}{4} = 4 + \\dfrac{10}{4} = 6.5$.",
+      "explanation_ar": "موازنة O: $2b = 4(2) + 5(1) = 13 \\Rightarrow b = 6.5$. القاعدة العامة: $x + \\dfrac{y}{4} = 4 + \\dfrac{10}{4} = 6.5$.",
+      "memorization_note": "معامل $\\text{O}_2$ لاحتراق $\\text{C}_x\\text{H}_y$: $$x + \\frac{y}{4}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 31,
+      "question_en": "In the combustion of $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$), how many moles of $\\text{C}_4\\text{H}_{10}$ are required to produce $10\\text{ mol}$ of $\\text{H}_2\\text{O}$ ($\\text{O}_2$ in excess)?",
+      "question_ar": "في احتراق $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$)، كم مولاً من $\\text{C}_4\\text{H}_{10}$ يلزم لإنتاج $10\\text{ mol}$ من $\\text{H}_2\\text{O}$ (مع وفرة من $\\text{O}_2$)؟",
+      "options": [
+        "1 mol",
+        "2 mol",
+        "5 mol",
+        "10 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n_{\\text{C}_4\\text{H}_{10}} = 10 \\times \\frac{1}{5} = 2\\text{ mol}$$",
+      "explanation_ar": "$$n_{\\text{C}_4\\text{H}_{10}} = 10 \\times \\frac{1}{5} = 2\\text{ mol}$$",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 32,
+      "question_en": "In the combustion of $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$), how many moles of $\\text{O}_2$ are required to produce $10\\text{ mol}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "في احتراق $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$)، كم مولاً من $\\text{O}_2$ يلزم لإنتاج $10\\text{ mol}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "15 mol",
+        "13 mol",
+        "30 mol",
+        "6.5 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n_{\\text{O}_2} = 10 \\times \\frac{6.5}{5} = 13\\text{ mol}$$",
+      "explanation_ar": "$$n_{\\text{O}_2} = 10 \\times \\frac{6.5}{5} = 13\\text{ mol}$$",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 33,
+      "question_en": "In the combustion of $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$), how many kg of $\\text{CO}_2$ are produced from $1\\text{ kmol}$ of $\\text{C}_4\\text{H}_{10}$?",
+      "question_ar": "في احتراق $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$)، كم كغم من $\\text{CO}_2$ يتكوّن من $1\\text{ kmol}$ من $\\text{C}_4\\text{H}_{10}$؟",
+      "options": [
+        "88 kg",
+        "44 kg",
+        "132 kg",
+        "176 kg"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{CO}_2} = 4$ kmol. $$m = 4 \\times 44 = 176\\text{ kg}$$",
+      "explanation_ar": "$n_{\\text{CO}_2} = 4$ kmol. $$m = 4 \\times 44 = 176\\text{ kg}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 34,
+      "question_en": "In the combustion of $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$), how many grams of $\\text{CO}_2$ are produced per $1\\text{ mol}$ of $\\text{O}_2$ consumed?",
+      "question_ar": "في احتراق $\\text{C}_4\\text{H}_{10}$ ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$)، كم غراماً من $\\text{CO}_2$ يتكوّن لكل $1\\text{ mol}$ من $\\text{O}_2$ المستهلك؟",
+      "options": [
+        "29.08 g",
+        "27.08 g",
+        "28.08 g",
+        "26.07 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{CO}_2} = \\dfrac{4}{6.5} = 0.6154$ mol. $$m = 0.6154 \\times 44 = 27.08\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{CO}_2} = \\dfrac{4}{6.5} = 0.6154$ mol. $$m = 0.6154 \\times 44 = 27.08\\text{ g}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 35,
+      "question_en": "How many moles of $\\text{C}_4\\text{H}_{10}$ must be burned ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$) to produce $90\\text{ g}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "كم مولاً من $\\text{C}_4\\text{H}_{10}$ يجب حرقه ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$) لإنتاج $90\\text{ g}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "1 mol",
+        "3 mol",
+        "2 mol",
+        "4 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = \\dfrac{90}{18} = 5$ mol; $n_{\\text{C}_4\\text{H}_{10}} = \\dfrac{5}{5} = 1$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = \\dfrac{90}{18} = 5$ mol؛ $n_{\\text{C}_4\\text{H}_{10}} = \\dfrac{5}{5} = 1$ mol.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 36,
+      "question_en": "How many moles of $\\text{O}_2$ are required ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$) to produce $90\\text{ g}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "كم مولاً من $\\text{O}_2$ يلزم ($\\text{C}_4\\text{H}_{10} + 6.5\\,\\text{O}_2 \\rightarrow 4\\,\\text{CO}_2 + 5\\,\\text{H}_2\\text{O}$) لإنتاج $90\\text{ g}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "8.5 mol",
+        "4.5 mol",
+        "2.5 mol",
+        "6.5 mol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = 5$ mol $\\Rightarrow n_{\\text{O}_2} = 5 \\times \\dfrac{6.5}{5} = 6.5$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = 5$ mol $\\Rightarrow n_{\\text{O}_2} = 5 \\times \\dfrac{6.5}{5} = 6.5$ mol.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 37,
+      "question_en": "Balance the combustion $\\text{CH}_4 + a\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + b\\,\\text{H}_2\\text{O}$. What is $a$?",
+      "question_ar": "زِن تفاعل الاحتراق $\\text{CH}_4 + a\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + b\\,\\text{H}_2\\text{O}$. ما قيمة $a$؟",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correct_index": 0,
+      "explanation_en": "H: $b = 2$. O: $2a = 2 + b = 4 \\Rightarrow a = 2$. $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$",
+      "explanation_ar": "H: $b = 2$. O: $2a = 2 + b = 4 \\Rightarrow a = 2$. $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$",
+      "memorization_note": "احتراق الميثان: $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 38,
+      "question_en": "In the combustion of methane ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$, $\\text{O}_2$ in excess), how many moles of $\\text{CH}_4$ are required to produce $10\\text{ mol}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "في احتراق الميثان ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$، مع وفرة من $\\text{O}_2$)، كم مولاً من $\\text{CH}_4$ يلزم لإنتاج $10\\text{ mol}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "2 mol",
+        "5 mol",
+        "1 mol",
+        "10 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n_{\\text{CH}_4} = 10 \\times \\frac{1}{2} = 5\\text{ mol}$$",
+      "explanation_ar": "$$n_{\\text{CH}_4} = 10 \\times \\frac{1}{2} = 5\\text{ mol}$$",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 39,
+      "question_en": "In the combustion of methane ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$), how many moles of $\\text{O}_2$ are required to produce $10\\text{ mol}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "في احتراق الميثان ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$)، كم مولاً من $\\text{O}_2$ يلزم لإنتاج $10\\text{ mol}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "20 mol",
+        "30 mol",
+        "10 mol",
+        "25 mol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$n_{\\text{O}_2} = 10 \\times \\frac{2}{2} = 10\\text{ mol}$$",
+      "explanation_ar": "$$n_{\\text{O}_2} = 10 \\times \\frac{2}{2} = 10\\text{ mol}$$",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 40,
+      "question_en": "In the combustion of methane ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$), how many kg of $\\text{CO}_2$ are produced from $1\\text{ kmol}$ of $\\text{CH}_4$?",
+      "question_ar": "في احتراق الميثان ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$)، كم كغم من $\\text{CO}_2$ يتكوّن من $1\\text{ kmol}$ من $\\text{CH}_4$؟",
+      "options": [
+        "44 kg",
+        "132 kg",
+        "88 kg",
+        "176 kg"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Ratio $1:1 \\Rightarrow 1$ kmol $\\text{CO}_2$ $= 44\\text{ kg}$.",
+      "explanation_ar": "النسبة $1:1 \\Rightarrow 1$ kmol من $\\text{CO}_2$ $= 44\\text{ kg}$.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 41,
+      "question_en": "In the combustion of methane ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$), how many grams of $\\text{CO}_2$ are produced per $1\\text{ mol}$ of $\\text{O}_2$ consumed?",
+      "question_ar": "في احتراق الميثان ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$)، كم غراماً من $\\text{CO}_2$ يتكوّن لكل $1\\text{ mol}$ من $\\text{O}_2$ المستهلك؟",
+      "options": [
+        "44 g",
+        "22 g",
+        "88 g",
+        "11 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{CO}_2} = \\dfrac{1}{2} = 0.5$ mol $\\Rightarrow m = 0.5 \\times 44 = 22\\text{ g}$.",
+      "explanation_ar": "$n_{\\text{CO}_2} = \\dfrac{1}{2} = 0.5$ mol $\\Rightarrow m = 0.5 \\times 44 = 22\\text{ g}$.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 42,
+      "question_en": "How many moles of $\\text{CH}_4$ are required ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$) to produce $36\\text{ g}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "كم مولاً من $\\text{CH}_4$ يلزم ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$) لإنتاج $36\\text{ g}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "0.5 mol",
+        "1 mol",
+        "2 mol",
+        "4 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = \\dfrac{36}{18} = 2$ mol $\\Rightarrow n_{\\text{CH}_4} = \\dfrac{2}{2} = 1$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = \\dfrac{36}{18} = 2$ mol $\\Rightarrow n_{\\text{CH}_4} = \\dfrac{2}{2} = 1$ mol.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 43,
+      "question_en": "How many moles of $\\text{O}_2$ are required ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$) to produce $90\\text{ g}$ of $\\text{H}_2\\text{O}$?",
+      "question_ar": "كم مولاً من $\\text{O}_2$ يلزم ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$) لإنتاج $90\\text{ g}$ من $\\text{H}_2\\text{O}$؟",
+      "options": [
+        "2.5 mol",
+        "10 mol",
+        "20 mol",
+        "5 mol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = \\dfrac{90}{18} = 5$ mol $\\Rightarrow n_{\\text{O}_2} = 5 \\times \\dfrac{2}{2} = 5$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = \\dfrac{90}{18} = 5$ mol $\\Rightarrow n_{\\text{O}_2} = 5 \\times \\dfrac{2}{2} = 5$ mol.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$.قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 44,
+      "question_en": "In $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$, how many moles of NaOH are required to produce $1\\text{ mol}$ of NaCl?",
+      "question_ar": "في التفاعل $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$، كم مولاً من NaOH يلزم لإنتاج $1\\text{ mol}$ من NaCl؟",
+      "options": [
+        "0.5 mol",
+        "2 mol",
+        "1 mol",
+        "4 mol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The stoichiometric coefficients are all $1$, so $1$ mol NaOH gives $1$ mol NaCl (and likewise $1$ mol HCl is needed, and $1$ mol $\\text{H}_2\\text{O}$ is formed).",
+      "explanation_ar": "جميع المعاملات الستوكيومترية تساوي $1$، لذا $1$ mol من NaOH ينتج $1$ mol من NaCl (وكذلك يلزم $1$ mol من HCl ويتكوّن $1$ mol من $\\text{H}_2\\text{O}$).",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "In $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$ with HCl in excess, what happens to the moles of NaCl produced if the amount of NaOH is doubled?",
+      "question_ar": "في التفاعل $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$ مع وفرة من HCl، ماذا يحدث لعدد مولات NaCl الناتجة إذا تضاعفت كمية NaOH؟",
+      "options": [
+        "Doubled",
+        "Half",
+        "Four times",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "NaOH is the limiting reactant and the ratio is $1:1$, so the product is proportional to NaOH: doubling NaOH doubles NaCl (and $\\text{H}_2\\text{O}$).",
+      "explanation_ar": "NaOH هو المتفاعل المحدِّد والنسبة $1:1$، فالناتج يتناسب مع كمية NaOH: مضاعفة NaOH تضاعف NaCl (و $\\text{H}_2\\text{O}$).",
+      "memorization_note": "الناتج يتناسب طردياً مع المتفاعل المحدِّد: $$n_{\\text{product}} \\propto n_{\\text{limiting}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "In $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$, how many moles of NaCl can be produced from $73\\text{ g}$ of HCl (NaOH in excess)?",
+      "question_ar": "في التفاعل $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$، كم مولاً من NaCl يمكن إنتاجه من $73\\text{ g}$ من HCl (مع وفرة من NaOH)؟",
+      "options": [
+        "1 mol",
+        "2 mol",
+        "3 mol",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{HCl}} = \\dfrac{73}{36.5} = 2$ mol; ratio $1:1 \\Rightarrow n_{\\text{NaCl}} = 2$ mol (and $2$ mol $\\text{H}_2\\text{O}$).",
+      "explanation_ar": "$n_{\\text{HCl}} = \\dfrac{73}{36.5} = 2$ mol؛ النسبة $1:1 \\Rightarrow n_{\\text{NaCl}} = 2$ mol (وكذلك $2$ mol من $\\text{H}_2\\text{O}$).",
+      "memorization_note": "الكتل المولية: $\\text{HCl}=36.5,\\ \\text{NaOH}=40,\\ \\text{NaCl}=58.5,\\ \\text{H}_2\\text{O}=18\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 47,
+      "question_en": "In $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$, how many grams of NaCl can be produced from $40\\text{ g}$ of NaOH (HCl in excess)?",
+      "question_ar": "في التفاعل $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$، كم غراماً من NaCl يمكن إنتاجه من $40\\text{ g}$ من NaOH (مع وفرة من HCl)؟",
+      "options": [
+        "94.5 g",
+        "76.5 g",
+        "40.0 g",
+        "58.5 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{NaOH}} = \\dfrac{40}{40} = 1$ mol $\\Rightarrow n_{\\text{NaCl}} = 1$ mol $\\Rightarrow m = 58.5\\text{ g}$.",
+      "explanation_ar": "$n_{\\text{NaOH}} = \\dfrac{40}{40} = 1$ mol $\\Rightarrow n_{\\text{NaCl}} = 1$ mol $\\Rightarrow m = 58.5\\text{ g}$.",
+      "memorization_note": "الكتل المولية: $\\text{HCl}=36.5,\\ \\text{NaOH}=40,\\ \\text{NaCl}=58.5,\\ \\text{H}_2\\text{O}=18\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 48,
+      "question_en": "In $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$, how many grams of $\\text{H}_2\\text{O}$ can be produced from $40\\text{ g}$ of NaOH (HCl in excess)?",
+      "question_ar": "في التفاعل $\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$، كم غراماً من $\\text{H}_2\\text{O}$ يمكن إنتاجه من $40\\text{ g}$ من NaOH (مع وفرة من HCl)؟",
+      "options": [
+        "18 g",
+        "36 g",
+        "54 g",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{NaOH}} = 1$ mol $\\Rightarrow n_{\\text{H}_2\\text{O}} = 1$ mol $\\Rightarrow m = 18\\text{ g}$.",
+      "explanation_ar": "$n_{\\text{NaOH}} = 1$ mol $\\Rightarrow n_{\\text{H}_2\\text{O}} = 1$ mol $\\Rightarrow m = 18\\text{ g}$.",
+      "memorization_note": "الكتل المولية: $\\text{HCl}=36.5,\\ \\text{NaOH}=40,\\ \\text{NaCl}=58.5,\\ \\text{H}_2\\text{O}=18\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 49,
+      "question_en": "In $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$, how many moles of $\\text{CH}_4$ are required to produce $1\\text{ mol}$ of $\\text{CH}_3\\text{Cl}$?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$، كم مولاً من $\\text{CH}_4$ يلزم لإنتاج $1\\text{ mol}$ من $\\text{CH}_3\\text{Cl}$؟",
+      "options": [
+        "0.5 mol",
+        "1 mol",
+        "2 mol",
+        "4 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "All coefficients are $1$: $1$ mol $\\text{CH}_4$ (and $1$ mol $\\text{Cl}_2$) gives $1$ mol $\\text{CH}_3\\text{Cl}$ and $1$ mol HCl.",
+      "explanation_ar": "جميع المعاملات تساوي $1$: $1$ mol من $\\text{CH}_4$ (و $1$ mol من $\\text{Cl}_2$) ينتج $1$ mol من $\\text{CH}_3\\text{Cl}$ و $1$ mol من HCl.",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "In $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$ with $\\text{Cl}_2$ in excess, what happens to the moles of $\\text{CH}_3\\text{Cl}$ formed if the amount of $\\text{CH}_4$ is doubled?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$ مع وفرة من $\\text{Cl}_2$، ماذا يحدث لعدد مولات $\\text{CH}_3\\text{Cl}$ المتكوّنة إذا تضاعفت كمية $\\text{CH}_4$؟",
+      "options": [
+        "Half",
+        "Four times",
+        "Doubled",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "With a $1:1$ ratio and $\\text{CH}_4$ limiting, the product is proportional to $\\text{CH}_4$, so it doubles (HCl also doubles).",
+      "explanation_ar": "النسبة $1:1$ و $\\text{CH}_4$ هو المحدِّد، فالناتج يتناسب مع $\\text{CH}_4$ وبالتالي يتضاعف (وكذلك HCl).",
+      "memorization_note": "$$n_{\\text{product}} \\propto n_{\\text{limiting}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "In $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$, how many moles of $\\text{CH}_3\\text{Cl}$ can be produced from $71\\text{ g}$ of $\\text{Cl}_2$ ($\\text{CH}_4$ in excess)?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$، كم مولاً من $\\text{CH}_3\\text{Cl}$ يمكن إنتاجه من $71\\text{ g}$ من $\\text{Cl}_2$ (مع وفرة من $\\text{CH}_4$)؟",
+      "options": [
+        "2 mol",
+        "4 mol",
+        "0.5 mol",
+        "1 mol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{Cl}_2} = \\dfrac{71}{71} = 1$ mol (not $2$ mol), so $n_{\\text{CH}_3\\text{Cl}} = 1$ mol (and $1$ mol HCl).",
+      "explanation_ar": "$n_{\\text{Cl}_2} = \\dfrac{71}{71} = 1$ mol (وليس $2$ mol)، إذن $n_{\\text{CH}_3\\text{Cl}} = 1$ mol (وكذلك $1$ mol من HCl).",
+      "memorization_note": "الكتل المولية: $\\text{CH}_4=16,\\ \\text{Cl}_2=71,\\ \\text{CH}_3\\text{Cl}=50.5,\\ \\text{HCl}=36.5\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 52,
+      "question_en": "In $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$, how many grams of $\\text{CH}_3\\text{Cl}$ can be produced from $16\\text{ g}$ of $\\text{CH}_4$ ($\\text{Cl}_2$ in excess)?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$، كم غراماً من $\\text{CH}_3\\text{Cl}$ يمكن إنتاجه من $16\\text{ g}$ من $\\text{CH}_4$ (مع وفرة من $\\text{Cl}_2$)؟",
+      "options": [
+        "36.5 g",
+        "58.5 g",
+        "101.0 g",
+        "50.5 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{CH}_4} = \\dfrac{16}{16} = 1$ mol $\\Rightarrow n_{\\text{CH}_3\\text{Cl}} = 1$ mol $\\Rightarrow m = 50.5\\text{ g}$.",
+      "explanation_ar": "$n_{\\text{CH}_4} = \\dfrac{16}{16} = 1$ mol $\\Rightarrow n_{\\text{CH}_3\\text{Cl}} = 1$ mol $\\Rightarrow m = 50.5\\text{ g}$.",
+      "memorization_note": "الكتل المولية: $\\text{CH}_4=16,\\ \\text{Cl}_2=71,\\ \\text{CH}_3\\text{Cl}=50.5,\\ \\text{HCl}=36.5\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 53,
+      "question_en": "In $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$, how many grams of HCl are produced from $16\\text{ g}$ of $\\text{CH}_4$ ($\\text{Cl}_2$ in excess)?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + \\text{Cl}_2 \\rightarrow \\text{CH}_3\\text{Cl} + \\text{HCl}$، كم غراماً من HCl يتكوّن من $16\\text{ g}$ من $\\text{CH}_4$ (مع وفرة من $\\text{Cl}_2$)؟",
+      "options": [
+        "54.5 g",
+        "18.25 g",
+        "73.0 g",
+        "36.5 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{CH}_4} = 1$ mol $\\Rightarrow n_{\\text{HCl}} = 1$ mol $\\Rightarrow m = 36.5\\text{ g}$.",
+      "explanation_ar": "$n_{\\text{CH}_4} = 1$ mol $\\Rightarrow n_{\\text{HCl}} = 1$ mol $\\Rightarrow m = 36.5\\text{ g}$.",
+      "memorization_note": "الكتل المولية: $\\text{CH}_4=16,\\ \\text{Cl}_2=71,\\ \\text{CH}_3\\text{Cl}=50.5,\\ \\text{HCl}=36.5\\ \\text{g/mol}$. قانون المولات: $$n = \\frac{m}{M_w} \\quad\\Rightarrow\\quad m = n \\cdot M_w$$النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 54,
+      "question_en": "Which is the excess reactant in $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$)?",
+      "question_ar": "أي مادة هي المتفاعل الفائض في التفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)؟",
+      "options": [
+        "$\\text{C}_5\\text{H}_{12}$",
+        "$\\text{O}_2$",
+        "$\\text{H}_2\\text{O}$",
+        "$\\text{CO}_2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{O}_2$ required for $2$ mol $\\text{C}_5\\text{H}_{12}$ $= 2 \\times 8 = 16$ mol $> 8$ mol available, so $\\text{O}_2$ is limiting and the extent is $\\xi = \\dfrac{8}{8} = 1$. Therefore $\\text{C}_5\\text{H}_{12}$ is in excess.",
+      "explanation_ar": "$\\text{O}_2$ اللازم لـ $2$ mol من $\\text{C}_5\\text{H}_{12}$ $= 2 \\times 8 = 16$ mol $> 8$ mol المتوفر، إذن $\\text{O}_2$ هو المحدِّد ومدى التفاعل $\\xi = \\dfrac{8}{8} = 1$. إذن $\\text{C}_5\\text{H}_{12}$ هو الفائض.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج. المتفاعل الفائض = أي متفاعل غير محدِّد.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 55,
+      "question_en": "Which is the limiting reactant in $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$)?",
+      "question_ar": "أي مادة هي المتفاعل المحدِّد في التفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)؟",
+      "options": [
+        "$\\text{H}_2\\text{O}$",
+        "$\\text{C}_5\\text{H}_{12}$",
+        "$\\text{CO}_2$",
+        "$\\text{O}_2$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Compare $\\dfrac{n_0}{|\\nu|}$: $\\text{C}_5\\text{H}_{12}$: $\\dfrac{2}{1} = 2$; $\\text{O}_2$: $\\dfrac{8}{8} = 1$. The smaller value is $\\text{O}_2$, the limiting reactant.",
+      "explanation_ar": "قارن $\\dfrac{n_0}{|\\nu|}$: $\\text{C}_5\\text{H}_{12}$: $\\dfrac{2}{1} = 2$؛ $\\text{O}_2$: $\\dfrac{8}{8} = 1$. الأصغر هو $\\text{O}_2$ فهو المتفاعل المحدِّد.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 56,
+      "question_en": "For $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$), how many moles of $\\text{C}_5\\text{H}_{12}$ remain unreacted after completion?",
+      "question_ar": "للتفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)، كم مولاً من $\\text{C}_5\\text{H}_{12}$ يبقى دون تفاعل بعد اكتماله؟",
+      "options": [
+        "0 mol",
+        "1 mol",
+        "2 mol",
+        "3 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{O}_2$ required for $2$ mol $\\text{C}_5\\text{H}_{12}$ $= 2 \\times 8 = 16$ mol $> 8$ mol available, so $\\text{O}_2$ is limiting and the extent is $\\xi = \\dfrac{8}{8} = 1$. $$n_{\\text{C}_5\\text{H}_{12}} = 2 - (1)(1) = 1\\text{ mol}$$",
+      "explanation_ar": "$\\text{O}_2$ اللازم لـ $2$ mol من $\\text{C}_5\\text{H}_{12}$ $= 2 \\times 8 = 16$ mol $> 8$ mol المتوفر، إذن $\\text{O}_2$ هو المحدِّد ومدى التفاعل $\\xi = \\dfrac{8}{8} = 1$. $$n_{\\text{C}_5\\text{H}_{12}} = 2 - (1)(1) = 1\\text{ mol}$$",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 57,
+      "question_en": "For $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$), how many moles of $\\text{O}_2$ are left after the reaction completes?",
+      "question_ar": "للتفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)، كم مولاً من $\\text{O}_2$ يتبقى بعد اكتمال التفاعل؟",
+      "options": [
+        "0 mol",
+        "4 mol",
+        "2 mol",
+        "6 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{O}_2$ is limiting, so it is fully consumed: $n_{\\text{O}_2} = 8 - 8(1) = 0$.",
+      "explanation_ar": "$\\text{O}_2$ هو المحدِّد فيُستهلك بالكامل: $n_{\\text{O}_2} = 8 - 8(1) = 0$.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 58,
+      "question_en": "For $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$), how many moles of $\\text{CO}_2$ are produced?",
+      "question_ar": "للتفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)، كم مولاً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "8 mol",
+        "7 mol",
+        "6 mol",
+        "5 mol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\xi = 1$, so $n_{\\text{CO}_2} = 0 + 5(1) = 5$ mol.",
+      "explanation_ar": "$\\xi = 1$ إذن $n_{\\text{CO}_2} = 0 + 5(1) = 5$ mol.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 59,
+      "question_en": "For $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$), how many moles of $\\text{H}_2\\text{O}$ are produced?",
+      "question_ar": "للتفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)، كم مولاً من $\\text{H}_2\\text{O}$ يتكوّن؟",
+      "options": [
+        "6 mol",
+        "7 mol",
+        "8 mol",
+        "5 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\xi = 1$, so $n_{\\text{H}_2\\text{O}} = 6(1) = 6$ mol.",
+      "explanation_ar": "$\\xi = 1$ إذن $n_{\\text{H}_2\\text{O}} = 6(1) = 6$ mol.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 60,
+      "question_en": "What is the extent of reaction for $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (initial feed: $2\\text{ mol}$ $\\text{C}_5\\text{H}_{12}$ and $8\\text{ mol}$ $\\text{O}_2$)?",
+      "question_ar": "ما مدى التفاعل للتفاعل $\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$ (المغذي الابتدائي: $2\\text{ mol}$ من $\\text{C}_5\\text{H}_{12}$ و $8\\text{ mol}$ من $\\text{O}_2$)؟",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Extent is set by the limiting reactant: $\\xi = \\dfrac{n_{\\text{O}_2,0}}{8} = \\dfrac{8}{8} = 1$.",
+      "explanation_ar": "يتحدد المدى بالمتفاعل المحدِّد: $\\xi = \\dfrac{n_{\\text{O}_2,0}}{8} = \\dfrac{8}{8} = 1$.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 61,
+      "question_en": "For $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (initial: $4\\text{ mol}$ $\\text{CO}_2$, $10\\text{ mol}$ H), how many moles of $\\text{CO}_2$ are left after the reaction is complete?",
+      "question_ar": "للتفاعل $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (البداية: $4\\text{ mol}$ من $\\text{CO}_2$ و $10\\text{ mol}$ من H)، كم مولاً من $\\text{CO}_2$ يتبقى بعد اكتمال التفاعل؟",
+      "options": [
+        "1.5 mol",
+        "2.5 mol",
+        "1 mol",
+        "0 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dfrac{n_0}{|\\nu|}$: $\\text{CO}_2$: $4$; H: $\\dfrac{10}{4} = 2.5$ (limiting). $\\xi = 2.5$, so $n_{\\text{CO}_2} = 4 - 2.5 = 1.5$ mol.",
+      "explanation_ar": "$\\dfrac{n_0}{|\\nu|}$: $\\text{CO}_2$: $4$؛ H: $\\dfrac{10}{4} = 2.5$ (المحدِّد). $\\xi = 2.5$ إذن $n_{\\text{CO}_2} = 4 - 2.5 = 1.5$ mol.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 62,
+      "question_en": "What is the extent of reaction for $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (initial: $4\\text{ mol}$ $\\text{CO}_2$, $10\\text{ mol}$ H)?",
+      "question_ar": "ما مدى التفاعل للتفاعل $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (البداية: $4\\text{ mol}$ من $\\text{CO}_2$ و $10\\text{ mol}$ من H)؟",
+      "options": [
+        "1.5",
+        "2.5",
+        "4",
+        "1"
+      ],
+      "correct_index": 1,
+      "explanation_en": "H is limiting: $\\xi = \\dfrac{10}{4} = 2.5$.",
+      "explanation_ar": "H هو المحدِّد: $\\xi = \\dfrac{10}{4} = 2.5$.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 63,
+      "question_en": "For $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (initial: $4\\text{ mol}$ $\\text{CO}_2$, $10\\text{ mol}$ H), how many moles of $\\text{CH}_2\\text{O}$ are produced?",
+      "question_ar": "للتفاعل $\\text{CO}_2 + 4\\,\\text{H} \\rightarrow \\text{CH}_2\\text{O} + \\text{H}_2\\text{O}$ (البداية: $4\\text{ mol}$ من $\\text{CO}_2$ و $10\\text{ mol}$ من H)، كم مولاً من $\\text{CH}_2\\text{O}$ يتكوّن؟",
+      "options": [
+        "5 mol",
+        "10 mol",
+        "2.5 mol",
+        "1 mol"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\xi = 2.5$ and $\\nu_{\\text{CH}_2\\text{O}} = 1$, so $n = 2.5$ mol.",
+      "explanation_ar": "$\\xi = 2.5$ و $\\nu_{\\text{CH}_2\\text{O}} = 1$ إذن $n = 2.5$ mol.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 64,
+      "question_en": "All reactants other than the limiting reactant are called:",
+      "question_ar": "جميع المتفاعلات عدا المتفاعل المحدِّد تُسمى:",
+      "options": [
+        "Excess reactants",
+        "Other reactants",
+        "Extent reactants",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Any reactant present in more than the stoichiometric amount relative to the limiting reactant is an excess reactant.",
+      "explanation_ar": "أي متفاعل موجود بكمية تزيد عن الكمية الستوكيومترية بالنسبة للمتفاعل المحدِّد يُسمى متفاعلاً فائضاً.",
+      "memorization_note": "المتفاعلات غير المحدِّدة = متفاعلات فائضة (Excess).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "The ______ reactant is the one that would theoretically run out first if the reaction proceeded to completion.",
+      "question_ar": "المتفاعل ______ هو الذي ينفد أولاً نظرياً لو تقدم التفاعل حتى الاكتمال.",
+      "options": [
+        "Excess",
+        "Limiting",
+        "Both excess and limiting",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is the definition of the limiting reactant.",
+      "explanation_ar": "هذا هو تعريف المتفاعل المحدِّد.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "The reactant with the smallest maximum extent of reaction is the ______ reactant.",
+      "question_ar": "المتفاعل الذي له أصغر مدى تفاعل أقصى هو المتفاعل ______.",
+      "options": [
+        "Excess",
+        "Limiting",
+        "Neither excess nor limiting",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Smallest $\\xi_{\\max} = \\dfrac{n_{i,0}}{|\\nu_i|}$ identifies the limiting reactant.",
+      "explanation_ar": "أصغر $\\xi_{\\max} = \\dfrac{n_{i,0}}{|\\nu_i|}$ يحدد المتفاعل المحدِّد.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "$\\text{CH}_4$ is burned with oxygen ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). If $5\\text{ mol}$ of each reactant is present, which is the limiting reactant?",
+      "question_ar": "يُحرق $\\text{CH}_4$ بالأكسجين ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). إذا وُجد $5\\text{ mol}$ من كل متفاعل، فما المتفاعل المحدِّد؟",
+      "options": [
+        "Both CH₄ and O₂",
+        "$\\text{O}_2$",
+        "Neither",
+        "$\\text{CH}_4$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\dfrac{n_0}{|\\nu|}$: $\\text{CH}_4$: $5$; $\\text{O}_2$: $\\dfrac{5}{2} = 2.5$. $\\text{O}_2$ is smaller, so it is limiting.",
+      "explanation_ar": "$\\dfrac{n_0}{|\\nu|}$: $\\text{CH}_4$: $5$؛ $\\text{O}_2$: $\\dfrac{5}{2} = 2.5$. الأصغر $\\text{O}_2$ فهو المحدِّد.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 68,
+      "question_en": "$\\text{CH}_4$ is burned with oxygen ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). If $5\\text{ mol}$ of each reactant is present, which is the excess reactant?",
+      "question_ar": "يُحرق $\\text{CH}_4$ بالأكسجين ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$). إذا وُجد $5\\text{ mol}$ من كل متفاعل، فما المتفاعل الفائض؟",
+      "options": [
+        "$\\text{CH}_4$",
+        "Neither",
+        "Both CH₄ and O₂",
+        "$\\text{O}_2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{O}_2$ is limiting (consumes all $5$ mol with only $2.5$ mol $\\text{CH}_4$), so $\\text{CH}_4$ is in excess ($2.5$ mol left).",
+      "explanation_ar": "$\\text{O}_2$ هو المحدِّد (يستهلك كامل $5$ mol مع $2.5$ mol فقط من $\\text{CH}_4$) فيكون $\\text{CH}_4$ هو الفائض ($2.5$ mol متبقية).",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 69,
+      "question_en": "In $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$, how many moles of Al react with $2.46\\text{ mol}$ of $\\text{CuCl}_2$?",
+      "question_ar": "في التفاعل $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$، كم مولاً من Al يتفاعل مع $2.46\\text{ mol}$ من $\\text{CuCl}_2$؟",
+      "options": [
+        "1.64 mol",
+        "3.28 mol",
+        "2.46 mol",
+        "3.69 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n_{\\text{Al}} = 2.46 \\times \\frac{2}{3} = 1.64\\text{ mol}$$",
+      "explanation_ar": "$$n_{\\text{Al}} = 2.46 \\times \\frac{2}{3} = 1.64\\text{ mol}$$",
+      "memorization_note": "النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 70,
+      "question_en": "In $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$, if the feed contains $3\\text{ mol}$ of each reactant, which is the limiting reactant?",
+      "question_ar": "في التفاعل $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$، إذا احتوى المغذي على $3\\text{ mol}$ من كل متفاعل، فما المتفاعل المحدِّد؟",
+      "options": [
+        "Al",
+        "$\\text{CuCl}_2$",
+        "Neither",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\dfrac{n_0}{|\\nu|}$: Al: $\\dfrac{3}{2} = 1.5$; $\\text{CuCl}_2$: $\\dfrac{3}{3} = 1$. $\\text{CuCl}_2$ is limiting.",
+      "explanation_ar": "$\\dfrac{n_0}{|\\nu|}$: Al: $\\dfrac{3}{2} = 1.5$؛ $\\text{CuCl}_2$: $\\dfrac{3}{3} = 1$. $\\text{CuCl}_2$ هو المحدِّد.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 71,
+      "question_en": "In $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$, if the feed contains $5\\text{ mol}$ of each reactant, which is the excess reactant?",
+      "question_ar": "في التفاعل $2\\,\\text{Al} + 3\\,\\text{CuCl}_2 \\rightarrow 2\\,\\text{AlCl}_3 + 3\\,\\text{Cu}$، إذا احتوى المغذي على $5\\text{ mol}$ من كل متفاعل، فما المتفاعل الفائض؟",
+      "options": [
+        "Al",
+        "$\\text{CuCl}_2$",
+        "Neither",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dfrac{n_0}{|\\nu|}$: Al: $2.5$; $\\text{CuCl}_2$: $\\dfrac{5}{3} = 1.67$. $\\text{CuCl}_2$ is limiting, so Al is in excess.",
+      "explanation_ar": "$\\dfrac{n_0}{|\\nu|}$: Al: $2.5$؛ $\\text{CuCl}_2$: $\\dfrac{5}{3} = 1.67$. $\\text{CuCl}_2$ هو المحدِّد فيكون Al الفائض.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 72,
+      "question_en": "In $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$, the feed has $x$ mol $\\text{N}_2$ and $y$ mol $\\text{H}_2$. What condition makes $\\text{N}_2$ the limiting reactant?",
+      "question_ar": "في التفاعل $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$ يحتوي المغذي على $x$ mol من $\\text{N}_2$ و $y$ mol من $\\text{H}_2$. ما الشرط الذي يجعل $\\text{N}_2$ هو المتفاعل المحدِّد؟",
+      "options": [
+        "$3x < y$",
+        "$x > y$",
+        "$x = y$",
+        "$3x > y$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{N}_2$ limiting: $\\dfrac{x}{1} < \\dfrac{y}{3} \\Rightarrow 3x < y$.",
+      "explanation_ar": "$\\text{N}_2$ محدِّد: $\\dfrac{x}{1} < \\dfrac{y}{3} \\Rightarrow 3x < y$.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 73,
+      "question_en": "In $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$, the feed has $x$ mol $\\text{N}_2$ and $y$ mol $\\text{H}_2$. What condition makes $\\text{N}_2$ the excess reactant?",
+      "question_ar": "في التفاعل $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$ يحتوي المغذي على $x$ mol من $\\text{N}_2$ و $y$ mol من $\\text{H}_2$. ما الشرط الذي يجعل $\\text{N}_2$ هو المتفاعل الفائض؟",
+      "options": [
+        "$x = y$",
+        "$x < y$",
+        "$3x > y$",
+        "$3x < y$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\text{N}_2$ in excess means $\\text{H}_2$ is limiting: $\\dfrac{x}{1} > \\dfrac{y}{3} \\Rightarrow 3x > y$.",
+      "explanation_ar": "$\\text{N}_2$ فائض أي $\\text{H}_2$ محدِّد: $\\dfrac{x}{1} > \\dfrac{y}{3} \\Rightarrow 3x > y$.",
+      "memorization_note": "المتفاعل المحدِّد هو الذي له أصغر قيمة للنسبة $\\dfrac{n_{i,0}}{|\\nu_i|}$، ومدى التفاعل: $$\\xi = \\frac{n_{i,0} - n_i}{|\\nu_i|} \\qquad\\Rightarrow\\qquad n_i = n_{i,0} + \\nu_i\\,\\xi$$ حيث $\\nu_i$ سالبة للمتفاعلات وموجبة للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 74,
+      "question_en": "All the gases resulting from a combustion process, including the water vapour, are known as:",
+      "question_ar": "جميع الغازات الناتجة من عملية الاحتراق بما فيها بخار الماء تُسمى:",
+      "options": [
+        "Flue gas (stack gas)",
+        "Dry basis gas",
+        "Orsat analysis",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Flue (stack) gas includes all gases leaving the combustion process, including water vapour.",
+      "explanation_ar": "غاز المداخن (Flue/Stack gas) يشمل جميع الغازات الخارجة من الاحتراق بما فيها بخار الماء.",
+      "memorization_note": "Flue gas = كل الغازات الناتجة مع بخار الماء (أساس رطب Wet basis).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "All the gases resulting from a combustion process, not including the water vapour, are known as:",
+      "question_ar": "جميع الغازات الناتجة من الاحتراق عدا بخار الماء تُسمى:",
+      "options": [
+        "Flue gas",
+        "Stack gas",
+        "Orsat analysis (dry basis)",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "An Orsat analysis reports the composition of the flue gas on a water-free (dry) basis.",
+      "explanation_ar": "تحليل أورسات (Orsat) يعطي تركيب غاز المداخن على أساس جاف أي بدون بخار الماء.",
+      "memorization_note": "Orsat analysis = تركيب الغاز على أساس جاف (Dry basis).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "Ethane is burned completely with $150\\%$ excess air. What is the mole percent of $\\text{O}_2$ in the product gas (wet basis)? Air is $21\\%$ $\\text{O}_2$, $79\\%$ $\\text{N}_2$.",
+      "question_ar": "يحترق الإيثان احتراقاً كاملاً مع $150\\%$ هواء زائد. ما النسبة المولية لـ $\\text{O}_2$ في غاز النواتج (أساس رطب)؟ الهواء $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$.",
+      "options": [
+        "33.3%",
+        "12.2%",
+        "13.1%",
+        "52.9%"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{C}_2\\text{H}_6 + 3.5\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. Basis $1$ mol ethane: $\\text{O}_{2,\\text{fed}} = 3.5(2.5) = 8.75$, $\\text{N}_2 = 8.75 \\times 3.76 = 32.9$. Products: $\\text{CO}_2 = 2$, $\\text{H}_2\\text{O} = 3$, $\\text{O}_2 = 8.75 - 3.5 = 5.25$, $\\text{N}_2 = 32.9$; total $= 43.2$ mol. $$y_{\\text{O}_2} = \\frac{5.25}{43.2} = 0.122 = 12.2\\%$$",
+      "explanation_ar": "$\\text{C}_2\\text{H}_6 + 3.5\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. الأساس $1$ mol إيثان: $\\text{O}_2$ المغذى $= 3.5(2.5) = 8.75$، $\\text{N}_2 = 8.75 \\times 3.76 = 32.9$. النواتج: $\\text{CO}_2 = 2$، $\\text{H}_2\\text{O} = 3$، $\\text{O}_2 = 8.75 - 3.5 = 5.25$، $\\text{N}_2 = 32.9$؛ المجموع $= 43.2$ mol. $$y_{\\text{O}_2} = \\frac{5.25}{43.2} = 0.122 = 12.2\\%$$",
+      "memorization_note": "الهواء: $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$ (مولياً)، $\\text{N}_2/\\text{O}_2 = 3.76$، $M_{\\text{air}} \\approx 29$. النسبة المئوية للهواء الزائد: $$\\%\\text{excess} = \\frac{\\text{O}_{2,\\text{fed}} - \\text{O}_{2,\\text{theoretical}}}{\\text{O}_{2,\\text{theoretical}}} \\times 100$$ احتراق الإيثان: $\\text{C}_2\\text{H}_6 + 3.5\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 77,
+      "question_en": "Ethane is burned completely with $50\\%$ excess air. What is the mole percent of $\\text{CO}_2$ in the product gas (wet basis)? Air is $21\\%$ $\\text{O}_2$, $79\\%$ $\\text{N}_2$.",
+      "question_ar": "يحترق الإيثان احتراقاً كاملاً مع $50\\%$ هواء زائد. ما النسبة المولية لـ $\\text{CO}_2$ في غاز النواتج (أساس رطب)؟ الهواء $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$.",
+      "options": [
+        "11.11%",
+        "36.36%",
+        "7.55%",
+        "8.51%"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Basis $1$ mol ethane: $\\text{O}_{2,\\text{fed}} = 3.5(1.5) = 5.25$, $\\text{N}_2 = 5.25 \\times \\dfrac{79}{21} = 19.75$. Products: $\\text{CO}_2 = 2$, $\\text{H}_2\\text{O} = 3$, $\\text{O}_2 = 1.75$, $\\text{N}_2 = 19.75$; total $= 26.5$ mol. $$y_{\\text{CO}_2} = \\frac{2}{26.5} = 7.55\\%$$ (On a dry basis it would be $\\dfrac{2}{23.5} = 8.51\\%$.)",
+      "explanation_ar": "الأساس $1$ mol إيثان: $\\text{O}_2$ المغذى $= 3.5(1.5) = 5.25$، $\\text{N}_2 = 5.25 \\times \\dfrac{79}{21} = 19.75$. النواتج: $\\text{CO}_2 = 2$، $\\text{H}_2\\text{O} = 3$، $\\text{O}_2 = 1.75$، $\\text{N}_2 = 19.75$؛ المجموع $= 26.5$ mol. $$y_{\\text{CO}_2} = \\frac{2}{26.5} = 7.55\\%$$ (على أساس جاف تكون $\\dfrac{2}{23.5} = 8.51\\%$).",
+      "memorization_note": "الهواء: $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$ (مولياً)، $\\text{N}_2/\\text{O}_2 = 3.76$، $M_{\\text{air}} \\approx 29$. النسبة المئوية للهواء الزائد: $$\\%\\text{excess} = \\frac{\\text{O}_{2,\\text{fed}} - \\text{O}_{2,\\text{theoretical}}}{\\text{O}_{2,\\text{theoretical}}} \\times 100$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 78,
+      "question_en": "In complete combustion of a hydrocarbon fuel, the carbon and hydrogen of the fuel are converted to:",
+      "question_ar": "في الاحتراق الكامل للوقود الهيدروكربوني يتحول كربون وهيدروجين الوقود إلى:",
+      "options": [
+        "Soot ($\\text{C}$) and $\\text{H}_2$",
+        "$\\text{CO}_2$ and $\\text{H}_2\\text{O}$",
+        "$\\text{CO}$ and $\\text{H}_2\\text{O}$",
+        "$\\text{CO}$ and $\\text{H}_2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Complete combustion oxidises all carbon to $\\text{CO}_2$ and all hydrogen to $\\text{H}_2\\text{O}$; CO forms only in partial combustion.",
+      "explanation_ar": "الاحتراق الكامل يؤكسد كل الكربون إلى $\\text{CO}_2$ وكل الهيدروجين إلى $\\text{H}_2\\text{O}$؛ أما CO فيتكوّن في الاحتراق الجزئي فقط.",
+      "memorization_note": "احتراق كامل: $\\text{C}\\rightarrow\\text{CO}_2$ و $\\text{H}\\rightarrow\\text{H}_2\\text{O}$. احتراق جزئي: جزء من الكربون يصير $\\text{CO}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "A. A fuel producing some CO from its carbon is undergoing partial combustion. B. CO releases less energy than the formation of $\\text{CO}_2$ would. Which is correct?",
+      "question_ar": "A. إنتاج الوقود لبعض CO من كربونه هو احتراق جزئي. B. CO يحرر طاقة أقل مما يحرره تكوّن $\\text{CO}_2$. أي مما يلي صحيح؟",
+      "options": [
+        "A is true and B is false",
+        "Both statements are false",
+        "B is true and A is false",
+        "Both statements are true"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Partial combustion gives CO, and since CO can be further oxidised to $\\text{CO}_2$, forming CO releases less heat than forming $\\text{CO}_2$. Both are true.",
+      "explanation_ar": "الاحتراق الجزئي ينتج CO، وبما أن CO يمكن أن يتأكسد إلى $\\text{CO}_2$ فإن تكوّنه يحرر حرارة أقل. العبارتان صحيحتان.",
+      "memorization_note": "$\\text{C} + \\tfrac12\\text{O}_2 \\rightarrow \\text{CO}$ (جزئي) أقل طاقة من $\\text{C} + \\text{O}_2 \\rightarrow \\text{CO}_2$ (كامل).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "The amount of air that must be brought into the process for complete combustion is called:",
+      "question_ar": "كمية الهواء اللازمة إدخالها للعملية لإتمام الاحتراق الكامل تُسمى:",
+      "options": [
+        "Theoretical air",
+        "Excess air",
+        "Partial air",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Theoretical air is the minimum air needed for complete combustion.",
+      "explanation_ar": "الهواء النظري هو الحد الأدنى من الهواء اللازم للاحتراق الكامل.",
+      "memorization_note": "الهواء النظري (Theoretical air) = الحد الأدنى للاحتراق الكامل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "The amount of air in excess of the theoretical air required for complete combustion is called:",
+      "question_ar": "كمية الهواء الزائدة عن الهواء النظري اللازم للاحتراق الكامل تُسمى:",
+      "options": [
+        "Theoretical air",
+        "Excess air",
+        "Partial air",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Excess air $=$ air fed $-$ theoretical air.",
+      "explanation_ar": "الهواء الزائد $=$ الهواء المغذى $-$ الهواء النظري.",
+      "memorization_note": "$$\\%\\text{excess air} = \\frac{\\text{air fed} - \\text{theoretical air}}{\\text{theoretical air}} \\times 100$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "The quantity of oxygen required to completely oxidise all organic and inorganic compounds in a sample is called:",
+      "question_ar": "كمية الأكسجين اللازمة لأكسدة جميع المركبات العضوية وغير العضوية في عينة أكسدة كاملة تُسمى:",
+      "options": [
+        "Total Oxygen Demand (TOD)",
+        "Chemical Oxygen Demand (COD)",
+        "Biochemical Oxygen Demand (BOD)",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is Total Oxygen Demand (TOD).",
+      "explanation_ar": "هذا هو الطلب الكلي على الأكسجين (TOD).",
+      "memorization_note": "TOD: أكسدة كل المركبات العضوية وغير العضوية. COD: العضوية كيميائياً. BOD: العضوية حيوياً بالأحياء الدقيقة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "The quantity of oxygen required to chemically oxidise all organic compounds in a sample is called:",
+      "question_ar": "كمية الأكسجين اللازمة لأكسدة جميع المركبات العضوية كيميائياً في عينة تُسمى:",
+      "options": [
+        "Total Oxygen Demand (TOD)",
+        "Chemical Oxygen Demand (COD)",
+        "Biochemical Oxygen Demand (BOD)",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is Chemical Oxygen Demand (COD).",
+      "explanation_ar": "هذا هو الطلب الكيميائي على الأكسجين (COD).",
+      "memorization_note": "COD يقيس أكسدة المواد العضوية كيميائياً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "The COD value of a sample is ______ than its BOD value.",
+      "question_ar": "قيمة COD لعينة ما ______ من قيمة BOD.",
+      "options": [
+        "Lower",
+        "Higher",
+        "Depends on the sample",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "COD also counts slowly biodegradable and non-biodegradable organics that microorganisms do not oxidise in the BOD test, so $\\text{COD} \\ge \\text{BOD}$.",
+      "explanation_ar": "يحسب COD أيضاً المواد العضوية بطيئة التحلل وغير القابلة للتحلل الحيوي التي لا تؤكسدها الأحياء الدقيقة في اختبار BOD، لذا $\\text{COD} \\ge \\text{BOD}$.",
+      "memorization_note": "$$\\text{COD} \\ge \\text{BOD}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "The quantity of oxygen used by microorganisms to oxidise the organic compounds in a sample is called:",
+      "question_ar": "كمية الأكسجين التي تستهلكها الأحياء الدقيقة لأكسدة المركبات العضوية في عينة تُسمى:",
+      "options": [
+        "Total Oxygen Demand (TOD)",
+        "Chemical Oxygen Demand (COD)",
+        "Biochemical Oxygen Demand (BOD)",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "This is Biochemical Oxygen Demand (BOD).",
+      "explanation_ar": "هذا هو الطلب الحيوي على الأكسجين (BOD).",
+      "memorization_note": "BOD: عادةً 5 أيام عند $20^{\\circ}\\text{C}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "“In the BOD test, the O₂ used is found from the difference in dissolved O₂ at the beginning of the test and after five days (at $20^{\\circ}\\text{C}$).” This statement is:",
+      "question_ar": "«في اختبار BOD تُحسب كمية $\\text{O}_2$ المستهلكة من الفرق في الأكسجين المذاب في الماء عند بداية الاختبار وبعد خمسة أيام (عند $20^{\\circ}\\text{C}$)». هذه العبارة:",
+      "options": [
+        "True",
+        "False",
+        "Not sufficient data",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The standard BOD$_5$ test measures dissolved oxygen at the start and after $5$ days at $20^{\\circ}\\text{C}$.",
+      "explanation_ar": "اختبار BOD$_5$ القياسي يقيس الأكسجين المذاب عند البداية وبعد $5$ أيام عند $20^{\\circ}\\text{C}$.",
+      "memorization_note": "$$\\text{BOD}_5 = \\text{DO}_{\\text{initial}} - \\text{DO}_{5\\text{ days}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "A combustion feed contains $9\\text{ kg}$ of $\\text{C}_5\\text{H}_{12}$ and $172.62\\text{ kg}$ of air ($M_{\\text{air}} = 28.97$, $21\\%$ $\\text{O}_2$). How many kmol of $\\text{O}_2$ enter with the air?",
+      "question_ar": "يحتوي مغذي احتراق على $9\\text{ kg}$ من $\\text{C}_5\\text{H}_{12}$ و $172.62\\text{ kg}$ من الهواء ($M_{\\text{air}} = 28.97$ و $21\\%$ $\\text{O}_2$). كم كيلومول من $\\text{O}_2$ يدخل مع الهواء؟",
+      "options": [
+        "3.25 kmol",
+        "0.25 kmol",
+        "2.25 kmol",
+        "1.25 kmol"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{air}} = \\dfrac{172.62}{28.97} = 5.96$ kmol; $$n_{\\text{O}_2} = 0.21 \\times 5.96 = 1.25\\text{ kmol}$$",
+      "explanation_ar": "$n_{\\text{air}} = \\dfrac{172.62}{28.97} = 5.96$ kmol؛ $$n_{\\text{O}_2} = 0.21 \\times 5.96 = 1.25\\text{ kmol}$$",
+      "memorization_note": "الهواء: $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$ (مولياً)، $\\text{N}_2/\\text{O}_2 = 3.76$، $M_{\\text{air}} \\approx 29$. النسبة المئوية للهواء الزائد: $$\\%\\text{excess} = \\frac{\\text{O}_{2,\\text{fed}} - \\text{O}_{2,\\text{theoretical}}}{\\text{O}_{2,\\text{theoretical}}} \\times 100$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 88,
+      "question_en": "A combustion feed contains $9\\text{ kg}$ of $\\text{C}_5\\text{H}_{12}$ and $172.62\\text{ kg}$ of air ($M_{\\text{air}} = 28.97$, $21\\%$ $\\text{O}_2$). How many kmol of $\\text{O}_2$ are required for complete combustion ($\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$)?",
+      "question_ar": "يحتوي مغذي احتراق على $9\\text{ kg}$ من $\\text{C}_5\\text{H}_{12}$ و $172.62\\text{ kg}$ من الهواء ($M_{\\text{air}} = 28.97$ و $21\\%$ $\\text{O}_2$). كم كيلومول من $\\text{O}_2$ يلزم للاحتراق الكامل ($\\text{C}_5\\text{H}_{12} + 8\\,\\text{O}_2 \\rightarrow 5\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$)؟",
+      "options": [
+        "2 kmol",
+        "1 kmol",
+        "4 kmol",
+        "3 kmol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$M_w(\\text{C}_5\\text{H}_{12}) = 72$, so $n = \\dfrac{9}{72} = 0.125$ kmol; $$n_{\\text{O}_2,\\text{req}} = 0.125 \\times 8 = 1\\text{ kmol}$$",
+      "explanation_ar": "$M_w(\\text{C}_5\\text{H}_{12}) = 72$ إذن $n = \\dfrac{9}{72} = 0.125$ kmol؛ $$n_{\\text{O}_2,\\text{req}} = 0.125 \\times 8 = 1\\text{ kmol}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{C}_5\\text{H}_{12}) = 5(12)+12 = 72$. النسبة الستوكيومترية من المعادلة الموزونة: $$n_B = n_A \\times \\frac{\\nu_B}{\\nu_A}$$ حيث $\\nu$ هي المعاملات الستوكيومترية.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 89,
+      "question_en": "A combustion feed contains $9\\text{ kg}$ of $\\text{C}_5\\text{H}_{12}$ and $172.62\\text{ kg}$ of air ($M_{\\text{air}} = 28.97$, $21\\%$ $\\text{O}_2$). What is the percentage of excess air?",
+      "question_ar": "يحتوي مغذي احتراق على $9\\text{ kg}$ من $\\text{C}_5\\text{H}_{12}$ و $172.62\\text{ kg}$ من الهواء ($M_{\\text{air}} = 28.97$ و $21\\%$ $\\text{O}_2$). ما النسبة المئوية للهواء الزائد؟",
+      "options": [
+        "25%",
+        "45%",
+        "85%",
+        "65%"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{O}_{2,\\text{fed}} = 1.25$ kmol and $\\text{O}_{2,\\text{theoretical}} = 1$ kmol. $$\\%\\text{excess} = \\frac{1.25 - 1}{1} \\times 100 = 25\\%$$",
+      "explanation_ar": "$\\text{O}_2$ المغذى $= 1.25$ kmol و $\\text{O}_2$ النظري $= 1$ kmol. $$\\%\\text{excess} = \\frac{1.25 - 1}{1} \\times 100 = 25\\%$$",
+      "memorization_note": "الهواء: $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$ (مولياً)، $\\text{N}_2/\\text{O}_2 = 3.76$، $M_{\\text{air}} \\approx 29$. النسبة المئوية للهواء الزائد: $$\\%\\text{excess} = \\frac{\\text{O}_{2,\\text{fed}} - \\text{O}_{2,\\text{theoretical}}}{\\text{O}_{2,\\text{theoretical}}} \\times 100$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 90,
+      "question_en": "“Percentage excess air depends on the amount required for complete combustion, not on how much fuel is actually burned.” This statement is:",
+      "question_ar": "«النسبة المئوية للهواء الزائد تعتمد على الكمية اللازمة للاحتراق الكامل وليس على مقدار الوقود المحترق فعلاً». هذه العبارة:",
+      "options": [
+        "True",
+        "False",
+        "Depends on the hydrocarbon",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Excess air is defined relative to the theoretical air for complete combustion of all the fuel fed, regardless of how much actually burns.",
+      "explanation_ar": "يُعرّف الهواء الزائد نسبةً إلى الهواء النظري للاحتراق الكامل لكل الوقود المغذى بغض النظر عن مقدار ما يحترق فعلاً.",
+      "memorization_note": "الهواء: $21\\%$ $\\text{O}_2$ و $79\\%$ $\\text{N}_2$ (مولياً)، $\\text{N}_2/\\text{O}_2 = 3.76$، $M_{\\text{air}} \\approx 29$. النسبة المئوية للهواء الزائد: $$\\%\\text{excess} = \\frac{\\text{O}_{2,\\text{fed}} - \\text{O}_{2,\\text{theoretical}}}{\\text{O}_{2,\\text{theoretical}}} \\times 100$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "Material that leaves a downstream process unit and is returned to an upstream unit is called:",
+      "question_ar": "المادة التي تخرج من وحدة لاحقة في العملية وتُعاد إلى وحدة سابقة تُسمى:",
+      "options": [
+        "Recycle",
+        "Purge",
+        "Bypass",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the definition of recycle.",
+      "explanation_ar": "هذا هو تعريف التدوير (Recycle).",
+      "memorization_note": "Recycle: إعادة جزء من الناتج لمدخل وحدة سابقة لرفع التحويل الكلي واستغلال المتفاعلات.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "The stream containing the recycled material is known as the:",
+      "question_ar": "التيار الذي يحمل المادة المعاد تدويرها يُسمى:",
+      "options": [
+        "Recycle stream",
+        "Purge stream",
+        "Bypass stream",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It is the recycle stream.",
+      "explanation_ar": "هو تيار التدوير (Recycle stream).",
+      "memorization_note": "تيار التدوير يعيد المتفاعلات غير المتحولة إلى المفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "A recycle system may include ______ recycle stream(s).",
+      "question_ar": "قد يحتوي نظام التدوير على ______ تيار تدوير.",
+      "options": [
+        "One or more",
+        "Only one",
+        "Only two",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A process may have one or several recycle streams.",
+      "explanation_ar": "قد يحتوي النظام على تيار تدوير واحد أو أكثر.",
+      "memorization_note": "عدد تيارات التدوير غير محدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "In a process with a reactor and recycle, the stream that enters the process from outside (before mixing with the recycle) is the:",
+      "question_ar": "في عملية تحتوي على مفاعل وتدوير، التيار الذي يدخل العملية من الخارج (قبل خلطه بتيار التدوير) هو:",
+      "options": [
+        "Process (fresh) feed",
+        "Overall process",
+        "Overall product",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The fresh (process) feed is the new material entering the overall process.",
+      "explanation_ar": "المغذي الطازج (Process feed) هو المادة الجديدة الداخلة للعملية الكلية.",
+      "memorization_note": "المغذي الطازج + التدوير = مغذي المفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "The objective of a material balance is to assess:",
+      "question_ar": "الهدف من الموازنة المادية هو تقييم:",
+      "options": [
+        "Losses",
+        "Input–output",
+        "All of the mentioned",
+        "Conversion efficiency"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Material balances quantify inputs and outputs, conversion/efficiency and losses.",
+      "explanation_ar": "تُحدد الموازنة المادية المدخلات والمخرجات وكفاءة التحويل والفقد.",
+      "memorization_note": "$$\\text{Input} + \\text{Generation} = \\text{Output} + \\text{Consumption} + \\text{Accumulation}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "The recycle stream is, with respect to the process unit it returns to:",
+      "question_ar": "يُعدّ تيار التدوير بالنسبة للوحدة التي يعود إليها:",
+      "options": [
+        "An input to the process",
+        "An output of the process",
+        "Both output and input",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It is returned to the unit, so it is an input to that unit (mixed with the fresh feed).",
+      "explanation_ar": "يعود إلى الوحدة فهو مدخل لها (يُخلط مع المغذي الطازج).",
+      "memorization_note": "مغذي المفاعل = مغذي طازج + تدوير.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "For a steady-state process without reaction having fresh feed $F$, product $P$ and waste $W$ (recycle is internal), the overall material balance is:",
+      "question_ar": "لعملية في الحالة المستقرة بدون تفاعل فيها مغذٍ طازج $F$ ومنتج $P$ ونفايات $W$ (والتدوير داخلي)، تكون الموازنة المادية الكلية:",
+      "options": [
+        "$F = W - P$",
+        "$F = P + W$",
+        "$F = P - W$",
+        "$F + P = W$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The recycle stream is internal to the overall system boundary, so it does not appear in the overall balance: $F = P + W$.",
+      "explanation_ar": "تيار التدوير داخلي ضمن حدود النظام الكلي فلا يظهر في الموازنة الكلية: $F = P + W$.",
+      "memorization_note": "الموازنة الكلية: $$\\text{Input} = \\text{Output} \\Rightarrow F = P + W$$ (تيار التدوير لا يظهر لأنه داخلي).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "A ______ stream skips one or more stages of the process and goes directly to a downstream stage.",
+      "question_ar": "تيار ______ يتخطى مرحلة أو أكثر من العملية ويذهب مباشرة إلى مرحلة لاحقة.",
+      "options": [
+        "Recycle",
+        "Purge",
+        "Bypass",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "This is the definition of a bypass stream.",
+      "explanation_ar": "هذا هو تعريف تيار المجاورة (Bypass).",
+      "memorization_note": "Bypass: يتجاوز وحدة المعالجة ويُخلط مع خارجها لضبط التركيب النهائي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "A ______ stream is bled off from the process to remove an accumulation of inerts or unwanted material.",
+      "question_ar": "تيار ______ يُسحب من العملية للتخلص من تراكم المواد الخاملة أو غير المرغوبة.",
+      "options": [
+        "Recycle",
+        "Purge",
+        "Bypass",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is the definition of a purge stream.",
+      "explanation_ar": "هذا هو تعريف تيار التفريغ (Purge).",
+      "memorization_note": "Purge: يُسحب من تيار التدوير ليمنع تراكم الخامل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "A bypass stream skips the ______.",
+      "question_ar": "يتخطى تيار الـ Bypass ______.",
+      "options": [
+        "Mixer",
+        "Process unit",
+        "Splitter",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A bypass goes from the splitter directly to the mixer/downstream point, skipping the process unit.",
+      "explanation_ar": "يذهب تيار الـ Bypass من المقسّم مباشرة إلى الخلاط أو نقطة لاحقة متخطياً وحدة المعالجة.",
+      "memorization_note": "Bypass لا يمر عبر وحدة المعالجة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "A bypass stream can be used to control the composition of a unit's final exit stream. This statement is:",
+      "question_ar": "يمكن استخدام تيار Bypass للتحكم في تركيب التيار الخارج النهائي من وحدة ما. هذه العبارة:",
+      "options": [
+        "True",
+        "False",
+        "Always false",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Mixing the bypass stream with the unit exit stream in suitable proportion gives the desired final composition.",
+      "explanation_ar": "خلط تيار الـ Bypass مع تيار خروج الوحدة بنسبة مناسبة يعطي التركيب النهائي المطلوب.",
+      "memorization_note": "$$F_{\\text{bypass}} x_{\\text{bypass}} + F_{\\text{unit}} x_{\\text{unit}} = F_{\\text{final}}\\, x_{\\text{final}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 102,
+      "question_en": "A purge stream is taken from which stream?",
+      "question_ar": "من أي تيار يؤخذ تيار الـ Purge؟",
+      "options": [
+        "Feed stream",
+        "Product stream",
+        "Recycle stream",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The purge removes unwanted material from the recycle stream to prevent build-up of inerts.",
+      "explanation_ar": "يزيل الـ Purge المواد غير المرغوبة من تيار التدوير لمنع تراكم المواد الخاملة.",
+      "memorization_note": "Purge يُسحب من تيار التدوير (له نفس تركيب تيار التدوير).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 103,
+      "question_en": "Process simulators are used for activities such as process design and process analysis. This statement is:",
+      "question_ar": "تُستخدم محاكيات العمليات في أنشطة مثل تصميم العمليات وتحليلها. هذه العبارة:",
+      "options": [
+        "Correct",
+        "Incorrect",
+        "Depends on the process",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Process simulation is a model-based software representation of chemical processes and unit operations, used for design and analysis.",
+      "explanation_ar": "محاكاة العمليات تمثيل برمجي قائم على نماذج للعمليات الكيميائية ووحدات التشغيل ويُستخدم في التصميم والتحليل.",
+      "memorization_note": "أمثلة: Aspen Plus, HYSYS.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 104,
+      "question_en": "______ is any measurable characteristic of a substance that can be calculated or deduced.",
+      "question_ar": "______ هي أي خاصية قابلة للقياس لمادة ما ويمكن حسابها أو استنتاجها.",
+      "options": [
+        "Property",
+        "State",
+        "Phase",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the definition of a property.",
+      "explanation_ar": "هذا هو تعريف الخاصية (Property).",
+      "memorization_note": "الخاصية: صفة قابلة للقياس (P, T, V, ...).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 105,
+      "question_en": "The ______ of a system is the condition of the system as specified by its properties.",
+      "question_ar": "______ النظام هي حالته كما تحددها خصائصه.",
+      "options": [
+        "Property",
+        "State",
+        "Phase",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is the definition of the state of a system.",
+      "explanation_ar": "هذا هو تعريف حالة النظام (State).",
+      "memorization_note": "الحالة تُحدَّد بمجموعة من الخصائص.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 106,
+      "question_en": "A ______ is a completely homogeneous and uniform state of matter.",
+      "question_ar": "الـ ______ هو حالة متجانسة تماماً وموحدة للمادة.",
+      "options": [
+        "Property",
+        "State",
+        "Phase",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "This is the definition of a phase.",
+      "explanation_ar": "هذا هو تعريف الطور (Phase).",
+      "memorization_note": "الطور: متجانس تماماً (صلب، سائل، غاز).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 107,
+      "question_en": "A system may consist of ______ phase(s).",
+      "question_ar": "قد يتكوّن النظام من ______ طور.",
+      "options": [
+        "Not more than two",
+        "One or more than one",
+        "Only one",
+        "Only two"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A system can be single-phase or multiphase (e.g. ice, water and vapour together).",
+      "explanation_ar": "قد يكون النظام أحادي الطور أو متعدد الأطوار (مثل الجليد والماء والبخار معاً).",
+      "memorization_note": "عدد الأطوار غير محدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 108,
+      "question_en": "Mercury and water (immiscible) in the same container form two different phases. This statement is:",
+      "question_ar": "الزئبق والماء (غير ممتزجين) في نفس الوعاء يمثلان طورين مختلفين. هذه العبارة:",
+      "options": [
+        "Correct",
+        "Incorrect",
+        "Can't say",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Immiscible liquids do not form a homogeneous mixture, so each is its own phase.",
+      "explanation_ar": "السوائل غير الممتزجة لا تكوّن خليطاً متجانساً فلكل منها طور مستقل.",
+      "memorization_note": "سائلان غير ممتزجين = طوران.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 109,
+      "question_en": "Which of the following is an incorrect form of the ideal gas equation? ($P$: absolute pressure, $V$: volume, $n$: moles, $T$: absolute temperature, $v$: molar volume, $\\rho$: density)",
+      "question_ar": "أي مما يلي صيغة غير صحيحة لمعادلة الغاز المثالي؟ ($P$: الضغط المطلق، $V$: الحجم، $n$: عدد المولات، $T$: درجة الحرارة المطلقة، $v$: الحجم المولي، $\\rho$: الكثافة)",
+      "options": [
+        "$PV = nRT$",
+        "$Pv = RT$",
+        "$PM = \\rho RT$",
+        "None of the mentioned"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three are valid: $PV = nRT$; dividing by $n$ gives $Pv = RT$; and $\\rho = \\dfrac{nM}{V}$ gives $PM = \\rho RT$. So none is incorrect.",
+      "explanation_ar": "الصيغ الثلاث صحيحة: $PV = nRT$؛ وبالقسمة على $n$ نحصل على $Pv = RT$؛ ومن $\\rho = \\dfrac{nM}{V}$ نحصل على $PM = \\rho RT$. إذن لا توجد صيغة خاطئة.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 110,
+      "question_en": "For an ideal gas at constant temperature, if the molar volume is doubled, the pressure becomes:",
+      "question_ar": "لغاز مثالي عند درجة حرارة ثابتة، إذا تضاعف الحجم المولي فإن الضغط يصبح:",
+      "options": [
+        "The same",
+        "Double",
+        "Half",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Pv = RT$ is constant at fixed $T$, so $P \\propto \\dfrac{1}{v}$: doubling $v$ halves $P$.",
+      "explanation_ar": "$Pv = RT$ ثابت عند $T$ ثابتة، إذن $P \\propto \\dfrac{1}{v}$: مضاعفة $v$ تنصّف $P$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 111,
+      "question_en": "The specific molar volume of an ideal gas is:",
+      "question_ar": "الحجم المولي النوعي لغاز مثالي هو:",
+      "options": [
+        "Volume per mass",
+        "Volume per molecular weight",
+        "Volume per mole",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$v = \\dfrac{V}{n}$, volume per mole.",
+      "explanation_ar": "$v = \\dfrac{V}{n}$ أي الحجم لكل مول.",
+      "memorization_note": "$$v = \\frac{V}{n} = \\frac{RT}{P}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 112,
+      "question_en": "The inverse of molar volume is:",
+      "question_ar": "مقلوب الحجم المولي هو:",
+      "options": [
+        "Molar density",
+        "Mole fraction",
+        "Molar specific volume",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dfrac{1}{v} = \\dfrac{n}{V}$ is the molar density.",
+      "explanation_ar": "$\\dfrac{1}{v} = \\dfrac{n}{V}$ هي الكثافة المولية.",
+      "memorization_note": "$$\\rho_{\\text{molar}} = \\frac{n}{V} = \\frac{P}{RT}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 113,
+      "question_en": "$(\\text{cm}^3)(\\text{atm})/(\\text{K})(\\text{g mol})$ is an appropriate unit for the universal gas constant $R$. This statement is:",
+      "question_ar": "الوحدة $(\\text{cm}^3)(\\text{atm})/(\\text{K})(\\text{g mol})$ مناسبة لثابت الغازات العام $R$. هذه العبارة:",
+      "options": [
+        "Correct",
+        "Incorrect",
+        "Can't say",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$R = \\dfrac{PV}{nT}$ has units (pressure)(volume)/(mole)(temperature); $R = 82.06\\ \\dfrac{\\text{cm}^3\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}}$.",
+      "explanation_ar": "$R = \\dfrac{PV}{nT}$ وحدتها (ضغط)(حجم)/(مول)(درجة حرارة)؛ $R = 82.06\\ \\dfrac{\\text{cm}^3\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}}$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 114,
+      "question_en": "At constant temperature, if the pressure of an ideal gas is doubled, its density becomes:",
+      "question_ar": "عند درجة حرارة ثابتة، إذا تضاعف ضغط غاز مثالي فإن كثافته تصبح:",
+      "options": [
+        "Half",
+        "Double",
+        "The same",
+        "None"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\rho = \\dfrac{PM}{RT}$, so $\\rho \\propto P$ at constant $T$.",
+      "explanation_ar": "$\\rho = \\dfrac{PM}{RT}$ إذن $\\rho \\propto P$ عند $T$ ثابتة.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 115,
+      "question_en": "Which statement about the assumptions of an ideal gas is incorrect?",
+      "question_ar": "أي عبارة عن افتراضات الغاز المثالي غير صحيحة؟",
+      "options": [
+        "Molecules occupy negligible volume",
+        "No attractive forces exist between molecules",
+        "Molecules move in random straight-line motion",
+        "None of the mentioned (all are correct)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three are the standard assumptions behind the ideal gas law, so none is incorrect.",
+      "explanation_ar": "العبارات الثلاث هي الافتراضات القياسية لقانون الغاز المثالي، إذن لا توجد عبارة خاطئة.",
+      "memorization_note": "افتراضات الغاز المثالي: حجم الجزيئات مهمل، لا قوى تجاذب، حركة عشوائية مستقيمة، تصادمات مرنة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 116,
+      "question_en": "Which statement is correct?",
+      "question_ar": "أي عبارة صحيحة؟",
+      "options": [
+        "Gases at low pressure or high temperature behave as ideal gases",
+        "Gases at high pressure or low temperature behave as ideal gases",
+        "Gases at high density behave as ideal gases",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "At low pressure and high temperature, molecules are far apart and intermolecular forces are negligible, so the ideal gas law applies.",
+      "explanation_ar": "عند ضغط منخفض ودرجة حرارة عالية تكون الجزيئات متباعدة وقوى التجاذب مهملة فينطبق القانون المثالي.",
+      "memorization_note": "يقترب السلوك من المثالي عند $P \\to$ منخفض و $T \\to$ عالية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 117,
+      "question_en": "What is the volume, in litres, of $20\\text{ g}$ of oxygen at standard conditions (0 °C, 1 atm)?",
+      "question_ar": "ما حجم $20\\text{ g}$ من الأكسجين باللتر عند الظروف القياسية ($0^{\\circ}\\text{C}$، $1\\text{ atm}$)؟",
+      "options": [
+        "14 L",
+        "16 L",
+        "10 L",
+        "12 L"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n = \\dfrac{20}{32} = 0.625$ mol. $$V = 0.625 \\times 22.4 = 14\\text{ L}$$",
+      "explanation_ar": "$n = \\dfrac{20}{32} = 0.625$ mol. $$V = 0.625 \\times 22.4 = 14\\text{ L}$$",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{O}_2)=32$. قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 118,
+      "question_en": "What is the density of $\\text{CO}_2$ in $\\text{kg/m}^3$ at $27^{\\circ}\\text{C}$ and $100\\text{ kPa}$?",
+      "question_ar": "ما كثافة $\\text{CO}_2$ بوحدة $\\text{kg/m}^3$ عند $27^{\\circ}\\text{C}$ و $100\\text{ kPa}$؟",
+      "options": [
+        "2.76",
+        "1.76",
+        "4.76",
+        "3.76"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\rho = \\frac{PM}{RT} = \\frac{100 \\times 44}{8.314 \\times 300} = 1.76\\text{ kg/m}^3$$ ($P$ in kPa and $R$ in $\\text{kJ/kmol·K}$ give kg/m$^3$ directly.)",
+      "explanation_ar": "$$\\rho = \\frac{PM}{RT} = \\frac{100 \\times 44}{8.314 \\times 300} = 1.76\\text{ kg/m}^3$$ (عند استخدام $P$ بالـ kPa و $R = 8.314\\ \\text{kJ/kmol·K}$ تخرج الكثافة مباشرة بـ kg/m$^3$).",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. $M_w(\\text{CO}_2) = 44$. قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 119,
+      "question_en": "When measuring the specific gravity of a gas, the usual reference gas is air (at the same temperature and pressure). This statement is:",
+      "question_ar": "عند قياس الوزن النوعي لغاز ما فإن الغاز المرجعي المعتاد هو الهواء (عند نفس درجة الحرارة والضغط). هذه العبارة:",
+      "options": [
+        "False",
+        "True",
+        "Depends on the gas",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For gases, specific gravity is usually defined relative to air at the same $T$ and $P$: $\\text{SG} = \\dfrac{M_{\\text{gas}}}{M_{\\text{air}}} \\approx \\dfrac{M_{\\text{gas}}}{29}$.",
+      "explanation_ar": "الوزن النوعي للغازات يُعرَّف عادةً بالنسبة للهواء عند نفس $T$ و $P$: $\\text{SG} = \\dfrac{M_{\\text{gas}}}{M_{\\text{air}}} \\approx \\dfrac{M_{\\text{gas}}}{29}$.",
+      "memorization_note": "$$\\text{SG}_{\\text{gas}} = \\frac{\\rho_{\\text{gas}}}{\\rho_{\\text{air}}} = \\frac{M_{\\text{gas}}}{29}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 120,
+      "question_en": "What is the volume of $2.5\\text{ g-mol}$ of an ideal gas at standard conditions (0 °C, 1 atm)?",
+      "question_ar": "ما حجم $2.5\\text{ g-mol}$ من غاز مثالي عند الظروف القياسية ($0^{\\circ}\\text{C}$، $1\\text{ atm}$)؟",
+      "options": [
+        "112 L",
+        "56 L",
+        "44.8 L",
+        "22.4 L"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$V = 2.5 \\times 22.4 = 56\\text{ L}$$",
+      "explanation_ar": "$$V = 2.5 \\times 22.4 = 56\\text{ L}$$",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 121,
+      "question_en": "Which of the following has the lowest density at room temperature and the same pressure?",
+      "question_ar": "أي من الغازات التالية له أقل كثافة عند درجة حرارة الغرفة وبنفس الضغط؟",
+      "options": [
+        "CO",
+        "$\\text{N}_2$",
+        "Ne",
+        "$\\text{NH}_3$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\rho = \\dfrac{PM}{RT}$, so the lowest density belongs to the lowest $M_w$: $\\text{NH}_3 = 17$, Ne $= 20.2$, $\\text{N}_2 = \\text{CO} = 28$.",
+      "explanation_ar": "$\\rho = \\dfrac{PM}{RT}$ فأقل كثافة لأقل كتلة مولية: $\\text{NH}_3 = 17$، Ne $= 20.2$، $\\text{N}_2 = \\text{CO} = 28$.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 122,
+      "question_en": "The condition of $1\\text{ atm}$ and $0^{\\circ}\\text{C}$ is known as:",
+      "question_ar": "الظرف $1\\text{ atm}$ و $0^{\\circ}\\text{C}$ يُعرف باسم:",
+      "options": [
+        "Room temperature and pressure",
+        "Standard temperature and pressure (STP)",
+        "Atmospheric temperature and pressure",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$0^{\\circ}\\text{C}$ and $1\\text{ atm}$ is STP.",
+      "explanation_ar": "$0^{\\circ}\\text{C}$ و $1\\text{ atm}$ هو STP.",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 123,
+      "question_en": "At standard conditions, what is the volume of $1\\text{ kmol}$ of an ideal gas?",
+      "question_ar": "عند الظروف القياسية، ما حجم $1\\text{ kmol}$ من غاز مثالي؟",
+      "options": [
+        "$22.4\\text{ m}^3$",
+        "$2240\\text{ m}^3$",
+        "$224000\\text{ m}^3$",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$V = \\frac{nRT}{P} = \\frac{1 \\times 0.08206 \\times 273.15}{1}\\text{ m}^3\\ (\\text{per kmol, with R in m}^3\\text{·atm/kmol·K}) = 22.4\\text{ m}^3$$",
+      "explanation_ar": "$$V = \\frac{nRT}{P} = \\frac{1 \\times 0.08206 \\times 273.15}{1} = 22.4\\text{ m}^3$$ (مع $R = 0.08206\\ \\text{m}^3\\text{·atm/kmol·K}$).",
+      "memorization_note": "قانون الغاز المثالي: $$PV = nRT \\qquad Pv = RT \\qquad PM = \\rho RT$$ $R = 0.08206\\ \\dfrac{\\text{L}\\cdot\\text{atm}}{\\text{mol}\\cdot\\text{K}} = 8.314\\ \\dfrac{\\text{J}}{\\text{mol}\\cdot\\text{K}}$، والحالة القياسية STP ($0^{\\circ}\\text{C}$، $1\\text{ atm}$): $22.4\\text{ L/mol} = 22.4\\text{ m}^3/\\text{kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 124,
+      "question_en": "A gas mixture contains $25\\text{ mol}$ of $\\text{NO}_3$ and $100\\text{ mol}$ of $\\text{SO}_2$ at a total pressure of $100\\text{ atm}$. What is the partial pressure of $\\text{NO}_3$?",
+      "question_ar": "يحتوي خليط غازي على $25\\text{ mol}$ من $\\text{NO}_3$ و $100\\text{ mol}$ من $\\text{SO}_2$ عند ضغط كلي $100\\text{ atm}$. ما الضغط الجزئي لـ $\\text{NO}_3$؟",
+      "options": [
+        "20 atm",
+        "40 atm",
+        "60 atm",
+        "80 atm"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$y = \\dfrac{25}{25+100} = 0.2$. $$p = yP = 0.2 \\times 100 = 20\\text{ atm}$$",
+      "explanation_ar": "$y = \\dfrac{25}{25+100} = 0.2$. $$p = yP = 0.2 \\times 100 = 20\\text{ atm}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 125,
+      "question_en": "A gas mixture contains $25\\text{ mol}$ of $\\text{NO}_3$ and $100\\text{ mol}$ of $\\text{SO}_2$ at a total pressure of $100\\text{ atm}$. What is the partial pressure of $\\text{SO}_2$?",
+      "question_ar": "يحتوي خليط غازي على $25\\text{ mol}$ من $\\text{NO}_3$ و $100\\text{ mol}$ من $\\text{SO}_2$ عند ضغط كلي $100\\text{ atm}$. ما الضغط الجزئي لـ $\\text{SO}_2$؟",
+      "options": [
+        "40 atm",
+        "80 atm",
+        "20 atm",
+        "60 atm"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$y = \\dfrac{100}{125} = 0.8$. $$p = 0.8 \\times 100 = 80\\text{ atm}$$",
+      "explanation_ar": "$y = \\dfrac{100}{125} = 0.8$. $$p = 0.8 \\times 100 = 80\\text{ atm}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 126,
+      "question_en": "The pressure that a single component of a gas mixture would exert if it existed alone in the same volume as the mixture and at the same temperature is called:",
+      "question_ar": "الضغط الذي يؤثر به مكوّن واحد من خليط غازي لو وُجد وحده في نفس حجم الخليط وعند نفس درجة الحرارة يُسمى:",
+      "options": [
+        "Absolute pressure",
+        "Partial pressure",
+        "Total pressure of the mixture",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is the definition of partial pressure (Dalton).",
+      "explanation_ar": "هذا هو تعريف الضغط الجزئي (دالتون).",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 127,
+      "question_en": "An ideal gas mixture is at a total pressure of $560\\text{ mmHg}$. If it contains $15\\%$ $\\text{O}_2$, what is the partial pressure of $\\text{O}_2$?",
+      "question_ar": "خليط غازي مثالي عند ضغط كلي $560\\text{ mmHg}$. إذا كان يحتوي على $15\\%$ $\\text{O}_2$، فما الضغط الجزئي لـ $\\text{O}_2$؟",
+      "options": [
+        "84 mmHg",
+        "140 mmHg",
+        "336 mmHg",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$p = 0.15 \\times 560 = 84\\text{ mmHg}$$",
+      "explanation_ar": "$$p = 0.15 \\times 560 = 84\\text{ mmHg}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 128,
+      "question_en": "An ideal gas mixture is at a total pressure of $560\\text{ mmHg}$. If it contains $25\\%$ $\\text{CO}_2$, what is the partial pressure of $\\text{CO}_2$?",
+      "question_ar": "خليط غازي مثالي عند ضغط كلي $560\\text{ mmHg}$. إذا كان يحتوي على $25\\%$ $\\text{CO}_2$، فما الضغط الجزئي لـ $\\text{CO}_2$؟",
+      "options": [
+        "84 mmHg",
+        "140 mmHg",
+        "336 mmHg",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$p = 0.25 \\times 560 = 140\\text{ mmHg}$$",
+      "explanation_ar": "$$p = 0.25 \\times 560 = 140\\text{ mmHg}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 129,
+      "question_en": "An ideal gas mixture is at a total pressure of $560\\text{ mmHg}$. If it contains $60\\%$ $\\text{N}_2$, what is the partial pressure of $\\text{N}_2$?",
+      "question_ar": "خليط غازي مثالي عند ضغط كلي $560\\text{ mmHg}$. إذا كان يحتوي على $60\\%$ $\\text{N}_2$، فما الضغط الجزئي لـ $\\text{N}_2$؟",
+      "options": [
+        "84 mmHg",
+        "140 mmHg",
+        "336 mmHg",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$p = 0.60 \\times 560 = 336\\text{ mmHg}$$",
+      "explanation_ar": "$$p = 0.60 \\times 560 = 336\\text{ mmHg}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 130,
+      "question_en": "The volume occupied by a single gas of a mixture when it is alone at the same temperature and pressure as the mixture is called:",
+      "question_ar": "الحجم الذي يشغله غاز واحد من الخليط لو كان وحده عند نفس درجة حرارة وضغط الخليط يُسمى:",
+      "options": [
+        "Absolute volume",
+        "Partial volume (pure-component volume)",
+        "Total volume of the mixture",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This is the definition of partial (pure-component) volume (Amagat).",
+      "explanation_ar": "هذا هو تعريف الحجم الجزئي (حجم المكوّن النقي) حسب أماغات.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 131,
+      "question_en": "The sum of the partial pressures of the components of a gas mixture is:",
+      "question_ar": "مجموع الضغوط الجزئية لمكونات خليط غازي هو:",
+      "options": [
+        "Total absolute pressure",
+        "Total pressure exerted by one component",
+        "Total pressure of the gas mixture",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "By Dalton's law, $\\sum p_i = P$, the total pressure of the mixture.",
+      "explanation_ar": "حسب قانون دالتون $\\sum p_i = P$ أي الضغط الكلي للخليط.",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 132,
+      "question_en": "An ideal gas mixture contains $5\\text{ mol}$ of $\\text{N}_2$ and $15\\text{ mol}$ of $\\text{O}_2$ at a total pressure of $40\\text{ atm}$. What is the partial pressure of $\\text{N}_2$?",
+      "question_ar": "يحتوي خليط غازي مثالي على $5\\text{ mol}$ من $\\text{N}_2$ و $15\\text{ mol}$ من $\\text{O}_2$ عند ضغط كلي $40\\text{ atm}$. ما الضغط الجزئي لـ $\\text{N}_2$؟",
+      "options": [
+        "30 atm",
+        "20 atm",
+        "40 atm",
+        "10 atm"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$y_{\\text{N}_2} = \\dfrac{5}{20} = 0.25$. $$p = 0.25 \\times 40 = 10\\text{ atm}$$",
+      "explanation_ar": "$y_{\\text{N}_2} = \\dfrac{5}{20} = 0.25$. $$p = 0.25 \\times 40 = 10\\text{ atm}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 133,
+      "question_en": "An ideal gas mixture contains $5\\text{ mol}$ of $\\text{N}_2$ and $15\\text{ mol}$ of $\\text{O}_2$ at a total pressure of $40\\text{ atm}$. What is the partial pressure of $\\text{O}_2$?",
+      "question_ar": "يحتوي خليط غازي مثالي على $5\\text{ mol}$ من $\\text{N}_2$ و $15\\text{ mol}$ من $\\text{O}_2$ عند ضغط كلي $40\\text{ atm}$. ما الضغط الجزئي لـ $\\text{O}_2$؟",
+      "options": [
+        "30 atm",
+        "10 atm",
+        "40 atm",
+        "20 atm"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$y_{\\text{O}_2} = \\dfrac{15}{20} = 0.75$. $$p = 0.75 \\times 40 = 30\\text{ atm}$$",
+      "explanation_ar": "$y_{\\text{O}_2} = \\dfrac{15}{20} = 0.75$. $$p = 0.75 \\times 40 = 30\\text{ atm}$$",
+      "memorization_note": "قانون دالتون: $$p_i = y_i P \\qquad\\text{و}\\qquad \\sum_i p_i = P$$ قانون أماغات: $$V_i = y_i V$$ حيث $y_i$ الكسر المولي.",
+      "requires_scratchpad": true
+    }
+  ]
+}

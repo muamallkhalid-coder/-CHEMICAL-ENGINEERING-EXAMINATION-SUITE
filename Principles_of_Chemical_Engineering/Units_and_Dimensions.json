@@ -1,0 +1,248 @@
+{
+  "topic_en": "Units, Dimensions & Basic Calculations",
+  "topic_ar": "الوحدات، الأبعاد والحسابات الأساسية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة تأسيسية حول أنظمة الوحدات، معاملات التحويل، التوافق البعدي، والأرقام المعنوية.",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Which of the following statements correctly distinguishes between fundamental and derived dimensions?",
+      "question_ar": "أي من العبارات التالية تميز بشكل صحيح بين الأبعاد الأساسية (Fundamental) والمشتقة (Derived)؟",
+      "options": [
+        "Fundamental dimensions are developed from derived dimensions.",
+        "Derived dimensions can be measured independently without equations.",
+        "Derived dimensions are developed in terms of fundamental dimensions.",
+        "There is no difference between fundamental and derived dimensions."
+      ],
+      "correct_index": 2,
+      "explanation_en": "Fundamental dimensions (like length, mass, time) are independent and can be measured directly. Derived dimensions (like velocity, force, density) are constructed from fundamental dimensions.",
+      "explanation_ar": "الأبعاد الأساسية (مثل الطول، الكتلة، الزمن) مستقلة ويمكن قياسها مباشرة. أما الأبعاد المشتقة (مثل السرعة، القوة، الكثافة) فتُبنى وتُشتق من دمج الأبعاد الأساسية رياضياً.",
+      "memorization_note": "الأبعاد الأساسية (Fundamental Dimensions) هي الأبعاد المستقلة مثل الطول ($L$)، الكتلة ($M$)، الزمن ($t$)، ودرجة الحرارة ($T$). الأبعاد المشتقة (Derived Dimensions) تتكون من دمج الأبعاد الأساسية مثل السرعة ($L/t$) والقوة ($ML/t^2$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "A car is traveling with a speed of $550\\text{ ft/s}$. How fast is it going in miles per hour ($\\text{mph}$)?",
+      "question_ar": "سيارة تسير بسرعة $550\\text{ ft/s}$. ما هي سرعتها بوحدة الميل في الساعة ($\\text{mph}$)؟",
+      "options": [
+        "$375\\text{ mph}$",
+        "$750\\text{ mph}$",
+        "$440\\text{ mph}$",
+        "$225\\text{ mph}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Using the standard conversion factors: $$\\text{Velocity} = 550\\text{ }\\frac{\\text{ft}}{\\text{s}} \\times \\frac{3600\\text{ s}}{1\\text{ hr}} \\times \\frac{1\\text{ mile}}{5280\\text{ ft}} = 375\\text{ mph}$$",
+      "explanation_ar": "باستخدام عوامل التحويل القياسية: $$v = 550\\text{ }\\frac{\\text{ft}}{\\text{s}} \\times \\frac{3600\\text{ s}}{1\\text{ hr}} \\times \\frac{1\\text{ mile}}{5280\\text{ ft}} = 375\\text{ mph}$$",
+      "memorization_note": "عوامل التحويل الأساسية للطول والزمن: الميل الواحد يساوي $5280\\text{ ft}$، والساعة الواحدة تساوي $3600\\text{ s}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 3,
+      "question_en": "What is the equivalent speed of $30\\text{ miles/hr}$ in $\\text{ft/s}$?",
+      "question_ar": "ما هي السرعة المكافئة لـ $30\\text{ miles/hr}$ بوحدة $\\text{ft/s}$؟",
+      "options": [
+        "$25.26\\text{ ft/s}$",
+        "$35.36\\text{ ft/s}$",
+        "$44.00\\text{ ft/s}$",
+        "$55.56\\text{ ft/s}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Converting miles to feet and hours to seconds: $$\\text{Velocity} = 30\\text{ }\\frac{\\text{mile}}{\\text{hr}} \\times \\frac{5280\\text{ ft}}{1\\text{ mile}} \\times \\frac{1\\text{ hr}}{3600\\text{ s}} = 44\\text{ ft/s}$$",
+      "explanation_ar": "بتحويل الأميال إلى أقدام والساعات إلى ثوانٍ: $$v = 30\\text{ }\\frac{\\text{mile}}{\\text{hr}} \\times \\frac{5280\\text{ ft}}{1\\text{ mile}} \\times \\frac{1\\text{ hr}}{3600\\text{ s}} = 44\\text{ ft/s}$$",
+      "memorization_note": "للتحويل السريع بين $(\\text{mile/hr})$ و $(\\text{ft/s})$: اضرب السرعة بالميل في الساعة في عامل التحويل $\\frac{5280}{3600} \\approx 1.4667$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 4,
+      "question_en": "Which of the following correctly represents the unit of pressure 'Pascal' ($\\text{Pa}$) and its relation to 'bar'?",
+      "question_ar": "أي مما يلي يمثل بشكل صحيح وحدة الضغط 'باسكال' ($\\text{Pa}$) وعلاقتها بـ 'البار' ($\\text{bar}$)؟",
+      "options": [
+        "$1\\text{ Pa} = 1\\text{ N/m}^2$ and $1\\text{ bar} = 100\\text{ kPa}$",
+        "$1\\text{ Pa} = 1\\text{ kN/m}^2$ and $1\\text{ bar} = 1000\\text{ kPa}$",
+        "$1\\text{ Pa} = 1\\text{ N/m}^2$ and $1\\text{ bar} = 101.325\\text{ kPa}$",
+        "$1\\text{ Pa} = 1\\text{ kg/(m s}^2\\text{)}$ and $1\\text{ bar} = 10\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "By definition, $1\\text{ Pa} = 1\\text{ N/m}^2$. A bar is defined exactly as $10^5\\text{ Pa}$, which means $1\\text{ bar} = 100\\text{ kPa}$. Note that $1\\text{ atm} = 101.325\\text{ kPa}$, which is slightly larger than $1\\text{ bar}$.",
+      "explanation_ar": "حسب التعريف، $1\\text{ Pa} = 1\\text{ N/m}^2$. يُعرّف البار بأنه بالضبط $10^5\\text{ Pa}$، مما يعني أن $1\\text{ bar} = 100\\text{ kPa}$. لاحظ أن الضغط الجوي $1\\text{ atm} = 101.325\\text{ kPa}$ وهو يختلف قليلاً عن البار.",
+      "memorization_note": "الضغط هو القوة على المساحة ($P = \\frac{F}{A}$). وحدة الباسكال $1\\text{ Pa} = 1\\text{ N/m}^2$. البار $1\\text{ bar} = 10^5\\text{ Pa} = 100\\text{ kPa}$. الضغط الجوي القياسي $1\\text{ atm} = 101.325\\text{ kPa} = 1.01325\\text{ bar} = 760\\text{ mmHg} = 14.696\\text{ psi}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "In the empirical equation $V = aT + bTP + cTP^n$, where $V$ is volume ($\\text{L}$), $T$ is temperature ($\\text{K}$), and $P$ is pressure ($\\text{atm}$). What are the correct units for the constant $b$ to ensure dimensional consistency?",
+      "question_ar": "في المعادلة التجريبية $V = aT + bTP + cTP^n$، حيث $V$ هو الحجم ($\\text{L}$)، $T$ هي درجة الحرارة ($\\text{K}$)، و $P$ هو الضغط ($\\text{atm}$). ما هي الوحدات الصحيحة للثابت $b$ لضمان التوافق البعدي (Dimensional Consistency)؟",
+      "options": [
+        "$\\text{L/K}$",
+        "$\\text{L/(K}\\cdot\\text{atm)}$",
+        "$\\text{L}\\cdot\\text{K/atm}$",
+        "$\\text{atm/(L}\\cdot\\text{K)}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For the equation to be dimensionally consistent, every additive term must have the same units as the left-hand side ($V$). Thus, the unit of $bTP$ must be Liters ($\\text{L}$). Since $T$ is in $\\text{K}$ and $P$ is in $\\text{atm}$, the unit of $b$ must be $\\frac{\\text{L}}{\\text{K}\\cdot\\text{atm}}$.",
+      "explanation_ar": "لكي تكون المعادلة متوافقة بعدياً، يجب أن تكون وحدات كل حد مجموع مساوية لوحدات الطرف الأيسر ($V$). لذلك، يجب أن تكون وحدة $bTP$ هي اللتر ($\\text{L}$). بما أن $T$ بوحدة $\\text{K}$ و $P$ بوحدة $\\text{atm}$، فإن وحدة $b$ يجب أن تكون $\\frac{\\text{L}}{\\text{K}\\cdot\\text{atm}}$.",
+      "memorization_note": "مبدأ التوافق البعدي (Dimensional Consistency): في أي معادلة فيزيائية صحيحة، يجب أن تتطابق وحدات الطرف الأيمن مع وحدات الطرف الأيسر، ويجب أن تكون جميع الحدود المضافة أو المطروحة لها نفس الوحدات بالضبط.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "Consider the equation $P = A \\exp(B/T)$, where $P$ is vapor pressure in $\\text{atm}$ and $T$ is temperature in $\\text{K}$. What are the required units for constants $A$ and $B$ respectively?",
+      "question_ar": "اعتبر المعادلة $P = A \\exp(B/T)$، حيث $P$ هو الضغط البخاري بوحدة $\\text{atm}$ و $T$ هي درجة الحرارة بوحدة $\\text{K}$. ما هي الوحدات المطلوبة للثوابت $A$ و $B$ على التوالي؟",
+      "options": [
+        "$A$ in $\\text{atm}$, $B$ in $\\text{K}^{-1}$",
+        "$A$ is dimensionless, $B$ in $\\text{K}$",
+        "$A$ in $\\text{atm}$, $B$ in $\\text{K}$",
+        "$A$ in $\\text{atm}^{-1}$, $B$ is dimensionless"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The argument of mathematical functions like exponential, logarithmic, and trigonometric functions must be dimensionless. Thus, the term $B/T$ must be dimensionless, making the unit of $B$ equal to $\\text{K}$. Consequently, the exponential term is dimensionless, so $A$ must have the same units as $P$ ($\\text{atm}$).",
+      "explanation_ar": "ما بداخل الدوال الرياضية مثل الدوال الأسية واللوغاريتمية والمثلثية يجب أن يكون بدون وحدات. لذلك الحد $B/T$ يجب أن يكون بدون وحدات، مما يجعل وحدة $B$ مساوية لـ $\\text{K}$. وبما أن الحد الأسي كله يصبح بدون وحدات، فيجب أن تكون وحدة $A$ مساوية لوحدة $P$ وهي ($\\text{atm}$).",
+      "memorization_note": "الأسس (Exponents)، اللوغاريتمات (Logarithms)، والدوال المثلثية (Trigonometric functions) يجب أن تكون قيمها الداخلية بدون وحدات (Dimensionless). بالتالي وحدة الثابت المضروب بها تساوي وحدة المتغير في الطرف الآخر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "Correctly rounded according to the rules of significant figures, what is the product of $3.000\\text{ cm} \\times 30.0\\text{ cm}$?",
+      "question_ar": "مقرباً بشكل صحيح وفقاً لقواعد الأرقام المعنوية (Significant Figures)، ما هو ناتج الضرب $3.000\\text{ cm} \\times 30.0\\text{ cm}$؟",
+      "options": [
+        "$90\\text{ cm}^2$",
+        "$9.0 \\times 10^1\\text{ cm}^2$",
+        "$90.0\\text{ cm}^2$",
+        "$90.00\\text{ cm}^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In multiplication, the result must have the same number of significant figures as the measurement with the fewest significant figures. $3.000$ has 4 sig figs, and $30.0$ has 3 sig figs. The mathematical result ($90$) must be written with 3 sig figs, which is $90.0$.",
+      "explanation_ar": "في عملية الضرب، يجب أن يحتوي الناتج على عدد من الأرقام المعنوية يساوي العدد الأقل في القيم المضروبة. القيمة $3.000$ تحوي 4 أرقام معنوية، و $30.0$ تحوي 3 أرقام معنوية. الناتج الرياضي ($90$) يجب أن يُكتب بـ 3 أرقام معنوية، وهو $90.0$.",
+      "memorization_note": "قواعد الأرقام المعنوية (Significant Figures): في الضرب والقسمة، يجب أن يحتوي الناتج النهائي على عدد من الأرقام المعنوية يساوي العدد الأقل من الأرقام المعنوية في القيم المضروبة أو المقسومة.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "Correctly rounded according to the rules of significant figures, what is the quotient of $5.000\\text{ g} / 50.0\\text{ mL}$?",
+      "question_ar": "مقرباً بشكل صحيح وفقاً لقواعد الأرقام المعنوية (Significant Figures)، ما هو ناتج القسمة $5.000\\text{ g} / 50.0\\text{ mL}$؟",
+      "options": [
+        "$0.1\\text{ g/mL}$",
+        "$0.10\\text{ g/mL}$",
+        "$0.100\\text{ g/mL}$",
+        "$0.1000\\text{ g/mL}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The numerator ($5.000$) has 4 significant figures, and the denominator ($50.0$) has 3 significant figures. Therefore, the quotient must be expressed with 3 significant figures: $0.100\\text{ g/mL}$.",
+      "explanation_ar": "البسط ($5.000$) يحتوي على 4 أرقام معنوية، والمقام ($50.0$) يحتوي على 3 أرقام معنوية. بناءً على قاعدة القسمة، يجب أن يحتوي الناتج على 3 أرقام معنوية، فيُكتب: $0.100\\text{ g/mL}$.",
+      "memorization_note": "الأصفار على يمين الرقم العشري تُعتبر أرقاماً معنوية (مثلاً 50.0 يحتوي على 3 أرقام معنوية). الأصفار على يسار الأرقام غير الصفرية لا تُحسب (مثلاً 0.100 يحتوي على 3 أرقام معنوية).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "Convert the linear density $28\\text{ lbm/ft}$ to $\\text{kg/m}$.",
+      "question_ar": "حوّل الكثافة الطولية $28\\text{ lbm/ft}$ إلى $\\text{kg/m}$.",
+      "options": [
+        "$41.67\\text{ kg/m}$",
+        "$18.81\\text{ kg/m}$",
+        "$85.34\\text{ kg/m}$",
+        "$9.18\\text{ kg/m}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Using the standard conversion factors $1\\text{ lbm} = 0.45359\\text{ kg}$ and $1\\text{ ft} = 0.3048\\text{ m}$: $$\\rho_L = 28\\text{ }\\frac{\\text{lbm}}{\\text{ft}} \\times \\frac{0.45359\\text{ kg}}{1\\text{ lbm}} \\times \\frac{1\\text{ ft}}{0.3048\\text{ m}} \\approx 41.67\\text{ kg/m}$$",
+      "explanation_ar": "باستخدام عوامل التحويل القياسية $1\\text{ lbm} = 0.45359\\text{ kg}$ و $1\\text{ ft} = 0.3048\\text{ m}$: $$\\rho_L = 28\\text{ }\\frac{\\text{lbm}}{\\text{ft}} \\times \\frac{0.45359\\text{ kg}}{1\\text{ lbm}} \\times \\frac{1\\text{ ft}}{0.3048\\text{ m}} \\approx 41.67\\text{ kg/m}$$",
+      "memorization_note": "تحويلات الكتل والأطوال القياسية الهامة: $1\\text{ lbm} = 0.45359\\text{ kg}$ (تقريباً 454 غرام)، و $1\\text{ ft} = 0.3048\\text{ m} = 30.48\\text{ cm}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "What is the value and role of the conversion factor $g_c$ in the American Engineering (AE) system of units?",
+      "question_ar": "ما هي قيمة ودور معامل التحويل $g_c$ في النظام الهندسي الأمريكي (AE) للوحدات؟",
+      "options": [
+        "$g_c = 9.81\\text{ ft}\\cdot\\text{lbm}/(\\text{lbf}\\cdot\\text{s}^2)$, used to convert mass to weight.",
+        "$g_c = 32.174\\text{ ft}\\cdot\\text{lbm}/(\\text{lbf}\\cdot\\text{s}^2)$, used to ensure dimensional consistency between force, mass, and acceleration.",
+        "$g_c = 32.174\\text{ ft}/\\text{s}^2$, which is the local acceleration of gravity.",
+        "$g_c = 1\\text{ kg}\\cdot\\text{m}/(\\text{N}\\cdot\\text{s}^2)$, used in the SI system only."
+      ],
+      "correct_index": 1,
+      "explanation_en": "In the AE system, force ($\\text{lbf}$) and mass ($\\text{lbm}$) are defined independently. The constant $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$ is introduced in Newton's second law ($F = \\frac{m \\cdot a}{g_c}$) to make the units consistent. It is a conversion factor, not the acceleration due to gravity ($g$).",
+      "explanation_ar": "في النظام الأمريكي (AE)، تُعرّف القوة ($\\text{lbf}$) والكتلة ($\\text{lbm}$) بشكل مستقل. يُدرج الثابت $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$ في قانون نيوتن الثاني ($F = \\frac{m \\cdot a}{g_c}$) لضمان تجانس الوحدات. إنه معامل تحويل وليس تسارع الجاذبية الأرضية ($g$).",
+      "memorization_note": "معامل التحويل $g_c$ في النظام الأمريكي: $g_c = 32.174\\text{ }\\frac{\\text{ft}\\cdot\\text{lbm}}{\\text{lbf}\\cdot\\text{s}^2}$. في نظام SI، قيمته $g_c = 1\\text{ }\\frac{\\text{kg}\\cdot\\text{m}}{\\text{N}\\cdot\\text{s}^2}$ ولذلك غالباً لا يُكتب. قانون القوة يصبح دائماً: $F = \\frac{m \\cdot a}{g_c}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "How many liters are contained in $100\\text{ U.S. gallons}$?",
+      "question_ar": "كم لتراً يوجد في $100\\text{ جالون أمريكي (U.S. gal)}$؟",
+      "options": [
+        "$378.5\\text{ L}$",
+        "$264.2\\text{ L}$",
+        "$454.6\\text{ L}$",
+        "$231.0\\text{ L}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The standard conversion factor for volume is $1\\text{ U.S. gallon} = 3.7854\\text{ Liters}$. $$\\text{Volume} = 100\\text{ gal} \\times \\frac{3.7854\\text{ L}}{1\\text{ gal}} = 378.54\\text{ L}$$",
+      "explanation_ar": "عامل التحويل القياسي للحجم هو $1\\text{ جالون أمريكي} = 3.7854\\text{ لتر}$. $$\\text{Volume} = 100\\text{ gal} \\times \\frac{3.7854\\text{ L}}{1\\text{ gal}} = 378.54\\text{ L}$$",
+      "memorization_note": "تحويل الحجوم: الجالون الأمريكي الواحد ($1\\text{ U.S. gal}$) يعادل $3.785\\text{ L}$. بينما الجالون البريطاني (Imperial gal) يعادل تقريباً $4.546\\text{ L}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "Water is flowing through a pipe with a velocity of $6\\text{ ft/s}$. What is the specific kinetic energy of the water in $(\\text{ft}\\cdot\\text{lbf})/\\text{lbm}$?",
+      "question_ar": "يتدفق الماء عبر أنبوب بسرعة $6\\text{ ft/s}$. ما هي الطاقة الحركية النوعية (Specific Kinetic Energy) للماء بوحدة $(\\text{ft}\\cdot\\text{lbf})/\\text{lbm}$؟",
+      "options": [
+        "$18.00\\text{ (ft}\\cdot\\text{lbf})/\\text{lbm}$",
+        "$0.56\\text{ (ft}\\cdot\\text{lbf})/\\text{lbm}$",
+        "$1.12\\text{ (ft}\\cdot\\text{lbf})/\\text{lbm}$",
+        "$36.00\\text{ (ft}\\cdot\\text{lbf})/\\text{lbm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Specific kinetic energy is given by $\\hat{E}_k = \\frac{v^2}{2 g_c}$. Using $v = 6\\text{ ft/s}$ and $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$: $$\\hat{E}_k = \\frac{(6)^2}{2 \\times 32.174} = \\frac{36}{64.348} = 0.559\\text{ }\\frac{\\text{ft}\\cdot\\text{lbf}}{\\text{lbm}}$$",
+      "explanation_ar": "تُعطى الطاقة الحركية النوعية بالعلاقة $\\hat{E}_k = \\frac{v^2}{2 g_c}$. بتعويض $v = 6\\text{ ft/s}$ و $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$: $$\\hat{E}_k = \\frac{(6)^2}{2 \\times 32.174} = \\frac{36}{64.348} = 0.559\\text{ }\\frac{\\text{ft}\\cdot\\text{lbf}}{\\text{lbm}}$$",
+      "memorization_note": "الطاقة الحركية النوعية (لكل وحدة كتلة) في النظام الأمريكي تُحسب بالقانون: $\\hat{E}_k = \\frac{v^2}{2 g_c}$. نقسم على $g_c$ لتحويل الوحدة من $(\\text{ft}^2/\\text{s}^2)$ إلى $(\\text{ft}\\cdot\\text{lbf}/\\text{lbm})$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "What is the potential energy of a $100\\text{ lbm}$ box kept on a shelf at a height of $20\\text{ ft}$ above the reference surface? (Assume local gravity $g = 32.174\\text{ ft/s}^2$)",
+      "question_ar": "ما هي الطاقة الكامنة (Potential Energy) لصندوق كتلته $100\\text{ lbm}$ موضوع على رف بارتفاع $20\\text{ ft}$ فوق السطح المرجعي؟ (افترض أن الجاذبية المحلية $g = 32.174\\text{ ft/s}^2$)",
+      "options": [
+        "$2000\\text{ ft}\\cdot\\text{lbf}$",
+        "$64350\\text{ ft}\\cdot\\text{lbf}$",
+        "$1000\\text{ ft}\\cdot\\text{lbf}$",
+        "$3217\\text{ ft}\\cdot\\text{lbf}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Potential energy is $E_p = \\frac{m g h}{g_c}$. Since $g = 32.174\\text{ ft/s}^2$ and $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$, the ratio $g/g_c = 1\\text{ lbf}/\\text{lbm}$. $$\\Rightarrow E_p = 100\\text{ lbm} \\times \\left(1\\text{ }\\frac{\\text{lbf}}{\\text{lbm}}\\right) \\times 20\\text{ ft} = 2000\\text{ ft}\\cdot\\text{lbf}$$",
+      "explanation_ar": "قانون الطاقة الكامنة هو $E_p = \\frac{m g h}{g_c}$. بما أن $g = 32.174\\text{ ft/s}^2$ و $g_c = 32.174\\text{ (ft}\\cdot\\text{lbm}) / (\\text{lbf}\\cdot\\text{s}^2)$، فإن النسبة $g/g_c = 1\\text{ lbf}/\\text{lbm}$. $$\\Rightarrow E_p = 100\\text{ lbm} \\times \\left(1\\text{ }\\frac{\\text{lbf}}{\\text{lbm}}\\right) \\times 20\\text{ ft} = 2000\\text{ ft}\\cdot\\text{lbf}$$",
+      "memorization_note": "قانون الطاقة الكامنة: $E_p = \\frac{m g h}{g_c}$. إذا كانت قيمة الجاذبية المحلية $g$ مساوية للجاذبية القياسية $32.174\\text{ ft/s}^2$، فإن النسبة $g/g_c$ تُعادل $1\\text{ lbf/lbm}$، وتكون القيمة العددية للكتلة (بـ lbm) مساوية للقيمة العددية للوزن (بـ lbf).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "How many significant figures are present in the measured value $0.002040$?",
+      "question_ar": "كم عدد الأرقام المعنوية (Significant Figures) الموجودة في القيمة المقاسة $0.002040$؟",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Leading zeros ($0.00$) only locate the decimal point and are not significant. The digits '$204$' are significant. The trailing zero (at the end after the decimal) indicates precision and is significant. Thus, the significant figures are '$2040$', which counts to 4.",
+      "explanation_ar": "الأصفار في البداية ($0.00$) تحدد فقط موقع العلامة العشرية ولا تُعتبر أرقاماً معنوية. الأرقام '$204$' معنوية. الصفر الأخير (على يمين الرقم بعد العلامة العشرية) يدل على دقة القياس ويُعتبر معنوياً. بالتالي الأرقام المعنوية هي '$2040$'، وعددها 4.",
+      "memorization_note": "الأصفار التي تسبق أول رقم غير صفري (Leading Zeros) لا تُعد أرقاماً معنوية. الأصفار بين الأرقام غير الصفرية (Captive Zeros) والأصفار في نهاية الرقم العشري (Trailing Zeros) تُعد أرقاماً معنوية دائماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "An equation for the pressure drop in a pipe is $\\Delta P = k \\frac{\\rho v^2 L}{D}$. If $\\Delta P$ is in $\\text{Pa}$, $\\rho$ in $\\text{kg/m}^3$, $v$ in $\\text{m/s}$, $L$ in $\\text{m}$, and $D$ in $\\text{m}$, what must be the units of the constant $k$?",
+      "question_ar": "معادلة هبوط الضغط في أنبوب هي $\\Delta P = k \\frac{\\rho v^2 L}{D}$. إذا كان $\\Delta P$ بوحدة $\\text{Pa}$، $\\rho$ بوحدة $\\text{kg/m}^3$، $v$ بوحدة $\\text{m/s}$، $L$ بوحدة $\\text{m}$، و $D$ بوحدة $\\text{m}$، فما هي وحدات الثابت $k$؟",
+      "options": [
+        "$\\text{kg}/(\\text{m}\\cdot\\text{s})$",
+        "Dimensionless (بدون وحدات)",
+        "$\\text{m}^2/\\text{s}^2$",
+        "$\\text{N}/\\text{m}^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Let's check the units of the right-hand side excluding $k$: $$\\frac{\\text{kg}}{\\text{m}^3} \\times \\left(\\frac{\\text{m}}{\\text{s}}\\right)^2 \\times \\frac{\\text{m}}{\\text{m}} = \\frac{\\text{kg}\\cdot\\text{m}^2}{\\text{m}^3\\cdot\\text{s}^2} = \\frac{\\text{kg}}{\\text{m}\\cdot\\text{s}^2}$$ We know that $1\\text{ Pa} = 1\\text{ N/m}^2 = 1\\text{ (kg}\\cdot\\text{m}/\\text{s}^2)/\\text{m}^2 = 1\\text{ kg}/(\\text{m}\\cdot\\text{s}^2)$. Since the RHS unit perfectly matches the LHS unit ($\\text{Pa}$), the constant $k$ must be dimensionless.",
+      "explanation_ar": "لنتحقق من وحدات الطرف الأيمن باستثناء $k$: $$\\frac{\\text{kg}}{\\text{m}^3} \\times \\left(\\frac{\\text{m}}{\\text{s}}\\right)^2 \\times \\frac{\\text{m}}{\\text{m}} = \\frac{\\text{kg}\\cdot\\text{m}^2}{\\text{m}^3\\cdot\\text{s}^2} = \\frac{\\text{kg}}{\\text{m}\\cdot\\text{s}^2}$$ نحن نعلم أن $1\\text{ Pa} = 1\\text{ N/m}^2 = 1\\text{ (kg}\\cdot\\text{m}/\\text{s}^2)/\\text{m}^2 = 1\\text{ kg}/(\\text{m}\\cdot\\text{s}^2)$. وبما أن وحدة الطرف الأيمن تطابق تماماً وحدة الطرف الأيسر ($\\text{Pa}$)، يجب أن يكون الثابت $k$ بدون وحدات.",
+      "memorization_note": "باسكال $\\text{Pa}$ يكافئ $\\text{N/m}^2$. وحيث أن النيوتن $\\text{N} = \\text{kg}\\cdot\\text{m/s}^2$، فإن $\\text{Pa} = \\frac{\\text{kg}}{\\text{m}\\cdot\\text{s}^2}$. عند التحقق من الأبعاد (Dimensional Analysis)، يجب تفكيك الوحدات المركبة إلى وحدات أساسية ($kg, m, s$).",
+      "requires_scratchpad": true
+    }
+  ]
+}

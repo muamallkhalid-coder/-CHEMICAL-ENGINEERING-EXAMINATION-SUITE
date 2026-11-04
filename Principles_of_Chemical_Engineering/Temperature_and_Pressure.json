@@ -1,0 +1,968 @@
+{
+  "topic_en": "Temperature Scales & Pressure Units/Measurement",
+  "topic_ar": "مقاييس الحرارة ووحدات الضغط وقياسه",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة حول تحويل درجات الحرارة (K, °C, °F, °R)، وحدات الضغط وتحويلاتها، المانومترات والباروميتر وقياس الضغط",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Which of the following is NOT a unit of temperature?",
+      "question_ar": "أي مما يلي ليس وحدة لدرجة الحرارة؟",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Therm",
+        "Rankine"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The therm is a unit of energy ($1\\text{ therm} = 10^5\\text{ Btu}$), not temperature.",
+      "explanation_ar": "The therm is a unit of energy ($1\\text{ therm} = 10^5\\text{ Btu}$), not temperature.",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "Which of the following is the greatest?",
+      "question_ar": "أي مما يلي هو الأكبر؟",
+      "options": [
+        "$10^\\circ\\text{C}$",
+        "$10^\\circ\\text{R}$",
+        "$10^\\circ\\text{F}$",
+        "$10\\text{ K}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$10^\\circ\\text{C} = 283\\text{ K}$, $10^\\circ\\text{F} = 263\\text{ K}$ ($-12^\\circ\\text{C}$), $10\\text{ K}$, $10^\\circ\\text{R} = 5.6\\text{ K}$. So $10^\\circ\\text{C}$ is the greatest.",
+      "explanation_ar": "$10^\\circ\\text{C} = 283\\text{ K}$, $10^\\circ\\text{F} = 263\\text{ K}$ ($-12^\\circ\\text{C}$), $10\\text{ K}$, $10^\\circ\\text{R} = 5.6\\text{ K}$. So $10^\\circ\\text{C}$ is the greatest.",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 3,
+      "question_en": "Absolute zero temperature is approximately equal to (in $^\\circ\\text{F}$):",
+      "question_ar": "الصفر المطلق يساوي تقريباً (بالدرجة الفهرنهايتية $^\\circ\\text{F}$):",
+      "options": [
+        "$-160^\\circ\\text{F}$",
+        "$-273^\\circ\\text{F}$",
+        "$-373^\\circ\\text{F}$",
+        "$-460^\\circ\\text{F}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$0\\text{ K} = -273^\\circ\\text{C} = 1.8(-273) + 32 = -460^\\circ\\text{F} = 0^\\circ\\text{R}$$",
+      "explanation_ar": "$$0\\text{ K} = -273^\\circ\\text{C} = 1.8(-273) + 32 = -460^\\circ\\text{F} = 0^\\circ\\text{R}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "A temperature change is $212^\\circ\\text{F}$. What is the change in $^\\circ\\text{R}$?",
+      "question_ar": "تغير في درجة الحرارة مقداره $212^\\circ\\text{F}$. كم يساوي بالدرجة $^\\circ\\text{R}$؟",
+      "options": [
+        "$100^\\circ\\text{R}$",
+        "$212^\\circ\\text{R}$",
+        "$273^\\circ\\text{R}$",
+        "$460^\\circ\\text{R}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 212^\\circ\\text{R}$$",
+      "explanation_ar": "$$\\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 212^\\circ\\text{R}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "A temperature change is $180^\\circ\\text{R}$. What is the change in $^\\circ\\text{C}$?",
+      "question_ar": "تغير في درجة الحرارة مقداره $180^\\circ\\text{R}$. كم يساوي بالدرجة $^\\circ\\text{C}$؟",
+      "options": [
+        "$100^\\circ\\text{C}$",
+        "$180^\\circ\\text{C}$",
+        "$212^\\circ\\text{C}$",
+        "$273^\\circ\\text{C}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\Delta T_{^\\circ\\text{R}} = 1.8\\,\\Delta T_{^\\circ\\text{C}} \\Rightarrow \\Delta T_{^\\circ\\text{C}} = \\frac{180}{1.8} = 100^\\circ\\text{C}$$",
+      "explanation_ar": "$$\\Delta T_{^\\circ\\text{R}} = 1.8\\,\\Delta T_{^\\circ\\text{C}} \\Rightarrow \\Delta T_{^\\circ\\text{C}} = \\frac{180}{1.8} = 100^\\circ\\text{C}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "A body's temperatures are related by $T_C = 50 + 3T_R$. If the change in $T_R$ is $100^\\circ\\text{R}$, what is the change in kelvin?",
+      "question_ar": "ترتبط درجتا حرارة جسم بالعلاقة $T_C = 50 + 3T_R$. إذا كان التغير في $T_R$ هو $100^\\circ\\text{R}$ فكم يساوي التغير بالكلفن؟",
+      "options": [
+        "$300\\text{ K}$",
+        "$180\\text{ K}$",
+        "$100\\text{ K}$",
+        "$90\\text{ K}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\Delta T_C = 3\\,\\Delta T_R = 3(100) = 300^\\circ\\text{C} \\Rightarrow \\Delta T_K = \\Delta T_C = 300\\text{ K}$$",
+      "explanation_ar": "$$\\Delta T_C = 3\\,\\Delta T_R = 3(100) = 300^\\circ\\text{C} \\Rightarrow \\Delta T_K = \\Delta T_C = 300\\text{ K}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "What is $100^\\circ\\text{C}$ in $^\\circ\\text{F}$?",
+      "question_ar": "كم تساوي $100^\\circ\\text{C}$ بالدرجة $^\\circ\\text{F}$؟",
+      "options": [
+        "$212^\\circ\\text{F}$",
+        "$460^\\circ\\text{F}$",
+        "$672^\\circ\\text{F}$",
+        "$884^\\circ\\text{F}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F}$$",
+      "explanation_ar": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "What is 273 K in $^\\circ\\text{R}$?",
+      "question_ar": "كم تساوي $273\\text{ K}$ بالدرجة $^\\circ\\text{R}$؟",
+      "options": [
+        "$0^\\circ\\text{R}$",
+        "$32^\\circ\\text{R}$",
+        "$492^\\circ\\text{R}$",
+        "$672^\\circ\\text{R}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$T_R = 1.8\\,T_K = 1.8(273) \\approx 492^\\circ\\text{R}$$",
+      "explanation_ar": "$$T_R = 1.8\\,T_K = 1.8(273) \\approx 492^\\circ\\text{R}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "A volume depends on temperature as $V = a + bT_C$. What is the dependence on $T_R$ (use $T_C = \\tfrac{5}{9}(T_R - 492)$ with $273 \\approx 492/1.8$)?",
+      "question_ar": "يعتمد حجم جسم على درجة الحرارة حسب $V = a + bT_C$. ما اعتماده على $T_R$ (استخدم $T_C = \\tfrac{5}{9}(T_R - 492)$)؟",
+      "options": [
+        "$V = a + 32b + \\tfrac{9}{5}bT_R$",
+        "$V = a + 492b + \\tfrac{9}{5}bT_R$",
+        "$V = a - 273b + \\tfrac{5}{9}bT_R$",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$T_C = \\frac{5}{9}(T_R - 492) = \\frac{5}{9}T_R - 273$$ $$V = a + b\\left(\\frac{5}{9}T_R - 273\\right) = a - 273b + \\frac{5}{9}bT_R$$",
+      "explanation_ar": "$$T_C = \\frac{5}{9}(T_R - 492) = \\frac{5}{9}T_R - 273$$ $$V = a + b\\left(\\frac{5}{9}T_R - 273\\right) = a - 273b + \\frac{5}{9}bT_R$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. 4. $T_C = \\frac{5}{9}(T_R - 492)$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "An object has $m = 5t^2$ kg and $V = (400 + 600t)\\ \\text{m}^3$, where $t$ is in kelvin. What is $\\dfrac{dm}{dV}$ at $t = 27^\\circ\\text{C}$?",
+      "question_ar": "جسم كتلته $m = 5t^2$ كغم وحجمه $V = (400 + 600t)\\ \\text{m}^3$ حيث $t$ بالكلفن. ما قيمة $\\dfrac{dm}{dV}$ عند $t = 27^\\circ\\text{C}$؟",
+      "options": [
+        "$5\\text{ kg/m}^3$",
+        "$10\\text{ kg/m}^3$",
+        "$15\\text{ kg/m}^3$",
+        "$20\\text{ kg/m}^3$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\frac{dm}{dV} = \\frac{dm/dt}{dV/dt} = \\frac{10t}{600} = \\frac{t}{60}$$ At $t = 27 + 273 = 300\\text{ K}$: $$\\frac{dm}{dV} = \\frac{300}{60} = 5\\text{ kg/m}^3$$",
+      "explanation_ar": "$$\\frac{dm}{dV} = \\frac{dm/dt}{dV/dt} = \\frac{10t}{600} = \\frac{t}{60}$$ At $t = 27 + 273 = 300\\text{ K}$: $$\\frac{dm}{dV} = \\frac{300}{60} = 5\\text{ kg/m}^3$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. 4. قاعدة السلسلة: $\\frac{dm}{dV} = \\frac{dm/dt}{dV/dt}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "The heat capacity is $C = 800 - 1600T + 25T^2$ with $T$ in $^\\circ\\text{F}$. What is the expression when $T$ is in $^\\circ\\text{C}$?",
+      "question_ar": "السعة الحرارية $C = 800 - 1600T + 25T^2$ حيث $T$ بالدرجة $^\\circ\\text{F}$. ما التعبير عندما تكون $T$ بالدرجة $^\\circ\\text{C}$؟",
+      "options": [
+        "$81T^2 + 24800$",
+        "$81T^2 - 24800$",
+        "$25T^2 + 24800$",
+        "$25T^2 - 24800$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Substitute $T_F = 1.8T + 32$: $$C = 800 - 1600(1.8T+32) + 25(1.8T+32)^2 = 800 - 2880T - 51200 + 81T^2 + 2880T + 25600$$ $$C = 81T^2 - 24800$$",
+      "explanation_ar": "Substitute $T_F = 1.8T + 32$: $$C = 800 - 1600(1.8T+32) + 25(1.8T+32)^2 = 800 - 2880T - 51200 + 81T^2 + 2880T + 25600$$ $$C = 81T^2 - 24800$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "The heat capacity is $C = BT^2$ with $T$ in $^\\circ\\text{F}$ and $B = 50$. What is the coefficient of $T^2$ when $T$ is in $^\\circ\\text{C}$?",
+      "question_ar": "السعة الحرارية $C = BT^2$ حيث $T$ بالدرجة $^\\circ\\text{F}$ و $B = 50$. ما معامل $T^2$ عندما تكون $T$ بالدرجة $^\\circ\\text{C}$؟",
+      "options": [
+        "$81$",
+        "$25$",
+        "$162$",
+        "$100$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$T_F = 1.8T_C + 32 \\Rightarrow$ the $T_C^2$ coefficient is $B(1.8)^2 = 50\\times3.24 = 162$.",
+      "explanation_ar": "$T_F = 1.8T_C + 32 \\Rightarrow$ the $T_C^2$ coefficient is $B(1.8)^2 = 50\\times3.24 = 162$.",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "What is $100^\\circ\\text{C}$ in $^\\circ\\text{R}$?",
+      "question_ar": "كم تساوي $100^\\circ\\text{C}$ بالدرجة $^\\circ\\text{R}$؟",
+      "options": [
+        "$100^\\circ\\text{R}$",
+        "$212^\\circ\\text{R}$",
+        "$560^\\circ\\text{R}$",
+        "$672^\\circ\\text{R}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F} \\Rightarrow T_R = 212 + 460 = 672^\\circ\\text{R}$$",
+      "explanation_ar": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F} \\Rightarrow T_R = 212 + 460 = 672^\\circ\\text{R}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "What is $100^\\circ\\text{C}$ in $^\\circ\\text{F}$?",
+      "question_ar": "كم تساوي $100^\\circ\\text{C}$ بالدرجة $^\\circ\\text{F}$؟",
+      "options": [
+        "$0^\\circ\\text{F}$",
+        "$100^\\circ\\text{F}$",
+        "$212^\\circ\\text{F}$",
+        "$460^\\circ\\text{F}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F}$$",
+      "explanation_ar": "$$T_F = 1.8(100) + 32 = 212^\\circ\\text{F}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "What is $40^\\circ\\text{F}$ in $^\\circ\\text{R}$?",
+      "question_ar": "كم تساوي $40^\\circ\\text{F}$ بالدرجة $^\\circ\\text{R}$؟",
+      "options": [
+        "$313^\\circ\\text{R}$",
+        "$460^\\circ\\text{R}$",
+        "$500^\\circ\\text{R}$",
+        "$672^\\circ\\text{R}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$T_R = T_F + 460 = 40 + 460 = 500^\\circ\\text{R}$$",
+      "explanation_ar": "$$T_R = T_F + 460 = 40 + 460 = 500^\\circ\\text{R}$$",
+      "memorization_note": "1. التحويلات: $$T(\\text{K}) = T(^\\circ\\text{C}) + 273.15,\\quad T(^\\circ\\text{R}) = T(^\\circ\\text{F}) + 459.67$$ $$T(^\\circ\\text{F}) = 1.8\\,T(^\\circ\\text{C}) + 32,\\quad T(^\\circ\\text{R}) = 1.8\\,T(\\text{K})$$ 2. فروق الحرارة: $$\\Delta T_{\\text{K}} = \\Delta T_{^\\circ\\text{C}},\\quad \\Delta T_{^\\circ\\text{R}} = \\Delta T_{^\\circ\\text{F}} = 1.8\\,\\Delta T_{\\text{K}}$$ 3. الصفر المطلق: $0\\text{ K} = -273.15^\\circ\\text{C} = -459.67^\\circ\\text{F} = 0^\\circ\\text{R}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "Which of the following is NOT a unit of pressure?",
+      "question_ar": "أي مما يلي ليس وحدة للضغط؟",
+      "options": [
+        "bar",
+        "$\\text{N/m}^2$",
+        "$\\text{kg/m}^2$",
+        "Torr"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Pressure is force per unit area. $\\text{kg/m}^2$ is mass per area (not force), so it is not a pressure unit.",
+      "explanation_ar": "Pressure is force per unit area. $\\text{kg/m}^2$ is mass per area (not force), so it is not a pressure unit.",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "What is 760 Torr in pascal?",
+      "question_ar": "كم يساوي $760\\text{ Torr}$ بالباسكال؟",
+      "options": [
+        "$1.01325\\times10^5\\text{ Pa}$",
+        "$6.025\\times10^5\\text{ Pa}$",
+        "$12.05\\times10^4\\text{ Pa}$",
+        "$3.0125\\times10^5\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$760\\text{ Torr} = 1\\text{ atm} = 1.01325\\times10^5\\text{ Pa}$$",
+      "explanation_ar": "$$760\\text{ Torr} = 1\\text{ atm} = 1.01325\\times10^5\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "How many pascals are in 1 bar?",
+      "question_ar": "كم باسكال في $1\\text{ bar}$؟",
+      "options": [
+        "$10^4$",
+        "$10^5$",
+        "$10^6$",
+        "$10^7$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$1\\text{ bar} = 100\\text{ kPa} = 10^5\\text{ Pa}$$",
+      "explanation_ar": "$$1\\text{ bar} = 100\\text{ kPa} = 10^5\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "Which of the following equals 760 mm Hg?",
+      "question_ar": "أي مما يلي يساوي $760\\text{ mm Hg}$؟",
+      "options": [
+        "$1\\text{ atm}$",
+        "$1\\text{ Pa}$",
+        "$1\\text{ bar}$",
+        "$1\\text{ Torr}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$760\\text{ mmHg} = 101.325\\text{ kPa} = 1\\text{ atm}$$",
+      "explanation_ar": "$$760\\text{ mmHg} = 101.325\\text{ kPa} = 1\\text{ atm}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "1 psi equals how many kilopascals?",
+      "question_ar": "كم كيلوباسكال يساوي $1\\text{ psi}$؟",
+      "options": [
+        "$5.249\\text{ kPa}$",
+        "$6.894\\text{ kPa}$",
+        "$7.489\\text{ kPa}$",
+        "$8.846\\text{ kPa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$1\\text{ psi} = 6894\\text{ Pa} = 6.894\\text{ kPa}$$",
+      "explanation_ar": "$$1\\text{ psi} = 6894\\text{ Pa} = 6.894\\text{ kPa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "What is 50 kPa in bar?",
+      "question_ar": "كم يساوي $50\\text{ kPa}$ بوحدة bar؟",
+      "options": [
+        "$0.25\\text{ bar}$",
+        "$0.5\\text{ bar}$",
+        "$1\\text{ bar}$",
+        "$2\\text{ bar}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P = \\frac{50}{100} = 0.5\\text{ bar}$$",
+      "explanation_ar": "$$P = \\frac{50}{100} = 0.5\\text{ bar}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "What is 200 kPa in bar?",
+      "question_ar": "كم يساوي $200\\text{ kPa}$ بوحدة bar؟",
+      "options": [
+        "$0.25\\text{ bar}$",
+        "$0.5\\text{ bar}$",
+        "$1\\text{ bar}$",
+        "$2\\text{ bar}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P = \\frac{200}{100} = 2\\text{ bar}$$",
+      "explanation_ar": "$$P = \\frac{200}{100} = 2\\text{ bar}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "What is 380 Torr in atm?",
+      "question_ar": "كم يساوي $380\\ \\text{Torr}$ بوحدة atm؟",
+      "options": [
+        "$0.5\\text{ atm}$",
+        "$1\\text{ atm}$",
+        "$2\\text{ atm}$",
+        "$4\\text{ atm}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P = \\frac{380}{760} = 0.5\\text{ atm}$$",
+      "explanation_ar": "$$P = \\frac{380}{760} = 0.5\\text{ atm}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "What is 190 Torr in atm?",
+      "question_ar": "كم يساوي $190\\ \\text{Torr}$ بوحدة atm؟",
+      "options": [
+        "$0.25\\text{ atm}$",
+        "$0.5\\text{ atm}$",
+        "$0.8\\text{ atm}$",
+        "$1\\text{ atm}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P = \\frac{190}{760} = 0.25\\text{ atm}$$",
+      "explanation_ar": "$$P = \\frac{190}{760} = 0.25\\text{ atm}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "What is 38 mmHg in atm?",
+      "question_ar": "كم يساوي $38\\ \\text{mmHg}$ بوحدة atm؟",
+      "options": [
+        "$0.05\\text{ atm}$",
+        "$0.5\\text{ atm}$",
+        "$1\\text{ atm}$",
+        "$5\\text{ atm}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P = \\frac{38}{760} = 0.05\\text{ atm}$$",
+      "explanation_ar": "$$P = \\frac{38}{760} = 0.05\\text{ atm}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "What is 1900 mmHg in atm?",
+      "question_ar": "كم يساوي $1900\\ \\text{mmHg}$ بوحدة atm؟",
+      "options": [
+        "$0.5\\text{ atm}$",
+        "$1\\text{ atm}$",
+        "$1.5\\text{ atm}$",
+        "$2.5\\text{ atm}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P = \\frac{1900}{760} = 2.5\\text{ atm}$$",
+      "explanation_ar": "$$P = \\frac{1900}{760} = 2.5\\text{ atm}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "What is 19 mm Hg in pascal?",
+      "question_ar": "كم يساوي $19\\text{ mmHg}$ بالباسكال؟",
+      "options": [
+        "$1012\\text{ Pa}$",
+        "$2533\\text{ Pa}$",
+        "$3654\\text{ Pa}$",
+        "$6412\\text{ Pa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P = \\frac{19}{760}\\times101325 = 2533\\text{ Pa}$$",
+      "explanation_ar": "$$P = \\frac{19}{760}\\times101325 = 2533\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "What is 38 mm Hg in Torr?",
+      "question_ar": "كم يساوي $38\\text{ mmHg}$ بوحدة Torr؟",
+      "options": [
+        "$0.05$",
+        "$0.5$",
+        "$1$",
+        "$38$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$1\\text{ mmHg} = 1\\text{ Torr} \\Rightarrow 38\\text{ mmHg} = 38\\text{ Torr}$$",
+      "explanation_ar": "$$1\\text{ mmHg} = 1\\text{ Torr} \\Rightarrow 38\\text{ mmHg} = 38\\text{ Torr}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "What is 380 Torr in bar?",
+      "question_ar": "كم يساوي $380\\text{ Torr}$ بوحدة bar؟",
+      "options": [
+        "$0.13\\text{ bar}$",
+        "$0.25\\text{ bar}$",
+        "$0.51\\text{ bar}$",
+        "$1.0\\text{ bar}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$P = \\frac{380}{760}\\text{ atm}\\times1.01325\\frac{\\text{bar}}{\\text{atm}} = 0.51\\text{ bar}$$",
+      "explanation_ar": "$$P = \\frac{380}{760}\\text{ atm}\\times1.01325\\frac{\\text{bar}}{\\text{atm}} = 0.51\\text{ bar}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "What is 1900 Torr in bar?",
+      "question_ar": "كم يساوي $1900\\text{ Torr}$ بوحدة bar؟",
+      "options": [
+        "$2.1\\text{ bar}$",
+        "$2.3\\text{ bar}$",
+        "$2.53\\text{ bar}$",
+        "$3.0\\text{ bar}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$P = \\frac{1900}{760}\\times1.01325 = 2.5\\times1.01325 = 2.53\\text{ bar}$$",
+      "explanation_ar": "$$P = \\frac{1900}{760}\\times1.01325 = 2.5\\times1.01325 = 2.53\\text{ bar}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "What is the pressure if 10 N acts normally on a $5\\text{ m}^2$ surface?",
+      "question_ar": "ما الضغط إذا أثرت قوة $10\\text{ N}$ عمودياً على سطح مساحته $5\\text{ m}^2$؟",
+      "options": [
+        "$2\\text{ Pa}$",
+        "$4\\text{ Pa}$",
+        "$8\\text{ Pa}$",
+        "$10\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P = \\frac{F}{A} = \\frac{10}{5} = 2\\text{ Pa}$$",
+      "explanation_ar": "$$P = \\frac{F}{A} = \\frac{10}{5} = 2\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "What is the pressure if 10 N acts at $60^\\circ$ from the normal on a $5\\text{ m}^2$ surface?",
+      "question_ar": "ما الضغط إذا أثرت قوة $10\\text{ N}$ بزاوية $60^\\circ$ عن العمودي على سطح مساحته $5\\text{ m}^2$؟",
+      "options": [
+        "$0.5\\text{ Pa}$",
+        "$1\\text{ Pa}$",
+        "$2\\text{ Pa}$",
+        "$4\\text{ Pa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$F_n = 10\\cos60^\\circ = 5\\text{ N},\\qquad P = \\frac{5}{5} = 1\\text{ Pa}$$",
+      "explanation_ar": "$$F_n = 10\\cos60^\\circ = 5\\text{ N},\\qquad P = \\frac{5}{5} = 1\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. 4. المركبة العمودية: $F_n = F\\cos\\theta$ ($\\theta$ عن العمودي). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "What is the pressure if 10 N acts at $30^\\circ$ from the surface (area $5\\text{ m}^2$)?",
+      "question_ar": "ما الضغط إذا أثرت قوة $10\\text{ N}$ بزاوية $30^\\circ$ عن السطح (مساحته $5\\text{ m}^2$)؟",
+      "options": [
+        "$1\\text{ Pa}$",
+        "$2\\text{ Pa}$",
+        "$5\\text{ Pa}$",
+        "$10\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$F_n = 10\\sin30^\\circ = 5\\text{ N},\\qquad P = \\frac{5}{5} = 1\\text{ Pa}$$",
+      "explanation_ar": "$$F_n = 10\\sin30^\\circ = 5\\text{ N},\\qquad P = \\frac{5}{5} = 1\\text{ Pa}$$",
+      "memorization_note": "1. تحويلات الضغط: $$1\\text{ atm} = 101325\\text{ Pa} = 760\\text{ mmHg} = 760\\text{ Torr} = 14.696\\text{ psi} = 1.01325\\text{ bar}$$ 2. $1\\text{ bar} = 10^5\\text{ Pa}$، $1\\text{ psi} = 6.894\\text{ kPa}$. 3. الضغط: $P = \\frac{F}{A}$. 4. إذا قيست الزاوية عن السطح: $F_n = F\\sin\\theta$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "What is the pressure of 1 mol of an ideal gas at $27^\\circ\\text{C}$ occupying 1 L?",
+      "question_ar": "ما ضغط مول واحد من غاز مثالي عند $27^\\circ\\text{C}$ يشغل حجماً قدره $1\\text{ L}$؟",
+      "options": [
+        "$12.31\\text{ atm}$",
+        "$24.63\\text{ atm}$",
+        "$36.95\\text{ atm}$",
+        "$48.94\\text{ atm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P = \\frac{nRT}{V} = \\frac{1\\times0.0821\\times300}{1} = 24.63\\text{ atm}$$",
+      "explanation_ar": "$$P = \\frac{nRT}{V} = \\frac{1\\times0.0821\\times300}{1} = 24.63\\text{ atm}$$",
+      "memorization_note": "1. قانون الغاز المثالي: $PV = nRT$. 2. $R = 0.0821\\ \\frac{\\text{L·atm}}{\\text{mol·K}} = 8.314\\ \\frac{\\text{J}}{\\text{mol·K}}$. 3. $T(\\text{K}) = ^\\circ\\text{C} + 273$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "An open tank 10 m deep is full of a liquid of density $5\\text{ kg/m}^3$. What is the pressure difference between top and bottom?",
+      "question_ar": "خزان مفتوح عمقه $10\\text{ m}$ مملوء بسائل كثافته $5\\text{ kg/m}^3$. ما فرق الضغط بين القمة والقاع؟",
+      "options": [
+        "$98\\text{ Pa}$",
+        "$245\\text{ Pa}$",
+        "$491\\text{ Pa}$",
+        "$981\\text{ Pa}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\Delta P = \\rho g h = 5\\times9.81\\times10 = 490.5\\text{ Pa}$$",
+      "explanation_ar": "$$\\Delta P = \\rho g h = 5\\times9.81\\times10 = 490.5\\text{ Pa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "10 mm of water ($1000\\text{ kg/m}^3$) and 5 mm of another liquid give the same pressure. What is the density of the liquid?",
+      "question_ar": "عمود ماء ارتفاعه $10\\text{ mm}$ ($1000\\text{ kg/m}^3$) وعمود سائل آخر ارتفاعه $5\\text{ mm}$ يعطيان نفس الضغط. ما كثافة السائل؟",
+      "options": [
+        "$500\\text{ kg/m}^3$",
+        "$1000\\text{ kg/m}^3$",
+        "$1500\\text{ kg/m}^3$",
+        "$2000\\text{ kg/m}^3$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\rho_1 g h_1 = \\rho_2 g h_2 \\Rightarrow \\rho_2 = \\frac{1000\\times10}{5} = 2000\\text{ kg/m}^3$$",
+      "explanation_ar": "$$\\rho_1 g h_1 = \\rho_2 g h_2 \\Rightarrow \\rho_2 = \\frac{1000\\times10}{5} = 2000\\text{ kg/m}^3$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "Which of the following is NOT a pressure-measuring device?",
+      "question_ar": "أي مما يلي ليس جهازاً لقياس الضغط؟",
+      "options": [
+        "Manometer",
+        "Barometer",
+        "Galvanometer",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A galvanometer measures small electric current; manometers and barometers measure pressure.",
+      "explanation_ar": "A galvanometer measures small electric current; manometers and barometers measure pressure.",
+      "memorization_note": "1. أجهزة قياس الضغط: المانومتر، الباروميتر، مقياس بوردون، الـ Piezometer. 2. الجلفانومتر يقيس التيار الكهربائي. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "Bernoulli's equation is a statement of the conservation of:",
+      "question_ar": "معادلة برنولي هي تعبير عن حفظ:",
+      "options": [
+        "Energy",
+        "Momentum",
+        "Pressure",
+        "Mass"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Bernoulli's equation is the mechanical energy balance for an ideal fluid along a streamline.",
+      "explanation_ar": "Bernoulli's equation is the mechanical energy balance for an ideal fluid along a streamline.",
+      "memorization_note": "1. معادلة برنولي: $$\\frac{P}{\\rho} + \\frac{u^2}{2} + g z = \\text{constant}$$ 2. هي حفظ الطاقة الميكانيكية. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "A U-tube manometer filled with a liquid of density $10\\text{ kg/m}^3$ shows a height difference of 5 cm. What is the pressure difference?",
+      "question_ar": "مانومتر على شكل U مملوء بسائل كثافته $10\\text{ kg/m}^3$ وفرق الارتفاع $5\\text{ cm}$. ما فرق الضغط؟",
+      "options": [
+        "$4.9\\text{ Pa}$",
+        "$9.8\\text{ Pa}$",
+        "$14.7\\text{ Pa}$",
+        "$19.6\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$\\Delta P = \\rho g h = 10\\times9.81\\times0.05 = 4.9\\text{ Pa}$$",
+      "explanation_ar": "$$\\Delta P = \\rho g h = 10\\times9.81\\times0.05 = 4.9\\text{ Pa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "A hydraulic lever has input area $2\\text{ m}^2$ and output area $10\\text{ m}^2$. If the input force is 5 N, what is the output force?",
+      "question_ar": "رافعة هيدروليكية مساحة مدخلها $2\\text{ m}^2$ ومخرجها $10\\text{ m}^2$. إذا كانت قوة الدخل $5\\text{ N}$ فما قوة الخرج؟",
+      "options": [
+        "$1\\text{ N}$",
+        "$5\\text{ N}$",
+        "$10\\text{ N}$",
+        "$25\\text{ N}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "By Pascal's principle the pressure is the same: $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$. $$F_2 = F_1\\frac{A_2}{A_1} = 5\\times\\frac{10}{2} = 25\\text{ N}$$",
+      "explanation_ar": "By Pascal's principle the pressure is the same: $\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$. $$F_2 = F_1\\frac{A_2}{A_1} = 5\\times\\frac{10}{2} = 25\\text{ N}$$",
+      "memorization_note": "1. مبدأ باسكال: $$\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "A closed U-tube manometer has gas on one side and vacuum on the other. The liquid ($\\rho = 10\\text{ kg/m}^3$) height difference is 5 cm. What is the gas pressure?",
+      "question_ar": "مانومتر U مغلق فيه غاز في أحد طرفيه وفراغ في الآخر. فرق ارتفاع السائل ($\\rho = 10\\text{ kg/m}^3$) يساوي $5\\text{ cm}$. ما ضغط الغاز؟",
+      "options": [
+        "$4.9\\text{ Pa}$",
+        "$9.8\\text{ Pa}$",
+        "$2.5\\text{ Pa}$",
+        "$1\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "With vacuum on one side, $P_{\\text{gas}} = \\rho g h = 10\\times9.81\\times0.05 = 4.9\\text{ Pa}$.",
+      "explanation_ar": "With vacuum on one side, $P_{\\text{gas}} = \\rho g h = 10\\times9.81\\times0.05 = 4.9\\text{ Pa}$.",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "Archimedes' principle describes which quantity?",
+      "question_ar": "مبدأ أرخميدس يصف أي كمية؟",
+      "options": [
+        "Pressure",
+        "Buoyancy",
+        "Velocity",
+        "Mass"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The buoyant force equals the weight of the displaced fluid: $F_b = \\rho_f V_{\\text{disp}} g$.",
+      "explanation_ar": "The buoyant force equals the weight of the displaced fluid: $F_b = \\rho_f V_{\\text{disp}} g$.",
+      "memorization_note": "1. قوة الطفو: $$F_b = \\rho_{\\text{fluid}}\\, V_{\\text{disp}}\\, g$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "A spring balance reads 10 g for an object immersed in water, and the buoyant force is 0.1 N. What is the actual mass of the object?",
+      "question_ar": "ميزان نابضي يقرأ $10\\text{ g}$ لجسم مغمور في الماء، وقوة الطفو $0.1\\text{ N}$. ما الكتلة الفعلية للجسم؟",
+      "options": [
+        "$10\\text{ g}$",
+        "$\\approx20\\text{ g}$",
+        "$30\\text{ g}$",
+        "$40\\text{ g}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$W_{\\text{actual}} = W_{\\text{apparent}} + F_b = 0.01(9.81) + 0.1 = 0.198\\text{ N}$$ $$m = \\frac{0.198}{9.81} = 0.0202\\text{ kg} \\approx 20\\text{ g}$$",
+      "explanation_ar": "$$W_{\\text{actual}} = W_{\\text{apparent}} + F_b = 0.01(9.81) + 0.1 = 0.198\\text{ N}$$ $$m = \\frac{0.198}{9.81} = 0.0202\\text{ kg} \\approx 20\\text{ g}$$",
+      "memorization_note": "1. الوزن الظاهري $=$ الوزن الحقيقي $-$ قوة الطفو. 2. $W = mg$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 44,
+      "question_en": "An open-end manometer has gas on one side and the other side open to the atmosphere. The liquid ($\\rho = 10000\\text{ kg/m}^3$) is 10 cm higher on the open side. What is the gas pressure?",
+      "question_ar": "مانومتر مفتوح الطرف فيه غاز في جهة والجهة الأخرى مفتوحة للجو. السائل ($\\rho = 10000\\text{ kg/m}^3$) أعلى بمقدار $10\\text{ cm}$ في الطرف المفتوح. ما ضغط الغاز؟",
+      "options": [
+        "$1\\text{ atm}$",
+        "$\\approx1.1\\text{ atm}$",
+        "$1.2\\text{ atm}$",
+        "$1.3\\text{ atm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P_{\\text{gas}} = P_{\\text{atm}} + \\rho g h = 101325 + 10000(9.81)(0.1) = 111135\\text{ Pa} \\approx 1.1\\text{ atm}$$",
+      "explanation_ar": "$$P_{\\text{gas}} = P_{\\text{atm}} + \\rho g h = 101325 + 10000(9.81)(0.1) = 111135\\text{ Pa} \\approx 1.1\\text{ atm}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 45,
+      "question_en": "A closed-end manometer has gas on one side and vacuum on the other. The liquid ($\\rho = 10000\\text{ kg/m}^3$) height difference is 25 cm. What is the gas pressure?",
+      "question_ar": "مانومتر مغلق الطرف فيه غاز في جهة وفراغ في الجهة الأخرى. فرق ارتفاع السائل ($\\rho = 10000\\text{ kg/m}^3$) يساوي $25\\text{ cm}$. ما ضغط الغاز؟",
+      "options": [
+        "$0.1\\text{ atm}$",
+        "$0.24\\text{ atm}$",
+        "$0.36\\text{ atm}$",
+        "$0.9\\text{ atm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P = \\rho g h = 10000\\times9.81\\times0.25 = 24525\\text{ Pa} = \\frac{24525}{101325} = 0.24\\text{ atm}$$",
+      "explanation_ar": "$$P = \\rho g h = 10000\\times9.81\\times0.25 = 24525\\text{ Pa} = \\frac{24525}{101325} = 0.24\\text{ atm}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 46,
+      "question_en": "Which device is used to measure the pressure of a liquid only?",
+      "question_ar": "أي جهاز يُستخدم لقياس ضغط سائل فقط؟",
+      "options": [
+        "Manometer",
+        "Piezometer",
+        "Differential manometer",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A piezometer is a simple open vertical tube; it can measure only the pressure of liquids (not gases).",
+      "explanation_ar": "A piezometer is a simple open vertical tube; it can measure only the pressure of liquids (not gases).",
+      "memorization_note": "1. الـ Piezometer أنبوب رأسي مفتوح يقيس ضغط السوائل فقط. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "Which device measures the gauge pressure of a gas using a liquid column?",
+      "question_ar": "أي جهاز يقيس الضغط المقياسي لغاز باستخدام عمود سائل؟",
+      "options": [
+        "U-tube manometer",
+        "Piezometer",
+        "Differential manometer",
+        "None of the mentioned"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A piezometer cannot hold a gas; a U-tube manometer measures gas pressure from the liquid height difference $\\Delta P = \\rho g h$.",
+      "explanation_ar": "A piezometer cannot hold a gas; a U-tube manometer measures gas pressure from the liquid height difference $\\Delta P = \\rho g h$.",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "A differential manometer is used to measure:",
+      "question_ar": "يُستخدم المانومتر التفاضلي لقياس:",
+      "options": [
+        "The pressure difference between two points",
+        "Only atmospheric pressure",
+        "Only vacuum",
+        "Flow velocity directly"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A differential manometer connects two points and indicates $P_1 - P_2$ from the liquid height difference.",
+      "explanation_ar": "A differential manometer connects two points and indicates $P_1 - P_2$ from the liquid height difference.",
+      "memorization_note": "1. المانومتر التفاضلي يقيس فرق الضغط بين نقطتين: $P_1 - P_2$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "Which device is used to measure flow velocity?",
+      "question_ar": "أي جهاز يُستخدم لقياس سرعة الجريان؟",
+      "options": [
+        "Manometer",
+        "Venturi meter",
+        "Pitot tube",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A Pitot tube measures stagnation pressure and gives velocity from $u = \\sqrt{2\\Delta P/\\rho}$.",
+      "explanation_ar": "A Pitot tube measures stagnation pressure and gives velocity from $u = \\sqrt{2\\Delta P/\\rho}$.",
+      "memorization_note": "1. أنبوب بيتو: $$u = \\sqrt{\\frac{2\\Delta P}{\\rho}}$$ 2. الفنتوري يقيس معدل التدفق. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "A U-tube manometer is open at one end and has gas at the other. The mercury levels in both legs are equal. What is the gas pressure?",
+      "question_ar": "مانومتر U مفتوح أحد طرفيه وفي الطرف الآخر غاز. مستويا الزئبق في الساقين متساويان. ما ضغط الغاز؟",
+      "options": [
+        "$1\\text{ Pa}$",
+        "$1\\text{ Torr}$",
+        "$1\\text{ mmHg}$",
+        "$1\\text{ atm}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Equal levels mean equal pressure on both sides: $P_{\\text{gas}} = P_{\\text{atm}} = 1\\text{ atm}$.",
+      "explanation_ar": "Equal levels mean equal pressure on both sides: $P_{\\text{gas}} = P_{\\text{atm}} = 1\\text{ atm}$.",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "A U-tube manometer is closed at both ends, one end under vacuum and the other containing gas. The mercury level difference is 10 mm. What is the gas pressure? ($\\rho_{\\text{Hg}} = 13600\\text{ kg/m}^3$)",
+      "question_ar": "مانومتر U مغلق الطرفين، أحدهما فراغ والآخر فيه غاز. فرق مستوى الزئبق $10\\text{ mm}$. ما ضغط الغاز؟ ($\\rho_{\\text{Hg}} = 13600\\text{ kg/m}^3$)",
+      "options": [
+        "$1.33\\text{ kPa}$",
+        "$1.45\\text{ kPa}$",
+        "$1.56\\text{ kPa}$",
+        "$1.75\\text{ kPa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P = \\rho g h = 13600\\times9.81\\times0.01 = 1334\\text{ Pa} = 1.33\\text{ kPa}$$",
+      "explanation_ar": "$$P = \\rho g h = 13600\\times9.81\\times0.01 = 1334\\text{ Pa} = 1.33\\text{ kPa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. 4. كثافة الزئبق: $\\rho_{\\text{Hg}} = 13600\\text{ kg/m}^3$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 52,
+      "question_en": "A closed U-tube manometer has gas at 10 Pa on one side and vacuum on the other. What is the approximate density of the liquid if the height difference is 10 cm?",
+      "question_ar": "مانومتر U مغلق فيه غاز ضغطه $10\\text{ Pa}$ وفراغ في الجهة الأخرى. ما الكثافة التقريبية للسائل إذا كان فرق الارتفاع $10\\text{ cm}$؟",
+      "options": [
+        "$1\\text{ kg/m}^3$",
+        "$10\\text{ kg/m}^3$",
+        "$100\\text{ kg/m}^3$",
+        "$1000\\text{ kg/m}^3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P = \\rho g h \\Rightarrow \\rho = \\frac{10}{9.81\\times0.1} = 10.2 \\approx 10\\text{ kg/m}^3$$",
+      "explanation_ar": "$$P = \\rho g h \\Rightarrow \\rho = \\frac{10}{9.81\\times0.1} = 10.2 \\approx 10\\text{ kg/m}^3$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 53,
+      "question_en": "A closed U-tube manometer has gas at 5 Pa on one side and vacuum on the other. What is the approximate height difference if the liquid density is $10\\text{ kg/m}^3$?",
+      "question_ar": "مانومتر U مغلق فيه غاز ضغطه $5\\text{ Pa}$ وفراغ في الجهة الأخرى. ما فرق الارتفاع التقريبي إذا كانت كثافة السائل $10\\text{ kg/m}^3$؟",
+      "options": [
+        "$5\\text{ mm}$",
+        "$10\\text{ mm}$",
+        "$50\\text{ mm}$",
+        "$100\\text{ mm}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$h = \\frac{P}{\\rho g} = \\frac{5}{10\\times9.81} = 0.051\\text{ m} \\approx 50\\text{ mm}$$",
+      "explanation_ar": "$$h = \\frac{P}{\\rho g} = \\frac{5}{10\\times9.81} = 0.051\\text{ m} \\approx 50\\text{ mm}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 54,
+      "question_en": "A closed manometer (vacuum at both ends) has on the left leg a 10 cm column of liquid with $\\rho = 8\\text{ kg/m}^3$; on the right leg a 5 cm column of $\\rho = 10\\text{ kg/m}^3$ above a third liquid with $\\rho = 15\\text{ kg/m}^3$. What is the length $x$ of the third liquid?",
+      "question_ar": "مانومتر مغلق (فراغ في الطرفين) في ساقه اليسرى عمود سائل ارتفاعه $10\\text{ cm}$ وكثافته $8\\text{ kg/m}^3$؛ وفي الساق اليمنى عمود ارتفاعه $5\\text{ cm}$ وكثافته $10\\text{ kg/m}^3$ فوق سائل ثالث كثافته $15\\text{ kg/m}^3$. ما طول السائل الثالث $x$؟",
+      "options": [
+        "$1\\text{ cm}$",
+        "$2\\text{ cm}$",
+        "$3\\text{ cm}$",
+        "$4\\text{ cm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Equal pressure at the common level (g cancels): $$8(10) = 10(5) + 15x \\Rightarrow 80 = 50 + 15x \\Rightarrow x = 2\\text{ cm}$$",
+      "explanation_ar": "Equal pressure at the common level (g cancels): $$8(10) = 10(5) + 15x \\Rightarrow 80 = 50 + 15x \\Rightarrow x = 2\\text{ cm}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 55,
+      "question_en": "A barometer-type tube has its liquid 10 cm above the outside level, and the gas trapped inside is at 0.5 atm. What is the liquid density? (take $g = 10\\text{ m/s}^2$, $P_{\\text{atm}} = 1\\text{ atm}$)",
+      "question_ar": "أنبوب من نوع الباروميتر مستوى سائله أعلى بـ $10\\text{ cm}$ من المستوى الخارجي والغاز المحبوس فيه ضغطه $0.5\\text{ atm}$. ما كثافة السائل؟ (خذ $g = 10\\text{ m/s}^2$، $P_{\\text{atm}} = 1\\text{ atm}$)",
+      "options": [
+        "$0.5\\text{ atm}\\cdot\\text{s}^2/\\text{m}^2$",
+        "$1\\text{ atm}\\cdot\\text{s}^2/\\text{m}^2$",
+        "$1.5\\text{ atm}\\cdot\\text{s}^2/\\text{m}^2$",
+        "$2\\text{ atm}\\cdot\\text{s}^2/\\text{m}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P_{\\text{gas}} + \\rho g h = P_{\\text{atm}} \\Rightarrow 0.5 + \\rho(10)(0.1) = 1 \\Rightarrow \\rho = 0.5\\ \\text{atm}\\cdot\\text{s}^2/\\text{m}^2$$",
+      "explanation_ar": "$$P_{\\text{gas}} + \\rho g h = P_{\\text{atm}} \\Rightarrow 0.5 + \\rho(10)(0.1) = 1 \\Rightarrow \\rho = 0.5\\ \\text{atm}\\cdot\\text{s}^2/\\text{m}^2$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 56,
+      "question_en": "In a barometer-type tube the liquid ($\\rho = 1\\text{ kg/m}^3$) is 5 cm below the outside level. What is the pressure of the trapped gas? (take $g = 10\\text{ m/s}^2$)",
+      "question_ar": "في أنبوب من نوع الباروميتر السائل ($\\rho = 1\\text{ kg/m}^3$) أخفض بـ $5\\text{ cm}$ من المستوى الخارجي. ما ضغط الغاز المحبوس؟ (خذ $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$0.5\\text{ atm} + 1\\text{ Pa}$",
+        "$1\\text{ atm} + 0.5\\text{ Pa}$",
+        "$1.5\\text{ atm} + 1\\text{ Pa}$",
+        "$2\\text{ atm} + 0.5\\text{ Pa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P_{\\text{gas}} = P_{\\text{atm}} + \\rho g h = 1\\text{ atm} + 1(10)(0.05) = 1\\text{ atm} + 0.5\\text{ Pa}$$",
+      "explanation_ar": "$$P_{\\text{gas}} = P_{\\text{atm}} + \\rho g h = 1\\text{ atm} + 1(10)(0.05) = 1\\text{ atm} + 0.5\\text{ Pa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "A barometer-type tube contains a liquid with $\\rho = 1\\text{ kg/m}^3$ and the trapped gas is at 0.5 atm. What is the liquid height? (take $g = 10\\text{ m/s}^2$, $P_{\\text{atm}} = 1\\text{ atm}$)",
+      "question_ar": "أنبوب من نوع الباروميتر فيه سائل كثافته $1\\text{ kg/m}^3$ والغاز المحبوس ضغطه $0.5\\text{ atm}$. ما ارتفاع السائل؟ (خذ $g = 10\\text{ m/s}^2$، $P_{\\text{atm}} = 1\\text{ atm}$)",
+      "options": [
+        "$0.01\\text{ atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$",
+        "$0.05\\text{ atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$",
+        "$0.1\\text{ atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$",
+        "$0.5\\text{ atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$P_{\\text{gas}} + \\rho g h = P_{\\text{atm}} \\Rightarrow 0.5 + 1(10)h = 1 \\Rightarrow h = 0.05\\ \\text{atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$$",
+      "explanation_ar": "$$P_{\\text{gas}} + \\rho g h = P_{\\text{atm}} \\Rightarrow 0.5 + 1(10)h = 1 \\Rightarrow h = 0.05\\ \\text{atm}\\cdot\\text{m}^2\\text{s}^2/\\text{kg}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 58,
+      "question_en": "A barometer-type tube has liquid 1 ($\\rho = 2\\text{ kg/m}^3$, 5 cm below the outside level) and, above it, liquid 2 ($\\rho = 0.5\\text{ kg/m}^3$, 10 cm long). What is the gauge pressure of the gas? (take $g = 10\\text{ m/s}^2$)",
+      "question_ar": "أنبوب من نوع الباروميتر فيه سائل 1 ($\\rho = 2\\text{ kg/m}^3$) أخفض بـ $5\\text{ cm}$ من المستوى الخارجي، وفوقه سائل 2 ($\\rho = 0.5\\text{ kg/m}^3$) بطول $10\\text{ cm}$. ما الضغط المقياسي للغاز؟ (خذ $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$0.01\\text{ Pa}$",
+        "$0.05\\text{ Pa}$",
+        "$0.1\\text{ Pa}$",
+        "$0.5\\text{ Pa}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P_{\\text{gauge}} + \\rho_2 g h_2 = \\rho_1 g h_1 \\Rightarrow P_{\\text{gauge}} = 2(10)(0.05) - 0.5(10)(0.1) = 1 - 0.5 = 0.5\\text{ Pa}$$",
+      "explanation_ar": "$$P_{\\text{gauge}} + \\rho_2 g h_2 = \\rho_1 g h_1 \\Rightarrow P_{\\text{gauge}} = 2(10)(0.05) - 0.5(10)(0.1) = 1 - 0.5 = 0.5\\text{ Pa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 59,
+      "question_en": "A barometer-type tube has liquid 1 ($\\rho = 5\\text{ kg/m}^3$, 10 cm below the outside level) and liquid 2 (5 cm long) above it. The gauge gas pressure is 1 Pa. What is the density of liquid 2? (take $g = 10\\text{ m/s}^2$)",
+      "question_ar": "أنبوب من نوع الباروميتر فيه سائل 1 ($\\rho = 5\\text{ kg/m}^3$) أخفض بـ $10\\text{ cm}$ من المستوى الخارجي، وفوقه سائل 2 بطول $5\\text{ cm}$. الضغط المقياسي للغاز $1\\text{ Pa}$. ما كثافة السائل 2؟ (خذ $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$2\\text{ kg/m}^3$",
+        "$4\\text{ kg/m}^3$",
+        "$6\\text{ kg/m}^3$",
+        "$8\\text{ kg/m}^3$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P_{\\text{gauge}} + \\rho_2 g h_2 = \\rho_1 g h_1 \\Rightarrow 1 + \\rho_2(10)(0.05) = 5(10)(0.1) \\Rightarrow \\rho_2 = 8\\text{ kg/m}^3$$",
+      "explanation_ar": "$$P_{\\text{gauge}} + \\rho_2 g h_2 = \\rho_1 g h_1 \\Rightarrow 1 + \\rho_2(10)(0.05) = 5(10)(0.1) \\Rightarrow \\rho_2 = 8\\text{ kg/m}^3$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 60,
+      "question_en": "A barometer-type tube has liquid 1 ($\\rho = 1\\text{ kg/m}^3$, 10 cm below the outside level) with liquid 2 above it. The gauge gas pressure is 0.5 Pa. What is the pressure exerted by liquid 2? (take $g = 10\\text{ m/s}^2$)",
+      "question_ar": "أنبوب من نوع الباروميتر فيه سائل 1 ($\\rho = 1\\text{ kg/m}^3$) أخفض بـ $10\\text{ cm}$ من المستوى الخارجي وفوقه سائل 2. الضغط المقياسي للغاز $0.5\\text{ Pa}$. ما الضغط الذي يولّده السائل 2؟ (خذ $g = 10\\text{ m/s}^2$)",
+      "options": [
+        "$0.5\\text{ Pa}$",
+        "$1\\text{ Pa}$",
+        "$1.5\\text{ Pa}$",
+        "$2\\text{ Pa}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$P_{\\text{gauge}} + P_2 = P_1 \\Rightarrow P_2 = 1(10)(0.1) - 0.5 = 0.5\\text{ Pa}$$",
+      "explanation_ar": "$$P_{\\text{gauge}} + P_2 = P_1 \\Rightarrow P_2 = 1(10)(0.1) - 0.5 = 0.5\\text{ Pa}$$",
+      "memorization_note": "1. الضغط الهيدروستاتيكي: $$\\Delta P = \\rho g h$$ 2. $g = 9.81\\text{ m/s}^2$. 3. الضغط المطلق: $P_{\\text{abs}} = P_{\\text{atm}} + P_{\\text{gauge}}$. ",
+      "requires_scratchpad": false
+    }
+  ]
+}

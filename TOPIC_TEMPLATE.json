@@ -1,0 +1,24 @@
+{
+  "topic_en": "Density & Specific Gravity",
+  "topic_ar": "الكثافة والوزن النوعي",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "وصف مختصر للموضوع يظهر تحت عنوان البطاقة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "Two miscible liquids A ($\\rho_A = 800\\text{ kg/m}^3$, $V_A = 0.4\\text{ m}^3$) and B ($\\rho_B = 1200\\text{ kg/m}^3$, $V_B = 0.6\\text{ m}^3$) are mixed. What is $\\rho_{\\text{mix}}$?",
+      "question_ar": "تم خلط سائلين A ($\\rho_A = 800\\text{ kg/m}^3, V_A = 0.4\\text{ m}^3$) و B ($\\rho_B = 1200\\text{ kg/m}^3, V_B = 0.6\\text{ m}^3$). ما هي كثافة الخليط $\\rho_{\\text{mix}}$؟",
+      "options": [
+        "$1000\\text{ kg/m}^3$",
+        "$1040\\text{ kg/m}^3$",
+        "$960\\text{ kg/m}^3$",
+        "$1100\\text{ kg/m}^3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Using the ideal mixture density equation: $$\\rho_{\\text{mix}} = \\frac{m_{\\text{total}}}{V_{\\text{total}}} = \\frac{\\rho_A \\cdot V_A + \\rho_B \\cdot V_B}{V_A + V_B} = 1040\\text{ kg/m}^3$$",
+      "explanation_ar": "بتطبيق قانون كثافة الخليط المثالي: $$\\rho_{\\text{mix}} = \\frac{m_{\\text{total}}}{V_{\\text{total}}} = \\frac{(800 \\times 0.4) + (1200 \\times 0.6)}{0.4 + 0.6} = 1040\\text{ kg/m}^3$$",
+      "memorization_note": "1. قانون كثافة الخليط المثالي (بدلالة الكتلة والحجم): $$\\rho_{\\text{mix}} = \\frac{m_{\\text{total}}}{V_{\\text{total}}} = \\frac{\\rho_A \\cdot V_A + \\rho_B \\cdot V_B}{V_A + V_B}$$ 2. قانون كثافة الخليط (إذا أُعطيت الكسور الوزنية $x_i$): $$\\frac{1}{\\rho_{\\text{mix}}} = \\sum_i \\frac{x_i}{\\rho_i}$$",
+      "requires_scratchpad": true
+    }
+  ]
+}

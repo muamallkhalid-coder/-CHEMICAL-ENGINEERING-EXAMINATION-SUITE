@@ -1,0 +1,1608 @@
+{
+  "topic_en": "Pumps & Valves Fundamentals — Basic Concepts Bank",
+  "topic_ar": "بنك أساسيات وبديهيات المضخات والصمامات",
+  "subject_folder": "Fluid_Mechanics",
+  "description_ar": "ملف منفصل يضم 100 سؤالاً من أساسيات وبديهيات المضخات (Pumps) والصمامات (Valves) فقط، مبنية على مواضيع أسئلة الاختبارات المنشورة على الإنترنت ومُعاد صياغتها ومُراجعة علمياً",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "What is the main function of a pump?",
+      "question_ar": "ما هي الوظيفة الرئيسية للمضخة؟",
+      "options": [
+        "To remove energy from a liquid",
+        "To change the liquid into vapor",
+        "To measure liquid flow",
+        "To add energy to a liquid (raising its pressure or moving it)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A pump converts mechanical energy of the driver into hydraulic energy (pressure/velocity/elevation) of the liquid.",
+      "explanation_ar": "المضخة تحوّل الطاقة الميكانيكية للمحرك إلى طاقة هيدروليكية (ضغط/سرعة/ارتفاع) للسائل.",
+      "memorization_note": "يُحفظ: المضخة تُضيف طاقة للسائل، التوربين يأخذ طاقة منه.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "A centrifugal pump works mainly by:",
+      "question_ar": "تعمل المضخة الطاردة المركزية أساساً بواسطة:",
+      "options": [
+        "Moving a piston back and forth",
+        "Squeezing a flexible tube",
+        "Rotating an impeller that gives velocity to the liquid",
+        "Gravity only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The rotating impeller throws the liquid outward, increasing its velocity; this kinetic energy is then turned into pressure.",
+      "explanation_ar": "الدافع الدوّار يقذف السائل للخارج فتزداد سرعته، ثم تتحول طاقته الحركية إلى ضغط.",
+      "memorization_note": "يُحفظ: Centrifugal = دافع دوّار (Impeller).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Which component of a centrifugal pump transfers energy to the liquid?",
+      "question_ar": "أي جزء في المضخة الطاردة ينقل الطاقة إلى السائل؟",
+      "options": [
+        "Impeller",
+        "Casing",
+        "Suction pipe",
+        "Discharge flange"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Only the rotating impeller does work on the fluid; the casing guides the flow.",
+      "explanation_ar": "الدافع الدوّار وحده يبذل شغلاً على المائع، أما الغلاف فيوجّه الجريان.",
+      "memorization_note": "يُحفظ: Impeller = ينقل الطاقة، Volute = يحوّلها لضغط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "The volute casing of a centrifugal pump:",
+      "question_ar": "غلاف الحلزون (Volute) في المضخة الطاردة:",
+      "options": [
+        "Increases the speed of the impeller",
+        "Stores the liquid permanently",
+        "Collects the liquid and converts part of its kinetic energy into pressure",
+        "Cools the motor"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The cross-section area of the volute increases gradually, so velocity falls and pressure rises.",
+      "explanation_ar": "مساحة مقطع الحلزون تزداد تدريجياً فتقل السرعة ويزداد الضغط.",
+      "memorization_note": "يُحفظ: Volute/Diffuser: $\\frac{v^2}{2g}\\to\\frac{P}{\\rho g}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "In which direction does the liquid leave the impeller of a centrifugal pump?",
+      "question_ar": "في أي اتجاه يغادر السائل دافع المضخة الطاردة المركزية؟",
+      "options": [
+        "Radially outward",
+        "Toward the shaft centre",
+        "Axially backward",
+        "Vertically downward only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Liquid enters at the eye axially and is thrown radially outward by centrifugal action.",
+      "explanation_ar": "يدخل السائل عند العين محورياً ثم يُقذف شعاعياً للخارج.",
+      "memorization_note": "يُحفظ: دخول محوري، خروج شعاعي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "Which impeller type is the most suitable for liquids containing suspended solids?",
+      "question_ar": "أي نوع من الدوافع هو الأنسب للسوائل التي تحتوي على عوالق صلبة؟",
+      "options": [
+        "Closed (shrouded) impeller",
+        "Double-suction closed impeller",
+        "Open impeller",
+        "Multistage closed impeller"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Open impellers (vanes without shrouds) are less likely to clog and are easier to clean; closed impellers give higher efficiency with clean liquids.",
+      "explanation_ar": "الدوافع المفتوحة (بلا غطاء) أقل عرضة للانسداد وأسهل تنظيفاً؛ والمغلقة أكفأ مع السوائل النظيفة.",
+      "memorization_note": "يُحفظ: Open = عوالق، Closed = سوائل نظيفة وكفاءة عالية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "The inlet opening at the centre of the impeller is called the:",
+      "question_ar": "الفتحة المركزية لدخول السائل في الدافع تُسمى:",
+      "options": [
+        "Volute tongue",
+        "Wear ring",
+        "Stuffing box",
+        "Eye"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The impeller eye is where liquid enters; it is also the lowest-pressure region where cavitation begins.",
+      "explanation_ar": "عين الدافع هي مدخل السائل، وهي أقل منطقة ضغطاً حيث يبدأ التكهف.",
+      "memorization_note": "يُحفظ: Impeller eye = أقل ضغط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Wearing rings in a centrifugal pump are used to:",
+      "question_ar": "تُستخدم حلقات التآكل (Wearing rings) في المضخة الطاردة من أجل:",
+      "options": [
+        "Increase suction lift",
+        "Limit leakage from the high-pressure to the low-pressure side",
+        "Increase impeller speed",
+        "Measure flow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "They maintain a small clearance between rotating impeller and casing and are cheap replaceable parts that wear instead of the impeller.",
+      "explanation_ar": "تحافظ على خلوص صغير بين الدافع والغلاف وهي أجزاء رخيصة قابلة للاستبدال.",
+      "memorization_note": "يُحفظ: Wear ring = تقليل التسرب الداخلي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "The stuffing box (or mechanical seal) of a pump is used to:",
+      "question_ar": "يُستخدم صندوق الحشو (أو الختم الميكانيكي) في المضخة من أجل:",
+      "options": [
+        "Cool the impeller",
+        "Reduce suction pressure",
+        "Prevent leakage of liquid along the shaft",
+        "Increase the head"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The shaft passes through the casing; packing or a mechanical seal seals this opening.",
+      "explanation_ar": "يمر العمود عبر الغلاف، ويُحكم الحشو أو الختم الميكانيكي هذه الفتحة.",
+      "memorization_note": "يُحفظ: Seal = منع التسرب عند العمود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Pump head is defined as:",
+      "question_ar": "يُعرَّف رأس المضخة (Head) بأنه:",
+      "options": [
+        "Mass of the pump",
+        "Energy added to the liquid per unit weight (expressed in metres)",
+        "Volume of liquid per second",
+        "Power of the motor"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$H=\\frac{\\Delta P}{\\rho g}$ has units of length. Head is independent of liquid density, pressure is not.",
+      "explanation_ar": "$H=\\frac{\\Delta P}{\\rho g}$ وحدتها متر، والرأس لا يعتمد على كثافة السائل بينما الضغط يعتمد.",
+      "memorization_note": "يُحفظ: $$H=\\frac{\\Delta P}{\\rho g}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "Total dynamic head (TDH) of a pumping system equals:",
+      "question_ar": "الرأس الديناميكي الكلي (TDH) لمنظومة ضخ يساوي:",
+      "options": [
+        "Suction pressure only",
+        "Static head + friction (and minor) losses + pressure/velocity head differences",
+        "Static head only",
+        "Friction losses only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "TDH is the total head the pump must supply: elevation difference + pressure head difference + velocity head difference + all losses.",
+      "explanation_ar": "TDH هو الرأس الكلي الذي يجب أن تعطيه المضخة: فرق الارتفاع + فرق رأس الضغط + فرق رأس السرعة + كل الخسائر.",
+      "memorization_note": "يُحفظ: $TDH=H_{\\text{static}}+h_f+h_m(+\\Delta\\frac{P}{\\rho g}+\\Delta\\frac{v^2}{2g})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "The static head of a pumping system:",
+      "question_ar": "الرأس الساكن (Static head) لمنظومة ضخ:",
+      "options": [
+        "Increases with the square of flow rate",
+        "Is always zero",
+        "Does not depend on the flow rate",
+        "Equals the friction loss"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Static head is the elevation difference between source and destination surfaces; only friction head depends on flow.",
+      "explanation_ar": "الرأس الساكن هو فرق الارتفاع بين السطحين ولا يعتمد على الجريان، بينما رأس الاحتكاك يعتمد.",
+      "memorization_note": "يُحفظ: $h_f\\propto Q^2$ أما الساكن فثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Why must a centrifugal pump normally be primed before starting?",
+      "question_ar": "لماذا يجب عادةً ملء (Priming) المضخة الطاردة قبل التشغيل؟",
+      "options": [
+        "Priming increases viscosity",
+        "Air in the casing cannot be pumped effectively, so the pump fails to draw liquid",
+        "Liquid reduces the motor current to zero",
+        "It is required only for gear pumps"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Air has very low density, so the impeller cannot create enough suction; this is called air binding.",
+      "explanation_ar": "كثافة الهواء ضئيلة فلا يولّد الدافع سحباً كافياً، ويسمى ذلك Air binding.",
+      "memorization_note": "يُحفظ: Centrifugal = غير ذاتية السحب غالباً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Cavitation in a pump is caused by:",
+      "question_ar": "يحدث التكهف في المضخة بسبب:",
+      "options": [
+        "Too low liquid temperature",
+        "Pressure rising above design pressure",
+        "Excess lubrication",
+        "Local pressure dropping below the liquid's vapor pressure"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Vapor bubbles form in low-pressure zones (impeller eye) and collapse when they reach higher pressure.",
+      "explanation_ar": "تتكون فقاعات بخار في مناطق الضغط المنخفض (عين الدافع) وتنهار عند وصولها لضغط أعلى.",
+      "memorization_note": "يُحفظ: $P<P_v\\Rightarrow$ cavitation.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Which of the following is NOT an effect of cavitation?",
+      "question_ar": "أي مما يلي ليس من آثار التكهف؟",
+      "options": [
+        "Drop in head and flow",
+        "Pitting/erosion of the impeller",
+        "Noise and vibration",
+        "Increase in pump head and efficiency"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Cavitation reduces head and efficiency and damages the pump.",
+      "explanation_ar": "التكهف يقلل الرأس والكفاءة ويتلف المضخة.",
+      "memorization_note": "يُحفظ: تكهف = ضجيج + اهتزاز + تآكل + هبوط أداء.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "To avoid cavitation the available NPSH must be ____ the required NPSH.",
+      "question_ar": "لتجنب التكهف يجب أن تكون NPSH المتاحة ____ NPSH المطلوبة.",
+      "options": [
+        "Greater than",
+        "Less than",
+        "Unrelated to",
+        "Equal to zero compared with"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$NPSH_A>NPSH_R$ keeps the suction pressure above vapor pressure with a safety margin.",
+      "explanation_ar": "$NPSH_A>NPSH_R$ تُبقي ضغط السحب أعلى من ضغط البخار بهامش أمان.",
+      "memorization_note": "يُحفظ: $NPSH_A>NPSH_R$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "Which action increases the available NPSH?",
+      "question_ar": "أي إجراء يزيد NPSH المتاحة؟",
+      "options": [
+        "Lowering the pump relative to the liquid level",
+        "Raising the pump above the liquid level",
+        "Using a longer, narrower suction pipe",
+        "Increasing liquid temperature"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$NPSH_A=\\frac{P_s-P_v}{\\rho g}+z-h_f$; more submergence ($z$) or smaller $h_f$ increases it, while a higher temperature raises $P_v$ and lowers it.",
+      "explanation_ar": "$NPSH_A=\\frac{P_s-P_v}{\\rho g}+z-h_f$؛ زيادة $z$ أو تقليل $h_f$ ترفعها، وارتفاع الحرارة يرفع $P_v$ فيخفضها.",
+      "memorization_note": "يُحفظ: $$NPSH_A=\\frac{P_s-P_v}{\\rho g}+z-h_f$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "Which of the following is a positive displacement pump?",
+      "question_ar": "أي مما يلي مضخة إزاحة موجبة؟",
+      "options": [
+        "Reciprocating piston pump",
+        "Centrifugal pump",
+        "Axial-flow pump",
+        "Mixed-flow pump"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Piston, gear, screw, diaphragm and lobe pumps displace fixed volumes of liquid per cycle/revolution.",
+      "explanation_ar": "المضخات المكبسية والترسية واللولبية والغشائية تزيح حجماً ثابتاً في كل دورة.",
+      "memorization_note": "يُحفظ: PD: piston, gear, screw, vane, diaphragm.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "As discharge pressure rises, the flow rate of a positive displacement pump:",
+      "question_ar": "عند ارتفاع ضغط التصريف فإن معدل جريان مضخة الإزاحة الموجبة:",
+      "options": [
+        "Doubles",
+        "Becomes negative",
+        "Falls sharply to zero",
+        "Stays nearly constant"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A PD pump delivers an almost fixed volume per revolution, so flow depends mainly on speed (not on discharge pressure).",
+      "explanation_ar": "تعطي حجماً ثابتاً تقريباً لكل دورة فيعتمد الجريان على السرعة لا على ضغط التصريف.",
+      "memorization_note": "يُحفظ: PD: $Q\\approx\\text{constant at constant } N$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "A reciprocating pump produces a flow that is:",
+      "question_ar": "المضخة الترددية تعطي جرياناً:",
+      "options": [
+        "Always zero",
+        "Perfectly smooth",
+        "Only radial",
+        "Pulsating"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The piston delivers liquid only during the delivery stroke, so flow pulsates (reduced by air vessels or multiple cylinders).",
+      "explanation_ar": "المكبس يدفع السائل أثناء شوط التصريف فقط فيكون الجريان نابضاً (يُخفَّف بوعاء هواء أو أسطوانات متعددة).",
+      "memorization_note": "يُحفظ: Reciprocating = pulsating.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "Which device must be installed on the discharge of a positive displacement pump for protection?",
+      "question_ar": "أي جهاز يجب تركيبه على تصريف مضخة الإزاحة الموجبة للحماية؟",
+      "options": [
+        "Strainer only",
+        "Pressure relief valve",
+        "Butterfly valve only",
+        "Foot valve"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A PD pump keeps pushing liquid even against a closed valve, so pressure would rise until something fails; a relief valve prevents this.",
+      "explanation_ar": "مضخة PD تستمر بالدفع حتى مع صمام مغلق فيرتفع الضغط حتى يحدث عطل، والـ Relief valve يمنع ذلك.",
+      "memorization_note": "يُحفظ: PD لا تُشغَّل ضد صمام مغلق بدون Relief.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "Which pump is generally preferred for very viscous liquids?",
+      "question_ar": "أي مضخة تُفضَّل عادةً للسوائل شديدة اللزوجة؟",
+      "options": [
+        "Gear (positive displacement) pump",
+        "Axial-flow pump",
+        "Jet pump",
+        "Centrifugal pump"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Centrifugal pump efficiency falls strongly with viscosity, whereas positive displacement pumps handle viscous liquids well.",
+      "explanation_ar": "كفاءة الطاردة تنخفض بشدة مع اللزوجة بينما مضخات PD تتعامل جيداً مع اللزوجة.",
+      "memorization_note": "يُحفظ: لزج $\\Rightarrow$ PD.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "If the discharge valve of a centrifugal pump is completely closed while it runs, the flow is:",
+      "question_ar": "إذا أُغلق صمام تصريف مضخة طاردة تعمل كلياً فإن الجريان:",
+      "options": [
+        "Zero and the liquid in the casing heats up",
+        "Maximum",
+        "Doubled",
+        "Unchanged"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is shut-off (dead-head) operation: no flow, but power still adds heat, so it must not last long.",
+      "explanation_ar": "هذه حالة Shut-off: لا جريان لكن القدرة تتحول حرارة فلا يجوز استمرارها.",
+      "memorization_note": "يُحفظ: Dead-head = $Q=0$ + سخونة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "On a centrifugal pump performance curve, as flow rate increases the head generally:",
+      "question_ar": "في منحنى أداء المضخة الطاردة، عند زيادة الجريان فإن الرأس عادةً:",
+      "options": [
+        "Becomes infinite",
+        "Remains the same",
+        "Increases",
+        "Decreases"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The $H$–$Q$ curve of a typical centrifugal pump slopes downward.",
+      "explanation_ar": "منحنى $H$–$Q$ لمضخة طاردة نموذجية ينحدر للأسفل.",
+      "memorization_note": "يُحفظ: $Q\\uparrow\\Rightarrow H\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "The best efficiency point (BEP) of a pump is the flow rate at which:",
+      "question_ar": "نقطة أفضل كفاءة (BEP) للمضخة هي معدل الجريان الذي عنده:",
+      "options": [
+        "NPSH is zero",
+        "Power is zero",
+        "Efficiency is maximum",
+        "Head is zero"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Pumps should operate close to BEP to minimize vibration, wear and energy use.",
+      "explanation_ar": "يُفضَّل تشغيل المضخة قرب BEP لتقليل الاهتزاز والتآكل واستهلاك الطاقة.",
+      "memorization_note": "يُحفظ: BEP = أعلى كفاءة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "The system curve of a piping system shows:",
+      "question_ar": "منحنى المنظومة (System curve) يبيّن:",
+      "options": [
+        "NPSH versus temperature",
+        "Pump power versus time",
+        "Pump efficiency versus speed",
+        "Head required by the system versus flow rate"
+      ],
+      "correct_index": 3,
+      "explanation_en": "System head = static head + friction losses (which grow as $Q^2$).",
+      "explanation_ar": "رأس المنظومة = الساكن + الاحتكاك (يزداد مع $Q^2$).",
+      "memorization_note": "يُحفظ: $H_{\\text{sys}}=H_{\\text{st}}+kQ^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "The operating point of a pump is the intersection of the:",
+      "question_ar": "نقطة تشغيل المضخة هي تقاطع:",
+      "options": [
+        "Pump curve and the efficiency curve only",
+        "System curve and the horizontal axis",
+        "NPSH curve and the power curve",
+        "Pump curve and the system curve"
+      ],
+      "correct_index": 3,
+      "explanation_en": "At that flow the pump head equals the head required by the system.",
+      "explanation_ar": "عند ذلك الجريان يتساوى رأس المضخة مع رأس المنظومة.",
+      "memorization_note": "يُحفظ: $H_{\\text{pump}}=H_{\\text{system}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "Two identical centrifugal pumps are connected in series. Compared with one pump, the combined arrangement mainly gives:",
+      "question_ar": "مضختان متماثلتان على التوالي. مقارنةً بمضخة واحدة يعطي الترتيب أساساً:",
+      "options": [
+        "Higher head at the same flow",
+        "Double flow at the same head",
+        "Zero head",
+        "Lower head"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In series the heads add at the same flow rate.",
+      "explanation_ar": "على التوالي تتجمع الرؤوس عند نفس الجريان.",
+      "memorization_note": "يُحفظ: توالي: $H$ يُجمع، توازي: $Q$ يُجمع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "Two identical centrifugal pumps are connected in parallel. Compared with one pump, the combined arrangement mainly gives:",
+      "question_ar": "مضختان متماثلتان على التوازي. مقارنةً بمضخة واحدة يعطي الترتيب أساساً:",
+      "options": [
+        "Double head at the same flow",
+        "Higher flow at the same head",
+        "Lower flow",
+        "Zero flow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In parallel the flow rates add at the same head.",
+      "explanation_ar": "على التوازي تتجمع معدلات الجريان عند نفس الرأس.",
+      "memorization_note": "يُحفظ: توازي: $Q$ يُجمع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "Pump efficiency is the ratio of:",
+      "question_ar": "كفاءة المضخة هي نسبة:",
+      "options": [
+        "Head / flow rate",
+        "Suction pressure / discharge pressure",
+        "Shaft power / hydraulic power",
+        "Hydraulic power delivered to the liquid / shaft power input"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\eta=\\frac{\\rho gQH}{P_{\\text{shaft}}}$, always less than 1.",
+      "explanation_ar": "$\\eta=\\frac{\\rho gQH}{P_{\\text{shaft}}}$ وهي أقل من 1 دائماً.",
+      "memorization_note": "يُحفظ: $$\\eta=\\frac{\\rho gQH}{P_{\\text{shaft}}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "The hydraulic power given to the liquid by a pump is:",
+      "question_ar": "القدرة الهيدروليكية التي تعطيها المضخة للسائل هي:",
+      "options": [
+        "$P_h=\\rho Q H^2$",
+        "$P_h=\\frac{\\rho gQ}{H}$",
+        "$P_h=\\frac{QH}{\\rho g}$",
+        "$P_h=\\rho gQH$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Power = weight flow rate $\\rho gQ$ times head $H$.",
+      "explanation_ar": "القدرة = معدل الوزن الجاري $\\rho gQ$ × الرأس $H$.",
+      "memorization_note": "يُحفظ: $$P_h=\\rho gQH$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "For the same impeller, doubling the pump speed approximately doubles the:",
+      "question_ar": "لنفس الدافع، مضاعفة سرعة المضخة تضاعف تقريباً:",
+      "options": [
+        "Flow rate",
+        "Head",
+        "Power",
+        "NPSH required"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Affinity laws: $Q\\propto N$, $H\\propto N^2$, $P\\propto N^3$. So only flow doubles.",
+      "explanation_ar": "قوانين التشابه: $Q\\propto N$ و $H\\propto N^2$ و $P\\propto N^3$ فالجريان فقط يتضاعف.",
+      "memorization_note": "يُحفظ: $Q\\propto N,\\ H\\propto N^2,\\ P\\propto N^3$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "Which type of pump is best for very large flow at low head (e.g. irrigation)?",
+      "question_ar": "أي نوع مضخة هو الأفضل لجريان كبير جداً عند رأس منخفض (مثل الري)؟",
+      "options": [
+        "Axial-flow pump",
+        "Gear pump",
+        "Reciprocating plunger pump",
+        "Multistage radial pump"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Axial (propeller) pumps have high specific speed: large flow, small head. Multistage radial pumps give high head.",
+      "explanation_ar": "المضخات المحورية سرعتها النوعية عالية: جريان كبير ورأس صغير، والشعاعية متعددة المراحل رأس عالٍ.",
+      "memorization_note": "يُحفظ: محوري = Q كبير H صغير.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "A multistage centrifugal pump is used mainly to obtain:",
+      "question_ar": "تُستخدم المضخة الطاردة متعددة المراحل أساساً للحصول على:",
+      "options": [
+        "Very high flow at low head",
+        "Self-priming",
+        "Pulsating flow",
+        "High head"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Each stage adds head; stages in series on one shaft give a high total head.",
+      "explanation_ar": "كل مرحلة تضيف رأساً فتتجمع الرؤوس على عمود واحد.",
+      "memorization_note": "يُحفظ: Multistage = رأس عالٍ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "The slip phenomenon in a centrifugal pump results in:",
+      "question_ar": "ظاهرة الانزلاق (Slip) في المضخة الطاردة تؤدي إلى:",
+      "options": [
+        "Zero flow",
+        "Higher head than theoretical",
+        "Actual head lower than the theoretical head",
+        "Increased NPSH available"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Liquid does not follow the vanes perfectly, so the actual whirl velocity (and head) is lower.",
+      "explanation_ar": "السائل لا يتبع الريش تماماً فتقل سرعة الدوامة (والرأس) عن النظرية.",
+      "memorization_note": "يُحفظ: slip $\\Rightarrow H_{\\text{actual}}<H_{\\text{theoretical}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "A double-volute casing is used mainly to:",
+      "question_ar": "يُستخدم الغلاف المزدوج الحلزون (Double volute) أساساً من أجل:",
+      "options": [
+        "Increase suction lift",
+        "Reduce radial thrust on the shaft",
+        "Increase viscosity handling",
+        "Eliminate cavitation"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Two opposed volute passages balance the radial load on the impeller at flows away from BEP.",
+      "explanation_ar": "ممران حلزونيان متقابلان يوازنان الحمل الشعاعي على الدافع بعيداً عن BEP.",
+      "memorization_note": "يُحفظ: double volute = توازن الحمل الشعاعي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "A diaphragm pump is commonly chosen for corrosive or abrasive liquids because:",
+      "question_ar": "تُختار المضخة الغشائية غالباً للسوائل المسببة للتآكل لأن:",
+      "options": [
+        "It runs only at high speed",
+        "It never needs maintenance",
+        "It has the highest flow of all pumps",
+        "The liquid is separated from moving parts and shaft seals"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The flexible diaphragm isolates the pumped fluid, avoiding shaft seal leakage.",
+      "explanation_ar": "الغشاء المرن يعزل السائل عن الأجزاء المتحركة ويلغي تسرب ختم العمود.",
+      "memorization_note": "يُحفظ: Diaphragm = بدون ختم عمود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "A compressor differs from a pump mainly because it:",
+      "question_ar": "يختلف الضاغط عن المضخة أساساً في أنه:",
+      "options": [
+        "Has no moving parts",
+        "Handles only liquids",
+        "Works without energy input",
+        "Handles gases, whose density changes significantly with pressure"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Gas compression changes density strongly (and heats the gas), unlike nearly incompressible liquids.",
+      "explanation_ar": "ضغط الغاز يغيّر الكثافة بشدة (ويسخّنه) بخلاف السوائل شبه غير الانضغاطية.",
+      "memorization_note": "يُحفظ: $r=\\frac{P_2}{P_1}$ نسبة الضغط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "The maximum theoretical suction lift of a pump drawing water at sea level is about:",
+      "question_ar": "أقصى ارتفاع سحب نظري لمضخة تسحب ماءً عند مستوى البحر حوالي:",
+      "options": [
+        "$760\\text{ m}$",
+        "$103\\text{ m}$",
+        "$10.3\\text{ m}$",
+        "$1.03\\text{ m}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$h=\\frac{P_{atm}}{\\rho g}=\\frac{101325}{1000\\times9.81}=10.3\\text{ m}$ (practically less because of $P_v$, friction and NPSH).",
+      "explanation_ar": "$h=\\frac{P_{atm}}{\\rho g}=\\frac{101325}{1000\\times9.81}=10.3\\text{ m}$ (عملياً أقل بسبب $P_v$ والاحتكاك و NPSH).",
+      "memorization_note": "يُحفظ: $10.3\\text{ m}$ ماء $=1\\text{ atm}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "A foot valve installed at the end of the suction pipe is a type of:",
+      "question_ar": "صمام القدم (Foot valve) في نهاية أنبوب السحب هو نوع من:",
+      "options": [
+        "Relief valve",
+        "Needle valve",
+        "Check (non-return) valve",
+        "Butterfly control valve"
+      ],
+      "correct_index": 2,
+      "explanation_en": "It allows flow into the suction pipe but prevents drain-back, keeping the pump primed.",
+      "explanation_ar": "يسمح بدخول السائل ويمنع رجوعه فيُبقي المضخة مملوءة.",
+      "memorization_note": "يُحفظ: Foot valve = check + strainer.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "Pumping a liquid with a vapor pressure that rises (hotter liquid) makes cavitation:",
+      "question_ar": "ضخ سائل ترتفع حرارته (يرتفع ضغط بخاره) يجعل التكهف:",
+      "options": [
+        "Impossible",
+        "Less likely",
+        "More likely",
+        "Unaffected"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Higher $P_v$ reduces $NPSH_A$, bringing the suction closer to boiling.",
+      "explanation_ar": "ارتفاع $P_v$ يقلل $NPSH_A$ فيقترب السحب من الغليان.",
+      "memorization_note": "يُحفظ: $T\\uparrow\\Rightarrow P_v\\uparrow\\Rightarrow NPSH_A\\downarrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "What does a vacuum pump do?",
+      "question_ar": "ماذا تفعل مضخة التفريغ (Vacuum pump)؟",
+      "options": [
+        "Measures vacuum",
+        "Transfers heat",
+        "Lowers the pressure in a system below atmospheric",
+        "Raises pressure above 100 bar only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "It removes gas to create sub-atmospheric pressure.",
+      "explanation_ar": "تسحب الغاز لتوليد ضغط أقل من الجوي.",
+      "memorization_note": "يُحفظ: $P_{abs}<P_{atm}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "Throttling (partially closing) the discharge valve of a centrifugal pump will:",
+      "question_ar": "خنق (إغلاق جزئي) صمام تصريف مضخة طاردة يؤدي إلى:",
+      "options": [
+        "Reduce the flow rate by moving the operating point along the pump curve",
+        "Reduce the system head",
+        "Increase the flow rate",
+        "Change the pump curve itself to a higher one"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Closing the valve adds loss, steepens the system curve and shifts the operating point to lower flow and higher head.",
+      "explanation_ar": "إغلاق الصمام يضيف خسارة فيُصعّد منحنى المنظومة وتنتقل نقطة التشغيل إلى جريان أقل ورأس أعلى.",
+      "memorization_note": "يُحفظ: Throttling يغيّر System curve لا Pump curve.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "Pump brake (shaft) power is always:",
+      "question_ar": "قدرة العمود (Brake power) للمضخة دائماً:",
+      "options": [
+        "Greater than the hydraulic power delivered",
+        "Equal to the hydraulic power",
+        "Zero",
+        "Less than the hydraulic power"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Because efficiency $\\eta<1$: $P_{shaft}=\\frac{P_h}{\\eta}$.",
+      "explanation_ar": "لأن الكفاءة $\\eta<1$: $P_{shaft}=\\frac{P_h}{\\eta}$.",
+      "memorization_note": "يُحفظ: $P_{shaft}=\\frac{P_h}{\\eta}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "A pump increases the pressure of water by $98.1\\text{ kPa}$. The pump head is:",
+      "question_ar": "مضخة ترفع ضغط الماء بمقدار $98.1\\text{ kPa}$. رأس المضخة:",
+      "options": [
+        "$9.81\\text{ m}$",
+        "$1\\text{ m}$",
+        "$100\\text{ m}$",
+        "$10\\text{ m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$H=\\frac{\\Delta P}{\\rho g}=\\frac{98100}{1000\\times9.81}=10\\text{ m}$.",
+      "explanation_ar": "$H=\\frac{\\Delta P}{\\rho g}=\\frac{98100}{1000\\times9.81}=10\\text{ m}$.",
+      "memorization_note": "يُحفظ: $H=\\frac{\\Delta P}{\\rho g}$ و $10\\text{ m}\\approx98.1\\text{ kPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "A screw pump belongs to the group of:",
+      "question_ar": "المضخة اللولبية (Screw pump) تنتمي إلى مجموعة:",
+      "options": [
+        "Positive displacement pumps",
+        "Centrifugal pumps",
+        "Axial-flow dynamic pumps",
+        "Jet pumps"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Intermeshing screws trap liquid and move it axially in sealed pockets.",
+      "explanation_ar": "اللوالب المتشابكة تحجز السائل وتنقله محورياً في جيوب مغلقة.",
+      "memorization_note": "يُحفظ: Screw/Gear/Lobe = PD.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "Cavitation usually first occurs in a centrifugal pump at the:",
+      "question_ar": "يحدث التكهف أولاً عادةً في المضخة الطاردة عند:",
+      "options": [
+        "Volute tongue only",
+        "Motor bearings",
+        "Discharge pipe outlet",
+        "Impeller inlet (suction side)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The lowest pressure in the pump is at the impeller inlet.",
+      "explanation_ar": "أقل ضغط في المضخة عند مدخل الدافع.",
+      "memorization_note": "يُحفظ: التكهف = جانب السحب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "The suction pipe of a centrifugal pump should preferably be:",
+      "question_ar": "يُفضَّل أن يكون أنبوب السحب للمضخة الطاردة:",
+      "options": [
+        "Open to the atmosphere with air leaks",
+        "Short and of large diameter",
+        "Long and of small diameter",
+        "Full of bends"
+      ],
+      "correct_index": 1,
+      "explanation_en": "This reduces suction friction loss $h_f$ and increases $NPSH_A$.",
+      "explanation_ar": "هذا يقلل خسارة الاحتكاك في السحب ويزيد $NPSH_A$.",
+      "memorization_note": "يُحفظ: سحب قصير وواسع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "The usual unit of pump head in the SI system is:",
+      "question_ar": "وحدة رأس المضخة المعتادة في النظام الدولي:",
+      "options": [
+        "Pascal (Pa)",
+        "Watt (W)",
+        "Metre (m)",
+        "m³/s"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Head is energy per unit weight, which has the dimension of length.",
+      "explanation_ar": "الرأس طاقة لكل وحدة وزن أي بُعد طول.",
+      "memorization_note": "يُحفظ: $H$ [m]، $Q$ [m³/s]، $P$ [W].",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "The basic function of a valve in a piping system is to:",
+      "question_ar": "الوظيفة الأساسية للصمام في منظومة الأنابيب:",
+      "options": [
+        "Start, stop, regulate or direct the flow",
+        "Add energy to the fluid",
+        "Store fluid",
+        "Measure fluid temperature"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Valves isolate, throttle, prevent reverse flow or relieve pressure; they do not add energy.",
+      "explanation_ar": "الصمامات تعزل وتخنق وتمنع الارتداد أو تخفف الضغط ولا تضيف طاقة.",
+      "memorization_note": "يُحفظ: وظائف الصمام: عزل، تنظيم، منع ارتداد، حماية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "Which valve part directly closes or restricts the flow passage?",
+      "question_ar": "أي جزء من الصمام يغلق أو يضيّق ممر الجريان مباشرةً؟",
+      "options": [
+        "Handwheel",
+        "Stem packing",
+        "Bonnet bolts",
+        "Disc (plug/gate/ball)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The closure element (disc, plug, gate, ball) contacts the seat to stop or restrict flow.",
+      "explanation_ar": "عنصر الإغلاق (قرص أو سدادة أو بوابة أو كرة) يلامس المقعد لإيقاف الجريان أو تضييقه.",
+      "memorization_note": "يُحفظ: Disc + Seat = الإغلاق، Stem = ينقل الحركة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "The part of a valve that connects the handwheel/actuator to the closure element is the:",
+      "question_ar": "الجزء الذي يربط العجلة اليدوية أو المشغّل بعنصر الإغلاق هو:",
+      "options": [
+        "Gasket",
+        "Stem",
+        "Body",
+        "Seat"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The stem transmits the motion (linear or rotary) to the disc/plug/ball.",
+      "explanation_ar": "الساق (Stem) تنقل الحركة الخطية أو الدورانية إلى عنصر الإغلاق.",
+      "memorization_note": "يُحفظ: Stem = ينقل الحركة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "A valve actuator is used to:",
+      "question_ar": "يُستخدم مشغّل الصمام (Actuator) من أجل:",
+      "options": [
+        "Move the valve stem automatically (pneumatic, electric or hydraulic)",
+        "Filter the fluid",
+        "Measure the flow rate",
+        "Seal the shaft only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "An actuator provides the force/torque to open or close the valve without manual effort.",
+      "explanation_ar": "المشغّل يوفر القوة أو العزم لفتح الصمام أو إغلاقه آلياً.",
+      "memorization_note": "يُحفظ: Actuator: pneumatic / electric / hydraulic.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "Gate valves are normally used for:",
+      "question_ar": "تُستخدم صمامات البوابة (Gate) عادةً من أجل:",
+      "options": [
+        "Fine throttling",
+        "Pressure relief",
+        "Preventing backflow",
+        "Full-open / full-close (isolation) service"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Partly open, the gate vibrates and the seat erodes, so gate valves should not be used for throttling.",
+      "explanation_ar": "عند الفتح الجزئي تهتز البوابة ويتآكل المقعد، فلا تُستخدم للخنق.",
+      "memorization_note": "يُحفظ: Gate = on/off فقط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "A fully open gate valve gives:",
+      "question_ar": "الصمام البوابي المفتوح كلياً يعطي:",
+      "options": [
+        "Zero flow",
+        "The largest pressure drop of all valves",
+        "Pulsating flow",
+        "Very small pressure drop"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The straight-through path offers little obstruction: loss coefficient $K\\approx0.1$–0.2.",
+      "explanation_ar": "المسار المستقيم لا يعيق الجريان: $K\\approx0.1$–0.2.",
+      "memorization_note": "يُحفظ: gate/ball مفتوح = خسارة صغيرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "A gate valve is operated by:",
+      "question_ar": "يُشغَّل صمام البوابة بواسطة:",
+      "options": [
+        "Differential pressure only",
+        "A quarter-turn lever",
+        "A float",
+        "Multiple turns of the handwheel (slow, linear motion)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Many turns of the stem raise or lower the gate, so operation is slow.",
+      "explanation_ar": "دورات متعددة للساق ترفع البوابة أو تنزلها فالتشغيل بطيء.",
+      "memorization_note": "يُحفظ: Gate = multi-turn.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "Which valve is the most suitable for throttling (regulating) flow?",
+      "question_ar": "أي صمام هو الأنسب لخنق (تنظيم) الجريان؟",
+      "options": [
+        "Globe valve",
+        "Check valve",
+        "Safety valve",
+        "Gate valve"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The plug moves linearly onto a seat, giving good control of flow over the stroke.",
+      "explanation_ar": "السدادة تتحرك خطياً على المقعد فتعطي تحكماً جيداً بالجريان.",
+      "memorization_note": "يُحفظ: Globe = throttling.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "Which valve type usually has the highest pressure drop (head loss) when fully open?",
+      "question_ar": "أي نوع صمام يملك عادةً أكبر هبوط ضغط وهو مفتوح كلياً؟",
+      "options": [
+        "Ball valve",
+        "Globe valve",
+        "Butterfly valve",
+        "Gate valve"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Its S-shaped flow path changes direction twice, giving $K\\approx6$–10.",
+      "explanation_ar": "مسار الجريان على شكل S يغيّر الاتجاه مرتين فيكون $K\\approx6$–10.",
+      "memorization_note": "يُحفظ: Globe أعلى $K$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "Which valve type is operated by a quarter turn (90°) and gives quick opening and tight shut-off?",
+      "question_ar": "أي صمام يُشغَّل بربع دورة (90°) ويعطي فتحاً سريعاً وإغلاقاً محكماً؟",
+      "options": [
+        "Gate valve",
+        "Globe valve",
+        "Needle valve",
+        "Ball valve"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A bored ball rotates 90° between open and closed positions.",
+      "explanation_ar": "كرة مثقوبة تدور 90° بين الفتح والإغلاق.",
+      "memorization_note": "يُحفظ: Ball = ربع دورة + إحكام ممتاز.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "A butterfly valve closes the flow using a:",
+      "question_ar": "صمام الفراشة (Butterfly) يغلق الجريان بواسطة:",
+      "options": [
+        "Flexible tube pinched shut",
+        "Spring-loaded ball only",
+        "Disc that rotates on a shaft in the pipe",
+        "Sliding gate"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The disc turns about a shaft; it is compact, light and economical in large sizes.",
+      "explanation_ar": "القرص يدور حول عمود؛ وهو صغير الحجم وخفيف واقتصادي في الأقطار الكبيرة.",
+      "memorization_note": "يُحفظ: Butterfly = قرص دوار، مناسب للأقطار الكبيرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "Which valve has advantages in weight, space and cost for very large diameter lines?",
+      "question_ar": "أي صمام يتفوق في الوزن والحيز والكلفة للأنابيب كبيرة القطر؟",
+      "options": [
+        "Piston valve",
+        "Butterfly valve",
+        "Globe valve",
+        "Needle valve"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The short, thin body of a butterfly valve saves weight and cost at large sizes.",
+      "explanation_ar": "جسم الفراشة القصير الرفيع يوفر وزناً وكلفة في الأقطار الكبيرة.",
+      "memorization_note": "يُحفظ: كبير القطر = Butterfly.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "The main purpose of a check valve is to:",
+      "question_ar": "الغرض الرئيسي من صمام عدم الرجوع (Check valve) هو:",
+      "options": [
+        "Release excess pressure",
+        "Throttle the flow",
+        "Measure flow",
+        "Prevent reverse flow (backflow)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "It opens with forward flow and closes automatically when flow reverses.",
+      "explanation_ar": "يفتح مع الجريان الأمامي ويغلق تلقائياً عند انعكاس الجريان.",
+      "memorization_note": "يُحفظ: Check = non-return.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "A check valve is operated by:",
+      "question_ar": "يعمل صمام عدم الرجوع بواسطة:",
+      "options": [
+        "An electric signal only",
+        "A pneumatic positioner",
+        "The flow itself (automatic, no external actuation)",
+        "A handwheel only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The fluid pressure/velocity lifts the disc; gravity, spring or reverse flow closes it.",
+      "explanation_ar": "ضغط وسرعة المائع يرفعان القرص، والجاذبية أو النابض أو الجريان العكسي يغلقه.",
+      "memorization_note": "يُحفظ: Check = ذاتي التشغيل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "Which of the following is a common type of check valve?",
+      "question_ar": "أي مما يلي نوع شائع من صمامات عدم الرجوع؟",
+      "options": [
+        "Diaphragm throttle valve",
+        "Swing check valve",
+        "Needle bypass valve",
+        "Gate check handwheel valve"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Common types: swing, lift, tilting-disc, ball and piston check valves.",
+      "explanation_ar": "الأنواع الشائعة: Swing وLift وTilting-disc وBall وPiston.",
+      "memorization_note": "يُحفظ: swing, lift, tilting-disc, ball.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "A non-return valve is another name for a:",
+      "question_ar": "صمام عدم الرجوع (Non-return) هو اسم آخر لـ:",
+      "options": [
+        "Relief valve",
+        "Control valve",
+        "Gate valve",
+        "Check valve"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Both names refer to a valve that allows flow in one direction only.",
+      "explanation_ar": "الاسمان لصمام يسمح بالجريان في اتجاه واحد فقط.",
+      "memorization_note": "يُحفظ: non-return = check.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "A pressure relief valve is used to:",
+      "question_ar": "يُستخدم صمام تنفيس الضغط (Relief valve) من أجل:",
+      "options": [
+        "Protect equipment by releasing fluid when pressure exceeds a set value",
+        "Increase pressure in the line",
+        "Stop reverse flow",
+        "Regulate flow continuously"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It opens at the set pressure and recloses when pressure falls.",
+      "explanation_ar": "يفتح عند الضغط المضبوط ويغلق عند انخفاضه.",
+      "memorization_note": "يُحفظ: Relief = حماية من الضغط الزائد.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "Safety valves (pop type) are mainly used with:",
+      "question_ar": "صمامات الأمان (Safety valves) ذات الفتح السريع تُستخدم أساساً مع:",
+      "options": [
+        "Vacuum lines only",
+        "Slurries only",
+        "Only cold water",
+        "Gases and steam"
+      ],
+      "correct_index": 3,
+      "explanation_en": "They open fully and rapidly (pop action) to relieve compressible fluids; relief valves open gradually for liquids.",
+      "explanation_ar": "تفتح كلياً وبسرعة للغازات والبخار، أما Relief فتفتح تدريجياً للسوائل.",
+      "memorization_note": "يُحفظ: Safety = غاز/بخار، Relief = سوائل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "Which valve is best suited for precise control of very small flow rates?",
+      "question_ar": "أي صمام هو الأنسب لتحكم دقيق بمعدلات جريان صغيرة جداً؟",
+      "options": [
+        "Gate valve",
+        "Needle valve",
+        "Butterfly valve",
+        "Swing check valve"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Its long tapered stem gives fine adjustment of small flows.",
+      "explanation_ar": "ساقه المخروطية الطويلة تعطي ضبطاً دقيقاً للجريان الصغير.",
+      "memorization_note": "يُحفظ: Needle = جريان صغير دقيق.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "A plug valve is operated by:",
+      "question_ar": "يُشغَّل الصمام الأسطواني (Plug valve) بواسطة:",
+      "options": [
+        "Many turns of a threaded gate",
+        "A quarter turn of a cylindrical or tapered plug",
+        "A spring only",
+        "A float"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A plug with a through-hole rotates 90° to open or close.",
+      "explanation_ar": "سدادة مثقوبة تدور 90° للفتح والإغلاق.",
+      "memorization_note": "يُحفظ: Plug و Ball و Butterfly = quarter-turn.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "Which valves use a flexible element to close the flow passage and suit corrosive or slurry service?",
+      "question_ar": "أي صمامات تستخدم عنصراً مرناً لإغلاق الممر وتناسب السوائل المسببة للتآكل أو المعلقات؟",
+      "options": [
+        "Gate and globe valves",
+        "Diaphragm and pinch valves",
+        "Ball and plug valves",
+        "Safety and relief valves"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The flexible diaphragm/sleeve isolates the body and moving parts from the process fluid.",
+      "explanation_ar": "الغشاء أو الكُم المرن يعزل الجسم والأجزاء المتحركة عن السائل.",
+      "memorization_note": "يُحفظ: Diaphragm/Pinch = ممتازة للمعلقات.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "A control valve is used to:",
+      "question_ar": "يُستخدم صمام التحكم (Control valve) من أجل:",
+      "options": [
+        "Measure pressure",
+        "Prevent backflow",
+        "Only isolate the line",
+        "Vary the flow automatically in response to a control signal"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The controller signal drives an actuator that positions the valve to maintain the process variable.",
+      "explanation_ar": "إشارة المتحكم تحرك المشغّل ليضبط الصمام فتبقى متغيرة العملية ثابتة.",
+      "memorization_note": "يُحفظ: Control valve = عنصر التحكم النهائي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "An air-to-open (fail-closed) pneumatic control valve will, on loss of air supply:",
+      "question_ar": "صمام تحكم هوائي من نوع Air-to-open (Fail-closed) عند فقد الهواء:",
+      "options": [
+        "Stay at 50%",
+        "Close",
+        "Open fully",
+        "Burst"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Air pressure opens it against a spring; with no air, the spring closes the valve.",
+      "explanation_ar": "ضغط الهواء يفتحه ضد نابض، وبغياب الهواء يغلقه النابض.",
+      "memorization_note": "يُحفظ: ATO = FC، ATC = FO.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "An air-to-close (fail-open) pneumatic control valve will, on loss of air supply:",
+      "question_ar": "صمام تحكم هوائي من نوع Air-to-close (Fail-open) عند فقد الهواء:",
+      "options": [
+        "Close",
+        "Open",
+        "Reverse flow",
+        "Stay fixed at its last position always"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The spring opens the valve when air pressure disappears.",
+      "explanation_ar": "النابض يفتح الصمام عند غياب ضغط الهواء.",
+      "memorization_note": "يُحفظ: ATC = Fail-open.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "The valve flow coefficient $C_v$ is a measure of the valve's:",
+      "question_ar": "معامل التصريف $C_v$ للصمام هو مقياس لـ:",
+      "options": [
+        "Closing speed",
+        "Flow capacity",
+        "Weight",
+        "Maximum temperature"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$C_v$ is the flow of water in US gpm at $60^\\circ\\text{F}$ producing a $1\\text{ psi}$ drop; larger $C_v$ means larger capacity.",
+      "explanation_ar": "$C_v$ هو جريان الماء بالـ gpm عند $60^\\circ\\text{F}$ الذي يسبب هبوط $1\\text{ psi}$؛ كبر $C_v$ يعني سعة أكبر.",
+      "memorization_note": "يُحفظ: $$Q=C_v\\sqrt{\\frac{\\Delta P}{SG}}$$ (gpm, psi)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "For the same pressure drop, a valve with a larger $C_v$ passes:",
+      "question_ar": "عند نفس هبوط الضغط فإن صماماً ذا $C_v$ أكبر يمرر:",
+      "options": [
+        "Less flow",
+        "The same flow",
+        "More flow",
+        "No flow"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Q\\propto C_v\\sqrt{\\Delta P}$.",
+      "explanation_ar": "$Q\\propto C_v\\sqrt{\\Delta P}$.",
+      "memorization_note": "يُحفظ: $Q\\propto C_v\\sqrt{\\Delta P}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "For a valve with a linear inherent characteristic, flow is:",
+      "question_ar": "في صمام ذي خاصية ذاتية خطية (Linear)، يكون الجريان:",
+      "options": [
+        "Proportional to the square of lift",
+        "Inversely proportional to lift",
+        "Directly proportional to the valve lift (stem travel)",
+        "Constant"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Equal increments of lift give equal increments of flow (at constant $\\Delta P$).",
+      "explanation_ar": "زيادات متساوية في الفتح تعطي زيادات متساوية في الجريان (عند $\\Delta P$ ثابت).",
+      "memorization_note": "يُحفظ: Linear: $Q\\propto\\text{lift}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "An equal-percentage valve gives:",
+      "question_ar": "الصمام ذو النسبة المتساوية (Equal-percentage) يعطي:",
+      "options": [
+        "Full flow at the start of travel only",
+        "An equal absolute change in flow",
+        "No flow change",
+        "An equal percentage change in flow for each equal increment of lift"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Flow rises slowly at small openings and rapidly at large openings; common for process control.",
+      "explanation_ar": "الجريان يزداد ببطء عند الفتحات الصغيرة وبسرعة عند الكبيرة وهو شائع في التحكم بالعمليات.",
+      "memorization_note": "يُحفظ: Equal % = نسبة مئوية ثابتة لكل خطوة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "A quick-opening valve characteristic is most suitable for:",
+      "question_ar": "الخاصية السريعة الفتح (Quick-opening) هي الأنسب لـ:",
+      "options": [
+        "Check valves",
+        "Fine proportional control",
+        "Pressure relief only",
+        "On/off service"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Large flow is reached with small lift, so the valve behaves almost like an on/off device.",
+      "explanation_ar": "يُبلغ جريان كبير بفتح صغير فيسلك الصمام كأنه on/off.",
+      "memorization_note": "يُحفظ: Quick-opening = on/off.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "The rangeability (turndown) of a control valve is the ratio of:",
+      "question_ar": "مدى التحكم (Rangeability) لصمام التحكم هو نسبة:",
+      "options": [
+        "Valve cost to flow",
+        "Opening time to closing time",
+        "Maximum controllable flow to minimum controllable flow",
+        "Inlet to outlet pressure"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A higher rangeability means the valve can control accurately over a wider range of flows.",
+      "explanation_ar": "كبر المدى يعني قدرة التحكم الدقيق على نطاق أوسع من الجريان.",
+      "memorization_note": "يُحفظ: $R=\\frac{Q_{\\max}}{Q_{\\min}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "Water hammer in a pipeline is usually caused by:",
+      "question_ar": "تحدث الطرقة المائية (Water hammer) في خط أنابيب عادةً بسبب:",
+      "options": [
+        "Sudden closing of a valve (or sudden pump stop)",
+        "Slow opening of a valve",
+        "Low viscosity only",
+        "Cold weather only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Rapid deceleration of the liquid column creates a pressure surge (Joukowsky: $\\Delta P=\\rho a\\,\\Delta v$).",
+      "explanation_ar": "التباطؤ المفاجئ لعمود السائل يولّد ارتفاعاً مفاجئاً بالضغط (جوكوفسكي: $\\Delta P=\\rho a\\,\\Delta v$).",
+      "memorization_note": "يُحفظ: $$\\Delta P=\\rho a\\,\\Delta v$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "The best way to reduce water hammer from a valve is to:",
+      "question_ar": "أفضل طريقة لتقليل الطرقة المائية من صمام هي:",
+      "options": [
+        "Increase the line pressure",
+        "Close the valve slowly",
+        "Close the valve instantly",
+        "Remove all air vessels"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Closing time longer than $\\frac{2L}{a}$ greatly reduces the surge.",
+      "explanation_ar": "زمن الإغلاق الأكبر من $\\frac{2L}{a}$ يخفض الموجة كثيراً.",
+      "memorization_note": "يُحفظ: إغلاق بطيء = طرقة أقل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Cavitation in a valve occurs when:",
+      "question_ar": "يحدث التكهف في الصمام عندما:",
+      "options": [
+        "Fluid is a gas at low speed",
+        "Pressure at the vena contracta falls below the liquid vapor pressure",
+        "The valve is fully open and flow is zero",
+        "Pressure downstream is higher than upstream"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The highest velocity (lowest pressure) occurs at the vena contracta just after the restriction.",
+      "explanation_ar": "أعلى سرعة (أقل ضغط) عند Vena contracta بعد التضييق مباشرة.",
+      "memorization_note": "يُحفظ: $P_{vc}<P_v\\Rightarrow$ cavitation.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "A pressure-reducing valve is used to:",
+      "question_ar": "يُستخدم صمام خفض الضغط (Pressure-reducing valve) من أجل:",
+      "options": [
+        "Maintain a lower, steady downstream pressure",
+        "Stop reverse flow only",
+        "Measure flow",
+        "Raise the downstream pressure"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It throttles the flow automatically to keep the outlet pressure at a set value.",
+      "explanation_ar": "يخنق الجريان تلقائياً ليبقي ضغط المخرج عند قيمة مضبوطة.",
+      "memorization_note": "يُحفظ: PRV = ضغط مخرج ثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "A solenoid valve is:",
+      "question_ar": "الصمام اللولبي الكهرومغناطيسي (Solenoid valve) هو:",
+      "options": [
+        "A flow meter",
+        "A manually throttled valve only",
+        "A pump",
+        "An electrically operated valve, usually used for on/off control"
+      ],
+      "correct_index": 3,
+      "explanation_en": "An energised coil moves the plunger to open or close the port.",
+      "explanation_ar": "الملف المغنَّط يحرك المكبس لفتح المنفذ أو إغلاقه.",
+      "memorization_note": "يُحفظ: Solenoid = on/off كهربائي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "An isolation valve in a pipeline is installed mainly to:",
+      "question_ar": "يُركَّب صمام العزل في خط الأنابيب أساساً من أجل:",
+      "options": [
+        "Control flow rate continuously",
+        "Shut off a section for maintenance or emergency",
+        "Reduce temperature",
+        "Produce pressure"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Isolation valves (gate, ball, butterfly) are normally either fully open or fully closed.",
+      "explanation_ar": "صمامات العزل (Gate/Ball/Butterfly) تكون عادةً مفتوحة كلياً أو مغلقة كلياً.",
+      "memorization_note": "يُحفظ: عزل = on/off.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "Which valve typically has the lowest head loss when fully open: a full-bore ball valve or a globe valve?",
+      "question_ar": "أي صمام يملك أقل خسارة وهو مفتوح كلياً: كروي كامل الفتحة أم Globe؟",
+      "options": [
+        "Full-bore ball valve",
+        "They are equal",
+        "Globe valve",
+        "Neither causes any loss"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A full-bore ball has a straight, unobstructed path ($K\\approx0.1$), globe has $K\\approx6$–10.",
+      "explanation_ar": "الكروي كامل الفتحة مساره مستقيم ($K\\approx0.1$) والـ Globe $K\\approx6$–10.",
+      "memorization_note": "يُحفظ: $h=K\\frac{v^2}{2g}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "Closing a valve in a line carrying a given flow will _____ the system head loss.",
+      "question_ar": "إغلاق صمام في خط يحمل جرياناً معيناً _____ خسارة الرأس في المنظومة.",
+      "options": [
+        "Not change",
+        "Eliminate",
+        "Increase",
+        "Decrease"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A partly closed valve has a larger $K$, so $h=K\\frac{v^2}{2g}$ rises.",
+      "explanation_ar": "الصمام المغلق جزئياً له $K$ أكبر فتزداد $h=K\\frac{v^2}{2g}$.",
+      "memorization_note": "يُحفظ: إغلاق ⇒ $K\\uparrow$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "A strainer is usually installed upstream of a valve or pump to:",
+      "question_ar": "يُركَّب المصفي (Strainer) عادةً قبل الصمام أو المضخة من أجل:",
+      "options": [
+        "Remove solid particles that could damage the equipment",
+        "Raise the pressure",
+        "Increase the flow rate",
+        "Heat the fluid"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Strainers protect seats, impellers and instruments from debris.",
+      "explanation_ar": "المصفيات تحمي المقاعد والدوافع والأجهزة من الشوائب.",
+      "memorization_note": "يُحفظ: strainer = حماية من الشوائب.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "Flashing in a control valve means that:",
+      "question_ar": "الـ Flashing في صمام التحكم يعني أن:",
+      "options": [
+        "The liquid partly vaporises and stays as vapor downstream",
+        "The flow is laminar",
+        "The vapor bubbles collapse back to liquid at the valve",
+        "The valve is leaking externally"
+      ],
+      "correct_index": 0,
+      "explanation_en": "If downstream pressure stays below $P_v$ the bubbles do not collapse (unlike cavitation).",
+      "explanation_ar": "إذا بقي الضغط بعد الصمام أقل من $P_v$ لا تنهار الفقاعات (بخلاف التكهف).",
+      "memorization_note": "يُحفظ: Flashing: $P_{down}<P_v$، Cavitation: $P_{down}>P_v$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "A valve that is fully open or fully closed and not used for control is sometimes called a(n):",
+      "question_ar": "صمام يكون إما مفتوحاً كلياً أو مغلقاً كلياً ولا يُستخدم للتحكم يُسمى أحياناً:",
+      "options": [
+        "Proportional valve",
+        "Throttling valve",
+        "On/off (isolation) valve",
+        "Metering valve"
+      ],
+      "correct_index": 2,
+      "explanation_en": "On/off valves have two positions; control valves are positioned continuously.",
+      "explanation_ar": "صمامات on/off لها وضعان بينما صمامات التحكم تُوضَع باستمرار.",
+      "memorization_note": "يُحفظ: on/off ≠ control.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "The loss coefficient $K$ of a fully open gate valve is typically:",
+      "question_ar": "معامل الخسارة $K$ لصمام بوابة مفتوح كلياً يكون عادةً:",
+      "options": [
+        "exactly $1000$",
+        "about $10$",
+        "about $0.2$ or less",
+        "about $100$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The gate lifts clear of the flow path, so the loss is very small.",
+      "explanation_ar": "البوابة ترتفع كلياً عن مسار الجريان فتكون الخسارة صغيرة جداً.",
+      "memorization_note": "يُحفظ: Gate: $K\\approx0.2$، Globe: $K\\approx10$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "In a pump, the pressure on the discharge side compared with the suction side is:",
+      "question_ar": "في المضخة يكون الضغط على جانب التصريف مقارنةً بجانب السحب:",
+      "options": [
+        "Equal",
+        "Higher",
+        "Lower",
+        "Always zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The pump adds energy, so discharge pressure exceeds suction pressure.",
+      "explanation_ar": "المضخة تضيف طاقة فيزيد ضغط التصريف عن ضغط السحب.",
+      "memorization_note": "يُحفظ: $\\Delta P=P_d-P_s>0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "The NPSH required ($NPSH_R$) of a pump is normally:",
+      "question_ar": "قيمة $NPSH_R$ للمضخة تُعطى عادةً:",
+      "options": [
+        "Supplied by the pump manufacturer (from tests)",
+        "Calculated from the pipe length only",
+        "Always equal to atmospheric pressure",
+        "Always equal to 1 m"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$NPSH_R$ is a pump property that depends on design, speed and flow, and is given on the pump curve.",
+      "explanation_ar": "$NPSH_R$ خاصية للمضخة تعتمد على التصميم والسرعة والجريان وتُعطى في منحنى المضخة.",
+      "memorization_note": "يُحفظ: $NPSH_R$ من الشركة، $NPSH_A$ من المنظومة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "Increasing the impeller diameter (same speed) will generally:",
+      "question_ar": "زيادة قطر الدافع (بنفس السرعة) تؤدي عموماً إلى:",
+      "options": [
+        "Increase the head developed",
+        "Decrease the head developed",
+        "Remove cavitation",
+        "Make the head zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Head depends on impeller tip speed $u=\\frac{\\pi DN}{60}$: $H\\propto u^2$.",
+      "explanation_ar": "الرأس يعتمد على سرعة الطرف $u=\\frac{\\pi DN}{60}$ و $H\\propto u^2$.",
+      "memorization_note": "يُحفظ: $H\\propto D^2$ (عند $N$ ثابتة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "A double-suction impeller is mainly used to:",
+      "question_ar": "يُستخدم الدافع ذو السحب المزدوج (Double-suction) أساساً من أجل:",
+      "options": [
+        "Eliminate the casing",
+        "Increase head by a factor of ten",
+        "Handle larger flow and balance axial thrust",
+        "Pump air only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Liquid enters from both sides of the impeller so axial forces cancel and flow capacity rises.",
+      "explanation_ar": "يدخل السائل من جانبي الدافع فتتوازن القوى المحورية وتزداد السعة.",
+      "memorization_note": "يُحفظ: Double suction = توازن محوري + Q أكبر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "A check valve is normally installed on the discharge of a pump to:",
+      "question_ar": "يُركَّب صمام عدم الرجوع عادةً على تصريف المضخة من أجل:",
+      "options": [
+        "Reduce the suction pressure",
+        "Increase pump speed",
+        "Prevent reverse flow through the pump when it stops",
+        "Measure pump head"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Without it, liquid from the discharge line can flow back and spin the pump backwards.",
+      "explanation_ar": "بدونه قد يعود السائل من خط التصريف ويدير المضخة بالاتجاه المعاكس.",
+      "memorization_note": "يُحفظ: Check على التصريف لحماية المضخة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "Ball valves are generally NOT recommended for throttling because:",
+      "question_ar": "لا يُنصح عادةً باستخدام الصمامات الكروية للخنق لأن:",
+      "options": [
+        "They cannot be closed",
+        "They have a very high pressure drop when open",
+        "They need many turns",
+        "Partial opening can erode the seats"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Partial opening exposes soft seats to high velocity flow and wear; ball valves are best fully open or closed.",
+      "explanation_ar": "الفتح الجزئي يعرّض المقاعد الطرية لجريان عالي السرعة فتتآكل؛ الأفضل فتحها كلياً أو إغلاقها كلياً.",
+      "memorization_note": "يُحفظ: Ball = on/off.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "A positioner on a pneumatic control valve is used to:",
+      "question_ar": "يُستخدم الموضِّع (Positioner) في صمام تحكم هوائي من أجل:",
+      "options": [
+        "Ensure the valve stem reaches the position required by the controller signal",
+        "Heat the actuator",
+        "Relieve line pressure",
+        "Measure the flow rate"
+      ],
+      "correct_index": 0,
+      "explanation_en": "It compares the stem position with the signal and adjusts the air supply to the actuator.",
+      "explanation_ar": "يقارن موضع الساق بالإشارة ويضبط هواء المشغّل.",
+      "memorization_note": "يُحفظ: Positioner = دقة تموضع الساق.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "Which pump has the highest specific speed?",
+      "question_ar": "أي مضخة تملك أعلى سرعة نوعية؟",
+      "options": [
+        "Radial-flow centrifugal pump",
+        "Reciprocating pump",
+        "Axial-flow pump",
+        "Multistage radial pump"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Specific speed increases from radial to mixed to axial flow (large flow, small head).",
+      "explanation_ar": "السرعة النوعية تزداد من الشعاعي إلى المختلط إلى المحوري.",
+      "memorization_note": "يُحفظ: $N_s=\\frac{N\\sqrt{Q}}{H^{3/4}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "Fully open butterfly valves still cause some pressure drop because:",
+      "question_ar": "الصمام الفراشي المفتوح كلياً ما زال يسبب هبوط ضغط لأن:",
+      "options": [
+        "The pipe is blocked",
+        "There is no seat",
+        "The stem is closed",
+        "The disc remains in the flow stream"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Even when open, the disc is a small obstruction in the flow path, so $K$ is small but not zero.",
+      "explanation_ar": "حتى عند الفتح يبقى القرص عائقاً صغيراً في المسار فيكون $K$ صغيراً لا صفراً.",
+      "memorization_note": "يُحفظ: Butterfly مفتوح: $K$ صغير غير صفري.",
+      "requires_scratchpad": false
+    }
+  ]
+}

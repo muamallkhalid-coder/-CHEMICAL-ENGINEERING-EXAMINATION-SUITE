@@ -1,0 +1,248 @@
+{
+  "topic_en": "Adjectives, Adverbs: Comparative & Superlative",
+  "topic_ar": "الصفات والظروف: المقارنة والتفضيل",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول صيغ المقارنة والتفضيل للصفات والظروف",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "She is ___ than her sister.",
+      "question_ar": "هي ____ من أختها.",
+      "options": [
+        "tall",
+        "taller",
+        "more tall",
+        "tallest"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: taller. Short adjective + er + than: taller.",
+      "explanation_ar": "الإجابة الصحيحة: taller. صفة قصيرة + er + than ← taller.",
+      "memorization_note": "الصفة القصيرة: $\\text{adj} + er \\rightarrow \\text{the adj} + est$ ($\\text{tall-taller-the tallest}$) ، ومضاعفة الحرف الأخير: $\\text{hot-hotter}$ ، و $y \\rightarrow ier/iest$ ($\\text{happy-happier-happiest}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "This is the ___ film I've ever seen.",
+      "question_ar": "هذا هو ____ فيلم شاهدته على الإطلاق.",
+      "options": [
+        "better",
+        "most good",
+        "good",
+        "best"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: best. The superlative of good is the best.",
+      "explanation_ar": "الإجابة الصحيحة: best. تفضيل good هو the best.",
+      "memorization_note": "الشاذة: $\\text{good-better-best}$ ، $\\text{bad-worse-worst}$ ، $\\text{far-farther/further-farthest}$ ، $\\text{little-less-least}$ ، $\\text{much/many-more-most}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "He runs ___ than me.",
+      "question_ar": "هو يركض ____ مني.",
+      "options": [
+        "faster",
+        "fast",
+        "more fast",
+        "fastest"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: faster. Short adverb comparative: faster.",
+      "explanation_ar": "الإجابة الصحيحة: faster. مقارنة الظرف القصير ← faster.",
+      "memorization_note": "الصفة القصيرة: $\\text{adj} + er \\rightarrow \\text{the adj} + est$ ($\\text{tall-taller-the tallest}$) ، ومضاعفة الحرف الأخير: $\\text{hot-hotter}$ ، و $y \\rightarrow ier/iest$ ($\\text{happy-happier-happiest}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Today is ___ than yesterday.",
+      "question_ar": "اليوم ____ من الأمس.",
+      "options": [
+        "more hot",
+        "hot",
+        "hotter",
+        "hottest"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: hotter. hot → double the last consonant: hotter.",
+      "explanation_ar": "الإجابة الصحيحة: hotter. hot ← نضاعف الحرف الأخير hotter.",
+      "memorization_note": "الصفة القصيرة: $\\text{adj} + er \\rightarrow \\text{the adj} + est$ ($\\text{tall-taller-the tallest}$) ، ومضاعفة الحرف الأخير: $\\text{hot-hotter}$ ، و $y \\rightarrow ier/iest$ ($\\text{happy-happier-happiest}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "She is the ___ student in the class.",
+      "question_ar": "هي أكثر طالبة ____ في الصف.",
+      "options": [
+        "more intelligent",
+        "most intelligent",
+        "intelligentest",
+        "most intelligenter"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: most intelligent. Long adjective superlative: the most + adjective.",
+      "explanation_ar": "الإجابة الصحيحة: most intelligent. صفة طويلة ← the most intelligent.",
+      "memorization_note": "الصفة الطويلة: $\\text{more} + \\text{adj} + \\text{than}$ ، $\\text{the most} + \\text{adj}$ ($\\text{more beautiful, the most intelligent}$) ، ولا نجمع صيغتين ($\\text{more taller} \\times$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "This book is ___ interesting than that one.",
+      "question_ar": "هذا الكتاب ____ إثارة للاهتمام من ذاك.",
+      "options": [
+        "most",
+        "much",
+        "very",
+        "more"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: more. more + long adjective + than.",
+      "explanation_ar": "الإجابة الصحيحة: more. more + صفة طويلة + than.",
+      "memorization_note": "الصفة الطويلة: $\\text{more} + \\text{adj} + \\text{than}$ ، $\\text{the most} + \\text{adj}$ ($\\text{more beautiful, the most intelligent}$) ، ولا نجمع صيغتين ($\\text{more taller} \\times$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "He is as ___ as his father.",
+      "question_ar": "هو بطول والده ____ تماماً.",
+      "options": [
+        "tall",
+        "taller",
+        "tallest",
+        "more tall"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: tall. as + base adjective + as.",
+      "explanation_ar": "الإجابة الصحيحة: tall. as + الصفة الأصلية + as.",
+      "memorization_note": "المساواة: $\\text{as} + \\text{adj} + \\text{as}$ ، والأدنى: $\\text{less} + \\text{adj} + \\text{than}$ ، والتدرج: $\\text{The more..., the better...}$ و $\\text{colder and colder}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "The ___ you study, the better you do.",
+      "question_ar": "كلما ____ درست، كان أداؤك أفضل.",
+      "options": [
+        "most",
+        "much",
+        "more",
+        "many"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: more. The more ..., the better ... (gradual comparison).",
+      "explanation_ar": "الإجابة الصحيحة: more. المقارنة المتدرجة The more..., the better...",
+      "memorization_note": "المساواة: $\\text{as} + \\text{adj} + \\text{as}$ ، والأدنى: $\\text{less} + \\text{adj} + \\text{than}$ ، والتدرج: $\\text{The more..., the better...}$ و $\\text{colder and colder}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "That was the ___ day of my life.",
+      "question_ar": "كان ذلك ____ يوم في حياتي.",
+      "options": [
+        "happier",
+        "happiest",
+        "most happy",
+        "more happy"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: happiest. happy → the happiest (y → iest).",
+      "explanation_ar": "الإجابة الصحيحة: happiest. happy ← the happiest.",
+      "memorization_note": "الصفة القصيرة: $\\text{adj} + er \\rightarrow \\text{the adj} + est$ ($\\text{tall-taller-the tallest}$) ، ومضاعفة الحرف الأخير: $\\text{hot-hotter}$ ، و $y \\rightarrow ier/iest$ ($\\text{happy-happier-happiest}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "This exam is ___ difficult than the last one.",
+      "question_ar": "هذا الامتحان ____ صعوبة من الأخير.",
+      "options": [
+        "fewer",
+        "little",
+        "least",
+        "less"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: less. less + adjective + than expresses a lower degree.",
+      "explanation_ar": "الإجابة الصحيحة: less. less + صفة + than للدرجة الأدنى.",
+      "memorization_note": "المساواة: $\\text{as} + \\text{adj} + \\text{as}$ ، والأدنى: $\\text{less} + \\text{adj} + \\text{than}$ ، والتدرج: $\\text{The more..., the better...}$ و $\\text{colder and colder}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "My house is ___ from the school than yours.",
+      "question_ar": "بيتي ____ عن المدرسة من بيتك.",
+      "options": [
+        "farther",
+        "farer",
+        "far",
+        "more far"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: farther. far → farther (irregular).",
+      "explanation_ar": "الإجابة الصحيحة: farther. far ← farther (شاذة).",
+      "memorization_note": "الشاذة: $\\text{good-better-best}$ ، $\\text{bad-worse-worst}$ ، $\\text{far-farther/further-farthest}$ ، $\\text{little-less-least}$ ، $\\text{much/many-more-most}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "This is ___ than I expected.",
+      "question_ar": "هذا ____ مما توقعت.",
+      "options": [
+        "worst",
+        "badder",
+        "worse",
+        "more bad"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: worse. bad → worse (irregular).",
+      "explanation_ar": "الإجابة الصحيحة: worse. bad ← worse (شاذة).",
+      "memorization_note": "الشاذة: $\\text{good-better-best}$ ، $\\text{bad-worse-worst}$ ، $\\text{far-farther/further-farthest}$ ، $\\text{little-less-least}$ ، $\\text{much/many-more-most}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "It gets ___ every day.",
+      "question_ar": "يصبح الجو ____ كل يوم.",
+      "options": [
+        "more cold and cold",
+        "colder and colder",
+        "coldest and coldest",
+        "cold and cold"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: colder and colder. Repeated comparative shows gradual change.",
+      "explanation_ar": "الإجابة الصحيحة: colder and colder. تكرار صيغة المقارنة للتدرج.",
+      "memorization_note": "المساواة: $\\text{as} + \\text{adj} + \\text{as}$ ، والأدنى: $\\text{less} + \\text{adj} + \\text{than}$ ، والتدرج: $\\text{The more..., the better...}$ و $\\text{colder and colder}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Who is the ___, Sara or Mona?",
+      "question_ar": "من ____ ، سارة أم منى؟",
+      "options": [
+        "tallest",
+        "tall",
+        "most tall",
+        "taller"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: taller. Only two people → comparative: taller.",
+      "explanation_ar": "الإجابة الصحيحة: taller. شخصان فقط ← المقارنة taller.",
+      "memorization_note": "اثنان ← صيغة المقارنة ($\\text{taller}$) ، أكثر من اثنين ← صيغة التفضيل ($\\text{the tallest}$) ، و $\\text{than}$ للمقارنة (وليس $\\text{then}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "That's the ___ of my worries; it'll never happen.",
+      "question_ar": "هذا ____ همومي؛ لن يحدث أبداً.",
+      "options": [
+        "least",
+        "fewer",
+        "less",
+        "last"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: least. The fixed phrase is 'the least of my worries'.",
+      "explanation_ar": "الإجابة الصحيحة: least. التعبير الثابت the least of my worries.",
+      "memorization_note": "الشاذة: $\\text{good-better-best}$ ، $\\text{bad-worse-worst}$ ، $\\text{far-farther/further-farthest}$ ، $\\text{little-less-least}$ ، $\\text{much/many-more-most}$.",
+      "requires_scratchpad": false
+    }
+  ]
+}

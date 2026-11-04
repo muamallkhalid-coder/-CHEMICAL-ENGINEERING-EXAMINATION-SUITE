@@ -1,0 +1,2600 @@
+{
+  "topic_en": "Thermodynamics",
+  "topic_ar": "الثرموداينمك (الديناميكا الحرارية)",
+  "subject_folder": "Thermodynamics",
+  "description_ar": "بنك أسئلة أساسي شامل لمادة الثرموداينمك في ملف واحد (أقل من 200 سؤال)",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "One kg of diatomic oxygen ($\\text{O}_2$) is present in a $500\\text{ L}$ tank. Find the specific volume on a mass basis and on a mole basis.",
+      "question_ar": "يوجد $1\\text{ kg}$ من الأوكسجين ثنائي الذرة ($\\text{O}_2$) في خزان سعته $500\\text{ L}$. جد الحجم النوعي على أساس الكتلة وعلى أساس المول.",
+      "options": [
+        "$0.6\\text{ m}^3/\\text{kg}$ , $0.260\\text{ m}^3/\\text{mol}$",
+        "$0.7\\text{ m}^3/\\text{kg}$ , $0.0325\\text{ m}^3/\\text{mol}$",
+        "$0.5\\text{ m}^3/\\text{kg}$ , $0.0160\\text{ m}^3/\\text{mol}$",
+        "$0.56\\text{ m}^3/\\text{kg}$ , $0.0215\\text{ m}^3/\\text{mol}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$v=\\frac{V}{m}=\\frac{0.5\\text{ m}^3}{1\\text{ kg}}=0.5\\text{ m}^3/\\text{kg}$$ $$\\bar v = v\\,M_w = 0.5\\times\\frac{32}{1000}=0.016\\text{ m}^3/\\text{mol}$$",
+      "explanation_ar": "$$v=\\frac{V}{m}=\\frac{0.5\\text{ m}^3}{1\\text{ kg}}=0.5\\text{ m}^3/\\text{kg}$$ $$\\bar v = v\\,M_w = 0.5\\times\\frac{32}{1000}=0.016\\text{ m}^3/\\text{mol}$$",
+      "memorization_note": "الوزن الذري للأوكسجين $\\text{O}=16$ إذن $M_w(\\text{O}_2)=32\\text{ g/mol}$. الحجم النوعي: $v=\\frac{V}{m}$ والحجم المولي: $\\bar v = v\\cdot M_w$. وتحويل $1\\text{ m}^3=1000\\text{ L}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 2,
+      "question_en": "A piston/cylinder of cross-sectional area $0.01\\text{ m}^2$ and piston mass $100\\text{ kg}$ rests on stops. The outside pressure is $100\\text{ kPa}$. What water pressure is needed to just lift the piston? ($g=9.81\\text{ m/s}^2$)",
+      "question_ar": "مكبس/أسطوانة مساحة مقطعها $0.01\\text{ m}^2$ وكتلة المكبس $100\\text{ kg}$ يستقر على مساند. الضغط الخارجي $100\\text{ kPa}$. ما ضغط الماء اللازم لرفع المكبس؟ ($g=9.81\\text{ m/s}^2$)",
+      "options": [
+        "$178\\text{ kPa}$",
+        "$188\\text{ kPa}$",
+        "$198\\text{ kPa}$",
+        "$208\\text{ kPa}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Force balance at lift-off: $$P_w=P_0+\\frac{mg}{A}=100+\\frac{100\\times9.81}{0.01\\times1000}\\approx198\\text{ kPa}$$",
+      "explanation_ar": "من اتزان القوى عند بدء الرفع: $$P_w=P_0+\\frac{mg}{A}=100+\\frac{100\\times9.81}{0.01\\times1000}\\approx198\\text{ kPa}$$",
+      "memorization_note": "اتزان القوى على المكبس: $P_w A = P_0 A + mg$. التعجيل الأرضي $g=9.81\\text{ m/s}^2$ و $1\\text{ kPa}=1000\\text{ Pa}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 3,
+      "question_en": "A large exhaust fan keeps the pressure inside a lab room at $10\\text{ cm}$ of water relative vacuum with respect to the hallway. What is the net force on a door of size $1.9\\text{ m}\\times1.1\\text{ m}$?",
+      "question_ar": "مروحة سحب كبيرة تبقي الضغط داخل غرفة مختبر أقل من الممر بمقدار $10\\text{ cm}$ ماء (فراغ نسبي). ما محصلة القوة المؤثرة على باب أبعاده $1.9\\text{ m}\\times1.1\\text{ m}$؟",
+      "options": [
+        "$2020\\text{ N}$",
+        "$2030\\text{ N}$",
+        "$2040\\text{ N}$",
+        "$2050\\text{ N}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\Delta P=\\rho g h=1000\\times9.807\\times0.1=980.7\\text{ Pa}$$ $$F=\\Delta P\\cdot A=980.7\\times(1.9\\times1.1)\\approx2050\\text{ N}$$",
+      "explanation_ar": "$$\\Delta P=\\rho g h=1000\\times9.807\\times0.1=980.7\\text{ Pa}$$ $$F=\\Delta P\\cdot A=980.7\\times(1.9\\times1.1)\\approx2050\\text{ N}$$",
+      "memorization_note": "ضغط العمود المائي: $\\Delta P=\\rho g h$ حيث $\\rho_{\\text{water}}=1000\\text{ kg/m}^3$ و $g=9.81\\text{ m/s}^2$. القوة $F=\\Delta P\\cdot A$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 4,
+      "question_en": "A $5\\text{ m}$ long vertical tube of cross-sectional area $200\\text{ cm}^2$ is filled with $15^\\circ\\text{C}$ water ($\\rho\\approx999\\text{ kg/m}^3$), bottom closed and top open to $100\\text{ kPa}$. How much water is in the tube?",
+      "question_ar": "أنبوب عمودي طوله $5\\text{ m}$ ومساحة مقطعه $200\\text{ cm}^2$ مملوء بماء عند $15^\\circ\\text{C}$ ($\\rho\\approx999\\text{ kg/m}^3$) قاعدته مغلقة وأعلاه مفتوح على $100\\text{ kPa}$. ما كتلة الماء في الأنبوب؟",
+      "options": [
+        "$79.9\\text{ kg}$",
+        "$89.9\\text{ kg}$",
+        "$99.9\\text{ kg}$",
+        "$109.9\\text{ kg}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$V=A L=0.02\\times5=0.1\\text{ m}^3,\\quad m=\\rho V=999\\times0.1\\approx99.9\\text{ kg}$$",
+      "explanation_ar": "$$V=A L=0.02\\times5=0.1\\text{ m}^3,\\quad m=\\rho V=999\\times0.1\\approx99.9\\text{ kg}$$",
+      "memorization_note": "$1\\text{ m}^2=10^4\\text{ cm}^2$ إذن $200\\text{ cm}^2=0.02\\text{ m}^2$. الكتلة $m=\\rho V$ والحجم $V=A\\cdot L$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 5,
+      "question_en": "For the same tube (water at $15^\\circ\\text{C}$, $\\rho\\approx999\\text{ kg/m}^3$, height $5\\text{ m}$, top open to $100\\text{ kPa}$), what is the absolute pressure at the bottom?",
+      "question_ar": "للأنبوب نفسه (ماء عند $15^\\circ\\text{C}$ و $\\rho\\approx999\\text{ kg/m}^3$ وارتفاع $5\\text{ m}$ والأعلى مفتوح على $100\\text{ kPa}$)، ما الضغط المطلق عند القاع؟",
+      "options": [
+        "$119\\text{ kPa}$",
+        "$129\\text{ kPa}$",
+        "$139\\text{ kPa}$",
+        "$149\\text{ kPa}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$P=P_0+\\rho g h=100+\\frac{999\\times9.81\\times5}{1000}\\approx149\\text{ kPa}$$",
+      "explanation_ar": "$$P=P_0+\\rho g h=100+\\frac{999\\times9.81\\times5}{1000}\\approx149\\text{ kPa}$$",
+      "memorization_note": "الضغط المطلق عند عمق $h$: $P=P_0+\\rho g h$ و $g=9.81\\text{ m/s}^2$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "A $5\\text{ m}^3$ container is filled with $840\\text{ kg}$ of granite ($\\rho=2400\\text{ kg/m}^3$) and the rest is air ($\\rho=1.15\\text{ kg/m}^3$). Find the mass of air.",
+      "question_ar": "حاوية حجمها $5\\text{ m}^3$ تحتوي $840\\text{ kg}$ من الغرانيت ($\\rho=2400\\text{ kg/m}^3$) والباقي هواء ($\\rho=1.15\\text{ kg/m}^3$). جد كتلة الهواء.",
+      "options": [
+        "$9.3475\\text{ kg}$",
+        "$8.3475\\text{ kg}$",
+        "$6.3475\\text{ kg}$",
+        "$5.3475\\text{ kg}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$V_{\\text{granite}}=\\frac{840}{2400}=0.35\\text{ m}^3,\\; V_{\\text{air}}=5-0.35=4.65\\text{ m}^3,\\; m_{\\text{air}}=1.15\\times4.65=5.3475\\text{ kg}$$",
+      "explanation_ar": "$$V_{\\text{granite}}=\\frac{840}{2400}=0.35\\text{ m}^3,\\; V_{\\text{air}}=5-0.35=4.65\\text{ m}^3,\\; m_{\\text{air}}=1.15\\times4.65=5.3475\\text{ kg}$$",
+      "memorization_note": "قانون الكثافة: $\\rho=\\frac{m}{V}\\Rightarrow V=\\frac{m}{\\rho}$. حجم الحاوية = مجموع حجوم المكونات.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "A piston-cylinder contains air at $150\\text{ kPa}$, $27^\\circ\\text{C}$, $V=400\\text{ L}$. The piston needs $350\\text{ kPa}$ to move. The air is heated until its volume doubles. Find the final temperature.",
+      "question_ar": "مكبس/أسطوانة يحتوي هواء عند $150\\text{ kPa}$ و $27^\\circ\\text{C}$ وحجم $400\\text{ L}$. يحتاج المكبس إلى $350\\text{ kPa}$ ليتحرك. يُسخّن الهواء حتى يتضاعف حجمه. جد درجة الحرارة النهائية.",
+      "options": [
+        "$400\\text{ K}$",
+        "$500\\text{ K}$",
+        "$1400\\text{ K}$",
+        "$1500\\text{ K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Final state: $P_2=350\\text{ kPa}$, $V_2=0.8\\text{ m}^3$. $$T_2=T_1\\frac{P_2V_2}{P_1V_1}=300\\times\\frac{350\\times0.8}{150\\times0.4}\\approx1400\\text{ K}$$",
+      "explanation_ar": "الحالة النهائية: $P_2=350\\text{ kPa}$ و $V_2=0.8\\text{ m}^3$. $$T_2=T_1\\frac{P_2V_2}{P_1V_1}=300\\times\\frac{350\\times0.8}{150\\times0.4}\\approx1400\\text{ K}$$",
+      "memorization_note": "$T(\\text{K})=T(^\\circ\\text{C})+273$. قانون الغاز المثالي لكتلة ثابتة: $\\frac{P_1V_1}{T_1}=\\frac{P_2V_2}{T_2}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "For the same piston-cylinder (air, $150\\text{ kPa}$, $400\\text{ L}$, piston moves at $350\\text{ kPa}$, volume doubles), find the work done by the air.",
+      "question_ar": "للمكبس نفسه (هواء، $150\\text{ kPa}$، $400\\text{ L}$، يتحرك المكبس عند $350\\text{ kPa}$ ويتضاعف الحجم)، جد الشغل المبذول من الهواء.",
+      "options": [
+        "$100\\text{ kJ}$",
+        "$120\\text{ kJ}$",
+        "$130\\text{ kJ}$",
+        "$140\\text{ kJ}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "No work during the constant-volume stage. Work occurs at constant pressure: $$W=P\\Delta V=350\\times(0.8-0.4)=140\\text{ kJ}$$",
+      "explanation_ar": "لا شغل في مرحلة الحجم الثابت. الشغل يحدث عند ضغط ثابت: $$W=P\\Delta V=350\\times(0.8-0.4)=140\\text{ kJ}$$",
+      "memorization_note": "شغل الحدود عند ضغط ثابت: $W=P(V_2-V_1)$ وعند حجم ثابت $W=0$. ($1\\text{ kPa}\\cdot\\text{m}^3=1\\text{ kJ}$)",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "A system changes from state A to B along path X, receiving $100\\text{ J}$ of heat and doing $40\\text{ J}$ of work. It returns from B to A along path Y with $30\\text{ J}$ of work input. Find the heat transfer along path Y.",
+      "question_ar": "يتغير نظام من الحالة A إلى B عبر المسار X فيستلم حرارة $100\\text{ J}$ ويبذل شغلاً $40\\text{ J}$. ثم يعود من B إلى A عبر المسار Y مع شغل مُدخل $30\\text{ J}$. جد الحرارة المنتقلة في المسار Y.",
+      "options": [
+        "$-60\\text{ J}$",
+        "$60\\text{ J}$",
+        "$-90\\text{ J}$",
+        "$90\\text{ J}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Path X: $\\Delta E_{AB}=Q-W=100-40=60\\text{ J}$. Path Y: $\\Delta E_{BA}=-60\\text{ J}$. $$Q_Y=\\Delta E_{BA}+W_Y=-60+(-30)=-90\\text{ J}$$",
+      "explanation_ar": "المسار X: $\\Delta E_{AB}=Q-W=100-40=60\\text{ J}$. المسار Y: $\\Delta E_{BA}=-60\\text{ J}$. $$Q_Y=\\Delta E_{BA}+W_Y=-60+(-30)=-90\\text{ J}$$",
+      "memorization_note": "القانون الأول: $Q=\\Delta E+W$. الشغل المبذول على النظام سالب ($W<0$). التغير في الخاصية بين حالتين لا يعتمد على المسار.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "If body A is in thermal equilibrium with body B and also separately with body C, then B and C are:",
+      "question_ar": "إذا كان الجسم A في اتزان حراري مع الجسم B ومع الجسم C كل على حدة، فإن B و C:",
+      "options": [
+        "In thermal equilibrium with each other",
+        "Not in thermal equilibrium",
+        "At different temperatures",
+        "In equilibrium only if their pressures are equal"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the Zeroth Law of Thermodynamics: thermal equilibrium is transitive, which is the basis of temperature measurement.",
+      "explanation_ar": "هذا هو القانون الصفري للثرموداينمك: الاتزان الحراري خاصية متعدية، وهو أساس قياس درجة الحرارة.",
+      "memorization_note": "القانون الصفري: إذا كان $T_A=T_B$ و $T_A=T_C$ فإن $T_B=T_C$. وهو الذي أتاح بناء مقياس درجة الحرارة (الترمومتر).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "Which of the following was used as a fixed point of thermometry before 1954, and what is the single standard fixed point now?",
+      "question_ar": "أي مما يأتي كان يُستخدم كنقطة ثابتة في قياس الحرارة قبل عام 1954، وما النقطة القياسية الوحيدة المعتمدة الآن؟",
+      "options": [
+        "Ice point and steam point; now the triple point of water",
+        "Triple point only; now the ice point",
+        "Steam point only; now the boiling point of mercury",
+        "Ice point only; now absolute zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Before 1954 two fixed points (ice and steam) were used. Now only the triple point of water is used: $273.16\\text{ K}$ ($0.01^\\circ\\text{C}$).",
+      "explanation_ar": "قبل 1954 كانت تُستخدم نقطتان ثابتتان (الجليد والبخار). أما الآن فتُعتمد نقطة واحدة هي النقطة الثلاثية للماء: $273.16\\text{ K}$ ($0.01^\\circ\\text{C}$).",
+      "memorization_note": "النقطة الثلاثية للماء: $T=273.16\\text{ K}=0.01^\\circ\\text{C}$. التحويل: $T(\\text{K})=T(^\\circ\\text{C})+273.15$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "All gases and vapours approach ideal-gas behaviour at:",
+      "question_ar": "تقترب جميع الغازات والأبخرة من سلوك الغاز المثالي عند:",
+      "options": [
+        "High pressure and high density",
+        "High pressure and low density",
+        "Low pressure and high density",
+        "Low pressure and low density"
+      ],
+      "correct_index": 3,
+      "explanation_en": "At low pressure the molecules are far apart (low density), so intermolecular forces and molecular volume become negligible.",
+      "explanation_ar": "عند الضغط المنخفض تكون الجزيئات متباعدة (كثافة منخفضة) فتصبح قوى التجاذب وحجم الجزيئات مهملة.",
+      "memorization_note": "الغاز الحقيقي يتصرف كغاز مثالي عند $P\\to0$ (كثافة واطئة) ودرجات حرارة عالية. قانون الغاز المثالي: $PV=nRT$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Which substance is chosen as the standard thermometric substance?",
+      "question_ar": "أي مادة تُختار كمادة ثرمومترية قياسية؟",
+      "options": [
+        "Liquid (mercury)",
+        "Solid (platinum wire)",
+        "Gas",
+        "Alloy"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Different gas thermometers show the smallest variation between each other, so the (ideal) gas is the standard thermometric substance.",
+      "explanation_ar": "تُظهر موازين الحرارة الغازية أقل اختلاف فيما بينها، لذلك يُعتمد الغاز (المثالي) كمادة قياسية.",
+      "memorization_note": "الغاز المثالي هو المادة الثرمومترية القياسية، ودرجة الحرارة المطلقة (كلفن) تساوي درجة حرارة الغاز المثالي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "Which of the following properties cannot be used to describe the state of a system?",
+      "question_ar": "أي من الخواص الآتية لا يمكن استخدامها لوصف حالة النظام؟",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Universal gas constant"
+      ],
+      "correct_index": 3,
+      "explanation_en": "State properties (P, V, T, U, H, S) depend on the condition of the system. The universal gas constant is a fixed constant, not a state variable.",
+      "explanation_ar": "خواص الحالة ($P,V,T,U,H,S$) تعتمد على حالة النظام، أما ثابت الغازات العام فهو ثابت فيزيائي لا يصف حالة النظام.",
+      "memorization_note": "ثابت الغازات العام $R=8.314\\text{ J/(mol·K)}=8.314\\text{ kJ/(kmol·K)}$ وهو ثابت وليس خاصية حالة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Which statement correctly distinguishes an open system, a closed system and an isolated system?",
+      "question_ar": "أي عبارة تميّز بشكل صحيح بين النظام المفتوح والمغلق والمعزول؟",
+      "options": [
+        "Open: mass and energy cross the boundary; Closed: only energy; Isolated: neither",
+        "Open: only mass; Closed: mass and energy; Isolated: only energy",
+        "Open: only energy; Closed: neither; Isolated: only mass",
+        "All three allow transfer of both mass and energy"
+      ],
+      "correct_index": 0,
+      "explanation_en": "An open system exchanges both mass and energy; a closed system exchanges energy only (fixed mass); an isolated system exchanges neither. Hence closed and isolated systems are not the same.",
+      "explanation_ar": "النظام المفتوح يتبادل الكتلة والطاقة، والمغلق يتبادل الطاقة فقط (كتلة ثابتة)، والمعزول لا يتبادل أيهما. إذن النظام المغلق والمعزول ليسا متماثلين.",
+      "memorization_note": "النظام المفتوح = حجم سيطرة (Control Volume). النظام المغلق = كتلة سيطرة (Control Mass). النظام المعزول: $Q=W=0$ وطاقته ثابتة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "A system that does not allow heat to pass through its boundary is called:",
+      "question_ar": "النظام الذي لا يسمح بمرور الحرارة عبر حدوده يسمى نظاماً:",
+      "options": [
+        "Isothermal",
+        "Adiabatic",
+        "Isochoric",
+        "Open"
+      ],
+      "correct_index": 1,
+      "explanation_en": "By definition, an adiabatic boundary has $Q=0$.",
+      "explanation_ar": "حسب التعريف، الحد الكظيم (Adiabatic) يكون فيه $Q=0$.",
+      "memorization_note": "عملية كظيمة: $Q=0$. وبتطبيق القانون الأول: $\\Delta U=-W$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "Which of the following is a path function?",
+      "question_ar": "أي مما يأتي دالة مسار (Path Function)؟",
+      "options": [
+        "Enthalpy",
+        "Entropy",
+        "Work",
+        "Internal energy"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Work and heat depend on the path followed (inexact differentials $\\delta W,\\delta Q$). Properties such as $H,S,U$ are point functions with exact differentials.",
+      "explanation_ar": "الشغل والحرارة يعتمدان على المسار (تفاضل غير تام $\\delta W,\\delta Q$). أما $H,S,U$ فهي دوال نقطة (خواص) تفاضلها تام.",
+      "memorization_note": "الخواص (point functions): $\\oint dX=0$ للدورة. الشغل والحرارة (path functions): لا يمكن كتابتهما كتفاضل تام، ويُرمز لهما $\\delta W$ و $\\delta Q$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "The cyclic integral of any thermodynamic property over a complete cycle is always:",
+      "question_ar": "التكامل الدوري لأي خاصية ثرموداينميكية خلال دورة كاملة يساوي دائماً:",
+      "options": [
+        "One",
+        "Infinity",
+        "Zero",
+        "Equal to the net work"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A property depends only on the state, so returning to the initial state gives zero net change: $\\oint dX=0$.",
+      "explanation_ar": "الخاصية تعتمد على الحالة فقط، وعند العودة للحالة الابتدائية يكون صافي التغير صفراً: $\\oint dX=0$.",
+      "memorization_note": "$\\oint dP=\\oint dT=\\oint dU=\\oint dS=0$ بينما $\\oint\\delta W\\neq0$ و $\\oint\\delta Q\\neq0$ عموماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "What are the standard sign conventions for heat and work in thermodynamics?",
+      "question_ar": "ما اصطلاح الإشارات المعتمد للحرارة والشغل في الثرموداينمك؟",
+      "options": [
+        "Heat into the system +, work done by the system +",
+        "Heat into the system −, work done by the system +",
+        "Heat into the system +, work done by the system −",
+        "Heat into the system −, work done by the system −"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Heat added to the system is positive; work done BY the system is positive; work done ON the system is negative. This gives $Q=\\Delta E+W$.",
+      "explanation_ar": "الحرارة الداخلة للنظام موجبة، والشغل المبذول من النظام موجب، والشغل المبذول على النظام سالب. وهذا يعطي $Q=\\Delta E+W$.",
+      "memorization_note": "اصطلاح الإشارات: $Q_{\\text{in}}>0$ ، $W_{\\text{by system}}>0$ . القانون الأول: $Q-W=\\Delta E$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "The magnitude of mechanical work is the:",
+      "question_ar": "مقدار الشغل الميكانيكي هو:",
+      "options": [
+        "Product of force and distance perpendicular to the force",
+        "Product of force and distance parallel to the force",
+        "Sum of force and distance parallel to the force",
+        "Ratio of force to distance"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$W=\\vec F\\cdot\\vec d=Fd\\cos\\theta$: only the displacement component along the force counts.",
+      "explanation_ar": "$W=\\vec F\\cdot\\vec d=Fd\\cos\\theta$: يُحتسب فقط مركب الإزاحة الموازي للقوة.",
+      "memorization_note": "الشغل $W=F\\cdot d$ (وحدته $\\text{J}=\\text{N}\\cdot\\text{m}$). شغل الحدود $W=\\int P\\,dV$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "A constant-pressure process is also known as:",
+      "question_ar": "العملية ذات الضغط الثابت تُعرف أيضاً بـ:",
+      "options": [
+        "Isochoric process",
+        "Isobaric (isopiestic) process",
+        "Isothermal process",
+        "Isentropic process"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Constant pressure = isobaric (isopiestic). Isochoric = constant volume; isothermal = constant temperature; isentropic = constant entropy.",
+      "explanation_ar": "الضغط الثابت = Isobaric (Isopiestic). أما Isochoric فحجم ثابت، و Isothermal حرارة ثابتة، و Isentropic إنتروبي ثابت.",
+      "memorization_note": "عملية isobaric: $W=P(V_2-V_1)$. عملية isochoric: $W=0$. عملية isothermal لغاز مثالي: $W=nRT\\ln\\frac{V_2}{V_1}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "The work done in a quasi-static process:",
+      "question_ar": "الشغل المبذول في عملية شبه ساكنة (Quasi-static):",
+      "options": [
+        "Is independent of the path followed",
+        "Depends on the path followed",
+        "Depends only on the initial and final states",
+        "Is always zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Work is a path function: $W=\\int_1^2 P\\,dV$ equals the area under the $P$–$V$ path, which differs for different paths between the same end states.",
+      "explanation_ar": "الشغل دالة مسار: $W=\\int_1^2 P\\,dV$ يساوي المساحة تحت منحنى $P$–$V$ وتختلف باختلاف المسار بين نفس الحالتين.",
+      "memorization_note": "شغل الحدود لعملية شبه ساكنة: $W=\\int_{V_1}^{V_2}P\\,dV$ (المساحة تحت مخطط $P$–$V$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "Which mode of heat transfer occurs between two bodies in direct contact, and which one occurs between a wall and a moving fluid?",
+      "question_ar": "أي أنماط انتقال الحرارة تحدث بين جسمين متلامسين مباشرة، وأيها بين جدار وسائل متحرك؟",
+      "options": [
+        "Conduction; convection",
+        "Convection; conduction",
+        "Radiation; conduction",
+        "Conduction; radiation"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Direct contact: conduction (Fourier). Wall to moving fluid: convection (Newton). Radiation needs no medium.",
+      "explanation_ar": "التلامس المباشر: توصيل (فورييه). جدار-مائع متحرك: حمل (نيوتن). الإشعاع لا يحتاج وسطاً.",
+      "memorization_note": "التوصيل: $q=-kA\\frac{dT}{dx}$ ، الحمل: $q=hA(T_s-T_\\infty)$ ، الإشعاع: $q=\\varepsilon\\sigma A T^4$ حيث $\\sigma=5.67\\times10^{-8}\\text{ W/m}^2\\text{K}^4$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "The sun heats a $150\\text{ m}^2$ road surface to $45^\\circ\\text{C}$. Below the $5\\text{ cm}$ thick asphalt ($k=0.06\\text{ W/m·K}$) is rubble at $15^\\circ\\text{C}$. Find the heat transfer rate to the rubble.",
+      "question_ar": "تسخّن الشمس سطح طريق مساحته $150\\text{ m}^2$ إلى $45^\\circ\\text{C}$. أسفل الأسفلت (سمكه $5\\text{ cm}$ و $k=0.06\\text{ W/m·K}$) توجد طبقة حصى عند $15^\\circ\\text{C}$. جد معدل انتقال الحرارة إلى الحصى.",
+      "options": [
+        "$5300\\text{ W}$",
+        "$5400\\text{ W}$",
+        "$5500\\text{ W}$",
+        "$5600\\text{ W}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Fourier's law: $$Q=kA\\frac{\\Delta T}{L}=0.06\\times150\\times\\frac{45-15}{0.05}=5400\\text{ W}$$",
+      "explanation_ar": "قانون فورييه: $$Q=kA\\frac{\\Delta T}{L}=0.06\\times150\\times\\frac{45-15}{0.05}=5400\\text{ W}$$",
+      "memorization_note": "قانون فورييه للتوصيل: $Q=kA\\frac{T_1-T_2}{L}$. تحويل: $5\\text{ cm}=0.05\\text{ m}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 25,
+      "question_en": "A steel pot ($k=50\\text{ W/m·K}$) has a $5\\text{ mm}$ thick bottom and radius $10\\text{ cm}$. A stove delivers $250\\text{ W}$. If the inner surface is at $15^\\circ\\text{C}$, find the outer bottom surface temperature.",
+      "question_ar": "قدر من الفولاذ ($k=50\\text{ W/m·K}$) سمك قاعدته $5\\text{ mm}$ ونصف قطره $10\\text{ cm}$. يجهز الموقد $250\\text{ W}$. إذا كان السطح الداخلي عند $15^\\circ\\text{C}$، جد درجة حرارة السطح الخارجي للقاعدة.",
+      "options": [
+        "$15.8^\\circ\\text{C}$",
+        "$16.8^\\circ\\text{C}$",
+        "$18.8^\\circ\\text{C}$",
+        "$19.8^\\circ\\text{C}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$A=\\pi r^2=\\pi(0.1)^2=0.0314\\text{ m}^2,\\quad \\Delta T=\\frac{QL}{kA}=\\frac{250\\times0.005}{50\\times0.0314}=0.796^\\circ\\text{C}$$ $$T=15+0.8\\approx15.8^\\circ\\text{C}$$",
+      "explanation_ar": "$$A=\\pi r^2=\\pi(0.1)^2=0.0314\\text{ m}^2,\\quad \\Delta T=\\frac{QL}{kA}=\\frac{250\\times0.005}{50\\times0.0314}=0.796^\\circ\\text{C}$$ $$T=15+0.8\\approx15.8^\\circ\\text{C}$$",
+      "memorization_note": "مساحة الدائرة $A=\\pi r^2=\\frac{\\pi D^2}{4}$. قانون فورييه: $\\Delta T=\\frac{QL}{kA}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 26,
+      "question_en": "A water heater is covered with insulation of total area $3\\text{ m}^2$. Inside surface $75^\\circ\\text{C}$, outside $20^\\circ\\text{C}$, $k=0.08\\text{ W/m·K}$. What thickness limits the heat loss to $200\\text{ W}$?",
+      "question_ar": "سخان ماء مغطى بعازل مساحته الكلية $3\\text{ m}^2$. السطح الداخلي $75^\\circ\\text{C}$ والخارجي $20^\\circ\\text{C}$ و $k=0.08\\text{ W/m·K}$. ما السمك اللازم لتحديد الفقد الحراري بـ $200\\text{ W}$؟",
+      "options": [
+        "$0.036\\text{ m}$",
+        "$0.046\\text{ m}$",
+        "$0.056\\text{ m}$",
+        "$0.066\\text{ m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$L=\\frac{kA\\Delta T}{Q}=\\frac{0.08\\times3\\times(75-20)}{200}=0.066\\text{ m}$$",
+      "explanation_ar": "$$L=\\frac{kA\\Delta T}{Q}=\\frac{0.08\\times3\\times(75-20)}{200}=0.066\\text{ m}$$",
+      "memorization_note": "قانون فورييه: $Q=\\frac{kA\\Delta T}{L}\\Rightarrow L=\\frac{kA\\Delta T}{Q}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 27,
+      "question_en": "On a winter day the outside of a car windshield ($0.5\\text{ m}^2$) is at $+2^\\circ\\text{C}$ while the air is at $-15^\\circ\\text{C}$, with $h=250\\text{ W/m}^2\\text{K}$. Find the rate of energy loss.",
+      "question_ar": "في يوم شتوي سطح الزجاج الأمامي الخارجي لسيارة ($0.5\\text{ m}^2$) عند $+2^\\circ\\text{C}$ والهواء عند $-15^\\circ\\text{C}$ و $h=250\\text{ W/m}^2\\text{K}$. جد معدل الفقد الحراري.",
+      "options": [
+        "$125\\text{ W}$",
+        "$1125\\text{ W}$",
+        "$2125\\text{ W}$",
+        "$3125\\text{ W}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Newton's law of cooling: $$Q=hA\\Delta T=250\\times0.5\\times(2-(-15))=2125\\text{ W}$$",
+      "explanation_ar": "قانون نيوتن للتبريد: $$Q=hA\\Delta T=250\\times0.5\\times(2-(-15))=2125\\text{ W}$$",
+      "memorization_note": "قانون نيوتن للتبريد (الحمل): $Q=hA(T_s-T_\\infty)$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 28,
+      "question_en": "A refrigerator grille ($1\\text{ m}^2$) at $35^\\circ\\text{C}$ transfers heat to room air at $20^\\circ\\text{C}$ with $h=15\\text{ W/m}^2\\text{K}$. How much energy is removed in $15$ minutes?",
+      "question_ar": "شبكة خلفية لثلاجة ($1\\text{ m}^2$) عند $35^\\circ\\text{C}$ تنقل الحرارة إلى هواء الغرفة عند $20^\\circ\\text{C}$ بمعامل $h=15\\text{ W/m}^2\\text{K}$. كم الطاقة المنزوعة خلال $15$ دقيقة؟",
+      "options": [
+        "$202.5\\text{ kJ}$",
+        "$212.5\\text{ kJ}$",
+        "$222.5\\text{ kJ}$",
+        "$232.5\\text{ kJ}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$Q=hA\\Delta T=15\\times1\\times15=225\\text{ W},\\quad E=Q\\,t=225\\times(15\\times60)=202.5\\text{ kJ}$$",
+      "explanation_ar": "$$Q=hA\\Delta T=15\\times1\\times15=225\\text{ W},\\quad E=Q\\,t=225\\times(15\\times60)=202.5\\text{ kJ}$$",
+      "memorization_note": "$Q=hA\\Delta T$ ثم الطاقة $E=Q\\cdot t$ مع $1\\text{ W}=1\\text{ J/s}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 29,
+      "question_en": "A burning wood surface at $450^\\circ\\text{C}$ has emissivity $\\varepsilon=1$. Find the radiant emission per unit area.",
+      "question_ar": "سطح خشب محترق عند $450^\\circ\\text{C}$ وانبعاثيته $\\varepsilon=1$. جد الطاقة المشعة لوحدة المساحة.",
+      "options": [
+        "$15.5\\text{ kW/m}^2$",
+        "$16.5\\text{ kW/m}^2$",
+        "$17.5\\text{ kW/m}^2$",
+        "$18.5\\text{ kW/m}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$T=450+273.15=723.15\\text{ K},\\quad \\frac{Q}{A}=\\varepsilon\\sigma T^4=1\\times5.67\\times10^{-8}\\times723.15^4\\approx15.5\\text{ kW/m}^2$$",
+      "explanation_ar": "$$T=450+273.15=723.15\\text{ K},\\quad \\frac{Q}{A}=\\varepsilon\\sigma T^4=1\\times5.67\\times10^{-8}\\times723.15^4\\approx15.5\\text{ kW/m}^2$$",
+      "memorization_note": "قانون ستيفان-بولتزمان: $\\frac{Q}{A}=\\varepsilon\\sigma T^4$ ، $\\sigma=5.67\\times10^{-8}\\text{ W/m}^2\\text{K}^4$ ، ودرجة الحرارة بالكلفن.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 30,
+      "question_en": "A radiant heating lamp has surface temperature $1000\\text{ K}$ and $\\varepsilon=0.8$. What surface area is needed to radiate $250\\text{ W}$?",
+      "question_ar": "مصباح تسخين إشعاعي درجة حرارة سطحه $1000\\text{ K}$ و $\\varepsilon=0.8$. ما المساحة السطحية اللازمة لإشعاع $250\\text{ W}$؟",
+      "options": [
+        "$0.0035\\text{ m}^2$",
+        "$0.0045\\text{ m}^2$",
+        "$0.0055\\text{ m}^2$",
+        "$0.0065\\text{ m}^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$A=\\frac{Q}{\\varepsilon\\sigma T^4}=\\frac{250}{0.8\\times5.67\\times10^{-8}\\times1000^4}\\approx0.0055\\text{ m}^2$$",
+      "explanation_ar": "$$A=\\frac{Q}{\\varepsilon\\sigma T^4}=\\frac{250}{0.8\\times5.67\\times10^{-8}\\times1000^4}\\approx0.0055\\text{ m}^2$$",
+      "memorization_note": "$Q=\\varepsilon\\sigma A T^4$ ، $\\sigma=5.67\\times10^{-8}\\text{ W/m}^2\\text{K}^4$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 31,
+      "question_en": "Find the conduction heat flux through a $1.5\\text{ cm}$ hardwood board ($k=0.16\\text{ W/m·K}$) with a temperature difference of $20^\\circ\\text{C}$ across it.",
+      "question_ar": "جد فيض الحرارة بالتوصيل عبر لوح خشب صلب سمكه $1.5\\text{ cm}$ ($k=0.16\\text{ W/m·K}$) وفرق درجات الحرارة بين وجهيه $20^\\circ\\text{C}$.",
+      "options": [
+        "$113\\text{ W/m}^2$",
+        "$213\\text{ W/m}^2$",
+        "$230\\text{ W/m}^2$",
+        "$312\\text{ W/m}^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\frac{Q}{A}=k\\frac{\\Delta T}{L}=0.16\\times\\frac{20}{0.015}\\approx213\\text{ W/m}^2$$",
+      "explanation_ar": "$$\\frac{Q}{A}=k\\frac{\\Delta T}{L}=0.16\\times\\frac{20}{0.015}\\approx213\\text{ W/m}^2$$",
+      "memorization_note": "فيض الحرارة بالتوصيل: $q=\\frac{Q}{A}=k\\frac{\\Delta T}{L}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 32,
+      "question_en": "A $2\\text{ m}^2$ window at $15^\\circ\\text{C}$ has outside air at $2^\\circ\\text{C}$ blowing across it with $h=125\\text{ W/m}^2\\text{K}$. Find the total heat transfer.",
+      "question_ar": "نافذة مساحتها $2\\text{ m}^2$ عند $15^\\circ\\text{C}$ يهب عليها هواء خارجي عند $2^\\circ\\text{C}$ بمعامل حمل $h=125\\text{ W/m}^2\\text{K}$. جد الحرارة المنتقلة الكلية.",
+      "options": [
+        "$1250\\text{ W}$",
+        "$2250\\text{ W}$",
+        "$2350\\text{ W}$",
+        "$3250\\text{ W}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$Q=hA\\Delta T=125\\times2\\times(15-2)=3250\\text{ W}$$",
+      "explanation_ar": "$$Q=hA\\Delta T=125\\times2\\times(15-2)=3250\\text{ W}$$",
+      "memorization_note": "$Q=hA(T_s-T_\\infty)$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 33,
+      "question_en": "Brake shoes absorb $25\\text{ W}$ steadily. The outside area is $0.1\\text{ m}^2$ with $h=10\\text{ W/m}^2\\text{K}$ to air at $20^\\circ\\text{C}$. What surface temperature is reached at steady state?",
+      "question_ar": "تمتص أحذية الفرامل $25\\text{ W}$ باستمرار. المساحة الخارجية $0.1\\text{ m}^2$ و $h=10\\text{ W/m}^2\\text{K}$ مع هواء عند $20^\\circ\\text{C}$. ما درجة حرارة السطح عند الحالة المستقرة؟",
+      "options": [
+        "$25^\\circ\\text{C}$",
+        "$35^\\circ\\text{C}$",
+        "$45^\\circ\\text{C}$",
+        "$55^\\circ\\text{C}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At steady state heat in = heat out: $$25=hA(T_s-T_\\infty)=10\\times0.1\\times(T_s-20)\\Rightarrow T_s=45^\\circ\\text{C}$$",
+      "explanation_ar": "في الحالة المستقرة الحرارة الداخلة = الخارجة: $$25=hA(T_s-T_\\infty)=10\\times0.1\\times(T_s-20)\\Rightarrow T_s=45^\\circ\\text{C}$$",
+      "memorization_note": "الحالة المستقرة (Steady State): لا تراكم للطاقة، $Q_{\\text{in}}=Q_{\\text{out}}$ ، و $Q=hA\\Delta T$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 34,
+      "question_en": "A radiant rod ($0.5\\text{ m}$ long, $0.5\\text{ cm}$ diameter) dissipates $400\\text{ W}$ electrically with $\\varepsilon=0.9$ (incoming radiation neglected). Find the rod surface temperature.",
+      "question_ar": "قضيب مشع (طوله $0.5\\text{ m}$ وقطره $0.5\\text{ cm}$) يستهلك $400\\text{ W}$ كهربائياً و $\\varepsilon=0.9$ (يُهمل الإشعاع الوارد). جد درجة حرارة سطح القضيب.",
+      "options": [
+        "$700\\text{ K}$",
+        "$800\\text{ K}$",
+        "$900\\text{ K}$",
+        "$1000\\text{ K}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$A=\\pi D L=\\pi(0.005)(0.5)=7.854\\times10^{-3}\\text{ m}^2$$ $$T=\\left(\\frac{Q}{\\varepsilon\\sigma A}\\right)^{1/4}=\\left(\\frac{400}{0.9\\times5.67\\times10^{-8}\\times7.854\\times10^{-3}}\\right)^{1/4}\\approx1000\\text{ K}$$",
+      "explanation_ar": "$$A=\\pi D L=\\pi(0.005)(0.5)=7.854\\times10^{-3}\\text{ m}^2$$ $$T=\\left(\\frac{Q}{\\varepsilon\\sigma A}\\right)^{1/4}=\\left(\\frac{400}{0.9\\times5.67\\times10^{-8}\\times7.854\\times10^{-3}}\\right)^{1/4}\\approx1000\\text{ K}$$",
+      "memorization_note": "المساحة السطحية للأسطوانة: $A=\\pi D L$. قانون ستيفان-بولتزمان: $Q=\\varepsilon\\sigma A T^4$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 35,
+      "question_en": "Latent heat is the heat transferred at constant:",
+      "question_ar": "الحرارة الكامنة هي الحرارة المنتقلة عند:",
+      "options": [
+        "Temperature only",
+        "Pressure only",
+        "Both temperature and pressure",
+        "Volume"
+      ],
+      "correct_index": 2,
+      "explanation_en": "During a phase change at a given pressure, temperature stays constant (saturation). Latent heat of fusion is little affected by pressure, but latent heat of vaporization is highly sensitive to pressure.",
+      "explanation_ar": "أثناء تغير الطور عند ضغط معين تبقى درجة الحرارة ثابتة (التشبع). الحرارة الكامنة للانصهار قليلة التأثر بالضغط أما كامنة التبخر فتتأثر بشدة.",
+      "memorization_note": "الحرارة الكامنة: $Q=m\\,h_{fg}$ (للتبخر) و $Q=m\\,h_{sf}$ (للانصهار). الحرارة المحسوسة: $Q=mc\\Delta T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "Which of the following statements about heat and work is correct?",
+      "question_ar": "أي العبارات الآتية عن الحرارة والشغل صحيحة؟",
+      "options": [
+        "Both are path functions and inexact differentials",
+        "Both are point functions",
+        "Both are properties of the system",
+        "Both are stored in the system"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Heat and work are energy interactions at the boundary (energy in transit). They are path functions, not properties, and cannot be stored.",
+      "explanation_ar": "الحرارة والشغل تفاعلات طاقة عند الحدود (طاقة في طور الانتقال)، وهما دالتا مسار وليستا خاصيتين ولا تُخزَّنان.",
+      "memorization_note": "الطاقة المخزونة: $U$ (طاقة داخلية). أما $Q$ و $W$ فهما طاقة عابرة للحدود فقط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "For solids and liquids, the specific heat:",
+      "question_ar": "الحرارة النوعية للمواد الصلبة والسائلة:",
+      "options": [
+        "Depends strongly on the process",
+        "Is practically independent of the process",
+        "Is always zero",
+        "Is infinite"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For incompressible solids and liquids $c_p\\approx c_v=c$, so $\\Delta u=c\\Delta T$ regardless of process.",
+      "explanation_ar": "للمواد الصلبة والسائلة (غير القابلة للانضغاط) $c_p\\approx c_v=c$ لذا $\\Delta u=c\\Delta T$ بغض النظر عن العملية.",
+      "memorization_note": "للمادة غير القابلة للانضغاط: $c_p\\approx c_v=c$ ، $Q=mc\\Delta T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "Joule showed that heat is a form of energy. The mechanical equivalent of heat $J$ (work/heat proportionality constant) in SI units has the value:",
+      "question_ar": "أثبت جول أن الحرارة شكل من أشكال الطاقة. قيمة المكافئ الميكانيكي للحرارة $J$ (ثابت التناسب بين الشغل والحرارة) في النظام الدولي هي:",
+      "options": [
+        "$J=0$",
+        "$J=1$",
+        "$J=-1$",
+        "$J=\\infty$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In SI units both work and heat are measured in joules, so $J=1$ and $\\oint\\delta W=\\oint\\delta Q$ for a cycle.",
+      "explanation_ar": "في النظام الدولي يُقاس الشغل والحرارة بالجول فيكون $J=1$ و $\\oint\\delta W=\\oint\\delta Q$ لدورة.",
+      "memorization_note": "$1\\text{ cal}=4.186\\text{ J}$ (المكافئ الميكانيكي). $1\\text{ kJ}=1000\\text{ J}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "The first law of thermodynamics for a closed system is written as:",
+      "question_ar": "يُكتب القانون الأول للثرموداينمك لنظام مغلق بالصيغة:",
+      "options": [
+        "$Q=\\Delta E-W$",
+        "$Q=\\Delta E+W$",
+        "$Q=-\\Delta E-W$",
+        "$Q=-\\Delta E+W$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Energy conservation with the sign convention (Q in +, W out +): $Q=\\Delta E+W$, i.e. $Q-W=\\Delta U$ when KE and PE are unchanged.",
+      "explanation_ar": "حفظ الطاقة مع اصطلاح الإشارات ($Q$ داخلة +، $W$ خارجة +): $Q=\\Delta E+W$ أي $Q-W=\\Delta U$ عند ثبات $KE$ و $PE$.",
+      "memorization_note": "$$Q-W=\\Delta E=\\Delta U+\\Delta KE+\\Delta PE$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "For a closed system undergoing a complete cycle, the first law states:",
+      "question_ar": "عند مرور نظام مغلق بدورة كاملة، ينص القانون الأول على أن:",
+      "options": [
+        "$\\oint\\delta Q=\\oint\\delta W$",
+        "$\\oint\\delta Q=0$",
+        "$\\oint\\delta W=0$",
+        "$\\oint\\delta Q=-\\oint\\delta W$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Over a cycle $\\Delta E=0$, so net heat equals net work: $\\oint\\delta Q=\\oint\\delta W$.",
+      "explanation_ar": "خلال الدورة $\\Delta E=0$ لذا صافي الحرارة = صافي الشغل: $\\oint\\delta Q=\\oint\\delta W$.",
+      "memorization_note": "للدورة: $\\Delta U=0\\Rightarrow\\sum Q=\\sum W$. الكفاءة الحرارية $\\eta=\\frac{W_{\\text{net}}}{Q_{\\text{in}}}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "The first law of thermodynamics gives only the change in energy $\\Delta E$ and does NOT:",
+      "question_ar": "القانون الأول للثرموداينمك يعطي التغير في الطاقة $\\Delta E$ فقط، ولا يُبيّن:",
+      "options": [
+        "Conserve energy",
+        "Indicate the direction in which a spontaneous process proceeds",
+        "Define internal energy",
+        "Relate heat to work"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The first law cannot tell the direction or feasibility of a process; that requires the second law (entropy).",
+      "explanation_ar": "القانون الأول لا يحدد اتجاه العملية أو إمكانية حدوثها؛ وهذا يتطلب القانون الثاني (الإنتروبي).",
+      "memorization_note": "قيد القانون الأول: لا يحدد الاتجاه التلقائي ولا يميّز نوعية الطاقة (جودة الحرارة والشغل). لذلك نحتاج القانون الثاني.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "Which of the following represents energy in storage in a system?",
+      "question_ar": "أي مما يأتي يمثل الطاقة المخزونة في النظام؟",
+      "options": [
+        "Heat",
+        "Work",
+        "Internal energy",
+        "Power"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Internal energy is a property (stored energy); heat and work are energy in transit across the boundary.",
+      "explanation_ar": "الطاقة الداخلية خاصية (طاقة مخزونة) أما الحرارة والشغل فطاقة عابرة للحدود.",
+      "memorization_note": "الطاقة الكلية: $E=U+\\frac{mV^2}{2}+mgz$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "The specific heat at constant volume is defined as the rate of change of ____ with respect to ____ at constant volume.",
+      "question_ar": "تُعرَّف الحرارة النوعية عند حجم ثابت بأنها معدل تغير ____ بالنسبة إلى ____ عند حجم ثابت.",
+      "options": [
+        "specific internal energy, temperature",
+        "specific enthalpy, temperature",
+        "work, pressure",
+        "entropy, volume"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$c_v=\\left(\\frac{\\partial u}{\\partial T}\\right)_v$$",
+      "explanation_ar": "$$c_v=\\left(\\frac{\\partial u}{\\partial T}\\right)_v$$",
+      "memorization_note": "$$c_v=\\left(\\frac{\\partial u}{\\partial T}\\right)_v,\\qquad c_p=\\left(\\frac{\\partial h}{\\partial T}\\right)_p$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "The specific heat at constant pressure is defined as the rate of change of ____ with respect to ____ at constant pressure.",
+      "question_ar": "تُعرَّف الحرارة النوعية عند ضغط ثابت بأنها معدل تغير ____ بالنسبة إلى ____ عند ضغط ثابت.",
+      "options": [
+        "internal energy, temperature",
+        "work, pressure",
+        "enthalpy, pressure",
+        "enthalpy, temperature"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$c_p=\\left(\\frac{\\partial h}{\\partial T}\\right)_p,\\quad h=u+Pv$$",
+      "explanation_ar": "$$c_p=\\left(\\frac{\\partial h}{\\partial T}\\right)_p,\\quad h=u+Pv$$",
+      "memorization_note": "$$h=u+Pv,\\qquad c_p=\\left(\\frac{\\partial h}{\\partial T}\\right)_p$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "The heat capacity at constant pressure $C_p$ of a mass $m$ is:",
+      "question_ar": "السعة الحرارية عند ضغط ثابت $C_p$ لكتلة $m$ تساوي:",
+      "options": [
+        "$m/c_p$",
+        "$c_p/m$",
+        "$m\\,c_p$",
+        "$c_p+m$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Heat capacity = mass × specific heat: $C_p=m\\,c_p$ (units J/K).",
+      "explanation_ar": "السعة الحرارية = الكتلة × الحرارة النوعية: $C_p=m\\,c_p$ (وحدتها J/K).",
+      "memorization_note": "$Q=C\\Delta T=mc\\Delta T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "The kinetic and potential energy of a fluid element of mass $m$ are respectively:",
+      "question_ar": "الطاقة الحركية والكامنة لعنصر مائع كتلته $m$ هما على الترتيب:",
+      "options": [
+        "$\\frac{mV^2}{2}$ and $mgz$",
+        "$mV^2$ and $mgz$",
+        "$\\frac{mV^2}{2}$ and $\\frac{mgz}{2}$",
+        "$mV$ and $mg/z$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$KE=\\frac{1}{2}mV^2$ (macroscopic kinetic energy) and $PE=mgz$ (macroscopic potential energy).",
+      "explanation_ar": "$KE=\\frac{1}{2}mV^2$ (طاقة حركية macroscopic) و $PE=mgz$ (طاقة كامنة macroscopic).",
+      "memorization_note": "$KE=\\frac{mV^2}{2}$ ، $PE=mgz$ ، $g=9.81\\text{ m/s}^2$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "For an ideal gas, internal energy and enthalpy are functions of:",
+      "question_ar": "الطاقة الداخلية والإنثالبي لغاز مثالي هما دالتان لـ:",
+      "options": [
+        "Pressure only",
+        "Volume only",
+        "Temperature only",
+        "Pressure and volume"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In an ideal gas there are no intermolecular forces, so $u=u(T)$ and $h=u+RT=h(T)$.",
+      "explanation_ar": "في الغاز المثالي لا توجد قوى بين الجزيئات لذا $u=u(T)$ و $h=u+RT=h(T)$.",
+      "memorization_note": "للغاز المثالي: $du=c_v\\,dT$ ، $dh=c_p\\,dT$ ، $h=u+RT$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "Which statement about the energy of an isolated system is correct, and what does a perpetual motion machine of the first kind (PMM1) do?",
+      "question_ar": "أي عبارة صحيحة عن طاقة النظام المعزول، وماذا تفعل آلة الحركة الدائمة من النوع الأول (PMM1)؟",
+      "options": [
+        "$E=\\text{constant}$; PMM1 violates the first law",
+        "$E$ increases; PMM1 obeys the first law",
+        "$E$ decreases; PMM1 violates the second law",
+        "$E=0$; PMM1 violates the zeroth law"
+      ],
+      "correct_index": 0,
+      "explanation_en": "For an isolated system $Q=W=0$ so $\\Delta E=0$. PMM1 creates energy from nothing, violating the first law.",
+      "explanation_ar": "للنظام المعزول $Q=W=0$ لذا $\\Delta E=0$. أما PMM1 فتولّد طاقة من العدم وتخالف القانون الأول.",
+      "memorization_note": "PMM1: تخالف القانون الأول. PMM2: تخالف القانون الثاني (كفاءة 100%).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "If $315\\text{ cal}$ of heat is given to a system and the system does $20\\text{ cal}$ of work, the change in internal energy is:",
+      "question_ar": "إذا أُعطي لنظام حرارة قدرها $315\\text{ cal}$ وبذل النظام شغلاً قدره $20\\text{ cal}$، فإن التغير في الطاقة الداخلية يساوي:",
+      "options": [
+        "$335\\text{ cal}$",
+        "$295\\text{ cal}$",
+        "$0\\text{ cal}$",
+        "$335\\text{ J}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\Delta U=Q-W=315-20=295\\text{ cal}$$",
+      "explanation_ar": "$$\\Delta U=Q-W=315-20=295\\text{ cal}$$",
+      "memorization_note": "$\\Delta U=Q-W$ (الحرارة الداخلة موجبة والشغل المبذول من النظام موجب). يجب توحيد الوحدات.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 50,
+      "question_en": "A $1\\text{ kg}$ block is given a speed of $5\\text{ m/s}$ on a rough horizontal surface and slides to rest. What is the change in internal energy of the block–surface system?",
+      "question_ar": "كتلة $1\\text{ kg}$ أُعطيت سرعة $5\\text{ m/s}$ على سطح أفقي خشن وانزلقت حتى توقفت. ما التغير في الطاقة الداخلية لنظام الكتلة والسطح؟",
+      "options": [
+        "$25\\text{ J}$",
+        "$12.5\\text{ J}$",
+        "$0$",
+        "$30\\text{ J}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "All kinetic energy is dissipated into internal energy: $$\\Delta U=\\frac{1}{2}mV^2=\\frac{1}{2}(1)(5)^2=12.5\\text{ J}$$",
+      "explanation_ar": "تتحول كل الطاقة الحركية إلى طاقة داخلية: $$\\Delta U=\\frac{1}{2}mV^2=\\frac{1}{2}(1)(5)^2=12.5\\text{ J}$$",
+      "memorization_note": "النظام معزول ($Q=W=0$): $\\Delta U+\\Delta KE=0\\Rightarrow\\Delta U=\\frac{mV^2}{2}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 51,
+      "question_en": "A gas in a rigid container receives $50\\text{ J}$ of heat. What is its change in internal energy?",
+      "question_ar": "غاز في حاوية صلبة استلم حرارة قدرها $50\\text{ J}$. ما التغير في طاقته الداخلية؟",
+      "options": [
+        "$50\\text{ J}$",
+        "$0$",
+        "$70\\text{ J}$",
+        "$20\\text{ J}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Rigid container: $\\Delta V=0\\Rightarrow W=0$, so $\\Delta U=Q=50\\text{ J}$.",
+      "explanation_ar": "حاوية صلبة: $\\Delta V=0\\Rightarrow W=0$ لذا $\\Delta U=Q=50\\text{ J}$.",
+      "memorization_note": "عملية حجم ثابت: $W=\\int P\\,dV=0$ فيكون $\\Delta U=Q$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 52,
+      "question_en": "At constant pressure $P$ a gas expands from $V_1$ to $V_2$ while heat $Q$ is removed from it. What happens to the internal energy?",
+      "question_ar": "عند ضغط ثابت $P$ يتمدد غاز من $V_1$ إلى $V_2$ بينما تُسحب منه حرارة $Q$. ماذا يحدث لطاقته الداخلية؟",
+      "options": [
+        "Remains the same",
+        "Increases by $Q+P(V_2-V_1)$",
+        "Decreases by $Q+P(V_2-V_1)$",
+        "Increases by an unknown amount"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\Delta U=Q_{\\text{in}}-W=(-Q)-P(V_2-V_1)=-[Q+P(V_2-V_1)]$$ so it decreases by $Q+P(V_2-V_1)$.",
+      "explanation_ar": "$$\\Delta U=Q_{\\text{in}}-W=(-Q)-P(V_2-V_1)=-[Q+P(V_2-V_1)]$$ إذن تنقص بمقدار $Q+P(V_2-V_1)$.",
+      "memorization_note": "$\\Delta U=Q-W$ ، شغل الضغط الثابت $W=P(V_2-V_1)$ ، وحرارة مسحوبة تعني $Q_{\\text{in}}=-Q$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "A refrigerator with a $2\\text{ kW}$ compressor motor removes $6000\\text{ kJ}$ from the cold space in $30$ minutes in a thermally insulated kitchen. The condenser rejects $8000\\text{ kJ}$ to the kitchen. What is the change in internal energy of the kitchen?",
+      "question_ar": "ثلاجة بمحرك ضاغط $2\\text{ kW}$ تسحب $6000\\text{ kJ}$ من الحيز المبرد خلال $30$ دقيقة في مطبخ معزول حرارياً. يطرد المكثف $8000\\text{ kJ}$ إلى المطبخ. ما التغير في الطاقة الداخلية للمطبخ؟",
+      "options": [
+        "$2400\\text{ kJ}$",
+        "$3600\\text{ kJ}$",
+        "$4800\\text{ kJ}$",
+        "$8000\\text{ kJ}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Kitchen is insulated: $Q=0$. Electrical work enters the kitchen: $W=-P\\Delta t=-2\\times1800=-3600\\text{ kJ}$. $$\\Delta U=Q-W=0-(-3600)=3600\\text{ kJ}$$",
+      "explanation_ar": "المطبخ معزول: $Q=0$. الشغل الكهربائي يدخل المطبخ: $W=-P\\Delta t=-2\\times1800=-3600\\text{ kJ}$. $$\\Delta U=Q-W=0-(-3600)=3600\\text{ kJ}$$",
+      "memorization_note": "$W=P\\cdot t$ مع $30\\text{ min}=1800\\text{ s}$ و $1\\text{ kW}\\cdot\\text{s}=1\\text{ kJ}$. بالقانون الأول $\\Delta U=Q-W$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 54,
+      "question_en": "$1\\text{ kg}$ of methane ($R=0.51835\\text{ kJ/kg·K}$) at $100\\text{ kPa}$, $20^\\circ\\text{C}$ is compressed reversibly and isothermally to $800\\text{ kPa}$. Find the work required.",
+      "question_ar": "$1\\text{ kg}$ من الميثان ($R=0.51835\\text{ kJ/kg·K}$) عند $100\\text{ kPa}$ و $20^\\circ\\text{C}$ يُضغط عكوسياً وبثبوت الحرارة إلى $800\\text{ kPa}$. جد الشغل اللازم.",
+      "options": [
+        "$-116.0\\text{ kJ}$",
+        "$-216.0\\text{ kJ}$",
+        "$-316.0\\text{ kJ}$",
+        "$-416.0\\text{ kJ}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$W=mRT\\ln\\frac{P_1}{P_2}=1\\times0.51835\\times293.15\\times\\ln\\frac{100}{800}\\approx-316\\text{ kJ}$$",
+      "explanation_ar": "$$W=mRT\\ln\\frac{P_1}{P_2}=1\\times0.51835\\times293.15\\times\\ln\\frac{100}{800}\\approx-316\\text{ kJ}$$",
+      "memorization_note": "شغل عملية isothermal لغاز مثالي: $W=mRT\\ln\\frac{V_2}{V_1}=mRT\\ln\\frac{P_1}{P_2}$ ، و $T(\\text{K})=T(^\\circ\\text{C})+273.15$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 55,
+      "question_en": "$\\text{CO}_2$ at $300\\text{ kPa}$, $100^\\circ\\text{C}$, $V=0.2\\text{ m}^3$ is compressed along $PV^{1.2}=\\text{const}$ to $200^\\circ\\text{C}$. Find the work done.",
+      "question_ar": "غاز $\\text{CO}_2$ عند $300\\text{ kPa}$ و $100^\\circ\\text{C}$ وحجم $0.2\\text{ m}^3$ يُضغط وفق $PV^{1.2}=\\text{const}$ حتى $200^\\circ\\text{C}$. جد الشغل.",
+      "options": [
+        "$+60.4\\text{ kJ}$",
+        "$-50.4\\text{ kJ}$",
+        "$+80.4\\text{ kJ}$",
+        "$-80.4\\text{ kJ}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$mR=\\frac{P_1V_1}{T_1}=\\frac{300\\times0.2}{373.15}=0.1608\\text{ kJ/K}$$ $$W=\\frac{mR(T_2-T_1)}{1-n}=\\frac{0.1608\\times100}{1-1.2}=-80.4\\text{ kJ}$$",
+      "explanation_ar": "$$mR=\\frac{P_1V_1}{T_1}=\\frac{300\\times0.2}{373.15}=0.1608\\text{ kJ/K}$$ $$W=\\frac{mR(T_2-T_1)}{1-n}=\\frac{0.1608\\times100}{1-1.2}=-80.4\\text{ kJ}$$",
+      "memorization_note": "شغل عملية polytropic: $W=\\frac{P_2V_2-P_1V_1}{1-n}=\\frac{mR(T_2-T_1)}{1-n}$ ، $PV^n=\\text{const}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 56,
+      "question_en": "The equation of continuity is derived from the conservation of:",
+      "question_ar": "تُشتق معادلة الاستمرارية من حفظ:",
+      "options": [
+        "Energy",
+        "Mass",
+        "Work",
+        "Heat"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For steady flow $\\sum\\dot m_{\\text{in}}=\\sum\\dot m_{\\text{out}}$, i.e. $\\rho_1A_1V_1=\\rho_2A_2V_2$.",
+      "explanation_ar": "للجريان المستقر $\\sum\\dot m_{\\text{in}}=\\sum\\dot m_{\\text{out}}$ أي $\\rho_1A_1V_1=\\rho_2A_2V_2$.",
+      "memorization_note": "$$\\dot m=\\rho A V=\\frac{AV}{v}$$ ومساحة مقطع الأنبوب $A=\\frac{\\pi D^2}{4}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "Steady flow means that the rates of flow of mass and energy across the control surface:",
+      "question_ar": "الجريان المستقر (Steady Flow) يعني أن معدلات جريان الكتلة والطاقة عبر سطح السيطرة:",
+      "options": [
+        "Vary with time",
+        "Remain constant with time",
+        "Depend on the control surface shape",
+        "Are always zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In steady flow nothing inside the control volume changes with time, so accumulation is zero.",
+      "explanation_ar": "في الجريان المستقر لا يتغير شيء داخل حجم السيطرة مع الزمن فلا يوجد تراكم.",
+      "memorization_note": "المستقر: $\\frac{dm_{cv}}{dt}=0$ و $\\frac{dE_{cv}}{dt}=0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "Which of the following is the Steady Flow Energy Equation (SFEE) per unit mass?",
+      "question_ar": "أي مما يأتي هو معادلة الطاقة للجريان المستقر (SFEE) لوحدة الكتلة؟",
+      "options": [
+        "$q+w=(h_2-h_1)+\\frac{V_2^2-V_1^2}{2}+g(z_2-z_1)$",
+        "$q-w=(h_2-h_1)-\\frac{V_2^2-V_1^2}{2}+g(z_2-z_1)$",
+        "$q-w=(h_2-h_1)+\\frac{V_2^2-V_1^2}{2}+g(z_2-z_1)$",
+        "$q+w=(h_2-h_1)-\\frac{V_2^2-V_1^2}{2}-g(z_2-z_1)$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Heat in minus shaft work out equals the rise in enthalpy, kinetic and potential energy: $$q-w=\\Delta h+\\Delta KE+\\Delta PE$$",
+      "explanation_ar": "الحرارة الداخلة ناقص شغل العمود الخارج يساوي الزيادة في الإنثالبي والطاقة الحركية والكامنة: $$q-w=\\Delta h+\\Delta KE+\\Delta PE$$",
+      "memorization_note": "$$q-w=(h_2-h_1)+\\frac{V_2^2-V_1^2}{2}+g(z_2-z_1)$$ والمعادلة التفاضلية: $dq-dw=dh+VdV+g\\,dz$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "The flow work (displacement work done by the fluid) per unit mass at inlet/exit of a control volume is:",
+      "question_ar": "شغل الجريان (Flow Work) لوحدة الكتلة عند مدخل/مخرج حجم السيطرة يساوي:",
+      "options": [
+        "$P/v$",
+        "$Pv$",
+        "$v/P$",
+        "$P+v$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Flow work $=P\\,v\\,dm$ (done on the fluid at inlet and by the fluid at exit). It combines with $u$ to form enthalpy $h=u+Pv$.",
+      "explanation_ar": "شغل الجريان $=P\\,v\\,dm$ (يُبذل على المائع عند المدخل ومن المائع عند المخرج). يتحد مع $u$ ليعطي الإنثالبي $h=u+Pv$.",
+      "memorization_note": "$$h=u+Pv$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "When more than one fluid stream enters or leaves a control volume, which balances are used?",
+      "question_ar": "عندما يدخل أو يغادر أكثر من تيار مائع حجم السيطرة، أي اتزانات تُستخدم؟",
+      "options": [
+        "Mass balance only",
+        "Energy balance only",
+        "Both mass balance and energy balance",
+        "Entropy balance only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Both a mass balance ($\\sum\\dot m_{in}=\\sum\\dot m_{out}$) and an energy balance are required.",
+      "explanation_ar": "يلزم اتزان كتلة ($\\sum\\dot m_{in}=\\sum\\dot m_{out}$) واتزان طاقة معاً.",
+      "memorization_note": "$$\\sum\\dot m_{in}=\\sum\\dot m_{out},\\quad \\dot Q-\\dot W=\\sum\\dot m_{out}\\left(h+\\tfrac{V^2}{2}+gz\\right)-\\sum\\dot m_{in}\\left(h+\\tfrac{V^2}{2}+gz\\right)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "A nozzle:",
+      "question_ar": "المنفث (Nozzle):",
+      "options": [
+        "Decreases fluid velocity and increases pressure",
+        "Increases fluid velocity at the cost of pressure drop",
+        "Increases both velocity and pressure",
+        "Keeps velocity and pressure constant"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A nozzle converts pressure (enthalpy) into kinetic energy: velocity rises, pressure falls.",
+      "explanation_ar": "يحوّل المنفث الضغط (الإنثالبي) إلى طاقة حركية: تزداد السرعة ويقل الضغط.",
+      "memorization_note": "المنفث: $V_2>V_1$ و $P_2<P_1$. المفرّق (Diffuser) عكسه تماماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "A diffuser:",
+      "question_ar": "المفرّق (Diffuser):",
+      "options": [
+        "Increases pressure at the expense of kinetic energy",
+        "Decreases pressure and increases kinetic energy",
+        "Increases both pressure and kinetic energy",
+        "Decreases both pressure and kinetic energy"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A diffuser decelerates the flow and converts kinetic energy into pressure rise.",
+      "explanation_ar": "يبطّئ المفرّق الجريان ويحوّل الطاقة الحركية إلى ارتفاع في الضغط.",
+      "memorization_note": "المفرّق: $V_2<V_1$ و $P_2>P_1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "For an insulated nozzle (negligible $\\Delta PE$ and inlet velocity $\\ll$ exit velocity), the SFEE gives the exit velocity as:",
+      "question_ar": "لمنفث معزول (مع إهمال $\\Delta PE$ وسرعة الدخول مهملة مقارنة بسرعة الخروج)، تعطي معادلة SFEE سرعة الخروج:",
+      "options": [
+        "$V_2=\\sqrt{\\Delta h}$",
+        "$V_2=\\sqrt{2\\Delta h}$",
+        "$V_2=\\sqrt{\\Delta h/2}$",
+        "$V_2=\\sqrt{4\\Delta h}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$q=w=0$ and $V_1\\approx0$: $h_1=h_2+\\frac{V_2^2}{2}$, so $$V_2=\\sqrt{2(h_1-h_2)}$$",
+      "explanation_ar": "$q=w=0$ و $V_1\\approx0$: $h_1=h_2+\\frac{V_2^2}{2}$ إذن $$V_2=\\sqrt{2(h_1-h_2)}$$",
+      "memorization_note": "$$V_2=\\sqrt{2(h_1-h_2)}$$ ($h$ بوحدة $\\text{J/kg}$ ، وإذا كانت $\\text{kJ/kg}$ تُضرب في 1000).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "Which of the following throttles a flow?",
+      "question_ar": "أي مما يأتي يخنق (Throttles) الجريان؟",
+      "options": [
+        "A partially opened valve",
+        "An orifice",
+        "A porous plug",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All cause an appreciable pressure drop without producing work, i.e. throttling.",
+      "explanation_ar": "جميعها تسبب هبوطاً ملموساً في الضغط دون إنتاج شغل أي خنقاً.",
+      "memorization_note": "الخنق: $q\\approx0$ ، $w=0$ ، $\\Delta KE\\approx0$ ⇒ $h_1=h_2$ (عملية isenthalpic).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "For a throttling device with negligible changes in PE and KE, the SFEE reduces to:",
+      "question_ar": "في جهاز خنق مع إهمال تغيرات $PE$ و $KE$ تختزل معادلة SFEE إلى:",
+      "options": [
+        "$q\\neq0$",
+        "$w\\neq0$",
+        "$h_1=h_2$",
+        "$P_1=P_2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$q=0$, $w=0$, $\\Delta KE=\\Delta PE=0$ gives $h_1=h_2$ (isenthalpic process).",
+      "explanation_ar": "$q=0$ و $w=0$ و $\\Delta KE=\\Delta PE=0$ تعطي $h_1=h_2$ (عملية ثابتة الإنثالبي).",
+      "memorization_note": "الخنق: $h_1=h_2$ ويقل الضغط وتزداد الإنتروبي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "Turbines and engines ____ positive power output, while compressors and pumps ____ power input.",
+      "question_ar": "التوربينات والمحركات ____ قدرة موجبة، بينما الضواغط والمضخات ____ قدرة مُدخلة.",
+      "options": [
+        "require, give",
+        "give, require",
+        "give, give",
+        "require, require"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Turbines/engines produce work; compressors/pumps consume work.",
+      "explanation_ar": "التوربينات والمحركات تنتج شغلاً، والضواغط والمضخات تستهلك شغلاً.",
+      "memorization_note": "توربين: $w=h_1-h_2$ (موجب). ضاغط/مضخة: $w=-(h_2-h_1)$ (سالب).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "For an adiabatic turbine, the work done by the fluid is obtained at the expense of its enthalpy. Therefore (neglecting KE and PE):",
+      "question_ar": "في توربين كظيم يُنتج الشغل على حساب إنثالبي المائع. لذلك (مع إهمال $KE$ و $PE$):",
+      "options": [
+        "$w=h_2-h_1$",
+        "$w=h_1-h_2$",
+        "$w=u_1-u_2$",
+        "$w=0$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$q=0$: $-w=h_2-h_1\\Rightarrow w=h_1-h_2$.",
+      "explanation_ar": "$q=0$: $-w=h_2-h_1\\Rightarrow w=h_1-h_2$.",
+      "memorization_note": "$$w_{\\text{turbine}}=h_1-h_2$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "For an adiabatic compressor or pump (neglecting KE and PE), the enthalpy of the fluid:",
+      "question_ar": "في ضاغط أو مضخة كظيمة (مع إهمال $KE$ و $PE$)، إنثالبي المائع:",
+      "options": [
+        "Remains constant",
+        "Decreases by the work input",
+        "Increases by the work input",
+        "Becomes zero"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$q=0$: $h_2-h_1=-w=|w|$, so enthalpy rises by the work input.",
+      "explanation_ar": "$q=0$: $h_2-h_1=-w=|w|$ لذا يزداد الإنثالبي بمقدار الشغل المُدخل.",
+      "memorization_note": "$$w_{\\text{comp}}=h_2-h_1\\;(\\text{magnitude})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "A heat exchanger is a device in which:",
+      "question_ar": "المبادل الحراري هو جهاز فيه:",
+      "options": [
+        "Work is transferred between two fluids",
+        "Heat is transferred from one fluid to another",
+        "Mass is converted to energy",
+        "Pressure is increased"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Heat transfer between two fluid streams with (ideally) no work and negligible KE/PE change.",
+      "explanation_ar": "تنتقل الحرارة من مائع إلى آخر (مثالياً بلا شغل وبإهمال تغير $KE$ و $PE$).",
+      "memorization_note": "اتزان الطاقة للمبادل: $\\dot m_h(h_{h,in}-h_{h,out})=\\dot m_c(h_{c,out}-h_{c,in})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "For an inviscid (frictionless) fluid flowing steadily, the Euler equation is:",
+      "question_ar": "لمائع عديم اللزوجة (بلا احتكاك) يجري باستقرار، معادلة أويلر هي:",
+      "options": [
+        "$v\\,dP+V\\,dV+g\\,dz=0$",
+        "$v\\,dP-V\\,dV+g\\,dz=0$",
+        "$v\\,dP-V\\,dV-g\\,dz=0$",
+        "$v\\,dP+V\\,dV-g\\,dz=0$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "From momentum balance on a frictionless fluid element: $v\\,dP+V\\,dV+g\\,dz=0$ (integrating for constant $\\rho$ gives Bernoulli).",
+      "explanation_ar": "من اتزان الزخم لعنصر مائع بلا احتكاك: $v\\,dP+V\\,dV+g\\,dz=0$ (وبالتكامل لكثافة ثابتة نحصل على برنولي).",
+      "memorization_note": "برنولي: $\\frac{P}{\\rho}+\\frac{V^2}{2}+gz=\\text{const}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "The Bernoulli equation is restricted to ____ fluids, whereas the SFEE is valid for ____ fluids as well.",
+      "question_ar": "معادلة برنولي مقيّدة بالموائع ____ بينما معادلة SFEE صالحة للموائع ____ أيضاً.",
+      "options": [
+        "viscous compressible, frictionless incompressible",
+        "frictionless incompressible, viscous compressible",
+        "viscous incompressible, frictionless compressible",
+        "compressible, incompressible only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Bernoulli requires frictionless, incompressible flow; SFEE applies to viscous and compressible fluids too.",
+      "explanation_ar": "برنولي تتطلب مائعاً عديم الاحتكاك وغير قابل للانضغاط، أما SFEE فتصلح للموائع اللزجة والقابلة للانضغاط أيضاً.",
+      "memorization_note": "برنولي: $\\frac{P}{\\rho}+\\frac{V^2}{2}+gz=\\text{const}$ ($\\rho=\\text{const}$، بلا احتكاك).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "The rate of energy increase within a control volume equals:",
+      "question_ar": "معدل زيادة الطاقة داخل حجم السيطرة يساوي:",
+      "options": [
+        "rate of energy inflow × rate of outflow",
+        "rate of energy inflow − rate of energy outflow",
+        "rate of energy inflow ÷ rate of outflow",
+        "rate of energy inflow + rate of energy outflow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Accumulation = in − out: $\\frac{dE_{cv}}{dt}=\\dot E_{in}-\\dot E_{out}$.",
+      "explanation_ar": "التراكم = الداخل − الخارج: $\\frac{dE_{cv}}{dt}=\\dot E_{in}-\\dot E_{out}$.",
+      "memorization_note": "$$\\frac{dE_{cv}}{dt}=\\dot E_{in}-\\dot E_{out}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "Which device maintains a body at a temperature lower than the surroundings, and which maintains it higher?",
+      "question_ar": "أي جهاز يُبقي جسماً عند درجة حرارة أقل من المحيط، وأيها يُبقيه أعلى؟",
+      "options": [
+        "Refrigerator; heat pump",
+        "Heat pump; refrigerator",
+        "PMM1; PMM2",
+        "Heat engine; refrigerator"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A refrigerator keeps a space colder than the surroundings (removes heat from it); a heat pump keeps a space warmer (supplies heat to it).",
+      "explanation_ar": "الثلاجة تُبقي الحيز أبرد من المحيط (تسحب الحرارة منه)، والمضخة الحرارية تُبقيه أدفأ (تجهزه بالحرارة).",
+      "memorization_note": "$$\\text{COP}_R=\\frac{Q_L}{W},\\qquad \\text{COP}_{HP}=\\frac{Q_H}{W}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "What is the relation between the COP of a heat pump and that of a refrigerator operating between the same limits?",
+      "question_ar": "ما العلاقة بين معامل الأداء (COP) للمضخة الحرارية والثلاجة العاملتين بين الحدين نفسيهما؟",
+      "options": [
+        "$\\text{COP}_{HP}=\\text{COP}_R-1$",
+        "$\\text{COP}_{HP}=\\text{COP}_R+1$",
+        "$\\text{COP}_{HP}=\\text{COP}_R-2$",
+        "$\\text{COP}_{HP}=\\text{COP}_R+2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Q_H=Q_L+W$, so $$\\text{COP}_{HP}=\\frac{Q_H}{W}=\\frac{Q_L+W}{W}=\\text{COP}_R+1$$",
+      "explanation_ar": "$Q_H=Q_L+W$ إذن $$\\text{COP}_{HP}=\\frac{Q_H}{W}=\\frac{Q_L+W}{W}=\\text{COP}_R+1$$",
+      "memorization_note": "$$\\text{COP}_{HP}=\\text{COP}_R+1,\\quad \\text{COP}_R=\\frac{T_L}{T_H-T_L}\\;(\\text{عكوسة})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "According to the Kelvin–Planck statement, it is ____ for a heat engine to produce net work in a complete cycle if it exchanges heat only with bodies at a ____.",
+      "question_ar": "وفق نص كلفن-بلانك، من ____ أن تنتج آلة حرارية شغلاً صافياً في دورة كاملة إذا تبادلت الحرارة فقط مع أجسام عند ____.",
+      "options": [
+        "possible, single fixed temperature",
+        "impossible, single fixed temperature",
+        "impossible, changing temperature",
+        "possible, changing temperature"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A heat engine must reject heat to a second reservoir at lower temperature; $\\eta=1$ (100%) is impossible.",
+      "explanation_ar": "يجب أن تطرد الآلة الحرارية حرارة إلى خزان ثانٍ أبرد؛ والكفاءة 100% مستحيلة.",
+      "memorization_note": "كلفن-بلانك: لا توجد آلة حرارية بكفاءة 100%. $\\eta=1-\\frac{Q_L}{Q_H}<1$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "According to Clausius' statement:",
+      "question_ar": "وفق نص كلاوسيوس:",
+      "options": [
+        "It is impossible to transfer heat from a cooler to a hotter body without any other effect",
+        "It is impossible to transfer heat from a hotter to a cooler body",
+        "It is possible to transfer heat from cold to hot with no effect",
+        "Heat can never flow"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Heat flow from cold to hot requires work input (e.g., a refrigerator).",
+      "explanation_ar": "انتقال الحرارة من البارد إلى الساخن يتطلب شغلاً مُدخلاً (مثل الثلاجة).",
+      "memorization_note": "كلاوسيوس: لا يمكن نقل الحرارة من جسم بارد إلى ساخن بدون استهلاك شغل. وهو مكافئ لنص كلفن-بلانك.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "What is the relationship between the Kelvin–Planck and Clausius statements?",
+      "question_ar": "ما العلاقة بين نص كلفن-بلانك ونص كلاوسيوس؟",
+      "options": [
+        "Violation of one does not violate the other",
+        "They are not connected",
+        "They are equivalent: violating one violates the other",
+        "They contradict each other"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The two statements are equivalent; both express the second law.",
+      "explanation_ar": "النصان متكافئان؛ وكلاهما يعبّر عن القانون الثاني، وخرق أحدهما يستلزم خرق الآخر.",
+      "memorization_note": "القانون الثاني له نصّان متكافئان: كلفن-بلانك (الآلة الحرارية) وكلاوسيوس (الثلاجة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "A heat engine needs to exchange heat with ____ reservoir(s) at ____ different temperature(s) to produce net work in a cycle.",
+      "question_ar": "تحتاج الآلة الحرارية إلى تبادل الحرارة مع ____ خزان/خزانات عند ____ درجة/درجات حرارة مختلفة لإنتاج شغل صافٍ في دورة.",
+      "options": [
+        "one, one",
+        "one, two",
+        "two, two",
+        "three, three"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A source at $T_H$ and a sink at $T_L$ (two reservoirs, two temperatures) are required.",
+      "explanation_ar": "يلزم مصدر عند $T_H$ ومصرّف عند $T_L$ (خزانان ودرجتا حرارة).",
+      "memorization_note": "$W_{net}=Q_H-Q_L$ ، $\\eta=\\frac{W_{net}}{Q_H}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "A machine that operates continuously by creating its own energy (violating the first law) is called:",
+      "question_ar": "الآلة التي تعمل باستمرار بتوليد طاقتها بنفسها (مخالفةً القانون الأول) تُسمى:",
+      "options": [
+        "PMM2",
+        "PMM1",
+        "Carnot engine",
+        "Heat pump"
+      ],
+      "correct_index": 1,
+      "explanation_en": "PMM1 violates the first law. PMM2 (a machine using a single reservoir, 100% efficient) violates the second law.",
+      "explanation_ar": "PMM1 تخالف القانون الأول. أما PMM2 (آلة بخزان واحد وكفاءة 100%) فتخالف القانون الثاني.",
+      "memorization_note": "PMM1 ⇒ القانون الأول. PMM2 ⇒ القانون الثاني.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "A perpetual motion machine of the second kind (PMM2) is a machine that:",
+      "question_ar": "آلة الحركة الدائمة من النوع الثاني (PMM2) هي آلة:",
+      "options": [
+        "Creates energy from nothing",
+        "Utilises the internal energy of a single reservoir to produce work, violating the second law",
+        "Has zero friction",
+        "Has efficiency less than 1"
+      ],
+      "correct_index": 1,
+      "explanation_en": "PMM2 would convert heat from one reservoir completely into work ($\\eta=100\\%$), which violates the Kelvin–Planck statement.",
+      "explanation_ar": "PMM2 تحوّل حرارة خزان واحد بالكامل إلى شغل ($\\eta=100\\%$) وهذا يخالف نص كلفن-بلانك.",
+      "memorization_note": "PMM2: $Q_L=0$ ⇒ $\\eta=1$ (مستحيل).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "Which of the following causes irreversibility?",
+      "question_ar": "أي مما يأتي يسبب اللاعكوسية (Irreversibility)؟",
+      "options": [
+        "Friction and viscosity",
+        "Electrical resistance and magnetic hysteresis",
+        "Inelasticity",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All are dissipative effects that convert work into internal energy irreversibly. Others: heat transfer across a finite $\\Delta T$, free expansion, mixing.",
+      "explanation_ar": "جميعها تأثيرات تبديدية تحوّل الشغل إلى طاقة داخلية بلا رجعة. ومن الأسباب الأخرى: انتقال الحرارة عبر فرق حراري محدود والتمدد الحر والخلط.",
+      "memorization_note": "أسباب اللاعكوسية: الاحتكاك، اللزوجة، المقاومة الكهربائية، الفرق الحراري المحدود، التمدد الحر، الخلط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Which statement is true regarding Carnot's theorem?",
+      "question_ar": "أي عبارة صحيحة بخصوص نظرية كارنو؟",
+      "options": [
+        "No heat engine between two reservoirs is more efficient than a reversible engine between the same reservoirs",
+        "Irreversible engines are more efficient than reversible ones",
+        "Efficiency of a reversible engine depends on the working fluid",
+        "All engines have equal efficiency"
+      ],
+      "correct_index": 0,
+      "explanation_en": "All reversible engines between the same two reservoirs have the same efficiency, independent of working fluid: $\\eta_{rev}=1-\\frac{T_L}{T_H}$.",
+      "explanation_ar": "كل الآلات العكوسة بين الخزانين نفسيهما لها الكفاءة نفسها بغض النظر عن المائع: $\\eta_{rev}=1-\\frac{T_L}{T_H}$.",
+      "memorization_note": "$$\\eta_{\\text{Carnot}}=1-\\frac{T_L}{T_H},\\quad \\text{COP}_{R,\\text{Carnot}}=\\frac{T_L}{T_H-T_L},\\quad \\text{COP}_{HP,\\text{Carnot}}=\\frac{T_H}{T_H-T_L}$$ (درجات الحرارة بالكلفن)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "The reversed heat engine takes heat from a ____ temperature body, discharges it to a ____ temperature body, and ____ work.",
+      "question_ar": "تأخذ الآلة الحرارية المعكوسة حرارة من جسم ذي درجة حرارة ____ وتطرحها إلى جسم ذي درجة حرارة ____ وتستلم ____ شغلاً.",
+      "options": [
+        "high, low, gives",
+        "low, high, gives",
+        "high, low, receives",
+        "low, high, receives"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Reversed heat engine = refrigerator/heat pump: $Q_L$ from the cold body, $Q_H$ to the hot body, with work input.",
+      "explanation_ar": "الآلة المعكوسة = ثلاجة/مضخة حرارية: $Q_L$ من الجسم البارد و $Q_H$ إلى الساخن مع شغل مُدخل.",
+      "memorization_note": "$Q_H=Q_L+W$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "If the Clausius integral $\\oint\\frac{\\delta Q}{T}$ of a cycle is less than zero, the cycle is:",
+      "question_ar": "إذا كان تكامل كلاوسيوس $\\oint\\frac{\\delta Q}{T}$ لدورة أقل من صفر، فالدورة:",
+      "options": [
+        "Reversible",
+        "Impossible",
+        "Irreversible but possible",
+        "Irreversible and impossible"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\oint\\frac{\\delta Q}{T}=0$: reversible; $<0$: irreversible and possible; $>0$: impossible (violates the second law).",
+      "explanation_ar": "$\\oint\\frac{\\delta Q}{T}=0$: عكوسة؛ $<0$: لاعكوسة وممكنة؛ $>0$: مستحيلة (تخالف القانون الثاني).",
+      "memorization_note": "متباينة كلاوسيوس: $$\\oint\\frac{\\delta Q}{T}\\le0$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "A heat engine receives $6\\text{ kW}$ from a source at $250^\\circ\\text{C}$ and rejects heat at $30^\\circ\\text{C}$ with $W=0$. Does it satisfy the Clausius inequality?",
+      "question_ar": "آلة حرارية تستلم $6\\text{ kW}$ من مصدر عند $250^\\circ\\text{C}$ وتطرح حرارة عند $30^\\circ\\text{C}$ بشغل $W=0$. هل تحقق متباينة كلاوسيوس؟",
+      "options": [
+        "No, $\\oint\\delta Q/T>0$",
+        "Yes, $\\oint\\delta Q/T<0$",
+        "Cannot be determined",
+        "Yes, $\\oint\\delta Q/T=0$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "With $W=0$: $Q_L=Q_H=6\\text{ kW}$. $$\\oint\\frac{\\delta Q}{T}=\\frac{6}{523.15}-\\frac{6}{303.15}=0.01147-0.01979=-0.0083\\text{ kW/K}<0$$ The inequality is satisfied (irreversible, possible).",
+      "explanation_ar": "عند $W=0$: $Q_L=Q_H=6\\text{ kW}$. $$\\oint\\frac{\\delta Q}{T}=\\frac{6}{523.15}-\\frac{6}{303.15}=0.01147-0.01979=-0.0083\\text{ kW/K}<0$$ المتباينة محققة (لاعكوسة وممكنة).",
+      "memorization_note": "$T(\\text{K})=T(^\\circ\\text{C})+273.15$ ، $\\oint\\frac{\\delta Q}{T}=\\frac{Q_H}{T_H}-\\frac{Q_L}{T_L}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 86,
+      "question_en": "The standard reference point in defining the absolute thermodynamic (Kelvin) temperature scale is:",
+      "question_ar": "النقطة المرجعية القياسية لتعريف مقياس الحرارة المطلق (كلفن) هي:",
+      "options": [
+        "Absolute zero",
+        "Boiling point of water",
+        "Triple point of water",
+        "Ice point"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The Kelvin scale is fixed by the triple point of water, $T_{tp}=273.16\\text{ K}$.",
+      "explanation_ar": "يُثبَّت مقياس كلفن بالنقطة الثلاثية للماء $T_{tp}=273.16\\text{ K}$.",
+      "memorization_note": "$T_{tp}=273.16\\text{ K}$ ، الصفر المطلق $=0\\text{ K}=-273.15^\\circ\\text{C}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "“It is impossible to reduce any system to absolute zero in a finite number of operations.” This is a statement of the:",
+      "question_ar": "“من المستحيل اختزال درجة حرارة أي نظام إلى الصفر المطلق بعدد محدود من العمليات.” هذه عبارة عن:",
+      "options": [
+        "Zeroth law",
+        "First law",
+        "Second law",
+        "Third law"
+      ],
+      "correct_index": 3,
+      "explanation_en": "This is the Third Law (Fowler–Guggenheim statement).",
+      "explanation_ar": "هذا هو القانون الثالث (صيغة فاولر-غوغنهايم).",
+      "memorization_note": "القانون الثالث: $S\\to0$ عندما $T\\to0\\text{ K}$ لبلورة تامة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "Entropy is:",
+      "question_ar": "الإنتروبي (Entropy) هي:",
+      "options": [
+        "A point function and an intensive property",
+        "A point function and an extensive property",
+        "A path function and an extensive property",
+        "A path function and an intensive property"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Entropy is a state function (point function) and extensive ($\\text{J/K}$); specific entropy $s$ is intensive.",
+      "explanation_ar": "الإنتروبي دالة حالة (point function) وخاصية شاملة (extensive) وحدتها $\\text{J/K}$؛ أما الإنتروبي النوعي $s$ فخاصية مكثفة.",
+      "memorization_note": "$$dS=\\left(\\frac{\\delta Q}{T}\\right)_{\\text{rev}}$$ وحدة $S$: $\\text{kJ/K}$ ، و $s$: $\\text{kJ/kg·K}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "Which statement is true?",
+      "question_ar": "أي عبارة صحيحة؟",
+      "options": [
+        "For a reversible adiabatic process $S=\\text{const}$",
+        "For reversible isothermal heat transfer $Q=T(S_f-S_i)$",
+        "Both of the above",
+        "Neither"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Reversible adiabatic: $\\delta Q=0\\Rightarrow dS=0$ (isentropic). Reversible isothermal: $Q=\\int T\\,dS=T\\Delta S$.",
+      "explanation_ar": "كظيمة عكوسة: $\\delta Q=0\\Rightarrow dS=0$ (isentropic). عكوسة ثابتة الحرارة: $Q=\\int T\\,dS=T\\Delta S$.",
+      "memorization_note": "$$Q_{\\text{rev}}=\\int T\\,dS,\\qquad \\text{isothermal: } Q=T\\Delta S$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "The entropy of an isolated system can never:",
+      "question_ar": "إنتروبي النظام المعزول لا يمكن أبداً أن:",
+      "options": [
+        "Increase",
+        "Remain constant",
+        "Decrease",
+        "Be positive"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Principle of entropy increase: $\\Delta S_{\\text{isolated}}\\ge0$ (equality for reversible processes).",
+      "explanation_ar": "مبدأ زيادة الإنتروبي: $\\Delta S_{\\text{isolated}}\\ge0$ (المساواة للعمليات العكوسة).",
+      "memorization_note": "$$\\Delta S_{\\text{universe}}=\\Delta S_{\\text{system}}+\\Delta S_{\\text{surr}}\\ge0$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "If heat $Q$ flows reversibly from a system to surroundings at $T_0$, then:",
+      "question_ar": "إذا انتقلت حرارة $Q$ عكوسياً من النظام إلى المحيط عند $T_0$ فإن:",
+      "options": [
+        "System entropy decreases by $Q/T_0$",
+        "Surroundings' entropy increases by $Q/T_0$",
+        "Entropy is transferred from system to surroundings",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Entropy accompanies heat flow: system loses $Q/T_0$, surroundings gain $Q/T_0$.",
+      "explanation_ar": "تنتقل الإنتروبي مع الحرارة: يفقد النظام $Q/T_0$ ويكسب المحيط $Q/T_0$.",
+      "memorization_note": "$$\\Delta S=\\frac{Q}{T}$$ (لخزان حراري عند $T$ ثابتة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "The entropy of a closed system can increase by:",
+      "question_ar": "يمكن أن تزداد إنتروبي نظام مغلق بواسطة:",
+      "options": [
+        "Dissipative effects (internal irreversibilities)",
+        "Heat interaction (entropy transfer)",
+        "Both of the above",
+        "Neither"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\Delta S=\\int\\frac{\\delta Q}{T}+S_{gen},\\quad S_{gen}\\ge0$$ Both heat transfer and internal irreversibility change entropy.",
+      "explanation_ar": "$$\\Delta S=\\int\\frac{\\delta Q}{T}+S_{gen},\\quad S_{gen}\\ge0$$ كل من انتقال الحرارة واللاعكوسية الداخلية يغيّر الإنتروبي.",
+      "memorization_note": "$$\\Delta S=\\int\\frac{\\delta Q}{T}+S_{gen}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "The entropy change of a system between two equilibrium states is ____ whether the process between them is reversible or irreversible.",
+      "question_ar": "التغير في إنتروبي نظام بين حالتي اتزان ____ سواء كانت العملية عكوسة أم لاعكوسة.",
+      "options": [
+        "different",
+        "the same",
+        "dependent on the path",
+        "always zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Entropy is a property; $\\Delta S$ depends only on end states. To compute it, a reversible path connecting them is used.",
+      "explanation_ar": "الإنتروبي خاصية، و $\\Delta S$ يعتمد على الحالتين الطرفيتين فقط؛ ولحسابه يُفترض مسار عكوس يصل بينهما.",
+      "memorization_note": "$$\\Delta S_{1\\to2}=\\int_1^2\\left(\\frac{\\delta Q}{T}\\right)_{\\text{rev}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "When work is dissipated into internal energy, the disorderly motion of molecules:",
+      "question_ar": "عند تبدد الشغل إلى طاقة داخلية، فإن الحركة العشوائية للجزيئات:",
+      "options": [
+        "Decreases",
+        "Remains the same",
+        "Increases",
+        "Becomes ordered"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Dissipation increases molecular randomness, hence entropy increases.",
+      "explanation_ar": "التبدد يزيد عشوائية الجزيئات وبالتالي تزداد الإنتروبي.",
+      "memorization_note": "الإنتروبي مقياس للعشوائية (الفوضى) الجزيئية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "The available energy (exergy) of a system as its temperature or pressure approaches that of the surroundings:",
+      "question_ar": "الطاقة المتاحة (Exergy) لنظام عندما تقترب درجة حرارته أو ضغطه من المحيط:",
+      "options": [
+        "Remains constant",
+        "Increases",
+        "Decreases",
+        "Becomes infinite"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At the dead state (equilibrium with surroundings), the maximum extractable work is zero.",
+      "explanation_ar": "عند الحالة الميتة (اتزان مع المحيط) يكون أقصى شغل ممكن استخراجه صفراً.",
+      "memorization_note": "الشغل الأقصى (للحرارة): $W_{max}=Q\\left(1-\\frac{T_0}{T}\\right)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "The properties of water in the steam tables are arranged as functions of:",
+      "question_ar": "تُرتَّب خواص الماء في جداول البخار كدوال لـ:",
+      "options": [
+        "Pressure only",
+        "Temperature only",
+        "Pressure and temperature (separate saturation tables by $P$ or $T$)",
+        "Volume only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Saturation tables are given by temperature and by pressure; superheated and compressed-liquid tables use both $P$ and $T$.",
+      "explanation_ar": "جداول التشبع تُعطى بدلالة درجة الحرارة وبدلالة الضغط، وجداول البخار المحمص والسائل المضغوط تستخدم $P$ و $T$ معاً.",
+      "memorization_note": "الحالة المشبعة: $P_{sat}=f(T_{sat})$ ، متغير مستقل واحد فقط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "The reference state in steam tables: the internal energy and entropy of saturated liquid water at the triple point are taken as:",
+      "question_ar": "الحالة المرجعية في جداول البخار: الطاقة الداخلية والإنتروبي للماء السائل المشبع عند النقطة الثلاثية تُؤخذ تساوي:",
+      "options": [
+        "$u_f=0$ and $s_f=0$",
+        "$u_f=1$ and $s_f=1$",
+        "$u_f=-1$ and $s_f=-1$",
+        "$u_f=\\infty$ and $s_f=\\infty$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "By convention $u_f=0$ and $s_f=0$ for saturated water at the triple point ($0.01^\\circ\\text{C}$).",
+      "explanation_ar": "حسب الاصطلاح $u_f=0$ و $s_f=0$ للماء المشبع عند النقطة الثلاثية ($0.01^\\circ\\text{C}$).",
+      "memorization_note": "النقطة الثلاثية للماء: $T=0.01^\\circ\\text{C}$ ، $P=0.6113\\text{ kPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "To identify a saturation state of a pure substance (liquid and vapour in equilibrium), how many independent properties are required?",
+      "question_ar": "لتحديد حالة التشبع لمادة نقية (سائل وبخار في اتزان)، كم خاصية مستقلة يلزم معرفتها؟",
+      "options": [
+        "One ($P$ or $T$)",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Saturated liquid or vapour has one degree of freedom: $P_{sat}$ and $T_{sat}$ are dependent on each other.",
+      "explanation_ar": "السائل أو البخار المشبع له درجة حرية واحدة: $P_{sat}$ و $T_{sat}$ مرتبطان ببعضهما.",
+      "memorization_note": "قاعدة الطور لمادة نقية: $F=C-\\Phi+2=1-2+2=1$ في منطقة الطورين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "For a liquid–vapour mixture, all properties can be found if:",
+      "question_ar": "لخليط سائل-بخار يمكن إيجاد جميع الخواص إذا أُعطي:",
+      "options": [
+        "$P$ or $T$ and the quality $x$",
+        "$P$ or $T$ only",
+        "$T$ and $v$ with $x$ unknown only",
+        "Only $x$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In the two-phase region $P$ and $T$ are dependent, so one of them plus quality (or another independent property) fixes the state.",
+      "explanation_ar": "في منطقة الطورين $P$ و $T$ مرتبطان لذا يحدد أحدهما مع الجودة $x$ الحالة.",
+      "memorization_note": "$$v=v_f+xv_{fg},\\; h=h_f+xh_{fg},\\; s=s_f+xs_{fg}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "The quality (dryness fraction) $x$ of a liquid–vapour mixture indicates:",
+      "question_ar": "تدل الجودة (نسبة الجفاف) $x$ لخليط سائل-بخار على:",
+      "options": [
+        "Mass fraction of liquid in the mixture",
+        "Mass fraction of vapour in the mixture",
+        "Volume fraction of liquid",
+        "Pressure ratio"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$x=\\frac{m_g}{m_f+m_g}$$ For 1 kg of mixture: vapour $=x$ kg, liquid $=(1-x)$ kg.",
+      "explanation_ar": "$$x=\\frac{m_g}{m_f+m_g}$$ لكل $1\\text{ kg}$ خليط: البخار $=x$ والسائل $=(1-x)$.",
+      "memorization_note": "$$x=\\frac{m_g}{m_{total}},\\quad 0\\le x\\le1$$ (سائل مشبع $x=0$ ، بخار مشبع $x=1$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "Which statement about quality is true?",
+      "question_ar": "أي عبارة عن الجودة صحيحة؟",
+      "options": [
+        "$x$ varies between 0 and 1",
+        "For saturated liquid $x=0$",
+        "For saturated vapour $x=1$",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three statements are correct. Quality is defined only in the saturation (wet) region.",
+      "explanation_ar": "العبارات الثلاث صحيحة. الجودة معرّفة فقط في منطقة التشبع (الرطبة).",
+      "memorization_note": "$x=0$ سائل مشبع ، $x=1$ بخار مشبع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 102,
+      "question_en": "The specific volume of a liquid–vapour mixture of quality $x$ is:",
+      "question_ar": "الحجم النوعي لخليط سائل-بخار جودته $x$ هو:",
+      "options": [
+        "$v=(1+x)v_f+xv_g$",
+        "$v=(1-x)v_f+xv_g$",
+        "$v=(1-x)v_f-xv_g$",
+        "$v=xv_f+(1-x)v_g$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$v=(1-x)v_f+xv_g=v_f+x\\,v_{fg}$, with $v_{fg}=v_g-v_f$.",
+      "explanation_ar": "$v=(1-x)v_f+xv_g=v_f+x\\,v_{fg}$ حيث $v_{fg}=v_g-v_f$.",
+      "memorization_note": "$$v=v_f+xv_{fg},\\; h=h_f+xh_{fg},\\; u=u_f+xu_{fg},\\; s=s_f+xs_{fg}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 103,
+      "question_en": "A vapour is said to be superheated when:",
+      "question_ar": "يكون البخار محمصاً (Superheated) عندما:",
+      "options": [
+        "$T<T_{sat}$ at the given pressure",
+        "$T>T_{sat}$ at the given pressure",
+        "$T=T_{sat}$ at the given pressure",
+        "$P>P_{sat}$ at the given temperature"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Superheated vapour has temperature above saturation at that pressure. Degree of superheat $=T-T_{sat}$.",
+      "explanation_ar": "البخار المحمص درجة حرارته أعلى من درجة التشبع عند ذلك الضغط. درجة التحميص $=T-T_{sat}$.",
+      "memorization_note": "$$\\text{superheat}=T-T_{sat}(P)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 104,
+      "question_en": "When the temperature of a liquid is lower than the saturation temperature at the given pressure, the liquid is called:",
+      "question_ar": "عندما تكون درجة حرارة السائل أقل من درجة التشبع عند الضغط المعطى يسمى السائل:",
+      "options": [
+        "Saturated liquid",
+        "Compressed (subcooled) liquid",
+        "Superheated liquid",
+        "Wet vapour"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Compressed (subcooled) liquid: $T<T_{sat}$ (equivalently $P>P_{sat}$). Subcooling $=T_{sat}-T$.",
+      "explanation_ar": "السائل المضغوط (المبرَّد دون التشبع): $T<T_{sat}$ (أو $P>P_{sat}$). درجة التبريد $=T_{sat}-T$.",
+      "memorization_note": "خواص السائل تتغير قليلاً مع الضغط، لذا غالباً $v\\approx v_f(T)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 105,
+      "question_en": "The properties of a liquid vary ____ with pressure.",
+      "question_ar": "خواص السائل تتغير ____ مع الضغط.",
+      "options": [
+        "largely",
+        "little",
+        "not at all",
+        "exponentially"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Liquids are nearly incompressible, so $v,u,h$ depend mainly on temperature.",
+      "explanation_ar": "السوائل شبه غير قابلة للانضغاط لذا تعتمد $v,u,h$ أساساً على درجة الحرارة.",
+      "memorization_note": "للسائل المضغوط: $v\\approx v_f(T)$ ، $h\\approx h_f(T)+v_f(P-P_{sat})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 106,
+      "question_en": "The total volume of a liquid–vapour mixture equals:",
+      "question_ar": "الحجم الكلي لخليط سائل-بخار يساوي:",
+      "options": [
+        "Volume of saturated liquid only",
+        "Volume of saturated vapour only",
+        "Sum of volumes of saturated liquid and saturated vapour",
+        "Product of both volumes"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$V=V_f+V_g=m_fv_f+m_gv_g$.",
+      "explanation_ar": "$V=V_f+V_g=m_fv_f+m_gv_g$.",
+      "memorization_note": "$$V=m_fv_f+m_gv_g$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 107,
+      "question_en": "Which statement about thermodynamic property charts ($T$–$s$, $h$–$s$) is correct?",
+      "question_ar": "أي عبارة عن مخططات الخواص الثرموداينميكية ($T$–$s$ و $h$–$s$) صحيحة؟",
+      "options": [
+        "They show clearly how properties vary and interpolation is easy",
+        "Their precision is lower than steam tables",
+        "The $h$–$s$ (Mollier) chart has a larger scale suitable for many computations",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All statements are true: charts give a visual overview but less precision than tables; the Mollier chart is widely used for computations.",
+      "explanation_ar": "جميع العبارات صحيحة: المخططات توضح تغير الخواص بصرياً لكن دقتها أقل من الجداول، ومخطط موليير ($h$–$s$) واسع الاستخدام في الحسابات.",
+      "memorization_note": "مخطط موليير: $h$ مقابل $s$ ، ميل الخط ثابت الضغط $\\left(\\frac{\\partial h}{\\partial s}\\right)_P=T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 108,
+      "question_en": "An ideal gas is one which obeys the equation of state at all pressures and temperatures. Which form is correct?",
+      "question_ar": "الغاز المثالي هو الذي يخضع لمعادلة الحالة عند جميع الضغوط ودرجات الحرارة. أي صيغة صحيحة؟",
+      "options": [
+        "$PV=mRT$ ($R$: characteristic gas constant)",
+        "$PV=nR_uT$ ($R_u$: universal gas constant)",
+        "$PV=NkT$",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All are equivalent forms of the ideal-gas law, with $R=R_u/M$.",
+      "explanation_ar": "جميعها صيغ مكافئة لقانون الغاز المثالي حيث $R=R_u/M$.",
+      "memorization_note": "$$PV=mRT=nR_uT,\\quad R=\\frac{R_u}{M},\\quad R_u=8.314\\text{ kJ/kmol·K}$$ ثابت بولتزمان $k=1.38\\times10^{-23}\\text{ J/K}$ وعدد أفوكادرو $N_A=6.023\\times10^{26}\\text{ molecules/kmol}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 109,
+      "question_en": "The value of the universal gas constant $R_u$ is:",
+      "question_ar": "قيمة ثابت الغازات العام $R_u$ تساوي:",
+      "options": [
+        "$8.2353\\text{ kJ/kmol·K}$",
+        "$8.3143\\text{ kJ/kmol·K}$",
+        "$8.5123\\text{ kJ/kmol·K}$",
+        "$9.3143\\text{ kJ/kmol·K}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$R_u=8.314\\text{ kJ/(kmol·K)}$ (also $0.08206\\text{ L·atm/mol·K}$).",
+      "explanation_ar": "$R_u=8.314\\text{ kJ/(kmol·K)}$ (أو $0.08206\\text{ L·atm/mol·K}$).",
+      "memorization_note": "$R_u=8.314\\text{ J/mol·K}=0.08206\\text{ L·atm/mol·K}$ ، $1\\text{ atm}=101.325\\text{ kPa}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 110,
+      "question_en": "For an ideal gas, which relation between $c_p$, $c_v$ and $R$ is correct?",
+      "question_ar": "لغاز مثالي، أي علاقة بين $c_p$ و $c_v$ و $R$ صحيحة؟",
+      "options": [
+        "$R=c_v-c_p$",
+        "$R=c_p+c_v$",
+        "$R=c_p-c_v$",
+        "$R=c_p\\,c_v$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "From $h=u+RT$: $dh/dT-du/dT=R\\Rightarrow c_p-c_v=R$ (Mayer's relation).",
+      "explanation_ar": "من $h=u+RT$: $dh/dT-du/dT=R\\Rightarrow c_p-c_v=R$ (علاقة ماير).",
+      "memorization_note": "$$c_p-c_v=R,\\quad \\gamma=\\frac{c_p}{c_v},\\quad c_v=\\frac{R}{\\gamma-1},\\quad c_p=\\frac{\\gamma R}{\\gamma-1}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 111,
+      "question_en": "Which statement about the ratio $\\gamma=c_p/c_v$ is correct?",
+      "question_ar": "أي عبارة عن النسبة $\\gamma=c_p/c_v$ صحيحة؟",
+      "options": [
+        "$\\gamma=5/3$ for monoatomic gases",
+        "$\\gamma=7/5$ for diatomic gases",
+        "$\\gamma\\approx4/3$ for polyatomic gases",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Monoatomic (He, Ar): 1.67; diatomic (N₂, O₂, air): 1.4; polyatomic (CO₂, CH₄): about 1.33.",
+      "explanation_ar": "أحادية الذرة (He, Ar): 1.67؛ ثنائية الذرة (N₂, O₂, هواء): 1.4؛ متعددة الذرات (CO₂, CH₄): نحو 1.33.",
+      "memorization_note": "$\\gamma_{\\text{mono}}=\\frac{5}{3},\\;\\gamma_{\\text{di}}=\\frac{7}{5}=1.4,\\;\\gamma_{\\text{poly}}\\approx\\frac{4}{3}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 112,
+      "question_en": "For a reversible adiabatic (isentropic) process of an ideal gas with constant specific heats:",
+      "question_ar": "لعملية كظيمة عكوسة (إيزنتروبية) لغاز مثالي بحرارة نوعية ثابتة:",
+      "options": [
+        "$PV^\\gamma=\\text{const}$",
+        "$TV^{\\gamma-1}=\\text{const}$",
+        "$TP^{(1-\\gamma)/\\gamma}=\\text{const}$",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "These three relations are equivalent forms obtained from $ds=0$.",
+      "explanation_ar": "هذه العلاقات الثلاث متكافئة وتُستنتج من $ds=0$.",
+      "memorization_note": "$$PV^\\gamma=\\text{const},\\quad \\frac{T_2}{T_1}=\\left(\\frac{V_1}{V_2}\\right)^{\\gamma-1}=\\left(\\frac{P_2}{P_1}\\right)^{\\frac{\\gamma-1}{\\gamma}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 113,
+      "question_en": "In the polytropic process $PV^n=\\text{const}$, which value of $n$ is correct?",
+      "question_ar": "في العملية متعددة المسارات $PV^n=\\text{const}$، أي قيمة لـ $n$ صحيحة؟",
+      "options": [
+        "Isobaric: $n=0$",
+        "Isothermal (ideal gas): $n=1$",
+        "Isentropic: $n=\\gamma$ and isochoric: $n=\\infty$",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n=0$: $P=\\text{const}$; $n=1$: $T=\\text{const}$; $n=\\gamma$: $s=\\text{const}$; $n=\\infty$: $V=\\text{const}$.",
+      "explanation_ar": "$n=0$: ضغط ثابت؛ $n=1$: حرارة ثابتة؛ $n=\\gamma$: إنتروبي ثابتة؛ $n=\\infty$: حجم ثابت.",
+      "memorization_note": "$$W=\\frac{P_2V_2-P_1V_1}{1-n}\\;(n\\neq1),\\qquad W=P_1V_1\\ln\\frac{V_2}{V_1}\\;(n=1)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 114,
+      "question_en": "Which expression gives the entropy change of an ideal gas between two states (constant specific heats)?",
+      "question_ar": "أي تعبير يعطي تغير إنتروبي غاز مثالي بين حالتين (حرارة نوعية ثابتة)؟",
+      "options": [
+        "$s_2-s_1=c_v\\ln\\frac{T_2}{T_1}+R\\ln\\frac{v_2}{v_1}$ only",
+        "$s_2-s_1=c_p\\ln\\frac{T_2}{T_1}-R\\ln\\frac{P_2}{P_1}$ only",
+        "Both (a) and (b) are valid",
+        "$s_2-s_1=c_p\\ln\\frac{T_2}{T_1}+R\\ln\\frac{P_2}{P_1}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Both are valid forms (from $Tds=du+Pdv$ and $Tds=dh-vdP$). Option (d) has the wrong sign on the pressure term.",
+      "explanation_ar": "الصيغتان (a) و (b) صحيحتان (من $Tds=du+Pdv$ و $Tds=dh-vdP$). الخيار (d) إشارة حد الضغط فيه خاطئة.",
+      "memorization_note": "$$\\Delta s=c_v\\ln\\frac{T_2}{T_1}+R\\ln\\frac{v_2}{v_1}=c_p\\ln\\frac{T_2}{T_1}-R\\ln\\frac{P_2}{P_1}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 115,
+      "question_en": "A spherical helium balloon of diameter $10\\text{ m}$ is at $15^\\circ\\text{C}$ and $100\\text{ kPa}$. How much helium does it contain? ($R_{He}=2.0771\\text{ kJ/kg·K}$)",
+      "question_ar": "منطاد كروي من الهيليوم قطره $10\\text{ m}$ عند $15^\\circ\\text{C}$ و $100\\text{ kPa}$. كم كتلة الهيليوم فيه؟ ($R_{He}=2.0771\\text{ kJ/kg·K}$)",
+      "options": [
+        "$57.5\\text{ kg}$",
+        "$67.5\\text{ kg}$",
+        "$77.5\\text{ kg}$",
+        "$87.5\\text{ kg}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$V=\\frac{\\pi D^3}{6}=523.6\\text{ m}^3,\\quad m=\\frac{PV}{RT}=\\frac{100\\times523.6}{2.0771\\times288.15}\\approx87.5\\text{ kg}$$",
+      "explanation_ar": "$$V=\\frac{\\pi D^3}{6}=523.6\\text{ m}^3,\\quad m=\\frac{PV}{RT}=\\frac{100\\times523.6}{2.0771\\times288.15}\\approx87.5\\text{ kg}$$",
+      "memorization_note": "حجم الكرة $V=\\frac{4}{3}\\pi r^3=\\frac{\\pi D^3}{6}$. الوزن الذري $\\text{He}=4$ ؛ $R=\\frac{8.314}{M}$ ؛ $m=\\frac{PV}{RT}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 116,
+      "question_en": "A rigid tank of $1\\text{ m}^3$ holds nitrogen at $600\\text{ kPa}$ and $400\\text{ K}$ ($R=0.2968\\text{ kJ/kg·K}$). After $0.5\\text{ kg}$ flows out the temperature is $375\\text{ K}$. Find the final pressure.",
+      "question_ar": "خزان صلب حجمه $1\\text{ m}^3$ يحتوي نيتروجين عند $600\\text{ kPa}$ و $400\\text{ K}$ ($R=0.2968\\text{ kJ/kg·K}$). بعد خروج $0.5\\text{ kg}$ أصبحت درجة الحرارة $375\\text{ K}$. جد الضغط النهائي.",
+      "options": [
+        "$501.9\\text{ kPa}$",
+        "$503.9\\text{ kPa}$",
+        "$506.9\\text{ kPa}$",
+        "$510.9\\text{ kPa}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$m_1=\\frac{P_1V}{RT_1}=\\frac{600\\times1}{0.2968\\times400}=5.054\\text{ kg},\\quad m_2=4.554\\text{ kg}$$ $$P_2=\\frac{m_2RT_2}{V}=4.554\\times0.2968\\times375\\approx506.9\\text{ kPa}$$",
+      "explanation_ar": "$$m_1=\\frac{P_1V}{RT_1}=\\frac{600\\times1}{0.2968\\times400}=5.054\\text{ kg},\\quad m_2=4.554\\text{ kg}$$ $$P_2=\\frac{m_2RT_2}{V}=4.554\\times0.2968\\times375\\approx506.9\\text{ kPa}$$",
+      "memorization_note": "الوزن الذري $\\text{N}=14$ فـ $M(\\text{N}_2)=28$ ، $R=\\frac{8.314}{28}=0.2969\\text{ kJ/kg·K}$ ، $PV=mRT$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 117,
+      "question_en": "A cylindrical tank ($1\\text{ m}$ long, inside diameter $20\\text{ cm}$) is evacuated and filled with $1.2\\text{ kg}$ of $\\text{CO}_2$ at $25^\\circ\\text{C}$. What is the pressure? ($R_{CO_2}=0.1889\\text{ kJ/kg·K}$)",
+      "question_ar": "خزان أسطواني (طوله $1\\text{ m}$ وقطره الداخلي $20\\text{ cm}$) أُفرغ ثم مُلئ بـ $1.2\\text{ kg}$ من $\\text{CO}_2$ عند $25^\\circ\\text{C}$. ما الضغط؟ ($R_{CO_2}=0.1889\\text{ kJ/kg·K}$)",
+      "options": [
+        "$2052\\text{ kPa}$",
+        "$2152\\text{ kPa}$",
+        "$2252\\text{ kPa}$",
+        "$2352\\text{ kPa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$V=\\frac{\\pi D^2}{4}L=\\frac{\\pi(0.2)^2}{4}(1)=0.03142\\text{ m}^3$$ $$P=\\frac{mRT}{V}=\\frac{1.2\\times0.1889\\times298.15}{0.03142}\\approx2152\\text{ kPa}$$",
+      "explanation_ar": "$$V=\\frac{\\pi D^2}{4}L=\\frac{\\pi(0.2)^2}{4}(1)=0.03142\\text{ m}^3$$ $$P=\\frac{mRT}{V}=\\frac{1.2\\times0.1889\\times298.15}{0.03142}\\approx2152\\text{ kPa}$$",
+      "memorization_note": "$M(\\text{CO}_2)=12+2(16)=44$ ، $R=\\frac{8.314}{44}=0.1889\\text{ kJ/kg·K}$. حجم الأسطوانة $V=\\frac{\\pi D^2}{4}L$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 118,
+      "question_en": "A hollow sphere of inside diameter $150\\text{ mm}$ is weighed evacuated and then filled to $875\\text{ kPa}$ with an unknown gas at $25^\\circ\\text{C}$. The mass difference is $0.0025\\text{ kg}$. Which gas is it?",
+      "question_ar": "كرة مجوفة قطرها الداخلي $150\\text{ mm}$ وُزنت وهي مفرغة ثم بعد ملئها بغاز مجهول حتى $875\\text{ kPa}$ عند $25^\\circ\\text{C}$. فرق الكتلة $0.0025\\text{ kg}$. ما هذا الغاز؟",
+      "options": [
+        "Helium",
+        "Argon",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$V=\\frac{\\pi D^3}{6}=\\frac{\\pi(0.15)^3}{6}=1.767\\times10^{-3}\\text{ m}^3,\\quad M=\\frac{mR_uT}{PV}=\\frac{0.0025\\times8.314\\times298.15}{875\\times1.767\\times10^{-3}}\\approx4.0\\text{ kg/kmol}$$ Helium ($M=4$).",
+      "explanation_ar": "$$V=\\frac{\\pi D^3}{6}=\\frac{\\pi(0.15)^3}{6}=1.767\\times10^{-3}\\text{ m}^3,\\quad M=\\frac{mR_uT}{PV}=\\frac{0.0025\\times8.314\\times298.15}{875\\times1.767\\times10^{-3}}\\approx4.0\\text{ kg/kmol}$$ الهيليوم ($M=4$).",
+      "memorization_note": "الكتل المولية: $\\text{H}_2=2$ ، $\\text{He}=4$ ، $\\text{N}_2=28$ ، $\\text{Ar}=40$. $M=\\frac{mR_uT}{PV}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 119,
+      "question_en": "An automobile tire contains air at $-10^\\circ\\text{C}$ and $190\\text{ kPa}$. Later the temperature rises to $10^\\circ\\text{C}$ (constant volume). Find the new pressure.",
+      "question_ar": "إطار سيارة يحتوي هواء عند $-10^\\circ\\text{C}$ و $190\\text{ kPa}$. لاحقاً ترتفع الحرارة إلى $10^\\circ\\text{C}$ (حجم ثابت). جد الضغط الجديد.",
+      "options": [
+        "$200.4\\text{ kPa}$",
+        "$204.4\\text{ kPa}$",
+        "$210.4\\text{ kPa}$",
+        "$224.4\\text{ kPa}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Constant volume: $$P_2=P_1\\frac{T_2}{T_1}=190\\times\\frac{283.15}{263.15}\\approx204.4\\text{ kPa}$$",
+      "explanation_ar": "حجم ثابت: $$P_2=P_1\\frac{T_2}{T_1}=190\\times\\frac{283.15}{263.15}\\approx204.4\\text{ kPa}$$",
+      "memorization_note": "عملية isochoric لغاز مثالي: $\\frac{P_1}{T_1}=\\frac{P_2}{T_2}$ (درجة الحرارة بالكلفن).",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 120,
+      "question_en": "Air in a piston-cylinder at $600\\text{ kPa}$, $290\\text{ K}$, $V=0.01\\text{ m}^3$ undergoes a constant-pressure process producing $54\\text{ kJ}$ of work. Find the final temperature.",
+      "question_ar": "هواء في مكبس/أسطوانة عند $600\\text{ kPa}$ و $290\\text{ K}$ وحجم $0.01\\text{ m}^3$ يمر بعملية ضغط ثابت تنتج شغلاً $54\\text{ kJ}$. جد درجة الحرارة النهائية.",
+      "options": [
+        "$2700\\text{ K}$",
+        "$2800\\text{ K}$",
+        "$2900\\text{ K}$",
+        "$3000\\text{ K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$W=P\\Delta V\\Rightarrow\\Delta V=\\frac{54}{600}=0.09\\text{ m}^3,\\; V_2=0.1\\text{ m}^3,\\quad T_2=T_1\\frac{V_2}{V_1}=290\\times10=2900\\text{ K}$$",
+      "explanation_ar": "$$W=P\\Delta V\\Rightarrow\\Delta V=\\frac{54}{600}=0.09\\text{ m}^3,\\; V_2=0.1\\text{ m}^3,\\quad T_2=T_1\\frac{V_2}{V_1}=290\\times10=2900\\text{ K}$$",
+      "memorization_note": "عملية isobaric: $W=P\\Delta V$ و $\\frac{V_1}{T_1}=\\frac{V_2}{T_2}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 121,
+      "question_en": "The partial pressure of the $k$-th gas in an ideal-gas mixture is given by:",
+      "question_ar": "الضغط الجزئي للغاز رقم $k$ في خليط غازات مثالية يُعطى بـ:",
+      "options": [
+        "$nVRT$",
+        "$\\frac{nRT}{V}$",
+        "$\\frac{V}{nRT}$",
+        "$\\frac{1}{nVRT}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Each gas behaves as if alone in the volume: $P_k=\\frac{n_kRT}{V}$.",
+      "explanation_ar": "كل غاز يتصرف كأنه وحده في الحجم: $P_k=\\frac{n_kRT}{V}$.",
+      "memorization_note": "$$P_k=\\frac{n_kR_uT}{V}=y_kP,\\qquad y_k=\\frac{n_k}{n_{total}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 122,
+      "question_en": "According to Dalton's law of partial pressures, the total pressure of a mixture of ideal gases equals:",
+      "question_ar": "وفق قانون دالتون للضغوط الجزئية، الضغط الكلي لخليط غازات مثالية يساوي:",
+      "options": [
+        "Difference of highest and lowest pressures",
+        "Product of partial pressures",
+        "Sum of the partial pressures",
+        "Average of the partial pressures"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$P=\\sum_kP_k$$",
+      "explanation_ar": "$$P=\\sum_kP_k$$",
+      "memorization_note": "$$P=\\sum P_k,\\qquad P_k=y_kP,\\qquad \\sum y_k=1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 123,
+      "question_en": "Which relation for a gas mixture is correct?",
+      "question_ar": "أي علاقة لخليط غازات صحيحة؟",
+      "options": [
+        "Mole fraction $y_k=n_k/n_{total}$",
+        "$\\sum y_k=1$",
+        "$P_k=y_kP$",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All are correct basic relations for ideal-gas mixtures.",
+      "explanation_ar": "جميعها علاقات أساسية صحيحة لخلائط الغازات المثالية.",
+      "memorization_note": "$$y_k=\\frac{n_k}{n},\\quad \\sum y_k=1,\\quad P_k=y_kP,\\quad M_{mix}=\\sum y_kM_k$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 124,
+      "question_en": "In a mixture of ideal gases, the total internal energy (and also $H$, $S$, $C_p$, $C_v$) of the mixture is:",
+      "question_ar": "في خليط غازات مثالية، الطاقة الداخلية الكلية (وكذلك $H$ و $S$ و $C_p$ و $C_v$) للخليط تساوي:",
+      "options": [
+        "The average of the components",
+        "The product of the components",
+        "The sum of the partial values of the components",
+        "The difference between the largest and smallest"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Extensive properties are additive: $U=\\sum U_k$, $H=\\sum H_k$, $S=\\sum S_k$ (partial entropies at partial pressures).",
+      "explanation_ar": "الخواص الشاملة جمعية: $U=\\sum U_k$ و $H=\\sum H_k$ و $S=\\sum S_k$ (إنتروبيات جزئية عند الضغوط الجزئية).",
+      "memorization_note": "$$U=\\sum n_k\\bar u_k,\\quad H=\\sum n_k\\bar h_k,\\quad S=\\sum n_k\\bar s_k$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 125,
+      "question_en": "Two ideal gases at the same pressure and temperature are mixed adiabatically without work. Which quantity of the gas system remains constant?",
+      "question_ar": "يُخلط غازان مثاليان عند الضغط ودرجة الحرارة نفسيهما بشكل كظيم دون شغل. أي كمية للنظام تبقى ثابتة؟",
+      "options": [
+        "Internal energy",
+        "Entropy",
+        "Both are constant",
+        "Neither"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q=W=0\\Rightarrow\\Delta U=0$. Entropy increases (mixing is irreversible).",
+      "explanation_ar": "$Q=W=0\\Rightarrow\\Delta U=0$. أما الإنتروبي فتزداد لأن الخلط لاعكوسي.",
+      "memorization_note": "الخلط: $\\Delta U=0$ ، $\\Delta S_{mix}=-R_u\\sum n_k\\ln y_k>0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 126,
+      "question_en": "A power cycle continuously converts ____ into ____.",
+      "question_ar": "تحوّل دورة القدرة باستمرار ____ إلى ____.",
+      "options": [
+        "heat, heat",
+        "work, heat",
+        "heat, work",
+        "work, work"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A power (heat-engine) cycle converts heat input into net work output; $W_{net}=Q_1-Q_2$.",
+      "explanation_ar": "دورة القدرة (الآلة الحرارية) تحوّل الحرارة المُدخلة إلى شغل صافٍ: $W_{net}=Q_1-Q_2$.",
+      "memorization_note": "$$\\eta=\\frac{W_{net}}{Q_1}=1-\\frac{Q_2}{Q_1}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 127,
+      "question_en": "What is the correct sequence of components in a simple vapour (Rankine) power cycle?",
+      "question_ar": "ما التسلسل الصحيح لمكونات دورة القدرة البخارية البسيطة (رانكن)؟",
+      "options": [
+        "Boiler → condenser → turbine → pump",
+        "Boiler → turbine → condenser → pump",
+        "Boiler → turbine → pump → condenser",
+        "Boiler → pump → turbine → condenser"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Steam from the boiler expands in the turbine, is condensed in the condenser, and the pump returns the liquid to the boiler.",
+      "explanation_ar": "البخار من المرجل يتمدد في التوربين ثم يتكثف في المكثف وتعيد المضخة السائل إلى المرجل.",
+      "memorization_note": "رانكن المثالية: 1→2 ضغط إيزنتروبي (مضخة) ، 2→3 تسخين عند ضغط ثابت (مرجل) ، 3→4 تمدد إيزنتروبي (توربين) ، 4→1 تكثف عند ضغط ثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 128,
+      "question_en": "For an ideal Rankine cycle, which statement is correct?",
+      "question_ar": "في دورة رانكن المثالية، أي عبارة صحيحة؟",
+      "options": [
+        "Reversible constant-pressure heating in the boiler",
+        "Reversible adiabatic expansion in the turbine",
+        "Reversible constant-pressure heat rejection in the condenser",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All processes are ideal: isobaric heating, isentropic expansion, isobaric condensation and isentropic pumping.",
+      "explanation_ar": "جميع العمليات مثالية: تسخين isobaric وتمدد isentropic وتكثيف isobaric وضخ isentropic.",
+      "memorization_note": "$$\\eta=\\frac{w_t-w_p}{q_{in}},\\quad w_p=v_f(P_2-P_1)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 129,
+      "question_en": "The liquid water handled by the pump of a Rankine cycle is treated as:",
+      "question_ar": "يُعامل الماء السائل في مضخة دورة رانكن على أنه:",
+      "options": [
+        "Compressible",
+        "Incompressible (little change in specific volume with pressure)",
+        "A superheated vapour",
+        "An ideal gas"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Hence the pump work is $w_p=v_f(P_{high}-P_{low})$, very small compared with turbine work.",
+      "explanation_ar": "لذلك شغل المضخة $w_p=v_f(P_{high}-P_{low})$ وهو صغير جداً مقارنة بشغل التوربين.",
+      "memorization_note": "$$w_p=v\\,\\Delta P\\;\\;(v\\approx\\text{const})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 130,
+      "question_en": "The work ratio of a vapour power cycle is the ratio of:",
+      "question_ar": "نسبة الشغل (Work Ratio) لدورة قدرة بخارية هي نسبة:",
+      "options": [
+        "Positive work output to net work output",
+        "Net work output to positive work output",
+        "Heat input to work output",
+        "Pump work to heat input"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\text{Work ratio}=\\frac{W_{net}}{W_{turbine}}=\\frac{W_t-W_p}{W_t}$$",
+      "explanation_ar": "$$\\text{Work ratio}=\\frac{W_{net}}{W_{turbine}}=\\frac{W_t-W_p}{W_t}$$",
+      "memorization_note": "$$\\text{Work ratio}=\\frac{w_t-w_p}{w_t},\\quad \\text{Heat rate}=\\frac{3600}{\\eta}\\;\\text{kJ/kWh}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 131,
+      "question_en": "The heat rate (in kJ/kWh) of a power plant is given by:",
+      "question_ar": "معدل الحرارة (Heat Rate) لمحطة قدرة (بوحدة kJ/kWh) يُعطى بـ:",
+      "options": [
+        "$\\eta$",
+        "$3600/\\eta$",
+        "$\\eta/3600$",
+        "$3600\\,\\eta$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Heat input per kWh of output: $1\\text{ kWh}=3600\\text{ kJ}$, so heat rate $=3600/\\eta$.",
+      "explanation_ar": "الحرارة المُدخلة لكل kWh ناتج: $1\\text{ kWh}=3600\\text{ kJ}$ لذا معدل الحرارة $=3600/\\eta$.",
+      "memorization_note": "$$\\text{Heat rate}=\\frac{3600}{\\eta_{cycle}}\\;\\text{kJ/kWh},\\qquad \\text{Steam rate}=\\frac{3600}{W_{net}}\\;\\text{kg/kWh}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 132,
+      "question_en": "For a Rankine cycle, the efficiency can be written as $\\eta=1-\\frac{T_{rej}}{T_{mean}}$. Which statement is true?",
+      "question_ar": "لدورة رانكن، تُكتب الكفاءة $\\eta=1-\\frac{T_{rej}}{T_{mean}}$. أي عبارة صحيحة؟",
+      "options": [
+        "For a given $T_{mean}$, lower $T_{rej}$ gives higher efficiency",
+        "Higher mean temperature of heat addition gives higher efficiency",
+        "The lowest possible heat rejection temperature is the surroundings temperature",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three are correct. To raise efficiency: raise $T_{mean}$ (higher pressure, superheat, reheat) and lower $T_{rej}$ (lower condenser pressure).",
+      "explanation_ar": "الثلاث صحيحة. لرفع الكفاءة: ارفع $T_{mean}$ (ضغط أعلى، تحميص، إعادة تسخين) وخفّض $T_{rej}$ (ضغط مكثف أقل).",
+      "memorization_note": "$$\\eta=1-\\frac{T_{rej}}{T_{mean,add}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 133,
+      "question_en": "If the superheat is increased at constant pressure in a Rankine cycle, the cycle efficiency:",
+      "question_ar": "إذا زِيدَ التحميص عند ضغط ثابت في دورة رانكن فإن كفاءة الدورة:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains the same",
+        "Becomes zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Superheating raises the mean temperature of heat addition and also improves exhaust quality.",
+      "explanation_ar": "التحميص يرفع متوسط درجة حرارة إضافة الحرارة ويحسّن جودة البخار الخارج من التوربين.",
+      "memorization_note": "التحميص ⇒ ارتفاع $T_{mean}$ ⇒ ارتفاع $\\eta$ ، لكنه محدود بمقاومة المعدن.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 134,
+      "question_en": "To prevent erosion of turbine blades, the steam quality at turbine exhaust should not fall below about:",
+      "question_ar": "لمنع تآكل ريش التوربين يجب ألا تقل جودة البخار عند خروجه من التوربين عن نحو:",
+      "options": [
+        "$85\\%$",
+        "$90\\%$",
+        "$95\\%$",
+        "$100\\%$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Moisture must be limited to avoid blade erosion; the usual practical limit of exhaust quality is $x\\approx0.90$ (about 0.85–0.90).",
+      "explanation_ar": "يجب تحديد الرطوبة لتفادي تآكل الريش؛ الحد العملي المعتاد لجودة العادم $x\\approx0.90$ (نحو 0.85–0.90).",
+      "memorization_note": "الحد الأدنى لجودة بخار العادم $x\\approx0.9$ لتفادي تآكل الريش.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 135,
+      "question_en": "What is the main purpose of reheating steam in a Rankine cycle?",
+      "question_ar": "ما الغرض الأساسي من إعادة تسخين البخار (Reheat) في دورة رانكن؟",
+      "options": [
+        "To increase the pump work",
+        "To limit the moisture (keep a high quality) at turbine exhaust when boiler pressure is high",
+        "To reduce the boiler temperature",
+        "To eliminate the condenser"
+      ],
+      "correct_index": 1,
+      "explanation_en": "After partial expansion in the HP turbine, the steam returns to the boiler (reheater) at constant pressure and then expands in the LP turbine; the exhaust quality stays within limits.",
+      "explanation_ar": "بعد تمدد جزئي في توربين الضغط العالي يعود البخار إلى المرجل (المسخن الثانوي) عند ضغط ثابت ثم يتمدد في توربين الضغط الواطئ، فتبقى جودة العادم ضمن الحد.",
+      "memorization_note": "تسلسل التمدد: HP توربين ← إعادة تسخين عند ضغط ثابت ← LP توربين. ضغط إعادة التسخين الأمثل $\\approx0.2$–$0.25$ من الضغط الابتدائي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 136,
+      "question_en": "The optimum reheat pressure is approximately ____ times the initial steam pressure.",
+      "question_ar": "ضغط إعادة التسخين الأمثل يساوي تقريباً ____ من ضغط البخار الابتدائي.",
+      "options": [
+        "$0.2$",
+        "$0.23$",
+        "$0.25$",
+        "All of the above (about $0.2$–$0.25$)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The optimum is in the range of $0.2$–$0.25$ of the initial pressure.",
+      "explanation_ar": "القيمة المثلى ضمن المدى $0.2$–$0.25$ من الضغط الابتدائي.",
+      "memorization_note": "$P_{reheat,opt}\\approx(0.2\\text{–}0.25)\\,P_{initial}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 137,
+      "question_en": "Why is regeneration (feedwater heating) used in vapour power cycles?",
+      "question_ar": "لماذا يُستخدم التسخين التجديدي (تسخين ماء التغذية) في دورات القدرة البخارية؟",
+      "options": [
+        "To raise the mean temperature of heat addition and improve efficiency",
+        "To increase the moisture at turbine exhaust",
+        "To increase the condenser load",
+        "To reduce the turbine work"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Bled steam preheats the feedwater, reducing the heat added at low temperature, so $T_{mean,add}$ rises and efficiency increases.",
+      "explanation_ar": "يسخّن البخار المسحوب ماء التغذية فتقل الحرارة المضافة عند درجات حرارة منخفضة فيرتفع $T_{mean,add}$ وتزداد الكفاءة.",
+      "memorization_note": "المسخّن المفتوح (Open/contact): يختلط فيه البخار المسحوب مع ماء التغذية ويحتاج مضخة لكل مسخّن. المسخّن المغلق (Closed): لا يختلط ويحتاج مضخة واحدة. المُهوِّي (Deaerator) نوع مفتوح.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 138,
+      "question_en": "Which statement about feedwater heaters is true?",
+      "question_ar": "أي عبارة عن مسخّنات ماء التغذية صحيحة؟",
+      "options": [
+        "An open heater (contact type) mixes bled steam with feedwater",
+        "A closed heater does not allow the fluids to mix",
+        "A deaerator is a type of open heater",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three statements are correct.",
+      "explanation_ar": "العبارات الثلاث صحيحة.",
+      "memorization_note": "المسخّن المفتوح: بسيط ورخيص ويحتاج مضخة لكل مسخّن. المغلق: أغلى ويحتاج مضخة واحدة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 139,
+      "question_en": "The higher the number of feedwater heaters, the ____ the cycle efficiency, following the law of diminishing returns.",
+      "question_ar": "كلما زاد عدد مسخّنات ماء التغذية ____ كفاءة الدورة، مع قانون تناقص العائد.",
+      "options": [
+        "lower",
+        "higher",
+        "efficiency does not depend on the number of heaters",
+        "unchanged"
+      ],
+      "correct_index": 1,
+      "explanation_en": "More heaters bring the cycle closer to ideal regeneration; the gain per added heater decreases.",
+      "explanation_ar": "زيادة المسخّنات تقرّب الدورة من التجديد المثالي مع تناقص المكسب لكل مسخّن مضاف.",
+      "memorization_note": "أكبر مكسب في الكفاءة عندما يكون الارتفاع الكلي في درجة حرارة الماء $=\\frac{n}{n+1}$ من الفرق بين درجتي حرارة المرجل والمكثف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 140,
+      "question_en": "A gas turbine power plant operates on which cycle, and what are its four processes?",
+      "question_ar": "على أي دورة تعمل محطة التوربين الغازي، وما عملياتها الأربع؟",
+      "options": [
+        "Brayton: two isobars and two adiabatics (isentropics)",
+        "Otto: two isochores and two adiabatics",
+        "Rankine: two isotherms and two isobars",
+        "Diesel: two isotherms and two isochores"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Brayton: reversible adiabatic compression, constant-pressure heat addition, reversible adiabatic expansion, constant-pressure heat rejection.",
+      "explanation_ar": "برايتون: ضغط كظيم عكوس، إضافة حرارة عند ضغط ثابت، تمدد كظيم عكوس، طرح حرارة عند ضغط ثابت.",
+      "memorization_note": "برايتون: 1→2 ضغط isentropic ، 2→3 $P=\\text{const}$ ، 3→4 تمدد isentropic ، 4→1 $P=\\text{const}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 141,
+      "question_en": "The thermal efficiency of the ideal Brayton cycle (with $r_p$ the pressure ratio) is:",
+      "question_ar": "الكفاءة الحرارية لدورة برايتون المثالية (حيث $r_p$ نسبة الضغط) تساوي:",
+      "options": [
+        "$\\eta=\\frac{1}{r_p^{(\\gamma-1)/\\gamma}}$",
+        "$\\eta=1-\\frac{1}{r_p^{\\gamma}}$",
+        "$\\eta=1-\\frac{1}{r_p^{(\\gamma-1)/\\gamma}}$",
+        "$\\eta=\\frac{1}{r_p^{\\gamma}}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\eta=1-\\frac{T_4-T_1}{T_3-T_2}=1-\\frac{1}{r_p^{(\\gamma-1)/\\gamma}}$$ Efficiency depends only on the pressure ratio (equivalently, on the compression ratio $r_k=r_p^{1/\\gamma}$).",
+      "explanation_ar": "$$\\eta=1-\\frac{T_4-T_1}{T_3-T_2}=1-\\frac{1}{r_p^{(\\gamma-1)/\\gamma}}$$ تعتمد الكفاءة على نسبة الضغط فقط (أو ما يكافئها نسبة الانضغاط).",
+      "memorization_note": "$$\\eta_{Brayton}=1-\\frac{1}{r_p^{(\\gamma-1)/\\gamma}},\\qquad \\gamma_{air}=1.4$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 142,
+      "question_en": "In a Rankine cycle the working fluid ____, whereas in a Brayton cycle the working fluid ____.",
+      "question_ar": "في دورة رانكن يكون المائع العامل ____ بينما في دورة برايتون يكون ____.",
+      "options": [
+        "undergoes phase change; remains gaseous",
+        "remains gaseous; undergoes phase change",
+        "undergoes phase change in both",
+        "remains gaseous in both"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Rankine (steam) boils and condenses; Brayton (air/gas) stays in the gas phase throughout.",
+      "explanation_ar": "رانكن (بخار الماء) يتبخر ويتكثف؛ أما برايتون (هواء/غاز) فيبقى غازياً طوال الدورة.",
+      "memorization_note": "رانكن: طور متغير. برايتون: غاز دائماً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 143,
+      "question_en": "How does regeneration improve the efficiency of a Brayton cycle?",
+      "question_ar": "كيف يحسّن التجديد (Regeneration) كفاءة دورة برايتون؟",
+      "options": [
+        "Turbine exhaust gas preheats the air leaving the compressor, reducing the external heat supplied",
+        "It increases compressor work",
+        "It lowers the turbine inlet temperature",
+        "It increases the heat rejected"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The regenerator transfers heat from turbine exhaust to compressed air, so the external heat input (and heat rejection) decreases while net work stays the same; efficiency rises.",
+      "explanation_ar": "ينقل المجدِّد حرارة عادم التوربين إلى الهواء المضغوط فتقل الحرارة الخارجية المُجهزة (والمطروحة) مع بقاء الشغل الصافي فتزداد الكفاءة.",
+      "memorization_note": "شرط فعالية التجديد: $T_{exhaust}>T_{compressor\\;exit}$ ، ويقل $\\eta$ مع ارتفاع $r_p$ لدورة التجديد.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 144,
+      "question_en": "The maximum pressure ratio of a Brayton cycle (where net work becomes zero) is:",
+      "question_ar": "أقصى نسبة ضغط لدورة برايتون (حيث يصبح الشغل الصافي صفراً) تساوي:",
+      "options": [
+        "$\\left(\\frac{T_{min}}{T_{max}}\\right)^{\\frac{\\gamma-1}{\\gamma}}$",
+        "$\\left(\\frac{T_{min}}{T_{max}}\\right)^{\\frac{\\gamma}{\\gamma-1}}$",
+        "$\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma-1}{\\gamma}}$",
+        "$\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma}{\\gamma-1}}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Net work is zero when compressor exit temperature equals $T_{max}$: $\\frac{T_{max}}{T_{min}}=r_p^{(\\gamma-1)/\\gamma}$, so $$r_{p,max}=\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma}{\\gamma-1}}$$",
+      "explanation_ar": "الشغل الصافي صفر عندما تساوي درجة حرارة خروج الضاغط $T_{max}$: $\\frac{T_{max}}{T_{min}}=r_p^{(\\gamma-1)/\\gamma}$ لذا $$r_{p,max}=\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma}{\\gamma-1}}$$",
+      "memorization_note": "$$r_{p,max}=\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma}{\\gamma-1}},\\qquad r_{p,opt}=\\sqrt{r_{p,max}}=\\left(\\frac{T_{max}}{T_{min}}\\right)^{\\frac{\\gamma}{2(\\gamma-1)}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 145,
+      "question_en": "The relation between the optimum pressure ratio (maximum specific work) and the maximum pressure ratio of a Brayton cycle is:",
+      "question_ar": "العلاقة بين نسبة الضغط المثلى (أقصى شغل نوعي) ونسبة الضغط القصوى في دورة برايتون هي:",
+      "options": [
+        "$r_{p,opt}=r_{p,max}/2$",
+        "$r_{p,opt}=r_{p,max}$",
+        "$r_{p,opt}=\\sqrt{r_{p,max}}$",
+        "$r_{p,opt}=r_{p,max}^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Maximum work occurs when $T_2=T_4=\\sqrt{T_1T_3}$, giving $r_{p,opt}=\\sqrt{r_{p,max}}$.",
+      "explanation_ar": "يحدث أقصى شغل عندما $T_2=T_4=\\sqrt{T_1T_3}$ مما يعطي $r_{p,opt}=\\sqrt{r_{p,max}}$.",
+      "memorization_note": "$$W_{max}=c_p\\left(\\sqrt{T_{max}}-\\sqrt{T_{min}}\\right)^2$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 146,
+      "question_en": "As the turbine and compressor efficiencies of a gas turbine plant decrease, the cycle efficiency:",
+      "question_ar": "عندما تقل كفاءة التوربين وكفاءة الضاغط في محطة توربين غازي فإن كفاءة الدورة:",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains the same",
+        "Becomes infinite"
+      ],
+      "correct_index": 0,
+      "explanation_en": "More compressor work is needed and less turbine work is produced, so net work and efficiency fall.",
+      "explanation_ar": "يزداد شغل الضاغط ويقل شغل التوربين فينخفض الشغل الصافي والكفاءة.",
+      "memorization_note": "$$\\eta_t=\\frac{h_3-h_4}{h_3-h_{4s}},\\qquad \\eta_c=\\frac{h_{2s}-h_1}{h_2-h_1}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 147,
+      "question_en": "Brayton cycle efficiency can be increased by:",
+      "question_ar": "يمكن زيادة كفاءة دورة برايتون عن طريق:",
+      "options": [
+        "Staged heat supply (reheat) only",
+        "Intercooled staged compression only",
+        "Regeneration only",
+        "Staged compression with intercooling and/or staged heat supply"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Intercooling reduces compressor work; reheating raises turbine work. (Regeneration reduces heat input.)",
+      "explanation_ar": "التبريد البيني يقلل شغل الضاغط، وإعادة التسخين تزيد شغل التوربين. (والتجديد يقلل الحرارة المُدخلة.)",
+      "memorization_note": "ضغط متعدد المراحل مع تبريد بيني: $P_{int}=\\sqrt{P_1P_2}$ لأقل شغل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 148,
+      "question_en": "In a vapour-compression refrigeration cycle, the expansion device (capillary tube or throttle valve):",
+      "question_ar": "في دورة التبريد بانضغاط البخار، جهاز التمدد (الأنبوب الشعري أو صمام الخنق):",
+      "options": [
+        "Increases the refrigerant pressure",
+        "Reduces the pressure and regulates the flow of refrigerant to the evaporator",
+        "Compresses the refrigerant",
+        "Rejects heat"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Throttling lowers pressure and temperature ($h_3=h_4$) and controls refrigerant flow to the evaporator. Capillary tubes are used in small units; throttle valves in larger units.",
+      "explanation_ar": "الخنق يخفض الضغط ودرجة الحرارة ($h_3=h_4$) وينظّم جريان المبرّد إلى المبخّر. الأنابيب الشعرية للوحدات الصغيرة وصمامات الخنق للوحدات الأكبر.",
+      "memorization_note": "دورة التبريد: 1→2 ضغط ، 2→3 تكثيف ، 3→4 خنق $(h_3=h_4)$ ، 4→1 تبخير. $\\text{COP}_R=\\frac{h_1-h_4}{h_2-h_1}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 149,
+      "question_en": "Which of the following is true for refrigeration compressors?",
+      "question_ar": "أي مما يأتي صحيح بشأن ضواغط التبريد؟",
+      "options": [
+        "Types include reciprocating, centrifugal and rotary",
+        "Centrifugal compressors are used for large refrigerant volume flow rates",
+        "Rotary compressors are mostly used for small units",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All statements are correct.",
+      "explanation_ar": "جميع العبارات صحيحة.",
+      "memorization_note": "الترددي (Reciprocating): سعات صغيرة ومتوسطة. الطارد المركزي: تدفقات حجمية كبيرة. الدوّار: وحدات صغيرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 150,
+      "question_en": "In a reciprocating compressor, the actual volume of gas drawn into the cylinder is ____ the piston displacement volume.",
+      "question_ar": "في الضاغط الترددي حجم الغاز الفعلي المسحوب إلى الأسطوانة ____ حجم إزاحة المكبس.",
+      "options": [
+        "less than",
+        "more than",
+        "equal to",
+        "double"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Because of clearance volume and leakage, the volumetric efficiency is below 1.",
+      "explanation_ar": "بسبب الحجم الخلوصي والتسرب تكون الكفاءة الحجمية أقل من 1.",
+      "memorization_note": "$$\\eta_{vol}=1+C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}\\;\\;(C:\\text{ clearance ratio})$$ وكلما زادت نسبة الضغط قلّت الكفاءة الحجمية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 151,
+      "question_en": "The clearance volumetric efficiency of a reciprocating compressor is given by ($C$: clearance ratio, $n$: polytropic index):",
+      "question_ar": "تُعطى الكفاءة الحجمية الخلوصية لضاغط ترددي بـ ($C$: نسبة الخلوص، $n$: الأس متعدد المسار):",
+      "options": [
+        "$1+C+C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$",
+        "$1-C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$",
+        "$1-C+C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$",
+        "$1+C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Re-expansion of the clearance gas reduces the intake volume: $$\\eta_{vol}=1+C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$$ It decreases as the pressure ratio increases.",
+      "explanation_ar": "إعادة تمدد غاز الخلوص تقلل حجم السحب: $$\\eta_{vol}=1+C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$$ وتقل بزيادة نسبة الضغط.",
+      "memorization_note": "$$\\eta_{vol}=1+C-C\\left(\\frac{P_2}{P_1}\\right)^{1/n}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 152,
+      "question_en": "Why is multistage compression with intercooling adopted?",
+      "question_ar": "لماذا يُعتمد الضغط متعدد المراحل مع التبريد البيني؟",
+      "options": [
+        "A single stage with a high pressure ratio reduces volumetric efficiency",
+        "A high pressure ratio gives a very high discharge temperature",
+        "It reduces the compression work",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Multistage compression with intercooling limits the discharge temperature, improves volumetric efficiency and reduces total work.",
+      "explanation_ar": "الضغط المتعدد المراحل مع التبريد البيني يحدّ من درجة حرارة التفريغ ويحسّن الكفاءة الحجمية ويقلل الشغل الكلي.",
+      "memorization_note": "الضغط البيني الأمثل لمرحلتين: $$P_{int}=\\sqrt{P_1P_2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 153,
+      "question_en": "The optimum intercooler pressure for two-stage compression between $P_1$ and $P_2$ is:",
+      "question_ar": "ضغط المبرّد البيني الأمثل لضغط مرحلتين بين $P_1$ و $P_2$ هو:",
+      "options": [
+        "$P_1P_2$",
+        "$\\sqrt{P_1P_2}$",
+        "$\\frac{P_1P_2}{P_1+P_2}$",
+        "$\\frac{P_1+P_2}{2}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Minimum total work requires equal pressure ratios in the two stages: $\\frac{P_{int}}{P_1}=\\frac{P_2}{P_{int}}\\Rightarrow P_{int}=\\sqrt{P_1P_2}$.",
+      "explanation_ar": "أقل شغل كلي يتطلب نسب ضغط متساوية في المرحلتين: $\\frac{P_{int}}{P_1}=\\frac{P_2}{P_{int}}\\Rightarrow P_{int}=\\sqrt{P_1P_2}$.",
+      "memorization_note": "$$P_{int}=\\sqrt{P_1P_2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 154,
+      "question_en": "Which statement about refrigerants is true?",
+      "question_ar": "أي عبارة عن المبرّدات صحيحة؟",
+      "options": [
+        "Freon, Genetron and Arcton are widely used refrigerants",
+        "Ammonia has high COP and low cost, so it is used in food refrigeration",
+        "Large installations use water-cooled condensers; small units use air-cooled condensers",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All statements are correct.",
+      "explanation_ar": "جميع العبارات صحيحة.",
+      "memorization_note": "الأمونيا $\\text{NH}_3$ (مبرّد R-717) عالية COP ورخيصة لكنها سامة. المكثف: صغير ← هوائي ، كبير ← مائي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 155,
+      "question_en": "If the gas is cooled during compression, the work required compared with adiabatic compression is:",
+      "question_ar": "إذا بُرّد الغاز أثناء الضغط فإن الشغل اللازم مقارنةً بالضغط الكظيم يكون:",
+      "options": [
+        "More",
+        "Less",
+        "Equal",
+        "Cannot be said"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Cooling reduces the specific volume during compression, so less work is needed.",
+      "explanation_ar": "التبريد يقلل الحجم النوعي أثناء الضغط فيقل الشغل اللازم.",
+      "memorization_note": "$$W=\\int v\\,dP$$ لنفس نسبة الضغط: $W_{adiabatic}>W_{polytropic}>W_{isothermal}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 156,
+      "question_en": "For the same pressure ratio $P_2/P_1$ and $1<n<\\gamma$, the maximum compression work is required for:",
+      "question_ar": "لنفس نسبة الضغط $P_2/P_1$ و $1<n<\\gamma$، يلزم أكبر شغل ضغط في:",
+      "options": [
+        "Isothermal compression",
+        "Adiabatic (isentropic) compression",
+        "Polytropic compression",
+        "All require the same work"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$W=\\frac{n}{n-1}P_1V_1\\left[\\left(\\frac{P_2}{P_1}\\right)^{\\frac{n-1}{n}}-1\\right]$$ is larger for larger $n$, so adiabatic ($n=\\gamma$) is maximum and isothermal ($n=1$) is minimum.",
+      "explanation_ar": "$$W=\\frac{n}{n-1}P_1V_1\\left[\\left(\\frac{P_2}{P_1}\\right)^{\\frac{n-1}{n}}-1\\right]$$ يزداد مع $n$ لذا أكبر شغل للكظيم ($n=\\gamma$) وأقل شغل للثابت الحرارة ($n=1$).",
+      "memorization_note": "$$W_{iso}=P_1V_1\\ln\\frac{P_2}{P_1},\\qquad W_{poly}=\\frac{n}{n-1}P_1V_1\\left[\\left(\\frac{P_2}{P_1}\\right)^{\\frac{n-1}{n}}-1\\right]$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 157,
+      "question_en": "The adiabatic efficiency and the isothermal efficiency of a compressor are, respectively ($W_s$: isentropic work, $W_T$: isothermal work, $W_c$: actual work):",
+      "question_ar": "الكفاءة الكظيمة والكفاءة ثابتة الحرارة لضاغط هما على التوالي ($W_s$: شغل isentropic، $W_T$: شغل isothermal، $W_c$: الشغل الفعلي):",
+      "options": [
+        "$W_s/W_c$ and $W_T/W_c$",
+        "$W_c/W_s$ and $W_c/W_T$",
+        "$W_T/W_c$ and $W_s/W_c$",
+        "$W_s/W_T$ and $W_c/W_s$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Ideal work divided by actual work: $\\eta_{ad}=\\frac{W_s}{W_c}$ and $\\eta_{iso}=\\frac{W_T}{W_c}$ (both $<1$ for real compressors).",
+      "explanation_ar": "الشغل المثالي مقسوماً على الفعلي: $\\eta_{ad}=\\frac{W_s}{W_c}$ و $\\eta_{iso}=\\frac{W_T}{W_c}$ (كلاهما أقل من 1 للضواغط الحقيقية).",
+      "memorization_note": "$$\\eta_{ad}=\\frac{W_{isentropic}}{W_{actual}},\\quad \\eta_{iso}=\\frac{W_{isothermal}}{W_{actual}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 158,
+      "question_en": "Which statement about rotary compressors is true?",
+      "question_ar": "أي عبارة عن الضواغط الدوّارة صحيحة؟",
+      "options": [
+        "They are used for large quantities of gas at relatively low pressure",
+        "They can be displacement (Roots blower, vane) or steady-flow (centrifugal, axial) types",
+        "In displacement type compression occurs by trapping gas; in steady-flow type by transfer of kinetic energy",
+        "All of the above"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All three statements are correct.",
+      "explanation_ar": "العبارات الثلاث صحيحة.",
+      "memorization_note": "الإزاحة الموجبة: Roots / vane ، الانضغاط بحبس الغاز. الجريان المستقر: طارد مركزي / محوري ، الانضغاط بتحويل الطاقة الحركية (المفرّق).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 159,
+      "question_en": "Which energy does a substance possess due to the motion and configuration of its atoms and molecules?",
+      "question_ar": "أي طاقة تمتلكها المادة بسبب حركة وترتيب ذراتها وجزيئاتها؟",
+      "options": [
+        "Potential energy",
+        "Kinetic energy",
+        "Internal energy",
+        "Surface energy"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Internal energy $U$ is the microscopic energy of molecular motion, vibration, rotation and intermolecular configuration.",
+      "explanation_ar": "الطاقة الداخلية $U$ هي الطاقة المجهرية لحركة الجزيئات واهتزازها ودورانها وترتيبها.",
+      "memorization_note": "$$H=U+PV,\\qquad \\Delta H=Q_P$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 160,
+      "question_en": "Heat flows as a result of:",
+      "question_ar": "تنتقل الحرارة نتيجة:",
+      "options": [
+        "Pressure difference",
+        "Concentration gradient",
+        "Temperature gradient",
+        "Density difference"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Heat flows spontaneously from higher to lower temperature.",
+      "explanation_ar": "تنتقل الحرارة تلقائياً من درجة الحرارة الأعلى إلى الأوطأ.",
+      "memorization_note": "قانون فورييه: $q=-k\\frac{dT}{dx}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 161,
+      "question_en": "The change in enthalpy of a system when a reaction occurs at constant pressure is called:",
+      "question_ar": "التغير في إنثالبي نظام عند حدوث تفاعل عند ضغط ثابت يُسمى:",
+      "options": [
+        "Heat of reaction",
+        "Heat of combustion only",
+        "Latent heat",
+        "Specific heat"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\Delta H_{rxn}=Q_P$; $\\Delta H_f^\\circ$ is the standard heat of formation of a compound from its elements.",
+      "explanation_ar": "$\\Delta H_{rxn}=Q_P$ ؛ و $\\Delta H_f^\\circ$ هي حرارة التكوين القياسية للمركب من عناصره.",
+      "memorization_note": "$$\\Delta H_{rxn}^\\circ=\\sum\\nu_p\\Delta H_{f,p}^\\circ-\\sum\\nu_r\\Delta H_{f,r}^\\circ$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 162,
+      "question_en": "What is the difference between sensible heat and latent heat?",
+      "question_ar": "ما الفرق بين الحرارة المحسوسة والحرارة الكامنة؟",
+      "options": [
+        "Sensible heat changes temperature; latent heat changes phase at constant temperature",
+        "They are the same",
+        "Sensible heat changes phase; latent heat changes temperature",
+        "Both change only the pressure"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Sensible: $Q=mc\\Delta T$. Latent: $Q=m\\lambda$ (phase change at constant $T$ and $P$).",
+      "explanation_ar": "المحسوسة: $Q=mc\\Delta T$. الكامنة: $Q=m\\lambda$ (تغير طور عند $T$ و $P$ ثابتين).",
+      "memorization_note": "$$Q_{sensible}=mc_p\\Delta T,\\qquad Q_{latent}=m\\lambda$$",
+      "requires_scratchpad": false
+    }
+  ]
+}

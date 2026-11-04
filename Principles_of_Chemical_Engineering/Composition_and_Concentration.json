@@ -1,0 +1,728 @@
+{
+  "topic_en": "Composition: Mole/Mass Fractions, Mixtures & Concentration",
+  "topic_ar": "التركيب والتركيز: الكسور المولية والكتلية وخلائط المكونات والتركيز",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة حول الكسر المولي والكتلي، الوزن الجزيئي المتوسط، الصيغة الأولية، المولارية وppm وخلط المحاليل",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "What is the mole fraction of sodium (n moles) in a solution containing N moles of solvent?",
+      "question_ar": "ما الكسر المولي للصوديوم (عدد مولاته $n$) في محلول يحتوي على $N$ مول من المذيب؟",
+      "options": [
+        "$\\dfrac{N}{n}$",
+        "$\\dfrac{n}{N}$",
+        "$\\dfrac{n}{n+N}$",
+        "$\\dfrac{N}{n+N}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Mole fraction is moles of the component divided by total moles. $$x_{\\text{Na}} = \\frac{n_{\\text{Na}}}{n_{\\text{total}}} = \\frac{n}{n + N}$$",
+      "explanation_ar": "الكسر المولي = مولات المكوّن / مجموع المولات. $$x_{\\text{Na}} = \\frac{n_{\\text{Na}}}{n_{\\text{total}}} = \\frac{n}{n + N}$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What is the unit of mole fraction?",
+      "question_ar": "ما وحدة الكسر المولي؟",
+      "options": [
+        "$\\text{kg/m}^3$",
+        "$\\text{N/m}^3$",
+        "$\\text{m}^{-2}$",
+        "None of the mentioned (dimensionless)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "It is a ratio of moles to moles, so the units cancel. $$x_i = \\frac{\\text{mol}}{\\text{mol}} \\;\\Rightarrow\\; \\text{dimensionless}$$",
+      "explanation_ar": "هو نسبة مولات إلى مولات فتُلغى الوحدات ويكون بلا أبعاد. $$x_i = \\frac{\\text{mol}}{\\text{mol}} \\;\\Rightarrow\\; \\text{dimensionless}$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "The mole fraction of a solute (4.5 mol) in a solution is 0.5. How many moles of solvent are present?",
+      "question_ar": "الكسر المولي لمذاب عدد مولاته $4.5$ في محلول يساوي $0.5$. كم عدد مولات المذيب؟",
+      "options": [
+        "$9\\text{ mol}$",
+        "$4.5\\text{ mol}$",
+        "$1.5\\text{ mol}$",
+        "$3\\text{ mol}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$x = \\frac{n_s}{n_s + n_{\\text{solvent}}} \\Rightarrow 0.5 = \\frac{4.5}{4.5 + n} \\Rightarrow n = 4.5\\text{ mol}$$",
+      "explanation_ar": "$$x = \\frac{n_s}{n_s + n_{\\text{solvent}}} \\Rightarrow 0.5 = \\frac{4.5}{4.5 + n} \\Rightarrow n = 4.5\\text{ mol}$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "What is the mass fraction of sodium in a mixture of 4 mol Na and 8 mol HCl?",
+      "question_ar": "ما الكسر الكتلي للصوديوم في خليط من $4\\text{ mol}$ Na و $8\\text{ mol}$ HCl؟",
+      "options": [
+        "$0.24$",
+        "$0.48$",
+        "$0.56$",
+        "$0.72$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$m_{\\text{Na}} = 4\\times23 = 92\\text{ g},\\quad m_{\\text{HCl}} = 8\\times36.5 = 292\\text{ g}$$ $$w_{\\text{Na}} = \\frac{92}{92+292} = 0.24$$",
+      "explanation_ar": "$$m_{\\text{Na}} = 4\\times23 = 92\\text{ g},\\quad m_{\\text{HCl}} = 8\\times36.5 = 292\\text{ g}$$ $$w_{\\text{Na}} = \\frac{92}{92+292} = 0.24$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 5,
+      "question_en": "The mole fraction of sodium is 0.25 in a mixture with 9 mol of liquid $\\text{CO}_2$. What is the mass fraction of sodium?",
+      "question_ar": "الكسر المولي للصوديوم $0.25$ في خليط يحتوي $9\\text{ mol}$ من $\\text{CO}_2$ السائل. ما الكسر الكتلي للصوديوم؟",
+      "options": [
+        "$0.10$",
+        "$0.15$",
+        "$0.20$",
+        "$0.25$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$0.25 = \\frac{n}{n+9} \\Rightarrow n = 3\\text{ mol Na}$$ $$m_{\\text{Na}} = 3\\times23 = 69\\text{ g},\\ m_{\\text{CO}_2} = 9\\times44 = 396\\text{ g}$$ $$w_{\\text{Na}} = \\frac{69}{69+396} = 0.15$$",
+      "explanation_ar": "$$0.25 = \\frac{n}{n+9} \\Rightarrow n = 3\\text{ mol Na}$$ $$m_{\\text{Na}} = 3\\times23 = 69\\text{ g},\\ m_{\\text{CO}_2} = 9\\times44 = 396\\text{ g}$$ $$w_{\\text{Na}} = \\frac{69}{69+396} = 0.15$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. الأوزان الذرية: $\\text{Na}=23,\\ \\text{C}=12,\\ \\text{O}=16$ ($\\text{CO}_2=44$). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "2.5 g of NaCl is dissolved in 10 g of water. What is the mole fraction of NaCl?",
+      "question_ar": "أُذيب $2.5\\text{ g}$ من NaCl في $10\\text{ g}$ من الماء. ما الكسر المولي لـ NaCl؟",
+      "options": [
+        "$0.05$",
+        "$0.06$",
+        "$0.07$",
+        "$0.08$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$n_{\\text{NaCl}} = \\frac{2.5}{58.5} = 0.0427\\text{ mol},\\quad n_{\\text{H}_2\\text{O}} = \\frac{10}{18} = 0.556\\text{ mol}$$ $$x_{\\text{NaCl}} = \\frac{0.0427}{0.0427+0.556} = 0.07$$",
+      "explanation_ar": "$$n_{\\text{NaCl}} = \\frac{2.5}{58.5} = 0.0427\\text{ mol},\\quad n_{\\text{H}_2\\text{O}} = \\frac{10}{18} = 0.556\\text{ mol}$$ $$x_{\\text{NaCl}} = \\frac{0.0427}{0.0427+0.556} = 0.07$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{NaCl}=58.5,\\ \\text{H}_2\\text{O}=18\\text{ g/mol}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "A mixture of $\\text{SO}_2$ and $\\text{H}_2\\text{SO}_4$ has a mole fraction of $\\text{SO}_2$ equal to 0.2. What is the mass ratio of sulfur to oxygen in the mixture?",
+      "question_ar": "خليط من $\\text{SO}_2$ و $\\text{H}_2\\text{SO}_4$ الكسر المولي لـ $\\text{SO}_2$ فيه $0.2$. ما نسبة كتلة الكبريت إلى كتلة الأوكسجين في الخليط؟",
+      "options": [
+        "$0.166$",
+        "$6$",
+        "$1.8$",
+        "$0.555$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Basis: $x$ mol $\\text{SO}_2$ and $y$ mol $\\text{H}_2\\text{SO}_4$; $\\frac{x}{x+y}=0.2 \\Rightarrow y = 4x$. $$m_S = 32(x+y) = 160x,\\quad m_O = 16(2x + 4y) = 288x$$ $$\\frac{m_S}{m_O} = \\frac{160}{288} = 0.555$$",
+      "explanation_ar": "Basis: $x$ mol $\\text{SO}_2$ and $y$ mol $\\text{H}_2\\text{SO}_4$; $\\frac{x}{x+y}=0.2 \\Rightarrow y = 4x$. $$m_S = 32(x+y) = 160x,\\quad m_O = 16(2x + 4y) = 288x$$ $$\\frac{m_S}{m_O} = \\frac{160}{288} = 0.555$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{S}=32,\\ \\text{O}=16$. 5. عدد ذرات العنصر في المركب $\\times$ مولات المركب = مولات العنصر. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "A mixture of 10 g total mass contains $\\text{SO}_2$, $\\text{O}_2$ and 2.5 g of $\\text{N}_2$. What is the sum of the mass fractions of $\\text{SO}_2$ and $\\text{O}_2$?",
+      "question_ar": "خليط كتلته الكلية $10\\text{ g}$ يحتوي $\\text{SO}_2$ و $\\text{O}_2$ و $2.5\\text{ g}$ من $\\text{N}_2$. ما مجموع الكسرين الكتليين لـ $\\text{SO}_2$ و $\\text{O}_2$؟",
+      "options": [
+        "$0.25$",
+        "$0.5$",
+        "$0.75$",
+        "$1$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\sum w_i = 1 \\Rightarrow w_{\\text{SO}_2} + w_{\\text{O}_2} = 1 - \\frac{2.5}{10} = 0.75$$",
+      "explanation_ar": "$$\\sum w_i = 1 \\Rightarrow w_{\\text{SO}_2} + w_{\\text{O}_2} = 1 - \\frac{2.5}{10} = 0.75$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. مجموع الكسور (المولية أو الكتلية) لجميع المكونات $= 1$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "A mixture of total mass 17 g contains 7 g of nitrogen, all present as the neutral compound of nitrogen and hydrogen. What is the mass fraction of that compound?",
+      "question_ar": "خليط كتلته الكلية $17\\text{ g}$ يحتوي $7\\text{ g}$ من النيتروجين موجودة كلها في المركب المتعادل المكوّن من النيتروجين والهيدروجين. ما الكسر الكتلي لذلك المركب؟",
+      "options": [
+        "$0.5$",
+        "$0.25$",
+        "$0.45$",
+        "$0.8$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The neutral N–H compound is $\\text{NH}_3$ ($M_w = 17$). $$m_{\\text{NH}_3} = 7\\times\\frac{17}{14} = 8.5\\text{ g}\\;\\Rightarrow\\; w = \\frac{8.5}{17} = 0.5$$",
+      "explanation_ar": "The neutral N–H compound is $\\text{NH}_3$ ($M_w = 17$). $$m_{\\text{NH}_3} = 7\\times\\frac{17}{14} = 8.5\\text{ g}\\;\\Rightarrow\\; w = \\frac{8.5}{17} = 0.5$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{N}=14,\\ \\text{H}=1$ ($\\text{NH}_3 = 17$). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "A mixture contains 23 g ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$) and 36 g water. Acetic acid is added until its mole fraction becomes 0.5. How much acetic acid was added?",
+      "question_ar": "خليط يحتوي $23\\text{ g}$ إيثانول ($\\text{C}_2\\text{H}_5\\text{OH}$) و $36\\text{ g}$ ماء. أُضيف حمض الخليك حتى أصبح كسره المولي $0.5$. كم غراماً من حمض الخليك أُضيفت؟",
+      "options": [
+        "$25\\text{ g}$",
+        "$75\\text{ g}$",
+        "$100\\text{ g}$",
+        "$150\\text{ g}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$n_{\\text{EtOH}} = \\frac{23}{46} = 0.5$, $n_{\\text{H}_2\\text{O}} = \\frac{36}{18} = 2$, $M_{\\text{AcOH}} = 60$. $$0.5 = \\frac{m/60}{0.5 + 2 + m/60} \\Rightarrow \\frac{m}{60} = 2.5 \\Rightarrow m = 150\\text{ g}$$",
+      "explanation_ar": "$n_{\\text{EtOH}} = \\frac{23}{46} = 0.5$, $n_{\\text{H}_2\\text{O}} = \\frac{36}{18} = 2$, $M_{\\text{AcOH}} = 60$. $$0.5 = \\frac{m/60}{0.5 + 2 + m/60} \\Rightarrow \\frac{m}{60} = 2.5 \\Rightarrow m = 150\\text{ g}$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{C}_2\\text{H}_5\\text{OH}=46,\\ \\text{CH}_3\\text{COOH}=60,\\ \\text{H}_2\\text{O}=18\\text{ g/mol}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "A mixture contains 9 g each of $\\text{H}_2\\text{O}$ and NaCl. What is the mole fraction of NaCl?",
+      "question_ar": "خليط يحتوي $9\\text{ g}$ من كل من $\\text{H}_2\\text{O}$ و NaCl. ما الكسر المولي لـ NaCl؟",
+      "options": [
+        "$0.15$",
+        "$0.24$",
+        "$0.45$",
+        "$0.64$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n_{\\text{NaCl}} = \\frac{9}{58.5} = 0.154,\\ n_{\\text{H}_2\\text{O}} = \\frac{9}{18} = 0.5 \\Rightarrow x_{\\text{NaCl}} = \\frac{0.154}{0.154+0.5} = 0.24$$",
+      "explanation_ar": "$$n_{\\text{NaCl}} = \\frac{9}{58.5} = 0.154,\\ n_{\\text{H}_2\\text{O}} = \\frac{9}{18} = 0.5 \\Rightarrow x_{\\text{NaCl}} = \\frac{0.154}{0.154+0.5} = 0.24$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{NaCl}=58.5,\\ \\text{H}_2\\text{O}=18$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "A mixture contains 10 g each of $\\text{CH}_4$, $\\text{H}_2\\text{O}$ and $\\text{SO}_2$. What is the mole fraction of $\\text{CH}_4$?",
+      "question_ar": "خليط يحتوي $10\\text{ g}$ من كل من $\\text{CH}_4$ و $\\text{H}_2\\text{O}$ و $\\text{SO}_2$. ما الكسر المولي لـ $\\text{CH}_4$؟",
+      "options": [
+        "$0.14$",
+        "$0.31$",
+        "$0.47$",
+        "$0.67$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$n_{\\text{CH}_4} = \\frac{10}{16} = 0.625,\\ n_{\\text{H}_2\\text{O}} = \\frac{10}{18} = 0.556,\\ n_{\\text{SO}_2} = \\frac{10}{64} = 0.156$$ $$x_{\\text{CH}_4} = \\frac{0.625}{1.337} = 0.47$$",
+      "explanation_ar": "$$n_{\\text{CH}_4} = \\frac{10}{16} = 0.625,\\ n_{\\text{H}_2\\text{O}} = \\frac{10}{18} = 0.556,\\ n_{\\text{SO}_2} = \\frac{10}{64} = 0.156$$ $$x_{\\text{CH}_4} = \\frac{0.625}{1.337} = 0.47$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{CH}_4=16,\\ \\text{H}_2\\text{O}=18,\\ \\text{SO}_2=64$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "A mixture contains 80 wt% HCl and 20 wt% $\\text{H}_2\\text{O}$. What is the mole fraction of HCl?",
+      "question_ar": "خليط يحتوي $80\\%$ وزناً من HCl و $20\\%$ وزناً من $\\text{H}_2\\text{O}$. ما الكسر المولي لـ HCl؟",
+      "options": [
+        "$0.15$",
+        "$0.29$",
+        "$0.45$",
+        "$0.66$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Basis 100 g: $$n_{\\text{HCl}} = \\frac{80}{36.5} = 2.19,\\ n_{\\text{H}_2\\text{O}} = \\frac{20}{18} = 1.11 \\Rightarrow x_{\\text{HCl}} = \\frac{2.19}{3.30} = 0.66$$",
+      "explanation_ar": "Basis 100 g: $$n_{\\text{HCl}} = \\frac{80}{36.5} = 2.19,\\ n_{\\text{H}_2\\text{O}} = \\frac{20}{18} = 1.11 \\Rightarrow x_{\\text{HCl}} = \\frac{2.19}{3.30} = 0.66$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{HCl}=36.5,\\ \\text{H}_2\\text{O}=18$. 5. عند إعطاء نسب وزنية افرض أساس $100\\text{ g}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "A mixture contains 80 wt% NaOH and 20 wt% $\\text{H}_2\\text{O}$. What is the mole fraction of NaOH?",
+      "question_ar": "خليط يحتوي $80\\%$ وزناً من NaOH و $20\\%$ وزناً من $\\text{H}_2\\text{O}$. ما الكسر المولي لـ NaOH؟",
+      "options": [
+        "$0.24$",
+        "$0.42$",
+        "$0.64$",
+        "$0.78$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Basis 100 g: $$n_{\\text{NaOH}} = \\frac{80}{40} = 2,\\ n_{\\text{H}_2\\text{O}} = \\frac{20}{18} = 1.11 \\Rightarrow x_{\\text{NaOH}} = \\frac{2}{3.11} = 0.64$$",
+      "explanation_ar": "Basis 100 g: $$n_{\\text{NaOH}} = \\frac{80}{40} = 2,\\ n_{\\text{H}_2\\text{O}} = \\frac{20}{18} = 1.11 \\Rightarrow x_{\\text{NaOH}} = \\frac{2}{3.11} = 0.64$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{NaOH}=40,\\ \\text{H}_2\\text{O}=18$. 5. عند إعطاء نسب وزنية افرض أساس $100\\text{ g}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 15,
+      "question_en": "A compound contains 40 wt% sulfur and 60 wt% oxygen. What is its empirical formula?",
+      "question_ar": "مركب يحتوي $40\\%$ وزناً كبريت و $60\\%$ وزناً أوكسجين. ما صيغته الأولية؟",
+      "options": [
+        "$\\text{SO}_2$",
+        "$\\text{SO}_3$",
+        "$\\text{SO}_4$",
+        "None of the mentioned"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Basis 100 g: $n_S = \\frac{40}{32} = 1.25$, $n_O = \\frac{60}{16} = 3.75$. $$\\frac{n_O}{n_S} = \\frac{3.75}{1.25} = 3 \\Rightarrow \\text{SO}_3$$",
+      "explanation_ar": "Basis 100 g: $n_S = \\frac{40}{32} = 1.25$, $n_O = \\frac{60}{16} = 3.75$. $$\\frac{n_O}{n_S} = \\frac{3.75}{1.25} = 3 \\Rightarrow \\text{SO}_3$$",
+      "memorization_note": "1. الصيغة الأولية: اقسم كتلة كل عنصر على وزنه الذري ثم على أصغر ناتج. 2. $\\text{S}=32,\\ \\text{O}=16$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 16,
+      "question_en": "What is the average molecular weight of a gas mixture of 25 mol% $\\text{CO}_2$, 40 mol% $\\text{O}_2$ and 35 mol% $\\text{N}_2$?",
+      "question_ar": "ما الوزن الجزيئي المتوسط لخليط غازي مكوّن من $25\\%$ مولياً $\\text{CO}_2$ و $40\\%$ $\\text{O}_2$ و $35\\%$ $\\text{N}_2$؟",
+      "options": [
+        "$11.2\\text{ g/mol}$",
+        "$22.4\\text{ g/mol}$",
+        "$33.6\\text{ g/mol}$",
+        "$44.8\\text{ g/mol}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\bar M = 0.25(44) + 0.40(32) + 0.35(28) = 11 + 12.8 + 9.8 = 33.6\\text{ g/mol}$$",
+      "explanation_ar": "$$\\bar M = 0.25(44) + 0.40(32) + 0.35(28) = 11 + 12.8 + 9.8 = 33.6\\text{ g/mol}$$",
+      "memorization_note": "1. الوزن الجزيئي المتوسط (كسور مولية): $$\\bar M = \\sum_i x_i M_i$$ وبدلالة الكسور الكتلية: $$\\frac{1}{\\bar M} = \\sum_i \\frac{w_i}{M_i}$$ 2. للغازات تُفهم النسب المئوية على أنها مولية، وللسوائل والمواد الصلبة على أنها وزنية. 3. $\\text{CO}_2=44,\\ \\text{O}_2=32,\\ \\text{N}_2=28$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "What is the mass of 10 mol of a gas mixture of 15% $\\text{O}_2$, 25% $\\text{SO}_2$, 30% $\\text{COCl}_2$, 25% $\\text{SO}_3$ and 5% $\\text{N}_2$ (mole %)?",
+      "question_ar": "ما كتلة $10\\text{ mol}$ من خليط غازي مكوّن من $15\\%$ $\\text{O}_2$ و $25\\%$ $\\text{SO}_2$ و $30\\%$ $\\text{COCl}_2$ و $25\\%$ $\\text{SO}_3$ و $5\\%$ $\\text{N}_2$ (نسب مولية)؟",
+      "options": [
+        "$124\\text{ g}$",
+        "$345\\text{ g}$",
+        "$507\\text{ g}$",
+        "$719\\text{ g}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\bar M = 0.15(32)+0.25(64)+0.30(99)+0.25(80)+0.05(28) = 71.9\\text{ g/mol}$$ $$m = n\\bar M = 10\\times71.9 = 719\\text{ g}$$",
+      "explanation_ar": "$$\\bar M = 0.15(32)+0.25(64)+0.30(99)+0.25(80)+0.05(28) = 71.9\\text{ g/mol}$$ $$m = n\\bar M = 10\\times71.9 = 719\\text{ g}$$",
+      "memorization_note": "1. الوزن الجزيئي المتوسط (كسور مولية): $$\\bar M = \\sum_i x_i M_i$$ وبدلالة الكسور الكتلية: $$\\frac{1}{\\bar M} = \\sum_i \\frac{w_i}{M_i}$$ 2. للغازات تُفهم النسب المئوية على أنها مولية، وللسوائل والمواد الصلبة على أنها وزنية. 3. $m = n\\bar M$. 4. $\\text{COCl}_2 = 12+16+71 = 99,\\ \\text{SO}_3 = 80,\\ \\text{SO}_2 = 64$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 18,
+      "question_en": "A compound contains 48 wt% C, 48 wt% O and 8 wt% H. What is a possible molecular formula?",
+      "question_ar": "مركب يحتوي $48\\%$ وزناً C و $48\\%$ O و $8\\%$ H. ما الصيغة الجزيئية المحتملة؟",
+      "options": [
+        "$\\text{C}_2\\text{H}_4\\text{O}$",
+        "$\\text{CH}_4\\text{O}_3$",
+        "$\\text{C}_4\\text{H}_4\\text{O}_3$",
+        "$\\text{C}_4\\text{H}_8\\text{O}_3$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$\\text{C}:\\text{H}:\\text{O} = \\frac{48}{12} : \\frac{8}{1} : \\frac{48}{16} = 4 : 8 : 3 \\Rightarrow \\text{C}_4\\text{H}_8\\text{O}_3$$",
+      "explanation_ar": "$$\\text{C}:\\text{H}:\\text{O} = \\frac{48}{12} : \\frac{8}{1} : \\frac{48}{16} = 4 : 8 : 3 \\Rightarrow \\text{C}_4\\text{H}_8\\text{O}_3$$",
+      "memorization_note": "1. نسبة الذرات = (النسبة الوزنية / الوزن الذري). 2. $\\text{C}=12,\\ \\text{H}=1,\\ \\text{O}=16$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "A compound contains 12 wt% C, 16 wt% O, 28 wt% N, 4 wt% H and 40 wt% Ca. What is a possible formula? ($\\text{Ca}=40$)",
+      "question_ar": "مركب يحتوي $12\\%$ وزناً C و $16\\%$ O و $28\\%$ N و $4\\%$ H و $40\\%$ Ca. ما الصيغة المحتملة؟ ($\\text{Ca}=40$)",
+      "options": [
+        "$\\text{C}_2\\text{H}_3\\text{N}_2\\text{Ca(OH)}$",
+        "$\\text{CH}_4\\text{N}_4\\text{Ca}_2\\text{(OH)}$",
+        "$\\text{CH}_3\\text{N}_2\\text{Ca(OH)}$",
+        "None of the mentioned"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\text{C}:\\text{H}:\\text{O}:\\text{N}:\\text{Ca} = \\frac{12}{12}:\\frac{4}{1}:\\frac{16}{16}:\\frac{28}{14}:\\frac{40}{40} = 1:4:1:2:1$$ This corresponds to $\\text{CH}_3\\text{N}_2\\text{Ca(OH)}$ (H $=3+1=4$, O $=1$).",
+      "explanation_ar": "$$\\text{C}:\\text{H}:\\text{O}:\\text{N}:\\text{Ca} = \\frac{12}{12}:\\frac{4}{1}:\\frac{16}{16}:\\frac{28}{14}:\\frac{40}{40} = 1:4:1:2:1$$ This corresponds to $\\text{CH}_3\\text{N}_2\\text{Ca(OH)}$ (H $=3+1=4$, O $=1$).",
+      "memorization_note": "1. نسبة الذرات = (النسبة الوزنية / الوزن الذري). 2. $\\text{C}=12,\\ \\text{H}=1,\\ \\text{O}=16,\\ \\text{N}=14,\\ \\text{Ca}=40$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "What is the value of $x$ in $\\text{C}_2\\text{H}_8(\\text{OH})_x$ if hydrogen is 12 wt% of the compound?",
+      "question_ar": "ما قيمة $x$ في $\\text{C}_2\\text{H}_8(\\text{OH})_x$ إذا كان الهيدروجين يشكل $12\\%$ وزناً من المركب؟",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$m_H = 8 + x$, $M_w = 24 + 8 + 17x = 32 + 17x$. $$\\frac{8+x}{32+17x} = 0.12 \\Rightarrow 8 + x = 3.84 + 2.04x \\Rightarrow x = 4$$ Check: $M_w = 100$, $m_H = 12$ ✓.",
+      "explanation_ar": "$m_H = 8 + x$, $M_w = 24 + 8 + 17x = 32 + 17x$. $$\\frac{8+x}{32+17x} = 0.12 \\Rightarrow 8 + x = 3.84 + 2.04x \\Rightarrow x = 4$$ Check: $M_w = 100$, $m_H = 12$ ✓.",
+      "memorization_note": "1. $\\text{C}=12,\\ \\text{H}=1,\\ \\text{O}=16$ ($\\text{OH}=17$). 2. النسبة الوزنية: $w_H = \\frac{m_H}{M_w}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 21,
+      "question_en": "If hydrogen is 14 wt% of $\\text{CH}_3(\\text{OH})_x(\\text{NH}_3)_y$, what is a possible value of $x\\cdot y$?",
+      "question_ar": "إذا كان الهيدروجين يشكل $14\\%$ وزناً من $\\text{CH}_3(\\text{OH})_x(\\text{NH}_3)_y$ فما قيمة $x\\cdot y$ المحتملة؟",
+      "options": [
+        "$6$",
+        "$12$",
+        "$18$",
+        "$24$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$m_H = 3 + x + 3y$, $M_w = 15 + 17x + 17y$. $$\\frac{3+x+3y}{15+17(x+y)} = 0.14 \\Rightarrow 45 + 31y = 69x$$ Integer solution: $x = 2,\\ y = 3$. Check: $m_H = 14$, $M_w = 15+85 = 100$ ✓. $$x\\cdot y = 6$$",
+      "explanation_ar": "$m_H = 3 + x + 3y$, $M_w = 15 + 17x + 17y$. $$\\frac{3+x+3y}{15+17(x+y)} = 0.14 \\Rightarrow 45 + 31y = 69x$$ Integer solution: $x = 2,\\ y = 3$. Check: $m_H = 14$, $M_w = 15+85 = 100$ ✓. $$x\\cdot y = 6$$",
+      "memorization_note": "1. $\\text{C}=12,\\ \\text{H}=1,\\ \\text{O}=16,\\ \\text{N}=14$ ($\\text{OH}=17,\\ \\text{NH}_3=17$). 2. $w_H = m_H/M_w$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 22,
+      "question_en": "A liquid mixture has the composition 32 wt% $\\text{O}_2$, 16 wt% $\\text{CH}_4$ and 52 wt% CO. What is the mole fraction of $\\text{CH}_4$?",
+      "question_ar": "خليط سائل تركيبه $32\\%$ وزناً $\\text{O}_2$ و $16\\%$ $\\text{CH}_4$ و $52\\%$ CO. ما الكسر المولي لـ $\\text{CH}_4$؟",
+      "options": [
+        "$0.15$",
+        "$0.26$",
+        "$0.40$",
+        "$0.50$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Basis 100 g: $n_{\\text{O}_2} = \\frac{32}{32} = 1$, $n_{\\text{CH}_4} = \\frac{16}{16} = 1$, $n_{\\text{CO}} = \\frac{52}{28} = 1.857$. $$x_{\\text{CH}_4} = \\frac{1}{3.857} = 0.26$$",
+      "explanation_ar": "Basis 100 g: $n_{\\text{O}_2} = \\frac{32}{32} = 1$, $n_{\\text{CH}_4} = \\frac{16}{16} = 1$, $n_{\\text{CO}} = \\frac{52}{28} = 1.857$. $$x_{\\text{CH}_4} = \\frac{1}{3.857} = 0.26$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{O}_2=32,\\ \\text{CH}_4=16,\\ \\text{CO}=28$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 23,
+      "question_en": "A gas mixture is 20 mol% $\\text{CO}_2$, 40 mol% $\\text{O}_2$ and 40 mol% $\\text{N}_2$. What is the mass fraction of $\\text{N}_2$?",
+      "question_ar": "خليط غازي مكوّن من $20\\%$ مولياً $\\text{CO}_2$ و $40\\%$ $\\text{O}_2$ و $40\\%$ $\\text{N}_2$. ما الكسر الكتلي لـ $\\text{N}_2$؟",
+      "options": [
+        "$0.234$",
+        "$0.341$",
+        "$0.416$",
+        "$0.529$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Basis 100 mol: $m_{\\text{CO}_2} = 20(44) = 880$, $m_{\\text{O}_2} = 40(32) = 1280$, $m_{\\text{N}_2} = 40(28) = 1120\\text{ g}$. $$w_{\\text{N}_2} = \\frac{1120}{3280} = 0.341$$",
+      "explanation_ar": "Basis 100 mol: $m_{\\text{CO}_2} = 20(44) = 880$, $m_{\\text{O}_2} = 40(32) = 1280$, $m_{\\text{N}_2} = 40(28) = 1120\\text{ g}$. $$w_{\\text{N}_2} = \\frac{1120}{3280} = 0.341$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{CO}_2=44,\\ \\text{O}_2=32,\\ \\text{N}_2=28$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 24,
+      "question_en": "A liquid mixture is 20 wt% $\\text{CH}_4$, 30 wt% $\\text{C}_2\\text{H}_4$, 35 wt% $\\text{C}_2\\text{H}_2$ and 15 wt% $\\text{C}_2\\text{H}_2\\text{O}$. What is the average molecular weight?",
+      "question_ar": "خليط سائل مكوّن من $20\\%$ وزناً $\\text{CH}_4$ و $30\\%$ $\\text{C}_2\\text{H}_4$ و $35\\%$ $\\text{C}_2\\text{H}_2$ و $15\\%$ $\\text{C}_2\\text{H}_2\\text{O}$. ما الوزن الجزيئي المتوسط؟",
+      "options": [
+        "$20$",
+        "$24.8$",
+        "$6.75$",
+        "$9.25$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Liquid percentages are by weight, so $$\\frac{1}{\\bar M} = \\sum\\frac{w_i}{M_i} = \\frac{0.20}{16}+\\frac{0.30}{28}+\\frac{0.35}{26}+\\frac{0.15}{42} = 0.0402 \\Rightarrow \\bar M = 24.8\\ (\\approx 25)$$",
+      "explanation_ar": "Liquid percentages are by weight, so $$\\frac{1}{\\bar M} = \\sum\\frac{w_i}{M_i} = \\frac{0.20}{16}+\\frac{0.30}{28}+\\frac{0.35}{26}+\\frac{0.15}{42} = 0.0402 \\Rightarrow \\bar M = 24.8\\ (\\approx 25)$$",
+      "memorization_note": "1. الوزن الجزيئي المتوسط (كسور مولية): $$\\bar M = \\sum_i x_i M_i$$ وبدلالة الكسور الكتلية: $$\\frac{1}{\\bar M} = \\sum_i \\frac{w_i}{M_i}$$ 2. للغازات تُفهم النسب المئوية على أنها مولية، وللسوائل والمواد الصلبة على أنها وزنية. 3. $\\text{CH}_4=16,\\ \\text{C}_2\\text{H}_4=28,\\ \\text{C}_2\\text{H}_2=26,\\ \\text{C}_2\\text{H}_2\\text{O}=42$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 25,
+      "question_en": "A gas mixture is 20 mol% $\\text{CH}_4$, 30 mol% $\\text{C}_2\\text{H}_4$, 35 mol% $\\text{C}_2\\text{H}_2$ and 15 mol% $\\text{C}_2\\text{H}_2\\text{O}$. What is the average molecular weight?",
+      "question_ar": "خليط غازي مكوّن من $20\\%$ مولياً $\\text{CH}_4$ و $30\\%$ $\\text{C}_2\\text{H}_4$ و $35\\%$ $\\text{C}_2\\text{H}_2$ و $15\\%$ $\\text{C}_2\\text{H}_2\\text{O}$. ما الوزن الجزيئي المتوسط؟",
+      "options": [
+        "$20$",
+        "$25$",
+        "$27$",
+        "$6.75$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$\\bar M = \\sum x_i M_i = 0.20(16)+0.30(28)+0.35(26)+0.15(42) = 3.2+8.4+9.1+6.3 = 27.0$$",
+      "explanation_ar": "$$\\bar M = \\sum x_i M_i = 0.20(16)+0.30(28)+0.35(26)+0.15(42) = 3.2+8.4+9.1+6.3 = 27.0$$",
+      "memorization_note": "1. الوزن الجزيئي المتوسط (كسور مولية): $$\\bar M = \\sum_i x_i M_i$$ وبدلالة الكسور الكتلية: $$\\frac{1}{\\bar M} = \\sum_i \\frac{w_i}{M_i}$$ 2. للغازات تُفهم النسب المئوية على أنها مولية، وللسوائل والمواد الصلبة على أنها وزنية. 3. $\\text{CH}_4=16,\\ \\text{C}_2\\text{H}_4=28,\\ \\text{C}_2\\text{H}_2=26,\\ \\text{C}_2\\text{H}_2\\text{O}=42$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 26,
+      "question_en": "A mixture of $\\text{H}_2$ and $\\text{N}_2$ is 50 mol% each. What is the mass percentage of $\\text{H}_2$?",
+      "question_ar": "خليط من $\\text{H}_2$ و $\\text{N}_2$ بنسبة مولية $50\\%$ لكل منهما. ما النسبة الكتلية المئوية لـ $\\text{H}_2$؟",
+      "options": [
+        "$6.67\\%$",
+        "$12.5\\%$",
+        "$25\\%$",
+        "$87.5\\%$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Basis 100 mol: $m_{\\text{H}_2} = 50(2) = 100\\text{ g}$, $m_{\\text{N}_2} = 50(28) = 1400\\text{ g}$. $$w_{\\text{H}_2}\\% = \\frac{100}{1500}\\times100 = 6.67\\%$$",
+      "explanation_ar": "Basis 100 mol: $m_{\\text{H}_2} = 50(2) = 100\\text{ g}$, $m_{\\text{N}_2} = 50(28) = 1400\\text{ g}$. $$w_{\\text{H}_2}\\% = \\frac{100}{1500}\\times100 = 6.67\\%$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{H}_2=2,\\ \\text{N}_2=28$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 27,
+      "question_en": "A mixture is 40 mol% $\\text{CO}_2$ and 60 mol% $\\text{H}_2\\text{O}$. What is the mass percent of $\\text{CO}_2$?",
+      "question_ar": "خليط مكوّن من $40\\%$ مولياً $\\text{CO}_2$ و $60\\%$ $\\text{H}_2\\text{O}$. ما النسبة الكتلية المئوية لـ $\\text{CO}_2$؟",
+      "options": [
+        "$24.1\\%$",
+        "$47.2\\%$",
+        "$62.0\\%$",
+        "$78.5\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Basis 100 mol: $m_{\\text{CO}_2} = 40(44) = 1760$, $m_{\\text{H}_2\\text{O}} = 60(18) = 1080\\text{ g}$. $$w\\% = \\frac{1760}{2840}\\times100 = 62.0\\%$$",
+      "explanation_ar": "Basis 100 mol: $m_{\\text{CO}_2} = 40(44) = 1760$, $m_{\\text{H}_2\\text{O}} = 60(18) = 1080\\text{ g}$. $$w\\% = \\frac{1760}{2840}\\times100 = 62.0\\%$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{CO}_2=44,\\ \\text{H}_2\\text{O}=18$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 28,
+      "question_en": "A mixture is 20 mol% $\\text{CO}_2$, 30 mol% $\\text{SO}_2$ and 50 mol% $\\text{H}_2\\text{O}$. What is the mass percent of $\\text{CO}_2$?",
+      "question_ar": "خليط مكوّن من $20\\%$ مولياً $\\text{CO}_2$ و $30\\%$ $\\text{SO}_2$ و $50\\%$ $\\text{H}_2\\text{O}$. ما النسبة الكتلية المئوية لـ $\\text{CO}_2$؟",
+      "options": [
+        "$23.8\\%$",
+        "$45\\%$",
+        "$66\\%$",
+        "$87\\%$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Basis 100 mol: $880 + 30(64) + 50(18) = 880 + 1920 + 900 = 3700\\text{ g}$. $$w\\% = \\frac{880}{3700}\\times100 = 23.8\\%$$",
+      "explanation_ar": "Basis 100 mol: $880 + 30(64) + 50(18) = 880 + 1920 + 900 = 3700\\text{ g}$. $$w\\% = \\frac{880}{3700}\\times100 = 23.8\\%$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{CO}_2=44,\\ \\text{SO}_2=64,\\ \\text{H}_2\\text{O}=18$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 29,
+      "question_en": "A mixture is 20 mol% NaCl, 30 mol% $\\text{CH}_4$ and 50 mol% $\\text{H}_2\\text{O}$. What is the mass percent of NaCl?",
+      "question_ar": "خليط مكوّن من $20\\%$ مولياً NaCl و $30\\%$ $\\text{CH}_4$ و $50\\%$ $\\text{H}_2\\text{O}$. ما النسبة الكتلية المئوية لـ NaCl؟",
+      "options": [
+        "$21\\%$",
+        "$34\\%$",
+        "$45.9\\%$",
+        "$68\\%$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Basis 100 mol: $m_{\\text{NaCl}} = 20(58.5) = 1170$, $m_{\\text{CH}_4} = 30(16) = 480$, $m_{\\text{H}_2\\text{O}} = 50(18) = 900\\text{ g}$. $$w\\% = \\frac{1170}{2550}\\times100 = 45.9\\%$$",
+      "explanation_ar": "Basis 100 mol: $m_{\\text{NaCl}} = 20(58.5) = 1170$, $m_{\\text{CH}_4} = 30(16) = 480$, $m_{\\text{H}_2\\text{O}} = 50(18) = 900\\text{ g}$. $$w\\% = \\frac{1170}{2550}\\times100 = 45.9\\%$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{NaCl}=58.5,\\ \\text{CH}_4=16,\\ \\text{H}_2\\text{O}=18$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 30,
+      "question_en": "A mixture is 10 mol% CO, 40 mol% $\\text{CO}_2$ and 50 mol% $\\text{H}_2\\text{O}$. What is the mass percent of CO?",
+      "question_ar": "خليط مكوّن من $10\\%$ مولياً CO و $40\\%$ $\\text{CO}_2$ و $50\\%$ $\\text{H}_2\\text{O}$. ما النسبة الكتلية المئوية لـ CO؟",
+      "options": [
+        "$9.5\\%$",
+        "$15.4\\%$",
+        "$39.5\\%$",
+        "$74.1\\%$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Basis 100 mol: $m_{\\text{CO}} = 10(28) = 280$, $m_{\\text{CO}_2} = 40(44) = 1760$, $m_{\\text{H}_2\\text{O}} = 50(18) = 900\\text{ g}$. $$w_{\\text{CO}}\\% = \\frac{280}{2940}\\times100 = 9.5\\%$$",
+      "explanation_ar": "Basis 100 mol: $m_{\\text{CO}} = 10(28) = 280$, $m_{\\text{CO}_2} = 40(44) = 1760$, $m_{\\text{H}_2\\text{O}} = 50(18) = 900\\text{ g}$. $$w_{\\text{CO}}\\% = \\frac{280}{2940}\\times100 = 9.5\\%$$",
+      "memorization_note": "1. الكسر المولي: $$x_i = \\frac{n_i}{\\sum_j n_j}$$ 2. الكسر الكتلي: $$w_i = \\frac{m_i}{\\sum_j m_j}$$ 3. المولات: $n = \\frac{m}{M_w}$. 4. $\\text{CO}=28,\\ \\text{CO}_2=44,\\ \\text{H}_2\\text{O}=18$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 31,
+      "question_en": "Which of the following is NOT a unit of concentration?",
+      "question_ar": "أي مما يلي ليس وحدة للتركيز؟",
+      "options": [
+        "$\\text{mol/m}^3$",
+        "Molar (mol/L)",
+        "$\\text{N/m}^3$",
+        "ppm"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Concentration is amount (moles or mass) per unit volume (or a ratio like ppm). $\\text{N/m}^3$ is force per volume (specific weight).",
+      "explanation_ar": "Concentration is amount (moles or mass) per unit volume (or a ratio like ppm). $\\text{N/m}^3$ is force per volume (specific weight).",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "What is the concentration of 22 g of $\\text{CO}_2$ occupying $0.5\\text{ m}^3$?",
+      "question_ar": "ما تركيز $22\\text{ g}$ من $\\text{CO}_2$ تشغل حجماً قدره $0.5\\text{ m}^3$؟",
+      "options": [
+        "$1\\text{ mol/m}^3$",
+        "$2\\text{ mol/m}^3$",
+        "$11\\text{ mol/m}^3$",
+        "$22\\text{ mol/m}^3$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n = \\frac{22}{44} = 0.5\\text{ mol},\\qquad C = \\frac{0.5}{0.5} = 1\\text{ mol/m}^3$$",
+      "explanation_ar": "$$n = \\frac{22}{44} = 0.5\\text{ mol},\\qquad C = \\frac{0.5}{0.5} = 1\\text{ mol/m}^3$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{CO}_2 = 44\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "What is the concentration of 100 lb of solution occupying $25\\text{ m}^3$?",
+      "question_ar": "ما تركيز $100\\text{ lb}$ من محلول يشغل $25\\text{ m}^3$؟",
+      "options": [
+        "$1.8\\text{ kg/m}^3$",
+        "$2.7\\text{ kg/m}^3$",
+        "$4\\text{ kg/m}^3$",
+        "$8\\text{ kg/m}^3$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$m = 100\\times0.4536 = 45.4\\text{ kg},\\qquad C = \\frac{45.4}{25} = 1.8\\text{ kg/m}^3$$",
+      "explanation_ar": "$$m = 100\\times0.4536 = 45.4\\text{ kg},\\qquad C = \\frac{45.4}{25} = 1.8\\text{ kg/m}^3$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $1\\text{ lb} = 0.4536\\text{ kg}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "What is the molarity of a solution containing 4 kg of NaOH in 100 L of solution?",
+      "question_ar": "ما مولارية محلول يحتوي $4\\text{ kg}$ من NaOH في $100\\text{ L}$ من المحلول؟",
+      "options": [
+        "$0.1\\text{ M}$",
+        "$1\\text{ M}$",
+        "$10\\text{ M}$",
+        "$100\\text{ M}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n = \\frac{4000}{40} = 100\\text{ mol},\\qquad M = \\frac{100}{100} = 1\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{4000}{40} = 100\\text{ mol},\\qquad M = \\frac{100}{100} = 1\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{NaOH} = 23 + 16 + 1 = 40\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "10 g of calcium is dissolved in 1000 kg of water. What is the concentration in ppm (mass basis)?",
+      "question_ar": "أُذيب $10\\text{ g}$ من الكالسيوم في $1000\\text{ kg}$ من الماء. ما التركيز بوحدة ppm (على أساس الكتلة)؟",
+      "options": [
+        "$1\\text{ ppm}$",
+        "$10\\text{ ppm}$",
+        "$100\\text{ ppm}$",
+        "$1000\\text{ ppm}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$\\text{ppm} = \\frac{10\\text{ g}}{1\\,000\\,000\\text{ g}}\\times10^6 = 10\\text{ ppm}$$",
+      "explanation_ar": "$$\\text{ppm} = \\frac{10\\text{ g}}{1\\,000\\,000\\text{ g}}\\times10^6 = 10\\text{ ppm}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $1\\text{ kg} = 1000\\text{ g}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "A solution has a concentration of $4\\text{ mol/m}^3$ of sodium. If the solution volume is $2\\text{ m}^3$ (10 kg of solvent with density $5\\text{ kg/m}^3$), how much sodium is present?",
+      "question_ar": "محلول تركيز الصوديوم فيه $4\\text{ mol/m}^3$. إذا كان حجم المحلول $2\\text{ m}^3$ ($10\\text{ kg}$ مذيب كثافته $5\\text{ kg/m}^3$) فكم كتلة الصوديوم؟",
+      "options": [
+        "$23\\text{ g}$",
+        "$92\\text{ g}$",
+        "$184\\text{ g}$",
+        "$276\\text{ g}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$V = \\frac{10}{5} = 2\\text{ m}^3,\\quad n = C V = 4\\times2 = 8\\text{ mol},\\quad m = 8\\times23 = 184\\text{ g}$$",
+      "explanation_ar": "$$V = \\frac{10}{5} = 2\\text{ m}^3,\\quad n = C V = 4\\times2 = 8\\text{ mol},\\quad m = 8\\times23 = 184\\text{ g}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{Na} = 23$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 37,
+      "question_en": "A 5 molar solution is 27.75% $\\text{CaCl}_2$ by mass. What is the density of the solution?",
+      "question_ar": "محلول $\\text{CaCl}_2$ تركيزه $5\\text{ M}$ ونسبته $27.75\\%$ وزناً. ما كثافة المحلول؟",
+      "options": [
+        "$1\\text{ g/cm}^3$",
+        "$2\\text{ g/cm}^3$",
+        "$3\\text{ g/cm}^3$",
+        "$4\\text{ g/cm}^3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Basis 1 L: $m_{\\text{CaCl}_2} = 5\\times111 = 555\\text{ g}$. $$m_{\\text{sol}} = \\frac{555}{0.2775} = 2000\\text{ g} \\Rightarrow \\rho = 2\\text{ g/cm}^3$$",
+      "explanation_ar": "Basis 1 L: $m_{\\text{CaCl}_2} = 5\\times111 = 555\\text{ g}$. $$m_{\\text{sol}} = \\frac{555}{0.2775} = 2000\\text{ g} \\Rightarrow \\rho = 2\\text{ g/cm}^3$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{CaCl}_2 = 40 + 71 = 111\\text{ g/mol}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 38,
+      "question_en": "A solution of density $1\\text{ g/cm}^3$ contains 98 g of $\\text{H}_2\\text{SO}_4$ in 402 g of water. What is its molarity?",
+      "question_ar": "محلول كثافته $1\\text{ g/cm}^3$ يحتوي $98\\text{ g}$ من $\\text{H}_2\\text{SO}_4$ في $402\\text{ g}$ ماء. ما مولاريته؟",
+      "options": [
+        "$1\\text{ M}$",
+        "$2\\text{ M}$",
+        "$3\\text{ M}$",
+        "$4\\text{ M}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n = \\frac{98}{98} = 1\\text{ mol},\\quad V = \\frac{500\\text{ g}}{1\\text{ g/cm}^3} = 500\\text{ cm}^3 = 0.5\\text{ L},\\quad M = \\frac{1}{0.5} = 2\\text{ M}$$",
+      "explanation_ar": "$$n = \\frac{98}{98} = 1\\text{ mol},\\quad V = \\frac{500\\text{ g}}{1\\text{ g/cm}^3} = 500\\text{ cm}^3 = 0.5\\text{ L},\\quad M = \\frac{1}{0.5} = 2\\text{ M}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{H}_2\\text{SO}_4 = 98\\text{ g/mol}$، $V = m_{\\text{sol}}/\\rho$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 39,
+      "question_en": "A 500 g solution of density $2\\text{ g/cm}^3$ is 1 molar in $\\text{HNO}_3$. What is the mass of $\\text{HNO}_3$ in the solution?",
+      "question_ar": "محلول كتلته $500\\text{ g}$ وكثافته $2\\text{ g/cm}^3$ وتركيزه $1\\text{ M}$ من $\\text{HNO}_3$. ما كتلة $\\text{HNO}_3$ فيه؟",
+      "options": [
+        "$15.75\\text{ g}$",
+        "$63\\text{ g}$",
+        "$126\\text{ g}$",
+        "$252\\text{ g}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$V = \\frac{500}{2} = 250\\text{ cm}^3 = 0.25\\text{ L},\\quad n = MV = 1\\times0.25 = 0.25\\text{ mol},\\quad m = 0.25\\times63 = 15.75\\text{ g}$$",
+      "explanation_ar": "$$V = \\frac{500}{2} = 250\\text{ cm}^3 = 0.25\\text{ L},\\quad n = MV = 1\\times0.25 = 0.25\\text{ mol},\\quad m = 0.25\\times63 = 15.75\\text{ g}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $\\text{HNO}_3 = 1 + 14 + 48 = 63\\text{ g/mol}$. ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 40,
+      "question_en": "Two solutions are mixed: 4 M (10 L) and 2 M (40 L). What is the molarity of the mixture?",
+      "question_ar": "خُلط محلولان: الأول $4\\text{ M}$ حجمه $10\\text{ L}$ والثاني $2\\text{ M}$ حجمه $40\\text{ L}$. ما مولارية الخليط؟",
+      "options": [
+        "$1.2\\text{ M}$",
+        "$2.4\\text{ M}$",
+        "$4.8\\text{ M}$",
+        "$9.2\\text{ M}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1+V_2} = \\frac{4(10) + 2(40)}{10+40} = 2.4\\text{ M}$$",
+      "explanation_ar": "$$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1+V_2} = \\frac{4(10) + 2(40)}{10+40} = 2.4\\text{ M}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 41,
+      "question_en": "What is the molar concentration of a solution containing 40 g of $\\text{NaOH}$ in 1 L of solution?",
+      "question_ar": "ما التركيز المولي لمحلول يحتوي على $40\\text{ g}$ من $\\text{NaOH}$ في $1\\text{ L}$ من المحلول؟",
+      "options": [
+        "$1\\text{ mol/L}$",
+        "$2\\text{ mol/L}$",
+        "$3\\text{ mol/L}$",
+        "$4\\text{ mol/L}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n = \\frac{40}{40} = 1\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{1}{1} = 1\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{40}{40} = 1\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{1}{1} = 1\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $M_w = 40\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "What is the molar concentration of a solution containing 32 g of $\\text{CH}_4$ in 1 L of solution?",
+      "question_ar": "ما التركيز المولي لمحلول يحتوي على $32\\text{ g}$ من $\\text{CH}_4$ في $1\\text{ L}$ من المحلول؟",
+      "options": [
+        "$1\\text{ mol/L}$",
+        "$2\\text{ mol/L}$",
+        "$3\\text{ mol/L}$",
+        "$4\\text{ mol/L}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n = \\frac{32}{16} = 2\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{2}{1} = 2\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{32}{16} = 2\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{2}{1} = 2\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $M_w = 16\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "What is the molar concentration of a solution containing 44 g of $\\text{CO}_2$ in 0.5 L of solution?",
+      "question_ar": "ما التركيز المولي لمحلول يحتوي على $44\\text{ g}$ من $\\text{CO}_2$ في $0.5\\text{ L}$ من المحلول؟",
+      "options": [
+        "$1\\text{ mol/L}$",
+        "$2\\text{ mol/L}$",
+        "$3\\text{ mol/L}$",
+        "$4\\text{ mol/L}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n = \\frac{44}{44} = 1\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{1}{0.5} = 2\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{44}{44} = 1\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{1}{0.5} = 2\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $M_w = 44\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "What is the molar concentration of a solution containing 32 g of $\\text{SO}_2$ in 0.5 L of solution?",
+      "question_ar": "ما التركيز المولي لمحلول يحتوي على $32\\text{ g}$ من $\\text{SO}_2$ في $0.5\\text{ L}$ من المحلول؟",
+      "options": [
+        "$1\\text{ mol/L}$",
+        "$2\\text{ mol/L}$",
+        "$3\\text{ mol/L}$",
+        "$4\\text{ mol/L}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n = \\frac{32}{64} = 0.5\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{0.5}{0.5} = 1\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{32}{64} = 0.5\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{0.5}{0.5} = 1\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $M_w = 64\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "What is the molar concentration of a solution containing 49 g of $\\text{H}_2\\text{SO}_4$ in 0.5 L of solution?",
+      "question_ar": "ما التركيز المولي لمحلول يحتوي على $49\\text{ g}$ من $\\text{H}_2\\text{SO}_4$ في $0.5\\text{ L}$ من المحلول؟",
+      "options": [
+        "$1\\text{ mol/L}$",
+        "$2\\text{ mol/L}$",
+        "$3\\text{ mol/L}$",
+        "$4\\text{ mol/L}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$n = \\frac{49}{98} = 0.5\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{0.5}{0.5} = 1\\text{ mol/L}$$",
+      "explanation_ar": "$$n = \\frac{49}{98} = 0.5\\text{ mol},\\qquad C = \\frac{n}{V} = \\frac{0.5}{0.5} = 1\\text{ mol/L}$$",
+      "memorization_note": "1. التركيز الكتلي: $C = \\frac{m}{V}$ ($\\text{kg/m}^3$). 2. التركيز المولي (المولارية): $$M = \\frac{n}{V_{\\text{L}}} = \\frac{m/M_w}{V_{\\text{L}}}$$ 3. $\\text{ppm} = \\frac{m_{\\text{solute}}}{m_{\\text{solution}}}\\times10^6$. 4. قانون الخلط: $$M_{\\text{mix}} = \\frac{M_1V_1 + M_2V_2}{V_1 + V_2}$$ 5. $M_w = 98\\text{ g/mol}$. ",
+      "requires_scratchpad": false
+    }
+  ]
+}

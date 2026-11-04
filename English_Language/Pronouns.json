@@ -1,0 +1,248 @@
+{
+  "topic_en": "Pronouns",
+  "topic_ar": "الضمائر",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول ضمائر الفاعل والمفعول وصفات وضمائر الملكية والضمائر الانعكاسية و one/ones",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "This book is ___.",
+      "question_ar": "هذا الكتاب ____.",
+      "options": [
+        "me",
+        "mine",
+        "my",
+        "myself"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: mine. No noun follows, so we need a possessive pronoun: mine.",
+      "explanation_ar": "الإجابة الصحيحة: mine. لا يوجد اسم بعده ← ضمير ملكية mine.",
+      "memorization_note": "صفة الملكية قبل الاسم ($\\text{my book}$) ، وضمير الملكية بدون اسم ($\\text{mine, yours, hers, ours, theirs}$) ، و $\\text{its} \\ne \\text{it's (it is)}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "She hurt ___ while cooking.",
+      "question_ar": "هي جرحت ____ أثناء الطبخ.",
+      "options": [
+        "her",
+        "hers",
+        "she",
+        "herself"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: herself. Subject and object are the same person: reflexive herself.",
+      "explanation_ar": "الإجابة الصحيحة: herself. الفاعل = المفعول ← ضمير انعكاسي herself.",
+      "memorization_note": "الضمير الانعكاسي عندما يكون الفاعل = المفعول: $\\text{She hurt herself}$ ، و $\\text{by herself} = \\text{alone}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "I gave ___ a present.",
+      "question_ar": "أعطيت ____ هدية.",
+      "options": [
+        "him",
+        "he",
+        "his",
+        "himself"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: him. An object pronoun is needed after the verb: him.",
+      "explanation_ar": "الإجابة الصحيحة: him. بعد الفعل نحتاج ضمير مفعول ← him.",
+      "memorization_note": "ضمير الفاعل قبل الفعل ($\\text{I, he, she, we, they}$) ، وضمير المفعول بعد الفعل أو حرف الجر ($\\text{me, him, her, us, them}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Is this your bag? No, it's ___.",
+      "question_ar": "هل هذه حقيبتك؟ لا، إنها ____.",
+      "options": [
+        "her",
+        "she",
+        "hers",
+        "herself"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: hers. No noun follows: possessive pronoun hers.",
+      "explanation_ar": "الإجابة الصحيحة: hers. بدون اسم بعدها ← ضمير ملكية hers.",
+      "memorization_note": "صفة الملكية قبل الاسم ($\\text{my book}$) ، وضمير الملكية بدون اسم ($\\text{mine, yours, hers, ours, theirs}$) ، و $\\text{its} \\ne \\text{it's (it is)}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Ali and ___ went to school.",
+      "question_ar": "علي و____ ذهبنا إلى المدرسة.",
+      "options": [
+        "me",
+        "I",
+        "myself",
+        "mine"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: I. Subject position needs a subject pronoun: I.",
+      "explanation_ar": "الإجابة الصحيحة: I. موضع الفاعل ← ضمير فاعل I.",
+      "memorization_note": "ضمير الفاعل قبل الفعل ($\\text{I, he, she, we, they}$) ، وضمير المفعول بعد الفعل أو حرف الجر ($\\text{me, him, her, us, them}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "This is between you and ___.",
+      "question_ar": "هذا الأمر بينك وبين ____.",
+      "options": [
+        "I",
+        "mine",
+        "myself",
+        "me"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: me. After a preposition we use an object pronoun: me.",
+      "explanation_ar": "الإجابة الصحيحة: me. بعد حرف الجر ← ضمير مفعول me.",
+      "memorization_note": "ضمير الفاعل قبل الفعل ($\\text{I, he, she, we, they}$) ، وضمير المفعول بعد الفعل أو حرف الجر ($\\text{me, him, her, us, them}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "I like the red shirt, but she prefers the blue ___.",
+      "question_ar": "أحب القميص الأحمر لكنها تفضل الأزرق ____.",
+      "options": [
+        "one",
+        "ones",
+        "it",
+        "that"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: one. 'one' replaces the singular countable noun 'shirt'.",
+      "explanation_ar": "الإجابة الصحيحة: one. one تحل محل shirt (مفرد معدود).",
+      "memorization_note": "$\\text{one}$ تحل محل اسم معدود مفرد ، و $\\text{ones}$ للجمع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "These apples are fresh; those ___ are old.",
+      "question_ar": "هذه التفاحات طازجة؛ تلك ____ قديمة.",
+      "options": [
+        "one",
+        "it",
+        "ones",
+        "them"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: ones. 'ones' replaces the plural noun 'apples'.",
+      "explanation_ar": "الإجابة الصحيحة: ones. ones تحل محل apples (جمع).",
+      "memorization_note": "$\\text{one}$ تحل محل اسم معدود مفرد ، و $\\text{ones}$ للجمع.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "Our car is bigger than ___.",
+      "question_ar": "سيارتنا أكبر من ____.",
+      "options": [
+        "their",
+        "theirs",
+        "them",
+        "they"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: theirs. 'theirs' = their car (possessive pronoun, no noun).",
+      "explanation_ar": "الإجابة الصحيحة: theirs. theirs = سيارتهم (ضمير ملكية بدون اسم).",
+      "memorization_note": "صفة الملكية قبل الاسم ($\\text{my book}$) ، وضمير الملكية بدون اسم ($\\text{mine, yours, hers, ours, theirs}$) ، و $\\text{its} \\ne \\text{it's (it is)}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "The dog wagged ___ tail.",
+      "question_ar": "الكلب هز ____ ذيله.",
+      "options": [
+        "it's",
+        "his own's",
+        "it",
+        "its"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: its. 'its' is the possessive adjective; it's = it is.",
+      "explanation_ar": "الإجابة الصحيحة: its. its صفة ملكية، أما it's فهي it is.",
+      "memorization_note": "صفة الملكية قبل الاسم ($\\text{my book}$) ، وضمير الملكية بدون اسم ($\\text{mine, yours, hers, ours, theirs}$) ، و $\\text{its} \\ne \\text{it's (it is)}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "I have two brothers; ___ are doctors.",
+      "question_ar": "لدي أخوان؛ ____ طبيبان.",
+      "options": [
+        "both",
+        "neither",
+        "every",
+        "each"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: both. 'two' → both (plural verb).",
+      "explanation_ar": "الإجابة الصحيحة: both. اثنان ← both.",
+      "memorization_note": "$\\text{each other}$ = متبادل بين شخصين أو أكثر ، $\\text{both}$ = اثنان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "\"Is he coming?\" \"I think ___.\"",
+      "question_ar": "هل هو قادم؟ أظن ____.",
+      "options": [
+        "it",
+        "that",
+        "so",
+        "this"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: so. 'so' replaces the whole clause after think/hope.",
+      "explanation_ar": "الإجابة الصحيحة: so. so تحل محل الجملة بعد think/hope.",
+      "memorization_note": "$\\text{I hope so / I think so}$ ، والنفي: $\\text{I hope not}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "Don't blame ___; it's not your fault.",
+      "question_ar": "لا تلُم ____؛ ليس خطأك.",
+      "options": [
+        "you",
+        "yourself",
+        "your",
+        "yours"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: yourself. Subject (you) and object are the same: yourself.",
+      "explanation_ar": "الإجابة الصحيحة: yourself. الفاعل = المفعول ← yourself.",
+      "memorization_note": "الضمير الانعكاسي عندما يكون الفاعل = المفعول: $\\text{She hurt herself}$ ، و $\\text{by herself} = \\text{alone}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "The children enjoyed ___ at the party.",
+      "question_ar": "الأطفال استمتعوا ____ في الحفلة.",
+      "options": [
+        "them",
+        "they",
+        "theirs",
+        "themselves"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: themselves. enjoy + reflexive pronoun: enjoyed themselves.",
+      "explanation_ar": "الإجابة الصحيحة: themselves. enjoy + ضمير انعكاسي ← themselves.",
+      "memorization_note": "الضمير الانعكاسي عندما يكون الفاعل = المفعول: $\\text{She hurt herself}$ ، و $\\text{by herself} = \\text{alone}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "We should help ___.",
+      "question_ar": "ينبغي أن يساعد ____ بعضنا بعضاً.",
+      "options": [
+        "each other",
+        "ourself",
+        "us each",
+        "ourselves other"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: each other. Reciprocal action between people: each other.",
+      "explanation_ar": "الإجابة الصحيحة: each other. فعل متبادل ← each other.",
+      "memorization_note": "$\\text{each other}$ = متبادل بين شخصين أو أكثر ، $\\text{both}$ = اثنان.",
+      "requires_scratchpad": false
+    }
+  ]
+}

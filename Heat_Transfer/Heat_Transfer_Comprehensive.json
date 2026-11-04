@@ -1,0 +1,2408 @@
+{
+  "topic_en": "Comprehensive Fundamentals & Essentials of Heat Transfer",
+  "topic_ar": "البنك الشامل لأساسيات وبديهيات انتقال الحرارة",
+  "subject_folder": "Heat_Transfer",
+  "description_ar": "ملف شامل يضم 150 سؤالاً (100 سؤال أساسيات وبديهيات بسيطة + 50 سؤال أساسيات عامة وتطبيقية) من المراجع المعتمدة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "What is the SI unit of the rate of heat transfer $Q$?",
+      "question_ar": "ما هي وحدة SI لمعدل انتقال الحرارة $Q$؟",
+      "options": [
+        "Newton (N)",
+        "Joule (J)",
+        "Pascal (Pa)",
+        "Watt (W = J/s)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Heat transfer rate is energy per unit time, so $1\\text{ W}=1\\text{ J/s}$. Joule is energy, Pa is pressure, N is force.",
+      "explanation_ar": "معدل انتقال الحرارة هو طاقة لكل وحدة زمن لذا $1\\text{ W}=1\\text{ J/s}$. الجول وحدة طاقة والباسكال ضغط والنيوتن قوة.",
+      "memorization_note": "ملاحظة للحفظ: الوحدات: $Q\\ [\\text{W}]$، الفيض الحراري $q=\\frac{Q}{A}\\ [\\text{W/m}^2]$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What is the SI unit of thermal conductivity $k$?",
+      "question_ar": "ما هي وحدة SI للتوصيلية الحرارية $k$؟",
+      "options": [
+        "$\\text{W/(m}\\cdot\\text{K)}$",
+        "$\\text{W/(m}^2\\cdot\\text{K)}$",
+        "$\\text{W/m}^2$",
+        "$\\text{J/(kg}\\cdot\\text{K)}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "From $q=-k\\,\\frac{dT}{dx}$: $k=\\frac{q}{dT/dx}=\\frac{\\text{W/m}^2}{\\text{K/m}}=\\text{W/(m}\\cdot\\text{K)}$. $\\text{W/(m}^2\\text{K)}$ is the unit of $h$.",
+      "explanation_ar": "من قانون فورير $k=\\frac{q}{dT/dx}$ فتكون الوحدة $\\text{W/(m}\\cdot\\text{K)}$. أما $\\text{W/(m}^2\\text{K)}$ فهي وحدة $h$.",
+      "memorization_note": "ملاحظة للحفظ: $k:\\ \\text{W/(m}\\cdot\\text{K)}$ ، $h:\\ \\text{W/(m}^2\\cdot\\text{K)}$ ، $c_p:\\ \\text{J/(kg}\\cdot\\text{K)}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Heat conduction through a solid is described by which law?",
+      "question_ar": "أي قانون يصف انتقال الحرارة بالتوصيل خلال المواد الصلبة؟",
+      "options": [
+        "Newton law of cooling",
+        "Fourier law",
+        "Stefan–Boltzmann law",
+        "Wien displacement law"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Fourier law relates conduction heat flux to the temperature gradient: $q=-k\\frac{dT}{dx}$.",
+      "explanation_ar": "قانون فورير يربط الفيض الحراري بالتوصيل مع مشتق درجة الحرارة: $q=-k\\frac{dT}{dx}$.",
+      "memorization_note": "ملاحظة للحفظ: قانون فورير: $$Q=-kA\\frac{dT}{dx}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Convective heat transfer between a surface and a fluid is described by which law?",
+      "question_ar": "أي قانون يصف انتقال الحرارة بالحمل بين سطح وموائع؟",
+      "options": [
+        "Kirchhoff law",
+        "Wien law",
+        "Fourier law",
+        "Newton law of cooling"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Newton law of cooling: $Q=hA(T_s-T_\\infty)$.",
+      "explanation_ar": "قانون نيوتن للتبريد: $Q=hA(T_s-T_\\infty)$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=hA(T_s-T_\\infty)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "The total emissive power of a black body is proportional to which power of absolute temperature?",
+      "question_ar": "القدرة الإشعاعية الكلية للجسم الأسود تتناسب مع أي أس من درجة الحرارة المطلقة؟",
+      "options": [
+        "$T^2$",
+        "$T^4$",
+        "$T$",
+        "$T^3$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Stefan–Boltzmann law: $E_b=\\sigma T^4$.",
+      "explanation_ar": "قانون ستيفان–بولتزمان: $E_b=\\sigma T^4$.",
+      "memorization_note": "ملاحظة للحفظ: $$E_b=\\sigma T^4,\\quad \\sigma=5.67\\times10^{-8}\\ \\text{W/(m}^2\\text{K}^4)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "Which mode of heat transfer does NOT require a material medium?",
+      "question_ar": "أي أنماط انتقال الحرارة لا تحتاج إلى وسط مادي؟",
+      "options": [
+        "Radiation",
+        "Forced convection",
+        "Conduction",
+        "Natural convection"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Radiation is carried by electromagnetic waves and can travel through vacuum (e.g., Sun to Earth).",
+      "explanation_ar": "الإشعاع ينتقل بالموجات الكهرومغناطيسية ويمكنه الانتقال في الفراغ (مثل الشمس إلى الأرض).",
+      "memorization_note": "ملاحظة للحفظ: أنماط الانتقال: توصيل (Conduction)، حمل (Convection)، إشعاع (Radiation)؛ الإشعاع فقط لا يحتاج وسطاً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "According to the second law of thermodynamics, heat flows spontaneously from:",
+      "question_ar": "حسب القانون الثاني للثرموداينمك تنتقل الحرارة تلقائياً من:",
+      "options": [
+        "Any body to any other body regardless of temperature",
+        "Low temperature to high temperature",
+        "High temperature to low temperature",
+        "Low pressure to high pressure"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A temperature difference is the driving force; heat flows down the temperature gradient.",
+      "explanation_ar": "فرق درجات الحرارة هو القوة الدافعة وتنتقل الحرارة باتجاه انخفاض درجة الحرارة.",
+      "memorization_note": "ملاحظة للحفظ: القوة الدافعة للانتقال الحراري: $\\Delta T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Which of the following materials has the highest thermal conductivity?",
+      "question_ar": "أي المواد التالية لها أعلى توصيلية حرارية؟",
+      "options": [
+        "Air",
+        "Glass wool",
+        "Copper",
+        "Water"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Pure metals have the highest $k$ (copper $\\approx 400\\ \\text{W/m·K}$); water $\\approx0.6$, air $\\approx0.026$, glass wool $\\approx0.04$.",
+      "explanation_ar": "المعادن النقية لها أعلى $k$ (النحاس $\\approx400$)، الماء $\\approx0.6$، الهواء $\\approx0.026$، الصوف الزجاجي $\\approx0.04$.",
+      "memorization_note": "ملاحظة للحفظ: ترتيب $k$: فلزات $>$ سبائك $>$ لافلزات صلبة $>$ سوائل $>$ غازات.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "Which of the following has the lowest thermal conductivity?",
+      "question_ar": "أي مما يلي له أقل توصيلية حرارية؟",
+      "options": [
+        "Mild steel",
+        "Water",
+        "Copper",
+        "Air"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Gases have very low $k$ ($\\approx0.026\\ \\text{W/m·K}$ for air at room temperature), which is why trapped air insulates.",
+      "explanation_ar": "الغازات لها $k$ منخفضة جداً (الهواء $\\approx0.026$) ولذلك يعمل الهواء المحبوس كعازل.",
+      "memorization_note": "ملاحظة للحفظ: $k_{\\text{air}}\\approx0.026\\ \\text{W/(m·K)}$ ، $k_{\\text{water}}\\approx0.6$ ، $k_{\\text{Cu}}\\approx400$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "In Fourier law $q=-k\\frac{dT}{dx}$, the negative sign indicates that:",
+      "question_ar": "في قانون فورير $q=-k\\frac{dT}{dx}$ تدل الإشارة السالبة على أن:",
+      "options": [
+        "Heat is absorbed by the body",
+        "Heat flows in the direction of increasing temperature",
+        "Heat flows in the direction of decreasing temperature",
+        "Thermal conductivity is negative"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\frac{dT}{dx}$ is negative along the flow direction, so the minus sign makes $q$ positive in the direction of heat flow (second law).",
+      "explanation_ar": "المشتقة $\\frac{dT}{dx}$ سالبة باتجاه الجريان لذا تجعل الإشارة السالبة $q$ موجباً باتجاه انتقال الحرارة (القانون الثاني).",
+      "memorization_note": "ملاحظة للحفظ: الإشارة السالبة = الحرارة تنتقل باتجاه انخفاض $T$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "In steady-state heat conduction, the temperature at any point:",
+      "question_ar": "في التوصيل الحراري المستقر (Steady State) تكون درجة الحرارة عند أي نقطة:",
+      "options": [
+        "Does not change with time",
+        "Oscillates with time",
+        "Increases linearly with time",
+        "Decreases exponentially with time"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Steady state means $\\frac{\\partial T}{\\partial t}=0$; no energy accumulation.",
+      "explanation_ar": "الحالة المستقرة تعني $\\frac{\\partial T}{\\partial t}=0$ أي لا يوجد تراكم للطاقة.",
+      "memorization_note": "ملاحظة للحفظ: Steady: $\\frac{\\partial T}{\\partial t}=0$ ، Unsteady (Transient): $\\frac{\\partial T}{\\partial t}\\neq0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "For steady 1-D conduction through a plane wall with constant $k$ and no heat generation, the temperature profile is:",
+      "question_ar": "في التوصيل المستقر أحادي البعد خلال جدار مستوٍ بـ $k$ ثابت وبدون توليد حراري يكون توزيع الحرارة:",
+      "options": [
+        "Exponential",
+        "Linear",
+        "Parabolic",
+        "Logarithmic"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Solving $\\frac{d^2T}{dx^2}=0$ gives $T=C_1x+C_2$, a straight line.",
+      "explanation_ar": "حل المعادلة $\\frac{d^2T}{dx^2}=0$ يعطي $T=C_1x+C_2$ أي خط مستقيم.",
+      "memorization_note": "ملاحظة للحفظ: جدار مستوٍ: خطي ، أسطوانة: لوغاريتمي ، كرة: $T\\propto 1/r$ ، توليد حراري: قطع مكافئ.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "For steady radial conduction through a long hollow cylinder without heat generation, the temperature varies with radius as:",
+      "question_ar": "في التوصيل الشعاعي المستقر خلال أسطوانة مجوفة طويلة بدون توليد حراري تتغير الحرارة مع نصف القطر بشكل:",
+      "options": [
+        "Parabolic",
+        "Inversely proportional to $r^2$",
+        "Logarithmic",
+        "Linear"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Solving $\\frac{d}{dr}\\left(r\\frac{dT}{dr}\\right)=0$ gives $T=C_1\\ln r+C_2$.",
+      "explanation_ar": "حل المعادلة $\\frac{d}{dr}\\left(r\\frac{dT}{dr}\\right)=0$ يعطي $T=C_1\\ln r+C_2$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\frac{2\\pi kL(T_1-T_2)}{\\ln(r_2/r_1)}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "The thermal resistance of a plane wall of thickness $L$, area $A$ and conductivity $k$ is:",
+      "question_ar": "المقاومة الحرارية لجدار مستوٍ سمكه $L$ ومساحته $A$ وتوصيليته $k$ هي:",
+      "options": [
+        "$\\frac{L}{kA}$",
+        "$\\frac{\\ln(r_2/r_1)}{2\\pi kL}$",
+        "$\\frac{1}{hA}$",
+        "$\\frac{kA}{L}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "From $Q=\\frac{kA\\Delta T}{L}=\\frac{\\Delta T}{R}$, so $R=\\frac{L}{kA}$. $\\frac{1}{hA}$ is convection resistance.",
+      "explanation_ar": "من $Q=\\frac{kA\\Delta T}{L}=\\frac{\\Delta T}{R}$ نحصل $R=\\frac{L}{kA}$. أما $\\frac{1}{hA}$ فهي مقاومة الحمل.",
+      "memorization_note": "ملاحظة للحفظ: $R_{\\text{cond}}=\\frac{L}{kA}$ ، $R_{\\text{conv}}=\\frac{1}{hA}$ ، $Q=\\frac{\\Delta T}{\\sum R}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "For layers of a composite wall connected in series, the total thermal resistance is:",
+      "question_ar": "للطبقات المتصلة على التوالي في جدار مركب تكون المقاومة الحرارية الكلية:",
+      "options": [
+        "The reciprocal of the sum of resistances",
+        "The sum of individual resistances",
+        "The average of individual resistances",
+        "The product of individual resistances"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Series layers carry the same heat rate, so resistances add: $R_t=R_1+R_2+\\dots$ (like electrical resistors).",
+      "explanation_ar": "الطبقات على التوالي تمرر نفس معدل الحرارة لذا تُجمع المقاومات $R_t=R_1+R_2+\\dots$ (كالمقاومات الكهربائية).",
+      "memorization_note": "ملاحظة للحفظ: توالي: $R_t=\\sum R_i$ ، توازي: $\\frac{1}{R_t}=\\sum\\frac{1}{R_i}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "The thermal resistance of a hollow cylinder (inner radius $r_1$, outer radius $r_2$, length $L$) is:",
+      "question_ar": "المقاومة الحرارية لأسطوانة مجوفة (نصف القطر الداخلي $r_1$ والخارجي $r_2$ وطولها $L$) هي:",
+      "options": [
+        "$\\frac{r_2-r_1}{2\\pi kL}$",
+        "$\\frac{L}{kA}$",
+        "$\\frac{\\ln(r_2/r_1)}{2\\pi kL}$",
+        "$\\frac{r_2-r_1}{4\\pi k r_1r_2}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Integrating Fourier law in cylindrical coordinates gives $R=\\frac{\\ln(r_2/r_1)}{2\\pi kL}$. The expression with $4\\pi r_1 r_2$ is for a sphere.",
+      "explanation_ar": "تكامل قانون فورير في الإحداثيات الأسطوانية يعطي $R=\\frac{\\ln(r_2/r_1)}{2\\pi kL}$. والتعبير ذو $4\\pi r_1r_2$ للكرة.",
+      "memorization_note": "ملاحظة للحفظ: أسطوانة: $\\frac{\\ln(r_2/r_1)}{2\\pi kL}$ ، كرة: $\\frac{r_2-r_1}{4\\pi k r_1 r_2}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "What is the SI unit of heat flux $q$?",
+      "question_ar": "ما هي وحدة الفيض الحراري $q$ في نظام SI؟",
+      "options": [
+        "$\\text{W/m}^2$",
+        "J",
+        "$\\text{W/(m}\\cdot\\text{K)}$",
+        "W"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Heat flux is heat rate per unit area: $q=\\frac{Q}{A}$.",
+      "explanation_ar": "الفيض الحراري هو معدل الحرارة لكل وحدة مساحة: $q=\\frac{Q}{A}$.",
+      "memorization_note": "ملاحظة للحفظ: $q=\\frac{Q}{A}\\ [\\text{W/m}^2]$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "Thermal diffusivity is defined as:",
+      "question_ar": "يُعرَّف الانتشار الحراري (Thermal Diffusivity) بأنه:",
+      "options": [
+        "$\\alpha=\\frac{k}{\\rho}$",
+        "$\\alpha=\\frac{\\rho c_p}{k}$",
+        "$\\alpha=\\frac{k}{\\rho c_p}$",
+        "$\\alpha=\\frac{\\mu c_p}{k}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\alpha=\\frac{k}{\\rho c_p}$ (unit $\\text{m}^2/\\text{s}$) measures how fast heat spreads relative to how much it is stored. $\\frac{\\mu c_p}{k}$ is the Prandtl number.",
+      "explanation_ar": "$\\alpha=\\frac{k}{\\rho c_p}$ (وحدته $\\text{m}^2/\\text{s}$) تقيس سرعة انتشار الحرارة نسبة إلى تخزينها. أما $\\frac{\\mu c_p}{k}$ فهو عدد براندتل.",
+      "memorization_note": "ملاحظة للحفظ: $$\\alpha=\\frac{k}{\\rho c_p}\\ [\\text{m}^2/\\text{s}]$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "For a plane wall with uniform volumetric heat generation and both surfaces held at the same temperature, the temperature profile is:",
+      "question_ar": "في جدار مستوٍ فيه توليد حراري حجمي منتظم وسطحاه عند نفس درجة الحرارة يكون توزيع الحرارة:",
+      "options": [
+        "Linear",
+        "Parabolic, with maximum at the centre",
+        "Logarithmic",
+        "Constant"
+      ],
+      "correct_index": 1,
+      "explanation_en": "With generation, $\\frac{d^2T}{dx^2}=-\\frac{\\dot q}{k}$ so $T$ is quadratic in $x$ (symmetric parabola, peak at mid-plane).",
+      "explanation_ar": "مع التوليد $\\frac{d^2T}{dx^2}=-\\frac{\\dot q}{k}$ فتكون $T$ من الدرجة الثانية (قطع مكافئ متماثل وقمته في المنتصف).",
+      "memorization_note": "ملاحظة للحفظ: $$T_{\\max}-T_s=\\frac{\\dot q L^2}{2k}\\ \\ (\\text{slab, half-thickn.}\\ L)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "The critical radius of insulation for a cylinder is:",
+      "question_ar": "نصف القطر الحرج للعزل لأسطوانة هو:",
+      "options": [
+        "$r_c=\\frac{kh}{2}$",
+        "$r_c=\\frac{h}{k}$",
+        "$r_c=\\frac{k}{h}$",
+        "$r_c=\\frac{2k}{h}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Setting $\\frac{dQ}{dr_o}=0$ for a cylinder gives $r_c=\\frac{k_{\\text{ins}}}{h}$. Adding insulation with $r<r_c$ increases heat loss.",
+      "explanation_ar": "بجعل $\\frac{dQ}{dr_o}=0$ للأسطوانة نحصل $r_c=\\frac{k_{\\text{ins}}}{h}$. إضافة عزل بنصف قطر أقل من $r_c$ تزيد الفقد الحراري.",
+      "memorization_note": "ملاحظة للحفظ: أسطوانة: $r_c=\\frac{k}{h}$ ، كرة: $r_c=\\frac{2k}{h}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "The critical radius of insulation for a sphere is:",
+      "question_ar": "نصف القطر الحرج للعزل لكرة هو:",
+      "options": [
+        "$r_c=\\frac{4k}{h}$",
+        "$r_c=\\frac{2k}{h}$",
+        "$r_c=\\frac{k}{h}$",
+        "$r_c=\\frac{k}{2h}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For a sphere, $\\frac{dQ}{dr_o}=0$ gives $r_c=\\frac{2k_{\\text{ins}}}{h}$.",
+      "explanation_ar": "للكرة بجعل $\\frac{dQ}{dr_o}=0$ نحصل $r_c=\\frac{2k_{\\text{ins}}}{h}$.",
+      "memorization_note": "ملاحظة للحفظ: كرة: $r_c=\\frac{2k}{h}$ ، أسطوانة: $r_c=\\frac{k}{h}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "With increasing temperature, the thermal conductivity of pure metals generally:",
+      "question_ar": "مع ارتفاع درجة الحرارة فإن التوصيلية الحرارية للمعادن النقية عموماً:",
+      "options": [
+        "Increases",
+        "Remains constant",
+        "Decreases",
+        "Becomes zero"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In metals heat is carried by free electrons; higher temperature increases electron scattering, so $k$ falls.",
+      "explanation_ar": "في المعادن تنقل الحرارة الإلكترونات الحرة وارتفاع الحرارة يزيد تشتتها فتقل $k$.",
+      "memorization_note": "ملاحظة للحفظ: معادن نقية: $k\\downarrow$ مع $T\\uparrow$ ، غازات: $k\\uparrow$ مع $T\\uparrow$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "With increasing temperature, the thermal conductivity of gases:",
+      "question_ar": "مع ارتفاع درجة الحرارة فإن التوصيلية الحرارية للغازات:",
+      "options": [
+        "Is independent of molecular motion",
+        "Decreases",
+        "Remains constant",
+        "Increases"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Higher temperature increases molecular speed and energy transport, so $k$ of gases rises (roughly $\\propto\\sqrt{T}$).",
+      "explanation_ar": "ارتفاع الحرارة يزيد سرعة الجزيئات ونقل الطاقة فتزداد $k$ للغازات (تقريباً $\\propto\\sqrt{T}$).",
+      "memorization_note": "ملاحظة للحفظ: غازات: $k\\uparrow$ مع $T\\uparrow$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "Insulation added to a pipe whose outer radius is smaller than the critical radius will:",
+      "question_ar": "إضافة عزل لأنبوب نصف قطره الخارجي أقل من نصف القطر الحرج سوف:",
+      "options": [
+        "Have no effect",
+        "Increase the heat loss initially",
+        "Always decrease the heat loss",
+        "Stop the heat loss"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For $r_o<r_c$ the increase in outer surface area (lower convective resistance) outweighs the added conduction resistance, so $Q$ rises until $r_c$ is reached.",
+      "explanation_ar": "عندما $r_o<r_c$ تؤثر زيادة مساحة السطح (انخفاض مقاومة الحمل) أكثر من زيادة مقاومة التوصيل فيزداد $Q$ حتى بلوغ $r_c$.",
+      "memorization_note": "ملاحظة للحفظ: عزل ناجح يتطلب $r_o>r_c=\\frac{k}{h}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "In natural (free) convection, fluid motion is caused by:",
+      "question_ar": "في الحمل الطبيعي (Natural Convection) تحدث حركة المائع بسبب:",
+      "options": [
+        "External wind only",
+        "A pump",
+        "A fan",
+        "Buoyancy forces from density differences"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Temperature differences cause density differences; buoyancy drives the flow without external devices.",
+      "explanation_ar": "فروق الحرارة تسبب فروقاً في الكثافة وتقوم قوى الطفو بتحريك المائع بدون أجهزة خارجية.",
+      "memorization_note": "ملاحظة للحفظ: طبيعي: قوى طفو ($Gr$ ، $Ra$) ، قسري: مضخة أو مروحة ($Re$)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "Which dimensionless number is the ratio of inertial forces to viscous forces?",
+      "question_ar": "أي رقم لابعدي يمثل نسبة قوى القصور الذاتي إلى القوى اللزجة؟",
+      "options": [
+        "Prandtl number",
+        "Nusselt number",
+        "Biot number",
+        "Reynolds number"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Re=\\frac{\\rho VD}{\\mu}=\\frac{\\text{inertial}}{\\text{viscous}}$.",
+      "explanation_ar": "$Re=\\frac{\\rho VD}{\\mu}=\\frac{\\text{قصور}}{\\text{لزوجة}}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Re=\\frac{\\rho V D}{\\mu}=\\frac{VD}{\\nu}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "For flow inside a circular pipe, the flow is generally laminar when:",
+      "question_ar": "عند الجريان داخل أنبوب دائري يكون الجريان عادةً صفائحياً (Laminar) عندما:",
+      "options": [
+        "$Re>10^6$",
+        "$Re<2300$",
+        "$Re>4000$",
+        "$Re=10^5$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Pipe flow: laminar for $Re<2300$, transitional $2300$–$4000$, turbulent $Re>4000$.",
+      "explanation_ar": "في الأنابيب: صفائحي عند $Re<2300$، انتقالي $2300$–$4000$، مضطرب عند $Re>4000$.",
+      "memorization_note": "ملاحظة للحفظ: أنبوب: $Re<2300$ صفائحي ، $Re>4000$ مضطرب",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "The Prandtl number is defined as:",
+      "question_ar": "يُعرَّف رقم براندتل بأنه:",
+      "options": [
+        "$Pr=\\frac{c_p\\mu}{k}$",
+        "$Pr=\\frac{hL}{k}$",
+        "$Pr=\\frac{hL_c}{k_s}$",
+        "$Pr=\\frac{\\rho VD}{\\mu}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Pr=\\frac{\\nu}{\\alpha}=\\frac{c_p\\mu}{k}$: ratio of momentum diffusivity to thermal diffusivity.",
+      "explanation_ar": "$Pr=\\frac{\\nu}{\\alpha}=\\frac{c_p\\mu}{k}$ وهو نسبة الانتشار الزخمي إلى الانتشار الحراري.",
+      "memorization_note": "ملاحظة للحفظ: $$Pr=\\frac{c_p\\mu}{k}=\\frac{\\nu}{\\alpha}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "The Nusselt number is defined as:",
+      "question_ar": "يُعرَّف رقم نسلت بأنه:",
+      "options": [
+        "$Nu=\\frac{hL}{k_s}$",
+        "$Nu=\\frac{c_p\\mu}{k}$",
+        "$Nu=\\frac{h}{\\rho V c_p}$",
+        "$Nu=\\frac{hL}{k_f}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Nu=\\frac{hL}{k_{\\text{fluid}}}$ is the ratio of convective to conductive heat transfer in the fluid. With the solid $k_s$ it would be the Biot number.",
+      "explanation_ar": "$Nu=\\frac{hL}{k_{\\text{fluid}}}$ نسبة الحمل إلى التوصيل في المائع. لو كانت $k$ للجسم الصلب لأصبح رقم بايوت.",
+      "memorization_note": "ملاحظة للحفظ: $$Nu=\\frac{hL}{k_f}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "The Grashof number is important in which type of heat transfer?",
+      "question_ar": "رقم غراشوف مهم في أي نوع من انتقال الحرارة؟",
+      "options": [
+        "Pure conduction",
+        "Natural convection",
+        "Condensation of vapor only",
+        "Forced convection"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Gr=\\frac{g\\beta\\Delta T L^3}{\\nu^2}$ is the ratio of buoyancy to viscous forces and governs natural convection.",
+      "explanation_ar": "$Gr=\\frac{g\\beta\\Delta T L^3}{\\nu^2}$ نسبة الطفو إلى اللزوجة وتحكم الحمل الطبيعي.",
+      "memorization_note": "ملاحظة للحفظ: $$Gr=\\frac{g\\beta\\Delta T L^3}{\\nu^2},\\quad Ra=Gr\\cdot Pr$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "The Stanton number is defined as:",
+      "question_ar": "يُعرَّف رقم ستانتون بأنه:",
+      "options": [
+        "$St=\\frac{Gr}{Re^2}$",
+        "$St=\\frac{Nu}{Re\\,Pr}=\\frac{h}{\\rho V c_p}$",
+        "$St=\\frac{Nu}{Gr}$",
+        "$St=Re\\,Pr$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$St=\\frac{h}{\\rho V c_p}=\\frac{Nu}{Re\\,Pr}$; it is used in forced convection correlations (Reynolds–Colburn analogy).",
+      "explanation_ar": "$St=\\frac{h}{\\rho V c_p}=\\frac{Nu}{Re\\,Pr}$ ويستخدم في الحمل القسري (تماثل رينولدز–كولبرن).",
+      "memorization_note": "ملاحظة للحفظ: $$St=\\frac{Nu}{Re\\,Pr}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "The Biot number $Bi=\\frac{hL_c}{k_s}$ compares:",
+      "question_ar": "رقم بايوت $Bi=\\frac{hL_c}{k_s}$ يقارن بين:",
+      "options": [
+        "Internal conduction resistance to external convection resistance",
+        "Inertial to viscous forces",
+        "Momentum to thermal diffusivity",
+        "Buoyancy to viscous forces"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Bi=\\frac{L_c/k_sA}{1/hA}=\\frac{R_{\\text{cond}}}{R_{\\text{conv}}}$.",
+      "explanation_ar": "$Bi=\\frac{L_c/k_sA}{1/hA}=\\frac{R_{\\text{cond}}}{R_{\\text{conv}}}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Bi=\\frac{hL_c}{k_s},\\quad L_c=\\frac{V}{A_s}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "What is the SI unit of the convective heat transfer coefficient $h$?",
+      "question_ar": "ما هي وحدة SI لمعامل انتقال الحرارة بالحمل $h$؟",
+      "options": [
+        "$\\text{W/K}$",
+        "$\\text{W/(m}^2\\cdot\\text{K)}$",
+        "$\\text{W/(m}\\cdot\\text{K)}$",
+        "$\\text{W/m}^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "From $Q=hA\\Delta T$: $h=\\frac{\\text{W}}{\\text{m}^2\\cdot\\text{K}}$.",
+      "explanation_ar": "من $Q=hA\\Delta T$ تكون $h=\\frac{\\text{W}}{\\text{m}^2\\cdot\\text{K}}$.",
+      "memorization_note": "ملاحظة للحفظ: $h:\\ \\text{W/(m}^2\\text{K)}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "The Dittus–Boelter equation for turbulent flow in a pipe being heated is:",
+      "question_ar": "معادلة ديتوس–بولتر للجريان المضطرب في أنبوب يجري تسخين المائع فيه هي:",
+      "options": [
+        "$Nu=3.66$",
+        "$Nu=0.664\\,Re^{1/2}Pr^{1/3}$",
+        "$Nu=0.023\\,Re^{0.4}Pr^{0.8}$",
+        "$Nu=0.023\\,Re^{0.8}Pr^{0.4}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Heating: exponent of $Pr$ is $0.4$; cooling: $0.3$. $0.664Re^{1/2}Pr^{1/3}$ is the laminar flat-plate correlation.",
+      "explanation_ar": "التسخين: أس $Pr$ يساوي $0.4$ والتبريد $0.3$. أما $0.664Re^{1/2}Pr^{1/3}$ فهي لصفيحة مستوية صفائحياً.",
+      "memorization_note": "ملاحظة للحفظ: $$Nu=0.023Re^{0.8}Pr^{n},\\ n=0.4\\ (\\text{heating}),\\ 0.3\\ (\\text{cooling})$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "For fully developed laminar flow in a circular tube with constant wall temperature, the Nusselt number is:",
+      "question_ar": "في الجريان الصفائحي المتطور كلياً داخل أنبوب دائري مع حرارة جدار ثابتة يكون رقم نسلت:",
+      "options": [
+        "$3.66$",
+        "$4.36$",
+        "$0.023$",
+        "$1.0$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Constant wall temperature gives $Nu_D=3.66$; constant heat flux gives $Nu_D=4.36$. Both are independent of $Re$.",
+      "explanation_ar": "حرارة جدار ثابتة تعطي $Nu_D=3.66$ وفيض حراري ثابت يعطي $Nu_D=4.36$ وكلاهما لا يعتمد على $Re$.",
+      "memorization_note": "ملاحظة للحفظ: $Nu_D=3.66\\ (T_w=\\text{const})$ ، $Nu_D=4.36\\ (q''=\\text{const})$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "The critical Reynolds number for transition from laminar to turbulent flow over a flat plate is approximately:",
+      "question_ar": "رقم رينولدز الحرج للانتقال من الصفائحي إلى المضطرب فوق صفيحة مستوية يقارب:",
+      "options": [
+        "$5\\times10^3$",
+        "$10^8$",
+        "$2300$",
+        "$5\\times10^5$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "For a flat plate $Re_{x,c}\\approx5\\times10^5$; for pipes the critical value is about $2300$.",
+      "explanation_ar": "للصفيحة المستوية $Re_{x,c}\\approx5\\times10^5$ أما للأنابيب فنحو $2300$.",
+      "memorization_note": "ملاحظة للحفظ: صفيحة: $Re_c=5\\times10^5$ ، أنبوب: $Re_c=2300$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "Liquid metals are characterised by a Prandtl number that is:",
+      "question_ar": "المعادن السائلة تتميز برقم براندتل:",
+      "options": [
+        "Much less than 1",
+        "Equal to 1",
+        "Exactly 7",
+        "Much greater than 1"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Liquid metals have very high $k$, so $Pr=\\frac{c_p\\mu}{k}\\ll1$ (about $0.01$); heat diffuses much faster than momentum.",
+      "explanation_ar": "للمعادن السائلة $k$ عالية جداً لذا $Pr=\\frac{c_p\\mu}{k}\\ll1$ (نحو $0.01$) فتنتشر الحرارة أسرع من الزخم.",
+      "memorization_note": "ملاحظة للحفظ: غازات: $Pr\\approx0.7$ ، ماء: $Pr\\approx7$ ، زيوت: $Pr\\gg1$ ، معادن سائلة: $Pr\\ll1$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "The Rayleigh number is the product of:",
+      "question_ar": "رقم رايلي هو حاصل ضرب:",
+      "options": [
+        "Reynolds number and Prandtl number",
+        "Grashof number and Reynolds number",
+        "Nusselt number and Biot number",
+        "Grashof number and Prandtl number"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Ra=Gr\\cdot Pr$; natural convection correlations are written $Nu=f(Ra)$.",
+      "explanation_ar": "$Ra=Gr\\cdot Pr$ وترتبط علاقات الحمل الطبيعي بالشكل $Nu=f(Ra)$.",
+      "memorization_note": "ملاحظة للحفظ: $Ra=Gr\\,Pr$ ، $Pe=Re\\,Pr$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "The Reynolds analogy (for $Pr=1$) relates heat transfer and friction through:",
+      "question_ar": "يربط تماثل رينولدز (عند $Pr=1$) بين انتقال الحرارة والاحتكاك بالعلاقة:",
+      "options": [
+        "$St=2C_f$",
+        "$St=Re\\,C_f$",
+        "$St=\\frac{C_f}{2}$",
+        "$Nu=C_f$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The analogy between momentum and heat transfer gives $St=\\frac{C_f}{2}$ (Colburn extends it to $St\\,Pr^{2/3}=\\frac{C_f}{2}$).",
+      "explanation_ar": "التماثل بين الزخم والحرارة يعطي $St=\\frac{C_f}{2}$ (وكولبرن: $St\\,Pr^{2/3}=\\frac{C_f}{2}$).",
+      "memorization_note": "ملاحظة للحفظ: $$St=\\frac{C_f}{2},\\quad St\\,Pr^{2/3}=\\frac{C_f}{2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "For turbulent flow in a pipe, increasing the fluid velocity (other properties constant) will:",
+      "question_ar": "في الجريان المضطرب داخل أنبوب فإن زيادة سرعة المائع (مع ثبات الخواص) سوف:",
+      "options": [
+        "Leave $h$ unchanged",
+        "Decrease $h$",
+        "Make $h$ zero",
+        "Increase $h$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$h\\propto Re^{0.8}\\propto V^{0.8}$, so a higher velocity gives a thinner boundary layer and higher $h$.",
+      "explanation_ar": "$h\\propto Re^{0.8}\\propto V^{0.8}$ فزيادة السرعة تقلل سمك الطبقة الحدية وتزيد $h$.",
+      "memorization_note": "ملاحظة للحفظ: $h\\propto V^{0.8}$ (مضطرب)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "The hydraulic diameter of a flow passage is defined as:",
+      "question_ar": "يُعرَّف القطر الهيدروليكي لمجرى الجريان بأنه:",
+      "options": [
+        "$D_h=\\frac{P}{4A_c}$",
+        "$D_h=\\frac{4A_c}{P}$",
+        "$D_h=\\frac{A_c}{P}$",
+        "$D_h=\\frac{4P}{A_c}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$D_h=\\frac{4\\times\\text{flow area}}{\\text{wetted perimeter}}$. For a circular tube it equals $D$; for an annulus $D_h=D_o-D_i$.",
+      "explanation_ar": "$D_h=\\frac{4\\times\\text{مساحة الجريان}}{\\text{المحيط المبلل}}$ وهو $D$ للأنبوب الدائري و $D_o-D_i$ للحلقة.",
+      "memorization_note": "ملاحظة للحفظ: $$D_h=\\frac{4A_c}{P},\\quad A_{\\text{circle}}=\\frac{\\pi D^2}{4}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "For laminar flow over a flat plate, the local convective heat transfer coefficient:",
+      "question_ar": "في الجريان الصفائحي فوق صفيحة مستوية فإن معامل الحمل المحلي:",
+      "options": [
+        "Decreases with distance from the leading edge",
+        "Increases with distance from the leading edge",
+        "Is zero at the leading edge",
+        "Is constant along the plate"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The boundary layer thickens along the plate ($\\delta\\propto\\sqrt{x}$), so $h_x\\propto x^{-1/2}$ decreases (it is highest at the leading edge).",
+      "explanation_ar": "الطبقة الحدية تزداد سماكتها ($\\delta\\propto\\sqrt{x}$) لذا $h_x\\propto x^{-1/2}$ تقل (أعلى قيمة عند الحافة الأمامية).",
+      "memorization_note": "ملاحظة للحفظ: $$Nu_x=0.332Re_x^{1/2}Pr^{1/3},\\quad h_x\\propto x^{-1/2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "Which dimensionless group is mainly used in forced-convection heat transfer correlations?",
+      "question_ar": "أي مجموعة لابعدية تُستخدم أساساً في علاقات الحمل القسري؟",
+      "options": [
+        "Fourier number",
+        "Rayleigh number",
+        "Stanton number",
+        "Grashof number only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$St$ (with $Re$, $Pr$) is used in forced convection. $Gr$ and $Ra$ are for natural convection, $Fo$ for transient conduction.",
+      "explanation_ar": "$St$ مع $Re$ و $Pr$ تُستخدم للحمل القسري. أما $Gr$ و $Ra$ فللحمل الطبيعي و $Fo$ للتوصيل غير المستقر.",
+      "memorization_note": "ملاحظة للحفظ: $Nu=f(Re,Pr)$ قسري ، $Nu=f(Gr,Pr)$ طبيعي",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "Wien displacement law states that:",
+      "question_ar": "ينص قانون فين للإزاحة على أن:",
+      "options": [
+        "$E_b\\propto T^4$",
+        "$\\lambda_{\\max}T=\\text{constant}\\approx2898\\ \\mu\\text{m·K}$",
+        "$\\lambda_{\\max}\\propto T$",
+        "$\\lambda_{\\max}T^4=\\text{constant}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "As temperature rises, the peak emission wavelength shifts to shorter wavelengths: $\\lambda_{\\max}=\\frac{2898}{T}\\ \\mu\\text{m}$ ($T$ in K).",
+      "explanation_ar": "بارتفاع الحرارة ينزاح طول موجة الذروة نحو الأقصر: $\\lambda_{\\max}=\\frac{2898}{T}\\ \\mu\\text{m}$ (بالكلفن).",
+      "memorization_note": "ملاحظة للحفظ: $$\\lambda_{\\max}T=2898\\ \\mu\\text{m·K}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "The value of the Stefan–Boltzmann constant $\\sigma$ is:",
+      "question_ar": "قيمة ثابت ستيفان–بولتزمان $\\sigma$ هي:",
+      "options": [
+        "$1.38\\times10^{-23}\\ \\text{J/K}$",
+        "$8.314\\ \\text{J/(mol·K)}$",
+        "$5.67\\times10^{-5}\\ \\text{W/(m}^2\\text{K}^4)$",
+        "$5.67\\times10^{-8}\\ \\text{W/(m}^2\\text{K}^4)$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\sigma=5.67\\times10^{-8}\\ \\text{W/(m}^2\\text{K}^4)$. $8.314$ is the gas constant and $1.38\\times10^{-23}$ the Boltzmann constant.",
+      "explanation_ar": "$\\sigma=5.67\\times10^{-8}$. القيمة $8.314$ ثابت الغاز و $1.38\\times10^{-23}$ ثابت بولتزمان.",
+      "memorization_note": "ملاحظة للحفظ: $\\sigma=5.67\\times10^{-8}\\ \\text{W/(m}^2\\text{K}^4)$ ، $R=8.314\\ \\text{J/(mol·K)}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "The absorptivity of a black body is:",
+      "question_ar": "الامتصاصية (Absorptivity) للجسم الأسود تساوي:",
+      "options": [
+        "Depends on wavelength",
+        "$1$",
+        "$0.5$",
+        "$0$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A black body absorbs all incident radiation at all wavelengths and directions: $\\alpha=1$, $\\varepsilon=1$.",
+      "explanation_ar": "الجسم الأسود يمتص كل الإشعاع الساقط بجميع الأطوال الموجية والاتجاهات: $\\alpha=1$ و $\\varepsilon=1$.",
+      "memorization_note": "ملاحظة للحفظ: جسم أسود: $\\alpha=\\varepsilon=1$ ، $\\rho=\\tau=0$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "For radiation incident on a surface, which relation is correct?",
+      "question_ar": "عند سقوط إشعاع على سطح أي علاقة صحيحة؟",
+      "options": [
+        "$\\alpha+\\rho+\\tau=1$",
+        "$\\alpha=\\rho+\\tau$ always",
+        "$\\alpha\\rho\\tau=1$",
+        "$\\alpha+\\rho+\\tau=0$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Energy conservation: the incident radiation is absorbed, reflected or transmitted, so the fractions sum to $1$.",
+      "explanation_ar": "حفظ الطاقة: الإشعاع الساقط يُمتص أو ينعكس أو ينفذ فمجموع النسب يساوي $1$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\alpha+\\rho+\\tau=1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "Kirchhoff law of radiation states that, at thermal equilibrium, for a body:",
+      "question_ar": "ينص قانون كيرشوف للإشعاع على أنه عند الاتزان الحراري لجسم ما:",
+      "options": [
+        "Emissivity is always $1$",
+        "Emissivity equals absorptivity ($\\varepsilon=\\alpha$)",
+        "Absorptivity equals transmissivity",
+        "Emissivity equals reflectivity"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A good absorber is a good emitter: $\\varepsilon_\\lambda=\\alpha_\\lambda$ (for gray bodies $\\varepsilon=\\alpha$).",
+      "explanation_ar": "الجيد في الامتصاص جيد في الإشعاع: $\\varepsilon_\\lambda=\\alpha_\\lambda$ (للجسم الرمادي $\\varepsilon=\\alpha$).",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon=\\alpha$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "A gray body is one whose emissivity:",
+      "question_ar": "الجسم الرمادي هو الذي تكون انبعاثيته:",
+      "options": [
+        "Equals zero",
+        "Is independent of wavelength",
+        "Varies strongly with wavelength",
+        "Equals one"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For a gray surface $\\varepsilon_\\lambda=\\varepsilon=\\text{constant}$ at all wavelengths and $E=\\varepsilon\\sigma T^4$.",
+      "explanation_ar": "للسطح الرمادي $\\varepsilon_\\lambda=\\varepsilon$ ثابتة لكل الأطوال الموجية و $E=\\varepsilon\\sigma T^4$.",
+      "memorization_note": "ملاحظة للحفظ: $$E=\\varepsilon\\sigma T^4,\\quad 0\\le\\varepsilon\\le1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "For an opaque surface, the transmissivity $\\tau$ is:",
+      "question_ar": "بالنسبة للسطح المعتم (Opaque) فإن النفاذية $\\tau$ تساوي:",
+      "options": [
+        "$0.5$",
+        "$1$",
+        "Equal to $\\alpha$",
+        "$0$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "An opaque surface transmits no radiation, so $\\tau=0$ and $\\alpha+\\rho=1$.",
+      "explanation_ar": "السطح المعتم لا ينفذ إشعاعاً لذا $\\tau=0$ و $\\alpha+\\rho=1$.",
+      "memorization_note": "ملاحظة للحفظ: معتم: $\\tau=0\\Rightarrow\\alpha+\\rho=1$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "The emissivity $\\varepsilon$ of a real surface lies between:",
+      "question_ar": "تقع الانبعاثية $\\varepsilon$ لسطح حقيقي بين:",
+      "options": [
+        "$-1$ and $1$",
+        "$0$ and $1$",
+        "$0$ and $\\infty$",
+        "$1$ and $2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Emissivity is the ratio of emission to that of a black body at the same temperature, so $0\\le\\varepsilon\\le1$.",
+      "explanation_ar": "الانبعاثية نسبة الإشعاع إلى إشعاع الجسم الأسود بنفس الحرارة لذا $0\\le\\varepsilon\\le1$.",
+      "memorization_note": "ملاحظة للحفظ: $\\varepsilon=\\frac{E}{E_b}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "For an enclosure of $N$ surfaces, the summation rule for view factors states that for surface $i$:",
+      "question_ar": "في حيز مغلق من $N$ سطحاً تنص قاعدة الجمع لعوامل الرؤية على أن للسطح $i$:",
+      "options": [
+        "$F_{ij}=F_{ji}$ always",
+        "$\\sum_{j=1}^{N}F_{ij}=0$",
+        "$\\sum_{j=1}^{N}F_{ij}=N$",
+        "$\\sum_{j=1}^{N}F_{ij}=1$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "All radiation leaving surface $i$ must strike some surface of the enclosure (including itself), so the factors sum to one.",
+      "explanation_ar": "كل إشعاع يغادر السطح $i$ يجب أن يصطدم بسطح من الحيز (بما فيه نفسه) فمجموع العوامل يساوي واحداً.",
+      "memorization_note": "ملاحظة للحفظ: $$\\sum_j F_{ij}=1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "The reciprocity relation for view factors is:",
+      "question_ar": "علاقة التبادلية (Reciprocity) لعوامل الرؤية هي:",
+      "options": [
+        "$F_{12}=F_{21}$ always",
+        "$F_{12}+F_{21}=1$",
+        "$A_1F_{12}=A_2F_{21}$",
+        "$A_1F_{21}=A_2F_{12}\\cdot\\sigma$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$A_1F_{12}=A_2F_{21}$; the view factors are equal only if the areas are equal.",
+      "explanation_ar": "$A_1F_{12}=A_2F_{21}$ والعاملان متساويان فقط إذا تساوت المساحتان.",
+      "memorization_note": "ملاحظة للحفظ: $$A_1F_{12}=A_2F_{21}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "The view factor $F_{11}$ of a flat (or convex) surface to itself is:",
+      "question_ar": "عامل الرؤية $F_{11}$ لسطح مستوٍ (أو محدب) إلى نفسه يساوي:",
+      "options": [
+        "$0.5$",
+        "$0$",
+        "$1$",
+        "$\\infty$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A flat or convex surface cannot see itself, so $F_{11}=0$ (a concave surface has $F_{11}>0$).",
+      "explanation_ar": "السطح المستوي أو المحدب لا يرى نفسه لذا $F_{11}=0$ (والمقعر $F_{11}>0$).",
+      "memorization_note": "ملاحظة للحفظ: مستوٍ/محدب: $F_{11}=0$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "Placing a radiation shield between two surfaces will:",
+      "question_ar": "وضع حاجز إشعاعي (Radiation Shield) بين سطحين سوف:",
+      "options": [
+        "Reduce the net radiative heat transfer",
+        "Convert radiation into conduction only",
+        "Increase the net radiative heat transfer",
+        "Not change the heat transfer"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A shield adds extra surface resistances $\\frac{1-\\varepsilon}{\\varepsilon A}$ and a space resistance, so the net exchange falls.",
+      "explanation_ar": "الحاجز يضيف مقاومات سطحية $\\frac{1-\\varepsilon}{\\varepsilon A}$ ومقاومة فراغية فيقل التبادل الصافي.",
+      "memorization_note": "ملاحظة للحفظ: $$Q_{N\\text{ shields}}=\\frac{Q_{\\text{no shield}}}{N+1}\\ (\\text{same }\\varepsilon)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "Planck law describes:",
+      "question_ar": "يصف قانون بلانك:",
+      "options": [
+        "The convective coefficient",
+        "The spectral distribution of black-body emissive power",
+        "The total emissive power only",
+        "Conduction in solids"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Planck law gives $E_{b\\lambda}(\\lambda,T)$; integrating it over all wavelengths gives the Stefan–Boltzmann law.",
+      "explanation_ar": "قانون بلانك يعطي $E_{b\\lambda}(\\lambda,T)$ وتكامله على كل الأطوال الموجية يعطي قانون ستيفان–بولتزمان.",
+      "memorization_note": "ملاحظة للحفظ: بلانك: توزيع طيفي ، فين: ذروة الطول الموجي ، ستيفان: الكلي",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "Radiosity $J$ of a surface is defined as:",
+      "question_ar": "تُعرَّف الإشعاعية (Radiosity) $J$ لسطح بأنها:",
+      "options": [
+        "Only the absorbed radiation",
+        "Only the emitted radiation",
+        "Total radiation leaving the surface (emitted + reflected)",
+        "Only the incident radiation"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$J=\\varepsilon E_b+\\rho G$ where $G$ is irradiation (incident radiation).",
+      "explanation_ar": "$J=\\varepsilon E_b+\\rho G$ حيث $G$ هي الإشعاع الساقط (Irradiation).",
+      "memorization_note": "ملاحظة للحفظ: $$J=\\varepsilon E_b+\\rho G$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "The main purpose of fins on a heat transfer surface is to:",
+      "question_ar": "الغرض الأساسي من الزعانف (Fins) على سطح انتقال حراري هو:",
+      "options": [
+        "Reduce the thermal conductivity",
+        "Decrease the pressure drop",
+        "Increase the effective surface area for heat transfer",
+        "Increase the temperature difference only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Fins extend the surface area so $Q=hA\\Delta T$ increases.",
+      "explanation_ar": "الزعانف تزيد المساحة السطحية الفعالة فيزداد $Q=hA\\Delta T$.",
+      "memorization_note": "ملاحظة للحفظ: $Q=hA\\Delta T$ ، الزعانف تزيد $A$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "Fins are most beneficial when placed on the side of a heat exchanger wall with:",
+      "question_ar": "تكون الزعانف أكثر فائدة عند وضعها على جانب الجدار الذي فيه:",
+      "options": [
+        "The side with no fluid",
+        "The higher heat transfer coefficient (e.g., boiling side)",
+        "The lower heat transfer coefficient $h$ (e.g., gas side)",
+        "Any side equally"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The side with low $h$ (gases) controls the overall resistance $\\frac{1}{hA}$; increasing its area $A$ helps the most.",
+      "explanation_ar": "الجانب ذو $h$ المنخفضة (الغازات) يتحكم بالمقاومة $\\frac{1}{hA}$ وزيادة مساحته تفيد أكثر.",
+      "memorization_note": "ملاحظة للحفظ: الزعانف على جانب الغاز (منخفض $h$)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "Fin efficiency is defined as:",
+      "question_ar": "كفاءة الزعنفة (Fin Efficiency) تُعرَّف بأنها:",
+      "options": [
+        "Fin length / fin thickness",
+        "Heat with fin / heat without fin",
+        "Actual heat transfer / heat transfer if the whole fin were at the base temperature",
+        "Base temperature / tip temperature"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\eta_f=\\frac{Q_{\\text{actual}}}{hA_f(T_b-T_\\infty)}$. The ratio with/without fin is the fin effectiveness.",
+      "explanation_ar": "$\\eta_f=\\frac{Q_{\\text{actual}}}{hA_f(T_b-T_\\infty)}$. أما نسبة (مع زعنفة/بدون) فهي فعالية الزعنفة.",
+      "memorization_note": "ملاحظة للحفظ: $$\\eta_f=\\frac{Q_{\\text{actual}}}{hA_f(T_b-T_\\infty)}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "Fin effectiveness $\\varepsilon_f$ is defined as:",
+      "question_ar": "فعالية الزعنفة (Fin Effectiveness) $\\varepsilon_f$ تُعرَّف بأنها:",
+      "options": [
+        "Actual heat / ideal heat of the fin",
+        "Heat transfer with the fin / heat transfer without the fin",
+        "$\\frac{hL}{k}$",
+        "Fin area / base area"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\varepsilon_f=\\frac{Q_{\\text{fin}}}{hA_b(T_b-T_\\infty)}$; a fin is worthwhile when $\\varepsilon_f>2$.",
+      "explanation_ar": "$\\varepsilon_f=\\frac{Q_{\\text{fin}}}{hA_b(T_b-T_\\infty)}$ وتكون الزعنفة مجدية عندما $\\varepsilon_f>2$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon_f=\\frac{Q_{\\text{with fin}}}{Q_{\\text{without fin}}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "For a straight fin, the fin parameter $m$ is:",
+      "question_ar": "لزعنفة مستقيمة يساوي معامل الزعنفة $m$:",
+      "options": [
+        "$m=\\sqrt{\\frac{kA_c}{hP}}$",
+        "$m=\\sqrt{hPkA_c}$",
+        "$m=\\sqrt{\\frac{hP}{kA_c}}$",
+        "$m=\\frac{hP}{kA_c}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Energy balance on a fin element gives $\\frac{d^2\\theta}{dx^2}=m^2\\theta$ with $m=\\sqrt{\\frac{hP}{kA_c}}$ (unit $\\text{m}^{-1}$).",
+      "explanation_ar": "موازنة الطاقة على عنصر زعنفة تعطي $\\frac{d^2\\theta}{dx^2}=m^2\\theta$ مع $m=\\sqrt{\\frac{hP}{kA_c}}$ (وحدته $\\text{m}^{-1}$).",
+      "memorization_note": "ملاحظة للحفظ: $$m=\\sqrt{\\frac{hP}{kA_c}},\\quad \\theta=T-T_\\infty$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "Heat dissipated by a very long (infinite) fin is:",
+      "question_ar": "الحرارة المنتشرة من زعنفة طويلة جداً (لانهائية) تساوي:",
+      "options": [
+        "$Q=kA_c\\theta_b/L$",
+        "$Q=\\sqrt{hPkA_c}\\,\\theta_b$",
+        "$Q=\\sqrt{hPkA_c}\\,\\theta_b\\tanh(mL)$",
+        "$Q=hA\\theta_b$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For an infinite fin, $\\theta=\\theta_be^{-mx}$ and $Q=-kA_c\\frac{d\\theta}{dx}\\Big|_0=\\sqrt{hPkA_c}\\,\\theta_b$.",
+      "explanation_ar": "للزعنفة اللانهائية $\\theta=\\theta_be^{-mx}$ و $Q=-kA_c\\frac{d\\theta}{dx}\\Big|_0=\\sqrt{hPkA_c}\\,\\theta_b$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q_{\\infty}=\\sqrt{hPkA_c}\\,\\theta_b$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "Heat dissipated by a fin with an insulated tip is:",
+      "question_ar": "الحرارة المنتشرة من زعنفة معزولة الطرف تساوي:",
+      "options": [
+        "$Q=\\sqrt{hPkA_c}\\,\\theta_b$",
+        "$Q=\\sqrt{hPA_c}\\,\\theta_b\\tanh(mL)$",
+        "$Q=\\sqrt{hPkA_c}\\,\\theta_b\\coth(mL)$",
+        "$Q=\\sqrt{hPkA_c}\\,\\theta_b\\tanh(mL)$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Boundary condition $\\frac{d\\theta}{dx}\\big|_L=0$ gives $Q=\\sqrt{hPkA_c}\\,\\theta_b\\tanh(mL)$. Option with $\\coth$ is for a different case; the last option lacks $k$.",
+      "explanation_ar": "الشرط الحدي $\\frac{d\\theta}{dx}\\big|_L=0$ يعطي $Q=\\sqrt{hPkA_c}\\,\\theta_b\\tanh(mL)$. وخيار $\\coth$ لحالة أخرى والأخير ينقصه $k$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\sqrt{hPkA_c}\\,\\theta_b\\tanh(mL)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "The temperature along a very long fin decreases:",
+      "question_ar": "درجة الحرارة على طول زعنفة طويلة جداً تنخفض بشكل:",
+      "options": [
+        "Not at all",
+        "Linearly",
+        "Logarithmically increasing",
+        "Exponentially from base to tip"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\frac{T-T_\\infty}{T_b-T_\\infty}=e^{-mx}$.",
+      "explanation_ar": "$\\frac{T-T_\\infty}{T_b-T_\\infty}=e^{-mx}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\frac{\\theta}{\\theta_b}=e^{-mx}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "For a given total fin volume, fins are generally more effective when they are:",
+      "question_ar": "لحجم كلي معين للزعانف تكون الزعانف عموماً أكثر فعالية عندما تكون:",
+      "options": [
+        "Very thick only",
+        "Few and very short",
+        "Many and thin",
+        "Few and thick"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Many thin fins give larger surface area for the same material and have higher efficiency than thick ones (if spacing is adequate).",
+      "explanation_ar": "الزعانف الكثيرة الرقيقة تعطي مساحة أكبر لنفس المادة وبكفاءة أعلى (إذا كان التباعد كافياً).",
+      "memorization_note": "ملاحظة للحفظ: زعانف رقيقة وكثيرة = مساحة أكبر",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "The lumped capacitance method is valid when the Biot number is:",
+      "question_ar": "طريقة السعة المركّزة (Lumped Capacitance) تكون صالحة عندما يكون رقم بايوت:",
+      "options": [
+        "$Bi=100$",
+        "$Bi\\gg1$",
+        "$Bi<0.1$",
+        "$Bi>10$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "When $Bi<0.1$ the internal resistance is negligible and the body temperature is uniform.",
+      "explanation_ar": "عندما $Bi<0.1$ تكون المقاومة الداخلية مهملة وتكون حرارة الجسم منتظمة.",
+      "memorization_note": "ملاحظة للحفظ: $Bi=\\frac{hL_c}{k}<0.1$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "In lumped-system analysis, the temperature of the body decays with time according to:",
+      "question_ar": "في تحليل النظام المركّز تتناقص درجة حرارة الجسم مع الزمن حسب:",
+      "options": [
+        "$\\frac{T-T_\\infty}{T_i-T_\\infty}=1-e^{-t/\\tau}$",
+        "$\\frac{T-T_\\infty}{T_i-T_\\infty}=e^{-t/\\tau}$",
+        "$\\frac{T-T_\\infty}{T_i-T_\\infty}=e^{t/\\tau}$",
+        "$T-T_\\infty=\\text{constant}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Energy balance $\\rho Vc_p\\frac{dT}{dt}=-hA(T-T_\\infty)$ integrates to the exponential decay.",
+      "explanation_ar": "موازنة الطاقة $\\rho Vc_p\\frac{dT}{dt}=-hA(T-T_\\infty)$ تتكامل إلى التناقص الأسي.",
+      "memorization_note": "ملاحظة للحفظ: $$\\frac{T-T_\\infty}{T_i-T_\\infty}=e^{-t/\\tau}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "The time constant of a lumped body is:",
+      "question_ar": "الثابت الزمني (Time Constant) لجسم مركّز هو:",
+      "options": [
+        "$\\tau=\\frac{k}{\\rho c_p}$",
+        "$\\tau=\\frac{hL}{k}$",
+        "$\\tau=\\frac{\\rho Vc_p}{hA}$",
+        "$\\tau=\\frac{hA}{\\rho Vc_p}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\tau=\\frac{\\rho Vc_p}{hA}=R_{\\text{conv}}C_{\\text{th}}$; a low-$\\tau$ thermocouple responds quickly.",
+      "explanation_ar": "$\\tau=\\frac{\\rho Vc_p}{hA}=R_{\\text{conv}}C_{\\text{th}}$ والمزدوج الحراري ذو $\\tau$ الصغير يستجيب بسرعة.",
+      "memorization_note": "ملاحظة للحفظ: $$\\tau=\\frac{\\rho V c_p}{hA}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "The characteristic length $L_c$ used in the Biot number is:",
+      "question_ar": "الطول المميز $L_c$ المستخدم في رقم بايوت هو:",
+      "options": [
+        "$L_c=\\frac{V}{A_s}$",
+        "$L_c=\\frac{A_s}{V}$",
+        "$L_c=\\sqrt{V}$",
+        "$L_c=V\\cdot A_s$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$L_c=\\frac{\\text{volume}}{\\text{surface area}}$; for a sphere $L_c=\\frac{D}{6}$, for a long cylinder $\\frac{D}{4}$.",
+      "explanation_ar": "$L_c=\\frac{\\text{الحجم}}{\\text{مساحة السطح}}$؛ للكرة $\\frac{D}{6}$ ولأسطوانة طويلة $\\frac{D}{4}$.",
+      "memorization_note": "ملاحظة للحفظ: $L_c=\\frac{V}{A_s}$ ، كرة: $\\frac{D}{6}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "The Fourier number is defined as:",
+      "question_ar": "يُعرَّف رقم فورير بأنه:",
+      "options": [
+        "$Fo=\\frac{\\alpha t}{L^2}$",
+        "$Fo=\\frac{hL}{k}$",
+        "$Fo=\\frac{L^2}{\\alpha t}$",
+        "$Fo=\\frac{\\nu}{\\alpha}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Fo=\\frac{\\alpha t}{L^2}$ is a dimensionless time for transient conduction.",
+      "explanation_ar": "$Fo=\\frac{\\alpha t}{L^2}$ هو زمن لابعدي للتوصيل غير المستقر.",
+      "memorization_note": "ملاحظة للحفظ: $$Fo=\\frac{\\alpha t}{L^2}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "After a time equal to one time constant ($t=\\tau$), a lumped body has completed about what fraction of its total temperature change?",
+      "question_ar": "بعد مرور زمن يساوي ثابتاً زمنياً واحداً ($t=\\tau$) يكون الجسم المركّز قد أنجز تقريباً أي نسبة من تغيّر حرارته الكلي؟",
+      "options": [
+        "$36.8\\%$",
+        "$63.2\\%$",
+        "$50\\%$",
+        "$95\\%$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At $t=\\tau$: $\\frac{T-T_\\infty}{T_i-T_\\infty}=e^{-1}=0.368$, so $1-0.368=63.2\\%$ of the change has occurred.",
+      "explanation_ar": "عند $t=\\tau$: $e^{-1}=0.368$ إذاً أنجز $1-0.368=63.2\\%$ من التغير.",
+      "memorization_note": "ملاحظة للحفظ: $e^{-1}=0.368$ ، $1-e^{-1}=0.632$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "The temperature distribution in a semi-infinite solid after a sudden surface temperature change involves the:",
+      "question_ar": "يتضمن توزيع الحرارة في جسم نصف لانهائي بعد تغير مفاجئ في حرارة السطح الدالة:",
+      "options": [
+        "Logarithm only",
+        "A linear function",
+        "Error function $\\text{erf}$",
+        "Hyperbolic tangent only"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\frac{T-T_s}{T_i-T_s}=\\text{erf}\\left(\\frac{x}{2\\sqrt{\\alpha t}}\\right)$.",
+      "explanation_ar": "$\\frac{T-T_s}{T_i-T_s}=\\text{erf}\\left(\\frac{x}{2\\sqrt{\\alpha t}}\\right)$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\frac{T-T_s}{T_i-T_s}=\\text{erf}\\left(\\frac{x}{2\\sqrt{\\alpha t}}\\right)$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "The correct sequence of pool boiling regimes with increasing excess temperature is:",
+      "question_ar": "التسلسل الصحيح لأنظمة الغليان الحوضي مع زيادة الحرارة الفائضة هو:",
+      "options": [
+        "Nucleate → natural convection → film → transition",
+        "Film → transition → nucleate → natural convection",
+        "Transition → film → nucleate → natural convection",
+        "Natural convection → nucleate → transition → film boiling"
+      ],
+      "correct_index": 3,
+      "explanation_en": "As $\\Delta T_e$ increases the regimes follow the Nukiyama boiling curve in the order given.",
+      "explanation_ar": "بزيادة $\\Delta T_e$ تتبع الأنظمة منحنى نوكياما للغليان بالترتيب المذكور.",
+      "memorization_note": "ملاحظة للحفظ: $\\Delta T_e=T_s-T_{\\text{sat}}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "The critical heat flux (burnout point) on the boiling curve is:",
+      "question_ar": "الفيض الحراري الحرج (نقطة الاحتراق) على منحنى الغليان هو:",
+      "options": [
+        "Zero heat flux",
+        "The minimum heat flux in film boiling",
+        "The heat flux in natural convection",
+        "The maximum heat flux at the end of nucleate boiling"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Beyond the peak, vapor blankets the surface and the heat flux drops, so the surface temperature can jump dangerously.",
+      "explanation_ar": "بعد القمة يغطي البخار السطح وينخفض الفيض فترتفع حرارة السطح فجأة بشكل خطر.",
+      "memorization_note": "ملاحظة للحفظ: CHF = ذروة الغليان الفقاعي",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "Compared with film condensation, dropwise condensation gives:",
+      "question_ar": "مقارنةً بالتكثيف الغشائي فإن التكثيف القطري (Dropwise) يعطي:",
+      "options": [
+        "Much higher heat transfer coefficients",
+        "The same coefficients",
+        "Zero heat transfer",
+        "Lower heat transfer coefficients"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In film condensation the liquid film acts as a thermal resistance. Dropwise exposes bare surface, giving $h$ roughly 5–10 times higher.",
+      "explanation_ar": "في التكثيف الغشائي يشكل الغشاء السائل مقاومة حرارية. القطري يترك سطحاً عارياً فيعطي $h$ أعلى بنحو 5–10 مرات.",
+      "memorization_note": "ملاحظة للحفظ: قطري $>$ غشائي في $h$ (لكن الغشائي أسهل ويُصمم عليه)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "For laminar film condensation on a vertical plate, the local heat transfer coefficient:",
+      "question_ar": "في التكثيف الغشائي الصفائحي على صفيحة رأسية فإن معامل انتقال الحرارة المحلي:",
+      "options": [
+        "Increases with distance down from the top",
+        "Is constant at all heights",
+        "Decreases with distance down from the top",
+        "Is infinite at the bottom"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The condensate film thickens downward, increasing its thermal resistance, so $h_x\\propto\\delta^{-1}$ decreases.",
+      "explanation_ar": "يزداد سمك غشاء المتكثف نحو الأسفل فتزداد مقاومته ولذلك تقل $h_x\\propto\\delta^{-1}$.",
+      "memorization_note": "ملاحظة للحفظ: $h_x=\\frac{k_l}{\\delta_x}$ ، $\\delta\\propto x^{1/4}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "Excess temperature in boiling is defined as:",
+      "question_ar": "تُعرَّف الحرارة الفائضة (Excess Temperature) في الغليان بأنها:",
+      "options": [
+        "$T_s+T_{\\text{sat}}$",
+        "$\\Delta T_e=T_s-T_{\\text{sat}}$",
+        "$T_s-T_\\infty$",
+        "$T_{\\text{sat}}-T_\\infty$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Excess temperature is wall temperature minus saturation temperature of the liquid.",
+      "explanation_ar": "الحرارة الفائضة هي حرارة الجدار ناقص حرارة التشبع للسائل.",
+      "memorization_note": "ملاحظة للحفظ: $\\Delta T_e=T_s-T_{\\text{sat}}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "The main purpose of an evaporator is to:",
+      "question_ar": "الغرض الأساسي من المبخّر (Evaporator) هو:",
+      "options": [
+        "Separate two immiscible liquids by gravity",
+        "Cool a gas",
+        "Concentrate a solution by vaporizing part of the solvent",
+        "Condense vapors completely"
+      ],
+      "correct_index": 2,
+      "explanation_en": "An evaporator uses heat (usually steam) to boil off solvent from a solution containing non-volatile solute.",
+      "explanation_ar": "المبخّر يستخدم الحرارة (غالباً بخار ماء) لتبخير المذيب من محلول يحوي مذاباً غير متطاير.",
+      "memorization_note": "ملاحظة للحفظ: مبخّر: تركيز المحلول بتبخير المذيب",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "Boiling point elevation (BPE) means that, at the same pressure, the boiling point of a solution containing a non-volatile solute is:",
+      "question_ar": "ارتفاع درجة الغليان (BPE) يعني أنه عند نفس الضغط فإن درجة غليان محلول يحوي مذاباً غير متطاير تكون:",
+      "options": [
+        "Lower than that of the pure solvent",
+        "Higher than that of the pure solvent",
+        "Always $100\\ ^\\circ\\text{C}$",
+        "The same as the pure solvent"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The solute lowers the vapor pressure of the solvent, so a higher temperature is required to boil.",
+      "explanation_ar": "المذاب يخفض الضغط البخاري للمذيب لذا يلزم رفع الحرارة للغليان.",
+      "memorization_note": "ملاحظة للحفظ: $\\text{BPE}=T_{\\text{solution}}-T_{\\text{solvent}}\\ (\\text{same }P)$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "Using multiple-effect evaporators compared with a single effect:",
+      "question_ar": "استخدام مبخرات متعددة التأثير مقارنةً بالتأثير الواحد:",
+      "options": [
+        "Decreases steam economy",
+        "Does not change steam economy",
+        "Eliminates the need for steam",
+        "Increases steam economy"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Vapor from one effect heats the next effect, so one kg of steam evaporates several kg of water (economy $\\approx$ number of effects).",
+      "explanation_ar": "بخار تأثير يسخن التأثير التالي فيبخّر كيلوغرام البخار عدة كيلوغرامات ماء (الاقتصاد $\\approx$ عدد التأثيرات).",
+      "memorization_note": "ملاحظة للحفظ: اقتصاد البخار $\\approx N$ تأثير (نظرياً) على حساب مساحة أكبر",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Steam economy of an evaporator is defined as:",
+      "question_ar": "يُعرَّف اقتصاد البخار (Steam Economy) للمبخّر بأنه:",
+      "options": [
+        "Heat transferred per unit area",
+        "kg of water evaporated per kg of steam used",
+        "kg of steam per kg of feed",
+        "kg of product per kg of vapor"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{Economy}=\\frac{\\text{vapor produced}}{\\text{steam consumed}}$.",
+      "explanation_ar": "$\\text{الاقتصاد}=\\frac{\\text{البخار المنتج}}{\\text{البخار المستهلك}}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{Economy}=\\frac{\\dot m_{\\text{evap}}}{\\dot m_{\\text{steam}}}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "Which evaporator type is most suitable for heat-sensitive liquids?",
+      "question_ar": "أي أنواع المبخرات أنسب للسوائل الحساسة للحرارة؟",
+      "options": [
+        "Long-tube vertical with natural circulation only",
+        "Jacketed kettle at high temperature",
+        "Falling-film evaporator",
+        "Open pan"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Falling-film evaporators have a very short residence time and low $\\Delta T$, which protects heat-sensitive liquids.",
+      "explanation_ar": "المبخّر ذو الغشاء المتساقط له زمن مكوث قصير جداً و $\\Delta T$ منخفض مما يحمي السوائل الحساسة.",
+      "memorization_note": "ملاحظة للحفظ: حساس للحرارة: غشاء متساقط (زمن مكوث قصير)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "Non-condensable gases in a condensing vapor will:",
+      "question_ar": "وجود غازات غير قابلة للتكثيف في بخار متكثف سوف:",
+      "options": [
+        "Increase the condensation heat transfer coefficient",
+        "Reduce the condensation heat transfer coefficient",
+        "Have no effect",
+        "Make condensation instantaneous"
+      ],
+      "correct_index": 1,
+      "explanation_en": "They accumulate at the interface forming a gas layer through which vapor must diffuse, adding resistance.",
+      "explanation_ar": "تتراكم عند السطح البيني وتشكل طبقة غازية يجب أن ينتشر خلالها البخار فتزداد المقاومة.",
+      "memorization_note": "ملاحظة للحفظ: غازات غير متكثفة $\\Rightarrow$ $h$ تقل (يجب التنفيس)",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "The Leidenfrost point on the boiling curve corresponds to:",
+      "question_ar": "تقابل نقطة لايدنفروست على منحنى الغليان:",
+      "options": [
+        "Zero excess temperature",
+        "The maximum heat flux",
+        "The onset of natural convection",
+        "The minimum heat flux in the film-boiling region"
+      ],
+      "correct_index": 3,
+      "explanation_en": "At the Leidenfrost point a stable vapor film forms, giving the minimum heat flux between the transition and film boiling regimes.",
+      "explanation_ar": "عند نقطة لايدنفروست يتكون غشاء بخاري مستقر ويكون الفيض عند حده الأدنى بين الانتقالي والغشائي.",
+      "memorization_note": "ملاحظة للحفظ: Leidenfrost = أدنى فيض حراري ، CHF = أعلى فيض",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "Duhring rule states that:",
+      "question_ar": "تنص قاعدة دورينغ على أن:",
+      "options": [
+        "The boiling point of a solution is a linear function of the boiling point of pure water at the same pressure",
+        "Heat of vaporization equals zero",
+        "Vapor pressure is constant for all liquids",
+        "Boiling point is independent of pressure"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Plotting boiling point of a solution against that of water at the same pressure gives (approximately) straight lines for each concentration.",
+      "explanation_ar": "رسم درجة غليان المحلول مقابل درجة غليان الماء عند نفس الضغط يعطي خطوطاً مستقيمة تقريباً لكل تركيز.",
+      "memorization_note": "ملاحظة للحفظ: Duhring: خط مستقيم لكل تركيز",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "For the same terminal temperatures, which flow arrangement gives the largest LMTD?",
+      "question_ar": "لنفس درجات الحرارة الطرفية أي ترتيب جريان يعطي أكبر LMTD؟",
+      "options": [
+        "Both give identical LMTD",
+        "Cross flow",
+        "Counter-flow",
+        "Parallel (co-current) flow"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Counter-flow keeps a more uniform $\\Delta T$ along the exchanger, so $\\text{LMTD}_{\\text{counter}}>\\text{LMTD}_{\\text{parallel}}$ and a smaller area is needed.",
+      "explanation_ar": "الجريان المعاكس يحافظ على $\\Delta T$ أكثر انتظاماً لذا $\\text{LMTD}_{\\text{counter}}>\\text{LMTD}_{\\text{parallel}}$ وتلزم مساحة أقل.",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{LMTD}=\\frac{\\Delta T_1-\\Delta T_2}{\\ln(\\Delta T_1/\\Delta T_2)}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "Heat exchanger effectiveness is defined as:",
+      "question_ar": "تُعرَّف فعالية المبادل الحراري بأنها:",
+      "options": [
+        "$\\varepsilon=\\frac{Q_{\\max}}{Q_{\\text{actual}}}$",
+        "$\\varepsilon=\\frac{C_{\\min}}{C_{\\max}}$",
+        "$\\varepsilon=\\frac{UA}{C_{\\min}}$",
+        "$\\varepsilon=\\frac{Q_{\\text{actual}}}{Q_{\\max}}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Q_{\\max}=C_{\\min}(T_{h,i}-T_{c,i})$ and $\\varepsilon=\\frac{Q}{Q_{\\max}}$; $\\frac{UA}{C_{\\min}}$ is NTU and $\\frac{C_{\\min}}{C_{\\max}}$ is $C_r$.",
+      "explanation_ar": "$Q_{\\max}=C_{\\min}(T_{h,i}-T_{c,i})$ و $\\varepsilon=\\frac{Q}{Q_{\\max}}$؛ أما $\\frac{UA}{C_{\\min}}$ فهي NTU و $\\frac{C_{\\min}}{C_{\\max}}$ هي $C_r$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon=\\frac{Q}{C_{\\min}(T_{h,i}-T_{c,i})}$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "The number of transfer units (NTU) is defined as:",
+      "question_ar": "يُعرَّف عدد وحدات الانتقال (NTU) بأنه:",
+      "options": [
+        "$NTU=\\frac{C_{\\min}}{UA}$",
+        "$NTU=UA\\cdot C_{\\min}$",
+        "$NTU=\\frac{UA}{C_{\\min}}$",
+        "$NTU=\\frac{UA}{C_{\\max}}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "NTU compares the heat exchanger size ($UA$) with the smaller heat capacity rate.",
+      "explanation_ar": "NTU تقارن حجم المبادل ($UA$) بأصغر معدل سعة حرارية.",
+      "memorization_note": "ملاحظة للحفظ: $$NTU=\\frac{UA}{C_{\\min}},\\quad C=\\dot m c_p$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "For a condenser or boiler (phase change on one side), the capacity ratio $C_r=\\frac{C_{\\min}}{C_{\\max}}$ is:",
+      "question_ar": "لمكثف أو مرجل (تغير طور في أحد الجانبين) تكون نسبة السعة $C_r=\\frac{C_{\\min}}{C_{\\max}}$:",
+      "options": [
+        "$0.5$",
+        "$\\infty$",
+        "$1$",
+        "$0$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The phase-change stream has an effectively infinite $C$ (constant temperature), so $C_r\\to0$ and $\\varepsilon=1-e^{-NTU}$.",
+      "explanation_ar": "مجرى تغير الطور له $C$ لانهائية فعلياً (حرارة ثابتة) فتكون $C_r\\to0$ و $\\varepsilon=1-e^{-NTU}$.",
+      "memorization_note": "ملاحظة للحفظ: $C_r=0:\\ \\varepsilon=1-e^{-NTU}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "In which type of heat exchanger do hot and cold fluids flow alternately through the same flow passages (matrix)?",
+      "question_ar": "في أي نوع من المبادلات تجري الموائع الساخنة والباردة بالتناوب في نفس المجاري (المصفوفة)؟",
+      "options": [
+        "Plate type",
+        "Shell and tube",
+        "Double pipe",
+        "Storage type (regenerator)"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A regenerator stores heat in the matrix from the hot fluid, then releases it to the cold fluid, so the transfer is intermittent.",
+      "explanation_ar": "المُسترجِع يخزن الحرارة في المصفوفة من الساخن ثم يعطيها للبارد فيكون الانتقال متقطعاً.",
+      "memorization_note": "ملاحظة للحفظ: Regenerator = Storage type",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "Which of the following is a direct-contact heat exchanger?",
+      "question_ar": "أي مما يلي مبادل حراري بالتلامس المباشر؟",
+      "options": [
+        "Shell and tube",
+        "Spray / cooling tower type",
+        "Double pipe",
+        "Plate type"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In direct contact exchangers the two fluids mix and exchange heat without a separating wall (no fouling wall resistance).",
+      "explanation_ar": "في المبادلات المباشرة تتلامس الموائع وتتبادل الحرارة بدون جدار فاصل (لا مقاومة جدار تتسخ).",
+      "memorization_note": "ملاحظة للحفظ: مباشر: أبراج تبريد/رش ، غير مباشر: قشرة وأنابيب، صفائح، أنبوب مزدوج",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "A heat exchanger is classified as compact if its hydraulic diameter (gas side) is approximately:",
+      "question_ar": "يُصنف المبادل على أنه مدمج (Compact) إذا كان قطره الهيدروليكي (جانب الغاز) تقريباً:",
+      "options": [
+        "$D_h\\le6\\text{ mm}$",
+        "$D_h\\ge50\\text{ mm}$",
+        "$D_h\\ge1\\text{ m}$",
+        "$D_h=0$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Compact exchangers have area density above about $700\\ \\text{m}^2/\\text{m}^3$, corresponding to $D_h\\le6$ mm.",
+      "explanation_ar": "المبادلات المدمجة كثافة مساحتها فوق $700\\ \\text{m}^2/\\text{m}^3$ تقريباً أي $D_h\\le6$ mm.",
+      "memorization_note": "ملاحظة للحفظ: مدمج: $\\beta>700\\ \\text{m}^2/\\text{m}^3$ ، $D_h\\le6$ mm",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "In a shell-and-tube exchanger with a 1-2 shell and tube arrangement, the LMTD correction factor $F$ is:",
+      "question_ar": "في مبادل قشرة وأنابيب نوع 1-2 يكون معامل تصحيح LMTD وهو $F$:",
+      "options": [
+        "Less than or equal to 1",
+        "Always exactly 1",
+        "Negative",
+        "Greater than 1"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\Delta T_m=F\\cdot\\text{LMTD}_{\\text{counter}}$ with $F\\le1$ because the flow is partly co-current; $F$ should be above about $0.75$ for a good design.",
+      "explanation_ar": "$\\Delta T_m=F\\cdot\\text{LMTD}_{\\text{counter}}$ مع $F\\le1$ لأن الجريان جزئياً متوازٍ؛ ويفضل $F>0.75$ في التصميم الجيد.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=UAF\\,\\text{LMTD}_{cf},\\quad F\\le1$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "Which fluid is normally placed on the tube side of a shell-and-tube exchanger?",
+      "question_ar": "أي مائع يوضع عادةً في جانب الأنابيب (Tube Side) في مبادل القشرة والأنابيب؟",
+      "options": [
+        "Condensing vapor",
+        "Fluid with very low flow rate only",
+        "Corrosive or fouling fluid, or high-pressure fluid",
+        "Any fluid, no preference"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Tubes are easier and cheaper to clean/replace and to design for high pressure, so corrosive, fouling and high-pressure fluids go inside.",
+      "explanation_ar": "الأنابيب أسهل وأرخص تنظيفاً واستبدالاً وأقدر على تحمل الضغط العالي لذا توضع بها الموائع المسببة للتآكل والتلوث وعالية الضغط.",
+      "memorization_note": "ملاحظة للحفظ: أنابيب: مسببة للتآكل/تلوث/ضغط عالٍ ، قشرة: بخار متكثف",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "When steam is used to heat a liquid in a shell-and-tube exchanger, the steam is usually placed on the:",
+      "question_ar": "عند استخدام بخار لتسخين سائل في مبادل قشرة وأنابيب يوضع البخار عادةً في:",
+      "options": [
+        "Shell side",
+        "Either side with the same performance",
+        "Neither side",
+        "Tube side"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Condensing vapor needs a large flow area for the vapor and easy drainage of condensate, which suits the shell side.",
+      "explanation_ar": "البخار المتكثف يحتاج مساحة جريان كبيرة وتصريفاً سهلاً للمتكثف وهذا يناسب جانب القشرة.",
+      "memorization_note": "ملاحظة للحفظ: بخار متكثف $\\Rightarrow$ shell side",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "The main purpose of baffles in a shell-and-tube exchanger is to:",
+      "question_ar": "الغرض الأساسي من الحواجز (Baffles) في مبادل القشرة والأنابيب هو:",
+      "options": [
+        "Act as thermal insulation",
+        "Decrease the pressure drop",
+        "Increase turbulence on the shell side and support the tubes",
+        "Reduce the shell-side heat transfer coefficient"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Baffles direct the shell fluid across the tube bundle, raising shell-side $h$ and supporting tubes against vibration, at the cost of higher pressure drop.",
+      "explanation_ar": "تُوجّه الحواجز مائع القشرة عبر حزمة الأنابيب فتزيد $h$ وتدعم الأنابيب لكن تزيد هبوط الضغط.",
+      "memorization_note": "ملاحظة للحفظ: حواجز: $h\\uparrow$ ، $\\Delta P\\uparrow$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "The LMTD method assumes that:",
+      "question_ar": "تفترض طريقة LMTD ما يلي:",
+      "options": [
+        "Heat loss to surroundings is large",
+        "$U$ and specific heats are constant and heat losses are negligible",
+        "Fluids change phase only at the outlet",
+        "$U$ varies strongly along the exchanger"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The LMTD derivation requires constant $U$, constant $c_p$, steady flow and no heat loss to surroundings.",
+      "explanation_ar": "اشتقاق LMTD يتطلب $U$ و $c_p$ ثابتين وجرياناً مستقراً بدون فقد حراري للمحيط.",
+      "memorization_note": "ملاحظة للحفظ: فرضيات LMTD: $U$ ثابت، $c_p$ ثابت، لا فقد حراري",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 99,
+      "question_en": "What does the designation '1-2 shell-and-tube exchanger' mean?",
+      "question_ar": "ماذا تعني التسمية 'مبادل قشرة وأنابيب 1-2'؟",
+      "options": [
+        "Two shell passes and one tube pass",
+        "Two tubes and one shell of 1 mm",
+        "One shell pass and two tube passes",
+        "One tube and two shells"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The first number is shell passes and the second is tube passes (a 2-4 has two shell passes and four tube passes).",
+      "explanation_ar": "الرقم الأول عدد مرات مرور القشرة والثاني عدد مرات مرور الأنابيب (2-4: مرورا قشرة وأربعة أنابيب).",
+      "memorization_note": "ملاحظة للحفظ: $N_{\\text{shell}}$–$N_{\\text{tube}}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 100,
+      "question_en": "What is the SI unit of the fouling factor $R_f$?",
+      "question_ar": "ما هي وحدة SI لمعامل التلوث $R_f$؟",
+      "options": [
+        "$\\text{m·K/W}$",
+        "$\\text{m}^2\\text{K/Pa}$",
+        "$\\text{W/m}^2\\text{K}$",
+        "$\\text{m}^2\\text{K/W}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$R_f$ is a thermal resistance per unit area, the inverse of a coefficient: $\\frac{1}{U_d}=\\frac{1}{U_c}+R_f$, so its unit is $\\text{m}^2\\text{K/W}$.",
+      "explanation_ar": "$R_f$ مقاومة حرارية لكل وحدة مساحة (مقلوب معامل) حيث $\\frac{1}{U_d}=\\frac{1}{U_c}+R_f$ فوحدته $\\text{m}^2\\text{K/W}$.",
+      "memorization_note": "ملاحظة للحفظ: $R_f:\\ \\text{m}^2\\text{K/W}$ ، $\\frac{1}{U_d}=\\frac{1}{U_c}+R_f$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 101,
+      "question_en": "A wall has $k=0.5\\ \\text{W/m·K}$, area $A=2\\ \\text{m}^2$, thickness $L=0.1\\ \\text{m}$ and $\\Delta T=50\\ \\text{K}$. Find the conduction heat rate.",
+      "question_ar": "جدار فيه $k=0.5\\ \\text{W/m·K}$ ومساحته $A=2\\ \\text{m}^2$ وسمكه $L=0.1\\ \\text{m}$ و $\\Delta T=50\\ \\text{K}$. أوجد معدل الحرارة بالتوصيل.",
+      "options": [
+        "$500\\ \\text{W}$",
+        "$50\\ \\text{W}$",
+        "$5000\\ \\text{W}$",
+        "$250\\ \\text{W}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q=\\frac{kA\\Delta T}{L}=\\frac{0.5\\times2\\times50}{0.1}=500\\ \\text{W}$.",
+      "explanation_ar": "$Q=\\frac{kA\\Delta T}{L}=\\frac{0.5\\times2\\times50}{0.1}=500\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\frac{kA\\Delta T}{L}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 102,
+      "question_en": "Find the heat flux through a wall with $k=40\\ \\text{W/m·K}$, $\\Delta T=20\\ \\text{K}$ and $L=0.2\\ \\text{m}$.",
+      "question_ar": "أوجد الفيض الحراري خلال جدار $k=40\\ \\text{W/m·K}$ و $\\Delta T=20\\ \\text{K}$ و $L=0.2\\ \\text{m}$.",
+      "options": [
+        "$40000\\ \\text{W/m}^2$",
+        "$4000\\ \\text{W/m}^2$",
+        "$160\\ \\text{W/m}^2$",
+        "$400\\ \\text{W/m}^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$q=\\frac{k\\Delta T}{L}=\\frac{40\\times20}{0.2}=4000\\ \\text{W/m}^2$.",
+      "explanation_ar": "$q=\\frac{k\\Delta T}{L}=\\frac{40\\times20}{0.2}=4000\\ \\text{W/m}^2$.",
+      "memorization_note": "ملاحظة للحفظ: $$q=\\frac{k\\Delta T}{L}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 103,
+      "question_en": "Two thermal resistances $R_1=0.2$ and $R_2=0.3\\ \\text{K/W}$ are in series across $\\Delta T=100\\ \\text{K}$. Find $Q$.",
+      "question_ar": "مقاومتان حراريتان $R_1=0.2$ و $R_2=0.3\\ \\text{K/W}$ على التوالي عبر $\\Delta T=100\\ \\text{K}$. أوجد $Q$.",
+      "options": [
+        "$500\\ \\text{W}$",
+        "$1667\\ \\text{W}$",
+        "$200\\ \\text{W}$",
+        "$20\\ \\text{W}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Q=\\frac{\\Delta T}{R_1+R_2}=\\frac{100}{0.5}=200\\ \\text{W}$.",
+      "explanation_ar": "$Q=\\frac{\\Delta T}{R_1+R_2}=\\frac{100}{0.5}=200\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\frac{\\Delta T}{\\sum R}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 104,
+      "question_en": "A composite wall: layer 1 ($L_1=0.1\\ \\text{m}$, $k_1=1$) and layer 2 ($L_2=0.2\\ \\text{m}$, $k_2=0.5$) in $\\text{W/m·K}$. With $\\Delta T=100\\ \\text{K}$ find the heat flux.",
+      "question_ar": "جدار مركب: الطبقة 1 ($L_1=0.1\\ \\text{m}$ و $k_1=1$) والطبقة 2 ($L_2=0.2\\ \\text{m}$ و $k_2=0.5$) بوحدات $\\text{W/m·K}$. إذا كان $\\Delta T=100\\ \\text{K}$ أوجد الفيض الحراري.",
+      "options": [
+        "$100\\ \\text{W/m}^2$",
+        "$500\\ \\text{W/m}^2$",
+        "$333\\ \\text{W/m}^2$",
+        "$200\\ \\text{W/m}^2$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$R''=\\frac{0.1}{1}+\\frac{0.2}{0.5}=0.5\\ \\text{m}^2\\text{K/W}$; $q=\\frac{100}{0.5}=200\\ \\text{W/m}^2$.",
+      "explanation_ar": "$R''=\\frac{0.1}{1}+\\frac{0.2}{0.5}=0.5\\ \\text{m}^2\\text{K/W}$ إذاً $q=\\frac{100}{0.5}=200\\ \\text{W/m}^2$.",
+      "memorization_note": "ملاحظة للحفظ: $$q=\\frac{\\Delta T}{\\sum L_i/k_i}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 105,
+      "question_en": "A hollow cylinder has $k=2\\ \\text{W/m·K}$, $L=1\\ \\text{m}$, $\\Delta T=50\\ \\text{K}$ and $r_2/r_1=e\\approx2.718$. Find the heat rate.",
+      "question_ar": "أسطوانة مجوفة $k=2\\ \\text{W/m·K}$ و $L=1\\ \\text{m}$ و $\\Delta T=50\\ \\text{K}$ و $r_2/r_1=e\\approx2.718$. أوجد معدل الحرارة.",
+      "options": [
+        "$314\\ \\text{W}$",
+        "$1257\\ \\text{W}$",
+        "$628\\ \\text{W}$",
+        "$100\\ \\text{W}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Q=\\frac{2\\pi kL\\Delta T}{\\ln(r_2/r_1)}=\\frac{2\\pi(2)(1)(50)}{1}=628\\ \\text{W}$.",
+      "explanation_ar": "$Q=\\frac{2\\pi kL\\Delta T}{\\ln(r_2/r_1)}=\\frac{2\\pi(2)(1)(50)}{1}=628\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\frac{2\\pi kL\\Delta T}{\\ln(r_2/r_1)},\\quad\\ln e=1$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 106,
+      "question_en": "Find the convective heat rate for $h=25\\ \\text{W/m}^2\\text{K}$, $A=2\\ \\text{m}^2$ and $T_s-T_\\infty=40\\ \\text{K}$.",
+      "question_ar": "أوجد معدل الحرارة بالحمل لـ $h=25\\ \\text{W/m}^2\\text{K}$ و $A=2\\ \\text{m}^2$ و $T_s-T_\\infty=40\\ \\text{K}$.",
+      "options": [
+        "$2000\\ \\text{W}$",
+        "$3200\\ \\text{W}$",
+        "$1000\\ \\text{W}$",
+        "$200\\ \\text{W}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q=hA\\Delta T=25\\times2\\times40=2000\\ \\text{W}$.",
+      "explanation_ar": "$Q=hA\\Delta T=25\\times2\\times40=2000\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=hA(T_s-T_\\infty)$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 107,
+      "question_en": "Find the emissive power of a black body at $T=1000\\ \\text{K}$.",
+      "question_ar": "أوجد القدرة الإشعاعية لجسم أسود عند $T=1000\\ \\text{K}$.",
+      "options": [
+        "$567{,}000\\ \\text{W/m}^2$",
+        "$5.67\\times10^{-8}\\ \\text{W/m}^2$",
+        "$5670\\ \\text{W/m}^2$",
+        "$56{,}700\\ \\text{W/m}^2$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$E_b=\\sigma T^4=5.67\\times10^{-8}\\times(1000)^4=56{,}700\\ \\text{W/m}^2$.",
+      "explanation_ar": "$E_b=\\sigma T^4=5.67\\times10^{-8}\\times(1000)^4=56{,}700\\ \\text{W/m}^2$.",
+      "memorization_note": "ملاحظة للحفظ: $$E_b=\\sigma T^4$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 108,
+      "question_en": "A surface at $T=2898\\ \\text{K}$ radiates as a black body. Find the wavelength of maximum emission.",
+      "question_ar": "سطح عند $T=2898\\ \\text{K}$ يشع كجسم أسود. أوجد طول الموجة عند أقصى انبعاث.",
+      "options": [
+        "$10\\ \\mu\\text{m}$",
+        "$2.898\\ \\mu\\text{m}$",
+        "$0.1\\ \\mu\\text{m}$",
+        "$1\\ \\mu\\text{m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\lambda_{\\max}=\\frac{2898}{T}=\\frac{2898}{2898}=1\\ \\mu\\text{m}$.",
+      "explanation_ar": "$\\lambda_{\\max}=\\frac{2898}{T}=\\frac{2898}{2898}=1\\ \\mu\\text{m}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\lambda_{\\max}=\\frac{2898\\ \\mu\\text{m·K}}{T}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 109,
+      "question_en": "A gray surface ($\\varepsilon=0.5$, $A=1\\ \\text{m}^2$) at $500\\ \\text{K}$ radiates to a very cold surroundings (assume $0\\ \\text{K}$). Find the heat rate.",
+      "question_ar": "سطح رمادي ($\\varepsilon=0.5$ و $A=1\\ \\text{m}^2$) عند $500\\ \\text{K}$ يشع إلى محيط بارد جداً (افترض $0\\ \\text{K}$). أوجد معدل الحرارة.",
+      "options": [
+        "$177\\ \\text{W}$",
+        "$3544\\ \\text{W}$",
+        "$1772\\ \\text{W}$",
+        "$886\\ \\text{W}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$Q=\\varepsilon\\sigma AT^4=0.5\\times5.67\\times10^{-8}\\times1\\times(500)^4\\approx1772\\ \\text{W}$.",
+      "explanation_ar": "$Q=\\varepsilon\\sigma AT^4=0.5\\times5.67\\times10^{-8}\\times1\\times(500)^4\\approx1772\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\varepsilon\\sigma A(T^4-T_{\\text{sur}}^4)$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 110,
+      "question_en": "Find the critical radius of insulation for a pipe with $k_{\\text{ins}}=0.2\\ \\text{W/m·K}$ and $h=10\\ \\text{W/m}^2\\text{K}$.",
+      "question_ar": "أوجد نصف القطر الحرج للعزل لأنبوب $k_{\\text{ins}}=0.2\\ \\text{W/m·K}$ و $h=10\\ \\text{W/m}^2\\text{K}$.",
+      "options": [
+        "$0.02\\ \\text{m}$",
+        "$0.2\\ \\text{m}$",
+        "$2\\ \\text{m}$",
+        "$0.04\\ \\text{m}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$r_c=\\frac{k}{h}=\\frac{0.2}{10}=0.02\\ \\text{m}$.",
+      "explanation_ar": "$r_c=\\frac{k}{h}=\\frac{0.2}{10}=0.02\\ \\text{m}$.",
+      "memorization_note": "ملاحظة للحفظ: $$r_c=\\frac{k}{h}\\ (\\text{cylinder})$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 111,
+      "question_en": "Find the critical radius of insulation for a sphere with $k_{\\text{ins}}=0.15\\ \\text{W/m·K}$ and $h=10\\ \\text{W/m}^2\\text{K}$.",
+      "question_ar": "أوجد نصف القطر الحرج للعزل لكرة $k_{\\text{ins}}=0.15\\ \\text{W/m·K}$ و $h=10\\ \\text{W/m}^2\\text{K}$.",
+      "options": [
+        "$0.03\\ \\text{m}$",
+        "$0.06\\ \\text{m}$",
+        "$0.3\\ \\text{m}$",
+        "$0.015\\ \\text{m}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$r_c=\\frac{2k}{h}=\\frac{2\\times0.15}{10}=0.03\\ \\text{m}$.",
+      "explanation_ar": "$r_c=\\frac{2k}{h}=\\frac{2\\times0.15}{10}=0.03\\ \\text{m}$.",
+      "memorization_note": "ملاحظة للحفظ: $$r_c=\\frac{2k}{h}\\ (\\text{sphere})$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 112,
+      "question_en": "Water ($\\rho=1000\\ \\text{kg/m}^3$, $\\mu=0.001\\ \\text{Pa·s}$) flows at $V=0.1\\ \\text{m/s}$ in a $D=0.05\\ \\text{m}$ tube. Find $Re$.",
+      "question_ar": "ماء ($\\rho=1000\\ \\text{kg/m}^3$ و $\\mu=0.001\\ \\text{Pa·s}$) يجري بسرعة $V=0.1\\ \\text{m/s}$ في أنبوب $D=0.05\\ \\text{m}$. أوجد $Re$.",
+      "options": [
+        "$5000$",
+        "$0.5$",
+        "$500$",
+        "$50{,}000$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Re=\\frac{\\rho VD}{\\mu}=\\frac{1000\\times0.1\\times0.05}{0.001}=5000$ (turbulent in a pipe).",
+      "explanation_ar": "$Re=\\frac{\\rho VD}{\\mu}=\\frac{1000\\times0.1\\times0.05}{0.001}=5000$ (مضطرب في الأنبوب).",
+      "memorization_note": "ملاحظة للحفظ: $$Re=\\frac{\\rho VD}{\\mu}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 113,
+      "question_en": "If $Nu=100$, $k=0.6\\ \\text{W/m·K}$ and $D=0.05\\ \\text{m}$, find the convective coefficient $h$.",
+      "question_ar": "إذا كان $Nu=100$ و $k=0.6\\ \\text{W/m·K}$ و $D=0.05\\ \\text{m}$ أوجد معامل الحمل $h$.",
+      "options": [
+        "$120\\ \\text{W/m}^2\\text{K}$",
+        "$3000\\ \\text{W/m}^2\\text{K}$",
+        "$1200\\ \\text{W/m}^2\\text{K}$",
+        "$12\\ \\text{W/m}^2\\text{K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$h=\\frac{Nu\\,k}{D}=\\frac{100\\times0.6}{0.05}=1200\\ \\text{W/m}^2\\text{K}$.",
+      "explanation_ar": "$h=\\frac{Nu\\,k}{D}=\\frac{100\\times0.6}{0.05}=1200\\ \\text{W/m}^2\\text{K}$.",
+      "memorization_note": "ملاحظة للحفظ: $$h=\\frac{Nu\\,k}{D}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 114,
+      "question_en": "For water: $c_p=4180\\ \\text{J/kg·K}$, $\\mu=0.001\\ \\text{Pa·s}$, $k=0.6\\ \\text{W/m·K}$. Find $Pr$.",
+      "question_ar": "للماء: $c_p=4180\\ \\text{J/kg·K}$ و $\\mu=0.001\\ \\text{Pa·s}$ و $k=0.6\\ \\text{W/m·K}$. أوجد $Pr$.",
+      "options": [
+        "$\\approx70$",
+        "$\\approx0.7$",
+        "$\\approx0.07$",
+        "$\\approx7.0$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Pr=\\frac{c_p\\mu}{k}=\\frac{4180\\times0.001}{0.6}=6.97$.",
+      "explanation_ar": "$Pr=\\frac{c_p\\mu}{k}=\\frac{4180\\times0.001}{0.6}=6.97$.",
+      "memorization_note": "ملاحظة للحفظ: $$Pr=\\frac{c_p\\mu}{k}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 115,
+      "question_en": "A body has $h=100\\ \\text{W/m}^2\\text{K}$, $L_c=0.01\\ \\text{m}$, $k=50\\ \\text{W/m·K}$. Find $Bi$.",
+      "question_ar": "جسم فيه $h=100\\ \\text{W/m}^2\\text{K}$ و $L_c=0.01\\ \\text{m}$ و $k=50\\ \\text{W/m·K}$. أوجد $Bi$.",
+      "options": [
+        "$0.02$",
+        "$50$",
+        "$0.2$",
+        "$2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Bi=\\frac{hL_c}{k}=\\frac{100\\times0.01}{50}=0.02<0.1$, so lumped analysis is valid.",
+      "explanation_ar": "$Bi=\\frac{hL_c}{k}=\\frac{100\\times0.01}{50}=0.02<0.1$ لذا تصح طريقة السعة المركّزة.",
+      "memorization_note": "ملاحظة للحفظ: $$Bi=\\frac{hL_c}{k}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 116,
+      "question_en": "Find the characteristic length $L_c$ of a sphere of diameter $D=0.06\\ \\text{m}$.",
+      "question_ar": "أوجد الطول المميز $L_c$ لكرة قطرها $D=0.06\\ \\text{m}$.",
+      "options": [
+        "$0.06\\ \\text{m}$",
+        "$0.015\\ \\text{m}$",
+        "$0.02\\ \\text{m}$",
+        "$0.01\\ \\text{m}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$L_c=\\frac{V}{A_s}=\\frac{\\pi D^3/6}{\\pi D^2}=\\frac{D}{6}=0.01\\ \\text{m}$.",
+      "explanation_ar": "$L_c=\\frac{V}{A_s}=\\frac{\\pi D^3/6}{\\pi D^2}=\\frac{D}{6}=0.01\\ \\text{m}$.",
+      "memorization_note": "ملاحظة للحفظ: $V_{\\text{sphere}}=\\frac{\\pi D^3}{6}$ ، $A_{\\text{sphere}}=\\pi D^2$ ، $L_c=\\frac{D}{6}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 117,
+      "question_en": "A lumped body has $\\rho=8000\\ \\text{kg/m}^3$, $c_p=500\\ \\text{J/kg·K}$, $L_c=0.005\\ \\text{m}$ and $h=100\\ \\text{W/m}^2\\text{K}$. Find the time constant.",
+      "question_ar": "جسم مركّز له $\\rho=8000\\ \\text{kg/m}^3$ و $c_p=500\\ \\text{J/kg·K}$ و $L_c=0.005\\ \\text{m}$ و $h=100\\ \\text{W/m}^2\\text{K}$. أوجد الثابت الزمني.",
+      "options": [
+        "$0.5\\ \\text{s}$",
+        "$2000\\ \\text{s}$",
+        "$20\\ \\text{s}$",
+        "$200\\ \\text{s}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\tau=\\frac{\\rho c_pL_c}{h}=\\frac{8000\\times500\\times0.005}{100}=200\\ \\text{s}$.",
+      "explanation_ar": "$\\tau=\\frac{\\rho c_pL_c}{h}=\\frac{8000\\times500\\times0.005}{100}=200\\ \\text{s}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\tau=\\frac{\\rho c_pL_c}{h}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 118,
+      "question_en": "A lumped body at $T_i=100^\\circ\\text{C}$ is placed in surroundings at $T_\\infty=20^\\circ\\text{C}$. What is its temperature after $t=\\tau$?",
+      "question_ar": "جسم مركّز عند $T_i=100^\\circ\\text{C}$ وُضع في محيط $T_\\infty=20^\\circ\\text{C}$. ما حرارته بعد $t=\\tau$؟",
+      "options": [
+        "$\\approx49.4^\\circ\\text{C}$",
+        "$\\approx80^\\circ\\text{C}$",
+        "$\\approx20^\\circ\\text{C}$",
+        "$\\approx60^\\circ\\text{C}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$T=T_\\infty+(T_i-T_\\infty)e^{-1}=20+80(0.368)=49.4^\\circ\\text{C}$.",
+      "explanation_ar": "$T=T_\\infty+(T_i-T_\\infty)e^{-1}=20+80(0.368)=49.4^\\circ\\text{C}$.",
+      "memorization_note": "ملاحظة للحفظ: $$T=T_\\infty+(T_i-T_\\infty)e^{-t/\\tau}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 119,
+      "question_en": "A fin has $h=10\\ \\text{W/m}^2\\text{K}$, $P=0.1\\ \\text{m}$, $k=100\\ \\text{W/m·K}$, $A_c=10^{-4}\\ \\text{m}^2$. Find $m$.",
+      "question_ar": "زعنفة فيها $h=10\\ \\text{W/m}^2\\text{K}$ و $P=0.1\\ \\text{m}$ و $k=100\\ \\text{W/m·K}$ و $A_c=10^{-4}\\ \\text{m}^2$. أوجد $m$.",
+      "options": [
+        "$1\\ \\text{m}^{-1}$",
+        "$100\\ \\text{m}^{-1}$",
+        "$10\\ \\text{m}^{-1}$",
+        "$0.1\\ \\text{m}^{-1}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$m=\\sqrt{\\frac{hP}{kA_c}}=\\sqrt{\\frac{10\\times0.1}{100\\times10^{-4}}}=\\sqrt{100}=10\\ \\text{m}^{-1}$.",
+      "explanation_ar": "$m=\\sqrt{\\frac{hP}{kA_c}}=\\sqrt{\\frac{10\\times0.1}{100\\times10^{-4}}}=\\sqrt{100}=10\\ \\text{m}^{-1}$.",
+      "memorization_note": "ملاحظة للحفظ: $$m=\\sqrt{\\frac{hP}{kA_c}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 120,
+      "question_en": "For the same fin ($h=10$, $P=0.1$, $k=100$, $A_c=10^{-4}$ in SI units) and $\\theta_b=100\\ \\text{K}$, find the heat from an infinitely long fin.",
+      "question_ar": "لنفس الزعنفة ($h=10$ و $P=0.1$ و $k=100$ و $A_c=10^{-4}$ بوحدات SI) و $\\theta_b=100\\ \\text{K}$ أوجد الحرارة من زعنفة لانهائية الطول.",
+      "options": [
+        "$0.1\\ \\text{W}$",
+        "$1\\ \\text{W}$",
+        "$100\\ \\text{W}$",
+        "$10\\ \\text{W}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$Q=\\sqrt{hPkA_c}\\,\\theta_b=\\sqrt{10\\times0.1\\times100\\times10^{-4}}\\times100=0.1\\times100=10\\ \\text{W}$.",
+      "explanation_ar": "$Q=\\sqrt{hPkA_c}\\,\\theta_b=\\sqrt{10\\times0.1\\times100\\times10^{-4}}\\times100=0.1\\times100=10\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\sqrt{hPkA_c}\\,\\theta_b$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 121,
+      "question_en": "A fin dissipates $8\\ \\text{W}$ whereas it would dissipate $10\\ \\text{W}$ if entirely at the base temperature. Find its efficiency.",
+      "question_ar": "زعنفة تبدد $8\\ \\text{W}$ بينما كانت ستبدد $10\\ \\text{W}$ لو كانت كلها عند حرارة القاعدة. أوجد كفاءتها.",
+      "options": [
+        "$0.2$",
+        "$0.8$",
+        "$1.25$",
+        "$80$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\eta_f=\\frac{Q_{\\text{actual}}}{Q_{\\max}}=\\frac{8}{10}=0.8$.",
+      "explanation_ar": "$\\eta_f=\\frac{Q_{\\text{actual}}}{Q_{\\max}}=\\frac{8}{10}=0.8$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\eta_f=\\frac{Q_{\\text{actual}}}{Q_{\\max}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 122,
+      "question_en": "A surface dissipates $5\\ \\text{W}$ without a fin and $20\\ \\text{W}$ with the fin. Find the fin effectiveness.",
+      "question_ar": "سطح يبدد $5\\ \\text{W}$ بدون زعنفة و $20\\ \\text{W}$ مع الزعنفة. أوجد فعالية الزعنفة.",
+      "options": [
+        "$4$",
+        "$0.25$",
+        "$15$",
+        "$100$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\varepsilon_f=\\frac{Q_{\\text{with}}}{Q_{\\text{without}}}=\\frac{20}{5}=4$.",
+      "explanation_ar": "$\\varepsilon_f=\\frac{Q_{\\text{with}}}{Q_{\\text{without}}}=\\frac{20}{5}=4$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon_f=\\frac{Q_{\\text{with}}}{Q_{\\text{without}}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 123,
+      "question_en": "Find $Fo$ for $\\alpha=10^{-5}\\ \\text{m}^2/\\text{s}$, $t=1000\\ \\text{s}$ and $L=0.1\\ \\text{m}$.",
+      "question_ar": "أوجد $Fo$ لـ $\\alpha=10^{-5}\\ \\text{m}^2/\\text{s}$ و $t=1000\\ \\text{s}$ و $L=0.1\\ \\text{m}$.",
+      "options": [
+        "$0.01$",
+        "$1.0$",
+        "$0.1$",
+        "$10$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Fo=\\frac{\\alpha t}{L^2}=\\frac{10^{-5}\\times1000}{0.01}=1.0$.",
+      "explanation_ar": "$Fo=\\frac{\\alpha t}{L^2}=\\frac{10^{-5}\\times1000}{0.01}=1.0$.",
+      "memorization_note": "ملاحظة للحفظ: $$Fo=\\frac{\\alpha t}{L^2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 124,
+      "question_en": "Counter-flow exchanger: hot fluid $100\\to60^\\circ\\text{C}$, cold fluid $20\\to50^\\circ\\text{C}$ (cold inlet faces hot outlet). Find the LMTD.",
+      "question_ar": "مبادل جريان معاكس: الساخن $100\\to60^\\circ\\text{C}$ والبارد $20\\to50^\\circ\\text{C}$ (مدخل البارد عند مخرج الساخن). أوجد LMTD.",
+      "options": [
+        "$50^\\circ\\text{C}$",
+        "$44.8^\\circ\\text{C}$",
+        "$40^\\circ\\text{C}$",
+        "$45.5^\\circ\\text{C}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\Delta T_1=100-50=50$, $\\Delta T_2=60-20=40$; $\\text{LMTD}=\\frac{50-40}{\\ln(50/40)}=\\frac{10}{0.2231}=44.8^\\circ\\text{C}$.",
+      "explanation_ar": "$\\Delta T_1=100-50=50$ و $\\Delta T_2=60-20=40$؛ $\\text{LMTD}=\\frac{50-40}{\\ln(50/40)}=\\frac{10}{0.2231}=44.8^\\circ\\text{C}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{LMTD}=\\frac{\\Delta T_1-\\Delta T_2}{\\ln(\\Delta T_1/\\Delta T_2)}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 125,
+      "question_en": "Parallel-flow exchanger: hot fluid $100\\to60^\\circ\\text{C}$, cold fluid $20\\to40^\\circ\\text{C}$. Find the LMTD.",
+      "question_ar": "مبادل جريان متوازٍ: الساخن $100\\to60^\\circ\\text{C}$ والبارد $20\\to40^\\circ\\text{C}$. أوجد LMTD.",
+      "options": [
+        "$43.3^\\circ\\text{C}$",
+        "$30^\\circ\\text{C}$",
+        "$50^\\circ\\text{C}$",
+        "$60^\\circ\\text{C}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\Delta T_1=100-20=80$, $\\Delta T_2=60-40=20$; $\\text{LMTD}=\\frac{80-20}{\\ln4}=\\frac{60}{1.386}=43.3^\\circ\\text{C}$.",
+      "explanation_ar": "$\\Delta T_1=100-20=80$ و $\\Delta T_2=60-40=20$؛ $\\text{LMTD}=\\frac{80-20}{\\ln4}=\\frac{60}{1.386}=43.3^\\circ\\text{C}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{LMTD}=\\frac{\\Delta T_1-\\Delta T_2}{\\ln(\\Delta T_1/\\Delta T_2)}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 126,
+      "question_en": "Water ($\\dot m=2\\ \\text{kg/s}$, $c_p=4180\\ \\text{J/kg·K}$) is heated by $10\\ \\text{K}$. Find the heat duty.",
+      "question_ar": "ماء ($\\dot m=2\\ \\text{kg/s}$ و $c_p=4180\\ \\text{J/kg·K}$) سُخّن بمقدار $10\\ \\text{K}$. أوجد الحمل الحراري.",
+      "options": [
+        "$41.8\\ \\text{kW}$",
+        "$83.6\\ \\text{kW}$",
+        "$8.36\\ \\text{kW}$",
+        "$836\\ \\text{kW}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Q=\\dot mc_p\\Delta T=2\\times4180\\times10=83{,}600\\ \\text{W}=83.6\\ \\text{kW}$.",
+      "explanation_ar": "$Q=\\dot mc_p\\Delta T=2\\times4180\\times10=83{,}600\\ \\text{W}=83.6\\ \\text{kW}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\dot mc_p\\Delta T$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 127,
+      "question_en": "A heat exchanger must transfer $Q=50\\ \\text{kW}$ with $U=500\\ \\text{W/m}^2\\text{K}$ and $\\text{LMTD}=20\\ \\text{K}$. Find the required area.",
+      "question_ar": "مبادل يجب أن ينقل $Q=50\\ \\text{kW}$ بـ $U=500\\ \\text{W/m}^2\\text{K}$ و $\\text{LMTD}=20\\ \\text{K}$. أوجد المساحة المطلوبة.",
+      "options": [
+        "$50\\ \\text{m}^2$",
+        "$5\\ \\text{m}^2$",
+        "$2.5\\ \\text{m}^2$",
+        "$0.5\\ \\text{m}^2$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$A=\\frac{Q}{U\\,\\text{LMTD}}=\\frac{50{,}000}{500\\times20}=5\\ \\text{m}^2$.",
+      "explanation_ar": "$A=\\frac{Q}{U\\,\\text{LMTD}}=\\frac{50{,}000}{500\\times20}=5\\ \\text{m}^2$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=UA\\,\\text{LMTD}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 128,
+      "question_en": "Find NTU for $U=200\\ \\text{W/m}^2\\text{K}$, $A=10\\ \\text{m}^2$ and $C_{\\min}=1000\\ \\text{W/K}$.",
+      "question_ar": "أوجد NTU لـ $U=200\\ \\text{W/m}^2\\text{K}$ و $A=10\\ \\text{m}^2$ و $C_{\\min}=1000\\ \\text{W/K}$.",
+      "options": [
+        "$0.2$",
+        "$20$",
+        "$2.0$",
+        "$0.5$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$NTU=\\frac{UA}{C_{\\min}}=\\frac{200\\times10}{1000}=2$.",
+      "explanation_ar": "$NTU=\\frac{UA}{C_{\\min}}=\\frac{200\\times10}{1000}=2$.",
+      "memorization_note": "ملاحظة للحفظ: $$NTU=\\frac{UA}{C_{\\min}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 129,
+      "question_en": "For a condenser ($C_r=0$) with $NTU=1$, find the effectiveness.",
+      "question_ar": "لمكثف ($C_r=0$) و $NTU=1$ أوجد الفعالية.",
+      "options": [
+        "$0.5$",
+        "$1.0$",
+        "$0.368$",
+        "$0.632$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\varepsilon=1-e^{-NTU}=1-e^{-1}=0.632$.",
+      "explanation_ar": "$\\varepsilon=1-e^{-NTU}=1-e^{-1}=0.632$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon=1-e^{-NTU}\\ (C_r=0)$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 130,
+      "question_en": "A heat exchanger transfers $40\\ \\text{kW}$ while the maximum possible is $80\\ \\text{kW}$. Find the effectiveness.",
+      "question_ar": "مبادل ينقل $40\\ \\text{kW}$ بينما الحد الأقصى الممكن $80\\ \\text{kW}$. أوجد الفعالية.",
+      "options": [
+        "$0.4$",
+        "$2.0$",
+        "$0.8$",
+        "$0.5$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\varepsilon=\\frac{Q}{Q_{\\max}}=\\frac{40}{80}=0.5$.",
+      "explanation_ar": "$\\varepsilon=\\frac{Q}{Q_{\\max}}=\\frac{40}{80}=0.5$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\varepsilon=\\frac{Q}{Q_{\\max}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 131,
+      "question_en": "Neglecting wall resistance, find $U$ for $h_i=1000$ and $h_o=500\\ \\text{W/m}^2\\text{K}$ (areas equal).",
+      "question_ar": "بإهمال مقاومة الجدار أوجد $U$ لـ $h_i=1000$ و $h_o=500\\ \\text{W/m}^2\\text{K}$ (المساحتان متساويتان).",
+      "options": [
+        "$500\\ \\text{W/m}^2\\text{K}$",
+        "$333\\ \\text{W/m}^2\\text{K}$",
+        "$750\\ \\text{W/m}^2\\text{K}$",
+        "$1500\\ \\text{W/m}^2\\text{K}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\frac{1}{U}=\\frac{1}{1000}+\\frac{1}{500}=0.003\\Rightarrow U=333\\ \\text{W/m}^2\\text{K}$.",
+      "explanation_ar": "$\\frac{1}{U}=\\frac{1}{1000}+\\frac{1}{500}=0.003$ إذاً $U=333\\ \\text{W/m}^2\\text{K}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\frac{1}{U}=\\frac{1}{h_i}+\\frac{1}{h_o}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 132,
+      "question_en": "A clean exchanger has $U_c=1000\\ \\text{W/m}^2\\text{K}$ and total fouling factor $R_f=0.001\\ \\text{m}^2\\text{K/W}$. Find the fouled $U_d$.",
+      "question_ar": "مبادل نظيف $U_c=1000\\ \\text{W/m}^2\\text{K}$ ومعامل التلوث الكلي $R_f=0.001\\ \\text{m}^2\\text{K/W}$. أوجد $U_d$ بعد التلوث.",
+      "options": [
+        "$250\\ \\text{W/m}^2\\text{K}$",
+        "$1001\\ \\text{W/m}^2\\text{K}$",
+        "$500\\ \\text{W/m}^2\\text{K}$",
+        "$999\\ \\text{W/m}^2\\text{K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\frac{1}{U_d}=\\frac{1}{U_c}+R_f=0.001+0.001=0.002\\Rightarrow U_d=500\\ \\text{W/m}^2\\text{K}$.",
+      "explanation_ar": "$\\frac{1}{U_d}=\\frac{1}{U_c}+R_f=0.001+0.001=0.002$ إذاً $U_d=500\\ \\text{W/m}^2\\text{K}$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\frac{1}{U_d}=\\frac{1}{U_c}+R_f$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 133,
+      "question_en": "In a double-pipe exchanger the inner tube outer diameter is $20\\ \\text{mm}$ and the outer tube inner diameter is $30\\ \\text{mm}$. Find the hydraulic diameter of the annulus (for pressure drop/Reynolds number).",
+      "question_ar": "في مبادل أنبوب مزدوج القطر الخارجي للأنبوب الداخلي $20\\ \\text{mm}$ والقطر الداخلي للأنبوب الخارجي $30\\ \\text{mm}$. أوجد القطر الهيدروليكي للحلقة (لهبوط الضغط/رينولدز).",
+      "options": [
+        "$50\\ \\text{mm}$",
+        "$25\\ \\text{mm}$",
+        "$10\\ \\text{mm}$",
+        "$5\\ \\text{mm}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$D_h=\\frac{4\\pi(D_o^2-D_i^2)/4}{\\pi(D_o+D_i)}=D_o-D_i=30-20=10\\ \\text{mm}$.",
+      "explanation_ar": "$D_h=\\frac{4\\pi(D_o^2-D_i^2)/4}{\\pi(D_o+D_i)}=D_o-D_i=30-20=10\\ \\text{mm}$.",
+      "memorization_note": "ملاحظة للحفظ: $$D_h=D_o-D_i\\ (\\text{annulus})$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 134,
+      "question_en": "A condenser transfers $Q=22.57\\ \\text{kW}$ with $h_{fg}=2257\\ \\text{kJ/kg}$. Find the condensation rate.",
+      "question_ar": "مكثف ينقل $Q=22.57\\ \\text{kW}$ و $h_{fg}=2257\\ \\text{kJ/kg}$. أوجد معدل التكثف.",
+      "options": [
+        "$0.01\\ \\text{kg/s}$",
+        "$0.1\\ \\text{kg/s}$",
+        "$0.001\\ \\text{kg/s}$",
+        "$1\\ \\text{kg/s}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\dot m=\\frac{Q}{h_{fg}}=\\frac{22.57}{2257}=0.01\\ \\text{kg/s}$.",
+      "explanation_ar": "$\\dot m=\\frac{Q}{h_{fg}}=\\frac{22.57}{2257}=0.01\\ \\text{kg/s}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=\\dot m\\,h_{fg}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 135,
+      "question_en": "An evaporator receives $F=1000\\ \\text{kg/h}$ of feed at $x_F=10\\%$ solids and concentrates it to $x_P=20\\%$. Find the water evaporated.",
+      "question_ar": "مبخّر يستقبل تغذية $F=1000\\ \\text{kg/h}$ بتركيز $x_F=10\\%$ مواد صلبة ويركّزها إلى $x_P=20\\%$. أوجد الماء المتبخر.",
+      "options": [
+        "$100\\ \\text{kg/h}$",
+        "$900\\ \\text{kg/h}$",
+        "$500\\ \\text{kg/h}$",
+        "$200\\ \\text{kg/h}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Solids balance: $1000(0.1)=P(0.2)\\Rightarrow P=500$; $V=F-P=500\\ \\text{kg/h}$.",
+      "explanation_ar": "موازنة المواد الصلبة: $1000(0.1)=P(0.2)$ إذاً $P=500$ و $V=F-P=500\\ \\text{kg/h}$.",
+      "memorization_note": "ملاحظة للحفظ: $$V=F\\left(1-\\frac{x_F}{x_P}\\right)$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 136,
+      "question_en": "An evaporator evaporates $900\\ \\text{kg/h}$ of water using $600\\ \\text{kg/h}$ of steam. Find the steam economy.",
+      "question_ar": "مبخّر يبخّر $900\\ \\text{kg/h}$ ماء باستخدام $600\\ \\text{kg/h}$ بخار. أوجد اقتصاد البخار.",
+      "options": [
+        "$1.5$",
+        "$1.0$",
+        "$0.67$",
+        "$300$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{Economy}=\\frac{900}{600}=1.5$.",
+      "explanation_ar": "$\\text{Economy}=\\frac{900}{600}=1.5$.",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{Economy}=\\frac{\\text{vapor}}{\\text{steam}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 137,
+      "question_en": "An evaporator has $U=2000\\ \\text{W/m}^2\\text{K}$, $A=10\\ \\text{m}^2$ and $\\Delta T=20\\ \\text{K}$. Find its heat duty.",
+      "question_ar": "مبخّر فيه $U=2000\\ \\text{W/m}^2\\text{K}$ و $A=10\\ \\text{m}^2$ و $\\Delta T=20\\ \\text{K}$. أوجد حمله الحراري.",
+      "options": [
+        "$400\\ \\text{kW}$",
+        "$40\\ \\text{kW}$",
+        "$200\\ \\text{kW}$",
+        "$4000\\ \\text{kW}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q=UA\\Delta T=2000\\times10\\times20=400{,}000\\ \\text{W}=400\\ \\text{kW}$.",
+      "explanation_ar": "$Q=UA\\Delta T=2000\\times10\\times20=400{,}000\\ \\text{W}=400\\ \\text{kW}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q=UA\\Delta T$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 138,
+      "question_en": "A solution boils at $105^\\circ\\text{C}$ while pure water boils at $100^\\circ\\text{C}$ at the same pressure. Find the BPE.",
+      "question_ar": "محلول يغلي عند $105^\\circ\\text{C}$ بينما الماء النقي يغلي عند $100^\\circ\\text{C}$ بنفس الضغط. أوجد BPE.",
+      "options": [
+        "$205\\ \\text{K}$",
+        "$5\\ \\text{K}$",
+        "$0\\ \\text{K}$",
+        "$-5\\ \\text{K}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{BPE}=105-100=5\\ \\text{K}$ (a temperature difference of $5^\\circ\\text{C}$ equals $5\\ \\text{K}$).",
+      "explanation_ar": "$\\text{BPE}=105-100=5\\ \\text{K}$ (فرق $5^\\circ\\text{C}$ يساوي $5\\ \\text{K}$).",
+      "memorization_note": "ملاحظة للحفظ: $$\\text{BPE}=T_{\\text{sol}}-T_{\\text{water}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 139,
+      "question_en": "In an ideal single-effect evaporator, approximately how many kg of water are evaporated per kg of steam?",
+      "question_ar": "في مبخّر مثالي ذي تأثير واحد تقريباً كم كيلوغرام ماء يتبخر لكل كيلوغرام بخار؟",
+      "options": [
+        "About $0.1\\ \\text{kg}$",
+        "About $1\\ \\text{kg}$",
+        "About $10\\ \\text{kg}$",
+        "About $5\\ \\text{kg}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The latent heats of steam and vapor are nearly equal, so economy $\\approx1$ for one effect ($\\approx N$ for $N$ effects).",
+      "explanation_ar": "الحرارتان الكامنتان للبخار والبخار الناتج متقاربتان فالاقتصاد $\\approx1$ لتأثير واحد ($\\approx N$ لعدد $N$ من التأثيرات).",
+      "memorization_note": "ملاحظة للحفظ: اقتصاد التأثير الواحد $\\approx1$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 140,
+      "question_en": "If the thickness of a plane wall is doubled (same $\\Delta T$, $A$, $k$) and the original heat rate was $500\\ \\text{W}$, the new heat rate is:",
+      "question_ar": "إذا تضاعف سمك جدار مستوٍ (بنفس $\\Delta T$ و $A$ و $k$) وكان معدل الحرارة الأصلي $500\\ \\text{W}$ يصبح المعدل الجديد:",
+      "options": [
+        "$250\\ \\text{W}$",
+        "$1000\\ \\text{W}$",
+        "$500\\ \\text{W}$",
+        "$125\\ \\text{W}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$Q\\propto\\frac{1}{L}$, so doubling $L$ halves $Q$: $250\\ \\text{W}$.",
+      "explanation_ar": "$Q\\propto\\frac{1}{L}$ لذا مضاعفة $L$ تنصف $Q$ فيصبح $250\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $Q\\propto\\frac{1}{L}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 141,
+      "question_en": "If the absolute temperature of a black body is doubled, its emissive power increases by a factor of:",
+      "question_ar": "إذا تضاعفت درجة الحرارة المطلقة لجسم أسود فإن قدرته الإشعاعية تزداد بعامل:",
+      "options": [
+        "$8$",
+        "$2$",
+        "$4$",
+        "$16$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$E_b\\propto T^4$, so $(2)^4=16$.",
+      "explanation_ar": "$E_b\\propto T^4$ لذا $(2)^4=16$.",
+      "memorization_note": "ملاحظة للحفظ: $E_b\\propto T^4$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 142,
+      "question_en": "Given $A_1=2\\ \\text{m}^2$, $A_2=1\\ \\text{m}^2$ and $F_{12}=0.4$, find $F_{21}$.",
+      "question_ar": "إذا كان $A_1=2\\ \\text{m}^2$ و $A_2=1\\ \\text{m}^2$ و $F_{12}=0.4$ أوجد $F_{21}$.",
+      "options": [
+        "$0.8$",
+        "$0.2$",
+        "$0.4$",
+        "$1.6$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$A_1F_{12}=A_2F_{21}\\Rightarrow F_{21}=\\frac{2\\times0.4}{1}=0.8$.",
+      "explanation_ar": "$A_1F_{12}=A_2F_{21}$ إذاً $F_{21}=\\frac{2\\times0.4}{1}=0.8$.",
+      "memorization_note": "ملاحظة للحفظ: $$F_{21}=\\frac{A_1F_{12}}{A_2}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 143,
+      "question_en": "Two large parallel black plates at $T_1=600\\ \\text{K}$ and $T_2=300\\ \\text{K}$. Find the net radiative flux.",
+      "question_ar": "صفيحتان سوداوان متوازيتان كبيرتان عند $T_1=600\\ \\text{K}$ و $T_2=300\\ \\text{K}$. أوجد الفيض الإشعاعي الصافي.",
+      "options": [
+        "$\\approx7348\\ \\text{W/m}^2$",
+        "$\\approx3445\\ \\text{W/m}^2$",
+        "$\\approx6889\\ \\text{W/m}^2$",
+        "$\\approx16{,}200\\ \\text{W/m}^2$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$q=\\sigma(T_1^4-T_2^4)=5.67\\times10^{-8}(1.296\\times10^{11}-8.1\\times10^{9})\\approx6889\\ \\text{W/m}^2$.",
+      "explanation_ar": "$q=\\sigma(T_1^4-T_2^4)=5.67\\times10^{-8}(1.296\\times10^{11}-8.1\\times10^{9})\\approx6889\\ \\text{W/m}^2$.",
+      "memorization_note": "ملاحظة للحفظ: $$q=\\sigma(T_1^4-T_2^4)$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 144,
+      "question_en": "Radiation exchange between two plates is $1000\\ \\text{W}$. After inserting two identical shields (all same $\\varepsilon$) it becomes:",
+      "question_ar": "التبادل الإشعاعي بين صفيحتين $1000\\ \\text{W}$. بعد إدخال حاجزين متماثلين (بنفس $\\varepsilon$) يصبح:",
+      "options": [
+        "$667\\ \\text{W}$",
+        "$333\\ \\text{W}$",
+        "$500\\ \\text{W}$",
+        "$250\\ \\text{W}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$Q_N=\\frac{Q_0}{N+1}=\\frac{1000}{3}=333\\ \\text{W}$.",
+      "explanation_ar": "$Q_N=\\frac{Q_0}{N+1}=\\frac{1000}{3}=333\\ \\text{W}$.",
+      "memorization_note": "ملاحظة للحفظ: $$Q_N=\\frac{Q_0}{N+1}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 145,
+      "question_en": "For turbulent pipe flow, if the velocity is doubled (other properties constant), $h$ increases by a factor of:",
+      "question_ar": "في الجريان المضطرب داخل أنبوب إذا تضاعفت السرعة (مع ثبات الخواص) فإن $h$ تزداد بعامل:",
+      "options": [
+        "$2^{0.8}\\approx1.74$",
+        "$2$",
+        "$4$",
+        "$2^{0.4}\\approx1.32$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$h\\propto V^{0.8}$ so the factor is $2^{0.8}=1.74$.",
+      "explanation_ar": "$h\\propto V^{0.8}$ لذا العامل $2^{0.8}=1.74$.",
+      "memorization_note": "ملاحظة للحفظ: $h\\propto V^{0.8}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 146,
+      "question_en": "The typical range of $h$ for free convection in air is:",
+      "question_ar": "المدى النموذجي لـ $h$ للحمل الحر في الهواء هو:",
+      "options": [
+        "$0.001$–$0.01\\ \\text{W/m}^2\\text{K}$",
+        "$10^4$–$10^5\\ \\text{W/m}^2\\text{K}$",
+        "$2$–$25\\ \\text{W/m}^2\\text{K}$",
+        "$1000$–$5000\\ \\text{W/m}^2\\text{K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Gases have low $h$: free convection $2$–$25$, forced convection of gases $25$–$250$, forced convection of water $100$–$15{,}000$ $\\text{W/m}^2\\text{K}$.",
+      "explanation_ar": "الغازات لها $h$ منخفضة: حمل حر $2$–$25$ وقسري للغاز $25$–$250$ وقسري للماء $100$–$15{,}000$ $\\text{W/m}^2\\text{K}$.",
+      "memorization_note": "ملاحظة للحفظ: غاز حر: $2$–$25$ ، ماء قسري: $100$–$15000$ ، تكثيف: حتى $10^5$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 147,
+      "question_en": "The critical heat flux for water boiling at 1 atm is of the order of:",
+      "question_ar": "الفيض الحراري الحرج لغليان الماء عند 1 atm هو من رتبة:",
+      "options": [
+        "$10^6\\ \\text{W/m}^2$ (about 1 MW/m²)",
+        "$10^3\\ \\text{W/m}^2$",
+        "$10^4\\ \\text{W/m}^2$",
+        "$10^9\\ \\text{W/m}^2$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The Zuber correlation gives about $1.1\\ \\text{MW/m}^2$ for water at atmospheric pressure.",
+      "explanation_ar": "علاقة زوبر تعطي نحو $1.1\\ \\text{MW/m}^2$ للماء عند الضغط الجوي.",
+      "memorization_note": "ملاحظة للحفظ: $q''_{\\max}\\approx1.1\\times10^6\\ \\text{W/m}^2$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 148,
+      "question_en": "A temperature difference of $30^\\circ\\text{C}$ is equal to a difference of:",
+      "question_ar": "فرق درجة حرارة مقداره $30^\\circ\\text{C}$ يساوي فرقاً مقداره:",
+      "options": [
+        "$86\\ \\text{K}$",
+        "$243\\ \\text{K}$",
+        "$30\\ \\text{K}$",
+        "$303\\ \\text{K}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The kelvin and Celsius degrees have the same size, so $\\Delta T$ is numerically equal in $^\\circ\\text{C}$ and K.",
+      "explanation_ar": "درجة الكلفن والسلسيوس متساويتان بالحجم لذا $\\Delta T$ متساوٍ عددياً.",
+      "memorization_note": "ملاحظة للحفظ: $\\Delta T[\\text{K}]=\\Delta T[^\\circ\\text{C}]$ ، $T[\\text{K}]=T[^\\circ\\text{C}]+273$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 149,
+      "question_en": "Two equal-resistance layers are in series between $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$. What is the interface temperature?",
+      "question_ar": "طبقتان متساويتا المقاومة على التوالي بين $100^\\circ\\text{C}$ و $0^\\circ\\text{C}$. ما حرارة السطح البيني؟",
+      "options": [
+        "$50^\\circ\\text{C}$",
+        "$25^\\circ\\text{C}$",
+        "$75^\\circ\\text{C}$",
+        "$100^\\circ\\text{C}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Same $Q$ through equal $R$ gives equal $\\Delta T$ across each layer: $T_{int}=50^\\circ\\text{C}$.",
+      "explanation_ar": "نفس $Q$ عبر $R$ متساويتين يعطي نفس $\\Delta T$ لكل طبقة فتكون الحرارة البينية $50^\\circ\\text{C}$.",
+      "memorization_note": "ملاحظة للحفظ: $\\Delta T_i=QR_i$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 150,
+      "question_en": "Convert $27^\\circ\\text{C}$ to absolute temperature for use in radiation calculations.",
+      "question_ar": "حوّل $27^\\circ\\text{C}$ إلى درجة حرارة مطلقة لاستخدامها في حسابات الإشعاع.",
+      "options": [
+        "$300\\ \\text{K}$",
+        "$540\\ \\text{K}$",
+        "$27\\ \\text{K}$",
+        "$246\\ \\text{K}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$T[\\text{K}]=27+273=300\\ \\text{K}$. Radiation formulas always need absolute temperature.",
+      "explanation_ar": "$T[\\text{K}]=27+273=300\\ \\text{K}$. معادلات الإشعاع تتطلب درجة حرارة مطلقة دائماً.",
+      "memorization_note": "ملاحظة للحفظ: $$T[\\text{K}]=T[^\\circ\\text{C}]+273$$",
+      "requires_scratchpad": false
+    }
+  ]
+}

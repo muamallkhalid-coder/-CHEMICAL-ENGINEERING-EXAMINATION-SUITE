@@ -1,0 +1,248 @@
+{
+  "topic_en": "Question Tags & Short Answers",
+  "topic_ar": "الأسئلة الذيلية والإجابات المختصرة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول الأسئلة الذيلية والاتفاق so/neither والإجابات القصيرة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "She is a teacher, ___?",
+      "question_ar": "هي معلمة، ____؟",
+      "options": [
+        "is she",
+        "isn't she",
+        "doesn't she",
+        "aren't she"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: isn't she. Positive statement → negative tag repeating 'is'.",
+      "explanation_ar": "الإجابة الصحيحة: isn't she. جملة مثبتة ← ذيل منفي isn't she.",
+      "memorization_note": "جملة مثبتة ← ذيل منفي ، ومنفية ← ذيل مثبت ، نكرر الفعل المساعد/الناقص وإلا $\\text{do/does/did}$: $\\text{She is happy, isn't she?}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "They didn't come, ___?",
+      "question_ar": "هم لم يأتوا، ____؟",
+      "options": [
+        "didn't they",
+        "do they",
+        "don't they",
+        "did they"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: did they. Negative statement → positive tag with did.",
+      "explanation_ar": "الإجابة الصحيحة: did they. جملة منفية ← ذيل مثبت did they.",
+      "memorization_note": "جملة مثبتة ← ذيل منفي ، ومنفية ← ذيل مثبت ، نكرر الفعل المساعد/الناقص وإلا $\\text{do/does/did}$: $\\text{She is happy, isn't she?}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "You can swim, ___?",
+      "question_ar": "أنت تستطيع السباحة، ____؟",
+      "options": [
+        "can't you",
+        "don't you",
+        "can you",
+        "won't you"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: can't you. Repeat the modal in negative form: can't you.",
+      "explanation_ar": "الإجابة الصحيحة: can't you. نكرر الفعل الناقص منفياً can't you.",
+      "memorization_note": "جملة مثبتة ← ذيل منفي ، ومنفية ← ذيل مثبت ، نكرر الفعل المساعد/الناقص وإلا $\\text{do/does/did}$: $\\text{She is happy, isn't she?}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "He has finished, ___?",
+      "question_ar": "هو أنهى، ____؟",
+      "options": [
+        "doesn't he",
+        "has he",
+        "hasn't he",
+        "didn't he"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: hasn't he. Repeat the auxiliary 'has' in negative form.",
+      "explanation_ar": "الإجابة الصحيحة: hasn't he. نكرر المساعد has منفياً hasn't he.",
+      "memorization_note": "جملة مثبتة ← ذيل منفي ، ومنفية ← ذيل مثبت ، نكرر الفعل المساعد/الناقص وإلا $\\text{do/does/did}$: $\\text{She is happy, isn't she?}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Let's go, ___?",
+      "question_ar": "هيا نذهب، ____؟",
+      "options": [
+        "will we",
+        "shall we",
+        "don't we",
+        "let us"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: shall we. 'Let's' takes the tag shall we.",
+      "explanation_ar": "الإجابة الصحيحة: shall we. Let's ← shall we.",
+      "memorization_note": "حالات خاصة: $\\text{I am} \\rightarrow \\text{aren't I}$ ، $\\text{Let's} \\rightarrow \\text{shall we}$ ، الأمر $\\rightarrow \\text{will you}$ ، $\\text{nobody/never/hardly} \\rightarrow$ جملة منفية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "I am late, ___?",
+      "question_ar": "أنا متأخر، ____؟",
+      "options": [
+        "amn't I",
+        "don't I",
+        "isn't I",
+        "aren't I"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: aren't I. The special tag for 'I am' is aren't I.",
+      "explanation_ar": "الإجابة الصحيحة: aren't I. الذيل الخاص بـ I am هو aren't I.",
+      "memorization_note": "حالات خاصة: $\\text{I am} \\rightarrow \\text{aren't I}$ ، $\\text{Let's} \\rightarrow \\text{shall we}$ ، الأمر $\\rightarrow \\text{will you}$ ، $\\text{nobody/never/hardly} \\rightarrow$ جملة منفية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "Open the door, ___?",
+      "question_ar": "افتح الباب، ____؟",
+      "options": [
+        "will you",
+        "don't you",
+        "shall we",
+        "aren't you"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: will you. Imperatives take will you.",
+      "explanation_ar": "الإجابة الصحيحة: will you. الأمر ← will you.",
+      "memorization_note": "حالات خاصة: $\\text{I am} \\rightarrow \\text{aren't I}$ ، $\\text{Let's} \\rightarrow \\text{shall we}$ ، الأمر $\\rightarrow \\text{will you}$ ، $\\text{nobody/never/hardly} \\rightarrow$ جملة منفية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "Nobody called, ___?",
+      "question_ar": "لم يتصل أحد، ____؟",
+      "options": [
+        "didn't they",
+        "did he",
+        "did they",
+        "didn't he"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: did they. 'Nobody' is negative → positive tag with 'they'.",
+      "explanation_ar": "الإجابة الصحيحة: did they. nobody منفية ← ذيل مثبت did they.",
+      "memorization_note": "حالات خاصة: $\\text{I am} \\rightarrow \\text{aren't I}$ ، $\\text{Let's} \\rightarrow \\text{shall we}$ ، الأمر $\\rightarrow \\text{will you}$ ، $\\text{nobody/never/hardly} \\rightarrow$ جملة منفية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "A: I like pizza. B: ___ do I.",
+      "question_ar": "أ: أحب البيتزا. ب: ____ أنا.",
+      "options": [
+        "Neither",
+        "So",
+        "Too",
+        "Either"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: So. Positive agreement: So + aux + subject.",
+      "explanation_ar": "الإجابة الصحيحة: So. اتفاق مثبت ← So do I.",
+      "memorization_note": "الاتفاق في المثبت: $\\text{so} + \\text{aux} + S$ ، وفي المنفي: $\\text{neither/nor} + \\text{aux} + S$ (الفعل المساعد مثبت).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "A: I don't like fish. B: ___ do I.",
+      "question_ar": "أ: لا أحب السمك. ب: ولا ____ أنا.",
+      "options": [
+        "So",
+        "Too",
+        "Either",
+        "Neither"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: Neither. Negative agreement: Neither + aux + subject.",
+      "explanation_ar": "الإجابة الصحيحة: Neither. اتفاق منفي ← Neither do I.",
+      "memorization_note": "الاتفاق في المثبت: $\\text{so} + \\text{aux} + S$ ، وفي المنفي: $\\text{neither/nor} + \\text{aux} + S$ (الفعل المساعد مثبت).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "They were late and so ___ we.",
+      "question_ar": "كانوا متأخرين، وكذلك نحن ____.",
+      "options": [
+        "were",
+        "did",
+        "are",
+        "have"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: were. so + same verb (were) + subject.",
+      "explanation_ar": "الإجابة الصحيحة: were. so + الفعل نفسه were + الفاعل.",
+      "memorization_note": "الاتفاق في المثبت: $\\text{so} + \\text{aux} + S$ ، وفي المنفي: $\\text{neither/nor} + \\text{aux} + S$ (الفعل المساعد مثبت).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "\"Are you tired?\" \"Yes, I ___.\"",
+      "question_ar": "هل أنت متعب؟ نعم، أنا ____.",
+      "options": [
+        "do",
+        "have",
+        "am",
+        "did"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: am. Short answers repeat the verb 'be': am.",
+      "explanation_ar": "الإجابة الصحيحة: am. الإجابة القصيرة تكرر be: am.",
+      "memorization_note": "الإجابة القصيرة تكرر الفعل المساعد: $\\text{Yes, I am.}$ ، $\\text{No, I didn't.}$ ، $\\text{Yes, she can.}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "\"Did you see him?\" \"No, I ___.\"",
+      "question_ar": "هل رأيته؟ لا، أنا ____.",
+      "options": [
+        "don't",
+        "didn't",
+        "haven't",
+        "wasn't"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: didn't. Short answer repeats did: didn't.",
+      "explanation_ar": "الإجابة الصحيحة: didn't. نكرر المساعد did: didn't.",
+      "memorization_note": "الإجابة القصيرة تكرر الفعل المساعد: $\\text{Yes, I am.}$ ، $\\text{No, I didn't.}$ ، $\\text{Yes, she can.}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "\"Can she drive?\" \"Yes, she ___.\"",
+      "question_ar": "هل تستطيع القيادة؟ نعم، هي ____.",
+      "options": [
+        "does",
+        "is",
+        "has",
+        "can"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: can. Short answer repeats the modal: can.",
+      "explanation_ar": "الإجابة الصحيحة: can. نكرر الفعل الناقص can.",
+      "memorization_note": "الإجابة القصيرة تكرر الفعل المساعد: $\\text{Yes, I am.}$ ، $\\text{No, I didn't.}$ ، $\\text{Yes, she can.}$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "She doesn't speak French, and nor ___ her brother.",
+      "question_ar": "هي لا تتكلم الفرنسية، ولا ____ أخوها.",
+      "options": [
+        "does",
+        "is",
+        "do",
+        "has"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: does. nor + does + subject (present simple).",
+      "explanation_ar": "الإجابة الصحيحة: does. nor + does + الفاعل.",
+      "memorization_note": "الاتفاق في المثبت: $\\text{so} + \\text{aux} + S$ ، وفي المنفي: $\\text{neither/nor} + \\text{aux} + S$ (الفعل المساعد مثبت).",
+      "requires_scratchpad": false
+    }
+  ]
+}

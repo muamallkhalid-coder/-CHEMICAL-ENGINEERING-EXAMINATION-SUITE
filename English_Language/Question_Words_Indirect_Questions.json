@@ -1,0 +1,248 @@
+{
+  "topic_en": "Question Words (Wh-) & Indirect Questions",
+  "topic_ar": "أدوات الاستفهام والأسئلة غير المباشرة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول what, who, whose, which, where, when, why, how والأسئلة غير المباشرة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "___ is your name?",
+      "question_ar": "____ اسمك؟",
+      "options": [
+        "Who",
+        "What",
+        "Which",
+        "Where"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: What. Asking about a thing/identity word: What.",
+      "explanation_ar": "الإجابة الصحيحة: What. السؤال عن شيء ← What.",
+      "memorization_note": "$\\text{What}$ (شيء) ، $\\text{Who}$ (شخص-فاعل) ، $\\text{Whose}$ (ملكية) ، $\\text{Which}$ (اختيار من محدود) ، $\\text{Where}$ (مكان) ، $\\text{When}$ (زمن) ، $\\text{Why}$ (سبب) ، $\\text{How}$ (كيف).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "___ old is your brother?",
+      "question_ar": "كم ____ عمر أخيك؟",
+      "options": [
+        "What",
+        "Which",
+        "Who",
+        "How"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: How. How old asks about age.",
+      "explanation_ar": "الإجابة الصحيحة: How. How old للسؤال عن العمر.",
+      "memorization_note": "$\\text{How old}$ (عمر) ، $\\text{How much}$ (سعر/غير معدود) ، $\\text{How many}$ (معدود) ، $\\text{How long}$ (مدة) ، $\\text{How often}$ (تكرار) ، $\\text{How far}$ (مسافة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "___ book is this?",
+      "question_ar": "____ هذا الكتاب؟",
+      "options": [
+        "Whose",
+        "Who",
+        "Who's",
+        "Which"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: Whose. Possession → Whose.",
+      "explanation_ar": "الإجابة الصحيحة: Whose. الملكية ← Whose.",
+      "memorization_note": "$\\text{What}$ (شيء) ، $\\text{Who}$ (شخص-فاعل) ، $\\text{Whose}$ (ملكية) ، $\\text{Which}$ (اختيار من محدود) ، $\\text{Where}$ (مكان) ، $\\text{When}$ (زمن) ، $\\text{Why}$ (سبب) ، $\\text{How}$ (كيف).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Do you know where ___?",
+      "question_ar": "هل تعرف أين ____؟",
+      "options": [
+        "does he live",
+        "lives he",
+        "he lives",
+        "he does live"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: he lives. Indirect question keeps normal word order: where he lives.",
+      "explanation_ar": "الإجابة الصحيحة: he lives. السؤال غير المباشر بترتيب عادي: where he lives.",
+      "memorization_note": "السؤال غير المباشر بترتيب الجملة العادية: $\\text{wh-word} + S + V$ (بدون $\\text{do/does/did}$ وبدون قلب) ، و $\\text{if/whether}$ لأسئلة yes/no.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Could you tell me what time ___?",
+      "question_ar": "هل يمكنك إخباري في أي ساعة ____؟",
+      "options": [
+        "does the film start",
+        "the film starts",
+        "starts the film",
+        "the film does start"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: the film starts. Indirect question: normal order, no does.",
+      "explanation_ar": "الإجابة الصحيحة: the film starts. غير مباشر ← ترتيب عادي بدون does.",
+      "memorization_note": "السؤال غير المباشر بترتيب الجملة العادية: $\\text{wh-word} + S + V$ (بدون $\\text{do/does/did}$ وبدون قلب) ، و $\\text{if/whether}$ لأسئلة yes/no.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "___ do you go to the gym? Twice a week.",
+      "question_ar": "____ تذهب إلى النادي؟ مرتين في الأسبوع.",
+      "options": [
+        "How long",
+        "How much",
+        "How many",
+        "How often"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: How often. 'Twice a week' answers frequency: How often.",
+      "explanation_ar": "الإجابة الصحيحة: How often. الجواب تكرار ← How often.",
+      "memorization_note": "$\\text{How old}$ (عمر) ، $\\text{How much}$ (سعر/غير معدود) ، $\\text{How many}$ (معدود) ، $\\text{How long}$ (مدة) ، $\\text{How often}$ (تكرار) ، $\\text{How far}$ (مسافة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "___ is it from here to the station? About 2 km.",
+      "question_ar": "____ المحطة من هنا؟ حوالي 2 كم.",
+      "options": [
+        "How far",
+        "How much",
+        "How old",
+        "How many"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: How far. Distance → How far.",
+      "explanation_ar": "الإجابة الصحيحة: How far. المسافة ← How far.",
+      "memorization_note": "$\\text{How old}$ (عمر) ، $\\text{How much}$ (سعر/غير معدود) ، $\\text{How many}$ (معدود) ، $\\text{How long}$ (مدة) ، $\\text{How often}$ (تكرار) ، $\\text{How far}$ (مسافة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "___ long does the flight take?",
+      "question_ar": "____ تستغرق الرحلة الجوية؟",
+      "options": [
+        "What",
+        "Which",
+        "How",
+        "When"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: How. 'How long' asks about duration.",
+      "explanation_ar": "الإجابة الصحيحة: How. How long للسؤال عن المدة.",
+      "memorization_note": "$\\text{How old}$ (عمر) ، $\\text{How much}$ (سعر/غير معدود) ، $\\text{How many}$ (معدود) ، $\\text{How long}$ (مدة) ، $\\text{How often}$ (تكرار) ، $\\text{How far}$ (مسافة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "___ much is this shirt?",
+      "question_ar": "____ سعر هذا القميص؟",
+      "options": [
+        "What",
+        "How",
+        "Which",
+        "Who"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: How. Price → How much.",
+      "explanation_ar": "الإجابة الصحيحة: How. السعر ← How much.",
+      "memorization_note": "$\\text{How old}$ (عمر) ، $\\text{How much}$ (سعر/غير معدود) ، $\\text{How many}$ (معدود) ، $\\text{How long}$ (مدة) ، $\\text{How often}$ (تكرار) ، $\\text{How far}$ (مسافة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "___ broke the window?",
+      "question_ar": "____ كسر النافذة؟",
+      "options": [
+        "Whom did",
+        "Whose did",
+        "What did",
+        "Who"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: Who. Subject question: Who + verb (no auxiliary).",
+      "explanation_ar": "الإجابة الصحيحة: Who. سؤال عن الفاعل ← Who + فعل بدون مساعد.",
+      "memorization_note": "سؤال الفاعل بدون فعل مساعد: $\\text{Who} + V$ ($\\text{Who broke the window?}$) ، و $\\text{What...like?}$ للوصف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "___ was the party? It was great.",
+      "question_ar": "____ كانت الحفلة؟ كانت رائعة.",
+      "options": [
+        "How",
+        "What",
+        "Which",
+        "Who"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: How. Asking for an opinion about an event: How was...?",
+      "explanation_ar": "الإجابة الصحيحة: How. السؤال عن الرأي ← How was.",
+      "memorization_note": "سؤال الفاعل بدون فعل مساعد: $\\text{Who} + V$ ($\\text{Who broke the window?}$) ، و $\\text{What...like?}$ للوصف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "___ of these two shirts do you prefer?",
+      "question_ar": "____ من هذين القميصين تفضل؟",
+      "options": [
+        "What",
+        "Who",
+        "Which",
+        "Whose"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: Which. Choice from a limited set: Which.",
+      "explanation_ar": "الإجابة الصحيحة: Which. اختيار من مجموعة محدودة ← Which.",
+      "memorization_note": "$\\text{What}$ (شيء) ، $\\text{Who}$ (شخص-فاعل) ، $\\text{Whose}$ (ملكية) ، $\\text{Which}$ (اختيار من محدود) ، $\\text{Where}$ (مكان) ، $\\text{When}$ (زمن) ، $\\text{Why}$ (سبب) ، $\\text{How}$ (كيف).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "What's the weather ___?",
+      "question_ar": "كيف يكون الطقس ____؟",
+      "options": [
+        "as",
+        "like",
+        "likes",
+        "alike"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: like. 'What ... like?' asks for a description.",
+      "explanation_ar": "الإجابة الصحيحة: like. What...like للسؤال عن الوصف.",
+      "memorization_note": "سؤال الفاعل بدون فعل مساعد: $\\text{Who} + V$ ($\\text{Who broke the window?}$) ، و $\\text{What...like?}$ للوصف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "I wonder how much ___.",
+      "question_ar": "أتساءل كم ____.",
+      "options": [
+        "does it cost",
+        "costs it",
+        "it does cost",
+        "it costs"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: it costs. Indirect question: how much it costs.",
+      "explanation_ar": "الإجابة الصحيحة: it costs. غير مباشر: how much it costs.",
+      "memorization_note": "السؤال غير المباشر بترتيب الجملة العادية: $\\text{wh-word} + S + V$ (بدون $\\text{do/does/did}$ وبدون قلب) ، و $\\text{if/whether}$ لأسئلة yes/no.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "I don't know ___ he will come or not.",
+      "question_ar": "لا أعرف ____ سيأتي أم لا.",
+      "options": [
+        "whether",
+        "that",
+        "what",
+        "who"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: whether. 'whether ... or not' for yes/no uncertainty.",
+      "explanation_ar": "الإجابة الصحيحة: whether. whether ... or not للتردد.",
+      "memorization_note": "السؤال غير المباشر بترتيب الجملة العادية: $\\text{wh-word} + S + V$ (بدون $\\text{do/does/did}$ وبدون قلب) ، و $\\text{if/whether}$ لأسئلة yes/no.",
+      "requires_scratchpad": false
+    }
+  ]
+}

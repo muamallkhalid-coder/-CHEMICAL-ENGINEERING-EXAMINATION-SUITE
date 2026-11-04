@@ -1,0 +1,552 @@
+{
+  "topic_en": "Reaction Stoichiometry",
+  "topic_ar": "القياس المتكافئ للتفاعلات الكيميائية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "موازنة المعادلات، الحسابات المتكافئة، المتفاعل المحدِّد والزائد، ومدى التفاعل",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "What is stoichiometry of a reaction concerned with?",
+      "question_ar": "ما الذي يهتم به علم القياس المتكافئ (Stoichiometry) للتفاعل؟",
+      "options": [
+        "The extent of reaction",
+        "The heat of reaction",
+        "The quantitative relationship between amounts of reactants and products",
+        "The rate of reaction"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Stoichiometry is the theory of the proportions in which chemical species combine; it relates the amounts of reactants and products through the balanced equation.",
+      "explanation_ar": "القياس المتكافئ يربط كميات المتفاعلات والنواتج بعضها ببعض عبر المعادلة الكيميائية الموزونة.",
+      "memorization_note": "القياس المتكافئ = العلاقة الكمية (بالمولات) بين المتفاعلات والنواتج وفق معاملات المعادلة الموزونة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "In $\\text{C}_2\\text{H}_4 + x\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + y\\,\\text{H}_2\\text{O}$, what is $x + y$?",
+      "question_ar": "في المعادلة $\\text{C}_2\\text{H}_4 + x\\,\\text{O}_2 \\rightarrow 2\\,\\text{CO}_2 + y\\,\\text{H}_2\\text{O}$ ما قيمة $x + y$؟",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Balance H: $4 = 2y \\Rightarrow y = 2$. Balance O: $2x = 2(2) + 2 = 6 \\Rightarrow x = 3$. Therefore $x + y = 3 + 2 = 5$.",
+      "explanation_ar": "موازنة H: $4 = 2y \\Rightarrow y = 2$. موازنة O: $2x = 4 + 2 = 6 \\Rightarrow x = 3$. إذن $x + y = 5$.",
+      "memorization_note": "معادلة احتراق الهيدروكربونات: $$\\text{C}_n\\text{H}_m + \\left(n + \\frac{m}{4}\\right)\\text{O}_2 \\rightarrow n\\,\\text{CO}_2 + \\frac{m}{2}\\,\\text{H}_2\\text{O}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 3,
+      "question_en": "In $\\text{C}_5\\text{H}_{12} + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$, what is $x + y \\cdot z$?",
+      "question_ar": "في المعادلة $\\text{C}_5\\text{H}_{12} + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$ ما قيمة $x + y \\cdot z$؟",
+      "options": [
+        "24",
+        "38",
+        "46",
+        "54"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$y = 5$, $z = 12/2 = 6$, $x = 5 + 12/4 = 8$. Hence $x + yz = 8 + 5 \\times 6 = 38$.",
+      "explanation_ar": "$y = 5$ و $z = 12/2 = 6$ و $x = 5 + 12/4 = 8$. إذن $x + yz = 8 + 30 = 38$.",
+      "memorization_note": "$$\\text{C}_n\\text{H}_m + \\left(n + \\frac{m}{4}\\right)\\text{O}_2 \\rightarrow n\\,\\text{CO}_2 + \\frac{m}{2}\\,\\text{H}_2\\text{O}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 4,
+      "question_en": "In $w\\,\\text{C}_3\\text{H}_6\\text{O}_3 + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$ (smallest integers), what is $w + x + y + z$?",
+      "question_ar": "في المعادلة $w\\,\\text{C}_3\\text{H}_6\\text{O}_3 + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$ (بأصغر أعداد صحيحة) ما قيمة $w + x + y + z$؟",
+      "options": [
+        "3",
+        "6",
+        "10",
+        "14"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Take $w=1$: C gives $y=3$; H gives $z=3$; O: $3 + 2x = 2(3) + 3 = 9 \\Rightarrow x = 3$. Sum $= 1+3+3+3 = 10$.",
+      "explanation_ar": "نأخذ $w=1$: من C نجد $y=3$؛ من H نجد $z=3$؛ من O: $3 + 2x = 6 + 3 = 9 \\Rightarrow x = 3$. المجموع $= 1+3+3+3 = 10$.",
+      "memorization_note": "خطوات الموازنة: وازن C ثم H ثم O أخيراً (لأنه يظهر في أكثر من مركب). ذرات O في المتفاعلات: $3 + 2x$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 5,
+      "question_en": "In $w\\,\\text{C}_3\\text{H}_7\\text{O}_4 + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$ (smallest integers), what is $w + x + y + z$?",
+      "question_ar": "في المعادلة $w\\,\\text{C}_3\\text{H}_7\\text{O}_4 + x\\,\\text{O}_2 \\rightarrow y\\,\\text{CO}_2 + z\\,\\text{H}_2\\text{O}$ (بأصغر أعداد صحيحة) ما قيمة $w + x + y + z$؟",
+      "options": [
+        "21",
+        "35",
+        "41",
+        "47"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Since H is odd (7), take $w=4$: C gives $y = 12$; H gives $z = 14$; O: $16 + 2x = 24 + 14 = 38 \\Rightarrow x = 11$. Sum $= 4+11+12+14 = 41$.",
+      "explanation_ar": "لأن عدد ذرات H فردي (7) نأخذ $w=4$: من C نجد $y=12$؛ من H نجد $z=14$؛ من O: $16 + 2x = 38 \\Rightarrow x = 11$. المجموع $= 41$.",
+      "memorization_note": "إذا كان عدد ذرات عنصر فردياً في المركب فاضرب المعاملات بـ 2 (أو 4) للحصول على أعداد صحيحة.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "20 g of $\\text{CaCO}_3$ is heated (decomposition to $\\text{CaO}$ and $\\text{CO}_2$). How much $\\text{CaO}$ is produced?",
+      "question_ar": "سُخّن 20 g من $\\text{CaCO}_3$ فتحلل إلى $\\text{CaO}$ و $\\text{CO}_2$. كم غراماً من $\\text{CaO}$ يتكوّن؟",
+      "options": [
+        "5.6 g",
+        "11.2 g",
+        "22.4 g",
+        "44.8 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$. $n_{\\text{CaCO}_3} = 20/100 = 0.2$ mol $\\Rightarrow n_{\\text{CaO}} = 0.2$ mol $\\Rightarrow m = 0.2 \\times 56 = 11.2$ g.",
+      "explanation_ar": "$\\text{CaCO}_3 \\rightarrow \\text{CaO} + \\text{CO}_2$. المولات $= 20/100 = 0.2$ mol، وكتلة $\\text{CaO} = 0.2 \\times 56 = 11.2$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. الكتل المولية: $M_{\\text{CaCO}_3} = 40+12+48 = 100$ ، $M_{\\text{CaO}} = 56$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "56 g of carbon monoxide is oxidized with excess oxygen. How much $\\text{CO}_2$ is produced?",
+      "question_ar": "تأكسد 56 g من أول أوكسيد الكربون بوجود أوكسجين زائد. كم غراماً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "22 g",
+        "44 g",
+        "66 g",
+        "88 g"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$. $n_{\\text{CO}} = 56/28 = 2$ mol $\\Rightarrow n_{\\text{CO}_2} = 2$ mol $\\Rightarrow m = 2 \\times 44 = 88$ g.",
+      "explanation_ar": "$2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$. مولات CO $= 56/28 = 2$ mol، ومولات $\\text{CO}_2 = 2$ mol، الكتلة $= 2 \\times 44 = 88$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{CO}} = 28$ ، $M_{\\text{CO}_2} = 44$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 8,
+      "question_en": "One mole of glucose ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) is completely burnt. How many grams of $\\text{CO}_2$ are produced?",
+      "question_ar": "احترق مول واحد من الغلوكوز ($\\text{C}_6\\text{H}_{12}\\text{O}_6$) احتراقاً تاماً. كم غراماً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "44 g",
+        "176 g",
+        "264 g",
+        "352 g"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$. $n_{\\text{CO}_2} = 6$ mol $\\Rightarrow m = 6 \\times 44 = 264$ g.",
+      "explanation_ar": "$\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$. مولات $\\text{CO}_2 = 6$، الكتلة $= 6 \\times 44 = 264$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{CO}_2} = 44$. معادلة الاحتراق العامة: $\\text{C}_n\\text{H}_m\\text{O}_k + (n + \\frac{m}{4} - \\frac{k}{2})\\text{O}_2 \\rightarrow n\\,\\text{CO}_2 + \\frac{m}{2}\\text{H}_2\\text{O}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "78 g of benzene ($\\text{C}_6\\text{H}_6$) is burnt in air. How much water is produced?",
+      "question_ar": "احترق 78 g من البنزين ($\\text{C}_6\\text{H}_6$) في الهواء. كم غراماً من الماء يتكوّن؟",
+      "options": [
+        "18 g",
+        "36 g",
+        "54 g",
+        "72 g"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$\\text{C}_6\\text{H}_6 + 7.5\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. $n_{\\text{C}_6\\text{H}_6} = 78/78 = 1$ mol $\\Rightarrow n_{\\text{H}_2\\text{O}} = 3$ mol $\\Rightarrow m = 3 \\times 18 = 54$ g.",
+      "explanation_ar": "$\\text{C}_6\\text{H}_6 + 7.5\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 3\\,\\text{H}_2\\text{O}$. مولات البنزين $= 78/78 = 1$، مولات الماء $= 3$، الكتلة $= 3 \\times 18 = 54$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{C}_6\\text{H}_6} = 78$ ، $M_{\\text{H}_2\\text{O}} = 18$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "20 g of NaOH reacts with excess HCl. How much NaCl is produced?",
+      "question_ar": "تفاعل 20 g من NaOH مع HCl زائد. كم غراماً من NaCl يتكوّن؟",
+      "options": [
+        "29.25 g",
+        "58.5 g",
+        "117 g",
+        "234 g"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$. $n_{\\text{NaOH}} = 20/40 = 0.5$ mol $\\Rightarrow m_{\\text{NaCl}} = 0.5 \\times 58.5 = 29.25$ g.",
+      "explanation_ar": "$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$. مولات NaOH $= 20/40 = 0.5$، كتلة NaCl $= 0.5 \\times 58.5 = 29.25$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{NaOH}} = 40$ ، $M_{\\text{NaCl}} = 58.5$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 11,
+      "question_en": "In $x\\,\\text{FeS}_2 + y\\,\\text{O}_2 \\rightarrow z\\,\\text{Fe}_2\\text{O}_3 + w\\,\\text{SO}_2$ (smallest integers), what is $x + y + z + w$?",
+      "question_ar": "في المعادلة $x\\,\\text{FeS}_2 + y\\,\\text{O}_2 \\rightarrow z\\,\\text{Fe}_2\\text{O}_3 + w\\,\\text{SO}_2$ (بأصغر أعداد صحيحة) ما قيمة $x + y + z + w$؟",
+      "options": [
+        "16",
+        "21",
+        "25",
+        "32"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Take $z=1$: Fe gives $x=2$; S gives $w=4$; O: $2y = 3 + 8 = 11 \\Rightarrow y = 5.5$. Multiply by 2: $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$. Sum $= 4+11+2+8 = 25$.",
+      "explanation_ar": "نأخذ $z=1$: من Fe نجد $x=2$؛ من S نجد $w=4$؛ من O: $2y = 11 \\Rightarrow y = 5.5$. نضرب بـ 2 فنحصل على $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$. المجموع $= 25$.",
+      "memorization_note": "معادلة تحميص البايرايت: $$4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 12,
+      "question_en": "60 g of $\\text{FeS}_2$ is burnt in air according to $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$. How much $\\text{SO}_2$ is produced? ($M_{\\text{FeS}_2} = 120$)",
+      "question_ar": "احترق 60 g من $\\text{FeS}_2$ في الهواء وفق المعادلة $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$. كم غراماً من $\\text{SO}_2$ يتكوّن؟ ($M_{\\text{FeS}_2} = 120$)",
+      "options": [
+        "16 g",
+        "32 g",
+        "64 g",
+        "128 g"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{FeS}_2} = 60/120 = 0.5$ mol. $n_{\\text{SO}_2} = 0.5 \\times \\frac{8}{4} = 1$ mol $\\Rightarrow m = 1 \\times 64 = 64$ g.",
+      "explanation_ar": "مولات $\\text{FeS}_2 = 60/120 = 0.5$. مولات $\\text{SO}_2 = 0.5 \\times \\frac{8}{4} = 1$ mol، الكتلة $= 64$ g.",
+      "memorization_note": "$M_{\\text{SO}_2} = 32 + 32 = 64$ ، $M_{\\text{FeS}_2} = 56 + 64 = 120$. قانون المولات: $$n = \\frac{m}{M_w}$$ نسبة المولات من المعادلة: $\\frac{n_{\\text{SO}_2}}{n_{\\text{FeS}_2}} = \\frac{8}{4}$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 13,
+      "question_en": "For $2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$, what is the extent of reaction if 20 mol of $\\text{CO}_2$ is produced (none initially)?",
+      "question_ar": "في التفاعل $2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$ ما مدى التفاعل $\\xi$ إذا تكوّن 20 mol من $\\text{CO}_2$ (ولم يكن موجوداً في البداية)؟",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "40"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\xi = \\frac{n_{\\text{CO}_2} - n_{\\text{CO}_2,0}}{\\nu_{\\text{CO}_2}} = \\frac{20 - 0}{2} = 10$ mol.",
+      "explanation_ar": "$\\xi = \\frac{20 - 0}{2} = 10$ mol.",
+      "memorization_note": "مفهوم مدى التفاعل: $$\\xi = \\frac{n_i - n_{i,0}}{\\nu_i}$$ حيث $\\nu_i$ سالب للمتفاعلات وموجب للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 14,
+      "question_en": "For $\\text{N}_2 + 2\\,\\text{O}_2 \\rightarrow 2\\,\\text{NO}_2$, what is the extent of reaction if 6 mol of $\\text{NO}_2$ is produced?",
+      "question_ar": "في التفاعل $\\text{N}_2 + 2\\,\\text{O}_2 \\rightarrow 2\\,\\text{NO}_2$ ما مدى التفاعل إذا تكوّن 6 mol من $\\text{NO}_2$؟",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "18"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\xi = \\frac{6 - 0}{2} = 3$ mol.",
+      "explanation_ar": "$\\xi = \\frac{6 - 0}{2} = 3$ mol.",
+      "memorization_note": "مفهوم مدى التفاعل: $$\\xi = \\frac{n_i - n_{i,0}}{\\nu_i}$$ حيث $\\nu_i$ سالب للمتفاعلات وموجب للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 15,
+      "question_en": "For $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$, what is the extent of reaction if only 50% of 96 g of $\\text{CH}_4$ is consumed?",
+      "question_ar": "في التفاعل $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$ ما مدى التفاعل إذا استُهلك 50% فقط من 96 g من $\\text{CH}_4$؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$n_{\\text{CH}_4,0} = 96/16 = 6$ mol; $n_{\\text{CH}_4} = 3$ mol. $\\xi = \\frac{3 - 6}{-1} = 3$ mol.",
+      "explanation_ar": "مولات $\\text{CH}_4$ الابتدائية $= 96/16 = 6$، والمتبقية $= 3$. $\\xi = \\frac{3 - 6}{-1} = 3$ mol.",
+      "memorization_note": "$M_{\\text{CH}_4} = 16$. مفهوم مدى التفاعل: $$\\xi = \\frac{n_i - n_{i,0}}{\\nu_i}$$ حيث $\\nu_i$ سالب للمتفاعلات وموجب للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 16,
+      "question_en": "For $\\text{H}_2\\text{O}_2 + \\text{H}_2 \\rightarrow 2\\,\\text{H}_2\\text{O}$, if the extent of reaction is 10 mol, how much water is produced (none initially)?",
+      "question_ar": "في التفاعل $\\text{H}_2\\text{O}_2 + \\text{H}_2 \\rightarrow 2\\,\\text{H}_2\\text{O}$ إذا كان مدى التفاعل 10 mol فكم مولاً من الماء يتكوّن (ولم يكن موجوداً في البداية)؟",
+      "options": [
+        "10 mol",
+        "20 mol",
+        "30 mol",
+        "40 mol"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{H}_2\\text{O}} = n_0 + \\nu\\,\\xi = 0 + 2(10) = 20$ mol.",
+      "explanation_ar": "$n_{\\text{H}_2\\text{O}} = 0 + 2 \\times 10 = 20$ mol.",
+      "memorization_note": "$$n_i = n_{i,0} + \\nu_i\\,\\xi$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 17,
+      "question_en": "For $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$, what is the extent of reaction if 512 g of $\\text{SO}_2$ is produced?",
+      "question_ar": "في التفاعل $4\\,\\text{FeS}_2 + 11\\,\\text{O}_2 \\rightarrow 2\\,\\text{Fe}_2\\text{O}_3 + 8\\,\\text{SO}_2$ ما مدى التفاعل إذا تكوّن 512 g من $\\text{SO}_2$؟",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{SO}_2} = 512/64 = 8$ mol. $\\xi = \\frac{8 - 0}{8} = 1$ mol.",
+      "explanation_ar": "مولات $\\text{SO}_2 = 512/64 = 8$. $\\xi = \\frac{8-0}{8} = 1$ mol.",
+      "memorization_note": "$M_{\\text{SO}_2} = 64$. مفهوم مدى التفاعل: $$\\xi = \\frac{n_i - n_{i,0}}{\\nu_i}$$ حيث $\\nu_i$ سالب للمتفاعلات وموجب للنواتج.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 18,
+      "question_en": "Which statement correctly describes a limiting reactant?",
+      "question_ar": "أي عبارة تصف المتفاعل المحدِّد (Limiting Reactant) بشكل صحيح؟",
+      "options": [
+        "It is completely consumed in the reaction",
+        "It is only partially consumed",
+        "It does not react at all",
+        "It is always present in the largest amount"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The limiting reactant is present in the smallest stoichiometric proportion, so it is the first to be completely consumed and it determines the maximum amount of product.",
+      "explanation_ar": "المتفاعل المحدِّد هو الذي يوجد بأقل نسبة متكافئة، فيُستهلك كلياً أولاً ويحدد أقصى كمية ممكنة من النواتج.",
+      "memorization_note": "لتحديد المتفاعل المحدِّد: قارن النسبة $\\frac{n_{\\text{feed}}}{\\nu}$ لكل متفاعل؛ الأصغر هو المحدِّد.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "Which statement correctly describes an excess reactant?",
+      "question_ar": "أي عبارة تصف المتفاعل الزائد (Excess Reactant) بشكل صحيح؟",
+      "options": [
+        "It is completely consumed",
+        "It is present beyond the stoichiometric requirement, so part of it remains unreacted",
+        "It does not react at all",
+        "It is always a product of the reaction"
+      ],
+      "correct_index": 1,
+      "explanation_en": "An excess reactant is fed in a larger amount than required by the limiting reactant, so it is only partially consumed.",
+      "explanation_ar": "المتفاعل الزائد يُغذّى بكمية تفوق ما يتطلبه المتفاعل المحدِّد، لذلك يُستهلك جزئياً ويبقى جزء منه دون تفاعل.",
+      "memorization_note": "$$\\%\\ \\text{excess} = \\frac{n_{\\text{feed}} - n_{\\text{stoich}}}{n_{\\text{stoich}}} \\times 100$$",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "4 mol of $\\text{CH}_4$ and 4 mol of $\\text{O}_2$ react according to $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. What type of reactant is $\\text{CH}_4$?",
+      "question_ar": "تفاعل 4 mol من $\\text{CH}_4$ مع 4 mol من $\\text{O}_2$ وفق $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. ما نوع المتفاعل $\\text{CH}_4$؟",
+      "options": [
+        "Limiting reactant",
+        "Excess reactant",
+        "Stoichiometric (neither)",
+        "Cannot be determined"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Ratios $n/\\nu$: $\\text{CH}_4$: $4/1 = 4$; $\\text{O}_2$: $4/2 = 2$. $\\text{O}_2$ is smaller, so $\\text{O}_2$ is limiting and $\\text{CH}_4$ is in excess (only 2 mol of it reacts).",
+      "explanation_ar": "النسب $n/\\nu$: لـ $\\text{CH}_4$: $4$ ، ولـ $\\text{O}_2$: $2$. الأصغر هو $\\text{O}_2$ فهو المحدِّد و $\\text{CH}_4$ زائد (يتفاعل منه 2 mol فقط).",
+      "memorization_note": "المتفاعل المحدِّد: أقل قيمة لـ $\\frac{n_{\\text{feed}}}{\\nu}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "2 mol of $\\text{N}_2$ and 8 mol of $\\text{H}_2$ react according to $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$. What type of reactant is $\\text{N}_2$?",
+      "question_ar": "تفاعل 2 mol من $\\text{N}_2$ مع 8 mol من $\\text{H}_2$ وفق $\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$. ما نوع المتفاعل $\\text{N}_2$؟",
+      "options": [
+        "Limiting reactant",
+        "Excess reactant",
+        "Stoichiometric (neither)",
+        "Cannot be determined"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{N}_2$: $2/1 = 2$; $\\text{H}_2$: $8/3 = 2.67$. $\\text{N}_2$ has the smaller ratio, so it is limiting (it needs 6 mol $\\text{H}_2$, but 8 mol is available).",
+      "explanation_ar": "$\\text{N}_2$: $2/1 = 2$ ؛ $\\text{H}_2$: $8/3 = 2.67$. $\\text{N}_2$ أصغر نسبة فهو المحدِّد (يحتاج 6 mol من $\\text{H}_2$ والمتوفر 8 mol).",
+      "memorization_note": "المتفاعل المحدِّد: أقل قيمة لـ $\\frac{n_{\\text{feed}}}{\\nu}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "4 mol of CO and 2 mol of $\\text{O}_2$ react according to $2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$. What type of reactant is $\\text{O}_2$?",
+      "question_ar": "تفاعل 4 mol من CO مع 2 mol من $\\text{O}_2$ وفق $2\\,\\text{CO} + \\text{O}_2 \\rightarrow 2\\,\\text{CO}_2$. ما نوع المتفاعل $\\text{O}_2$؟",
+      "options": [
+        "Limiting reactant",
+        "Excess reactant",
+        "Neither: the feed is in stoichiometric proportion",
+        "Cannot be determined"
+      ],
+      "correct_index": 2,
+      "explanation_en": "CO: $4/2 = 2$; $\\text{O}_2$: $2/1 = 2$. Equal ratios mean the feed is in exact stoichiometric proportion, so both are consumed completely.",
+      "explanation_ar": "CO: $4/2 = 2$ ؛ $\\text{O}_2$: $2/1 = 2$. تساوي النسب يعني أن التغذية بنسب متكافئة تماماً فيُستهلك المتفاعلان كلياً.",
+      "memorization_note": "إذا تساوت قيم $\\frac{n_{\\text{feed}}}{\\nu}$ لجميع المتفاعلات فالتغذية متكافئة (Stoichiometric).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "28 g of $\\text{N}_2$ and 10 g of $\\text{H}_2$ react to form ammonia ($\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$). How much $\\text{NH}_3$ is produced (complete conversion of the limiting reactant)?",
+      "question_ar": "تفاعل 28 g من $\\text{N}_2$ مع 10 g من $\\text{H}_2$ لإنتاج الأمونيا ($\\text{N}_2 + 3\\,\\text{H}_2 \\rightarrow 2\\,\\text{NH}_3$). كم غراماً من $\\text{NH}_3$ يتكوّن (تحول كامل للمتفاعل المحدِّد)؟",
+      "options": [
+        "17 g",
+        "34 g",
+        "51 g",
+        "54 g"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$n_{\\text{N}_2} = 28/28 = 1$; $n_{\\text{H}_2} = 10/2 = 5$. Ratios: $1/1 = 1 < 5/3$, so $\\text{N}_2$ is limiting. $n_{\\text{NH}_3} = 2$ mol $\\Rightarrow m = 2 \\times 17 = 34$ g.",
+      "explanation_ar": "مولات $\\text{N}_2 = 1$ ومولات $\\text{H}_2 = 5$. النسب: $1 < 5/3$ فـ $\\text{N}_2$ هو المحدِّد. مولات $\\text{NH}_3 = 2$، الكتلة $= 2 \\times 17 = 34$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{N}_2} = 28$ ، $M_{\\text{H}_2} = 2$ ، $M_{\\text{NH}_3} = 17$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 24,
+      "question_en": "10 mol of $\\text{C}_6\\text{H}_{12}$ reacts with 18 mol of $\\text{O}_2$ ($\\text{C}_6\\text{H}_{12} + 9\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$). How many moles of $\\text{CO}_2$ are produced?",
+      "question_ar": "تفاعل 10 mol من $\\text{C}_6\\text{H}_{12}$ مع 18 mol من $\\text{O}_2$ ($\\text{C}_6\\text{H}_{12} + 9\\,\\text{O}_2 \\rightarrow 6\\,\\text{CO}_2 + 6\\,\\text{H}_2\\text{O}$). كم مولاً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$\\text{C}_6\\text{H}_{12}$: $10/1 = 10$; $\\text{O}_2$: $18/9 = 2$. $\\text{O}_2$ is limiting, so $n_{\\text{CO}_2} = \\frac{18}{9} \\times 6 = 12$ mol.",
+      "explanation_ar": "$\\text{C}_6\\text{H}_{12}$: $10$ ؛ $\\text{O}_2$: $18/9 = 2$. $\\text{O}_2$ هو المحدِّد، فمولات $\\text{CO}_2 = \\frac{18}{9} \\times 6 = 12$ mol.",
+      "memorization_note": "$$n_{\\text{product}} = \\frac{n_{\\text{limiting}}}{\\nu_{\\text{limiting}}}\\,\\nu_{\\text{product}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 25,
+      "question_en": "5 mol of $\\text{Al}_2\\text{O}_3$ reacts with 10 mol of $\\text{H}_2\\text{SO}_4$ ($\\text{Al}_2\\text{O}_3 + 3\\,\\text{H}_2\\text{SO}_4 \\rightarrow \\text{Al}_2(\\text{SO}_4)_3 + 3\\,\\text{H}_2\\text{O}$). How many moles of $\\text{Al}_2(\\text{SO}_4)_3$ are produced?",
+      "question_ar": "تفاعل 5 mol من $\\text{Al}_2\\text{O}_3$ مع 10 mol من $\\text{H}_2\\text{SO}_4$ ($\\text{Al}_2\\text{O}_3 + 3\\,\\text{H}_2\\text{SO}_4 \\rightarrow \\text{Al}_2(\\text{SO}_4)_3 + 3\\,\\text{H}_2\\text{O}$). كم مولاً من $\\text{Al}_2(\\text{SO}_4)_3$ يتكوّن؟",
+      "options": [
+        "3.33",
+        "10",
+        "30",
+        "33.3"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{Al}_2\\text{O}_3$: $5/1 = 5$; $\\text{H}_2\\text{SO}_4$: $10/3 = 3.33$. $\\text{H}_2\\text{SO}_4$ is limiting, so $n = 10/3 = 3.33$ mol.",
+      "explanation_ar": "$\\text{Al}_2\\text{O}_3$: $5$ ؛ $\\text{H}_2\\text{SO}_4$: $10/3 = 3.33$. $\\text{H}_2\\text{SO}_4$ هو المحدِّد، فالمولات $= 10/3 = 3.33$.",
+      "memorization_note": "$$n_{\\text{product}} = \\frac{n_{\\text{limiting}}}{\\nu_{\\text{limiting}}}\\,\\nu_{\\text{product}}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 26,
+      "question_en": "10 g of NaCl reacts with 1.8 g of $\\text{H}_2\\text{O}$ ($\\text{NaCl} + \\text{H}_2\\text{O} \\rightarrow \\text{NaOH} + \\text{HCl}$, assume complete conversion of the limiting reactant). How much NaOH is produced?",
+      "question_ar": "تفاعل 10 g من NaCl مع 1.8 g من $\\text{H}_2\\text{O}$ ($\\text{NaCl} + \\text{H}_2\\text{O} \\rightarrow \\text{NaOH} + \\text{HCl}$، افترض تحولاً كاملاً للمتفاعل المحدِّد). كم غراماً من NaOH يتكوّن؟",
+      "options": [
+        "4 g",
+        "10 g",
+        "40 g",
+        "80 g"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$n_{\\text{NaCl}} = 10/58.5 = 0.171$ mol; $n_{\\text{H}_2\\text{O}} = 1.8/18 = 0.1$ mol. Water is limiting, so $n_{\\text{NaOH}} = 0.1$ mol $\\Rightarrow m = 0.1 \\times 40 = 4$ g.",
+      "explanation_ar": "مولات NaCl $= 0.171$ ومولات الماء $= 0.1$. الماء هو المحدِّد، فمولات NaOH $= 0.1$ والكتلة $= 0.1 \\times 40 = 4$ g.",
+      "memorization_note": "الأوزان الذرية: $\\text{H}=1,\\ \\text{C}=12,\\ \\text{N}=14,\\ \\text{O}=16,\\ \\text{Na}=23,\\ \\text{S}=32,\\ \\text{Cl}=35.5,\\ \\text{Ca}=40$. $M_{\\text{NaCl}} = 58.5$ ، $M_{\\text{NaOH}} = 40$ ، $M_{\\text{H}_2\\text{O}} = 18$. قانون المولات: $$n = \\frac{m}{M_w}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 27,
+      "question_en": "In a steady-state reactive system, NaOH and HCl are fed at 100 mol/min each (complete reaction, $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$). What is the rate of NaCl produced?",
+      "question_ar": "في نظام تفاعلي مستقر يُغذّى NaOH و HCl بمعدل 100 mol/min لكل منهما (تفاعل كامل، $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$). ما معدل إنتاج NaCl؟",
+      "options": [
+        "100 mol/min",
+        "200 mol/min",
+        "300 mol/min",
+        "400 mol/min"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The reaction is 1:1:1 and the feed is stoichiometric, so $\\dot{n}_{\\text{NaCl}} = 100$ mol/min. (Mass is conserved overall, but moles of product are fixed by stoichiometry, not by summing the feeds.)",
+      "explanation_ar": "التفاعل بنسبة 1:1:1 والتغذية متكافئة، إذن $\\dot{n}_{\\text{NaCl}} = 100$ mol/min. (المولات لا تُجمع من التغذيتين بل تُحدَّد بالقياس المتكافئ.)",
+      "memorization_note": "موازنة المركب $i$ في تفاعل: $$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 28,
+      "question_en": "5 mol of $\\text{CH}_4$ and 5 mol of $\\text{O}_2$ react completely according to $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. How many moles of $\\text{CO}_2$ are produced?",
+      "question_ar": "تفاعل 5 mol من $\\text{CH}_4$ مع 5 mol من $\\text{O}_2$ تفاعلاً كاملاً وفق $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. كم مولاً من $\\text{CO}_2$ يتكوّن؟",
+      "options": [
+        "2.5 mol",
+        "5 mol",
+        "7.5 mol",
+        "10 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{CH}_4$: $5/1 = 5$; $\\text{O}_2$: $5/2 = 2.5$. $\\text{O}_2$ is limiting: $n_{\\text{CO}_2} = 5/2 = 2.5$ mol.",
+      "explanation_ar": "$\\text{CH}_4$: $5$ ؛ $\\text{O}_2$: $2.5$. $\\text{O}_2$ هو المحدِّد: مولات $\\text{CO}_2 = 5/2 = 2.5$ mol.",
+      "memorization_note": "احتراق الميثان: $\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$. المتفاعل المحدِّد: أقل $\\frac{n}{\\nu}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 29,
+      "question_en": "5 mol of $\\text{KNO}_3$ and 5 mol of $\\text{H}_2\\text{SO}_4$ react completely according to $2\\,\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{K}_2\\text{SO}_4 + 2\\,\\text{HNO}_3$. How many moles of $\\text{K}_2\\text{SO}_4$ are produced?",
+      "question_ar": "تفاعل 5 mol من $\\text{KNO}_3$ مع 5 mol من $\\text{H}_2\\text{SO}_4$ تفاعلاً كاملاً وفق $2\\,\\text{KNO}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{K}_2\\text{SO}_4 + 2\\,\\text{HNO}_3$. كم مولاً من $\\text{K}_2\\text{SO}_4$ يتكوّن؟",
+      "options": [
+        "2.5 mol",
+        "5 mol",
+        "7.5 mol",
+        "10 mol"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{KNO}_3$: $5/2 = 2.5$; $\\text{H}_2\\text{SO}_4$: $5/1 = 5$. $\\text{KNO}_3$ is limiting: $n_{\\text{K}_2\\text{SO}_4} = 5/2 = 2.5$ mol.",
+      "explanation_ar": "$\\text{KNO}_3$: $2.5$ ؛ $\\text{H}_2\\text{SO}_4$: $5$. $\\text{KNO}_3$ هو المحدِّد: المولات $= 5/2 = 2.5$ mol.",
+      "memorization_note": "المتفاعل المحدِّد: أقل قيمة لـ $\\frac{n_{\\text{feed}}}{\\nu}$.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 30,
+      "question_en": "HCl and NaOH enter a reactor at 1 mol/h each ($\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$, complete reaction). What is the outlet rate of NaCl?",
+      "question_ar": "يدخل HCl و NaOH إلى مفاعل بمعدل 1 mol/h لكل منهما ($\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$، تفاعل كامل). ما معدل خروج NaCl؟",
+      "options": [
+        "1 mol/h",
+        "2 mol/h",
+        "3 mol/h",
+        "4 mol/h"
+      ],
+      "correct_index": 0,
+      "explanation_en": "1:1 stoichiometry with equal feeds gives $\\dot{n}_{\\text{NaCl}} = 1$ mol/h.",
+      "explanation_ar": "النسبة 1:1 والتغذيتان متساويتان، إذن $\\dot{n}_{\\text{NaCl}} = 1$ mol/h.",
+      "memorization_note": "$$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 31,
+      "question_en": "$\\text{H}_2\\text{SO}_4$ and NaCl enter at 2 mol/h each ($\\text{H}_2\\text{SO}_4 + 2\\,\\text{NaCl} \\rightarrow 2\\,\\text{HCl} + \\text{Na}_2\\text{SO}_4$, complete reaction). What is the outlet rate of HCl?",
+      "question_ar": "يدخل $\\text{H}_2\\text{SO}_4$ و NaCl بمعدل 2 mol/h لكل منهما ($\\text{H}_2\\text{SO}_4 + 2\\,\\text{NaCl} \\rightarrow 2\\,\\text{HCl} + \\text{Na}_2\\text{SO}_4$، تفاعل كامل). ما معدل خروج HCl؟",
+      "options": [
+        "1 mol/h",
+        "2 mol/h",
+        "3 mol/h",
+        "4 mol/h"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{H}_2\\text{SO}_4$: $2/1 = 2$; NaCl: $2/2 = 1$. NaCl is limiting, $\\dot{\\xi} = 1$ mol/h, so $\\dot{n}_{\\text{HCl}} = 2 \\times 1 = 2$ mol/h.",
+      "explanation_ar": "$\\text{H}_2\\text{SO}_4$: $2$ ؛ NaCl: $1$. NaCl هو المحدِّد و $\\dot{\\xi} = 1$، إذن $\\dot{n}_{\\text{HCl}} = 2 \\times 1 = 2$ mol/h.",
+      "memorization_note": "$$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 32,
+      "question_en": "$\\text{CH}_4$ and $\\text{O}_2$ enter at 2 mol/h each ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$, complete reaction). What is the outlet rate of $\\text{CO}_2$?",
+      "question_ar": "يدخل $\\text{CH}_4$ و $\\text{O}_2$ بمعدل 2 mol/h لكل منهما ($\\text{CH}_4 + 2\\,\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\,\\text{H}_2\\text{O}$، تفاعل كامل). ما معدل خروج $\\text{CO}_2$؟",
+      "options": [
+        "1 mol/h",
+        "2 mol/h",
+        "3 mol/h",
+        "4 mol/h"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{O}_2$ is limiting ($2/2 = 1 < 2/1$), so $\\dot{\\xi} = 1$ mol/h and $\\dot{n}_{\\text{CO}_2} = 1$ mol/h.",
+      "explanation_ar": "$\\text{O}_2$ هو المحدِّد ($1 < 2$)، إذن $\\dot{\\xi} = 1$ و $\\dot{n}_{\\text{CO}_2} = 1$ mol/h.",
+      "memorization_note": "$$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 33,
+      "question_en": "$\\text{C}_3\\text{H}_8$ and $\\text{O}_2$ enter at 2 mol/h each ($\\text{C}_3\\text{H}_8 + 5\\,\\text{O}_2 \\rightarrow 3\\,\\text{CO}_2 + 4\\,\\text{H}_2\\text{O}$, complete reaction). What is the outlet rate of $\\text{CO}_2$?",
+      "question_ar": "يدخل $\\text{C}_3\\text{H}_8$ و $\\text{O}_2$ بمعدل 2 mol/h لكل منهما ($\\text{C}_3\\text{H}_8 + 5\\,\\text{O}_2 \\rightarrow 3\\,\\text{CO}_2 + 4\\,\\text{H}_2\\text{O}$، تفاعل كامل). ما معدل خروج $\\text{CO}_2$؟",
+      "options": [
+        "1 mol/h",
+        "1.2 mol/h",
+        "1.5 mol/h",
+        "2 mol/h"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$\\text{O}_2$ is limiting ($2/5 = 0.4 < 2/1$), so $\\dot{\\xi} = 0.4$ mol/h and $\\dot{n}_{\\text{CO}_2} = 3 \\times 0.4 = 1.2$ mol/h.",
+      "explanation_ar": "$\\text{O}_2$ هو المحدِّد ($0.4 < 2$)، إذن $\\dot{\\xi} = 0.4$ و $\\dot{n}_{\\text{CO}_2} = 3 \\times 0.4 = 1.2$ mol/h.",
+      "memorization_note": "احتراق البروبان: $\\text{C}_3\\text{H}_8 + 5\\,\\text{O}_2 \\rightarrow 3\\,\\text{CO}_2 + 4\\,\\text{H}_2\\text{O}$. $$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 34,
+      "question_en": "$\\text{C}_6\\text{H}_6$ and $\\text{H}_2$ enter at 3 mol/h each ($\\text{C}_6\\text{H}_6 + 3\\,\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_{12}$, complete reaction). What is the outlet rate of $\\text{C}_6\\text{H}_{12}$?",
+      "question_ar": "يدخل $\\text{C}_6\\text{H}_6$ و $\\text{H}_2$ بمعدل 3 mol/h لكل منهما ($\\text{C}_6\\text{H}_6 + 3\\,\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_{12}$، تفاعل كامل). ما معدل خروج $\\text{C}_6\\text{H}_{12}$؟",
+      "options": [
+        "1 mol/h",
+        "1.2 mol/h",
+        "1.5 mol/h",
+        "2 mol/h"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\text{H}_2$ is limiting ($3/3 = 1 < 3/1$), so $\\dot{\\xi} = 1$ mol/h and $\\dot{n}_{\\text{C}_6\\text{H}_{12}} = 1$ mol/h.",
+      "explanation_ar": "$\\text{H}_2$ هو المحدِّد ($1 < 3$)، إذن $\\dot{\\xi} = 1$ و $\\dot{n}_{\\text{C}_6\\text{H}_{12}} = 1$ mol/h.",
+      "memorization_note": "هدرجة البنزين: $\\text{C}_6\\text{H}_6 + 3\\,\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_{12}$. $$\\dot{n}_{i,\\text{out}} = \\dot{n}_{i,\\text{in}} + \\nu_i\\,\\dot{\\xi}$$",
+      "requires_scratchpad": true
+    }
+  ]
+}

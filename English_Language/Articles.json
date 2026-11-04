@@ -1,0 +1,248 @@
+{
+  "topic_en": "Articles (A, An, The)",
+  "topic_ar": "أدوات النكرة والمعرفة",
+  "subject_folder": "English_Language",
+  "description_ar": "أسئلة مباشرة حول a و an و the وحالات عدم استعمال الأداة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "She is ___ engineer.",
+      "question_ar": "هي ____ مهندسة.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: an. 'engineer' starts with a vowel sound, so we use an.",
+      "explanation_ar": "الإجابة الصحيحة: an. engineer تبدأ بصوت متحرك ← an.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "I saw ___ elephant at the zoo.",
+      "question_ar": "رأيت ____ فيلاً في حديقة الحيوان.",
+      "options": [
+        "a",
+        "no article",
+        "any",
+        "an"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: an. First mention + vowel sound: an elephant.",
+      "explanation_ar": "الإجابة الصحيحة: an. ذكر أول مرة + صوت متحرك ← an.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "He is ___ honest man.",
+      "question_ar": "هو رجل ____ أمين.",
+      "options": [
+        "an",
+        "a",
+        "no article",
+        "any"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: an. The 'h' in honest is silent, so the word begins with a vowel sound: an.",
+      "explanation_ar": "الإجابة الصحيحة: an. حرف h صامت في honest فتبدأ بصوت متحرك ← an.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "My father works in ___ university in Basra.",
+      "question_ar": "والدي يعمل في ____ جامعة في البصرة.",
+      "options": [
+        "an",
+        "no article",
+        "a",
+        "any"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: a. 'university' begins with the sound /ju/ (consonant), so we use a.",
+      "explanation_ar": "الإجابة الصحيحة: a. university تبدأ بصوت /ju/ (ساكن) ← a.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "___ sun rises in the east.",
+      "question_ar": "____ الشمس تشرق من الشرق.",
+      "options": [
+        "A",
+        "The",
+        "An",
+        "No article"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: The. There is only one sun, so we use the.",
+      "explanation_ar": "الإجابة الصحيحة: The. الشمس وحيدة ← the.",
+      "memorization_note": "$\\text{the}$: لشيء محدد أو معروف أو وحيد ($\\text{the sun, the Nile, the capital}$) ، وللآلات الموسيقية ($\\text{play the piano}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "She plays ___ piano very well.",
+      "question_ar": "هي تعزف ____ البيانو بشكل جيد جداً.",
+      "options": [
+        "a",
+        "an",
+        "no article",
+        "the"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: the. Musical instruments take 'the': play the piano.",
+      "explanation_ar": "الإجابة الصحيحة: the. الآلات الموسيقية تأخذ the.",
+      "memorization_note": "$\\text{the}$: لشيء محدد أو معروف أو وحيد ($\\text{the sun, the Nile, the capital}$) ، وللآلات الموسيقية ($\\text{play the piano}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "I have ___ breakfast at 7.",
+      "question_ar": "أتناول ____ الفطور الساعة 7.",
+      "options": [
+        "no article",
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: no article. Meals take no article: have breakfast.",
+      "explanation_ar": "الإجابة الصحيحة: no article. الوجبات بدون أداة.",
+      "memorization_note": "بدون أداة: الوجبات ($\\text{have breakfast}$) ، $\\text{go to school}$ (للدراسة) ، الأسماء العامة بالجمع وغير المعدودة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "He goes to ___ school by bus.",
+      "question_ar": "هو يذهب إلى ____ المدرسة بالحافلة.",
+      "options": [
+        "a",
+        "an",
+        "no article",
+        "the"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: no article. 'go to school' (as a student) takes no article.",
+      "explanation_ar": "الإجابة الصحيحة: no article. go to school بدون أداة (للدراسة).",
+      "memorization_note": "بدون أداة: الوجبات ($\\text{have breakfast}$) ، $\\text{go to school}$ (للدراسة) ، الأسماء العامة بالجمع وغير المعدودة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "There is only one door in the room. Please close ___ door.",
+      "question_ar": "يوجد باب واحد فقط في الغرفة. أغلق ____ الباب من فضلك.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: the. A specific, known door: the.",
+      "explanation_ar": "الإجابة الصحيحة: the. باب محدد ومعروف ← the.",
+      "memorization_note": "$\\text{the}$: لشيء محدد أو معروف أو وحيد ($\\text{the sun, the Nile, the capital}$) ، وللآلات الموسيقية ($\\text{play the piano}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "What ___ beautiful day!",
+      "question_ar": "يا له من ____ يوم جميل!",
+      "options": [
+        "an",
+        "the",
+        "no article",
+        "a"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: a. What + a + adjective + singular noun; 'beautiful' starts with a consonant sound.",
+      "explanation_ar": "الإجابة الصحيحة: a. What a + صفة + مفرد معدود، وbeautiful تبدأ بصوت ساكن ← a.",
+      "memorization_note": "$\\text{What a} + \\text{صفة} + \\text{اسم مفرد معدود}$ للتعجب ، ولا تُستعمل $\\text{a/an}$ مع الجمع وغير المعدود.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "I need ___ umbrella; it's raining.",
+      "question_ar": "أحتاج ____ مظلة؛ إنها تمطر.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: an. 'umbrella' starts with a vowel sound: an.",
+      "explanation_ar": "الإجابة الصحيحة: an. umbrella تبدأ بصوت متحرك ← an.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "___ Nile is the longest river in Africa.",
+      "question_ar": "____ النيل أطول نهر في أفريقيا.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Correct answer: The. Rivers take 'the': The Nile.",
+      "explanation_ar": "الإجابة الصحيحة: The. الأنهار تأخذ the.",
+      "memorization_note": "$\\text{the}$: لشيء محدد أو معروف أو وحيد ($\\text{the sun, the Nile, the capital}$) ، وللآلات الموسيقية ($\\text{play the piano}$).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "She wants to be ___ doctor.",
+      "question_ar": "هي تريد أن تصبح ____ طبيبة.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Correct answer: a. Jobs take a/an; 'doctor' begins with a consonant sound: a.",
+      "explanation_ar": "الإجابة الصحيحة: a. المهن تأخذ a/an، وdoctor تبدأ بساكن ← a.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "My brother is ___ university student.",
+      "question_ar": "أخي ____ طالب جامعي.",
+      "options": [
+        "an",
+        "the",
+        "no article",
+        "a"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Correct answer: a. 'university' starts with /ju/ (consonant sound): a.",
+      "explanation_ar": "الإجابة الصحيحة: a. university بصوت /ju/ ← a.",
+      "memorization_note": "$\\text{a}$ قبل صوت ساكن ($\\text{a university, a car}$) ، $\\text{an}$ قبل صوت متحرك ($\\text{an engineer, an hour, an honest man}$) — العبرة بالنطق وليس بالحرف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "Baghdad is ___ capital of Iraq.",
+      "question_ar": "بغداد هي ____ عاصمة العراق.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Correct answer: the. A unique, specific capital: the.",
+      "explanation_ar": "الإجابة الصحيحة: the. عاصمة وحيدة ومحددة ← the.",
+      "memorization_note": "$\\text{the}$: لشيء محدد أو معروف أو وحيد ($\\text{the sun, the Nile, the capital}$) ، وللآلات الموسيقية ($\\text{play the piano}$).",
+      "requires_scratchpad": false
+    }
+  ]
+}

@@ -1,0 +1,1576 @@
+{
+  "topic_en": "Comprehensive Fundamentals & Essentials of Chemical Reaction Engineering",
+  "topic_ar": "البنك الشامل لأساسيات وبديهيات المفاعلات (هندسة التفاعلات الكيميائية)",
+  "subject_folder": "Chemical_Reaction_Engineering",
+  "description_ar": "ملف شامل يضم 98 سؤالاً أساسياً وبديهياً (حركية التفاعلات، أنواع المفاعلات المثالية، المفاعل الدفعي، CSTR، PFR) بدون مسائل حسابية طويلة",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "The rate of a homogeneous reaction, $-r_A$, is defined as the moles of A reacted per unit ______.",
+      "question_ar": "يُعرَّف معدل التفاعل المتجانس $-r_A$ بأنه عدد مولات A المتفاعلة لكل وحدة ______.",
+      "options": [
+        "mass of catalyst per unit time",
+        "surface area per unit time",
+        "time only, independent of volume",
+        "volume of reacting fluid per unit time"
+      ],
+      "correct_index": 3,
+      "explanation_en": "For a homogeneous reaction the rate is based on the volume of the reacting fluid: $$-r_A = -\\frac{1}{V}\\frac{dN_A}{dt}$$ Rates based on catalyst mass ($-r'_A$) or surface area are used for heterogeneous catalytic reactions.",
+      "explanation_ar": "في التفاعل المتجانس يُحسب المعدل بالنسبة لحجم المائع المتفاعل: $$-r_A = -\\frac{1}{V}\\frac{dN_A}{dt}$$ أما المعدل بالنسبة لكتلة العامل المساعد ($-r'_A$) أو المساحة السطحية فيُستخدم للتفاعلات غير المتجانسة.",
+      "memorization_note": "ملاحظة للحفظ: احفظ: $-r_A = -\\frac{1}{V}\\frac{dN_A}{dt}$ ، ووحدته المعتادة $\\text{mol}/(\\text{L}\\cdot\\text{s})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "What is the usual unit of the rate of a homogeneous reaction $-r_A$?",
+      "question_ar": "ما الوحدة المعتادة لمعدل التفاعل المتجانس $-r_A$؟",
+      "options": [
+        "$\\text{s}^{-1}$",
+        "$\\text{L}/(\\text{mol}\\cdot\\text{s})$",
+        "$\\text{mol}/(\\text{L}\\cdot\\text{s})$",
+        "$\\text{mol}\\cdot\\text{s}/\\text{L}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Rate = moles reacted per volume per time, so its unit is $\\text{mol}/(\\text{L}\\cdot\\text{s})$ (or $\\text{mol}/(\\text{m}^3\\cdot\\text{s})$). $\\text{s}^{-1}$ is the unit of a first-order rate constant, not of the rate.",
+      "explanation_ar": "المعدل = مولات متفاعلة لكل حجم لكل زمن، لذلك وحدته $\\text{mol}/(\\text{L}\\cdot\\text{s})$. أما $\\text{s}^{-1}$ فهي وحدة ثابت المعدل للتفاعل من الرتبة الأولى وليست وحدة المعدل.",
+      "memorization_note": "ملاحظة للحفظ: الوحدة: $\\text{mol}/(\\text{m}^3\\cdot\\text{s})$ أو $\\text{mol}/(\\text{L}\\cdot\\text{s})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "What is the order of a reaction?",
+      "question_ar": "ما هي رتبة التفاعل؟",
+      "options": [
+        "The product of the exponents of the concentration terms",
+        "The sum of the exponents of the concentration terms in the rate law",
+        "The difference of the exponents of the concentration terms",
+        "The sum of the stoichiometric coefficients of the products"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For $-r_A = kC_A^{a}C_B^{b}$ the overall order is $n = a + b$, i.e. the sum of the exponents. It is determined experimentally.",
+      "explanation_ar": "في المعادلة $-r_A = kC_A^{a}C_B^{b}$ تكون الرتبة الكلية $n = a + b$ أي مجموع الأسس، وتُحدَّد عملياً بالتجربة.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة الكلية: $n = a + b$ (مجموع الأسس).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "For an elementary reaction, the order with respect to each reactant equals:",
+      "question_ar": "في التفاعل الأولي (Elementary)، رتبة التفاعل بالنسبة لكل متفاعل تساوي:",
+      "options": [
+        "zero always",
+        "its stoichiometric coefficient",
+        "the coefficient of the products",
+        "one always"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In an elementary reaction the rate law follows the stoichiometry directly, e.g. $A + B \\to P$ gives $-r_A = kC_AC_B$ (molecularity = order).",
+      "explanation_ar": "في التفاعل الأولي يتبع قانون المعدل المعاملات الستوكيومترية مباشرة، مثل $A + B \\to P$ يعطي $-r_A = kC_AC_B$ (الجزيئية = الرتبة).",
+      "memorization_note": "ملاحظة للحفظ: التفاعل الأولي: الرتبة = المعامل الستوكيومتري. أما غير الأولي فالرتبة تُحدَّد تجريبياً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Which of the following can be zero or a fractional number?",
+      "question_ar": "أي مما يلي يمكن أن يكون صفراً أو عدداً كسرياً؟",
+      "options": [
+        "Order of reaction",
+        "Molecularity",
+        "Number of molecules in an elementary step",
+        "Number of atoms in a molecule"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Molecularity is the number of molecules colliding in an elementary step, so it is always a positive whole number (1, 2, 3). The order is experimental and can be 0, fractional or even negative.",
+      "explanation_ar": "الجزيئية هي عدد الجزيئات المتصادمة في خطوة أولية فهي دائماً عدد صحيح موجب. أما الرتبة فتجريبية ويمكن أن تكون صفراً أو كسراً أو حتى سالبة.",
+      "memorization_note": "ملاحظة للحفظ: الجزيئية: عدد صحيح دائماً. الرتبة: قد تكون كسرية أو صفر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 6,
+      "question_en": "The rate equation $-\\dfrac{dC_A}{dt} = kC_A^{2}$ represents a reaction of which order?",
+      "question_ar": "المعادلة $-\\dfrac{dC_A}{dt} = kC_A^{2}$ تمثل تفاعلاً من أي رتبة؟",
+      "options": [
+        "First order",
+        "Third order",
+        "Zero order",
+        "Second order"
+      ],
+      "correct_index": 3,
+      "explanation_en": "The exponent of $C_A$ is 2, so the reaction is second order.",
+      "explanation_ar": "أس التركيز $C_A$ يساوي 2 إذن التفاعل من الرتبة الثانية.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة = أس التركيز في قانون المعدل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 7,
+      "question_en": "The unit of the rate constant $k$ of a first-order reaction is:",
+      "question_ar": "وحدة ثابت المعدل $k$ لتفاعل من الرتبة الأولى هي:",
+      "options": [
+        "$\\text{L}/(\\text{mol}\\cdot\\text{s})$",
+        "$\\text{mol}/(\\text{L}\\cdot\\text{s})$",
+        "$\\text{time}^{-1}$ (e.g. $\\text{s}^{-1}$)",
+        "$\\text{L}^2/(\\text{mol}^2\\cdot\\text{s})$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "From $-r_A = kC_A$: $k = \\dfrac{\\text{mol}/(\\text{L}\\cdot\\text{s})}{\\text{mol}/\\text{L}} = \\text{s}^{-1}$.",
+      "explanation_ar": "من العلاقة $-r_A = kC_A$ نجد $k = \\dfrac{\\text{mol}/(\\text{L}\\cdot\\text{s})}{\\text{mol}/\\text{L}} = \\text{s}^{-1}$.",
+      "memorization_note": "ملاحظة للحفظ: وحدة $k$ بشكل عام: $(\\text{mol}/\\text{L})^{1-n}\\,\\text{s}^{-1}$. الرتبة 1: $\\text{s}^{-1}$ ، الرتبة 2: $\\text{L}/(\\text{mol}\\cdot\\text{s})$ ، الرتبة 0: $\\text{mol}/(\\text{L}\\cdot\\text{s})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "The unit of the rate constant $k$ of a second-order reaction is:",
+      "question_ar": "وحدة ثابت المعدل $k$ لتفاعل من الرتبة الثانية هي:",
+      "options": [
+        "$\\text{s}^{-1}$",
+        "$\\text{mol}/(\\text{L}\\cdot\\text{s})$",
+        "$\\text{L}/(\\text{mol}\\cdot\\text{s})$",
+        "$\\text{mol}/\\text{L}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "From $-r_A = kC_A^2$: $k = \\dfrac{\\text{mol}/(\\text{L}\\cdot\\text{s})}{(\\text{mol}/\\text{L})^2} = \\text{L}/(\\text{mol}\\cdot\\text{s})$.",
+      "explanation_ar": "من $-r_A = kC_A^2$ نجد $k = \\dfrac{\\text{mol}/(\\text{L}\\cdot\\text{s})}{(\\text{mol}/\\text{L})^2} = \\text{L}/(\\text{mol}\\cdot\\text{s})$.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة 2: $k$ بوحدة $\\text{L}/(\\text{mol}\\cdot\\text{s})$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 9,
+      "question_en": "In a zero-order reaction, the rate of reaction:",
+      "question_ar": "في التفاعل من الرتبة صفر، معدل التفاعل:",
+      "options": [
+        "is directly proportional to the reactant concentration",
+        "is independent of the reactant concentration",
+        "is proportional to the square of the concentration",
+        "decreases exponentially with time"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For zero order $-r_A = k$, a constant. The rate does not change as the concentration changes (until the reactant is exhausted).",
+      "explanation_ar": "للرتبة صفر $-r_A = k$ أي ثابت، فلا يتغير المعدل بتغير التركيز (إلى أن ينفد المتفاعل).",
+      "memorization_note": "ملاحظة للحفظ: الرتبة صفر: $-r_A = k$ ، و $C_A = C_{A0} - kt$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 10,
+      "question_en": "Which equation correctly represents the Arrhenius law?",
+      "question_ar": "أي معادلة تمثل قانون أرهينيوس بشكل صحيح؟",
+      "options": [
+        "$k = A\\,e^{-E/RT}$",
+        "$k = A\\,e^{E/RT}$",
+        "$k = A\\,e^{-RT/E}$",
+        "$k = \\dfrac{A\\,E}{RT}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Arrhenius: $k = A e^{-E/RT}$, where $A$ is the frequency (pre-exponential) factor, $E$ the activation energy, $R$ the gas constant and $T$ the absolute temperature.",
+      "explanation_ar": "معادلة أرهينيوس: $k = A e^{-E/RT}$ حيث $A$ العامل التكراري، $E$ طاقة التنشيط، $R$ ثابت الغازات، $T$ درجة الحرارة المطلقة.",
+      "memorization_note": "ملاحظة للحفظ: $k = A e^{-E/RT}$ ، و $R = 8.314\\text{ J/(mol}\\cdot\\text{K)}$ ، $T$ بالكلفن.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 11,
+      "question_en": "How does the rate constant $k$ change as temperature increases (for a normal reaction)?",
+      "question_ar": "كيف يتغير ثابت المعدل $k$ عند ارتفاع درجة الحرارة (لتفاعل اعتيادي)؟",
+      "options": [
+        "It decreases linearly",
+        "It remains constant",
+        "It decreases exponentially",
+        "It increases exponentially"
+      ],
+      "correct_index": 3,
+      "explanation_en": "According to $k = Ae^{-E/RT}$, a larger $T$ makes the exponent less negative, so $k$ rises exponentially.",
+      "explanation_ar": "حسب $k = Ae^{-E/RT}$ فإن زيادة $T$ تجعل الأس أقل سالبية فيزداد $k$ أُسّياً.",
+      "memorization_note": "ملاحظة للحفظ: ارتفاع الحرارة ⇒ زيادة $k$ أُسّياً ⇒ زيادة معدل التفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 12,
+      "question_en": "The activation energy is best defined as:",
+      "question_ar": "يُعرَّف تعريفاً أدق طاقة التنشيط بأنها:",
+      "options": [
+        "the heat released by the reaction",
+        "the energy of the products",
+        "the difference between the enthalpies of products and reactants",
+        "the minimum energy that reactants must have to undergo reaction"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Activation energy is the energy barrier that colliding molecules must overcome to react. The heat of reaction is a different quantity ($\\Delta H$).",
+      "explanation_ar": "طاقة التنشيط هي حاجز الطاقة الذي يجب أن تتجاوزه الجزيئات المتصادمة لكي تتفاعل، وهي تختلف عن حرارة التفاعل $\\Delta H$.",
+      "memorization_note": "ملاحظة للحفظ: طاقة التنشيط $E$ ≠ حرارة التفاعل $\\Delta H$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 13,
+      "question_en": "A plot of $\\ln k$ versus $1/T$ gives a straight line whose slope equals:",
+      "question_ar": "رسم $\\ln k$ مقابل $1/T$ يعطي خطاً مستقيماً ميله يساوي:",
+      "options": [
+        "$E/R$",
+        "$-R/E$",
+        "$-E/R$",
+        "$\\ln A$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Taking the log of Arrhenius: $$\\ln k = \\ln A - \\frac{E}{R}\\cdot\\frac{1}{T}$$ so the slope is $-E/R$ and the intercept is $\\ln A$.",
+      "explanation_ar": "بأخذ اللوغاريتم لمعادلة أرهينيوس: $$\\ln k = \\ln A - \\frac{E}{R}\\cdot\\frac{1}{T}$$ فالميل $-E/R$ والمقطع $\\ln A$.",
+      "memorization_note": "ملاحظة للحفظ: $\\ln k = \\ln A - \\dfrac{E}{R}\\dfrac{1}{T}$ : الميل $= -E/R$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 14,
+      "question_en": "A reaction with a higher activation energy is, compared with one of lower activation energy:",
+      "question_ar": "التفاعل ذو طاقة التنشيط الأعلى مقارنةً بالأقل:",
+      "options": [
+        "less sensitive to temperature changes",
+        "more sensitive to temperature changes",
+        "independent of temperature",
+        "always faster"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A large $E$ makes $k$ change more steeply with $T$ (steeper $\\ln k$ vs $1/T$ line), so the reaction is more temperature-sensitive.",
+      "explanation_ar": "كلما زادت $E$ كان تغير $k$ مع $T$ أشد (ميل أكبر)، فيكون التفاعل أكثر حساسية للحرارة.",
+      "memorization_note": "ملاحظة للحفظ: $E$ كبيرة ⇒ حساسية أعلى لدرجة الحرارة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 15,
+      "question_en": "A catalyst increases the reaction rate mainly by:",
+      "question_ar": "يزيد العامل المساعد معدل التفاعل أساساً عن طريق:",
+      "options": [
+        "lowering the activation energy",
+        "increasing the heat of reaction",
+        "shifting the equilibrium toward products",
+        "being consumed as a reactant"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A catalyst provides an alternative path with lower activation energy. It is not consumed and does not change the equilibrium composition or $\\Delta H$.",
+      "explanation_ar": "يوفر العامل المساعد مساراً بديلاً بطاقة تنشيط أقل، ولا يُستهلك ولا يغير تركيب الاتزان ولا $\\Delta H$.",
+      "memorization_note": "ملاحظة للحفظ: العامل المساعد: يخفض $E$ ، لا يغيّر $K_{eq}$ ولا $\\Delta H$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 16,
+      "question_en": "For a first-order reaction, the half-life $t_{1/2}$:",
+      "question_ar": "بالنسبة للتفاعل من الرتبة الأولى، فإن زمن نصف العمر $t_{1/2}$:",
+      "options": [
+        "is independent of the initial concentration",
+        "is proportional to the initial concentration",
+        "is inversely proportional to the initial concentration",
+        "is always zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$ It contains no concentration term.",
+      "explanation_ar": "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$ ولا يحتوي على أي حد للتركيز.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة 1: $t_{1/2} = 0.693/k$ ، $\\ln 2 = 0.693$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 17,
+      "question_en": "For a first-order reaction, which plot gives a straight line?",
+      "question_ar": "في التفاعل من الرتبة الأولى، أي رسم ينتج خطاً مستقيماً؟",
+      "options": [
+        "$C_A$ versus $t$",
+        "$1/C_A$ versus $t$",
+        "$C_A^2$ versus $t$",
+        "$\\ln C_A$ versus $t$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Integrating $-dC_A/dt = kC_A$ gives $\\ln C_A = \\ln C_{A0} - kt$, linear in $t$ with slope $-k$.",
+      "explanation_ar": "بتكامل $-dC_A/dt = kC_A$ نحصل على $\\ln C_A = \\ln C_{A0} - kt$ وهي خطية مع $t$ بميل $-k$.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة 1: $\\ln C_A$ مقابل $t$ ⇒ خط مستقيم.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 18,
+      "question_en": "For a second-order reaction with a single reactant ($-r_A = kC_A^2$), which plot is linear?",
+      "question_ar": "لتفاعل من الرتبة الثانية بمتفاعل واحد ($-r_A = kC_A^2$)، أي رسم يكون خطياً؟",
+      "options": [
+        "$\\ln C_A$ versus $t$",
+        "$C_A$ versus $t$",
+        "$1/C_A$ versus $t$",
+        "$\\sqrt{C_A}$ versus $t$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Integration gives $$\\frac{1}{C_A} = \\frac{1}{C_{A0}} + kt$$ so $1/C_A$ vs $t$ is a straight line of slope $k$.",
+      "explanation_ar": "بالتكامل نحصل على $$\\frac{1}{C_A} = \\frac{1}{C_{A0}} + kt$$ فرسم $1/C_A$ مقابل $t$ خط مستقيم ميله $k$.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة 2: $\\dfrac{1}{C_A} = \\dfrac{1}{C_{A0}} + kt$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 19,
+      "question_en": "For a zero-order reaction, which plot is linear?",
+      "question_ar": "في التفاعل من الرتبة صفر، أي رسم يكون خطياً؟",
+      "options": [
+        "$\\ln C_A$ versus $t$",
+        "$C_A$ versus $t$",
+        "$1/C_A$ versus $t$",
+        "$C_A$ versus $1/t$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$C_A = C_{A0} - kt$, so $C_A$ vs $t$ is a straight line with slope $-k$.",
+      "explanation_ar": "$C_A = C_{A0} - kt$ لذا رسم $C_A$ مقابل $t$ خط مستقيم ميله $-k$.",
+      "memorization_note": "ملاحظة للحفظ: الرتبة صفر: $C_A = C_{A0} - kt$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 20,
+      "question_en": "The fractional conversion $X_A$ of reactant A in a batch system is defined as:",
+      "question_ar": "يُعرَّف التحويل الكسري $X_A$ للمتفاعل A في نظام دفعي بأنه:",
+      "options": [
+        "$X_A = \\dfrac{N_A}{N_{A0}}$",
+        "$X_A = \\dfrac{N_{A0} - N_A}{N_{A0}}$",
+        "$X_A = \\dfrac{N_{A0}}{N_A}$",
+        "$X_A = N_{A0} - N_A$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Conversion is the fraction of the initial moles that has reacted: $X_A = \\dfrac{N_{A0}-N_A}{N_{A0}}$, with $0 \\le X_A \\le 1$.",
+      "explanation_ar": "التحويل هو الجزء المتفاعل من المولات الابتدائية: $X_A = \\dfrac{N_{A0}-N_A}{N_{A0}}$ حيث $0 \\le X_A \\le 1$.",
+      "memorization_note": "ملاحظة للحفظ: $X_A = \\dfrac{N_{A0}-N_A}{N_{A0}}$ ، و $N_A = N_{A0}(1-X_A)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 21,
+      "question_en": "A homogeneous reaction takes place in:",
+      "question_ar": "التفاعل المتجانس (Homogeneous) يحدث في:",
+      "options": [
+        "a single phase",
+        "two or more phases",
+        "the solid phase only",
+        "the presence of a solid catalyst only"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In a homogeneous reaction all reactants and products are in one phase (gas or liquid).",
+      "explanation_ar": "في التفاعل المتجانس تكون كل المتفاعلات والنواتج في طور واحد (غاز أو سائل).",
+      "memorization_note": "ملاحظة للحفظ: متجانس = طور واحد ، غير متجانس = أكثر من طور.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 22,
+      "question_en": "A reaction in which more than one phase is involved is called:",
+      "question_ar": "التفاعل الذي يشترك فيه أكثر من طور يسمى:",
+      "options": [
+        "homogeneous reaction",
+        "elementary reaction",
+        "isothermal reaction",
+        "heterogeneous reaction"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Reactions involving more than one phase (e.g. gas-solid catalytic, gas-liquid) are heterogeneous.",
+      "explanation_ar": "التفاعلات التي تشمل أكثر من طور (مثل غاز-صلب محفز أو غاز-سائل) تسمى غير متجانسة.",
+      "memorization_note": "ملاحظة للحفظ: غير متجانس: أكثر من طور (مثل غاز-صلب).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 23,
+      "question_en": "An irreversible reaction is one that:",
+      "question_ar": "التفاعل غير العكسي (Irreversible) هو الذي:",
+      "options": [
+        "proceeds in both directions simultaneously",
+        "stops at a fixed equilibrium conversion below 100%",
+        "proceeds in one direction until the limiting reactant is exhausted",
+        "occurs only in the presence of a catalyst"
+      ],
+      "correct_index": 2,
+      "explanation_en": "An irreversible reaction proceeds only forward (practically) until the limiting reactant is consumed.",
+      "explanation_ar": "التفاعل غير العكسي يسير في الاتجاه الأمامي فقط عملياً حتى يُستهلك المتفاعل المحدِّد.",
+      "memorization_note": "ملاحظة للحفظ: غير عكسي: $A \\to R$ ، يستمر حتى نفاد المتفاعل المحدد.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 24,
+      "question_en": "At equilibrium of a reversible reaction:",
+      "question_ar": "عند الاتزان في تفاعل عكسي:",
+      "options": [
+        "the forward rate is zero",
+        "the reverse rate is zero",
+        "the forward and reverse rates are equal",
+        "all reactant has been converted"
+      ],
+      "correct_index": 2,
+      "explanation_en": "At equilibrium both reactions still occur, but the net rate is zero: $r_{forward} = r_{reverse}$, so concentrations stay constant.",
+      "explanation_ar": "عند الاتزان يستمر التفاعلان لكن المعدل الصافي يساوي صفراً: $r_{forward} = r_{reverse}$ فتبقى التراكيز ثابتة.",
+      "memorization_note": "ملاحظة للحفظ: الاتزان: معدل الأمامي = معدل العكسي ، و $K = k_f/k_b$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 25,
+      "question_en": "For a reversible reaction, the equilibrium constant $K$ (in concentration terms) equals:",
+      "question_ar": "في التفاعل العكسي، ثابت الاتزان $K$ (بدلالة التراكيز) يساوي:",
+      "options": [
+        "$k_f \\cdot k_b$",
+        "$k_f / k_b$",
+        "$k_b / k_f$",
+        "$k_f - k_b$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Setting forward and reverse rates equal gives $k_f C_A = k_b C_R$ so $K = \\dfrac{C_R}{C_A} = \\dfrac{k_f}{k_b}$.",
+      "explanation_ar": "بمساواة المعدلين الأمامي والعكسي: $k_f C_A = k_b C_R$ ومنه $K = \\dfrac{C_R}{C_A} = \\dfrac{k_f}{k_b}$.",
+      "memorization_note": "ملاحظة للحفظ: $K = \\dfrac{k_f}{k_b}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 26,
+      "question_en": "A catalyst has what effect on the equilibrium conversion of a reversible reaction?",
+      "question_ar": "ما تأثير العامل المساعد على التحويل عند الاتزان للتفاعل العكسي؟",
+      "options": [
+        "No effect; it only speeds up reaching equilibrium",
+        "It increases the equilibrium conversion",
+        "It decreases the equilibrium conversion",
+        "It makes the reaction irreversible"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A catalyst accelerates forward and reverse reactions equally, so $K$ and the equilibrium conversion do not change.",
+      "explanation_ar": "يسرّع العامل المساعد التفاعلين الأمامي والعكسي بالتساوي لذلك لا يتغير $K$ ولا التحويل عند الاتزان.",
+      "memorization_note": "ملاحظة للحفظ: العامل المساعد لا يغيّر موضع الاتزان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 27,
+      "question_en": "Parallel (competing) reactions are those in which:",
+      "question_ar": "التفاعلات المتوازية (Parallel/Competing) هي التي:",
+      "options": [
+        "the product of one step is the reactant of the next",
+        "the reaction proceeds in both directions",
+        "only one product is possible",
+        "the reactant can form different products through separate simultaneous paths"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Parallel reactions such as $A \\to R$ and $A \\to S$ occur simultaneously, giving more than one product from the same reactant.",
+      "explanation_ar": "في المتوازية مثل $A \\to R$ و $A \\to S$ يتم التفاعلان في وقت واحد فينتج أكثر من ناتج من نفس المتفاعل.",
+      "memorization_note": "ملاحظة للحفظ: متوازي: $A \\to R$ و $A \\to S$ معاً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 28,
+      "question_en": "Another name for a series reaction $A \\to R \\to S$ is:",
+      "question_ar": "الاسم الآخر للتفاعل التسلسلي (Series) $A \\to R \\to S$ هو:",
+      "options": [
+        "parallel reaction",
+        "reversible reaction",
+        "autocatalytic reaction",
+        "consecutive reaction"
+      ],
+      "correct_index": 3,
+      "explanation_en": "In series (consecutive) reactions the product of the first step is the reactant of the next.",
+      "explanation_ar": "في التفاعل التسلسلي (المتتابع) يكون ناتج الخطوة الأولى متفاعلاً في الخطوة التالية.",
+      "memorization_note": "ملاحظة للحفظ: Series = Consecutive.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 29,
+      "question_en": "In a series reaction $A \\to R \\to S$ the concentration of the intermediate R:",
+      "question_ar": "في التفاعل التسلسلي $A \\to R \\to S$ فإن تركيز الوسيط R:",
+      "options": [
+        "decreases continuously from the start",
+        "increases continuously",
+        "rises to a maximum and then falls",
+        "stays constant"
+      ],
+      "correct_index": 2,
+      "explanation_en": "R is produced from A and consumed to give S, so $C_R$ starts at zero, passes through a maximum, then declines.",
+      "explanation_ar": "R يتكوّن من A ويُستهلك لتكوين S لذا يبدأ من الصفر ثم يصل إلى قيمة عظمى ثم ينخفض.",
+      "memorization_note": "ملاحظة للحفظ: الوسيط R له قيمة عظمى عند زمن معين.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 30,
+      "question_en": "In an autocatalytic reaction:",
+      "question_ar": "في التفاعل التحفيزي الذاتي (Autocatalytic):",
+      "options": [
+        "the reactant is consumed by a solid catalyst only",
+        "a product of the reaction acts as a catalyst for the reaction",
+        "the rate is always highest at the start",
+        "the rate is independent of product concentration"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Example: $A + R \\to R + R$. The rate is low at the start, rises as product R forms, reaches a maximum at intermediate conversion, then falls as A is depleted.",
+      "explanation_ar": "مثال: $A + R \\to R + R$. يكون المعدل منخفضاً في البداية ثم يزداد مع تكوّن الناتج R ويبلغ أقصاه عند تحويل متوسط ثم ينخفض مع نفاد A.",
+      "memorization_note": "ملاحظة للحفظ: Autocatalytic: الناتج يحفّز التفاعل ⇒ منحنى المعدل له قيمة عظمى.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 31,
+      "question_en": "The rate-determining step of a multi-step reaction is:",
+      "question_ar": "الخطوة المحددة للمعدل (Rate-determining step) في التفاعل متعدد الخطوات هي:",
+      "options": [
+        "the slowest step",
+        "the fastest step",
+        "the last step only",
+        "the step with the highest concentration"
+      ],
+      "correct_index": 0,
+      "explanation_en": "The overall rate is controlled by the slowest step, like the narrowest section of a pipe limits the flow.",
+      "explanation_ar": "يتحكم الخطوة الأبطأ في المعدل الكلي، كأضيق جزء في أنبوب يحدد التدفق.",
+      "memorization_note": "ملاحظة للحفظ: الخطوة الأبطأ تتحكم بالمعدل الكلي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 32,
+      "question_en": "A pseudo-first-order reaction appears when:",
+      "question_ar": "يظهر التفاعل شبه الأول (Pseudo-first-order) عندما:",
+      "options": [
+        "one reactant is present in large excess so its concentration is nearly constant",
+        "the reaction is truly elementary and first order",
+        "the temperature is very high",
+        "the catalyst is in excess"
+      ],
+      "correct_index": 0,
+      "explanation_en": "For $-r_A = kC_AC_B$ with $C_B \\gg C_A$, $C_B \\approx$ constant, so $-r_A = k'C_A$ with $k' = kC_B$.",
+      "explanation_ar": "في $-r_A = kC_AC_B$ مع $C_B \\gg C_A$ يصبح $C_B$ تقريباً ثابتاً فيكون $-r_A = k'C_A$ حيث $k' = kC_B$.",
+      "memorization_note": "ملاحظة للحفظ: $k' = kC_B$ عندما $C_B$ بوفرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 33,
+      "question_en": "An isothermal reaction is one carried out at:",
+      "question_ar": "التفاعل متساوي الحرارة (Isothermal) هو التفاعل الذي يتم عند:",
+      "options": [
+        "constant pressure",
+        "constant volume",
+        "constant heat transfer",
+        "constant temperature"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Isothermal means constant temperature. Constant pressure is isobaric and constant volume is isochoric.",
+      "explanation_ar": "Isothermal تعني ثبوت درجة الحرارة، أما ثبوت الضغط فهو Isobaric وثبوت الحجم Isochoric.",
+      "memorization_note": "ملاحظة للحفظ: Isothermal: $T$ ثابتة ، Isobaric: $P$ ثابت ، Isochoric: $V$ ثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 34,
+      "question_en": "The rate constant $k$ of a reaction depends on:",
+      "question_ar": "يعتمد ثابت المعدل $k$ للتفاعل على:",
+      "options": [
+        "the concentration of the reactants",
+        "the conversion",
+        "temperature (and the catalyst) but not on concentration",
+        "the reactor volume"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$k = Ae^{-E/RT}$ depends on $T$ and on the catalyst through $E$, not on concentrations or reactor size.",
+      "explanation_ar": "$k = Ae^{-E/RT}$ يعتمد على $T$ وعلى العامل المساعد (عبر $E$) ولا يعتمد على التراكيز ولا حجم المفاعل.",
+      "memorization_note": "ملاحظة للحفظ: $k = f(T,\\ \\text{catalyst})$ فقط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 35,
+      "question_en": "In the integral method of analysing kinetic data one:",
+      "question_ar": "في الطريقة التكاملية (Integral method) لتحليل البيانات الحركية:",
+      "options": [
+        "differentiates the concentration data directly",
+        "guesses a rate law, integrates it and tests whether the data fit",
+        "measures only the final conversion",
+        "uses the catalyst mass only"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In the integral method a rate equation is assumed, integrated, and a plot (e.g. $\\ln C_A$ vs $t$) is checked for linearity. If not linear, another order is tried.",
+      "explanation_ar": "في الطريقة التكاملية يُفترض قانون معدل ثم يُكامل ويُفحص الرسم (مثل $\\ln C_A$ مقابل $t$) للتأكد من خطيته، وإلا جُرّبت رتبة أخرى.",
+      "memorization_note": "ملاحظة للحفظ: التكاملية: افترض الرتبة ⇒ كامل ⇒ ارسم ⇒ تحقق من الخطية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 36,
+      "question_en": "The negative sign in $-r_A$ indicates that:",
+      "question_ar": "تشير الإشارة السالبة في $-r_A$ إلى أن:",
+      "options": [
+        "A is being produced",
+        "A is being consumed, and $-r_A$ itself is a positive number",
+        "the reaction is endothermic",
+        "the reaction is reversible"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$r_A$ is the rate of formation of A, which is negative for a reactant. Thus $-r_A > 0$ is the rate of disappearance.",
+      "explanation_ar": "$r_A$ هو معدل تكوّن A وهو سالب للمتفاعل، لذلك $-r_A$ موجب ويمثل معدل الاختفاء.",
+      "memorization_note": "ملاحظة للحفظ: $-r_A$ = معدل اختفاء A (قيمة موجبة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 37,
+      "question_en": "For the reaction $A + 2B \\to 3C$, the rates are related by:",
+      "question_ar": "للتفاعل $A + 2B \\to 3C$ ترتبط المعدلات بالعلاقة:",
+      "options": [
+        "$\\dfrac{-r_A}{1} = \\dfrac{-r_B}{2} = \\dfrac{r_C}{3}$",
+        "$-r_A = -r_B = r_C$",
+        "$\\dfrac{-r_A}{3} = \\dfrac{-r_B}{2} = \\dfrac{r_C}{1}$",
+        "$-r_A + 2(-r_B) = 3r_C$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Each rate is proportional to its stoichiometric coefficient: $\\dfrac{-r_A}{a} = \\dfrac{-r_B}{b} = \\dfrac{r_C}{c}$.",
+      "explanation_ar": "كل معدل يتناسب مع معامله الستوكيومتري: $\\dfrac{-r_A}{a} = \\dfrac{-r_B}{b} = \\dfrac{r_C}{c}$.",
+      "memorization_note": "ملاحظة للحفظ: $\\dfrac{-r_A}{a} = \\dfrac{-r_B}{b} = \\dfrac{r_C}{c}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 38,
+      "question_en": "For a gas-phase reaction with a positive order, increasing the total pressure at constant temperature generally:",
+      "question_ar": "في تفاعل طور غازي ذي رتبة موجبة، زيادة الضغط الكلي عند ثبوت الحرارة عموماً:",
+      "options": [
+        "decreases the rate",
+        "does not affect the rate",
+        "changes the activation energy",
+        "increases the rate, because concentrations increase"
+      ],
+      "correct_index": 3,
+      "explanation_en": "For an ideal gas $C = P/RT$, so higher $P$ means higher concentrations and therefore a higher rate for positive-order reactions.",
+      "explanation_ar": "للغاز المثالي $C = P/RT$ لذلك الضغط الأعلى يعني تراكيز أعلى وبالتالي معدلاً أعلى في التفاعلات ذات الرتبة الموجبة.",
+      "memorization_note": "ملاحظة للحفظ: $C_A = \\dfrac{P_A}{RT}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 39,
+      "question_en": "The three ideal reactor models are:",
+      "question_ar": "النماذج الثلاثة للمفاعلات المثالية هي:",
+      "options": [
+        "batch reactor, packed bed and fluidized bed",
+        "CSTR, trickle bed and slurry",
+        "batch reactor, CSTR and PFR",
+        "semi-batch, PFR and fixed bed"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The ideal reactor models are the batch reactor, the continuous stirred tank reactor (CSTR / mixed flow) and the plug flow reactor (PFR / tubular).",
+      "explanation_ar": "النماذج المثالية هي المفاعل الدفعي (Batch) والمفاعل الخزاني المستمر المخلوط (CSTR) والمفاعل الأنبوبي ذو الجريان السدادي (PFR).",
+      "memorization_note": "ملاحظة للحفظ: المثالية: Batch ، CSTR (Mixed flow) ، PFR (Plug flow).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 40,
+      "question_en": "According to the mode of operation, reactors are classified as:",
+      "question_ar": "حسب نمط التشغيل تصنف المفاعلات إلى:",
+      "options": [
+        "homogeneous, heterogeneous and catalytic",
+        "tubular, tank and tower only",
+        "batch, semi-batch and continuous",
+        "isothermal, adiabatic and polytropic"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Operating mode refers to how material enters and leaves: batch (none), semi-batch (one in or out), continuous (both continuous).",
+      "explanation_ar": "نمط التشغيل يعني كيف تدخل المادة وتخرج: دفعي (لا دخول ولا خروج)، شبه دفعي (دخول أو خروج واحد)، مستمر (كلاهما).",
+      "memorization_note": "ملاحظة للحفظ: Batch / Semi-batch / Continuous.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 41,
+      "question_en": "In a semi-batch reactor:",
+      "question_ar": "في المفاعل شبه الدفعي (Semi-batch):",
+      "options": [
+        "all reactants are charged and nothing leaves",
+        "one reactant is charged initially and another is added continuously",
+        "there is continuous inflow and outflow of all streams",
+        "there is no agitation"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A semi-batch reactor has either continuous addition of a reactant or continuous removal of a product while the rest stays in the vessel.",
+      "explanation_ar": "في المفاعل شبه الدفعي تُضاف مادة متفاعلة باستمرار (أو يُسحب ناتج باستمرار) بينما يبقى الباقي داخل الوعاء.",
+      "memorization_note": "ملاحظة للحفظ: Semi-batch: إضافة (أو سحب) مستمر لمادة واحدة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 42,
+      "question_en": "Which type of reactor is generally preferred for large-scale production?",
+      "question_ar": "أي نوع من المفاعلات يُفضَّل عموماً للإنتاج على نطاق واسع؟",
+      "options": [
+        "Continuous reactor",
+        "Batch reactor",
+        "Semi-batch reactor",
+        "Laboratory reactor"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Continuous reactors give high throughput, steady quality and low labour cost per unit product, so they suit large-scale production.",
+      "explanation_ar": "المفاعلات المستمرة تعطي إنتاجاً عالياً وجودة ثابتة وكلفة عمالة أقل لكل وحدة منتج لذلك تناسب الإنتاج الكبير.",
+      "memorization_note": "ملاحظة للحفظ: الإنتاج الكبير ⇒ مفاعل مستمر.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 43,
+      "question_en": "Batch reactors are mostly used for:",
+      "question_ar": "تُستخدم المفاعلات الدفعية غالباً في:",
+      "options": [
+        "very large-volume commodity chemicals",
+        "gas-phase reactions with very short residence times",
+        "steady-state continuous processes only",
+        "small-scale, high-value or multi-product (flexible) production"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Batch operation is flexible (different products in the same vessel), good for slow reactions, pharmaceuticals and fine chemicals produced in small quantities.",
+      "explanation_ar": "التشغيل الدفعي مرن (منتجات مختلفة في نفس الوعاء) ومناسب للتفاعلات البطيئة والأدوية والكيماويات الدقيقة بكميات صغيرة.",
+      "memorization_note": "ملاحظة للحفظ: Batch: كميات صغيرة ، مرونة ، أدوية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 44,
+      "question_en": "Back-mixing (mixing of fluid elements of different ages) is relevant only in:",
+      "question_ar": "الخلط الراجع (Back-mixing) يكون ذا صلة فقط في:",
+      "options": [
+        "batch reactors",
+        "stagnant (no-flow) systems",
+        "reactors without agitation and flow",
+        "flow reactors"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Back-mixing means mixing of fluid with different residence times in a flowing system. In a batch reactor all material has the same age, so the concept does not apply.",
+      "explanation_ar": "الخلط الراجع هو اختلاط مائع ذي أزمنة مكوث مختلفة في نظام جريان. وفي المفاعل الدفعي تكون كل المادة بنفس العمر فلا ينطبق المفهوم.",
+      "memorization_note": "ملاحظة للحفظ: Back-mixing = خلط مائع بأعمار مختلفة في الجريان.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 45,
+      "question_en": "Which ideal reactor has zero back-mixing?",
+      "question_ar": "أي مفاعل مثالي ليس فيه خلط راجع (Back-mixing = 0)؟",
+      "options": [
+        "CSTR",
+        "Stirred tank",
+        "Plug flow reactor (PFR)",
+        "Semi-batch stirred reactor"
+      ],
+      "correct_index": 2,
+      "explanation_en": "In a PFR fluid moves as plugs in one direction with no axial mixing, so back-mixing is zero.",
+      "explanation_ar": "في PFR يتحرك المائع على شكل سدادات في اتجاه واحد دون خلط محوري لذلك لا يوجد خلط راجع.",
+      "memorization_note": "ملاحظة للحفظ: PFR: back-mixing = 0 ، CSTR: back-mixing كامل (100%).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 46,
+      "question_en": "Which ideal reactor has complete (100%) back-mixing?",
+      "question_ar": "أي مفاعل مثالي فيه خلط راجع كامل (100%)؟",
+      "options": [
+        "PFR",
+        "CSTR (stirred tank)",
+        "Tubular reactor with no mixing",
+        "Packed bed with plug flow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "In an ideal CSTR the contents are perfectly mixed so composition is uniform and equal to the exit composition: full back-mixing.",
+      "explanation_ar": "في CSTR المثالي المحتويات مخلوطة تماماً فالتركيب منتظم ويساوي تركيب الخروج، أي خلط راجع كامل.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: خلط كامل ⇒ تركيز الخروج = تركيز الداخل للمفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 47,
+      "question_en": "A system is at steady state when:",
+      "question_ar": "يكون النظام في الحالة المستقرة (Steady state) عندما:",
+      "options": [
+        "its properties at any point do not change with time",
+        "its properties do not change with position",
+        "the reaction rate is zero",
+        "the flow rate is zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Steady state means no accumulation: variables may differ from point to point but are constant in time. Accumulation $= 0$.",
+      "explanation_ar": "الحالة المستقرة تعني عدم وجود تراكم: قد تختلف المتغيرات من نقطة لأخرى لكنها ثابتة مع الزمن. التراكم $= 0$.",
+      "memorization_note": "ملاحظة للحفظ: Steady state ⇒ الـ Accumulation $= 0$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 48,
+      "question_en": "Which ideal reactor operates in the unsteady state?",
+      "question_ar": "أي مفاعل مثالي يعمل في الحالة غير المستقرة؟",
+      "options": [
+        "Batch reactor",
+        "CSTR at normal operation",
+        "PFR at normal operation",
+        "Continuous reactors at normal operation"
+      ],
+      "correct_index": 0,
+      "explanation_en": "In a batch reactor composition changes with time, so it is an unsteady-state device. CSTR and PFR normally run at steady state.",
+      "explanation_ar": "في المفاعل الدفعي يتغير التركيب مع الزمن فهو نظام غير مستقر، بينما يعمل CSTR وPFR عادةً في الحالة المستقرة.",
+      "memorization_note": "ملاحظة للحفظ: Batch: unsteady ، CSTR/PFR: steady.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 49,
+      "question_en": "Which reactor is typically used for gas-solid catalytic reactions with the catalyst held stationary?",
+      "question_ar": "أي مفاعل يُستخدم عادةً للتفاعلات الغازية-الصلبة المحفزة مع بقاء العامل المساعد ثابتاً؟",
+      "options": [
+        "Batch stirred tank",
+        "Bubble column",
+        "Plain empty tank",
+        "Packed-bed (fixed-bed) reactor"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A packed-bed reactor is a tube filled with catalyst pellets through which the gas flows, commonly modelled as a PFR.",
+      "explanation_ar": "المفاعل ذو الطبقة المعبأة أنبوب مملوء بحبيبات العامل المساعد يمر بها الغاز، ويُنمذج غالباً كـ PFR.",
+      "memorization_note": "ملاحظة للحفظ: Packed bed ≈ PFR مع عامل مساعد صلب ثابت.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 50,
+      "question_en": "The main characteristic of a fluidized-bed reactor is that:",
+      "question_ar": "الخاصية الأساسية للمفاعل المميّع (Fluidized bed) هي أن:",
+      "options": [
+        "the catalyst is fixed and does not move",
+        "no fluid flows through it",
+        "solid particles are suspended by the upward flow of gas or liquid, giving good temperature uniformity",
+        "it operates only in batch mode"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The upward fluid flow suspends the particles so they behave like a fluid, giving excellent mixing and nearly uniform temperature.",
+      "explanation_ar": "يعلّق الجريان الصاعد الجسيمات الصلبة فتتصرف كالمائع، مما يعطي خلطاً ممتازاً وحرارة منتظمة تقريباً.",
+      "memorization_note": "ملاحظة للحفظ: Fluidized bed: جسيمات معلقة ⇒ حرارة منتظمة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 51,
+      "question_en": "The space time $\\tau$ of a flow reactor is defined as:",
+      "question_ar": "يُعرَّف الزمن الفراغي (Space time) $\\tau$ لمفاعل مستمر بأنه:",
+      "options": [
+        "$\\tau = v_0 / V$",
+        "$\\tau = V / v_0$ (reactor volume / inlet volumetric flow rate)",
+        "$\\tau = V \\cdot v_0$",
+        "$\\tau = F_{A0} / V$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Space time is the time needed to process one reactor volume of feed measured at inlet conditions: $\\tau = \\dfrac{V}{v_0}$ (also $\\tau = \\dfrac{C_{A0}V}{F_{A0}}$).",
+      "explanation_ar": "الزمن الفراغي هو الزمن اللازم لمعالجة حجم مفاعل واحد من التغذية عند ظروف الدخول: $\\tau = \\dfrac{V}{v_0}$ (وكذلك $\\tau = \\dfrac{C_{A0}V}{F_{A0}}$).",
+      "memorization_note": "ملاحظة للحفظ: $\\tau = \\dfrac{V}{v_0} = \\dfrac{C_{A0}V}{F_{A0}}$ ، وحدته زمن.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 52,
+      "question_en": "Space velocity is:",
+      "question_ar": "سرعة الفراغ (Space velocity) هي:",
+      "options": [
+        "equal to space time",
+        "the reciprocal of space time, $1/\\tau$",
+        "the linear velocity of the fluid in m/s",
+        "the product $\\tau \\cdot V$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Space velocity $s = \\dfrac{1}{\\tau} = \\dfrac{v_0}{V}$, the number of reactor volumes of feed processed per unit time.",
+      "explanation_ar": "سرعة الفراغ $s = \\dfrac{1}{\\tau} = \\dfrac{v_0}{V}$ وتمثل عدد أحجام المفاعل من التغذية المعالجة في وحدة الزمن.",
+      "memorization_note": "ملاحظة للحفظ: $s = \\dfrac{1}{\\tau}$ ، وحدتها $\\text{time}^{-1}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 53,
+      "question_en": "In a batch reactor, during the reaction period:",
+      "question_ar": "في المفاعل الدفعي، أثناء فترة التفاعل:",
+      "options": [
+        "there is no inflow or outflow of material",
+        "feed enters and product leaves continuously",
+        "only product leaves continuously",
+        "only feed enters continuously"
+      ],
+      "correct_index": 0,
+      "explanation_en": "All reactants are charged at the start, reaction proceeds, and products are removed at the end. Input $=$ output $= 0$ during reaction.",
+      "explanation_ar": "تُشحن كل المتفاعلات في البداية ثم يتم التفاعل وتُسحب النواتج في النهاية. الدخول والخروج $= 0$ أثناء التفاعل.",
+      "memorization_note": "ملاحظة للحفظ: Batch: Input = Output = 0.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 54,
+      "question_en": "In an ideal batch reactor the composition:",
+      "question_ar": "في المفاعل الدفعي المثالي فإن التركيب:",
+      "options": [
+        "varies with position but not with time",
+        "is constant in both position and time",
+        "varies along the length of the reactor",
+        "is uniform throughout the vessel at any instant but changes with time"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Perfect mixing makes the composition uniform in space, but because reaction proceeds, it changes with time.",
+      "explanation_ar": "الخلط التام يجعل التركيب منتظماً مكانياً، ولكن بسبب سير التفاعل يتغير مع الزمن.",
+      "memorization_note": "ملاحظة للحفظ: Batch: منتظم مكانياً ، يتغير زمنياً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 55,
+      "question_en": "The general mole balance for a batch reactor (species A) is:",
+      "question_ar": "معادلة موازنة المول العامة للمفاعل الدفعي (للمادة A) هي:",
+      "options": [
+        "$F_{A0} - F_A = -r_A V$",
+        "$\\dfrac{dF_A}{dV} = r_A$",
+        "$\\dfrac{dN_A}{dt} = r_A V$",
+        "$\\dfrac{dN_A}{dt} = F_{A0}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "General balance: Input − Output + Generation = Accumulation. With no flow: $r_A V = \\dfrac{dN_A}{dt}$.",
+      "explanation_ar": "الموازنة العامة: الداخل − الخارج + التوليد = التراكم. بدون جريان: $r_A V = \\dfrac{dN_A}{dt}$.",
+      "memorization_note": "ملاحظة للحفظ: Batch: $\\dfrac{dN_A}{dt} = r_A V$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 56,
+      "question_en": "The design equation of a batch reactor gives the reaction time as:",
+      "question_ar": "تعطي معادلة تصميم المفاعل الدفعي زمن التفاعل على الشكل:",
+      "options": [
+        "$t = F_{A0}\\displaystyle\\int_0^{X_A} \\dfrac{dX_A}{-r_A}$",
+        "$t = \\dfrac{F_{A0}X_A}{-r_A}$",
+        "$t = N_{A0}\\displaystyle\\int_0^{X_A} \\dfrac{dX_A}{(-r_A)V}$",
+        "$t = \\dfrac{V}{v_0}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "From $\\dfrac{dN_A}{dt} = r_A V$ and $N_A = N_{A0}(1-X_A)$: $$t = N_{A0}\\int_0^{X_A}\\frac{dX_A}{(-r_A)V}$$ The $F_{A0}$ forms belong to flow reactors.",
+      "explanation_ar": "من $\\dfrac{dN_A}{dt} = r_A V$ و $N_A = N_{A0}(1-X_A)$ نحصل على: $$t = N_{A0}\\int_0^{X_A}\\frac{dX_A}{(-r_A)V}$$ أما الصيغ التي فيها $F_{A0}$ فهي للمفاعلات المستمرة.",
+      "memorization_note": "ملاحظة للحفظ: Batch: $t = N_{A0}\\int_0^{X}\\dfrac{dX}{(-r_A)V}$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 57,
+      "question_en": "For a constant-volume batch reactor the reaction time becomes:",
+      "question_ar": "عند ثبوت الحجم في المفاعل الدفعي يصبح زمن التفاعل:",
+      "options": [
+        "$t = \\dfrac{C_{A0}X_A}{-r_A}$ for all reaction orders",
+        "$t = C_{A0}\\displaystyle\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$",
+        "$t = \\dfrac{V}{F_{A0}}$",
+        "$t = C_{A0}\\displaystyle\\int_0^{X_A} (-r_A)\\,dX_A$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "With $V$ constant, $N_{A0}/V = C_{A0}$, so $t = C_{A0}\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$. Equivalent form: $t = -\\int_{C_{A0}}^{C_A}\\dfrac{dC_A}{-r_A}$.",
+      "explanation_ar": "عند ثبوت $V$ يكون $N_{A0}/V = C_{A0}$ فيصبح $t = C_{A0}\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$.",
+      "memorization_note": "ملاحظة للحفظ: ثبات الحجم: $t = C_{A0}\\int_0^{X}\\dfrac{dX}{-r_A}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 58,
+      "question_en": "For a first-order irreversible reaction in a constant-volume batch reactor, the time needed to reach conversion $X_A$ is:",
+      "question_ar": "لتفاعل غير عكسي من الرتبة الأولى في مفاعل دفعي ثابت الحجم، الزمن اللازم للوصول إلى التحويل $X_A$ هو:",
+      "options": [
+        "$t = \\dfrac{1}{k}\\ln\\dfrac{1}{1-X_A}$",
+        "$t = \\dfrac{X_A}{k}$",
+        "$t = k\\ln(1-X_A)$",
+        "$t = \\dfrac{1}{k}\\ln X_A$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "With $-r_A = kC_{A0}(1-X_A)$: $t = \\int_0^{X_A}\\dfrac{dX_A}{k(1-X_A)} = \\dfrac{1}{k}\\ln\\dfrac{1}{1-X_A}$.",
+      "explanation_ar": "بالتعويض $-r_A = kC_{A0}(1-X_A)$: $t = \\int_0^{X_A}\\dfrac{dX_A}{k(1-X_A)} = \\dfrac{1}{k}\\ln\\dfrac{1}{1-X_A}$.",
+      "memorization_note": "ملاحظة للحفظ: رتبة 1: $kt = -\\ln(1-X_A)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 59,
+      "question_en": "A main advantage of the batch reactor is:",
+      "question_ar": "من أهم مزايا المفاعل الدفعي:",
+      "options": [
+        "lowest labour cost per unit product",
+        "constant product quality with no variation between batches",
+        "no downtime between batches",
+        "flexibility to make different products and to reach high conversions with long reaction times"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Batch reactors are versatile and give high conversion by simply increasing reaction time. Their drawbacks are high labour cost, downtime and batch-to-batch variation.",
+      "explanation_ar": "المفاعلات الدفعية متعددة الاستعمالات وتعطي تحويلاً عالياً بزيادة زمن التفاعل. عيوبها كلفة العمالة العالية والتوقف وتفاوت الجودة بين الدفعات.",
+      "memorization_note": "ملاحظة للحفظ: مزايا Batch: مرونة ، تحويل عالٍ. عيوبها: عمالة ، توقف ، تفاوت جودة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 60,
+      "question_en": "Which of the following is a disadvantage of a batch reactor?",
+      "question_ar": "أي مما يلي من عيوب المفاعل الدفعي؟",
+      "options": [
+        "it cannot achieve high conversion",
+        "it always requires a catalyst",
+        "it can only make one product",
+        "high labour cost and idle time for charging, discharging and cleaning"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Charging, emptying and cleaning between batches create downtime and need labour, increasing cost per unit product.",
+      "explanation_ar": "التعبئة والتفريغ والتنظيف بين الدفعات تسبب أوقاتاً ميتة وتحتاج عمالة مما يرفع الكلفة لكل وحدة منتج.",
+      "memorization_note": "ملاحظة للحفظ: الزمن الكلي للدورة = زمن التفاعل + التعبئة + التفريغ + التنظيف.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 61,
+      "question_en": "The total cycle time of a batch reactor includes:",
+      "question_ar": "يشمل زمن الدورة الكلي للمفاعل الدفعي:",
+      "options": [
+        "the reaction time only",
+        "the space time only",
+        "reaction time plus charging, discharging and cleaning times",
+        "the residence time distribution"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Production per day depends on the whole cycle, not only on the reaction time.",
+      "explanation_ar": "الإنتاج اليومي يعتمد على الدورة كاملة وليس زمن التفاعل فقط.",
+      "memorization_note": "ملاحظة للحفظ: $t_{cycle} = t_{rxn} + t_{charge} + t_{discharge} + t_{clean}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 62,
+      "question_en": "The batch reactor is generally most suitable for:",
+      "question_ar": "المفاعل الدفعي مناسب عموماً أكثر لـ:",
+      "options": [
+        "very fast reactions with huge throughput",
+        "slow reactions and small production volumes",
+        "gas-phase reactions at very high flow rates",
+        "continuous commodity production"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Slow reactions need long times, which a batch vessel handles easily at small scale. Huge throughputs favour continuous reactors.",
+      "explanation_ar": "التفاعلات البطيئة تحتاج زمناً طويلاً وهو ما يوفره المفاعل الدفعي بسهولة بالحجم الصغير، أما الإنتاج الضخم فيفضل المستمر.",
+      "memorization_note": "ملاحظة للحفظ: Batch = بطيء + كميات صغيرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 63,
+      "question_en": "The fundamental assumption used in modelling an ideal batch reactor is:",
+      "question_ar": "الافتراض الأساسي في نمذجة المفاعل الدفعي المثالي هو:",
+      "options": [
+        "perfect mixing, so composition and temperature are uniform",
+        "plug flow with no axial mixing",
+        "zero residence time",
+        "constant reaction rate in time"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Ideal batch reactors are assumed perfectly mixed, which allows one set of $C$ and $T$ values to describe the whole vessel.",
+      "explanation_ar": "يُفترض أن المفاعل الدفعي المثالي مخلوط تماماً فتكفي مجموعة واحدة من قيم $C$ و $T$ لوصف الوعاء كله.",
+      "memorization_note": "ملاحظة للحفظ: Batch المثالي: خلط تام.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 64,
+      "question_en": "A process in which all the reactants are charged at the start and products are removed only at the end is:",
+      "question_ar": "العملية التي تُشحن فيها كل المتفاعلات في البداية وتُسحب النواتج في النهاية فقط هي:",
+      "options": [
+        "a batch process",
+        "a semi-batch process",
+        "a continuous process",
+        "a steady-state flow process"
+      ],
+      "correct_index": 0,
+      "explanation_en": "This is the definition of a batch process: no material crosses the boundary during the reaction.",
+      "explanation_ar": "هذا هو تعريف العملية الدفعية: لا تعبر مادة حدود النظام أثناء التفاعل.",
+      "memorization_note": "ملاحظة للحفظ: Batch ⇒ نظام مغلق أثناء التفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 65,
+      "question_en": "A batch reactor is an example of which type of system during the reaction period?",
+      "question_ar": "المفاعل الدفعي مثال على أي نوع من الأنظمة أثناء فترة التفاعل؟",
+      "options": [
+        "Open system",
+        "Flow system",
+        "Steady-flow system",
+        "Closed system"
+      ],
+      "correct_index": 3,
+      "explanation_en": "No mass crosses the boundary, so the system is closed (non-flow).",
+      "explanation_ar": "لا تعبر كتلة حدود النظام لذلك هو نظام مغلق (غير جاري).",
+      "memorization_note": "ملاحظة للحفظ: Closed = لا تبادل مادة مع المحيط.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 66,
+      "question_en": "In a batch reactor, doubling the reaction rate constant $k$ (everything else the same) will:",
+      "question_ar": "في مفاعل دفعي، مضاعفة ثابت المعدل $k$ (مع بقاء الباقي ثابتاً) سيؤدي إلى:",
+      "options": [
+        "increase the time needed for a given conversion",
+        "have no effect on time",
+        "reduce the time needed for a given conversion",
+        "change the equilibrium conversion"
+      ],
+      "correct_index": 2,
+      "explanation_en": "A higher $k$ increases the rate, so the same conversion is reached sooner (for first order, $t \\propto 1/k$).",
+      "explanation_ar": "زيادة $k$ ترفع المعدل فيتحقق نفس التحويل أسرع (للرتبة الأولى $t \\propto 1/k$).",
+      "memorization_note": "ملاحظة للحفظ: $k$ أكبر ⇒ $t$ أقل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 67,
+      "question_en": "The main assumption of an ideal CSTR is that:",
+      "question_ar": "الافتراض الأساسي في CSTR المثالي هو أن:",
+      "options": [
+        "there is no mixing in the axial direction",
+        "the contents are perfectly mixed, so composition and temperature are uniform and equal to those of the exit stream",
+        "composition varies along the reactor length",
+        "the reactor operates in batch mode"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Perfect mixing means exit composition = composition anywhere inside. Hence the rate is evaluated at exit conditions.",
+      "explanation_ar": "الخلط التام يعني أن تركيب الخروج = تركيب أي نقطة داخل المفاعل، لذلك يُحسب المعدل عند ظروف الخروج.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: $C_{inside} = C_{exit}$ و $T_{inside} = T_{exit}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 68,
+      "question_en": "The design equation of a CSTR is:",
+      "question_ar": "معادلة تصميم الـ CSTR هي:",
+      "options": [
+        "$V = F_{A0}\\displaystyle\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$",
+        "$V = \\dfrac{F_{A0}X_A}{(-r_A)_{exit}}$",
+        "$t = N_{A0}\\displaystyle\\int_0^{X_A}\\dfrac{dX_A}{(-r_A)V}$",
+        "$V = F_{A0}X_A\\,(-r_A)$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "From the steady-state balance $F_{A0} - F_A + r_A V = 0$ with $F_A = F_{A0}(1-X_A)$: $$V = \\frac{F_{A0}X_A}{-r_A}$$ The integral form belongs to the PFR and the $N_{A0}$ form to the batch reactor.",
+      "explanation_ar": "من الموازنة المستقرة $F_{A0} - F_A + r_A V = 0$ مع $F_A = F_{A0}(1-X_A)$ نحصل على: $$V = \\frac{F_{A0}X_A}{-r_A}$$ الصيغة التكاملية للـ PFR وصيغة $N_{A0}$ للمفاعل الدفعي.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: $V = \\dfrac{F_{A0}X_A}{(-r_A)_{exit}}$ ، $\\tau = \\dfrac{C_{A0}X_A}{-r_A}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 69,
+      "question_en": "In a CSTR the reaction rate $-r_A$ in the design equation is evaluated at:",
+      "question_ar": "في CSTR يُحسب معدل التفاعل $-r_A$ في معادلة التصميم عند:",
+      "options": [
+        "the exit conditions (exit composition and temperature)",
+        "the inlet conditions",
+        "the average of inlet and exit conditions",
+        "the initial conditions of a batch"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Because the tank is perfectly mixed, the whole reactor operates at exit concentration, so the rate is evaluated there.",
+      "explanation_ar": "لأن الخزان مخلوط تماماً يعمل المفاعل كله بتركيز الخروج، فيُحسب المعدل عنده.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: المعدل عند ظروف الخروج.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 70,
+      "question_en": "A CSTR normally operates at:",
+      "question_ar": "يعمل الـ CSTR عادةً في:",
+      "options": [
+        "unsteady state at all times",
+        "batch mode",
+        "zero flow",
+        "steady state"
+      ],
+      "correct_index": 3,
+      "explanation_en": "During normal operation inputs and outputs are constant, so there is no accumulation. Start-up and shut-down are unsteady periods.",
+      "explanation_ar": "أثناء التشغيل الاعتيادي تكون المداخل والمخارج ثابتة فلا يوجد تراكم. أما التشغيل والإيقاف فهما فترتان غير مستقرتين.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: التراكم $= 0$ في الحالة المستقرة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 71,
+      "question_en": "For a positive-order reaction at the same conversion and feed rate, the volume of a CSTR compared with a PFR is:",
+      "question_ar": "لتفاعل ذي رتبة موجبة وعند نفس التحويل ونفس معدل التغذية، يكون حجم الـ CSTR مقارنةً بالـ PFR:",
+      "options": [
+        "smaller",
+        "equal",
+        "larger",
+        "zero"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The CSTR operates at the low exit concentration (lowest rate), so it needs more volume than a PFR, where the rate is higher on average.",
+      "explanation_ar": "الـ CSTR يعمل عند تركيز الخروج المنخفض (أقل معدل) لذلك يحتاج حجماً أكبر من PFR الذي يكون متوسط المعدل فيه أعلى.",
+      "memorization_note": "ملاحظة للحفظ: للرتب الموجبة: $V_{CSTR} > V_{PFR}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 72,
+      "question_en": "A major advantage of a CSTR is:",
+      "question_ar": "من أهم مزايا الـ CSTR:",
+      "options": [
+        "highest conversion per unit volume",
+        "no moving parts",
+        "good temperature control because of uniform mixing",
+        "zero back-mixing"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Uniform mixing gives uniform temperature and easy heat removal, which is valuable for exothermic reactions. Its disadvantage is the lower conversion per volume.",
+      "explanation_ar": "الخلط المنتظم يعطي حرارة منتظمة وسهولة في إزالة الحرارة وهو مفيد للتفاعلات الطاردة. وعيبه قلة التحويل لكل وحدة حجم.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: تحكم حراري جيد ، حجم كبير نسبياً.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 73,
+      "question_en": "A disadvantage of a CSTR compared with a PFR is:",
+      "question_ar": "من عيوب الـ CSTR مقارنةً بالـ PFR:",
+      "options": [
+        "difficult temperature control",
+        "lower conversion per unit volume",
+        "formation of hot spots",
+        "no agitation possible"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Because the reaction occurs at the lowest concentration (exit), a CSTR gives less conversion per volume than a PFR for positive-order reactions.",
+      "explanation_ar": "لأن التفاعل يحدث عند أقل تركيز (الخروج) يعطي CSTR تحويلاً أقل لكل حجم من PFR في التفاعلات ذات الرتبة الموجبة.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: تحويل أقل لكل حجم (للرتب الموجبة).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 74,
+      "question_en": "For a first-order reaction in a CSTR (constant density), the relation between conversion and space time is:",
+      "question_ar": "لتفاعل من الرتبة الأولى في CSTR (كثافة ثابتة)، العلاقة بين التحويل والزمن الفراغي هي:",
+      "options": [
+        "$k\\tau = \\dfrac{X_A}{1-X_A}$",
+        "$k\\tau = -\\ln(1-X_A)$",
+        "$k\\tau = X_A$",
+        "$k\\tau = (1-X_A)/X_A$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "CSTR: $\\tau = \\dfrac{C_{A0}X_A}{kC_{A0}(1-X_A)}$, thus $k\\tau = \\dfrac{X_A}{1-X_A}$. The expression $-\\ln(1-X_A)$ is for a PFR.",
+      "explanation_ar": "في CSTR: $\\tau = \\dfrac{C_{A0}X_A}{kC_{A0}(1-X_A)}$ ومنه $k\\tau = \\dfrac{X_A}{1-X_A}$. أما $-\\ln(1-X_A)$ فهي للـ PFR.",
+      "memorization_note": "ملاحظة للحفظ: CSTR رتبة 1: $k\\tau = \\dfrac{X}{1-X}$ ، PFR رتبة 1: $k\\tau = -\\ln(1-X)$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 75,
+      "question_en": "Connecting a large number of equal CSTRs in series makes the overall performance approach that of a:",
+      "question_ar": "ربط عدد كبير من مفاعلات CSTR متساوية على التوالي يجعل الأداء الكلي يقترب من أداء:",
+      "options": [
+        "single large CSTR",
+        "batch reactor with no mixing",
+        "semi-batch reactor",
+        "plug flow reactor"
+      ],
+      "correct_index": 3,
+      "explanation_en": "As the number of tanks in series $N \\to \\infty$ the composition changes in small steps, approaching plug-flow behaviour.",
+      "explanation_ar": "كلما زاد عدد الخزانات على التوالي $N \\to \\infty$ تتغير التراكيز بخطوات صغيرة فيقترب السلوك من الجريان السدادي.",
+      "memorization_note": "ملاحظة للحفظ: $N \\to \\infty$ (CSTRs in series) ⇒ PFR.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 76,
+      "question_en": "A stirred-tank reactor is chosen when:",
+      "question_ar": "يُختار المفاعل الخزاني المحرَّك (Stirred tank) عندما:",
+      "options": [
+        "no mixing is wanted",
+        "very high conversion at very small volume is needed",
+        "the reaction is gas-phase only at high speed",
+        "a high degree of agitation and good mixing are required"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Mechanical agitators give intensive mixing, useful for liquid-phase and multiphase reactions needing good contact and heat transfer.",
+      "explanation_ar": "تعطي المحركات الميكانيكية خلطاً مكثفاً وهو مفيد للتفاعلات السائلة ومتعددة الأطوار التي تحتاج تماساً جيداً ونقل حرارة.",
+      "memorization_note": "ملاحظة للحفظ: Stirred tank = خلط شديد (agitation).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 77,
+      "question_en": "The residence time distribution (RTD) of an ideal CSTR is:",
+      "question_ar": "توزيع زمن المكوث (RTD) للـ CSTR المثالي هو:",
+      "options": [
+        "a single spike (delta function) at $t = \\tau$",
+        "uniform at all times",
+        "exponential, $E(t) = \\dfrac{1}{\\tau}e^{-t/\\tau}$",
+        "a straight horizontal line at $E = 1$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Perfect mixing means some molecules leave immediately and others stay very long, giving an exponential RTD. The delta-function RTD belongs to the PFR.",
+      "explanation_ar": "الخلط التام يعني أن بعض الجزيئات تخرج فوراً وأخرى تمكث طويلاً فيكون الـ RTD أُسّياً. أما دالة دلتا فهي للـ PFR.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: $E(t) = \\dfrac{1}{\\tau}e^{-t/\\tau}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 78,
+      "question_en": "For a zero-order reaction, the volume needed in a CSTR compared with a PFR (same $F_{A0}$ and $X_A$) is:",
+      "question_ar": "لتفاعل من الرتبة صفر، حجم الـ CSTR المطلوب مقارنةً بالـ PFR (لنفس $F_{A0}$ و $X_A$) هو:",
+      "options": [
+        "larger",
+        "equal",
+        "smaller",
+        "infinite"
+      ],
+      "correct_index": 1,
+      "explanation_en": "For zero order $-r_A = k$ is constant, independent of concentration, so the rate is the same everywhere and $V = \\dfrac{F_{A0}X_A}{k}$ for both reactors.",
+      "explanation_ar": "للرتبة صفر $-r_A = k$ ثابت ولا يعتمد على التركيز فالمعدل نفسه في كل مكان ويكون $V = \\dfrac{F_{A0}X_A}{k}$ لكلا المفاعلين.",
+      "memorization_note": "ملاحظة للحفظ: رتبة صفر: $V_{CSTR} = V_{PFR}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 79,
+      "question_en": "Which of the following is true for the reaction rate inside an ideal CSTR?",
+      "question_ar": "أي مما يلي صحيح بالنسبة لمعدل التفاعل داخل CSTR مثالي؟",
+      "options": [
+        "It is the same at every point in the reactor",
+        "It decreases along the length of the reactor",
+        "It increases along the length of the reactor",
+        "It is zero at the exit"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Uniform concentration and temperature give a single value of the rate everywhere in the tank.",
+      "explanation_ar": "التركيز والحرارة المنتظمان يعطيان قيمة واحدة للمعدل في كل نقطة من الخزان.",
+      "memorization_note": "ملاحظة للحفظ: CSTR: المعدل منتظم داخل المفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 80,
+      "question_en": "The residence time of fluid elements in an ideal CSTR:",
+      "question_ar": "زمن مكوث عناصر المائع في CSTR مثالي:",
+      "options": [
+        "varies from element to element (distribution); the mean equals $\\tau$",
+        "is the same for all elements",
+        "is zero for all elements",
+        "is infinite for all elements"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Elements have different ages because of full back-mixing, but the mean residence time is $\\bar{t} = V/v = \\tau$.",
+      "explanation_ar": "للعناصر أعماراً مختلفة بسبب الخلط الراجع الكامل لكن متوسط زمن المكوث هو $\\bar{t} = V/v = \\tau$.",
+      "memorization_note": "ملاحظة للحفظ: $\\bar{t} = \\tau = V/v$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 81,
+      "question_en": "In a CSTR, the exit concentration of A is equal to:",
+      "question_ar": "في الـ CSTR، تركيز A عند الخروج يساوي:",
+      "options": [
+        "the inlet concentration",
+        "zero",
+        "the average of inlet and zero",
+        "the concentration of A inside the reactor"
+      ],
+      "correct_index": 3,
+      "explanation_en": "This is the consequence of perfect mixing: the outlet stream is a sample of the well-mixed contents.",
+      "explanation_ar": "هذه نتيجة الخلط التام: تيار الخروج عينة من محتويات المفاعل المخلوطة جيداً.",
+      "memorization_note": "ملاحظة للحفظ: $C_{A,exit} = C_A$ داخل المفاعل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 82,
+      "question_en": "Exothermic reactions in a CSTR can show which special behaviour?",
+      "question_ar": "أي سلوك خاص يمكن أن تُظهره التفاعلات الطاردة للحرارة في الـ CSTR؟",
+      "options": [
+        "zero conversion always",
+        "plug flow behaviour",
+        "multiple steady states",
+        "no heat generation"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The interplay between heat generation (S-shaped curve) and heat removal (straight line) can intersect at up to three points, giving multiple steady states.",
+      "explanation_ar": "التداخل بين منحنى توليد الحرارة (على شكل S) وخط إزالة الحرارة قد يتقاطعان في ثلاث نقاط فتحدث حالات مستقرة متعددة.",
+      "memorization_note": "ملاحظة للحفظ: CSTR طارد للحرارة ⇒ احتمال Multiple steady states.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 83,
+      "question_en": "The main assumption of an ideal plug flow reactor (PFR) is that:",
+      "question_ar": "الافتراض الأساسي للمفاعل ذي الجريان السدادي (PFR) المثالي هو أن:",
+      "options": [
+        "the contents are perfectly mixed in the whole reactor",
+        "there is no axial mixing and the composition is uniform across any cross-section",
+        "composition is the same along the length",
+        "there is no flow"
+      ],
+      "correct_index": 1,
+      "explanation_en": "Fluid moves as plugs: every element has the same residence time and composition varies only along the length.",
+      "explanation_ar": "يتحرك المائع على شكل سدادات: لكل العناصر نفس زمن المكوث ويتغير التركيب على طول المفاعل فقط.",
+      "memorization_note": "ملاحظة للحفظ: PFR: لا خلط محوري ، تركيب منتظم عند المقطع العرضي.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 84,
+      "question_en": "In an ideal PFR, the composition of the fluid:",
+      "question_ar": "في الـ PFR المثالي، يكون تركيب المائع:",
+      "options": [
+        "is uniform throughout the reactor",
+        "changes along the length of the reactor at steady state",
+        "changes with time at a fixed position",
+        "equals the exit composition at every point"
+      ],
+      "correct_index": 1,
+      "explanation_en": "At steady state the composition at a given position is fixed in time but changes as the fluid moves downstream.",
+      "explanation_ar": "في الحالة المستقرة يكون التركيب عند موضع معين ثابتاً مع الزمن لكنه يتغير بتحرك المائع مع الجريان.",
+      "memorization_note": "ملاحظة للحفظ: PFR: التركيب يتغير مع الموضع وليس مع الزمن.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 85,
+      "question_en": "The design equation of a PFR is:",
+      "question_ar": "معادلة تصميم الـ PFR هي:",
+      "options": [
+        "$V = F_{A0}\\displaystyle\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$",
+        "$V = \\dfrac{F_{A0}X_A}{-r_A}$",
+        "$t = N_{A0}\\displaystyle\\int_0^{X_A}\\dfrac{dX_A}{(-r_A)V}$",
+        "$V = F_{A0}\\,X_A\\,(-r_A)$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "A mole balance over a differential volume gives $F_{A0}\\,dX_A = (-r_A)\\,dV$. Integrating from $0$ to $V$: $V = F_{A0}\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$.",
+      "explanation_ar": "موازنة المول على عنصر حجم تفاضلي تعطي $F_{A0}\\,dX_A = (-r_A)\\,dV$ وبالتكامل: $V = F_{A0}\\int_0^{X_A}\\dfrac{dX_A}{-r_A}$.",
+      "memorization_note": "ملاحظة للحفظ: PFR: $\\dfrac{dX_A}{dV} = \\dfrac{-r_A}{F_{A0}}$ ، $V = F_{A0}\\int\\dfrac{dX_A}{-r_A}$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 86,
+      "question_en": "The differential form of the PFR mole balance is:",
+      "question_ar": "الصيغة التفاضلية لموازنة المول في الـ PFR هي:",
+      "options": [
+        "$\\dfrac{dN_A}{dt} = r_A V$",
+        "$F_{A0}X_A = (-r_A)V$",
+        "$\\dfrac{dX_A}{dt} = F_{A0}$",
+        "$F_{A0}\\dfrac{dX_A}{dV} = -r_A$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Over a thin slice $dV$ the rate is uniform, so $F_{A0}\\,dX_A = (-r_A)\\,dV$.",
+      "explanation_ar": "على شريحة رقيقة $dV$ يكون المعدل منتظماً لذا $F_{A0}\\,dX_A = (-r_A)\\,dV$.",
+      "memorization_note": "ملاحظة للحفظ: PFR: $F_{A0}\\dfrac{dX_A}{dV} = -r_A$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 87,
+      "question_en": "All fluid elements in an ideal PFR have:",
+      "question_ar": "في الـ PFR المثالي تكون لكل عناصر المائع:",
+      "options": [
+        "a wide distribution of residence times",
+        "zero residence time",
+        "the same residence time",
+        "exponentially distributed residence times"
+      ],
+      "correct_index": 2,
+      "explanation_en": "No axial mixing means every element spends exactly $\\tau = V/v$ in the reactor. The RTD is a delta function at $t = \\tau$.",
+      "explanation_ar": "انعدام الخلط المحوري يعني أن كل عنصر يمكث بالضبط $\\tau = V/v$ في المفاعل. والـ RTD دالة دلتا عند $t = \\tau$.",
+      "memorization_note": "ملاحظة للحفظ: PFR: RTD = دالة دلتا عند $t = \\tau$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 88,
+      "question_en": "For a positive-order reaction, to achieve the same conversion a PFR requires:",
+      "question_ar": "لتفاعل ذي رتبة موجبة، لتحقيق نفس التحويل يحتاج الـ PFR إلى:",
+      "options": [
+        "a larger volume than a CSTR",
+        "the same volume as a CSTR always",
+        "a smaller volume than a CSTR",
+        "an infinite volume"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Concentration (and so the rate) falls gradually along a PFR, so the average rate is higher than the exit-level rate at which a CSTR operates.",
+      "explanation_ar": "يتناقص التركيز (وبالتالي المعدل) تدريجياً على طول PFR فيكون متوسط المعدل أعلى من معدل الخروج الذي يعمل عنده CSTR.",
+      "memorization_note": "ملاحظة للحفظ: $V_{PFR} < V_{CSTR}$ للرتب الموجبة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 89,
+      "question_en": "The performance equation of a PFR is analogous to that of a batch reactor when:",
+      "question_ar": "تكون معادلة أداء الـ PFR مماثلة لمعادلة المفاعل الدفعي عندما:",
+      "options": [
+        "the PFR volume is replaced by the batch conversion",
+        "space time $\\tau$ in the PFR is replaced by reaction time $t$ in the batch (constant density)",
+        "the CSTR volume equals the batch volume",
+        "the flow rate is zero"
+      ],
+      "correct_index": 1,
+      "explanation_en": "A plug moving along the tube behaves like a small batch reactor, so $\\tau_{PFR} \\leftrightarrow t_{batch}$ for constant density (same kinetics).",
+      "explanation_ar": "السدادة المتحركة في الأنبوب تتصرف كمفاعل دفعي صغير لذلك $\\tau_{PFR} \\leftrightarrow t_{batch}$ عند ثبوت الكثافة.",
+      "memorization_note": "ملاحظة للحفظ: PFR ≡ Batch: $\\tau \\leftrightarrow t$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 90,
+      "question_en": "For a first-order irreversible reaction in a PFR (constant density), the relation is:",
+      "question_ar": "لتفاعل غير عكسي من الرتبة الأولى في PFR (كثافة ثابتة) تكون العلاقة:",
+      "options": [
+        "$k\\tau = -\\ln(1-X_A)$",
+        "$k\\tau = \\dfrac{X_A}{1-X_A}$",
+        "$k\\tau = X_A$",
+        "$k\\tau = \\ln X_A$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$\\tau = C_{A0}\\int_0^{X_A}\\dfrac{dX_A}{kC_{A0}(1-X_A)}$ gives $k\\tau = -\\ln(1-X_A)$. The expression $X_A/(1-X_A)$ is for a CSTR.",
+      "explanation_ar": "$\\tau = C_{A0}\\int_0^{X_A}\\dfrac{dX_A}{kC_{A0}(1-X_A)}$ تعطي $k\\tau = -\\ln(1-X_A)$. أما $X_A/(1-X_A)$ فهي للـ CSTR.",
+      "memorization_note": "ملاحظة للحفظ: PFR رتبة 1: $k\\tau = -\\ln(1-X)$ .",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 91,
+      "question_en": "On a Levenspiel plot ($1/(-r_A)$ versus $X_A$), the PFR volume divided by $F_{A0}$ is represented by:",
+      "question_ar": "على مخطط ليفنسبيل ($1/(-r_A)$ مقابل $X_A$)، يمثل $V/F_{A0}$ للـ PFR:",
+      "options": [
+        "the area of the rectangle of height $1/(-r_A)_{exit}$",
+        "the slope of the curve",
+        "the value of the curve at $X_A = 0$",
+        "the area under the curve from $0$ to $X_A$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "PFR: $\\dfrac{V}{F_{A0}} = \\int_0^{X_A}\\dfrac{dX_A}{-r_A}$ is the area under the curve. The CSTR is the rectangle $\\dfrac{X_A}{-r_A}$.",
+      "explanation_ar": "PFR: $\\dfrac{V}{F_{A0}} = \\int_0^{X_A}\\dfrac{dX_A}{-r_A}$ هو المساحة تحت المنحنى. أما CSTR فهو مستطيل $\\dfrac{X_A}{-r_A}$.",
+      "memorization_note": "ملاحظة للحفظ: PFR = مساحة تحت المنحنى ، CSTR = مساحة مستطيل.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 92,
+      "question_en": "A major disadvantage of a PFR is:",
+      "question_ar": "من أبرز عيوب الـ PFR:",
+      "options": [
+        "very low conversion per unit volume",
+        "uniform composition causes low rates",
+        "it cannot be run continuously",
+        "difficult temperature control and possible hot spots in exothermic reactions"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Without mixing, heat release cannot be spread, so hot spots may form in exothermic reactions and temperature control is harder.",
+      "explanation_ar": "بدون خلط لا تتوزع الحرارة المتولدة لذا قد تظهر نقاط ساخنة في التفاعلات الطاردة ويصعب التحكم بالحرارة.",
+      "memorization_note": "ملاحظة للحفظ: PFR: يعطي تحويلاً عالياً لكن بنقاط ساخنة محتملة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 93,
+      "question_en": "A PFR is typically:",
+      "question_ar": "الـ PFR عادةً يكون:",
+      "options": [
+        "a vessel with a high-speed agitator",
+        "a closed batch vessel",
+        "a tubular reactor (long tube or bundle of tubes)",
+        "a vessel with perfectly uniform contents"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Tubular geometry with a high length-to-diameter ratio promotes plug flow. Stirred vessels belong to CSTR/batch.",
+      "explanation_ar": "الشكل الأنبوبي ذو النسبة العالية بين الطول والقطر يعزز الجريان السدادي. الأوعية المحركة تمثل CSTR/دفعي.",
+      "memorization_note": "ملاحظة للحفظ: PFR = Tubular reactor.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 94,
+      "question_en": "Which reactor is preferred for large-scale gas-phase reactions requiring high conversion in a small volume?",
+      "question_ar": "أي مفاعل يُفضَّل للتفاعلات الغازية الواسعة النطاق التي تتطلب تحويلاً عالياً بحجم صغير؟",
+      "options": [
+        "CSTR",
+        "PFR",
+        "batch reactor",
+        "semi-batch reactor"
+      ],
+      "correct_index": 1,
+      "explanation_en": "The PFR gives the highest conversion per volume for positive-order reactions and handles continuous large-flow gas streams well.",
+      "explanation_ar": "يعطي الـ PFR أعلى تحويل لكل حجم للتفاعلات ذات الرتبة الموجبة ويناسب تيارات الغاز الكبيرة المستمرة.",
+      "memorization_note": "ملاحظة للحفظ: PFR: كفاءة حجمية عالية.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 95,
+      "question_en": "In a gas-phase PFR where the reaction increases the total number of moles (e.g. $A \\to 2R$) at constant $T$ and $P$, the volumetric flow rate along the reactor:",
+      "question_ar": "في PFR طور غازي يزداد فيه عدد المولات الكلي (مثل $A \\to 2R$) عند ثبوت $T$ و $P$، فإن معدل التدفق الحجمي على طول المفاعل:",
+      "options": [
+        "increases",
+        "decreases",
+        "stays constant",
+        "becomes zero"
+      ],
+      "correct_index": 0,
+      "explanation_en": "More moles at constant $T$ and $P$ means more volume: $v = v_0(1 + \\varepsilon X_A)$ with $\\varepsilon > 0$, so the flow rate rises.",
+      "explanation_ar": "مولات أكثر عند ثبوت $T$ و $P$ تعني حجماً أكبر: $v = v_0(1 + \\varepsilon X_A)$ حيث $\\varepsilon > 0$ فيزداد التدفق.",
+      "memorization_note": "ملاحظة للحفظ: $v = v_0(1+\\varepsilon X_A)$ ، $\\varepsilon = y_{A0}\\delta$.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 96,
+      "question_en": "For a series reaction $A \\to R \\to S$ where R is the desired product, the best reactor type to maximise R is generally:",
+      "question_ar": "في التفاعل التسلسلي $A \\to R \\to S$ حيث R هو المنتج المرغوب، أفضل نوع من المفاعلات لتعظيم R عموماً هو:",
+      "options": [
+        "PFR (or batch reactor)",
+        "CSTR",
+        "any CSTR with very long residence time",
+        "a reactor with the maximum back-mixing"
+      ],
+      "correct_index": 0,
+      "explanation_en": "Plug flow (or batch) limits the contact of R with A and avoids back-mixing that would convert R further to S, so R yield is higher than in a CSTR.",
+      "explanation_ar": "الجريان السدادي (أو الدفعي) يمنع الخلط الراجع الذي يحوّل R إلى S فيكون مردود R أعلى منه في CSTR.",
+      "memorization_note": "ملاحظة للحفظ: تعظيم الوسيط R ⇒ PFR أو Batch.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 97,
+      "question_en": "For an autocatalytic reaction, a good reactor arrangement is generally:",
+      "question_ar": "للتفاعل التحفيزي الذاتي (Autocatalytic) فإن ترتيب المفاعلات الجيد عموماً هو:",
+      "options": [
+        "a PFR followed by a CSTR",
+        "two PFRs with no recycle",
+        "a batch reactor only",
+        "a CSTR followed by a PFR"
+      ],
+      "correct_index": 3,
+      "explanation_en": "A CSTR first produces enough product (catalyst) to run at the maximum-rate region; the PFR then finishes the conversion efficiently.",
+      "explanation_ar": "يولّد الـ CSTR أولاً كمية كافية من الناتج (المحفّز) ليعمل عند منطقة المعدل الأقصى ثم يكمل الـ PFR التحويل بكفاءة.",
+      "memorization_note": "ملاحظة للحفظ: Autocatalytic: CSTR ثم PFR (أو PFR مع Recycle).",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 98,
+      "question_en": "Increasing the length of a PFR at constant flow rate and constant diameter will:",
+      "question_ar": "زيادة طول الـ PFR عند ثبوت معدل التدفق والقطر ستؤدي إلى:",
+      "options": [
+        "decrease the residence time",
+        "decrease the conversion",
+        "increase the residence time and the conversion",
+        "have no effect on conversion"
+      ],
+      "correct_index": 2,
+      "explanation_en": "Larger length means larger volume, so $\\tau = V/v_0$ increases and the conversion rises (for normal kinetics).",
+      "explanation_ar": "طول أكبر يعني حجماً أكبر فيزداد $\\tau = V/v_0$ ويرتفع التحويل (للحركية العادية).",
+      "memorization_note": "ملاحظة للحفظ: $V$ أكبر ⇒ $\\tau$ أكبر ⇒ $X$ أعلى.",
+      "requires_scratchpad": false
+    }
+  ]
+}

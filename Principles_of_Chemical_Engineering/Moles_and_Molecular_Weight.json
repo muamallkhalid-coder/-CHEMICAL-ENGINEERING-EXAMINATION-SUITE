@@ -1,0 +1,168 @@
+{
+  "topic_en": "The Mole & Molar Mass",
+  "topic_ar": "المول والكتلة المولية",
+  "subject_folder": "Principles_of_Chemical_Engineering",
+  "description_ar": "أسئلة حول مفهوم المول، الكتلة المولية، عدد أفوجادرو وحساب عدد المولات والذرات",
+  "questions": [
+    {
+      "id": 1,
+      "question_en": "How many grams of NaCl represent 1 mole?",
+      "question_ar": "كم غراماً من NaCl تمثل مولاً واحداً؟",
+      "options": [
+        "$23\\text{ g}$",
+        "$35.5\\text{ g}$",
+        "$58.5\\text{ g}$",
+        "$69.5\\text{ g}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "The mass of one mole equals the molar mass. $$M_{w,\\text{NaCl}} = 23 + 35.5 = 58.5\\text{ g/mol}$$ so $m = n \\cdot M_w = 1 \\times 58.5 = 58.5\\text{ g}$.",
+      "explanation_ar": "كتلة المول الواحد تساوي الكتلة المولية: $$M_{w,\\text{NaCl}} = 23 + 35.5 = 58.5\\text{ g/mol}$$ إذن $m = n \\cdot M_w = 1 \\times 58.5 = 58.5\\text{ g}$.",
+      "memorization_note": "1. الأوزان الذرية: $\\text{Na}=23,\\ \\text{Cl}=35.5$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 2,
+      "question_en": "How many atoms of carbon are present in 1.5 mol of carbon?",
+      "question_ar": "كم عدد ذرات الكربون في 1.5 مول من الكربون؟",
+      "options": [
+        "$6.022\\times10^{23}$",
+        "$1.2044\\times10^{23}$",
+        "$3.011\\times10^{23}$",
+        "$9.033\\times10^{23}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "Number of atoms $= n \\cdot N_A$: $$N = 1.5 \\times 6.022\\times10^{23} = 9.033\\times10^{23}\\text{ atoms}$$",
+      "explanation_ar": "عدد الذرات $= n \\cdot N_A$: $$N = 1.5 \\times 6.022\\times10^{23} = 9.033\\times10^{23}\\text{ ذرة}$$",
+      "memorization_note": "1. عدد الجسيمات: $N = n \\cdot N_A$ حيث $N_A = 6.022\\times10^{23}\\text{ mol}^{-1}$ (عدد أفوجادرو). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 3,
+      "question_en": "Calculate the number of moles in 42 g of $\\text{NaHCO}_3$.",
+      "question_ar": "احسب عدد المولات في $42\\text{ g}$ من $\\text{NaHCO}_3$.",
+      "options": [
+        "$0.5\\text{ mol}$",
+        "$1\\text{ mol}$",
+        "$1.5\\text{ mol}$",
+        "$2\\text{ mol}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$M_w = 23 + 1 + 12 + 3(16) = 84\\text{ g/mol}$$ $$n = \\frac{m}{M_w} = \\frac{42}{84} = 0.5\\text{ mol}$$",
+      "explanation_ar": "$$M_w = 23 + 1 + 12 + 3(16) = 84\\text{ g/mol}$$ $$n = \\frac{m}{M_w} = \\frac{42}{84} = 0.5\\text{ mol}$$",
+      "memorization_note": "1. الأوزان الذرية: $\\text{Na}=23,\\ \\text{H}=1,\\ \\text{C}=12,\\ \\text{O}=16$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 4,
+      "question_en": "Calculate the number of moles in 369 g of $\\text{CaOCl}_2$.",
+      "question_ar": "احسب عدد المولات في $369\\text{ g}$ من $\\text{CaOCl}_2$.",
+      "options": [
+        "$1\\text{ mol}$",
+        "$2\\text{ mol}$",
+        "$3\\text{ mol}$",
+        "$4\\text{ mol}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$M_w = 40 + 16 + 2(35.5) = 127\\text{ g/mol}$$ $$n = \\frac{369}{127} \\approx 2.9 \\approx 3\\text{ mol}$$",
+      "explanation_ar": "$$M_w = 40 + 16 + 2(35.5) = 127\\text{ g/mol}$$ $$n = \\frac{369}{127} \\approx 2.9 \\approx 3\\text{ mol}$$",
+      "memorization_note": "1. الأوزان الذرية: $\\text{Ca}=40,\\ \\text{O}=16,\\ \\text{Cl}=35.5$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). ",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 5,
+      "question_en": "Which of the following has the same number of moles as 398 g of $\\text{CuSO}_4$? ($\\text{Cu}=63.5$)",
+      "question_ar": "أي مما يلي يحتوي على نفس عدد مولات $398\\text{ g}$ من $\\text{CuSO}_4$؟ ($\\text{Cu}=63.5$)",
+      "options": [
+        "$2\\text{ g of H}_2$",
+        "$40\\text{ g of atomic oxygen (O)}$",
+        "$28\\text{ g of N}_2$",
+        "$58.5\\text{ g of NaCl}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$M_{w,\\text{CuSO}_4} = 63.5 + 32 + 4(16) = 159.5\\text{ g/mol} \\Rightarrow n = \\frac{398}{159.5} \\approx 2.5\\text{ mol}$$ Option check: $2/2 = 1$; $40/16 = 2.5$ (matches); $28/28 = 1$; $58.5/58.5 = 1$. Answer: 40 g of atomic oxygen.",
+      "explanation_ar": "$$M_{w,\\text{CuSO}_4} = 63.5 + 32 + 4(16) = 159.5\\text{ g/mol} \\Rightarrow n = \\frac{398}{159.5} \\approx 2.5\\text{ mol}$$ فحص الخيارات: $2/2 = 1$؛ $40/16 = 2.5$ (مطابق)؛ $28/28 = 1$؛ $58.5/58.5 = 1$. الجواب: 40 غرام من الأوكسجين الذري.",
+      "memorization_note": "1. الأوزان الذرية: $\\text{Cu}=63.5,\\ \\text{S}=32,\\ \\text{O}=16,\\ \\text{H}=1,\\ \\text{N}=14,\\ \\text{Na}=23,\\ \\text{Cl}=35.5$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 6,
+      "question_en": "What is the number of chlorine atoms in 250.5 g of $\\text{Cl}_2\\text{O}_6$?",
+      "question_ar": "كم عدد ذرات الكلور في $250.5\\text{ g}$ من $\\text{Cl}_2\\text{O}_6$؟",
+      "options": [
+        "$1.806\\times10^{24}$",
+        "$2.408\\times10^{24}$",
+        "$9.033\\times10^{23}$",
+        "$6.022\\times10^{23}$"
+      ],
+      "correct_index": 0,
+      "explanation_en": "$$M_w = 2(35.5) + 6(16) = 167\\text{ g/mol},\\quad n = \\frac{250.5}{167} = 1.5\\text{ mol}$$ Each molecule has 2 Cl atoms: $$N_{\\text{Cl}} = 2 \\times 1.5 \\times 6.022\\times10^{23} = 1.806\\times10^{24}$$",
+      "explanation_ar": "$$M_w = 2(35.5) + 6(16) = 167\\text{ g/mol},\\quad n = \\frac{250.5}{167} = 1.5\\text{ mol}$$ كل جزيئة تحتوي ذرتي Cl: $$N_{\\text{Cl}} = 2 \\times 1.5 \\times 6.022\\times10^{23} = 1.806\\times10^{24}$$",
+      "memorization_note": "1. الأوزان الذرية: $\\text{Cl}=35.5,\\ \\text{O}=16$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). عدد الجسيمات: $N = n \\cdot N_A$ حيث $N_A = 6.022\\times10^{23}\\text{ mol}^{-1}$ (عدد أفوجادرو). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 7,
+      "question_en": "How many moles of hydrogen atoms are present in 158 g of ammonium bicarbonate ($\\text{NH}_4\\text{HCO}_3$)?",
+      "question_ar": "كم مولاً من ذرات الهيدروجين في $158\\text{ g}$ من بيكربونات الأمونيوم ($\\text{NH}_4\\text{HCO}_3$)؟",
+      "options": [
+        "$5\\text{ mol}$",
+        "$10\\text{ mol}$",
+        "$15\\text{ mol}$",
+        "$20\\text{ mol}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$M_w = 14 + 4 + 1 + 12 + 48 = 79\\text{ g/mol},\\quad n = \\frac{158}{79} = 2\\text{ mol}$$ Each formula unit has 5 H atoms ($4 + 1$): $n_H = 2 \\times 5 = 10\\text{ mol}$.",
+      "explanation_ar": "$$M_w = 14 + 4 + 1 + 12 + 48 = 79\\text{ g/mol},\\quad n = \\frac{158}{79} = 2\\text{ mol}$$ كل وحدة صيغية تحتوي 5 ذرات H ($4 + 1$): $n_H = 2 \\times 5 = 10\\text{ mol}$.",
+      "memorization_note": "1. الأوزان الذرية: $\\text{N}=14,\\ \\text{H}=1,\\ \\text{C}=12,\\ \\text{O}=16$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). 3. مولات عنصر معين = مولات المركب $\\times$ عدد ذرات ذلك العنصر في الصيغة.",
+      "requires_scratchpad": false
+    },
+    {
+      "id": 8,
+      "question_en": "How many moles of nitrogen atoms are present in 274 g of $(\\text{NH}_4)_2\\text{Ce}(\\text{NO}_3)_6$? ($\\text{Ce}=140$)",
+      "question_ar": "كم مولاً من ذرات النيتروجين في $274\\text{ g}$ من $(\\text{NH}_4)_2\\text{Ce}(\\text{NO}_3)_6$؟ ($\\text{Ce}=140$)",
+      "options": [
+        "$16\\text{ mol}$",
+        "$8\\text{ mol}$",
+        "$6\\text{ mol}$",
+        "$4\\text{ mol}$"
+      ],
+      "correct_index": 3,
+      "explanation_en": "$$M_w = 2(18) + 140 + 6(62) = 548\\text{ g/mol},\\quad n = \\frac{274}{548} = 0.5\\text{ mol}$$ N atoms per formula unit $= 2 + 6 = 8$: $n_N = 0.5 \\times 8 = 4\\text{ mol}$.",
+      "explanation_ar": "$$M_w = 2(18) + 140 + 6(62) = 548\\text{ g/mol},\\quad n = \\frac{274}{548} = 0.5\\text{ mol}$$ عدد ذرات N في الصيغة $= 2 + 6 = 8$: $n_N = 0.5 \\times 8 = 4\\text{ mol}$.",
+      "memorization_note": "1. الأوزان الذرية: $\\text{N}=14,\\ \\text{H}=1,\\ \\text{O}=16$ ($\\text{NH}_4 = 18,\\ \\text{NO}_3 = 62$). 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). ",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 9,
+      "question_en": "How many moles of hydrogen atoms are in $\\text{NH}_4[\\text{Cr}(\\text{SCN})_4(\\text{NH}_3)_2]$ if it contains 49 g of nitrogen?",
+      "question_ar": "كم مولاً من ذرات الهيدروجين في $\\text{NH}_4[\\text{Cr}(\\text{SCN})_4(\\text{NH}_3)_2]$ إذا كانت كتلة النيتروجين فيه $49\\text{ g}$؟",
+      "options": [
+        "$3.5\\text{ mol}$",
+        "$5\\text{ mol}$",
+        "$7\\text{ mol}$",
+        "$10\\text{ mol}$"
+      ],
+      "correct_index": 1,
+      "explanation_en": "$$n_N = \\frac{49}{14} = 3.5\\text{ mol}$$ N atoms per formula unit: $1 + 4 + 2 = 7$, so $n_{\\text{compound}} = 3.5/7 = 0.5\\text{ mol}$. H atoms per formula unit: $4 + 2(3) = 10$, so $n_H = 0.5 \\times 10 = 5\\text{ mol}$.",
+      "explanation_ar": "$$n_N = \\frac{49}{14} = 3.5\\text{ mol}$$ عدد ذرات N في الصيغة: $1 + 4 + 2 = 7$ إذن $n_{\\text{compound}} = 3.5/7 = 0.5\\text{ mol}$. عدد ذرات H في الصيغة: $4 + 2(3) = 10$ إذن $n_H = 0.5 \\times 10 = 5\\text{ mol}$.",
+      "memorization_note": "1. الوزن الذري: $\\text{N}=14,\\ \\text{H}=1$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). 3. النسبة بين مولات العنصر ومولات المركب ثابتة وتساوي عدد ذرات العنصر في الصيغة.",
+      "requires_scratchpad": true
+    },
+    {
+      "id": 10,
+      "question_en": "How many water molecules are present in $\\text{CuSO}_4\\cdot5\\text{H}_2\\text{O}$ if the mass of oxygen in it is 36 g?",
+      "question_ar": "كم جزيئة ماء في $\\text{CuSO}_4\\cdot5\\text{H}_2\\text{O}$ إذا كانت كتلة الأوكسجين فيه $36\\text{ g}$؟",
+      "options": [
+        "$3.25\\times10^{23}$",
+        "$5.25\\times10^{23}$",
+        "$7.53\\times10^{23}$",
+        "$9.52\\times10^{23}$"
+      ],
+      "correct_index": 2,
+      "explanation_en": "$$n_O = \\frac{36}{16} = 2.25\\text{ mol}$$ O atoms per formula unit $= 4 + 5 = 9$, so $n_{\\text{salt}} = 2.25/9 = 0.25\\text{ mol}$. Water molecules: $$N = 0.25 \\times 5 \\times 6.022\\times10^{23} = 7.53\\times10^{23}$$",
+      "explanation_ar": "$$n_O = \\frac{36}{16} = 2.25\\text{ mol}$$ عدد ذرات O في الصيغة $= 4 + 5 = 9$ إذن $n_{\\text{salt}} = 2.25/9 = 0.25\\text{ mol}$. جزيئات الماء: $$N = 0.25 \\times 5 \\times 6.022\\times10^{23} = 7.53\\times10^{23}$$",
+      "memorization_note": "1. الوزن الذري: $\\text{O}=16$. 2. قانون المولات: $$n = \\frac{m}{M_w}$$ حيث $n$ عدد المولات (mol)، $m$ الكتلة (g)، $M_w$ الكتلة المولية (g/mol). عدد الجسيمات: $N = n \\cdot N_A$ حيث $N_A = 6.022\\times10^{23}\\text{ mol}^{-1}$ (عدد أفوجادرو). 3. في الأملاح المائية $\\text{CuSO}_4\\cdot5\\text{H}_2\\text{O}$: ذرات O = $4$ (من الكبريتات) $+ 5$ (من الماء).",
+      "requires_scratchpad": true
+    }
+  ]
+}
