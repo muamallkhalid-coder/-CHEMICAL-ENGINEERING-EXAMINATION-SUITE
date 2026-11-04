@@ -1,8 +1,8 @@
 {
-  "topic_en": "Basic Chemical Process Calculations II",
-  "topic_ar": "أساسيات حسابات العمليات الكيميائية II (الوحدات، التجانس البعدي، الأرقام المعنوية، موازنة الطاقة)",
-  "subject_folder": "Principles_of_Chemical_Engineering",
-  "description_ar": "أسئلة شاملة حول النظم الوحدات وتحويلها والتجانس البعدي والأرقام المعنوية وموازنة الطاقة للأنظمة المختلفة",
+  "topic_en": "الجزء الثاني",
+  "topic_ar": "أساسيات الهندسة الكيمياوية",
+  "subject_folder": "General_Questions",
+  "description_ar": "أسئلة شاملة",
   "questions": [
     {
       "id": 1,
